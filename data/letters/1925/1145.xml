@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1145"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 24. August 1925</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1145</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1145</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1925-08-24" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1145_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1145_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Mödling <placeName key="place.9.4.1">Bernhard<lb/>gasse
+                                6</placeName> Tel,: 118</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1925-08-24">24.8.1925</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">Universal Edition</orgName>
+                </salute>
+                <p>ich bin nicht in der Lage, über die <seg type="comment">
+                        <orig>Ueberset<g ref="#typoHyphen"/>
+                            <choice>
+                                <sic>L</sic>
+                                <corr type="deleted"/>
+                            </choice>
+                            <lb break="no"/>zung</orig>
+                        <note xml:id="nerr_nnq_hgc" resp="#KBleier">
+                            <bibl sameAs="werke.16">Gurre-Lieder</bibl>
+                        </note>
+                    </seg> ein entscheidendes Urteil
+                    abzugeben. Es macht mir <lb/>einen etwas schülerhaften Eindruck, aber ich weiss
+                    nicht, <lb/>ob das gut oder schlecht ist. Ich bitte<del rendition="#s">e</del>,
+                    es Herrn <persName key="pers.751">Clark</persName>
+                    <lb/>einzuschicken; der hat viel Sinn für derlei und da er <lb/>auch die
+                    Aufführung macht, muss man ihn wohl fragen. Uebri<g ref="#typoHyphen"/>
+                    <lb break="no"/>gens hat er den mir bekannten Herr<choice>
+                        <sic>j</sic>
+                        <corr type="deleted"/>
+                    </choice>n <persName key="pers.666">Calvacorezzi</persName> vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>geschlagen, von dem allerdings eine gute Arbeit zu erwar<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten wäre.</p>
+                <p>ich habe mit herrn <persName key="pers.751">Clark</persName> verabredet, dass
+                    <lb/>zuerst die <hi rendition="#g">Chöre</hi> übersetzt werden sollen, denn er
+                    <lb/>möchte (und <hi rendition="#u">müsste</hi>) <hi rendition="#g">sofort</hi>
+                    beginnen, die Chöre zu <lb/>studieren. Bitte das also so zu veranlassen.</p>
+                <p>Anbei die Korrektur. Einen früheren <add place="superlinear">Abzug</add> habe
+                    <lb/>ich nicht erhalten. Wenn der Herr <persName key="pers.1485">Löwy</persName>
+                    wirklich einen ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schickt hätte, wäre es
+                    seine Pflicht gewesen, bei mir zu <lb/>urgieren, wenn <subst>
+                        <del rendition="#s">er</del>
+                        <add place="superlinear">ich</add>
+                    </subst>
+                    <supplied cert="high">ihn</supplied> so lange <del rendition="#s">nicht</del>
+                    unerledigt lasse. Eines von <lb/>Beidem hat er jedenfalls wieder nicht getan und
+                    darum <lb/>kommen meine Sachen ewig nicht heraus. Ich habe schon <lb/>lange alle
+                    Lust verloren und jetzt verliere ich definitiv <lb/>die Geduld: ich werde mich
+                        <del rendition="#s">sehr</del> schwerlich entschliessen <lb/>k<choice>
+                        <sic>V</sic>
+                        <corr cert="high">ö</corr>
+                    </choice>nnen, der <orgName key="org.1">UE</orgName> etwas zur Drucklegung zu
+                    geben, wenn das in <lb/>diesem Tempo weitergeht.</p>
+                <closer>
+                    <salute>Mit besten Grüssen</salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                        Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>bitte auch <lb/>beiliegenden <lb/>Brief zu erledigen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

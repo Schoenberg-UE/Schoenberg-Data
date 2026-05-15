@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.249"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 9. Februar 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.249</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 249</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1912-02-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24214"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-31+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/249_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.249_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName
+                            key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline>
+                        <date when="1912-02-09">9/2 1912</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                <p rendition="#inline">ich weiß zwar nicht worüber <lb/>Sie noch mündlich verhandeln
+                    wollen, wo ich Ihnen ja <ref target="letter.294">ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>schrieben</ref> habe, dass ich von diesen Bedingungen nicht
+                        ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>lassen kann! Aber da Sie Gewicht darauf legen und ich <lb/>allem
+                    ausweichen möchte, was unseren Beziehungen gefährlich <lb/>werden könnte – denn
+                    ich lege Wert darauf, sie auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechtzuhalten und wenn das nicht möglich ist, soll ich
+                    wenigstens <lb/>nicht daran schuld sein – so will ich Ihnen die Gefälligkeit <lb/>
+                    <supplied cert="high">e</supplied>rweisen und noch warten bis Sie kommen. Aber
+                    ich <lb/>muss Ihnen sagen, bis Ende <date when="1912-02">Februar</date> muss die
+                    Sache <lb/>erledigt sein. Länger kann ich nicht warten. Am <date
+                        when="1912-02-20">20</date> fahre <lb/>ich nach <placeName key="place.13.1"
+                        >Prag</placeName> und dort habe ich wohl <seg type="comment">
+                        <orig>kaum Zeit</orig>
+                        <note xml:id="nwdn_3zh_cgc" resp="#KBleier">
+                            <p>
+                                <ref target="event.15"/>
+                            </p>
+                            <p>
+                                <persName key="pers.3263">Arnold Schönberg</persName> berichtet von
+                                der Anreise nach <placeName key="place.13.1">Prag</placeName> am
+                                    <date when="1912-02-21">21. Februar 1912</date>, von „neun Malen
+                                (inklusive Konzert und Generalprobe)“, die er mit dem Orchester
+                                arbeitete und mehreren Veranstaltungen und Zusammenkünften, die er
+                                während seines Aufenthalts in <placeName key="place.13.1"
+                                    >Prag</placeName> besuchte (<rs type="bibl"
+                                    key="zotero-4528359-M96PRWGQ">Schönberg 1974a</rs>, S. 29).
+                                Vor seiner Abreise am <date when="1912-03-01">1. März 1912</date>
+                                gab er noch ein Zeitungsinterview (<rs type="bibl"
+                                    key="zotero-4528359-PIYHA5F4">Bohemia 1912</rs>; Exemplar aus
+                                dem Schönberg-Nachlass; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12459&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                    >Bohemia, 2. März 1912</ref>)</p>
+                        </note>
+                    </seg>.</p>
+                <p>Mein <seg type="comment">
+                        <orig>Konzert</orig>
+                        <note xml:id="nxgt_vxp_42c" resp="#KBleier">
+                            <ref target="event.12"/>
+                        </note>
+                    </seg> hat viel Beifall und schlechte (aber auch gute) <lb/>
+                    <seg type="comment">
+                        <orig>Kritiken</orig>
+                        <note xml:id="nxjn_kh3_cgc" resp="#KBleier">Rezensionen aus dem
+                            Schönberg-Nachlass: <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12487&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Rasch, Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12493&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Unbekannt, Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12492&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Unbekannt, Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12449&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Ertel, 6. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11525&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Schmidt, 6. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11488&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Der Tag, 6. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12453&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Signale für die Musikalische Welt, 7. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12454&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Frankfurter Zeitung, 8. Februar 1912</ref>; <ref
+                                        target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11536&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                        >National-Zeitung, 8. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11856&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Vossische Zeitung, 8. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12455&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Leipziger Neueste Nachrichten, 9. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11540&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >National-Zeitung, 10. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11539&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Die Wahrheit, 10. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11531&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Rheinische Musik- und Theater-Zeitung, 17. Februar 1912</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=11544&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                >Schmidt, 24. Februar 1912</ref></note>
+                    </seg>.</p>
+                <p>Ich werde wahrscheinlich im <date when="1912-05">Mai</date> in <placeName
+                        key="place.4.4">Paris</placeName> die <seg type="comment">
+                        <orig>Urauf<g ref="#typoHyphen"/>
+                            <lb break="no"/>führung</orig>
+                        <note xml:id="ne4w_213_q2c" resp="#KBleier"> Die Aufführung kam nicht
+                            zustande. Erstaufführung in der Bearbeitung von <persName
+                                key="pers.3612">Erwin Stein</persName>: <ref target="event.12"/>;
+                            Uraufführung: <ref target="event.149"/></note>
+                    </seg> meiner <bibl sameAs="werke.47">Orchesterstücke</bibl> selbst
+                    dirigieren.</p>
+                <p>Von dem <orgName key="org.11">Akad. Verband</orgName> in <placeName
+                        key="place.9.11">Wien</placeName>
+                    <del rendition="#s">(</del>und (einen Tag später!) <lb/>von der <orgName
+                        key="org.177">Urania</orgName> wurde ich aufgefordert in <placeName
+                        key="place.9.11">Wien</placeName> einen <lb/>Vortrag zu halten. Dem <orgName
+                        key="org.11">Akad. Verb.</orgName> hatte ich schon früher zu<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>gesagt am <date when="1912-03-11">11</date> oder <date
+                        when="1912-03-12">12 März</date> über „<bibl sameAs="schriften.50">Gustav
+                        Mahler</bibl>“ <seg type="comment">
+                        <orig>zu sprechen</orig>
+                        <note xml:id="njks_l23_cgc" resp="#TMuxeneder">Arnold Schönberg an Erhard
+                            Buschbeck, 7. Februar 1912 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B076760">ASCC
+                                7676</ref>). <persName key="pers.3263">Schönberg</persName> sagte
+                            den Vortrag kurz darauf wieder ab</note>
+                    </seg>. <lb/>
+                    <orgName key="org.177">Urania</orgName> wird deshalb sich mit dem <seg
+                        type="comment">
+                        <orig>2. Vortrag begnügen</orig>
+                        <note xml:id="nkgy_rf3_cgc" resp="#KBleier">Arnold Schönberg an Urania, 9.
+                            Februar 1912 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B002504">ASCC
+                                250)</ref>
+                        </note>
+                    </seg> müssen.</p>
+                <p>Am <date when="1912-02-16">16.</date> spielt <persName key="pers.636">Richard
+                        Buhlig</persName> meine <bibl sameAs="werke.9">Klavierstücke</bibl> in
+                        <placeName key="place.2.3">Berlin</placeName>. Vor <lb/>einigen Wochen hat
+                    er sie in <placeName key="place.3.1">London</placeName>
+                    <seg type="comment">
+                        <orig>gespielt</orig>
+                        <note xml:id="nrns_ctp_42c" resp="#KBleier"><ref target="event.147"/>; <ref
+                                target="event.148"/></note>
+                    </seg>.</p>
+                <p>!!! <hi rendition="#u">Bitte teilen Sie mir sofort mit wann Sie
+                    kommen</hi>!!!!</p>
+                <p>
+                    <hi rendition="#uu">Ferner!!</hi> ich möchte eine Abrechnung vom vorigen Jahr
+                    bekommen! <lb/>Ebenso: Ueber die <bibl sameAs="schriften.1"
+                    >Harmonielehre</bibl>. <hi rendition="#uu">Kosten</hi> und Verkauf bis
+                    jetzt.</p>
+                <closer>
+                    <salute>Herzl. Grüße in großer Eile Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <closer/>
+            </div>
+        </body>
+    </text>
+</TEI>

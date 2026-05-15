@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.2377"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 11. Juli 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2377</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2377</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4.3.1">Paris, 192 rue de Rivoli</placeName>
+                    <date when="1933-07-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17377"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2377_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.2377_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>HOTEL REGINA</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.4.3.1">192 RUE DE RIVOLI</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">PARIS</hi>
+                        </addrLine>
+                    </address>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UE</orgName>, Wien I. <placeName
+                                key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                    <dateline>11.VII.1933</dateline>
+                </opener>
+                <salute>Lieb<choice>
+                        <sic>r</sic>
+                        <corr type="deleted"/>
+                    </choice>er Herr Doktor <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p>vor Allem möchte ich Sie bitten dafür zu sorgen, <lb/>dass man in der <orgName
+                        key="org.1">UE</orgName> Folgendes zur Kenntnis nimmt:</p>
+                <p>1. <seg type="comment">
+                        <orig>Ich habe meine <placeName key="place.2.3.9.1">Berliner
+                                Wohnung</placeName> aufgegeben</orig>
+                        <note xml:id="nr14_14k_31c" resp="#pkehrer">Abreise aus <placeName
+                                key="place.2.3">Berlin</placeName> am <date when="1933-05-16">16.
+                                Mai</date>, Ankunft in <placeName key="place.4.4">Paris</placeName>
+                            am <date when="1933-05-17">17. Mai 1933</date> (<rs type="bibl"
+                                key="zotero-4528359-6S7MGFUR">Stuckenschmidt 1974</rs>)</note>
+                    </seg>.</p>
+                <p>2. Vorläufig habe ich noch keine andere Wohnung <lb/>und somit auch keine fixe
+                    Adresse</p>
+                <p>3. Ich werde alle Bekannte ersuchen, falls sie nicht <lb/>genau wissen, wo ich
+                    bin, an die <orgName key="org.1">UE</orgName> zu adressieren.</p>
+                <p rendition="#c">Und nun, um was ich die <orgName key="org.1">UE</orgName>
+                    bitte:</p>
+                <p>4. Bitte seien Sie nun so freundlich, mir alles, was <lb/>bei Ihnen für mich
+                    eintrifft, nachzusenden.</p>
+                <p>5. Ich werde Ihnen immer rechtzeitig meine neue Adresse <lb/>angeben.</p>
+                <p>6. Bitte, kleben Sie wo es nötig ist (zu Lasten mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nes Kontos) die fehlende Portoergänzung auf.</p>
+                <p>7. Bitte öffnen Sie Telegramme und, wenn Sie sie <lb/>für wichtig halten, so
+                    bitte telegrafieren Sie <lb/>mir Sie auf meine Kosten nach. (Minderdringende,
+                    <lb/>zB Geburtstags oder sonstige Glückwünsche briefl.)</p>
+                <p>Ich wäre Ihnen sehr dankbar, wenn Sie mir diese <lb/>Gefälligkeit erweisen
+                    wollten und bin eventuell auch ger<g ref="#typoHyphen"/>
+                    <lb break="no"/>ne bereit, derjenigen Ihrer Beamtinnen, die das besorgt,
+                    <lb/>eine gelegentliche kleine Entschädigung zu bezahlen.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Nun eine andere Sache:</p>
+                <p>Es wird immer schwerer sein Geld aus <placeName key="place.2"
+                        >Deutschland</placeName>
+                    <lb/>zu bekommen. Ich habe aber bei Ihnen nicht nur noch ein <lb/>kleines
+                    Guthaben aus der letzten <ref target="document.24063">Abrechnung</ref>; sondern,
+                    da <lb/>ich darauf zähle, dass in der diesmaligen <ref target="document.24062"
+                        >Abrechnung</ref> schon <lb/>deshalb ein weit grösserer Saldo resultieren
+                    muss, weil <lb/>ja die Materialgebühren, die voriges Mal gefehlt haben, nun
+                    <lb/>auftreten werden, auch in dieser ein (prinzipiell schon <lb/>fälliges)
+                    Guthaben.</p>
+                <p>Es wäre mir nun sehr lieb, wenn Sie mir diese <lb/>meine Guthaben so bald als
+                    möglich zukommen lassen <lb/>könnten, da ich gerade augenblicklich den Transport
+                    meiner <lb/>Möbel, die ja in <placeName key="place.2.3">Berlin</placeName> nicht
+                    länger verbleiben konnten, <lb/>bezahlen muss.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Nun muss ich mich noch entschuldigen, dass ich <lb/>Ihre Fragen wegen <placeName
+                        key="place.15">Amerika</placeName> nicht beantwortet habe: es hat <lb/>hier
+                    bis jetzt, infolge der fieberhaften Tätigkeit der <lb/>hiesigen Emigranten, die
+                    jeder für sich eine Existenzmöglic<supplied cert="high">h<g ref="#typoHyphen"/>
+                    </supplied>
+                    <lb break="no"/>keit suchen, für mich alle Tage Verhandlungen gegeben, de<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nen man sich schon aus Mitgefühl (ohne doch helfen zu kön<g
+                        ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>nen, nicht entziehen darf. Ausserdem
+                    beschäftigt mich <lb/>das Schicksal der noch in <placeName key="place.2"
+                        >Deutschland</placeName> lebenden Juden <lb/>unausgesetzt und ich werde wohl
+                    demnächst selbst eine <lb/>
+                    <seg type="comment">
+                        <orig>sehr grosse Aktion</orig>
+                        <note xml:id="njyg_2qy_mgc" resp="#TMuxeneder">
+                            <persName key="pers.3263">Schönberg</persName> plante eine groß
+                            angelegte Propagandaaktion unter Juden in den <placeName key="place.15"
+                                >USA</placeName> und anderen Ländern, um finanzielle Mittel für die
+                            Auswanderung deutscher Juden bereitzustellen (Arnold Schönberg, Aufruf
+                            zur Hilfeleistung; ASSV 6.1.20/6.1.21)</note>
+                    </seg> in die Wege leiten – hoffentlich; <lb/>die ersten Schritte hiezu sind
+                    bereits getan.</p>
+                <p>Aber – nämlich weiter wegen <placeName key="place.15">Amerika</placeName> – es
+                    hat Ihnen <lb/>wohl inzwischen <persName key="pers.3612">Stein</persName>
+                    mitgeteilt, was ich darüber <ref target="letter.2372">geschrie<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>ben</ref> habe. Ich sollte noch als meine Forderung
+                    folgendes <lb/>hinzufügen:</p>
+                <p>Augenblicklich ist mein <seg type="comment">
+                        <orig>Vertrag mit <placeName key="place.2">Deutschland</placeName>
+                            <lb/>noch nicht gelöst</orig>
+                        <note xml:id="nn5f_tzx_ycc" resp="#pkehrer"><persName key="pers.3263"
+                                >Schönberg</persName> war zunächst beurlaubt worden, die Kündigung
+                            erfolgte im <date when="1933-09">September 1933</date> (Preußische
+                            Akademie der Künste an Arnold Schönberg, 23. Mai 1933; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B151340">ASCC
+                                15134</ref>; Preußische Akademie der Künste an Arnold Schönberg, 18.
+                            September 1933; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B151360">ASCC
+                                15136</ref></note></seg>. Ob und in welcher Form und wann es
+                    <lb/>geschehen wird, ist fraglich. Wenn ich eine andere Stel<g ref="#typoHyphen"/>
+                    <lb break="no"/>lung annehme, könnte ich vielleicht von <placeName key="place.2"
+                        >Deutschland</placeName>
+                    <lb/>die <seg type="comment">
+                        <orig>Gehaltszahlung</orig>
+                        <note xml:id="nwhh_bby_ycc" resp="#pkehrer"><persName key="pers.3263"
+                                >Schönberg</persName> bat um Fortzahlung bis <date when="1935"
+                                >1935</date> (Arnold Schönberg an Preußische Akademie der Künste,
+                            20. März 1933; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B023301">ASCC
+                                2330</ref>)</note>
+                    </seg> nicht mehr verlangen, da ich ja dann <lb/>nicht mehr „zur Verfügung“
+                    stehe! So müsste also auf al<g ref="#typoHyphen"/>
+                    <lb break="no"/>le Fälle ausser dem Honorar eine Entschädigung für die<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>se Gage gesich<choice>
+                        <sic>s</sic>
+                        <corr type="deleted"/>
+                    </choice>ert sein und es dürfte weiters nicht ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>gessen werden, dass meine Stellung eine <hi rendition="#u"
+                        >Ehrenstellung</hi>
+                    <lb/>war, dass ich nur soviel Arbeit zu leisten brauchte, als ich <lb/>selbst
+                    (freiwillig) Lust hatte!!</p>
+                <p>Haben Sie denn noch etwas weiteres davon gehört<supplied cert="high">?</supplied>
+                    <lb/>Ich will Ihnen sagen, dass sich überall Interesse für mich <lb/>zeigt und
+                    alle Welt der Meinung ist, <placeName key="place.15">Amerika</placeName> werde
+                    sich <lb/>die Gelegenheit, mich zu kriegen, nicht entgehen lassen. <lb/>Das
+                    scheint aber doch nicht so schnell zu gehn, wie ich <lb/>es gerne hätte.</p>
+                <p>Bitte antworten Sie mir recht bald und </p>
+                <closer rendition="#inline">seien <lb/>Sie, sowie alle meine Freunde bei der
+                        <orgName key="org.1">UE</orgName> aufs herzlichste <lb/>gegrüsst. Ihr <lb/>
+                    <signed rendition="#c">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

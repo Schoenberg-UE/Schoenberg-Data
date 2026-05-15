@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20239"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 26. November 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20239</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20239</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1934-11-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1.2">Los Angeles, 5860 Canyon Cove</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2476"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20239_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20239_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.41">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>TELEGRAMM-ADRESSE: MUSIKEDITION,
+                        WIEN·POSTSPARKASSEN-KONTO WIEN 57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1934-11-26">26. November
+                        1934</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn Prof. <persName key="pers.3263">Arnold
+                            Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.1.2">5860 Canyon
+                            Cove</placeName>,</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">Hollywood, Calif.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir haben uns sofort nach Erhalt Ihres <ref target="letter.2476">Briefes</ref>
+                    vom <date when="1934-10-28">28. Okto<g ref="#typoHyphen"/>
+                        <lb break="no"/>ber</date> mit Ihrem Sohn <persName key="pers.3281">Georg</persName>
+                    <ref target="letter.24408">in Verbindung gesetzt</ref> und haben auch einen
+                    <lb/>uns persönlich befreundeten Komponisten in <placeName key="place.4.4">Paris</placeName> ersucht, sich <lb/>
+                    <persName key="pers.3281">Georgs</persName> anzunehmen, was dieser Komponist,
+                    Herr Dr. <persName key="pers.3583">Spitzmüller-<lb break="no"/>Harmersbach</persName>, in ausgiebiger Weise getan hat, insofern als er
+                    ihm <lb/>eine Empfehlung an das <orgName key="org.239">amerikanische
+                        Konsulat</orgName> verschafft und ihn <lb/>auch beraten und sich um die
+                    Ueberfahrtspreise erkundigt hat. Das<g ref="#typoHyphen"/>
+                    <lb break="no"/>selbe haben wir hier getan, haben auch durch einen befreundeten
+                    Herrn <lb/>in <placeName key="place.5.9">Triest</placeName> versucht, eine
+                    Verbilligung der Reise (eventuell als <lb/>Musiker) durchzusetzen, das Resultat
+                    ist aber negativ gewesen.</p>
+                <p>Nach allen vorläufigen Erkundigungen, die wir hier in <placeName key="place.9.11">Wien</placeName> und <lb/>in <placeName key="place.4.4">Paris</placeName>
+                    eingeholt haben und die zeitraubender sind als Sie viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht meinen, haben wir Ihnen nachfolgendes <ref target="letter.20238">Telegramm</ref> geschickt:</p>
+                <quote rendition="#blockquote">
+                    <p>Da Frachtdampfer unmöglich Gesamtkosten Perso<g ref="#typoHyphen"/>
+                        <lb break="no"/>nendampfer circa 730 Dollars wovon wir 200 vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>legen können stop Eilsendet <persName key="pers.3281">Georg</persName>
+                        <placeName key="place.4.4">Paris</placeName> engli<g ref="#typoHyphen"/>
+                        <lb break="no"/>sche beglaubigte Garantie Unterhalts <persName key="pers.3281">Georg</persName> und <lb/>Familie mit Beschreibung eurer gegenwärtigen
+                    <lb/>Stellung da anderenfalls Visum nicht erteilt <lb/>wird stop Abreise
+                    voraussichtlich Mitte <date when="1934-12">Dezem<g ref="#typoHyphen"/>
+                            <lb break="no"/>ber</date> falls Geldüberweisung Visumunterlagen recht<g ref="#typoHyphen"/>
+                        <lb break="no"/>zeitig eintreffen <rs type="org" key="org.1">Musikedition</rs>.</p>
+                </quote>
+                <p>Sie ersehen daraus, dass das Wichtigste zunächst eine Er<g ref="#typoHyphen"/>
+                    <lb break="no"/>klärung Ihrerseits ist, nach welcher Sie Ihren <rs type="person" key="pers.3281">Sohn</rs> samt Familie <lb/>in <placeName key="place.15">Amerika</placeName> erhalten werden. Es wird auch verlangt, dass Sie ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, welche Stellung Sie bekleiden und beide Erklärungen müssen
+                    <lb/>vom <placeName key="place.15">amerikanischen</placeName>
+                    <persName key="pers.2364">Konsul</persName> beglaubigt werden. Diese Erklärungen
+                    sind <pb n="2" xml:id="p.2"/>die Voraussetzungen für ein Visum, zu dem aber auch
+                    sonstige Dinge <lb/>verlangt werden, z. B. zwei amtliche Meldeausweise über den
+                    Aufenthalt <lb/>
+                    <subst>
+                        <del rendition="#s">besonders</del>
+                        <add place="superlinear">während</add>
+                    </subst> der letzten 5 Jahre, die besonders aus <placeName key="place.2">Deutschland</placeName> nicht <lb/>leicht in kurzer Zeit beschafft werden
+                    können.</p>
+                <p>Nun <ref target="document.24398">schreibt</ref> uns heute Ihr Sohn, dass <hi rendition="#u">auch mit</hi> der Erklärung <lb/>es noch zweifelhaft ist, ob
+                    er ein Visum erhält, weil er <placeName key="place.2">Reichsdeut<g ref="#typoHyphen"/>
+                        <lb break="no"/>scher</placeName> ist. Er schreibt ausserdem, dass seine
+                    Carte d’identité (Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>enthaltsbewilligung) nur bis Ende <date when="1934-11">November</date> läuft und er dann eventuell <lb/>nach <placeName key="place.2">Deutschland</placeName> abgeschoben wird. Wir werden nun
+                    versuchen, durch <lb/>Dr. <persName key="pers.3583">Spitzmüller</persName> diese
+                    Aufenthaltsbewilligung noch etwas hinauszuschie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, was bestimmt unter den heutigen Verhältnissen in <placeName key="place.4">Frankreich</placeName> sehr <lb/>schwer ist, haben aber im
+                    Zusammenhang damit folgende Idee mit Herrn <lb/>
+                    <persName key="pers.1339">Greissle</persName> besprochen, (vorausgesetzt, dass
+                    a) die Erlangung des Visums <lb/>nicht doch möglich sein wird, b) dass die
+                    Aufenthaltsbewilligung bis <lb/>zur Abreise verlängert wird, und c) dass Sie den
+                    Differenzbetrag für <lb/>die Reise in der Höhe von etwa 530 $ einsenden wollen
+                    und können.) Und <lb/>zwar wenn die Erlangung des Visums für einen <placeName key="place.2">Reichsdeutschen</placeName> zu gros<g ref="#typoHyphen"/>
+                    <lb break="no"/>se Schwierigkeiten bereitet, dann müsste <persName key="pers.3281">Georg</persName> trachten, <placeName key="place.9">Oesterreicher</placeName>
+                    <lb/>zu werden. Zu diesem Zweck würden wir alles tun, damit ihm die Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>reise nach <placeName key="place.9">Oesterreich</placeName>
+                    erlaubt wird und er in <placeName key="place.9.13">Giesshübel</placeName> oder
+                        <placeName key="place.9.4">Mödling</placeName>
+                    <lb/>bis zum Zeitpunkt der Erlangung der <placeName key="place.9">österreichischen</placeName> Staatsbürger<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaft sich aufhält. Mit 50 $ monatlich könnte <persName key="pers.3281">Georg</persName> samt <rs type="person" key="pers.3300">Frau</rs> und <lb/>
+                    <rs type="person" key="pers.3785">Kind</rs> hier nicht nur bestimmt sein
+                    Auslangen finden, sondern es müsste <lb/>auch möglich sein, dass er sich davon
+                    monatlich einen kleinen Betrag <lb/>(10–15 Dollars) erspart und auf diese Weise
+                    einen Reisekostenzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>schuss zurücklegt. Allerdings dürfte er nicht selbst das Geld
+                        verwal<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, sondern Herr <persName key="pers.1339">Greissle</persName>
+                    meint, dass seine Tante, Frau <persName key="pers.2282">Manfred</persName>, das
+                    <lb/>Geld in Empfang nimmt und an Ihren Sohn täglich oder wöchentlich Teil<g ref="#typoHyphen"/>
+                    <lb break="no"/>beträge ausbezahlt und auch die ersparten Beträge zurücklegt.
+                    Wenn <lb/>Sie mit diesem Vorschlag einverstanden sind, bitten wir um Telegramm,
+                        <pb n="3" xml:id="p.3"/>ob <subst>
+                        <del rendition="#s">wir</del>
+                        <add place="superlinear">Sie</add>
+                    </subst> für den Fall, dass jetzt ein Visum nicht erteilt und dadurch <lb/>die
+                    sofortige Abreise nach <placeName key="place.15.16">San Francisco</placeName>
+                    unmöglich wird, damit ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>verstanden sind, dass wir zu Ihren Lasten die Rückreise
+                        <persName key="pers.3281">Georgs</persName>
+                    <hi rendition="#u">samt <lb/>Familie von <placeName key="place.4.4">Paris</placeName> nach <del rendition="#s">Möglich</del>
+                        <placeName key="place.9.4">Mödling</placeName> bezahlen</hi>. Es dürften,
+                    wenn Ihr <lb/>Sohn nach <placeName key="place.9.4">Mödling</placeName>
+                    zurückkehrt, auch noch einige kleine Schulden zu <lb/>begleichen sein, deren
+                    Höhe wir nicht feststellen können, die aber <lb/>vermutlich 300 bis 400
+                    Schilling nicht übersteigen werden, vielleicht <lb/>auch geringer sind, und die
+                    dann wahrscheinlich, wenn er hier lebt, <lb/>von ihm verlangt werden würden und
+                    die Sie möglicherweise berücksich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tigen müssen. Wir haben ferner an Ihren Sohn 100 frs.
+                    einstweilen <lb/>überweisen lassen, da <persName key="pers.3281">Georg</persName> nicht einmal Geld auf Briefmarken hatte, und <lb/>hoffen
+                    Sie damit nachträglich einverstanden.</p>
+                <p>Was die Reisekosten anbelangt, so sind die Angaben von <placeName key="place.4.4">Paris</placeName>
+                    <lb/>und <placeName key="place.9.11">Wien</placeName> ziemlich übereinstimmend
+                    und zwar kostet die Reise <placeName key="place.4.4">Paris</placeName> bis
+                    <lb/>zum Abfahrtshafen ca.<table rows="7" cols="3">
+                        <row>
+                            <cell/>
+                            <cell>frs</cell>
+                            <cell>500–</cell>
+                        </row>
+                        <row>
+                            <cell>Dampferfahrt Personendampfer (Frachtdampfer ist für
+                                <lb/>Ausländer, die nach <placeName key="place.15">Amerika</placeName> einreisen wollen, nicht
+                                <lb/>zulässig)</cell>
+                            <cell/>
+                            <cell>
+                                <lb/>
+                                <lb/>6000–</cell>
+                        </row>
+                        <row>
+                            <cell>Schulden, die vor der Abfahrt zu regeln sind, ca.</cell>
+                            <cell/>
+                            <cell>1500–</cell>
+                        </row>
+                        <row>
+                            <cell>Equipierungskosten</cell>
+                            <cell/>
+                            <cell>1000–</cell>
+                        </row>
+                        <row>
+                            <cell>Visum-Kosten und Bargeld bei der Landung in <placeName key="place.15">Amerika</placeName> ca.</cell>
+                            <cell/>
+                            <cell>
+                                <hi rendition="#u">1500–</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>frs</cell>
+                            <cell>10500</cell>
+                        </row>
+                        <row>
+                            <cell>sind ca.</cell>
+                            <cell>$</cell>
+                            <cell>730.</cell>
+                        </row>
+                    </table>
+                    <pb n="4" xml:id="p.4"/>Es würde natürlich, bevor man sich zur Lösung der
+                    Fahrkarten entschliesst, <lb/>noch der billigste Weg ausgesucht werden, z. B.
+                    ist noch eine Kombina<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion Schiffsreise bis <placeName key="place.15.8">New
+                        York</placeName> und dann Autobus (<orgName key="org.79">Grey Hound
+                        Lines</orgName>) in <lb/>8 Tagen bis <placeName key="place.15.16">San
+                        Francisco</placeName> möglich, der per Person <del rendition="#s">$ <gap reason="illegible" unit="chars" quantity="1"/> 43.25</del> $ 43.25
+                    <lb/>plus ca. $ 3.– für Nächtigung und Verpflegung per Tag und Person
+                    kostet.</p>
+                <p>Da wir augenblicklich durch die Devisenschwierigkeiten mit unseren
+                    <lb/>Nachbarstaaten und insbesondere im Verkehr mit <placeName key="place.2">Deutschland</placeName>, sehr knapp <lb/>mit unseren Barmitteln sind, ist
+                    es uns zu unserem grossen Bedauern <lb/>nicht möglich, einen grösseren Betrag
+                    als $ 200.– für Ihre Rechnung aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>zulegen, den wir im Augenblick bereitstellen, wo die Lösung der Fahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>karte bezw. Bezahlung des Visums etc.
+                    notwendig ist.</p>
+                <p>Wir erwarten nun Ihre telegraphische und briefliche Nachricht, <lb/>und stellen
+                    uns Ihrem Sohn, soweit wir ihn bezüglich
+                    Auskünfte und <lb/>sonst an die Hand geben können, natürlich mit Vergnügen zur
+                    Verfügung.</p>
+                <p>Auf den übrigen Inhalt Ihres Schreibens kommen wir in einigen  <lb/>Tagen
+                    zurück.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen  <lb/>
+                        <seg rendition="#r">ergebenst</seg>
+                    </salute>
+                    <lb/>
+                    <seg rendition="#r">
+                        <orgName key="org.1">UNIVERSAL–EDITION A. G.</orgName>
+                    </seg>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">1 Beilage</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

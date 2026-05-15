@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1653"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 14. Jänner 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1653</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1653</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.7.1.1.1">Monaco, Hotel Bristol Majestic</placeName>
+                    <date when="1929-01-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17798"/>
+                    <ref type="answered-by" target="letter.17799"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1653_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1653_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>MONTE CARLO</addrLine>
+                        <addrLine>
+                            <placeName key="place.7.1.1.1">HOTEL BRISTOL</placeName>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1929-01-14">14.I.1929</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p>ich bin in der letz<choice>
+                        <sic>l</sic>
+                        <corr type="deleted"/>
+                    </choice>ten Zeit <seg type="comment">
+                        <orig>zweimal über<g ref="#typoHyphen"/>
+                            <lb break="no"/>siedelt</orig>
+                        <note xml:id="nuw2_3wv_qdc" resp="#pkehrer">Ab dem 3. Jänner wohnte
+                            Schönberg im Hotel Regina in Monte Carlo, ab 9. Jänner im <placeName
+                                key="place.7.1.1.1">Hotel Bristol Majestic</placeName>
+                            (Kalendereinträge <ref
+                                target="https://archive.schoenberg.at/resources/pages/view.php?ref=12796"
+                                >ASCI DC12796</ref>; <ref
+                                target="https://archive.schoenberg.at/resources/pages/view.php?ref=12797"
+                                >ASCI DC12797</ref>)</note>
+                    </seg>, deshalb antworte ich erst heute.</p>
+                <p>Ich habe mich sehr über Ihre Absicht, mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ne
+                  <bibl sameAs="werke.65">Oper</bibl> zu erwerben, gefreut. Auch finde ich Ihren
+                  Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag, dass ich mich zuerst an andere
+               Verleger wenden <lb/>soll, wirklich gerecht. Denn ich könnte in der Tat nicht
+               <lb/>solange warten, bis wir uns sehen. Ausser, Sie entschliessen <lb/>sich, an die
+               Riviera zu kommen.</p>
+                <p>Und schliesslich! ebensowenig, wie ich verlan<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen werde, dass Sie, gerade Sie, mir mehr für die Oper geben
+                    <lb/>sollten, als ein anderer, ebensowenig werden Sie von mir <lb/>erwarten,
+                    dass ich sie billiger hergebe: wo wir doch beide <lb/>wissen, was man ohne Geld
+                    alles <hi rendition="#g">nicht</hi> bekommen kann.</p>
+                <p>Ich hoffe nun in der nächsten Zeit schon <lb/>den Vorschlag <seg type="comment">
+                        <orig>irgend eines Verlages zu haben</orig>
+                        <note sameAs="letter.17798/#nhdp_ypz_32c"/>
+                    </seg>. Und da ist <lb/>mir nur der
+                    weitere Vorgang gänzlich unklar. Wie soll <lb/>ich, ohne I. unfair gegen diesen
+                    Verleger zu handeln, Ihnen <lb/>das Werk zu den gleichen Bedingungen anbieten?
+                    II. Bin ich <lb/>damit nicht auch in der Gefahr, mich zwischen zwei Stühle
+                    <lb/>zu setzen?</p>
+                <p>Wenn Sie mir keinen besseren Ausweg vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlagen
+               können, so würde ich Sie bitten, mir ein Angebot <lb/>auf die Verlagsrechte der Oper
+               zu machen. Denn es scheint <lb/>mir nur möglich, Ihrem Angebot den Vorzug zu geben,
+               wenn <lb/>
+                    <choice>
+                        <sic>k</sic>
+                        <corr type="deleted"/>
+                    </choice>ein Angebot von Ihnen vorliegt. Oder geht das – ohne Scha<g ref="#typoHyphen"/>
+                    <lb break="no"/>den für mich! – anders? Bitte schreiben
+               Sie mir Ihre Meinung, <lb/>aber recht bald, denn sonst könnte ich in der Zwischen<g ref="#typoHyphen"/>
+                    <lb break="no"/>zeit in „Zeitnot“ geraten (wie die
+               Schachspieler sagen).</p>
+                <p>Uebrigens: ich habe grosse Fortschritte ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>macht, sogar schon etwas von der <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="ne5b_qv5_qzb" resp="#pkehrer">Datierung am Beginn der eigenhändigen
+                            Partiturreinschrift (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1481&amp;werke_id=477&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 7/2, Quelle B</ref>): <date when="1929-11-18">18. Jänner
+                                1929</date>
+                        </note>
+                    </seg> angefangen (wäh<g ref="#typoHyphen"/>
+                    <lb break="no"/>rend der Text verbessert wird) und kann, wenn es gut geht,
+                    <lb/>allerdings sehr gut, in sechs bis acht Wochen sogar die Par<g ref="#typoHyphen"/>
+                    <lb break="no"/>titur fertig haben.</p>
+                <closer>Ich hoffe bald von Ihnen erfreuliche Ant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wort zu bekommen und bin inzwischen <salute>mit den allerherzlich<g ref="#typoHyphen"/>
+                        <lb break="no"/>sten Grüssen, Ihr ergebener</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

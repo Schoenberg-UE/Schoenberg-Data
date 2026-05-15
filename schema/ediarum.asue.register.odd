@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD für ediarum.ASUE.register</title>
+        <editor>Jannik Franz <email>franz@mdw.ac.at</email></editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+        <pubPlace key="place.9.11">Wien</pubPlace>
+        <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Das ediarum zugrundeliegende TEI-XML-Schema basiert weitgehend auf dem Basisformat des Deutschen Textarchivs.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="asue-index" source="https://raw.githubusercontent.com/ediarum/ediarum.REGISTER.data-model/dev/ediarum.register.compiled.xml" start="TEI">
+        
+        <!-- Imported modules from source ODD -->
+        
+        <moduleRef key="header" except="editionStmt keywords license textClass profileDesc"/> <!-- includes availability,teiHeader, fileDesc, titleStmt, publicationStmt, sourceDesc, idno -->
+        <moduleRef key="core" except="address email name"/> <!-- includes author, bibl, date, desc, editor, item, label, listBibl, list, note, p, publisher, pubPlace, ref, respStmt, resp, term, title -->
+        <moduleRef key="textstructure"/> <!-- includes TEI text body -->
+        <moduleRef key="tei"/> <!-- this module has no elements defined -->
+        <moduleRef key="namesdates" except="floruit gender personGrp sex settlement"/> <!-- includes birth, death, forename, listOrg, listPerson, listPlace, location, org, orgName, persName, person, place, placeName, surname -->
+        <moduleRef key="linking"/> <!-- empty, only attributes from this class are selected -->
+        
+        <!-- Include elements from TEI all that were deleted in the source ODD -->
+        
+        <!-- include element <affiliation> which is excluded from ediarum.REGISTER (we use it in the person index) -->
+        <elementRef key="affiliation" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <occupation> which is excluded from ediarum.REGISTER (we use it in the person index) -->
+        <elementRef key="occupation" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <nameLink> which is excluded from ediarum.REGISTER (we use it in the person index) -->
+        <elementRef key="nameLink" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <nameLink> which is excluded from ediarum.REGISTER (we use it in the place index) -->
+        <elementRef key="geo" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <hi> which is excluded from ediarum.REGISTER (we use it in the work index) -->
+        <elementRef key="hi" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <stamp> which is excluded from ediarum.REGISTER (we use it in the stamp index) -->
+        <elementRef key="stamp" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <lb> which is excluded from ediarum.REGISTER (we use it in the stamp index) -->
+        <elementRef key="lb" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <listEvent> which is excluded from ediarum.REGISTER (we use it in the event index) -->
+        <elementRef key="listEvent" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <event> which is excluded from ediarum.REGISTER (we use it in the event index) -->
+        <elementRef key="event" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <rs> which is excluded from ediarum.REGISTER (we use it in the event index) -->
+        <elementRef key="rs" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <funder> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="funder" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <revisionDesc> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="revisionDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <change> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="change" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <seriesStmt> which is excluded from ediarum.REGISTER (we use it in the teiHeader) -->
+        <elementRef key="seriesStmt" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <encodingDesc> which is excluded from ediarum.REGISTER (we use it in the teiHeader) -->
+        <elementRef key="encodingDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- include attribute @who for use in <revisionDesc> -->
+        <classRef key="att.ascribed" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- Include attributes from TEI all that were deleted in the source ODD -->
+        
+        <!-- include attribute @rendition which is excluded from ediarum.REGISTER into "att.global" -->
+        <classSpec type="atts" ident="att.global" mode="change">
+          <attList>
+            <attDef ident="rendition" mode="change">
+              <datatype maxOccurs="unbounded">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+              <!--<valList type="closed" mode="change">
+                <valItem ident="#sup"><desc>hochgestellt</desc></valItem>
+                <valItem ident="#uu"><desc>doppelt unterstrichen</desc></valItem>
+              </valList>-->
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        
+        <!-- Include ASUE datatypes -->
+        
+        <specGrpRef target="datatypes.odd.xml#asue-datatypes"/>
+        
+        
+        <!-- #################################### -->
+        <!-- required changes from the source ODD -->
+        <!-- #################################### -->
+        
+        <!-- include @key as part of "att.canonical" (it was deleted from the attribute class in ediarum.REGISTER) -->
+        <classSpec ident="att.canonical" type="atts" mode="change">
+          <attList>
+            <attDef ident="key" mode="add">
+              <datatype>
+                <dataRef key="asue.keyRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        <!-- include @sameAs as part of "att.global.linking" (it was deleted from the attribute class in ediarum.REGISTER) -->
+        <classSpec ident="att.global.linking" type="atts" mode="change">
+          <attList>
+            <attDef ident="sameAs" mode="add">
+              <datatype>
+                <dataRef key="asue.sameAsRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        <!-- delete attribute @calendar on <affiliation> and specify value of optional attribute @key, which has to match asue.orgId -->
+        <!-- specify content model of element <afiliation> -->
+        <elementSpec ident="affiliation" module="namesdates" mode="change">
+          <content>
+            <textNode/>
+          </content>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="key" module="att.canonical" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.orgRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- delete attribute @calendar on <occupation> -->
+        <!-- specify content model of element <occupation> -->
+        <elementSpec ident="occupation" module="namesdates" mode="change">
+          <content>
+            <alternate>
+              <textNode/>
+              <elementRef key="term" minOccurs="1" maxOccurs="unbounded"/>
+            </alternate>
+          </content>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow <hi> element as child of <idno> -->
+        <!-- make @type mandatory with a list of defined values -->
+        <elementSpec ident="idno" module="header" mode="change">
+          <content>
+            <alternate minOccurs="0" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="hi"/>
+            </alternate>
+          </content>
+          <constraintSpec ident="normdataPatterns" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:idno[parent::tei:person][@type eq 'gnd']">
+                <!-- see https://www.wikidata.org/wiki/Property:P227 "format as a regular expression" -->
+                <sch:assert test="matches(normalize-space(.), '^https://d-nb\.info/gnd/1[0123]?\d{7}[0-9X]|[47]\d{6}-\d|[1-9]\d{0,7}-[0-9X]|3\d{7}[0-9X]$')">Links to GND entries in the person register must match the pattern "^https://d-nb\.info/gnd/1[0123]?\d{7}[0-9X]|[47]\d{6}-\d|[1-9]\d{0,7}-[0-9X]|3\d{7}[0-9X]$"</sch:assert>
+              </sch:rule>
+              <sch:rule context="tei:idno[parent::tei:org][@type eq 'gnd']">
+                <sch:assert test="matches(normalize-space(.), '^https://d-nb\.info/(gnd/|dnbn/)?1[0123]?\d{7}[0-9X]|[47]\d{6}-\d|[1-9]\d{0,7}-[0-9X]|3\d{7}[0-9X]|\d{8}[\dX]$')">Links to GND entries in the organisations register must match the pattern "^https://d-nb\.info/(gnd/|dnbn/)?1[0123]?\d{7}[0-9X]|[47]\d{6}-\d|[1-9]\d{0,7}-[0-9X]|3\d{7}[0-9X]|\d{8}[\dX]$"</sch:assert>
+              </sch:rule>
+              <sch:rule context="tei:idno[@type eq 'viaf']">
+                <!-- see https://www.wikidata.org/wiki/Property:P214 "format as a regular expression" -->
+                <sch:assert test="matches(normalize-space(.), '^https://viaf\.org/viaf/[1-9]\d(\d{0,7}|\d{17,20})$')">Links to Viaf entries must match the pattern "^https://viaf\.org/viaf/[1-9]\d(\d{0,7}|\d{17,20})$"</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" module="att.typed" mode="replace" usage="rec">
+              <valList mode="replace" type="closed">
+                <valItem ident="gnd" mode="add"/>
+                <valItem ident="viaf" mode="add"/>
+                <valItem ident="bs" mode="add"/>
+                <valItem ident="uri" mode="add"/>
+                <valItem ident="URLWeb" mode="add"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow <stamp> element as child of <item> -->
+        <elementSpec ident="item" module="core" mode="change">
+          <content>
+            <alternate>
+              <macroRef key="macro.specialPara"/>
+              <elementRef key="idno"/>
+              <elementRef key="stamp"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- delete attribute @calendar on <stamp> and specify value of attribute @xml:id, which has to match asue.stampId -->
+        <elementSpec ident="stamp" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="persName"/>
+              <elementRef key="placeName"/>
+              <elementRef key="orgName"/>
+              <elementRef key="lb"/>
+              <elementRef key="hi"/>
+            </alternate>
+          </content>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="xml:id" module="att.global" mode="change" usage="req">
+              <datatype>
+                <dataRef key="asue.stampId"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <elementSpec ident="listEvent" module="namesdates" mode="change">
+          <content>
+            <elementRef key="event" minOccurs="1" maxOccurs="unbounded"/>
+          </content>
+          <!-- Delete schematron-rule because it leads to following error: "There is no ID/IDREF binding for IDREF 'declarable'" -->
+          <constraintSpec ident="listEvent-is-declarable" scheme="schematron" mode="delete"/>
+        </elementSpec>
+        
+        <!-- delete attribute @calendar on <event> and specify value of attribute @xml:id, which has to match asue.eventId -->
+        <elementSpec ident="event" module="namesdates" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="label" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="desc" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="bibl" minOccurs="1" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="calendar" mode="delete"/>
+            <attDef ident="xml:id" module="att.global" mode="change" usage="req">
+              <datatype>
+                <dataRef key="asue.eventId"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- Delete schematron-rule because it leads to following error: "There is no ID/IDREF binding for IDREF 'declarable'" -->
+        <elementSpec ident="seriesStmt" module="header" mode="change">
+          <constraintSpec ident="seriesStmt-is-declarable" scheme="schematron" mode="delete"/>
+        </elementSpec>
+        
+        
+        <!-- ###################################### -->
+        <!-- further restrictions of the source ODD -->
+        <!-- ###################################### -->
+        
+        <!-- 1. registry persons -->
+        
+        <!-- specify content model and required attributes and their datatypes on element <person> -->
+        <elementSpec ident="person" module="namesdates" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="persName" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="birth" minOccurs="0" maxOccurs="1"/>
+              <elementRef key="death" minOccurs="0" maxOccurs="1"/>
+              <elementRef key="occupation" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="affiliation" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="xml:id" mode="change" usage="req">
+              <datatype>
+                <dataRef key="asue.persId"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model, attributes an constraints of element <persName> -->
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <content>
+            <alternate>
+              <textNode/>
+              <alternate minOccurs="0" maxOccurs="unbounded">
+                <elementRef key="surname" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="forename" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="nameLink" minOccurs="0" maxOccurs="1"/>
+              </alternate>
+            </alternate>
+          </content>
+          <constraintSpec ident="requireType" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:persName[parent::tei:person]">
+                <sch:assert test="@type">"<sch:name/>" elements in the registry persons must have an attribute @type</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="SingleRegName" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:persName[@type eq 'reg']">
+                <sch:assert test="not(parent::tei:person/tei:persName[@type eq 'reg'][2])">each person entry must have only one single "<sch:name/>" element of type "reg"</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <!--<constraintSpec ident="requireSubtype" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:persName[@type eq 'alt']">
+                <sch:assert test="@subtype">"<sch:name/>" elements of type "alt" must have a subtype specified</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>-->
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed" mode="add">
+                <valItem ident="reg"><desc>regular name</desc></valItem>
+                <valItem ident="alt"><desc>alternative name</desc></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="subtype" mode="replace">
+              <valList type="closed" mode="add">
+                <valItem ident="birthname"><desc>Familienname</desc></valItem>
+                <valItem ident="pseudonym"><desc>Künstlername/Pseudonym</desc></valItem>
+                <valItem ident="referencemark"><desc>Bezugszeichen (innerhalb der Korrespondenz)</desc></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="key" module="att.canonical" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.persRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model of element <birth> -->
+        <elementSpec ident="birth" module="namesdates" mode="change">
+          <content>
+            <elementRef key="date" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+          </content>
+        </elementSpec>
+        
+        <!-- specify content model of element <death> -->
+        <elementSpec ident="death" module="namesdates" mode="change">
+          <content>
+            <elementRef key="date" minOccurs="0" maxOccurs="1"/>
+            <elementRef key="placeName" minOccurs="0" maxOccurs="1"/>
+          </content>
+        </elementSpec>
+        
+        <!-- change datatype of @ref on <term> -->        
+        <elementSpec ident="term" module="core" mode="change">
+          <attList>
+            <attDef ident="ref" module="att.canonical" mode="change">
+              <datatype>
+                <dataRef key="wikidataId"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <!-- specify content model of element <note> -->
+        <elementSpec ident="note" module="core" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="persName"/>
+              <elementRef key="placeName"/>
+              <elementRef key="orgName"/>
+              <elementRef key="bibl"/>
+              <elementRef key="date"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- 2. registry organisations -->
+        
+        <!-- specify content model and required attributes and their datatypes on element <org> -->
+        <elementSpec ident="org" module="namesdates" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="orgName" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="location" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="xml:id" module="att.global" mode="change" usage="req">
+              <datatype>
+                <dataRef key="asue.orgId"/>
+              </datatype>
+            </attDef>
+            <attDef ident="type" module="att.typed" mode="change" usage="req">
+              <valList type="closed" mode="add">
+                <valItem ident="publisher"/>
+                <valItem ident="theatre"/>
+                <valItem ident="ensemble"/>
+                <valItem ident="collectingsociety"/>
+                <valItem ident="agency"/>
+                <valItem ident="journal"/>
+                <valItem ident="association"/>
+                <valItem ident="education"/>
+                <valItem ident="business"/>
+                <valItem ident="other"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model, attributes an constraints of element <orgName> -->
+        <elementSpec ident="orgName" module="namesdates" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <!-- cf. registry stamps -->
+              <elementRef key="lb"/>
+            </alternate>
+          </content>
+          <constraintSpec ident="requireType" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:orgName[parent::tei:org]">
+                <sch:assert test="@type">"<sch:name/>" elements in the registry organisations must have an attribute @type</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed" mode="add">
+                <valItem ident="reg"><desc>regular name</desc></valItem>
+                <valItem ident="alt"><desc>alternative name</desc></valItem>
+                <valItem ident="acronym"><desc>acronym</desc></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="key" module="att.canonical" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.orgRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model of element <location> -->
+        <elementSpec ident="location" module="namesdates" mode="change">
+          <content>
+            <alternate>
+              <elementRef key="placeName" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="geo" minOccurs="1" maxOccurs="1"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- 3. registry places -->
+        
+        <!-- specify content model, attributes an constraints of element <place> -->
+        <elementSpec ident="place" module="namesdates" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="placeName" minOccurs="1" maxOccurs="unbounded"/>
+              <elementRef key="location" minOccurs="1" maxOccurs="1"/>
+              <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+              <elementRef key="listPlace" minOccurs="0" maxOccurs="1"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="xml:id" module="att.global" mode="change" usage="req">
+              <datatype>
+                <dataRef key="asue.placeId"/>
+              </datatype>
+            </attDef>
+            <attDef ident="type" module="att.typed" mode="change" usage="req">
+              <valList type="closed" mode="add">
+                <valItem ident="country"><desc>Staat</desc></valItem>
+                <valItem ident="settlement"><desc>Siedlung</desc></valItem>
+                <valItem ident="district"><desc>Bezirk</desc></valItem>
+                <valItem ident="building"><desc>Adresse</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model, attributes an constraints of element <placeName> -->
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <!-- cf. registry stamps -->
+              <elementRef key="hi"/>
+              <elementRef key="lb"/>
+            </alternate>
+          </content>
+          <constraintSpec ident="requireType" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:placeName[parent::tei:place]">
+                <sch:assert test="@type">"<sch:name/>" elements in the registry places must have an attribute @type</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" mode="replace">
+              <valList type="closed" mode="add">
+                <valItem ident="reg"><desc>regular name</desc></valItem>
+                <valItem ident="alt"><desc>alternative name</desc></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="key" module="att.canonical" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.placeRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model of element <geo> -->
+        <elementSpec ident="geo" module="namesdates" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="1">
+              <dataRef key="empty"/>
+              <dataRef key="asue.geoCoords"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- 4. registry works -->
+        
+        <!-- a <bibl> element must have an attribute @sameAs with a string as value that matches asue.workId or asue.zoteroRef-->
+        <elementSpec ident="bibl" module="core" mode="change">
+          <content>
+            <alternate>
+              <textNode/>
+              <sequence>
+                <elementRef key="author" minOccurs="1" maxOccurs="unbounded"/>
+                <elementRef key="title" minOccurs="1" maxOccurs="1"/>
+                <elementRef key="idno" minOccurs="0" maxOccurs="unbounded"/>
+                <elementRef key="ref" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="date" minOccurs="0" maxOccurs="1"/>
+                <elementRef key="note" minOccurs="0" maxOccurs="unbounded"/>
+              </sequence>
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <elementRef key="title"/>
+                <elementRef key="date"/>
+                <elementRef key="persName"/>
+                <textNode/>
+              </alternate>
+              <!-- cf. registry events -->
+              <alternate minOccurs="1" maxOccurs="unbounded">
+                <textNode/>
+                <elementRef key="rs"/>
+                <elementRef key="ref"/>
+              </alternate>
+            </alternate>
+          </content>
+          <constraintSpec ident="partOfOtherWork" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:ref[@type eq 'partOf']">
+                <sch:assert test="id(substring-after(@target, '#'))">the value of @target must point to the @xml:id of another work defined in this file</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="sameAs" module="att.global.linking" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.sameAsRef"/>
+              </datatype>
+            </attDef>
+            <attDef ident="xml:id" module="att.global" mode="change" usage="opt">
+              <datatype>
+                <dataRef key="asue.workId"/>
+              </datatype>
+            </attDef>
+            <!-- add attribute @n which was deleted in ediarum.REGISTER -->
+            <attDef ident="n" module="att.global" mode="add" usage="opt">
+              <datatype>
+                <dataRef key="teidata.text"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model and attributes on element <author> -->
+        <elementSpec ident="author" module="namesdates" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="1">
+              <elementRef key="persName"/>
+              <textNode/>
+            </alternate>
+          </content>
+          <attList>
+            <attDef ident="role" module="att.naming" mode="replace" usage="req">
+              <valList type="closed" mode="add">
+                <valItem ident="composition"><desc>Komponist</desc></valItem>
+                <valItem ident="arrangement"><desc>Bearbeiter</desc></valItem>
+                <valItem ident="text"><desc>Textdichter</desc></valItem>
+                <valItem ident="translation"><desc>Übersetzer</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- 5. registry events -->
+        
+        <!-- specify content model of element <label> -->
+        <elementSpec ident="label" module="core" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="date"/>
+              <elementRef key="orgName"/>
+              <elementRef key="placeName"/>
+              <elementRef key="persName"/>
+            </alternate>
+          </content>
+          <constraintSpec ident="uniqueContent" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:label[parent::tei:event]">
+                <sch:assert test="not(./normalize-space() = (following::tei:label | preceding::tei:label)/normalize-space())">The label of an event should be unique. Check if there is a double entry!</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        
+        <!-- specify content model of element <desc> -->
+        <elementSpec ident="desc" module="core" mode="change">
+          <content>
+            <alternate>
+              <dataRef key="empty"/>
+              <elementRef key="list" minOccurs="1" maxOccurs="unbounded"/>
+              <!-- cf. registry terms -->
+              <textNode/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- <list> can have an attribute @type that must have one of the values "program" or "participants" if it is part of the registry events or "stampList" if it is part of the registry stamps -->
+        <elementSpec ident="list" module="core" mode="change">
+          <constraintSpec ident="typeInRegistryEvents" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:list[ancestor::tei:event]">
+                <sch:assert test="@type = ('program', 'participants')">The value of @type has to be "program" or "participants"</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="type" module="att.typed" mode="replace">
+              <valList type="closed">
+                <valItem ident="program"><desc>Liste der Programmpunkte (Ereignis-Register)</desc></valItem>
+                <valItem ident="participants"><desc>Liste der beteiligten Akteure (Ereignis-Register)</desc></valItem>
+                <valItem ident="stampList"><desc>Liste aller Stempel (Stempel/Vordrucke-Register)</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- specify content model and attributes and datatypes of element "rs" -->
+        <elementSpec ident="rs" module="core" mode="change">
+          <content>
+            <textNode/>
+          </content>
+          <attList>
+            <attDef ident="type" module="att.typed" mode="replace">
+              <valList type="closed">
+                <valItem ident="bibl"><desc>Bibliographische Referenz</desc></valItem>
+              </valList>
+            </attDef>
+            <attDef ident="key" module="att.canonical" mode="change">
+              <datatype>
+                <dataRef key="asue.zoteroRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- delete the attribute class "att.calendarSystem" which includes @calendar -->
+        <!--<classSpec type="atts" ident="att.calendarSystem" mode="delete"/>-->
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

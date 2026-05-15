@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17612"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 7. Februar 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17612</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17612</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1934-02-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.15.1">Brookline, 1284 Beacon Street</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2611"/>
+                    <ref type="response-to" target="letter.2622"/>
+                </correspContext>
+                <note>Beilagen: <ref target="document.24475">Bibliothek von Professor Arnold
+                        Schönberg, 1284 Beacon Street, Pelham Hall. Brookline – Mass., Februar
+                        1934</ref> und <ref target="document.24476">Rechnung, 6. Februar
+                    1934</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17612_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17612_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.115">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude<lb/>LEIPZIG·<placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                        <lb/>TEL. U 47-5-85<lb/>TELEGRAMM-ADRESSE:
+                        MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN 57557</stamp>
+                    <lb/>
+                    <persName key="pers.3612">S</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1934-02-07">7.
+                            Februar 1934</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">Pelham Hall</addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.15.15.1">1284 Beacon Street</placeName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <hi rendition="#g">Brookline</hi> – Mass.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Die <seg type="comment">
+                        <orig>Bibliotheken</orig>
+                        <note sameAs="letter.2611/#nuym_3gy_31c"/>
+                    </seg> gehen heute an Sie ab. Die Sendung hat sich <lb/>leider
+                    verzögert:</p>
+                <p>1.) weil ich die Vereinsbibliothek nicht finden konnte. Sie <lb/>war in einer
+                    Kiste verpackt und ich habe sie überall gesucht, vor <lb/>allem auf dem
+                        <placeName key="place.9.11.6.34">Boden am Kohlmarkt</placeName>, der riesig
+                    gross ist und auf dem <lb/>eine Menge Kisten stehen, durch alten Hausrat
+                    verstellt. Die ganzen <lb/>Prospekte, Mitgliedskarten, Statuten, Mitteilungen
+                    etc. habe ich ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>funden, aber die Noten
+                    nicht. Schliesslich fand ich die Kiste gut <lb/>
+                    <subst>
+                        <del rendition="#s">verpackt</del>
+                        <add place="superlinear">versteckt</add>
+                    </subst> auf unserem <placeName key="place.9.11.15.1">Boden in
+                        Pötzleinsdorf</placeName>.</p>
+                <p>2.) Durch die Inventurarbeiten in der <orgName key="org.1">U. E.</orgName> um
+                    Neujahr war <lb/>das Personal so beschäftigt, dass die Zusammenstellung und
+                    Expedition <lb/>nicht gleich vorgenommen werden konnte. Es waren eine Menge
+                        Formali<g ref="#typoHyphen"/>
+                    <lb break="no"/>täten beim hiesigen <orgName key="org.239">amerikanischen Konsulat</orgName> zu erfüllen. Die Liste
+                    <lb/>der Werke wird jetzt noch für die Expedition benötigt; sie folgt in
+                    <lb/>den nächsten Tagen. In den Vereinsbibliotheken fehlen die <seg type="comment">
+                        <orig>Strauss-<lb break="no"/>Walzer</orig>
+                        <note xml:id="nwrw_f4w_rxb" resp="#pkehrer">
+                            <bibl sameAs="werke.205">Johann Strauß/Arnold Schönberg, Rosen aus dem Süden op. 388 von
+                                Johann Strauß</bibl>; <bibl sameAs="werke.203">Johann Strauß/Arnold
+                                Schönberg, Lagunen-Walzer op. 411 von Johann Strauß</bibl>; <bibl sameAs="werke.204">Johann Strauß/Arnold Schönberg, Kaiser-Walzer op.
+                                437 von Johann Strauß</bibl>
+                        </note>
+                    </seg>. Ich glaube, <persName key="pers.3068">Rufer</persName> hat sie einmal für <placeName key="place.2.40">Hamburg</placeName> mit Ihrer Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>willigung ausgeborgt. Ich habe ihm geschrieben, dass er die betreffen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Noten direkt schicken soll.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Das „Es dur“ auf der <orgName key="org.131">Philharmonia</orgName>-Ausgabe der <bibl sameAs="werke.2">Kammersinfonie</bibl>
+                    ist <lb/>wirklich zu dumm. Im Innentitel ist es in allen Exemplaren überklebt
+                    <lb/>worden, auf dem Aussentitel aber nicht. Es wird aber jetzt in der gan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zen Auflage geändert.</p>
+                <p>
+                    <orgName key="org.3">Kolisch</orgName> hat hier gespielt und hatte riesigen
+                    Erfolg. Das Publi<g ref="#typoHyphen"/>
+                    <lb break="no"/>kum hat getobt und zwar
+                    nicht nur die Freunde. Sie spielen von Jahr <lb/>zu Jahr vollendeter.</p>
+                <p>Sehr schade ist es, dass Sie die <placeName key="place.15.1">Bostoner</placeName>
+                    <seg type="comment">
+                        <orig>Konzerte</orig>
+                        <note xml:id="nwfk_2jw_ycc" resp="#pkehrer"><ref target="event.89"/>; <ref target="event.90"/>
+                        </note>
+                    </seg> nicht dirigie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren konnten. Wird es noch möglich sein, dass Sie <subst>
+                        <del rendition="#s">es</del>
+                        <add place="across">sie</add>
+                    </subst> in dieser Saison <lb/>nachholen?</p>
+                <p>Eben erhalte ich die <ref target="document.24475">Listen</ref> mit der <ref target="document.24476">Konsulatsfaktura</ref>. Die Faktura <lb/>enthält die
+                    Bestätigung, dass die Noten zollfrei sind. Sie müssen sie <lb/>dort Ihrem
+                    Spediteur übergeben. Auf den Listen enthalten die ersten zwei <lb/>Seiten die
+                    Kurs-Bibliothek, die nächsten fünf die Vereinsbibliothek; die <lb/>restlichen
+                    Seiten größtenteils die neuen <orgName key="org.1">U. E.</orgName> Werke, zum
+                    Teil auch Vereinsnoten. <lb/>Die <orgName key="org.1">U. E.</orgName> schreibt
+                    Ihnen noch separat.</p>
+                <closer rendition="#r">
+                    <salute>Viele herzlichste Grüße Ihnen, Ihrer lieben <lb/>
+                        <persName key="pers.3297">Frau</persName> und <persName key="pers.3299">Nuria</persName>
+                        <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3612">Erwin Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

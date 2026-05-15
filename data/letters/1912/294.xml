@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.294"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 1. Februar 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.294</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 294</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1912-02-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24213"/>
+                </correspContext>
+                <note>Textverlust Seite 3 laut Kopie ergänzt</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-19+02:00" who="KBleier">Herausgeberstreichung</change><change when="2026-04-21+02:00" who="KBleier">Ergänzung hi</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/294_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.294_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline rendition="#c">
+                        <date when="1912-02-01">1./II. 1912</date>
+                    </dateline>
+                </opener>
+                <salute> Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>, </salute>
+                <p rendition="#inline">ich freue mich <hi rendition="#uu">außerordentlich</hi>, aus
+                    Ihrem <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nyf1_4jn_jwb">
+                            <ref target="letter.24213">Universal-Edition an Arnold Schönberg,
+                                zwischen 26. Jänner und 1. Februar 1912 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <lb/>zu entnehmen, dass Sie mich doch nicht ganz aufgeben wollen, <lb/>was mir
+                    umsolieber ist, als es mir ein ausgesprochenes Bedürfnis <lb/>ist, alle meine
+                    Werke bei der <orgName key="org.1">Universal Edition</orgName> zu haben.</p>
+                <p>Deshalb habe ich mich auch entschlossen, Ihnen in noch einigen <lb/>Dingen <hi
+                        rendition="#u">
+                        <seg type="comment">
+                            <orig>entgegenzukommen</orig>
+                            <note xml:id="nb2r_sby_4gc" resp="#TMuxeneder">„<persName
+                                    key="pers.1538">Herzka</persName> Brief geschrieben. Forderte
+                                Wiederherstellung meines ersten Vertrags. Wird wüthen. Muss es
+                                darauf ankommen lassen. Entweder – oder! Dieser Vertrag ist nicht
+                                einzuhalten. Da sähe ich ja nie einen Pfennig von meinen Sachen. Bin
+                                neugierig.“ (Arnold Schönberg, Versuch eines Tagebuchs, Eintrag vom
+                                1. Februar 1912; ASSV 7.1.)</note></seg>, um Ihnen den Abschluss unserer <lb/>Beziehungen zu erleichtern.</hi>
+                    Und zwar:</p>
+                <list>
+                    <item>1.) Ich begnüge mich, wenn Sie bereit sind meine <lb/>später folgenden
+                        Forderungen zu erfüllen mit einer <lb/>
+                        <del rendition="#s">2.)</del> Baarzalung <hi rendition="#u">von 500
+                            Mark</hi>
+                    </item>
+                    <item>2. und erkläre mich außerdem bereit, die <add place="superlinear">Partitur
+                            der</add>
+                        <bibl sameAs="werke.2">Kammer Sinp<choice>
+                                <sic>f</sic>
+                                <corr cert="high">h</corr>
+                            </choice>onie</bibl>
+                        <lb/>
+                        <hi rendition="#uu">selbst</hi>
+                        <add place="superlinear">eigenhändig</add> auf <hi rendition="#uu">Straube-Matritzen <seg type="comment">
+                                <orig>zu schreiben</orig>
+                                <note xml:id="np41_h41_vzb" resp="#KBleier">
+                                    <persName key="pers.3263">Arnold Schönberg</persName> hatte das
+                                    Werk inzwischen dem Verlag <orgName key="org.43">C. F.
+                                        Peters</orgName> angeboten, der jedoch auf eine
+                                    Inverlagnahme verzichtete (<ref target="https://schoenberg-peters.at/cfp/letters/letter.14928?ref=index.html">C. F. Peters an Arnold Schönberg, 20. Jänner 1912</ref>). Danach sandte er ein weiteres Angebot an
+                                        <orgName key="org.4">Tischer &amp; Jagenberg</orgName>
+                                    (Arnold Schönberg an Tischer &amp; Jagenberg, 21. Jänner 1912;
+                                        <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B002422">ASCC 242</ref>)</note>
+                            </seg>
+                        </hi>!!!</item>
+                    <item>3. Bin ich damit einverstanden, dass die in Rede stehenden <lb/>Werke bis
+                            <date when="1914">1914</date> herausgegeben werden müssen. Und zwar
+                        <lb/>innerhalb folgender Termine:</item>
+                </list>
+                <table rows="3" cols="2">
+                    <row>
+                        <cell>die <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.16">Gurrelieder</bibl>
+                                </orig>
+                                <note sameAs="letter.293/#nkyd_pgv_jgc"/>
+                            </seg>
+                        </cell>
+                        <cell rows="2">bis <subst>
+                                <del rendition="#s">Herbst</del>
+                                <add place="superlinear">
+                                    <date when="1912-09-01">1. September</date>
+                                </add>
+                            </subst> 1912</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>die</supplied>
+                            </ellipsis>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.24">Georgelieder</bibl>
+                                </orig>
+                                <note sameAs="letter.293/#nalz_3hv_jgc"/>
+                            </seg> und</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>die <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.2">Kammersinfonie</bibl>
+                                </orig>
+                                <note sameAs="letter.293/#nrw5_fk4_vzb"/>
+                            </seg>
+                        </cell>
+                        <cell>(deshalb schreibe ich die <hi rendition="#u"><bibl sameAs="werke.2">Kam. Sinf.</bibl></hi></cell>
+                    </row>
+                </table>
+                <p>selbst, was Ihnen <hi rendition="#u">Zeit und Geld</hi> erspart!)</p>
+                <milestone unit="section" rendition="#hr"/>
+                <table rows="2" cols="2">
+                    <row>
+                        <cell>
+                            <seg type="comment">
+                                <orig>der <bibl sameAs="werke.44">Chor</bibl>
+                                </orig>
+                                <note sameAs="letter.6953/#nbqr_dj5_xcc"/>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">bis Frühjahr <date when="1913">1913</date>
+                            </hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>die <seg type="comment">
+                                <orig>Lieder</orig>
+                                <note xml:id="nkdz_5kx_kwb">
+                                    <bibl sameAs="werke.46">Arnold Schönberg, Am Strande</bibl>; <bibl sameAs="werke.45">Arnold Schönberg, Zwei Lieder für
+                                            Gesang und Klavier op. 14</bibl>
+                                </note>
+                            </seg>
+                        </cell>
+                        <cell rows="2">
+                            <hi rendition="#u">bis Frühjahr</hi>
+                            <date when="1914">1914</date>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>und <bibl sameAs="werke.43">Balladen</bibl>
+                        </cell>
+                    </row>
+                </table>
+                <p>Dadurch sind Sie in der Lage etwaige neue Werke <lb/>von mir bequem zwischen
+                        <date when="1913">1913</date> und <date when="1914">1914</date>
+                    einzuschieben, wenn <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="2" unit="words"/>
+                    </del> das wichtig sein sollte.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Dagegen muss ich, da mich Ihr Brief auf verschiedene <lb/>Mängel unseres
+                    Vertrages <!-- erster Generalvertrag -->aufmerksam machte, auf einige<pb n="2" xml:id="p.2"/>Bedingungen bestehen, die ich im folgenden auseinandersetze.
+                    <lb/>(Ich las Ihren Brief erst gestern durch und begriff erst jetzt, wie
+                    <lb/>weitgehend ich gegen meinen Willen an Sie gebunden wäre, <lb/>und wie
+                    verhängnisvoll das für mich werden könnte, wenn Sie <lb/>diese betreffenden
+                    „Zusätze“ anwenden wollten.)</p>
+                <p>Nämlich: durch die verschiedenen Zusätze, die Sie zu <lb/>unserem Vertrag
+                    jedesmal gemacht haben<!--  Urheberrechtsabtretungen aus 1910? -->, sooft Sie
+                    ein <lb/>neues Werk erwarben, respektive mir einen Honorar-Vor<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>schuss gaben, ist unser erster Vertrag eigentlich vollständig
+                    <lb/>unwirksam worden. Nun ist ja dieser Vertrag an sich für <lb/>mich schon in
+                    der Hinsicht nicht sehr günstig, als ich, <hi rendition="#u">selbst wenn
+                        <lb/>ich ganz denselben Erfolg hätte wie <persName key="pers.3750">Rich.
+                            Strauss</persName>
+                    </hi> es <lb/>
+                    <hi rendition="#uu">bei meinen Lebzeiten nicht zu dem 10. Teil seiner
+                        Honorare</hi>
+                    <lb/>bringen könnte. <hi rendition="#u">Selbst nicht wenn ich einen größeren
+                        <lb/>Erfolg</hi> hätte!!! Nun ich aber durch Ihren Brief die ver<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>schiedenen Zusätze voll verstanden habe, sehe ich, dass ich ja
+                    <lb/>eigentlich aller meiner Ansprüche <add place="superlinear">auf
+                        Honorare</add> auf mein zukünftiges <lb/>Schaffen verlustig gienge. Und Sie
+                    werden nun ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>sehen, dass es mir nicht möglich sein könnte unter <lb/>solchen
+                    Umständen einen noch 8 Jahre laufenden Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>trag einzuhalten. Ich weiß, dass Sie das damals nicht <lb/>taten
+                    um mich zu schädigen; Im Gegenteil: ich bin <lb/>fest überzeugt, <hi
+                        rendition="#u">dass Sie mein Bestes wollen</hi> und dass <lb/>Sie diese
+                    Veränderungen nur vornahmen, um <hi rendition="#u">momen<g ref="#typoHyphen"/>
+                        <lb break="no"/>tan</hi> eine Möglichkeit zu schaffen, mir eine Summe
+                    <lb/>auszuzahlen, ohne etwas zu drucken. Da Sie sich aber <lb/>jetzt
+                    entschließen wollen, die betreffenden Werke <lb/>zu drucken, da also somit diese
+                    Werke vollgültiges <lb/>Unterpfand werden für Ihre Barzahlungen, ist es nun
+                    <lb/>wohl für Sie ein Leichtes, diese wohl nur provi<g ref="#typoHyphen"/>
+                    <lb break="no"/>sorischen Abmachungen jetzt zu annullieren und<pb n="3"
+                        xml:id="p.3"/> damit den ersten Vertrag wieder in seine Rechte treten zu
+                    <lb/>lassen.</p>
+                <p>Meine Bedingung lautet demnach:</p>
+                <list>
+                    <item>I. die mir von Ihnen seit Beginn unseres Vertrages für <lb/>
+                        <supplied cert="high">mei</supplied>ne Kompositionen ausgezahlten Beträge,
+                        werden <subst>
+                            <del rendition="#s">genau</del>
+                            <add place="superlinear">beiläufig</add>
+                        </subst>
+                        <lb/>
+                        <supplied cert="high">na</supplied>ch dem Schlüssel den der erste Vertrag
+                        dafür angiebt (10 % <lb/>
+                        <supplied cert="high">vo</supplied>m Ladenpreis der ersten 300 Exemplare)
+                        aufgeteilt.</item>
+                    <item>II. die für theoretische Werke gezalten Summen stehen auf <lb/>einem
+                        eigenen Konto und werden nicht mit den Kompositionen <lb/>verquickt</item>
+                    <item>III. da sich durch diese Aufteilung eine zu große Summe <lb/>ergiebt, die
+                        Sie mir jedenfalls nicht auszahlen wollen, <lb/>
+                        <supplied cert="high">ko</supplied>mme ich Ihnen in der Weise entgegen, dass
+                        ich mich mit <lb/>einer Barzalung von 500 Mark begnüge und auf den <lb/>Rest
+                        verzichte.</item>
+                    <item>IV. dagegen gelten <hi rendition="#u">alle</hi> den ersten Vertrag
+                            einschrän<g ref="#typoHyphen"/>
+                        <lb break="no"/>kenden nachträglichen Zusätze als aufgehoben, mit Ausnahme
+                        <lb/>jener beiden Punkte unserer <seg type="comment">
+                            <orig>Abmachungen</orig>
+                            <note xml:id="ncjb_dtm_2bc" resp="#pkehrer">
+                                <ref target="letter.24483">Universal-Edition an Arnold Schönberg?,
+                                    22. November 1910 [erschlossen]</ref>
+                            </note>
+                        </seg> vom 22/11.1910 <lb/>in welchen <del rendition="#s">einige</del> zwei
+                        Punkte unseres Hauptvertrages in<g ref="#typoHyphen"/>
+                        <lb break="no"/>terpretiert werden. Nämlich: den unter Absatz 5) genannten <lb/>
+                        <supplied cert="high">d</supplied>ieses Briefes vom 22/11.1910, soweit sie
+                        nicht dieser <del rendition="#s">heutigen</del>
+                        <lb/>vorliegenden Bedingung widersprechen.</item>
+                    <item>V. dagegen treten nun wieder die übrig bleibenden <lb/>Bestimmungen
+                        unseres Hauptvertrages in Kraft; insbesondere <lb/>die, dass ich für jedes
+                        neue von Ihnen erworbene Werk den <lb/>vertrags mäßigen Honorar-Vorschuss
+                        ausgezahlt erhalte.</item>
+                    <item>VI. dafür, dass ich die <bibl sameAs="werke.2">Kammersymphonie</bibl>
+                        selbst schreibe, <lb/>
+                        <subst>
+                            <del rendition="#s">erhalte ich</del>
+                            <add place="superlinear">werden mir</add>
+                        </subst> von Ihnen für dieses Werk statt 10 %, jedes<g ref="#typoHyphen"/>
+                        <lb break="no"/>mal 15 % vom Ladenpreis gutgeschrieben. (<subst>
+                            <del rendition="#ow">Sein</del>
+                            <add place="across">Den</add>
+                        </subst> Vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>schuss berechnen wir noch nach 10 %).</item>
+                </list>
+                <p>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>, ich fürchte <choice>
+                        <sic>(</sic>
+                        <corr type="deleted"/>
+                    </choice>Sie sind ja <lb/>
+                    <supplied cert="high">(</supplied>da Sie ein selbständiger und ideenreicher
+                    Mensch sind) <pb n="4" xml:id="p.4"/>ein wenig behaftet mit jener Erregbarkeit,
+                    welche selbständige <lb/>Menschen auszeichnet. Deshalb fürchte ich, dass Sie im
+                    ersten <lb/>Moment, wenn Sie diesen Brief lesen, in Zorn gera<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten werden und vielleicht in diesem ersten Zorn etwas
+                    <lb/>täten, was weder meinem noch Ihrem Interesse dient. <lb/>Ich weiß das, denn
+                    ich bin (leider!) selbst so!! Wäre <lb/>ich bei Ihnen, so bin ich überzeugt, es
+                    gelänge mir, Sie <lb/>zu beschwichtigen. Und Sie sehen ja: ich verwende alle
+                    <lb/>meine Farbenkünste um Sie mir freundlich ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sinnt zu erhalten. Und ich bitte Sie dringend, lesen <lb/>Sie
+                    diesen Brief noch einmal. Denken Sie mit <lb/>Freundschaft an mich! Versuchen
+                    Sie ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>mal sich auf meinen Standpunkt zu stellen. <lb/>Und vor Allem:
+                        <hi rendition="#u">Ueberlegen Sie, wie wenig ich <lb/>eigentlich
+                        verlange!!!!</hi>
+                </p>
+                <p>Denn was besag<subst>
+                        <del rendition="#ow">t</del>
+                        <add place="across">en</add>
+                    </subst> diese<del rendition="#s">r</del>
+                    <del rendition="#s">Bri</del> Forderungen eigentlich. <lb/>Nichts anderes, als
+                    dass ich jenen ersten Vertrag wieder <lb/>hergestellt haben will, den Sie
+                    seinerzeit <lb/>
+                    <hi rendition="#uu">aus eigenem freien Willen</hi> mit mir geschlossen
+                    <lb/>haben (und der ja <add place="superlinear">materiell</add> nicht einmal
+                    sehr günstig für mich ist!!) <lb/>Und dafür bin ich bereit ein <hi
+                        rendition="#u">Opfer von <lb/>1000 Mark</hi> zu bringen<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <add place="superlinear">und die <bibl sameAs="werke.2">Kammersymphonie</bibl>
+                        selbst zu schreiben!</add> Ich, ein armer Musikant, <lb/>der Geld sehr
+                    dringend braucht. (Denn ich kann Ihnen <lb/>sagen, es ist mir ein Leichtes
+                    innerhalb 8 Tagen für diese <lb/>5 Werke 1500 Mark zu bekommen!!) Aber ich
+                    bringe dieses <lb/>Opfer, erstens weil ich mit Ihnen in <hi rendition="#u"
+                        >freundschaftlichen</hi>
+                    <lb/>Beziehungen bleiben will, zweitens weil es unmöglich <lb/>ist mit einem
+                    Verlag zu arbeiten, wenn man mit<pb n="6" xml:id="p.6"/> ihm nicht auf gutem Fuß
+                    steht; und drittens (und dafür <lb/>müsste ich das Äußerste riskieren) weil ich
+                    nicht in der <lb/>Lage bin auf die Einkünfte aus meinen Kompositionen
+                    <lb/>solange zu verzichten, bis die <del rendition="#s">Honorare</del>
+                    Vorschüsse, die <lb/>ich von Ihnen habe (und die mir eigentlich vertraglich
+                    zustehen) <lb/>durch den Verkauf von Noten gedeckt sind, obwol <lb/>unser erster
+                    Vertrag das Gegenteil davon ausspricht.</p>
+                <p>Und das ist doch wirklich wenig: nur den ersten <lb/>Vertrag will ich wieder
+                    haben! Den Sie ja selbst <lb/>mir angeboten haben.</p>
+                <p>Und die nachträglichen Zusätze, die ja nur einem <lb/>momentanen Bedürfnis
+                    entsprangen, und die ja <lb/>jetzt wo ich allenthalben Aufführungen und auch
+                    Erfolge <lb/>habe, überflüssig sind und durch den Druck der Wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>ke entfallen können.</p>
+                <p>Ich bitte Sie <hi rendition="#uu">vielmals</hi>: stellen Sie sich auf <lb/>meinen
+                    Standpunkt!! Vergegenwärtigen Sie sich <lb/>meine Situation!!! Alle Komponisten
+                    meines <lb/>Ranges erhalten von Ihren Verlegern hohe Summen. <lb/>Das 10fache
+                    (und mehr!!) von dem was ich bekommen <lb/>soll. Und ich verlange <hi
+                        rendition="#uu">nur</hi>: dass ich dieses 1/100 bis 1/10 <lb/>wenigstens
+                    bekomme! (Obwohl ich es andererseits <lb/>mehrfach haben könnte! Ist das
+                    wirklich unbescheiden? <lb/>Lieber Herr <rs type="person" key="pers.1538"
+                        >Direktor</rs>, Sie wissen dass ich Sie <lb/>sehr gerne habe und ich habe
+                    vor Allem an Ihnen <lb/>nebst Ihrer <hi rendition="#uu">hervorragenden</hi>
+                    kaufmännischen Intelligenz <lb/>und Ihrem Interesse für moderne Musik, vor Allem
+                    <lb/>und über Alles geschätzt, dass Sie ein <hi rendition="#uu">guter
+                        Mensch</hi><pb n="7" xml:id="p.7"/> sind. Ich darf Sie deshalb wohl bitten:
+                        <hi rendition="#u">Stellen Sie</hi>
+                    <lb/>sich auf meinen Standpunkt, auf den des <lb/>
+                    <hi rendition="#u">ökonomisch-Schwächeren</hi>!! Und entscheiden Sie nicht
+                    <lb/>nach dem Buchstaben Ihres Vertrages, sondern nach <lb/>jenem richtigen
+                    Gefühl, mit dem Sie mir ja sooft <lb/>beizuspringen bereit waren, wenn ich in
+                    Not war.</p>
+                <p>Und ich <hi rendition="#uu">bitte Sie</hi>: ändern Sie nichts an den <add place="superlinear">klaren</add> Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>dingungen, die ich gestellt habe. Denn, <hi rendition="#u">so
+                        leid</hi> es mir <lb/>täte, ich könnte nichts anderes annehmen. <hi rendition="#u">Verlieren</hi>
+                    <lb/>wir <hi rendition="#u">nicht dadurch Zeit</hi>!! Denn ich fürchte sehr
+                    <lb/>ich könnte nicht lange mehr warten! Und ich <lb/>bitte lassen Sie mich
+                    nicht auf Antwort warten, <lb/>sondern schreiben Sie mir umgehend, so dass ich
+                    <lb/>Ihre Antwort spätestens am Montag (<date when="1912-02-05">5.
+                        Februar</date>) habe. <lb/>Denn ich muss <hi rendition="#uu">Klarheit</hi>
+                    haben. Und unser gegenwärtiges <lb/>Verhältnis ist zu unklar, zu verworren, als
+                    dass <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> sich dabei nicht fortwährend Reibereien heraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellten! Und ich wünsche Ruhe, Klarheit und Freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichkeit!</p>
+                <p>Und Sie doch auch! Nicht wahr?</p>
+                <closer>
+                    <salute>Ich grüße Sie einstweilen in aller Herzlichkeit <lb/>und hoffe <hi rendition="#u">bestimmt</hi> auf eine freundschaftliche Antwort.
+                        Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div type="appendix">
+                <pb n="8" xml:id="p.8"/>
+                <p>Für die Verteilung der Vorschüsse auf die Werke schlage ich folgendes vor:
+                    <lb/>Ich sollte vertraglich bekommen (300 mal 10 %) <lb/>für</p>
+                <table rows="11" cols="4">
+                    <row>
+                        <cell>I. Klavierstücke</cell>
+                        <cell>à 3 Kr.</cell>
+                        <cell>90 Kronen</cell>
+                        <cell>–––––</cell>
+                        <cell>90 Kronen</cell>
+                    </row>
+                    <row>
+                        <cell>II. <bibl sameAs="werke.11">Orchesterlieder</bibl>
+                        </cell>
+                        <cell>à 9.60</cell>
+                        <cell>288 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>250 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>III. <bibl sameAs="werke.5">Pelleas</bibl>
+                        </cell>
+                        <cell>à 48.-</cell>
+                        <cell>1440 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>
+                            <subst>
+                                <del rendition="#ow">6</del>
+                                <add place="across">7</add>
+                            </subst>00 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>600!</cell>
+                    </row>
+                    <row>
+                        <cell>IV. <bibl sameAs="werke.16">Gurrelieder</bibl>
+                        </cell>
+                        <cell>à 24.-</cell>
+                        <cell>720 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>600 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>V. <bibl sameAs="werke.7">Monodram</bibl>
+                        </cell>
+                        <cell>à 12.-</cell>
+                        <cell>360 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>300 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>VI <bibl sameAs="werke.50">Glückliche Hand</bibl>
+                        </cell>
+                        <cell>à 12.-</cell>
+                        <cell>360 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>300 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>VII <bibl sameAs="werke.2">Kammersinf</bibl>.</cell>
+                        <cell>à 24.-</cell>
+                        <cell>740.– <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>650 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>VIII <bibl sameAs="werke.24">George Lieder</bibl>
+                        </cell>
+                        <cell>à 9.60</cell>
+                        <cell>288.– <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>250 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>IX <bibl sameAs="werke.44">Chor</bibl>
+                        </cell>
+                        <cell>à –.86</cell>
+                        <cell>108.– <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>100 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>X. <bibl sameAs="werke.43">Balladen</bibl>
+                        </cell>
+                        <cell>à 6</cell>
+                        <cell>180.– <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>150 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Kronen</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>XI Drei <seg type="comment">
+                                <orig>Lieder</orig>
+                                <note sameAs="letter.294/#nkdz_5kx_kwb"/>
+                            </seg>
+                        </cell>
+                        <cell>à 4</cell>
+                        <cell>
+                            <hi rendition="#u">120.– <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Kronen</supplied>
+                                </ellipsis>
+                            </hi>
+                        </cell>
+                        <cell>–––––</cell>
+                        <cell>
+                            <hi rendition="#u">100 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Kronen</supplied>
+                                </ellipsis>
+                            </hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>4694.–</cell>
+                        <cell/>
+                        <cell>3<subst>
+                                <del rendition="#ow">4</del>
+                                <add place="across">3</add>
+                            </subst>90 Kronen!</cell>
+                    </row>
+                </table>
+                <p rendition="#r">Das sind doch sehr niedrige <lb/>Ansätze!! Nicht wahr</p>
+                <p>Ich habe erhalten:</p>
+                <table rows="3" cols="3" rendition="#small">
+                    <row>
+                        <cell>2800 Kronen</cell>
+                        <cell>und beanspruche noch</cell>
+                        <cell>500 Mark =</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rendition="#u">600</hi>
+                        </cell>
+                        <cell/>
+                        <cell>600 Kron</cell>
+                    </row>
+                    <row>
+                        <cell>3400.–</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </table>
+                <p>Die Verteilung kann also so erfolgen, <lb/>wie die rechts stehenden Zahlen
+                    angeben</p>
+            </div>
+        </body>
+    </text>
+</TEI>

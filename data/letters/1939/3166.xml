@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.3166"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 28. Februar 1939</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.3166</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und
+                            darstellende Kunst Wien</institution>
+                        <repository>Wissenschaftszentrum Arnold Schönberg und die Wiener
+                            Schule</repository>
+                        <collection>Archiv der Universal Edition, Depositum</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 3166</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-I6XZLIU9">ASGA B 9</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                    <date when="1939-02-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17767"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-02-16+02:00" who="KBleier">Korrektur Werk</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/3166_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.3166_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.100">
+                        <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        <lb/>
+                        <placeName key="place.15.7.3.1">116 NORTH ROCKINGHAM AVENUE</placeName>
+                        <lb/>BRENTWOOD PARK<lb/>LOS ANGELES, CALIF.<lb/>TELEPHONE: W. L. A.
+                        35077</stamp>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition, A. G.</orgName>
+                        </addrLine>
+                        <addrLine>I. <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                        <addrLine>Wien</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1939-02-28">28.II.1939</date>
+                    </dateline>
+                </opener>
+                <salute>Sehr geehrte Herren,</salute>
+                <p>Ich kann <del rendition="#s">augenblicklich</del> meine Notizen <lb/>über nicht
+                    verrechnete Aufführungen im Augenblick <lb/>unter meinen Papieren nicht finden
+                    und es wird einige <lb/>Zeit dauern, bis ich dazu komme, sie zu suchen. Ich kann
+                    <lb/>Ihnen daher, aus dem Gedächtnis nur ein paar Daten <lb/>geben, aber die
+                    sind bezeichnend.</p>
+                <p>Ich habe vor fuenf Jahren (im <date when="1935-02">Februar 1935</date>) <lb/>in
+                        <placeName key="place.15.16">San Francisco</placeName>
+                    <seg type="comment">
+                        <orig>selbst dirigiert</orig>
+                        <note xml:id="nssy_45l_ncc" resp="#pkehrer">
+                            <ref target="event.63"/></note>
+                    </seg>
+                    <!-- ASCC 2559 und ASCC 23239 vom 6.3.: "Hier gibt Arnold ein Konzert, dann am 22ten in Los Angeles". Urfassung von op. 9, nicht die Orchesterfassung.-->
+                </p>
+                <table rows="2" cols="1">
+                    <row>
+                        <cell>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <bibl sameAs="werke.2">Kammersymphony</bibl> und <note place="inline" hand="#addressee"> ∅ Abrechg. erhalten v <orgName key="org.23">A.M.P.</orgName>
+                            </note>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <bibl sameAs="werke.54">Pierrot lunaire</bibl>. <note place="inline" hand="#addressee"> ∅ <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Abrechg.</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>erhalten</supplied>
+                                </ellipsis> v <orgName key="org.23">
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>A.</supplied>
+                                    </ellipsis>
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>M.</supplied>
+                                    </ellipsis>
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>P.</supplied>
+                                    </ellipsis>
+                                </orgName>
+                            </note>
+                        </cell>
+                    </row>
+                </table>
+                <p>Für diese Werke hat der <rs type="org" key="org.237">Verein</rs>
+                    <hi rendition="#u">$ 50</hi> an <orgName key="org.23">Ass.
+                        <lb/>Publishers</orgName> bezahlt.</p>
+                <p>Ich habe <bibl sameAs="werke.5">Pelleas und Melisande</bibl> dirigiert
+                    <lb/>in</p>
+                <table rows="2" cols="1">
+                    <row>
+                        <cell>
+                            <note place="inline" hand="#addressee">
+                                <metamark function="done">⎣</metamark>Amp Revers 981 $ 18.75 = M
+                                46.30 <seg type="comment">
+                                    <orig>verr. <date when="1938-12-31">31.12.38</date>
+                                    </orig>
+                                    <note xml:id="na2g_tfz_qvb"><ref target="document.24091">Abrechnung, 24. Februar
+                                            1939</ref></note>
+                                </seg> und <add place="superlinear">von</add>
+                                <metamark function="done">⎣</metamark>$ 3.54 A Tant. 66 2/3 % $
+                                2.36</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <seg type="comment">
+                                <orig>
+                                    <placeName key="place.15.16">San
+                                        Francisco</placeName>
+                                </orig>
+                                <note xml:id="ntzb_2vl_ncc" resp="#pkehrer">
+                                    <ref target="event.61"/>
+                                </note>
+                            </seg> und</cell>
+                        <cell>(<date when="1937">1937</date> oder <date when="1938">1938</date>)
+                                <note place="right" hand="#addressee">
+                                <date when="1938-12-31">31/12 38</date>
+                            </note>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <note place="inline" hand="#addressee">
+                                <hi rendition="#u">amp</hi> Revers 874 $ 18.75 = S 99.38 <seg type="comment">
+                                    <orig>verr. <date when="1937-06-30">30.6.37</date>
+                                    </orig>
+                                    <note xml:id="nkhf_4gz_qvb"><ref target="document.24051">Abrechnung, 16. Juli 1937</ref>
+                                    </note>
+                                </seg> und <add place="superlinear">von</add>
+                                <metamark function="done">⎣</metamark>$ 3.54 Auffgst. 66 2/3 % $
+                                2.36</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <seg type="comment">
+                                <orig>
+                                    <placeName key="place.15.7">Los
+                                        Angeles</placeName>
+                                </orig>
+                                <note xml:id="ndvv_4vl_ncc" resp="#pkehrer">
+                                    <ref target="event.62"/>
+                                </note>
+                            </seg>.</cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>(<date when="1937">1937</date> oder <date when="1938">1938</date>)</supplied>
+                            </ellipsis>
+                            <note place="right" hand="#addressee">
+                                <date when="1937-06-30">30/6.37</date>
+                            </note>
+                        </cell>
+                    </row>
+                </table>
+                <p>
+                    <persName key="pers.252">Bach</persName>
+                    <bibl sameAs="werke.32">Präludium und Fuge</bibl> in </p>
+                <table rows="2" cols="3">
+                    <row>
+                        <cell>
+                            <placeName key="place.15.7">Los Angeles</placeName>
+                        </cell>
+                        <cell>
+                            <note place="left" hand="#addressee">amp <add place="intralinear">⎣</add>Rev. 288 (<add place="superlinear">netto</add> $ 23.33)
+                                = S 165.76 für <gap reason="illegible" unit="chars" quantity="2"/>
+                                <seg type="comment">
+                                    <orig>verr <date when="1931-06-30">30.6.31</date>
+                                    </orig>
+                                    <note xml:id="ngjh_33z_qvb"><ref target="document.24069">Abrechnung, 25. August 1931</ref>. Die hier verrechnete
+                                        Aufführung <ref target="event.70"/> ist vermutlich keine der
+                                        von <persName key="pers.3263">Schönberg</persName>
+                                        gemeinten, da er nicht selbst dirigierte</note>
+                                </seg>
+                                <lb/>amp <metamark function="done">⎣</metamark>Rev. 642 (<add place="superlinear">netto</add> $ 16.17) = S 86.12 für 1 <gap reason="illegible" unit="chars" quantity="2"/>
+                                <seg type="comment">
+                                    <orig>verr <date when="1935-06-30">30.6.35</date>
+                                    </orig>
+                                    <note xml:id="nphm_w3z_qvb"><ref target="document.24058">Abrechnung, 30. Juni 1935</ref>
+                                    </note>
+                                </seg> unter N York u <add place="superlinear">v</add>
+                                <metamark function="done">⎣</metamark>$ 5.40 AT NY 66 2/3</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <seg type="comment">
+                                <orig>3-mal</orig>
+                                <note xml:id="ndj4_kkr_ncc" resp="#pkehrer"><ref target="event.59"/>; <ref target="event.60"/>
+                                    <p>Drittes Konzert nicht identifiziert; auch das
+                                        Antwortschreiben <ref target="letter.20732">Universal-Edition an Arnold Schönberg, 16. März
+                                            1939</ref> erwähnt nur zwei Aufführungen</p>
+                                </note>
+                            </seg>
+                            <note place="inline" hand="#addressee">verr</note>
+                        </cell>
+                        <cell>
+                            <note place="right" hand="#addressee">
+                                <add place="intralinear">⎣</add>Rev 543 u 569 – <add place="superlinear">netto</add> $ 22.75 = S 119.51 – <seg type="comment">
+                                    <orig>verr <date when="1934-06-30">30.6.34</date>
+                                    </orig>
+                                    <note xml:id="nywm_p2b_rvb"><ref target="document.24061">Abrechnung, 14. Juli 1934</ref>
+                                    </note>
+                                </seg>
+                                <lb/>$ 14.38 66 2/3 %</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>in <placeName key="place.15.5">Chicago</placeName>
+                            <seg type="comment">
+                                <orig>2mal</orig>
+                                <note xml:id="ny15_skr_ncc" resp="#pkehrer"><ref target="event.52"/>; <ref target="event.53"/>
+                                </note>
+                            </seg>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <placeName key="place.15.17">San Diego</placeName>
+                        </cell>
+                        <cell>
+                            <note place="left" hand="#addressee">amp <add place="intralinear">⎣</add>Rev. 1078 $ 15.– = M 37.20 <seg type="comment">
+                                    <orig>verr. <date when="1938-12-31">31.12.38</date>
+                                    </orig>
+                                    <note xml:id="nsxl_lkz_qvb"><ref target="document.24091">Abrechnung, 24. Februar 1939</ref></note>
+                                </seg> und $ 2.84 – 66 2/3 % AT</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <seg type="comment">
+                                <orig>1-mal</orig>
+                                <note xml:id="ntkg_wkr_ncc" resp="#pkehrer">
+                                    <ref target="event.54"/>
+                                </note>
+                            </seg>
+                            <note place="inline" hand="#addressee">verr</note>
+                        </cell>
+                        <cell>
+                            <note place="inline" hand="#unknown">v $ 7.78 – 66 2/3 A.T.</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>in</supplied>
+                            </ellipsis>
+                            <placeName key="place.15.1">Boston</placeName>
+                            <seg type="comment">
+                                <orig>2 mal</orig>
+                                <note xml:id="nqhs_2lr_ncc" resp="#pkehrer"><ref target="event.55"/>; <ref target="event.56"/>
+                                </note>
+                            </seg>
+                            <note place="right" hand="#addressee">amp Rev 891 <seg type="comment">
+                                    <orig>
+                                        <add place="superlinear">verr</add>
+                                        <date when="1937-06-30">30.6.37</date>
+                                    </orig>
+                                    <note xml:id="nsjp_bdc_wxb" resp="#pkehrer"><ref target="document.24051">Abrechnung, 16. Juli
+                                        1937</ref>
+                                    </note>
+                                </seg>
+                                <lb/>$ 22.50 = S 119.25 <lb/>$ 18.75 = S 99.38</note>
+                        </cell>
+                    </row>
+                </table>
+                <p>
+                    <bibl sameAs="werke.14">Verklaerte Nacht</bibl> in</p>
+                <table rows="3" cols="3">
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>
+                            <note place="inline" hand="#addressee">v $ 11.11 – 66 2/3 AT</note>
+                            <metamark function="done" hand="#addressee">⎣</metamark>in <placeName key="place.15.5">Chicago</placeName>
+                            <seg type="comment">
+                                <orig>2-mal</orig>
+                                <note xml:id="nxbp_1mr_ncc" resp="#pkehrer"><ref target="event.52"/>; <ref target="event.53"/>
+                                </note>
+                            </seg>
+                            <note place="right" hand="#addressee">amp 542 u 568 <lb/>$ 16.11 S 85.76 <lb/>
+                                <seg type="comment">
+                                    <orig>verr <lb/>
+                                        <date when="1934-06-30">30.6.34</date>
+                                    </orig>
+                                    <note xml:id="nnvf_flz_qvb"><ref target="document.24061">Abrechnung, 14. Juli 1934</ref>
+                                    </note>
+                                </seg>
+                            </note>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <note place="left" hand="#addressee">✓ Mat Kauf F39761 $ 35.– <subst>
+                                    <del rendition="#ow">S</del>
+                                    <add place="across">K</add>
+                                </subst> 2,482.700.– <seg type="comment">
+                                    <orig>verr <date when="1924-12-31">31.12.24</date>
+                                    </orig>
+                                    <note xml:id="nrjw_nlz_qvb">Nicht nachweisbar</note>
+                                </seg>
+                                <lb/>amp Revers 734 netto $ 10.62 S 53.10 <seg type="comment">
+                                    <orig>verr <date when="1936-06-30">30.6.36</date>
+                                    </orig>
+                                    <note xml:id="nq2n_4lz_qvb"><ref target="document.24089">Abrechnung, 30. Juni
+                                        1936</ref></note>
+                                </seg>
+                                <lb/>✓ <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>amp</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Revers</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>734</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>netto</supplied>
+                                </ellipsis> $ 3.55 66 2/3 AT <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>verr</supplied>
+                                        </ellipsis>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>30.6.36</supplied>
+                                        </ellipsis>
+                                    </orig>
+                                    <note xml:id="niyc_dmz_qvb"><ref target="document.24089">Abrechnung, 30. Juni 1936</ref>
+                                    </note>
+                                </seg>
+                            </note>
+                            <placeName key="place.15.7">Los Angeles</placeName>
+                            <note place="inline" hand="#addressee">Revers 625 – $ 11.50 – 66 2/3 – 2
+                                    <gap reason="illegible" unit="chars" quantity="1"/>
+                                <lb/>
+                                <seg type="comment">
+                                    <orig>verr 30/6 35</orig>
+                                    <note xml:id="nwpn_3mz_qvb"><ref target="document.24058">Abrechnung, 30. Juni 1935</ref>
+                                    </note>
+                                </seg>
+                            </note>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>3-mal</orig>
+                                <note xml:id="nwd3_fmr_ncc" resp="#pkehrer"><ref target="event.59"/>; <ref target="event.60"/>; <ref target="event.69"/>
+                                </note>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <note place="inline" hand="#addressee">∅ Abr. erhalten</note>
+                            <add place="intralinear" hand="#addressee">⎣</add>in <placeName key="place.15.1">Boston</placeName>
+                            <seg type="comment">
+                                <orig>2-mal</orig>
+                                <note xml:id="nmhn_5mr_ncc" resp="#pkehrer"><ref target="event.57"/>; Welches zweite Konzert
+                                    gemeint ist, ist unklar</note>
+                            </seg>.</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <metamark function="done" hand="#addressee">⎣</metamark>
+                            <placeName key="place.15.17">San Diego</placeName>
+                            <note place="inline" hand="#addressee">
+                                <hi rendition="#u">∅ Abr. erhalt</hi>
+                            </note>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>1-mal</orig>
+                                <note xml:id="nc3b_dnr_ncc" resp="#pkehrer">
+                                    <ref target="event.54"/>
+                                </note>
+                            </seg>
+                        </cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>
+                    <bibl sameAs="werke.3">Kammersymphonie</bibl> in</p>
+                <table rows="1" cols="2">
+                    <row>
+                        <cell>
+                            <note place="inline" hand="#addressee">∅ Abr. erhalten</note>
+                            <placeName key="place.15.7">Los Angeles</placeName>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>1-mal</orig>
+                                <note xml:id="nhsv_z31_4cc" resp="#pkehrer">
+                                    <p>
+                                        <ref target="event.69"/>
+                                    </p>
+                                    <p>Die <bibl sameAs="werke.3">Kammersymphonie op. 9b</bibl> ist nicht bei
+                                    der <orgName key="org.1">UE</orgName> erschienen, insofern ist
+                                    unklar, warum <persName key="pers.3263">Schönberg</persName> sie
+                                    hier erwähnt</p>
+                                </note>
+                            </seg>
+                            <note place="inline" hand="#addressee">
+                                <add place="intralinear">⎣</add>Mat im Jahr <date when="1924">1924</date> gekauft</note>
+                        </cell>
+                    </row>
+                </table>
+                <p>
+                    <persName key="pers.1885">Klemperer</persName> hat <metamark function="done" hand="#addressee">⎣</metamark>
+                    <bibl sameAs="werke.14">Verklaerte Nacht</bibl> in <placeName key="place.15.7">Losangeles</placeName>
+                    <seg type="comment">
+                        <orig>2-mal</orig>
+                        <note xml:id="nfcr_4nr_ncc" resp="#pkehrer"><ref target="event.59"/>; <ref target="event.60"/>
+                        </note>
+                    </seg> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>spielt, ausserdem <metamark function="done" hand="#addressee">⎣</metamark>„<seg type="comment">
+                        <orig>Lied der Wal<supplied cert="high">d</supplied>taube</orig>
+                        <note xml:id="nmbk_b5s_ncc" resp="#pkehrer">
+                            <ref target="event.68"/>
+                        </note>
+                    </seg>. <note place="inline" hand="#addressee">
+                        <metamark function="done">⎣</metamark>∅ Abr. erhalten</note>
+                </p>
+                <p>Ich will nicht andere Auffuehrungen deren <lb/>Daten ich vergessen habe, aus dem
+                    Gedaechtnis erwähnen, <lb/>aber ich weiss auch da eine erkleckliche Anzahl –
+                    darunter <lb/>Aufführungen bei denen ich anwesend war und mich verbeugt
+                    <lb/>habe oder solche über welche mir Zeitungsausschnitte zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>gesendet wurden</p>
+                <p>Ich erinnere mich eben an Auffü<supplied cert="high">h</supplied>rungen des <choice>
+                        <sic>B</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>
+                    <note place="left" hand="#addressee">∅ Abr. erhalten?</note>
+                    <metamark function="done" hand="#addressee">⎣</metamark>
+                    <bibl sameAs="werke.59">Bläserquintetts</bibl> und
+                    des <add place="intralinear" hand="#addressee">⎣</add>
+                    <bibl sameAs="werke.63">3. Streichquartetts</bibl> in <seg type="comment">
+                        <orig>
+                            <placeName key="place.15.7">Los Angeles</placeName>
+                        </orig>
+                        <note xml:id="nevn_kbz_ncc" resp="#pkehrer">
+                            <ref target="event.67"/></note>
+                    </seg>.</p>
+                <p>Da ich selbst bei Aufführungen bei denen ich <lb/>anwesend war somit keine
+                    Verrechnung erhalten habe, so <lb/>muss ich bezweifeln, dass <orgName key="org.23">Associated Publishers</orgName> Ihnen <lb/>alle Aufführungen
+                    meldet. Und ich muss den Schluss ziehen, <lb/>dass es sich um eine weit
+                    groessere Anzahl von Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>führungen und Verkäufen handelt, als ich ahne.</p>
+                <p>Ich waere ihnen sehr dankbar, wenn Sie dieser <lb/>Angelegenheit nachgehen
+                    wollten.</p>
+                <p>Bei dieser Gelegenheit muss ich noch einmal <lb/>auf einen Streitpunkt zuru<choice>
+                        <sic>s</sic>
+                        <corr cert="high">e</corr>
+                    </choice>ckkommen, den ich bereits <lb/>wiederholt muendlich (und wenn ich
+                        nic<supplied cert="high">h</supplied>t irre, auch schrift<g
+                        ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>lich) erwaehnt habe. Er betrifft meine
+                    Tantiemen aus <placeName key="place.15">ameri<g ref="#typoHyphen"/>
+                        <lb break="no"/>kanischen</placeName> Verkaeufen und Aufführungen. Und da
+                    ich annehme, <lb/>dass Sie die Taktik der früheren
+                    Verwaltung nicht mit <lb/>Ihrem
+                    Namen werden decken wollen, so scheint mir nun der <lb/>Zeitpunkt gekommen,
+                    diesen Punkt wieder aufzunehmen.</p>
+                <p>
+                    <note place="left" hand="#addressee">lt. <ref target="letter.20716_tl">Schreiben</ref>
+                        <lb/>v <date when="1936-11-07">7/11.36</date> erhält <lb/>
+                        <persName key="pers.3263">Schönberg</persName> ab <lb/>
+                        <date when="1936-06-30">30/6.36</date> Tantieme <lb/>v <choice>
+                            <abbr>ordin</abbr>
+                            <expan>ordinär</expan>
+                        </choice> Preis also <lb/>ohne Abzug der <lb/>
+                        <orgName key="org.23">amp</orgName> oder irgendwelcher <lb/>Händler
+                        Rabatte.</note> In meinem <ref target="document.19681">Vertrag</ref> ist
+                    festgesetzt, dass meine <lb/>Anteile bei Verkäufen perzente vom Ladenpreis und
+                    bei <lb/>Materialien, Perzente vo<choice>
+                        <sic>n</sic>
+                        <corr cert="high">m</corr>
+                    </choice> wirklich bezahlten Leihbetrag <lb/>zu sein haben. Ich kann es nicht
+                    hinnehmen, dass mir für <lb/>amerikanische Aufführungen, wenn Leihgebuehren
+                    zwischen <lb/>$ 25 und $ 100 bezahlt worden sind, Tantiemen im Betrage von
+                    <lb/>2–4 Dollars zugewiesen werden<!-- vgl. letter.7416 und letter.20716_tl -->. Ich bitte dringendst diese <lb/>Frage einer
+                    gründlichen Prüfung zu unterziehen.</p>
+                <p>Ein dritter Punkt betrifft meine Erträgnisse <lb/>aus den beiden
+                    (widerrechtlichen) Rekordierungen der <seg type="comment">
+                        <orig>„<bibl sameAs="werke.14">Ver<g ref="#typoHyphen"/>
+                                <lb break="no"/>klärten Nacht</bibl>“</orig>
+                        <note sameAs="letter.7416/#ng52_51c_pcc"/>
+                    </seg> und der <seg type="comment">
+                        <orig>„<bibl sameAs="werke.16">Gurrelieder</bibl>“</orig>
+                        <note sameAs="letter.2253/#nipl_lvb_mgc"/>
+                    </seg>. Ich habe nun in Er<g ref="#typoHyphen"/>
+                    <lb break="no"/>fahrung gebracht, dass</p>
+                <table rows="2" cols="4">
+                    <row>
+                        <cell>von <bibl sameAs="werke.13">Verkl. Nacht</bibl>
+                        </cell>
+                        <cell>1400 Albums und</cell>
+                        <cell>
+                            <note place="inline" hand="#addressee">
+                                <seg type="comment">
+                                    <orig>
+                                        <date when="1938-07-29">29.7.38</date>
+                                    </orig>
+                                    <note xml:id="nwcs_wd3_wxb" resp="#pkehrer"><ref target="document.24091">Abrechnung, 24. Februar
+                                            1939</ref>
+                                    </note>
+                                </seg>
+                                <lb/>616 + 298 u</note>
+                        </cell>
+                        <cell>
+                            <note place="inline" hand="#addressee">
+                                <seg type="comment">
+                                    <orig>
+                                        <date when="1938-11-25">25.11.38</date> verr.</orig>
+                                    <note xml:id="nnkk_c23_wxb" resp="#pkehrer"><ref target="document.24091">Abrechnung, 24. Februar
+                                            1939</ref>
+                                    </note>
+                                </seg>
+                                <lb/>532–1446 Pl.</note>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis>
+                            <bibl sameAs="werke.16">Gurreliedern</bibl>
+                        </cell>
+                        <cell>400 Albums <add place="intralinear" hand="#addressee">
+                                <metamark/>
+                            </add>
+                            <note place="mBottom" hand="#addressee">
+                                <metamark/>
+                                <table rows="11" cols="5">
+                                    <row>
+                                        <cell>
+                                            <hi rendition="#u">
+                                                <bibl sameAs="werke.16">Gurrelieder</bibl>
+                                            </hi>
+                                        </cell>
+                                        <cell/>
+                                        <cell>
+                                            <bibl sameAs="werke.13">Verkl. Nacht</bibl>
+                                        </cell>
+                                        <cell/>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>468 Platten x 2 cts</cell>
+                                        <cell>$ 9.36</cell>
+                                        <cell>1446 Platten x 2 cts</cell>
+                                        <cell>$ 28.92</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>ab 10 %</cell>
+                                        <cell>
+                                            <hi rendition="#u">–.93</hi>
+                                        </cell>
+                                        <cell>ab 10 %</cell>
+                                        <cell>
+                                            <hi rendition="#u">2.89</hi>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>$ 8.43</cell>
+                                        <cell/>
+                                        <cell>$ 26.03</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>ab 33 1/3 <orgName key="org.23">Amp.</orgName>
+                                        </cell>
+                                        <cell> ✓ <hi rendition="#u">2.81</hi>
+                                        </cell>
+                                        <cell>ab 33 1/3 <orgName key="org.23">Amp.</orgName>
+                                        </cell>
+                                        <cell>
+                                            <hi rendition="#u">8.67</hi>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>$ 5.62</cell>
+                                        <cell/>
+                                        <cell>$ 17.36</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>ab 15 % I.
+                                            T.</cell>
+                                        <cell>
+                                            <hi rendition="#u">–.84</hi>
+                                        </cell>
+                                        <cell>- 15 % IT.</cell>
+                                        <cell>
+                                            <hi rendition="#u">2.60</hi>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>
+                                            <hi rendition="#uda">$ 4.78</hi>
+                                        </cell>
+                                        <cell/>
+                                        <cell>
+                                            <hi rendition="#uda">$ 14.76</hi>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>Ihr Anteil 1/2</cell>
+                                        <cell>$ 2.39 <seg type="comment">
+                                                <orig>verr <lb/>
+                                                    <date when="1938-12-31">31/12/38</date>
+                                                </orig>
+                                                <note xml:id="nbk5_zpz_qvb"><ref target="document.24091">Abrechnung, 24. Februar
+                                                  1939</ref></note>
+                                            </seg>
+                                        </cell>
+                                        <cell>Ihr Ant. <lb/>1/2 <lb/>
+                                            <seg type="comment">
+                                                <orig>verr <date when="1938-12-31">31/12.38</date>
+                                                </orig>
+                                                <note xml:id="nl4v_hrz_qvb"><ref target="document.24091">Abrechnung, 24. Februar
+                                                  1939</ref></note>
+                                            </seg>
+                                        </cell>
+                                        <cell>$ 7.38</cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>+ 234 Platt. 2.39</cell>
+                                        <cell>✓ <hi rendition="#u">1.20</hi> ✓ </cell>
+                                        <cell>+ 432 Platt ✓</cell>
+                                        <cell>
+                                            <hi rendition="#u">$ 2.20</hi>
+                                        </cell>
+                                        <cell>Amp. <date when="1938-02-15">15/2.38</date>
+                                        </cell>
+                                    </row>
+                                    <row>
+                                        <cell/>
+                                        <cell>$ 3.59</cell>
+                                        <cell/>
+                                        <cell>$ 9.58</cell>
+                                        <cell>= $ 13.17 <seg type="comment">
+                                                <orig>verr <date when="1938-12-31">31/12
+                                                  <lb/>38</date>
+                                                </orig>
+                                                <note xml:id="nprh_kqz_qvb"><ref target="document.24091">Abrechnung, 24. Februar
+                                                  1939</ref></note>
+                                            </seg>
+                                        </cell>
+                                    </row>
+                                </table>
+                            </note>
+                        </cell>
+                        <cell>
+                            <note place="inline" hand="#addressee">346</note>
+                        </cell>
+                        <cell>
+                            <note place="inline" hand="#addressee">122–<supplied cert="high">46</supplied>8 Pl.</note>
+                        </cell>
+                    </row>
+                </table>
+                <p>verkauft sind.</p>
+                <p>Meine Anteile aus diesen Verkäufen sollten be<g ref="#typoHyphen"/>
+                    <lb break="no"/>tragen:<!-- Fehlinformation; Antwortschreiben der AMP (ASCC 17718) nennt 2 Cent pro verkaufte Plattenseite, unabhängig vom Preis der Platte. --></p>
+                <table rows="2" cols="3">
+                    <row>
+                        <cell>1/2 von 12 1/2 % von 1400mal</cell>
+                        <cell>$ 6</cell>
+                        <cell>von <bibl sameAs="werke.13">Verkl. Nacht</bibl>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>1/2</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>12 1/2 %</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis> 400mal </cell>
+                        <cell>$ 24</cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis>
+                            <bibl sameAs="werke.16">Gurreliedern</bibl>.</cell>
+                    </row>
+                </table>
+                <p>Bitte wollen Sie freundlichst meine Abrechnungen <lb/>durchsehen und veranlassen,
+                    dass <orgName key="org.23">Associated Publishers</orgName> mir <lb/>die
+                    Differenz bezahlt, nachdem sie mir ordnungsgemäss ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnet hat.</p>
+                <p>Es tut mir leid, dass ich Ihnen mit beschwerden <lb/>kommen muss, die zu Lasten
+                    der früheren Verwaltung fallen, <lb/>aber ich kann nicht verschweigen, dass ich
+                    beabsichtige, ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>eignete <seg type="comment">
+                        <orig>Schritte</orig>
+                        <note xml:id="nl5f_xhc_pcc" resp="#pkehrer">Arnold Schönberg an Maurice J.
+                            Speiser, 24. April 1939 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B029471">ASCC
+                                2947</ref>)</note>
+                    </seg> gegen <orgName key="org.23">Associated Publishers</orgName> zu unter<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nehmen.</p>
+                <closer>
+                    <salute>Ich sehe Ihren freundlichen Nachrichten über <lb/>diese Angelegenheiten mit
+                        grossem Interesse entgegen und <lb/>empfehle mich <lb/>
+                        <seg rendition="#r">hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

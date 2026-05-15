@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.21591"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Musikblätter des Anbruch an Arnold Schönberg, 28. April 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.21591</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21591</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.7">Musikblätter des Anbruch</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1923-04-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.823"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21591_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21591_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.152">
+                        <orgName key="org.7">MUSIKBLÄTTER<lb/>DES ANBRUCH</orgName>
+                        <lb/>HALBMONATSSCHRIFT FÜR MODERNE MUSIK – HERAUSGEGEB. V. D. <orgName key="org.1">UNIVERSAL-EDITION A. G.</orgName>
+                        <lb/>TELEPHON NUMMER 45-33 UND 32-28<lb/>BANKKONTO: <orgName key="org.199">LÄNDERBANK WIEN</orgName>
+                        <lb/>TELEGR.-ADR.: MUSIKEDITION WIEN<lb/>SCHRIFTLEITUNG:<lb/>WIEN, I.
+                            <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>EINZAHLUNGEN FÜR DAS DEUTSCHE<lb/>REICH: <orgName key="org.92">FRIEDR.
+                            HOFMEISTER G.m.b.H.</orgName>
+                        <lb/>LEIPZIG, <placeName key="place.2.20.8">KARLSSTRASSE NUMMER
+                            10</placeName>
+                        <lb/>POSTSCHECK-KONTO LEIPZIG 68.752<lb/>WIEN, <seg hand="#author">
+                            <date when="1923-04-28">28. April 1923</date>.</seg>
+                    </stamp>
+                </opener>
+                <salute>Hochverehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Die von Ihnen gewünschte Adresse <persName key="pers.1495">Hauer’s</persName>
+                    <lb/>ist: Wien VIII., <placeName key="place.9.11.7.4">Josefstädterstrasse <subst>
+                            <del rendition="#s">72.</del>
+                            <add place="intralinear">
+                                <hi rendition="#u">74.</hi>
+                            </add>
+                        </subst>
+                    </placeName>
+                </p>
+                <p>Was den <seg type="comment">
+                        <orig>Artikel</orig>
+                        <note xml:id="nhzt_l21_myb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-ZTTULG7C">Gatti 1920</rs>
+                        </note>
+                    </seg> über <persName key="pers.688">Casella</persName> anlangt, <lb/>so ist er
+                        <date when="1920">1920</date> erschienen, also zu einer Zeit, in <lb/>der
+                    ich nicht Redakteur des <orgName key="org.7">Anbruch</orgName> war. Ich habe
+                    <lb/>nichts getan, als eine schlechte Übersetzung aus <lb/>dem Italienischen auf
+                    Wunsch der damaligen <rs type="person" key="pers.3240">Redaktion</rs>
+                    <lb/>verbessert. Ich glaubte bei jedem Leser voraussetzen <lb/>zu dürfen, dass
+                    er, auch ohne Streichungen und Fuss<g ref="#typoHyphen"/>
+                    <lb break="no"/>noten mich nicht für den eigentlichen Autor, (einen <lb/>Herrn
+                        <persName key="pers.1198">Gatti</persName>) verantwortlich machen würde; bei
+                    meinem <lb/>allen in Betracht kommenden Kreisen bekannten Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>treten für Ihre Werke schien mir das so selbstver<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständlich, dass ich jede Erklärung mit dem Ausdrucke
+                    <lb/>„zerebrale“ oder <seg type="comment">
+                        <orig>„Gehirnmusik“</orig>
+                        <note xml:id="nez4_4m3_hgc" resp="#TMuxeneder">
+                            <persName key="pers.3263">Schönberg</persName> hatte an der Relativierung der atonalen
+                            Schreibweise <persName key="pers.688">Casellas</persName> durch folgende
+                            Formulierung Anstoß genommen: „Die Entwicklung des Ausdrucks bei
+                                <persName key="pers.688">Casella</persName> geschieht im Laufe
+                            vieler Jahre und nicht durch trockene Arbeit des Gehirnes, sondern
+                            vielmehr Schritt für Schritt aus einer Bereicherung des
+                            Gefühlslebens“ (<rs type="bibl" key="zotero-4528359-ZTTULG7C">Gatti 1920</rs>, S. 184)</note>
+                    </seg> (wenn ich mich nicht
+                    <lb/>irre, hiess es so) nicht einverstanden zu sein, füglich <lb/>weglassen
+                    konnte.</p>
+                <p>Ich habe übrigens nie gewusst, dass Ihnen <lb/>Herr <persName key="pers.688">Casella</persName> nicht genehm ist. Er war <persName key="pers.2225">Mahlers</persName> Freund, <lb/>ist der Freund von Frau <persName key="pers.2244">Mahler</persName>, wurde bei jedem sei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ner <placeName key="place.9.11">Wiener</placeName> Aufenthalte
+                    von Ihnen, sehr verehrter <lb/>Herr <persName key="pers.3263">Schönberg</persName>, empfangen und erzählte Jedem, dass <lb/>Sie seine
+                    Musik sehr gelobt hätten. Diesem <persName key="pers.688">Casella</persName>,
+                    <lb/>der ausserdem selbst während des Krieges gegen den <lb/>
+                    <placeName key="place.5">italienischen</placeName> Nationalismus in der Musik
+                    tapfer auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>getreten war, galt mein Gruss, der erste mögliche <lb/>nach dem
+                    Kriege.</p>
+                <p>Nach wie vor bleibt mein Verhältnis zu <lb/>Ihnen das der gleichen Verehrung, die
+                    Ihnen wohl <lb/>bekannt sein wird<subst>
+                        <del rendition="#s">,</del>
+                        <add place="mBottom"> und</add>
+                    </subst> hat sich nicht im geringsten geän<g ref="#typoHyphen"/>
+                    <lb break="no"/>dert als Sie mich, der ich Sie nach zwei Jahren aus <lb/>einem
+                    menschlichen und sachlichen Anlasse an einem<pb n="2" xml:id="p.2"/>wie ich
+                    glauben musste, vereinbarten Tage besu<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen wollte, auf den schriftlichen Weg verwiesen.</p>
+                <p>Wenn Sie nun so gut sein wollen, mir <lb/>bei der Biographie zu helfen, so bitte
+                    ich Sie <lb/>mir schriftlich so kurz es Ihnen beliebt mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>zuteilen, welche biographische Daten oder Anga<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben im Werke-Verzeichnis bei <persName key="pers.4098">Wellesz</persName> Sie even<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuell verbesserungsbedürftig halten. Wenn Sie das <lb/>lieber
+                    mündlich tun wollten, so bin ich gerne <lb/>bereit jederzeit nach <placeName key="place.9.4">Mödling</placeName> zu kommen. Auch <lb/>diese Biographie
+                    ist übrigens auf einen beharr<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich wiederholten Antrag des <rs type="org" key="org.1">Verlages</rs> zurückzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>führen, den ich gerade aus persönlichen Gründen <lb/>2 Jahre
+                    abzulehnen bemüht war. Nun möchte ich aber <lb/>die Sache anständig machen.</p>
+                <closer>Ich hoffe, dass Sie diese Zeilen ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <subst>
+                        <del rendition="#s">stehen</del>
+                        <add place="left">söhnen</add>
+                    </subst> werden und bin stets <lb/>
+                    <salute rendition="#r">Ihr sehr ergebener</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3600">Paul Stefan</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

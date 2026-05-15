@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20227"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 19. Dezember 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20227</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20227</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1933-12-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.15">Brookline</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24454"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc></teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20227_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20227_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1933-12-19">19.
+                            Dezember 1933</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <placeName key="place.15.15">Brookline – Mass</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir erhielten Ihren <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nh5y_ff3_wwb">
+                            <ref target="letter.24454">Arnold Schönberg an Universal-Edition, 6.
+                                Dezember 1933 [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1933-12-06">6. d. M.</date> Es tut uns ausserordent<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>lich leid, dass Sie von keiner Seite an den Geburtstag von Dr.
+                        <persName key="pers.4001">Webern</persName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>erinnert worden sind</orig>
+                        <note xml:id="npwl_wls_zcc" resp="#pkehrer">In Arnold Schönberg an Anton
+                            Webern, 1. Jänner 1934 (<ref target="">ASCC 7807</ref>), begründet
+                                <persName key="pers.3263">Schönberg</persName> die verspätete
+                            Gratulation darüber hinaus mit der Befürchtung, <persName
+                                key="pers.4001">Webern</persName> könne inzwischen „plötzlich Nazi
+                            worden“ sein, weil dieser seit einigen Monaten nicht korrespondiert
+                            hatte</note></seg>. Wenn wir an diese Möglichkeit gedacht hätten, <lb/>hätten wir Ihnen
+                    selbstverständlich zeitgerecht geschrieben oder tele<g ref="#typoHyphen"/>
+                    <lb break="no"/>graphiert (auf unsere! Kosten). Sie werden unterdessen sicher
+                    erfahren <lb/>haben, dass sein Geburtsdatum der 3. Dezember ist.</p>
+                <p>Die höchst prekäre materielle Situation in <placeName key="place.9.11"
+                        >Wien</placeName> hat es be<g ref="#typoHyphen"/>
+                    <lb break="no"/>wirkt, dass eine <seg type="comment">
+                        <orig>Feier</orig>
+                        <note xml:id="njtl_b3t_zcc" resp="#pkehrer">
+                            <ref target="event.105"/>
+                        </note>
+                    </seg> nur im kleinen Rahmen stattfand und zwar veran<g ref="#typoHyphen"/>
+                    <lb break="no"/>staltet von der „<orgName key="org.93">Internationalen
+                        Gesellschaft für neue Musik</orgName>“. Im <lb/>„<orgName key="org.7"
+                        >Anbruch</orgName>“ haben wir einen <seg type="comment">
+                        <orig>Artikel</orig>
+                        <note xml:id="nz4q_lsm_m5b">
+                            <rs type="bibl" key="zotero-4528359-PNHDF6VT">Jalowetz 1933</rs>
+                        </note>
+                    </seg> von Dr. <persName key="pers.1702">Jalowetz</persName>, der eine Würdigung
+                    <lb/>des Komponisten enthält, veröffentlicht. Sie erhalten mit gleicher Post
+                    <lb/>ein Exemplar des Heftes.<!-- nicht im Schönberg-Nachlass --></p>
+                <p>Herr Kapellmeister <persName key="pers.3612">Stein</persName> hat es übernommen,
+                    Dr. <persName key="pers.4001">Webern</persName> von dem <lb/>Inhalt Ihres
+                    Briefes in entsprechender Weise Kenntnis zu
+                    geben.</p>
+                <closer>
+                    <salute>Wir wiederholen unsere allerherzlichsten Weihnachts- und Neu<g ref="#typoHyphen"/>
+                        <lb break="no"/>jahrswünsche für Sie und die Ihren.</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

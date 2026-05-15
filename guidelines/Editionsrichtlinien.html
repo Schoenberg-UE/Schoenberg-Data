@@ -1,0 +1,1649 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0" data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+   <div id="page-content">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 text-justify mb-5" lang="de">
+               <h2 class="my-5">Editionsrichtlinien</h2>
+               <div>
+                  <p>Die Editionsrichtlinien erläutern editorische Prinzipien der historisch-kritischen
+                     Ausgabe der Korrespondenz Arnold Schönbergs mit den Verlagen Universal-Edition und
+                     Dreililien aus den Jahren 1902 bis 1951. Die vorliegende Website samt aufgeführter
+                     Richtlinien repräsentiert den digitalen Part der hybrid konzipierten Edition.
+                     Dieser erfüllt schwerpunktmäßig die Funktion der vollständigen Verfügbarmachung
+                     sowie der mehrdimensionalen Vernetzung der edierten Korrespondenz innerhalb der
+                     Ausgabe und mit darüber hinausweisenden kommentarrelevanten Quellen.</p>
+               </div>
+               <div class="list-of-content p-4 my-4" style="border: 1px solid lightgrey;">
+                  <h3 class="mb-4" style="font-weight: 200;">Inhalt</h3>
+                  <ul>
+                     <li><a href="#chapter-1">Edierte Textsorten</a></li>
+                     <li><a href="#chapter-2">Digitale Methodik</a></li>
+                     <ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-2.a">Schema</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-2.b">Software und Technologien</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-2.c">Datenbereitstellung &amp; APIs</a></li>
+                     </ul>
+                     <li><a href="#chapter-3">Metadaten</a></li>
+                     <li><a href="#chapter-4">Digitalisate</a></li>
+                     <li><a href="#chapter-5">Textübertragung, Codierung und Textdarstellung</a></li>
+                     <ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-5.a">Textstrukturen</a></li>
+                        <ul>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.a.1">allgemeine Textstrukturen</a></li>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.a.2">Brief-spezifische Textstrukturen</a></li>
+                        </ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-5.b">Textbearbeitungen des Autors</a></li>
+                        <ul>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.b.1">Hervorhebungen</a></li>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.b.2">Tilgungen und Hinzufügungen</a></li>
+                        </ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-5.c">Textauszeichnung durch Herausgeber:innen</a></li>
+                        <ul>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.c.1">Stillschweigende Vereinheitlichungen</a></li>
+                           <li style="text-indent: 2em;"><a href="#chapter-5.c.2">Textauszeichnungen</a></li>
+                        </ul>
+                     </ul>
+                     <li><a href="#chapter-9">Auszeichnung von Textinhalten </a></li>
+                     <ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-9.a">Verweise</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-9.b">Kommentar</a></li>
+                     </ul>
+                     <li><a href="#chapter-10">Register</a></li>
+                     <ul>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.a">Personen</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.b">Organisationen</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.c">Orte</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.d">Musikalische Werke</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.e">Schriften</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.f">Ereignisse</a></li>
+                        <li style="text-indent: 1em;"><a href="#chapter-10.g">Bibliographie</a></li>
+                     </ul>
+                     <li><a href="#chapter-11">Abweichende Regeln für die Lesefassung</a></li>
+                     <li><a href="#chapter-12">Abweichende Regeln für Nicht-Brief-Dokumente des Sekundärkorpus </a></li>
+                     <li><a href="#chapter-13">Abkürzungen</a></li>
+                  </ul>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-1" style="font-weight: 200;">Edierte Textsorten</h3>
+                  <p>Die heterogenen Dokumente werden in ein primäres Korpus von Quellen direkten
+                     Austauschs (Briefe, Postkarten, Ansichtskarten, Kartenbriefe, Telegramme,
+                     Visitenkarten etc.) und ein sekundäres Korpus von anderen Quellen (Beilagen,
+                     Rechnungen, Verträge, Werbebroschüren, Notizen, Drittbriefe etc.) gegliedert. Die
+                     digitale Edition des primären Korpus bietet Digitalisate, eine kritische Fassung,
+                     eine Lesefassung und Metadaten handschriftlicher Briefe und Typoskripte; das
+                     sekundäre Korpus wird in Form von Digitalisaten, Metadaten und emendierten
+                     Versionen einzelner handschriftlicher Texte zur leichteren Lesbarkeit zur
+                     Verfügung gestellt. XML-Dokumente der edierten Quellen werden zum Download
+                     angeboten.</p>
+                  <p>Angeklebte oder auf den Senderbrief geschriebene Antworten bzw. Nachrichten von
+                     Dritten, die Form und Status eines eigenständigen Schreibens aufweisen, werden als
+                     eigene Briefe gewertet und behandelt.</p>
+                  <p>Briefe und Dokumente existieren häufig in mehreren Überlieferungsformen: in
+                     unterschiedlichen Entwurfsstadien, originalen Manuskripten und/oder Typoskripten,
+                     Kopien unterschiedlicher Herstellungsverfahren, Abschriften. Der Edition liegt in
+                     erster Instanz das tatsächlich verschickte Korrespondenzstück zu Grunde, wobei auf
+                     weitere Exemplare nur dann verwiesen wird, wenn selbige inhaltlich hiervon
+                     abweichen. Ist das Original verschollen, werden Kopien oder Entwürfe in die
+                     Edition aufgenommen. Diese werden in den Metadaten als solche deklariert,
+                     inhaltlich jedoch stellvertretend für das Original gleichwertig in die digitale
+                     Infrastruktur integriert.</p>
+                  <p>In die Edition werden auch Daten erschlossener Briefe aufgenommen. Als Kriterium
+                     für die Erschließung gelten jedenfalls Erwähnungen von gegenwärtig nicht
+                     verfügbaren Schreiben (z. B. "Ihr Geschätztes vom"). Darüber hinaus werden auch
+                     erschlossene Briefe angelegt, wenn die Thematik und Formulierung eine konkrete
+                     Bezugnahme auf eine im verschollenen Gegenbrief getätigte Aussage nahelegt (z. B.
+                     "Sie haben ganz recht"). Erwähnte Sendungen von Notenmaterialien, Korrekturfahnen,
+                     Büchern und dergleichen werden nicht als Teil des Briefwechsels behandelt.</p>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-2" style="font-weight: 200;">Digitale Methodik</h3>
+                  <p>Bei der Datenaufnahme sowie der Programmierung der Webanwendung kam die digitale
+                     Arbeitsumgebung ediarum zum Einsatz, die zusammen mit dem Editor Oxygen XML-Author
+                     und der freien XML-Datenbank existdb verwendet wurde. ediarum setzt sich aus
+                     mehreren Komponenten zusammen, die verschiedene Bereiche innerhalb des
+                     Entstehungsprozesses einer digitalen Edition erleichtern. Die Module ediarum.BASE
+                     und ediarum.DB unterstützen die Auszeichnung der Daten im Oxygen XML-Author und
+                     die Verknüpfung von Entitäten mit Registereinträgen. Das Modul ediarum.WEB stellt
+                     eine XQuery-Bibliothek zur Verfügung, welche als Basis für die App-Entwicklung
+                     dient.</p>
+                  <p>Die Codierung von Metadaten, Texten, Kommentaren und Registern basiert auf den
+                     Richtlinien der <a href="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text
+                        Encoding Initiative (TEI)</a>. Sie richtet sich nach dem Schema von
+                     ediarum.BASE.edit, welches auf dem <a href="https://www.deutschestextarchiv.de/doku/basisformat/">Basisformat des
+                        Deutschen Textarchivs (DTA)</a> basiert und im <a href="https://www.ediarum.org/docs/ediarum.BASE.manual/">ediarum.BASE.manual</a> dokumentiert ist. Spezifika der gegenständlichen
+                     Korrespondenz erforderten gelegentlich Adaptionen und Erweiterungen des
+                     Schemas.</p>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-2.a" style="font-weight: 200;">Schema</h5>
+                     <p>Das projektspezifische Schema liegt als TEI-ODD-Datei und einer daraus
+                        generierten Datei im RelaxNG-Format vor. Es basiert auf einer Reihe mittels
+                        ODD-Chaining verknüpfter TEI-konformer Schemata, angefangen bei dem des <a href="https://www.deutschestextarchiv.de/doku/basisformat/">DTABf</a>
+                        und dessen Spezifikation für Manuskripte (siehe <a href="https://www.deutschestextarchiv.de/doku/basisformat/schema.html">https://www.deutschestextarchiv.de/doku/basisformat/schema.html</a>), von
+                        welcher das <a href="https://github.com/ediarum/ediarum.BASE.data-model/tree/dev">ediarum.BASE.data-model</a> abgeleitet ist. Dieses bildet die Grundlage
+                        für das projektspezifische Schema, welches daraus nur die nötigen Elemente
+                        übernimmt und darüber hinaus einige TEI-Elemente und Attribute wiedereinführt,
+                        sowie die nötigen Module aus dem Schema der <a href="https://music-encoding.org/">Music Encoding Initiative</a> für die
+                        Codierung von Musiknotation
+                        ergänzt. Das Schema ist sowohl als TEI-ODD als auch RNG-Datei auf <a href="https://github.com/Schoenberg-UE/Schoenberg-Data/tree/main">Github</a> veröffentlicht.</p>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-2.b" style="font-weight: 200;">Software und Technologien</h5>
+                     <p>Die Daten werden in der freien XML-Datenbank <a href="https://exist-db.org/exist/apps/homepage/index.html">exist-db</a>
+                        gespeichert und verwaltet. Das Modul ediarum.DB wird hier verwendet, um vom
+                        Oxygen-Author über REST-Schnittstellen auf die Register der Datenbank
+                        zuzugreifen und das Tagging der Entitäten zu erleichtern. Exist-db dient nicht
+                        nur als Ablageort für die XML-Daten, sondern bietet auch einen Webserver und
+                        ein Framework für die Entwicklung von Applikationen. Die Webanwendung basiert
+                        auf diesen Technologien und macht Gebrauch von dem datenbankeigenen
+                        Templating-Framework und der eingebauten Lucene Engine für Volltextsuche.
+                        Außerdem basiert die Anwendung auf der XQuery-Bibliothek ediarum.web, welche
+                        Funktionen etwa zum Routing und zum Aufbau und der Abfrage einer internen API
+                        bereitstellt.</p>
+                     <p>Die Anzeige der Faksimiles erfolgt durch den <a href="https://projectmirador.org/">Mirador-Viewer</a>, welcher auch von
+                        der <a href="https://schoenberg.at/index.php/de/archiv/briefe">Arnold
+                           Schönberg Center Correspondence Database (ASCC)</a> zur Anzeige der
+                        Digitalisate verwendet wird. Die von dort nach den Definitionen der <a href="https://iiif.io/api/presentation/3.0/">Presentation API</a> des
+                        <a href="https://iiif.io/">International Image Interoperability
+                           Framework</a> vorgehaltenen Manifest-Dateien werden von der Anwendung
+                        abgerufen und an den Viewer zur Anzeige übergeben.</p>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-2.c" style="font-weight: 200;">Datenbereitstellung &amp; APIs</h5>
+                     <p>Über die Schnittstelle <a href="https://www.schoenberg-ue.at/ue/correspDesc.xml">https://www.schoenberg-ue.at/ue/correspDesc.xml</a> können die
+                        Korrespondenzmetadaten aller in der Edition vorhandenen Briefdokumente im <a href="https://correspsearch.net/de/dokumentation.html">Correspondence
+                           Metadata Interchange Format (CMIF)</a> abgerufen werden. Dadurch werden
+                        die edierten Briefe in <a href="https://correspsearch.net/de/start.html">correspSearch</a> nachgewiesen.</p>
+                     <p>Die im Datenbestand vorhandenen und mit der GND-URI ausgezeichneten Personen
+                        und Organisationen können via <a href="https://www.schoenberg-ue.at/ue/persons_beacon.txt">https://www.schoenberg-ue.at/ue/persons_beacon.txt</a> für Personen und <a href="https://www.schoenberg-ue.at/ue/organisations_beacon.txt">https://www.schoenberg-ue.at/ue/organisations_beacon.txt</a> für
+                        Organisationen als Liste im BEACON-Format abgerufen und darüber in externen
+                        digitalen Angeboten automatisch verlinkt werden.</p>
+                     <p>TEI-Dateien der Briefe, Dokumente und Register sind auf <a href="https://github.com/Schoenberg-UE/Schoenberg-Data/tree/main">GitHub</a> veröffentlicht.</p>
+                  </div>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-3" style="font-weight: 200;">Metadaten</h3>
+                  <p>Im TEI-Header festgeschriebene Daten enthalten allgemeine Metadaten, die für alle
+                     Briefe und Dokumente weitgehend gleich lauten, sowie Korrespondenz-spezifische
+                     Metadaten, welche der Beschreibung der konkreten Quelle dienen.</p>
+                  <table class="table table-bordered">
+                     <thead>
+                        <tr>
+                           <th scope="col" style="font-weight: 400;">TEI-Codierung</th>
+                           <th scope="col" style="font-weight: 400;">Beschreibung</th>
+                           <th scope="col" style="font-weight: 400;">Webdarstellung</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;fileDesc/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Header-Segment zur bibliographischen Beschreibung der elektronischen
+                              Datei</td>
+                           <td style="width: 33%;" rowspan="1"></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;titleStmt&gt;
+    &lt;title&gt;Arnold Schönberg an Universal-Edition, 8. Juli 1913&lt;/title&gt;
+&lt;/titleStmt&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Die Titelzeile des XML-Dokuments enthält Absender:in, Empfänger:in und
+                              Schreibdatum in standardisierter Form. Ist das Schreibdatum ganz oder
+                              teilweise unbekannt, wird ein erschlossenes Datum angegeben; fehlende oder
+                              unsichere Datumsbestandteile werden durch "?" ergänzt, ist kein Datum
+                              eruierbar, lautet die Angabe "ohne
+                              Datum"; bei
+                              substanzieller Mehrfachautorschaft werden bis zu zwei
+                              Autor:innen/Empfänger:innen im Titel genannt, weitere Personen unter "et
+                              al." zusammengefasst. Bei Firmen und Institutionen wird unabhängig vom/von
+                              der Verfasser:in die Institution im Titel angegeben.</td>
+                           <td style="width: 33%;" rowspan="1">Der Titel bildet die Überschrift in der Detailansicht des Briefs sowie
+                              die Repräsentation des Korrespondenzstücks in der Listenansicht aller
+                              Briefe.</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;respStmt&gt;
+    &lt;persName&gt;
+        &lt;forename&gt;Therese&lt;/forename&gt;
+        &lt;surname&gt;Muxeneder&lt;/surname&gt;
+    &lt;/persName&gt;
+    &lt;resp&gt;
+        &lt;term&gt;Projektleitung&lt;/term&gt;
+        &lt;term&gt;Gesamtherausgabe&lt;/term&gt;
+    &lt;/resp&gt;
+&lt;/respStmt&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Namen und Position/Zuständigkeit der Projektmitarbeiter:innen</td>
+                           <td style="width: 33%;" rowspan="1"></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;publicationStmt&gt;
+    &lt;publisher ref="https://d-nb.info/gnd/10000022-8"&gt;Arnold Schönberg Center&lt;/publisher&gt;
+    &lt;pubPlace key="place.9.11"&gt;Wien&lt;/pubPlace&gt;
+    &lt;publisher ref="https://d-nb.info/gnd/10060012-8"&gt;Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien &lt;/publisher&gt;
+    &lt;availability&gt;
+        &lt;licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"&gt;Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)&lt;/licence&gt;
+    &lt;/availability&gt;
+&lt;/publicationStmt&gt;
+&lt;seriesStmt&gt;
+    &lt;title&gt;Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien&lt;/title&gt;
+    &lt;editor&gt;Therese Muxeneder&lt;/editor&gt;
+    &lt;editor&gt;Katharina Bleier&lt;/editor&gt;
+&lt;/seriesStmt&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Informationen zur Gesamtpublikation: Projektträgerorganisationen, Ort,
+                              Lizenzierung, Publikationstitel</td>
+                           <td style="width: 33%;" rowspan="1"></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;msDesc&gt;
+    &lt;msIdentifier&gt;
+        &lt;placeName key="place.15.12"&gt;
+            &lt;settlement&gt;Washington, D.C.&lt;/settlement&gt;
+        &lt;/placeName&gt;
+        &lt;institution ref="https://d-nb.info/gnd/35626-8"&gt;The Library of Congress&lt;/institution&gt;
+        &lt;repository&gt;Music Division&lt;/repository&gt;
+        &lt;collection&gt;Arnold Schoenberg Collection&lt;/collection&gt;
+        &lt;altIdentifier&gt;
+            &lt;placeName key="place.9.11"&gt;
+                &lt;settlement&gt;Wien&lt;/settlement&gt;
+            &lt;/placeName&gt;
+            &lt;institution ref="https://d-nb.info/gnd/10000022-8"&gt;Arnold Schönberg Center&lt;/institution&gt;
+            &lt;idno type="signature"&gt;ASCC 23854&lt;/idno&gt;
+        &lt;/altIdentifier&gt;
+    &lt;/msIdentifier&gt;
+&lt;/msDesc&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Überlieferung des Texts: Bestandshaltende Institution der edierten Quelle
+                              und Signatur laut Briefverzeichnis des Arnold Schönberg Center; die
+                              ASCC-Signatur wird als Identifikator in die digitale Edition
+                              übernommen</td>
+                           <td style="width: 33%;" rowspan="1">Der Quellenstandort wird in der Metadatenansicht mitgeteilt, der
+                              ASCC-Identifikator referenziert ebendort auf den entsprechenden Eintrag in
+                              der Arnold Schönberg Center Correspondence Database</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;listWit&gt;
+    &lt;witness&gt;
+        &lt;bibl type="print"&gt;
+            &lt;rs type="bibl" key="zotero-4528359-JTE8H4E2"&gt;Schönberg 2008&lt;/rs&gt;
+        &lt;/bibl&gt;
+    &lt;/witness&gt;
+&lt;/listWit&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Drucknachweise bereits publizierter Briefe erfolgen durch Kurztitel und
+                              Referenzierung auf die <a href="https://www.zotero.org/groups/4528359/schoenberg-ue/library">Zotero-Projektbibliographie</a></td>
+                           <td style="width: 33%;" rowspan="1">In der Metadatenansicht erscheint der bibliographische Kurztitel mit Link
+                              zur Zotero-Bibliographie</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;profileDesc/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Enthält Korrespondenz-spezifische Metadaten</td>
+                           <td style="width: 33%;" rowspan="1"></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;correspDesc&gt;
+    &lt;correspAction type="sent"&gt;
+        &lt;persName key="pers.3263"&gt;Schönberg, Arnold&lt;/persName&gt;
+        &lt;placeName key="place.2.15.1"&gt;Berlin, Charlottenstraße 18&lt;/placeName&gt;
+        &lt;date when="1913-07-08" cert="high"/&gt;
+    &lt;/correspAction&gt;
+    &lt;correspAction type="received"&gt;
+        &lt;persName key="pers.1538"&gt;Hertzka, Emil&lt;/persName&gt;
+        &lt;persName key="pers.3067"&gt;Rothe, Barbara Maria Agnes&lt;/persName&gt;
+        &lt;orgName key="org.1"&gt;Universal-Edition&lt;/orgName&gt;
+        &lt;placeName key="place.9.11"&gt;Wien&lt;/placeName&gt;
+    &lt;/correspAction&gt;
+&lt;/correspDesc&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Absender:in Name, Ort und Datum; Empfänger:in Name, Ort und
+                              Datum; es werden
+                              sämtliche substanziell für das Schreiben relevante Personen und
+                              Institutionen codiert. Datierungen erfolgen nach internationalem Standard
+                              ISO 8601; Sende- bzw. Empfangsort werden so genau wie aus dem Brief selbst
+                              ersichtlich angegeben, Sendeorte ggf. durch
+                              recherchierte Aufenthaltsorte ergänzt.</td>
+                           <td style="width: 33%;" rowspan="1">Darstellung in der Metadatenansicht entsprechend</td>
+                        </tr>
+                        <tr id="date">
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;date when="JJJJ-MM-TT"/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">genaues Datum</td>
+                           <td style="width: 33%;" rowspan="1">TT.MM.JJJJ</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;date from="JJJJ-MM-TT" to="JJJJ-MM-TT"/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">genaue Zeitspanne</td>
+                           <td style="width: 33%;" rowspan="1">von TT.MM.JJJJ bis TT.MM.JJJJ</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;date notBefore="JJJJ-MM-TT" notAfter="JJJJ-MM-TT"/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">ungefährer Zeitraum</td>
+                           <td style="width: 33%;" rowspan="1">zwischen TT.MM.JJJJ und TT.MM.JJJJ</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;note&gt;Rückseite: Entwurf zu &lt;ref target="letter.23855" &gt;Arnold Schönberg an F. M. Geidel, 6. Juni 1914&lt;/ref&gt;
+&lt;/note&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Anmerkungen zum Brief; Angaben zu erschlossenen Datierungen, Beilagen,
+                              Briefumschlägen, längere Passagen betreffende
+                              textkritische Befunde (z. B. Durchstreichung des gesamten
+                              Brieftextes)</td>
+                           <td style="width: 33%;" rowspan="1">Darstellung als Text in der Metadatenansicht</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;correspContext&gt;
+    &lt;ref type="response-to" target="letter.23855"/&gt;
+    &lt;ref type="answered-by" target="letter.23857"/&gt;
+&lt;/correspContext&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Korrespondenzkontext; weist Bezugnahmen im Sinne der Beantwortung von
+                              vorangegangenen Schreiben bzw. durch nachfolgende aus</td>
+                           <td style="width: 33%;" rowspan="1">In der Metadatenansicht erscheinen Briefe mit vollständigem Titel als
+                              "Antwort auf" bzw. "Beantwortet durch" und können per Link aufgerufen
+                              werden</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;textClass&gt;
+    &lt;keywords&gt;
+        &lt;term&gt;Brief&lt;/term&gt;
+        &lt;term&gt;Kopie&lt;/term&gt;
+    &lt;/keywords&gt;
+&lt;/textClass&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1"> Kategorisierung des Korrespondenzstücks als Brief, Telegramm, Karte,
+                              Kartenbrief, Ansichtskarte, Postkarte, Visitenkarte etc; Wenn keine
+                              originale Quelle erhalten ist, wird anstattdessen eine Abschrift, ein
+                              Durchschlag oder eine andere Reproduktion (unter dem Sammelbegriff "Kopie")
+                              oder ein Entwurf ediert. Bei der Edition von Telegrammen wird das auf
+                              Empfänger:innenseite eingegangene Schriftstück als Original aufgefasst,
+                              während das von Sender:innen aufgegebene und in der Regel dort verbliebene
+                              Schriftstück als Entwurf gilt.</td>
+                           <td style="width: 33%;" rowspan="1">Darstellung als Text in der Metadatenansicht</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;revisionDesc&gt; 
+    &lt;change when="2026-04-27+02:00" who="KBleier"&gt;Ergänzung Kommentar&lt;/change&gt;
+&lt;/revisionDesc&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Dokumentation von Änderungen nach Veröffentlichung</td>
+                           <td style="width: 33%;" rowspan="1"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-4" style="font-weight: 200;">Digitalisate</h3>
+                  <table class="table table-bordered">
+                     <tbody>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;facsimile&gt;
+    &lt;graphic url="https://archive.schoenberg.at/manifest/letters/6538_po.json"
+            mimeType="application/ld+json"
+            type="IIIF-Manifest"
+            xml:id="manifest.6538_po"/&gt;
+&lt;/facsimile&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Einbindung von Digitalisaten; die Digitalisate werden aus dem
+                              Repositorium des Arnold Schönberg Center, in einzelnen Fällen auch anderer
+                              bestandshaltender Institutionen abgerufen. Die Systematik der zu Konvoluten
+                              zusammengefassten Scans kann – insbesondere bei angeklebten Briefen und
+                              ähnlichen Sonderfällen – von der Systematik der Briefedition abweichen.
+                              Vakatseiten werden nicht berücksichtigt.</td>
+                           <td style="width: 33%;" rowspan="1">Synoptische Ansicht von Digitalisat und Transkription</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-5" style="font-weight: 200;">Textübertragung, Codierung und Textdarstellung</h3>
+                  <p>Die Transkription der edierten Quellen basiert prinzipiell auf digitalen
+                     Faksimiles, in unsicheren Fällen wurden die Originale eingesehen.</p>
+                  <p>Die Transkription umfasst:</p>
+                  <ul style="list-style-type: circle; padding-left: 2rem;">
+                     <li>das Manuskript bzw. Typoskript der Verfasser:innen, Telegrammnachricht inkl.
+                        Sonderzeichen</li>
+                     <li>Korrekturen und Annotationen von Verfasser:in, Empfänger:in sowie in die
+                        Korrespondenz involvierten Dritten</li>
+                     <li>Vordrucke von Briefköpfen und korrespondenzspezifischen Formularen sowie
+                        Stempel/Vordrucke beim ersten Auftreten in der Quelle</li>
+                     <li>Bildunterschriften auf Ansichtskarten</li>
+                  </ul>
+                  <p>Nicht berücksichtigt werden:</p>
+                  <ul style="list-style-type: circle; padding-left: 2rem;">
+                     <li>autographe und vorgedruckte Seitenzahlen </li>
+                     <li>Post- sowie Eingangs-/Beantwortet-Stempel</li>
+                     <li>allgemeine postalische Postkarten- und Telegrammvordrucke, Werbeanzeigen,
+                        Werbemarken, Briefmarken</li>
+                     <li>archivarische Zusätze</li>
+                  </ul>
+                  <p>Die mitgeteilte kritische Fassung zielt auf eine originalnahe Wiedergabe des
+                     Brieftextes hinsichtlich Orthographie, Zeichensetzung und Anordnung. Dialektale
+                     Wörter, idiomatische Schreibweisen und Formulierungen sowie Grammatikfehler bzw.
+                     Schreibungen von Personen- und Ortsnamen und falsche Schreibung von Fremdwörtern
+                     werden in der Regel nicht korrigiert. Einzelne stillschweigende
+                     Vereinheitlichungen, die sowohl im pragmatischen Charakter der
+                     Geschäftskorrespondenz als auch im Wechsel des Mediums und dem daraus
+                     resultierenden unverhältnismäßigen Aufwand originalgetreuer Nachbildung begründet
+                     sind, werden vorgenommen.</p>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-5.a" style="font-weight: 200;">Textstrukturen</h5>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.a.1" style="font-weight: 200;">allgemeine Textstrukturen</h6>
+                        <table class="table table-bordered">
+                           <tbody>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;div type="letter"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Oberste Gliederungsebene der Transkription, welche meist den
+                                    gesamten Brieftext umschließt</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;div type="writingSession" n="1"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Differenzierung von Schreibakten innerhalb des Briefes</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;div type="writingSession" n="1" hand="pers.123"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Schreibakte, die anderen Personen als dem/der Autor:in zugeordnet
+                                    werden können (z. B. den Geschäftsbriefen gelegentlich handschriftlich
+                                    hinzugefügte Grüße von UE-Mitarbeiter:innen)</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;div type="appendix"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Listen, Tabellen und ähnliche
+                                    Anhänge, die nicht den Status eines
+                                    eigenen Dokuments im Sekundärkorpus aufweisen</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;pb n="1" xml:id="p.1"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Beginn einer neuen Seite und fortlaufende Seitenzahl; bei
+                                    Postkarten werden unabhängig von der Seiteneinteilung des
+                                    Originaldokuments Adressstempel und/oder Adressfelder zuerst, danach
+                                    der Nachrichtentext beginnend mit der Anrede codiert.</td>
+                                 <td style="width: 33%;" rowspan="2">Seitenumbrüche werden durch horizontale hellgraue Linien
+                                    angezeigt</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;pb n="3" sameAs="#p.1"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Fortsetzung eines verso begonnenen Texts auf der recto-Seite (z. B.
+                                    bei Postkarten)</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;head/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Überschrift</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;p/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Absatz; Paragraphen erscheinen in der Korrespondenz
+                                    unterschiedlich, meist durch verschieden große Einzüge von wenigen
+                                    Zeichen bis zu einer halben Zeile oder durch Abstände zwischen den
+                                    Absätzen gekennzeichnet</td>
+                                 <td style="width: 33%;" rowspan="1">Abstand zum vorhergehenden/nachfolgenden Absatz, ohne Einzug</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;p rendition="#c|#r|#l"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Die Textausrichtung erfolgt standardmäßig linksbündig (ausgenommen
+                                    Datumszeile), Paragraphen und andere Textstrukturen können in
+                                    Annäherung an den originalen Fundort links, zentriert oder rechts
+                                    positioniert werden</td>
+                                 <td style="width: 33%;" rowspan="1">linksbündig, zentriert, rechtsbündig</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;p rendition="#inline"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Absatz, welcher ohne Zeilenumbruch und Abstand direkt an das
+                                    vorherige Textstrukturelement anschließt (z. B. Grußformel)</td>
+                                 <td style="width: 33%;" rowspan="1">Text setzt in derselben Zeile unmittelbar fort</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;milestone unit="section" rendition="#hr"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Trennlinien und andere graphische Markierungen von
+                                    Textabschnitten</td>
+                                 <td style="width: 33%;" rowspan="1">Horizontale Trennlinie</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;quote rendition="#blockquote"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Längere Zitate vom Umfang eines Absatzes; in den Fließtext
+                                    integrierte Zitate werden nicht eigens codiert.</td>
+                                 <td style="width: 33%;" rowspan="1">Eingerückter Paragraph</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;lb/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Zeilenbeginn laut originalem Zeilenfall</td>
+                                 <td style="width: 33%;" rowspan="3">Zeilenfall und ggf. Art der Worttrennung werden
+                                    originalgetreu wiedergegeben; durch dynamische Seitengestaltung und
+                                    variable Seitenbreite auf verschiedenen Anzeigegeräten können
+                                    zusätzliche, nicht editorisch bedingte Zeilenumbrüche entstehen</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;g ref="#typoHyphen"/&gt;&lt;lb break="no"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Worttrennung am Zeilenende mit Trennungsstrich; Trennungszeichen
+                                    "-" und "=" werden vereinheitlicht</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;lb break="no"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Worttrennung am Zeilenende ohne Trennungsstrich</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;list&gt;
+   &lt;item&gt;I. 6 Klavierstücke&lt;/item&gt;
+   &lt;item&gt;II. Lied für Harm. Celesta u. Harfe&lt;/item&gt;
+   &lt;item&gt;III. Pierrot lunaire.&lt;/item&gt;
+&lt;/list&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Listen und listenartige Kurzabschnitte; einfache, gelegentlich auch
+                                    zweifache Untergliederung von Listenpunkten in weitere Listen wird
+                                    entsprechend codiert. Schönberg nummeriert häufig während des
+                                    Schreibens oder auch nachträglich Paragraphen und größere, inhaltlich
+                                    zusammengehörige Abschnitte, diese werden nicht als Listen
+                                    aufgefasst.</td>
+                                 <td style="width: 33%;" rowspan="1">Listenpunkte mit einfachem Zeilenabstand</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;table rows="1" cols="3"&gt;
+   &lt;row&gt;
+      &lt;cell&gt;Klavierstücke&gt;&lt;/cell&gt;
+      &lt;cell&gt;à 2 Mark&lt;/cell&gt;
+      &lt;cell&gt;60.–&lt;/cell&gt;
+   &lt;/row&gt;
+&lt;/table&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Tabellen und tabellenartige Abschnitte</td>
+                                 <td style="width: 33%;" rowspan="1">Tabellarische Textanordnung ohne Rahmung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;seg/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Segment; Textteil, dessen Eigenschaften sich von seiner
+                                    übergeordneten Struktur (z. B. Absatz) unterscheiden</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung gemäß definierter Attribute</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;note place="mTop|left|right|mBottom|inline|across" hand="#author|#addressee|#unknown|#pers.123"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Anmerkungen von Autor:in, Empfänger:in oder anderen
+                                    zeitgenössischen Bearbeiter:innen; Positionierung an der Textstelle,
+                                    auf die sich die Anmerkung bezieht. Die Platzierung auf dem Manuskript
+                                    wird als Attribut "place" codiert. Die häufig entlang dem Seitenrand
+                                    und daher zum Haupttext um 90 Grad abweichende Schreibrichtung wird
+                                    nicht erfasst. Ist ein konkreter inhaltlicher Bezug nicht
+                                    festzustellen, erfolgt die Positionierung am Seitenende.</td>
+                                 <td style="width: 33%;" rowspan="1">Klick auf ein Stift-Symbol öffnet ein Pop-up Fenster, welches die
+                                    Anmerkung samt Positionsangabe enthält. Weiterer Klick schließt das
+                                    Fenster wieder</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;metamark&gt;1)&lt;/metamark&gt;</pre>
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;metamark/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Einweisungszeichen bei Anmerkungen; Ziffern werden originalgetreu
+                                    erfasst, andere Zeichen standardisiert</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung als Ziffer oder *</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;figure&gt;
+   &lt;figDesc/&gt;
+&lt;/figure&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Bild, Zeichnung</td>
+                                 <td style="width: 33%;" rowspan="1">Beschreibung durch Bildunterschrift (z. B. Ansichtskarten) oder
+                                    editorisch verfassten Freitext</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;notatedMusic place="inline"&gt;
+   &lt;section xmlns="https://www.music-encoding.org/ns/mei"&gt;
+      [...]
+   &lt;/section&gt;
+
+   ODER
+
+   &lt;measure xmlns="https://www.music-encoding.org/ns/mei"&gt;
+      [...]
+   &lt;/measure&gt;
+
+   ODER
+
+   &lt;layer xmlns="https://www.music-encoding.org/ns/mei"&gt;
+      [...]
+   &lt;/layer&gt;
+&lt;notatedMusic&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Notenbeispiel; Codierung mit den Elementen der <a href="https://music-encoding.org/">Music Encoding
+                                       Initiative</a>; als Einstiegspunkt dient eines der Elemente
+                                    "section", "measure" oder "layer". Befindet sich das Notenbeispiel im
+                                    Zeilenfluss, wird es mit dem Attribut "place" als inline-Element
+                                    ausgezeichnet.</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung als Notentext</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.a.2" style="font-weight: 200;">Brief-spezifische Textstrukturen</h6>
+                        <table class="table table-bordered">
+                           <tbody>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;opener/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Umfasst in der Vorlage vorhandene Angaben zu Absender:in und
+                                    Empfänger:in, Schreibort und -datum</td>
+                                 <td style="width: 33%;" rowspan="1"></td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;stamp sameAs="stamp.116"&gt; UNIVERSAL-EDITION, A.-G.
+   &lt;lb/&gt;Jos·Aibl Verlag, G. m. b. H.
+   &lt;lb/&gt;LEIPZIG
+   &lt;lb/&gt;Karlstrasse 10
+   &lt;lb/&gt;WIEN
+   &lt;lb/&gt;I·Karlsplatz 6
+   &lt;lb/&gt;Musikvereinsgebäude
+   &lt;lb/&gt;Telegr. Adr.: Musikedition Wien, A. B. C. Code 5th Ed.
+   &lt;lb/&gt;Telefon No 3228, 4533·Bank-Konto: Oesterr. Länder-
+   &lt;lb/&gt;bank. Wien. Postsparkassen Konto: 57557.
+&lt;/stamp&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Adressstempel und Briefköpfe; projektspezifische Erweiterung des
+                                    TEI-Stamp-Elements. Ein für die Geschäftskorrespondenz typischer
+                                    Bestandteil der Textstruktur sind vorgedruckte Briefköpfe, die
+                                    Adressinformationen sowie die Corporate Identity des Unternehmens
+                                    darstellen. Ihre Anordnung der Adressbestandteile und aufwändige
+                                    graphische Gestaltung als strukturelle Einheit bedingen Kompromisse
+                                    zwischen der Codierung semantischer und typografischer Zuordnung.
+                                    Ähnlich – wenngleich weniger komplex – stellt sich die Situation bei
+                                    Adressstempeln dar. In der vorliegenden Edition wird das
+                                    Hauptaugenmerk auf die Identität in der Gesamtheit gelegt, d. h. jeder
+                                    Stempel und Briefkopf erhält einen Identifier und einen Eintrag im
+                                    Stempelregister und wird als solcher im jeweiligen Brief-Dokument
+                                    codiert. Damit wird die eindeutige Zuordenbarkeit, die für die
+                                    Datierung relevant sein kann, gewahrt. Das graphische Erscheinungsbild
+                                    erschließt sich über das Digitalisat, somit auf eine graphisch
+                                    originalgetreue Codierung verzichtet wird. Ergänzte Angaben (z. B.
+                                    Schreibdatum) werden durch ein der Schreiberhand zugeordnetes
+                                    "segment" kenntlich gemacht.</td>
+                                 <td style="width: 33%;" rowspan="1">Textblöcke werden linksbündig und untereinander gereiht. Der
+                                    gesamte Stempel-/Vordruck-Block wird per Hover-Effekt mit einem
+                                    Hintergrund hinterlegt, eingefügte Textteile bleiben hiervon
+                                    ausgespart</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;address&gt;
+   &lt;addrLine&gt;Sr. Wolgeboren&lt;/addrLine&gt;
+   &lt;addrLine&gt;Herrn Kapellmeister&lt;/addrLine&gt;
+   &lt;addrLine&gt;Arnold Schönberg,&lt;/addrLine&gt;
+   &lt;addrLine&gt;Berlin.&lt;/addrLine&gt;
+&lt;/address&gt; </pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Im Zuge des Schreibakts gesetzte Adressen/Adresszeilen (inklusive
+                                    Telegrammadressen, z. B. "Musikedition Wien") </td>
+                                 <td style="width: 33%;" rowspan="4">Text, Positionierung in Annäherung an originalen Fundort
+                                    </td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;dateline&gt;Halensee, &lt;date when="1905-06-15"&gt;15.VI.05&lt;/date&gt;&lt;/dateline&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Datumszeile/Datum; das Datum wird gemäß dem originalen Fundort
+                                    codiert, die originale Schreibweise wird transkribiert sowie das Datum
+                                    im Standardformat JJJJ-MM-DD codiert.</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;salute&gt;Lieber Herr Schönberg&lt;/salute&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Grußformel; laut TEI-Guidelines teil des "opener",
+                                    projektspezifisch jedoch zwischen Brieferöffnung und dem ersten
+                                    Textabsatz eingefügt, um den unterschiedlichen Formatierungen als vom
+                                    Haupttext abgesetzte Anrede bzw. in die erste Zeile integrierte
+                                    Floskel gerecht zu werden.</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;closer&gt;
+   &lt;salute&gt;Hochachtungsvoll&lt;/salute&gt;
+   &lt;lb/&gt;
+   &lt;stamp&gt;ppa. F. M. Geidel&lt;/stamp&gt;
+   &lt;lb/&gt;
+   &lt;signed&gt;Johannes Geidel&lt;/signed&gt;
+   &lt;dateline&gt;
+      &lt;date when="1914-06-06"&gt;6./6.1914&lt;/date&gt;
+   &lt;/dateline&gt;
+   2 Beilagen
+&lt;/closer&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Briefschluss mit Grußformel, Unterschrift des Verfassers/der
+                                    Verfasserin, ggf. Stempel/Vordruck, Datumszeile,
+                                    Beilagenvermerk</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;closer rendition="#inline"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Briefschluss, welcher ohne Zeilenumbruch und Abstand direkt an das
+                                    vorherige Textstrukturelement anschließt; geht die Grußformel aus
+                                    einem Satz hervor (z. B. "Ich bitte Sie um eine baldige Antwort und
+                                    grüße [...]"), beginnt der "closer" mit Satzbeginn</td>
+                                 <td style="width: 33%;" rowspan="1">Text setzt in derselben Zeile unmittelbar fort</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;postcript/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Folgt ggf. auf den "closer", enthält mindestes einen
+                                    "paragraph".</td>
+                                 <td style="width: 33%;" rowspan="1">Text</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-5.b" style="font-weight: 200;">Textbearbeitungen des Autors</h5>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.b.1" style="font-weight: 200;">Hervorhebungen</h6>
+                        <table class="table table-bordered">
+                           <tbody>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#u"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Einfache Unterstreichung; Teilweise unterstrichene Wörter werden in
+                                    der Transkription als vollständig unterstrichen aufgefasst, es sei
+                                    denn es ist ein inhaltlicher Sinn der partiellen Hervorhebung
+                                    erkennbar (etwa bei zusammengesetzten Wörtern, Silbenbetonungen).
+                                    Unterstreichungen mehrerer Wörter werden originalgetreu als
+                                    durchgehend oder unterbrochen wiedergegeben. Unterstreichungen von
+                                    Unterschriften werden nicht codiert.</td>
+                                 <td style="width: 33%;" rowspan="3">Einfache, doppelte oder strichlierte
+                                    Unterstreichung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#uu"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">doppelte und mehrfache Unterstreichung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#uda"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">strichlierte oder gepunktete Unterstreichung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#o"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Überstrich</td>
+                                 <td style="width: 33%;" rowspan="1">Überstrich</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#g"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">gesperrter Text</td>
+                                 <td style="width: 33%;" rowspan="1">gesperrt</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#sup"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">hochgestellt</td>
+                                 <td style="width: 33%;" rowspan="1">hochgestellt</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;p rendition="#ll|#lr"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Einfache Randanstreichung für einen Absatz, Codierung gemäß
+                                    originaler Position links, rechts oder beidseitig</td>
+                                 <td style="width: 33%;" rowspan="3">Einfache oder doppelte Randanstreichung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;p rendition="#lll|#llr"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Doppelte und mehrfache Randanstreichung, Codierung gemäß originaler
+                                    Position links, rechts oder beidseitig</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#ll"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Randanstreichungen, die weniger als einen Absatz umfassen;
+                                    Codierung gemäß originaler Position links, rechts oder
+                                    beidseitig</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#circle|#rectangle"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Hervorhebung mit Umkreisung/Umrahmung</td>
+                                 <td style="width: 33%;" rowspan="1">Textumrahmung rund/eckig</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.b.2" style="font-weight: 200;">Tilgungen und Hinzufügungen</h6>
+                        <table class="table table-bordered">
+                           <tbody>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;del rendition="#s"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Tilgung durch Streichung; die Art der Durchstreichung wird nicht
+                                    codiert</td>
+                                 <td style="width: 33%;" rowspan="1">Standardisierte Darstellung der Durchstreichung</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;del rendition="#ow"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Tilgung durch Überschreibung</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung der letzten Textschicht, überschriebener Text innerhalb
+                                    von textkritischer Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;add place="superlinear|sublinear|intralinear|right|left|across"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Einfügung über der Zeile, unter der Zeile, innerhalb der Zeile,
+                                    rechts der Zeile, links der Zeile, über dem ursprünglichen Text</td>
+                                 <td style="width: 33%;" rowspan="1">Einfügung innerhalb der Zeile, textkritische Anmerkung als
+                                    Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;subst&gt;
+   &lt;del rendition="#s"&gt;das&lt;/del&gt;
+   &lt;add place="superlinear"&gt;etwas&lt;/add&gt;
+&lt;/subst&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Hinzugefügter Text ersetzt einen gestrichenen </td>
+                                 <td style="width: 33%;" rowspan="1">Getilgter Text erscheint durchgestrichen, Einfügung innerhalb der
+                                    Zeile, textkritische Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;metamark function="done"&gt;✓|⎣|⎦&lt;/metamark&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Abhaken; meist vom Empfänger/der Empfängerin als erledigt
+                                    gekennzeichneter Text</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung als Abhakung gemäß Vorlage</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;metamark function="done" spanTo="#d5t_h5r_w1c"/&gt;
+   [...]
+&lt;anchor type="done" xml:id="d5t_h5r_w1c"/&gt;
+                              
+                           </pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Abstreichung mehrzeiliger Textpassagen; die Abstreichung von ganzen
+                                    Briefen oder längeren Textteilen wird in der Anmerkung der
+                                    Metadatenansicht mitgeteilt</td>
+                                 <td style="width: 33%;" rowspan="1">Farblicher Texthintergrund, Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;del hand="#addressee|pers.123|unknown"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Tilgungen und Hinzufügungen gelten als Änderungen durch den/die
+                                    Autor:in, sie können durch das Attribut "hand" zeitgenössischen
+                                    Bearbeitern zugeordnet werden.</td>
+                                 <td style="width: 33%;" rowspan="1">Anmerkung als Tooltip</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-5.c" style="font-weight: 200;">Textauszeichnung durch Herausgeber:innen</h5>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.c.1" style="font-weight: 200;">Stillschweigende Vereinheitlichungen</h6>
+                        <ul style="list-style-type: circle; padding-left: 2rem;">
+                           <li>Im Original als Trennungsstriche verwendete "=" Zeichen werden als
+                              einfache Trennungsstriche wiedergegeben (siehe oben).</li>
+                           <li>Endsilbenverschleifungen werden stillschweigend aufgelöst.</li>
+                           <li>Mehrere Zeilen zusammenfassende geschweifte Klammern werden nicht
+                              transkribiert, eckige Klammern werden als runde Klammern
+                              übertragen.</li>
+                           <li>Bindestrich (Minus) und Gedankenstrich (–) werden unabhängig von
+                              originaler Abstand- und Zeichenlänge normalisiert.</li>
+                           <li>Bei der Bezeichnung von Geldbeträgen (z. B. "1000.--") wird unabhängig
+                              von Anzahl und Länge der Striche ein Halbgeviertstrich gesetzt.</li>
+                           <li>Brüche werden mit Schrägstrich (1/2) wiedergegeben.</li>
+                           <li>Geminationsstriche über m und n werden aufgelöst, Umlaut-Striche bzw.
+                              -Punkte über ü, ö und ä im Zweifelsfall an den Sprachgebrauch angepasst
+                              bzw. ergänzt.</li>
+                           <li>Als Anführungsstiche werden unabhängig von der Erscheinungsform im
+                              Original immer deutsche typographische verwendet („ und
+                              “).</li>
+                           <li>Groß-Kleinschreibung sowie die Schreibweise von "ß" und "ss": Bei
+                              Unsicherheit wird die an anderer Stelle vom Schreiber bevorzugte, sofern
+                              eine solche nicht eindeutig feststellbar ist, die im Zeitkontext
+                              orthographisch korrekte Variante verwendet.</li>
+                           <li>Änderungen einzelner Buchstaben werden nur ausgezeichnet, wenn diese
+                              Auswirkungen auf Wortbedeutung oder Grammatik haben. Insbesondere bei
+                              Typoskripten werden fehlende Zeichenabstände, versehentliche
+                              Buchstabenüberschreibungen durch technische Fehler, versehentliche
+                              Buchstabendreher und versehentlich hochgestellte Buchstaben usw.
+                              stillschweigend korrigiert. Ebenfalls stillschweigend übernommen werden
+                              autographe Korrekturen fehlender Satzzeichen und Zeichenabstände.</li>
+                           <li>Ersatzweise in Typoskripten verwendete Zeichen, wie z. B. "l" statt
+                              "1" oder "o" statt "0" werden normalisiert.</li>
+                           <li>Eingefügte Formatierungszeichen werden in die jeweilige Formatierung
+                              aufgelöst.</li>
+                           <li>Zeichenabstände werden normiert: handschriftliche Daten werden in
+                              originaler Schreibweise wiedergegeben, Abstände nur im Zweifelsfall und
+                              in Typoskripten normiert zu "12.5.1913"; "!" und andere Satzzeichen ohne
+                              Abstand zum vorhergehenden Wort; Sonderzeichen, Abkürzungen, Namenskürzel
+                              und Symbole mit Abstand ("d. h."), Abkürzungen ohne Punkt (z. B. PT, UE)
+                              werden originalgetreu übernommen, ebenso Abkürzungen für Institutionen,
+                              Eigennamen und Länder.</li>
+                           <li>In Manuskripten, die in Kurrentschrift verfasst sind, verwendet
+                              Schönberg häufig lateinische Schrift für Eigennamen, Werktitel und Orte.
+                              Diese Schriftwechsel finden in der Transkription keine
+                              Berücksichtigung.</li>
+                           <li>Punkte oder Striche, die gelegentlich in Tabellen die räumliche
+                              Zuordnung klären sollen, werden nicht transkribiert.</li>
+                        </ul>
+                     </div>
+                     <div>
+                        <h6 class="mt-4 mb-2" id="chapter-5.c.2" style="font-weight: 200;">Textauszeichnungen</h6>
+                        <table class="table table-bordered">
+                           <tbody>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;gap reason="lost" quantity="2" unit="char|word"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Buchstaben/Wörter in angegebener Anzahl, die durch Papierschäden
+                                    nicht entziffert und auch nicht aus dem Kontext erschlossen werden
+                                    können</td>
+                                 <td style="width: 33%;" rowspan="2">Anzeige "[...]" und textkritische Anmerkung als
+                                    Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;del rendition="#s"&gt;&lt;gap reason="illegible" quantity="2" unit="char"/&gt;&lt;/del&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">durch Durchstreichung unleserliche Buchstaben/Wörter in angegebener
+                                    Anzahl</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;hi rendition="#st"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">stenographische Textteile, die Wiedergabe basiert auf der
+                                    Übertragung von Dietlind Pichler sowie sinngemäßer Rekonstruktion
+                                    durch die Editor:innen</td>
+                                 <td style="width: 33%;" rowspan="1">Kennzeichnung durch [Stenographie:]</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;unclear reason="illegible" cert="high|low"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Unsichere Lesart, Wahrscheinlichkeit zutreffender Transkription
+                                    hoch/niedrig</td>
+                                 <td style="width: 33%;" rowspan="1">textkritische Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;supplied cert="high|low"/&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Herausgeber:innenergänzungen von fehlenden Wörtern oder Buchstaben,
+                                    Wahrscheinlichkeit zutreffender Transkription hoch/niedrig</td>
+                                 <td style="width: 33%;" rowspan="1">[ergänzter Text] und textkritische Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;choice&gt;
+   &lt;sic&gt;hate&lt;/sic&gt;
+   &lt;corr&gt;hatte&lt;/corr&gt;
+&lt;/choice&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Herausgeber:innenkorrektur, erfolgt nur bei sinnstörenden Fehlern,
+                                    falschen Opuszahlen, Hausnummern und Datumsangaben; unkommentiert
+                                    übernommen werden in der Regel alte Rechtschreibungen,
+                                    Grammatikfehler, Austriazismen, falsch geschriebene Fremdwörter,
+                                    falsche Groß- und Kleinschreibung am Wortbeginn</td>
+                                 <td style="width: 33%;" rowspan="1">textkritische Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;choice&gt;
+   &lt;sic&gt;hatte&lt;/sic&gt;
+   &lt;corr type="deleted"/&gt;
+&lt;/choice&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Herausgeber:innenstreichung; Wort- und Zeichenwiederholungen am
+                                    Zeilen- bzw. Seitenumbruch werden getilgt</td>
+                                 <td style="width: 33%;" rowspan="1">[getilgter Text] und textkritische Anmerkung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;choice&gt;
+   &lt;abbr&gt;à. C.&lt;/abbr&gt;
+   &lt;expan&gt;à Conto&lt;/expan&gt;
+&lt;/choice&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Auflösung von Abkürzungen, erfolgt nur bei nicht allgemein
+                                    verständlichen Abkürzungen</td>
+                                 <td style="width: 33%;" rowspan="1">Auflösung als Tooltip</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;choice&gt;
+   &lt;orig&gt;Clar.&lt;/orig&gt;
+   &lt;reg&gt;Klarinette&lt;/reg&gt;
+&lt;/choice&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Abkürzungen/unterschiedliche Schreibweisen von
+                                    Instrumentenbezeichnungen werden nicht aufgelöst, jedoch aus Gründen
+                                    der technischen Weiterverarbeitung mit normalisierten
+                                    Instrumentenbezeichnungen codiert.</td>
+                                 <td style="width: 33%;" rowspan="1">Darstellung der originalen Schreibweise</td>
+                              </tr>
+                              <tr>
+                                 <td style="width: 33%;" rowspan="1">
+                                    <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;ellipsis&gt;
+   &lt;metamark function="ellipsis"&gt;〃&lt;/metamark&gt;
+   &lt;supplied&gt;Kronen&lt;/supplied&gt;
+&lt;/ellipsis&gt;</pre>
+                                 </td>
+                                 <td style="width: 33%;" rowspan="1">Unterführungszeichen; Schönberg verwendet häufig
+                                    Unterführungszeichen als abgekürzte Schreibweise, welche aufgrund der
+                                    hierfür wesentlichen räumlichen Positionierung unterhalb des zu
+                                    wiederholenden Wortes zu Darstellungsproblemen führen können. Die
+                                    Transkription des Unterführungszeichens wird deshalb durch eine
+                                    Codierung der substituierten Wörter ergänzt.</td>
+                                 <td style="width: 33%;" rowspan="1">Unterführungszeichen und substituierte Wörter in eckigen Klammern
+                                    mit textkritischer Anmerkung als Tooltip</td>
+                              </tr>
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-9" style="font-weight: 200;">Auszeichnung von Textinhalten </h3>
+                  <p>Die inhaltliche Erschließung und Kommentierung der Korrespondenz umfasst Personen,
+                     Organisationen, Orte, musikalische Werke, Schriften, Veranstaltungen sowie
+                     Verweise und Kommentare.</p>
+                  <p>Sämtliche in der Korrespondenz direkt und indirekt genannten Personen,
+                     Organisationen, Orte, musikalischen Werke und Schriften werden mit dem jeweiligen
+                     Register verknüpft. Die Codierung erfolgt nicht nur innerhalb der Brieftexte,
+                     sondern gleichlautend auch in Metadaten, Kommentaren und Registereinträgen.</p>
+                  <table class="table table-bordered">
+                     <tbody>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;persName key="pers.1538"&gt;Hertzka&lt;/persName&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">namentlich genannte Person</td>
+                           <td style="width: 33%;" rowspan="8">Link zum jeweiligen Registereintrag</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;rs type="person" key="pers.1538"&gt;Direktor&lt;/rs&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">eindeutig identifizierbare, indirekt genannte Person; nur bei jeweils
+                              erster Nennung</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;orgName key="org.178"&gt;Verein für musikalische Privataufführungen&lt;/orgName&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">namentlich genannte Organisation</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;rs type="org" key="org.178"&gt;Verein&lt;/rs&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">eindeutig identifizierbare, indirekt genannte Organisation; nur bei
+                              jeweils erster Nennung</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;placeName key="place.9.11.5.3"&gt;Hietzinger Hauptstraße 113&lt;/placeName&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Ort; bei Adressen wird nicht jeder Adressbestandteil codiert, sondern die
+                              jeweils kleinste genannte Einheit</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;bibl sameAs="werke.9"&gt;Drei Klavierstücke op. 11&lt;/bibl&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Musikalisches Werk; bei umgangssprachlicher Werktitelei ("Dmoll
+                              Quartett") umfasst das Element den gesamten Ausdruck. Bei Werken, die in
+                              mehreren Fassungen/Bearbeitungen vorliegen, umfasst die Codierung nur den
+                              Titel. Indirekte Nennung (z. B. "das Sextett") wird lediglich beim ersten
+                              Auftreten innerhalb eines Briefes ausgezeichnet.</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;bibl sameAs="schriften.1"&gt;Harmonielehre&lt;/bibl&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Schrift</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;ref target="event.1"/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Veranstaltung</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-9.a" style="font-weight: 200;">Verweise</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;ref target="letter.123" &gt;Schreiben&lt;/ref&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Verweis auf im Brieftext genannte Briefe und Dokumente; auf
+                                 erschlossene Briefe wird nicht direkt im Text, sondern über einen
+                                 Stellenkommentar verwiesen, somit die Information ohne Weiterleitung auf
+                                 ein Platzhalterdokument bereitgestellt wird.</td>
+                              <td style="width: 33%;" rowspan="1">Link zum jeweiligen Brief/Dokument</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-9.b" style="font-weight: 200;">Kommentar</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;seg type="comment"&gt;&lt;orig&gt;Das Rebner Quartett wünscht mein Fismoll Quartett op. 10&lt;/orig&gt;&lt;note xml:id="nuyw_2hw_3tb"&gt;Adolf Rebner et al. an Arnold Schönberg, 7. März 1911 (&lt;ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B153041"&gt;ASCC 15304&lt;/ref&gt;). Die Bestellung wurde vom Verlag Dreililien ausgeführt; &lt;ref target="letter.12369"&gt;Verlag Dreililien an Arnold Schönberg, 13. März 1912&lt;/ref&gt;&lt;/note&gt;&lt;/seg&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Kommentare erläutern Sachverhalte, die nicht aus dem Briefwechsel
+                                 selbst hervorgehen. Thematische Einführung in den Briefwechsel und
+                                 ausführlichere Themenkommentare sind Bestandteil der Buchausgabe. In der
+                                 Online-Ausgabe liegt der wesentliche Fokus der Kommentierung auf
+                                 Kontextualisierung und Vernetzung der Briefe mit anderen Quellen. Hierzu
+                                 zählen insbesondere jene Quellen, die unmittelbar mit der
+                                 Geschäftsbeziehung zwischen Schönberg und den Verlagen in Zusammenhang
+                                 stehen: Zeugen des Druck- und Publikationsprozesses von musikalischen
+                                 Werken und Schriften, Auflagen und Ausgaben, Drittbriefe von
+                                 Zeitschriftenherausgebern, Veranstaltern und ausführenden Musikern,
+                                 Konzertprogramme, Rezensionen etc. Die Formulierung der Kommentare wird
+                                 daher knapp gehalten und die Möglichkeit der Einbindung von Links zu
+                                 anderen verfügbaren Quellen und Datenbanken genutzt.</td>
+                              <td style="width: 33%;" rowspan="1">Klick auf eine hochgestellte Ziffer öffnet ein Pop-up
+                                 Kommentarfenster</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-10" style="font-weight: 200;">Register</h3>
+                  <p>In der digitalen Edition erfüllen die Register weitreichendere Funktionen als die
+                     Indizierung von im Briefwechsel vorkommenden Personen, Organisationen,
+                     musikalischen Werken, Schriften, Orten und Stempeln/Vordrucken: Sie können über
+                     Basisdaten hinausgehende Informationen bereitstellen und damit die Kommentierung
+                     verschlanken sowie untereinander verknüpft werden.</p>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.a" style="font-weight: 200;">Personen</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;person xml:id="pers.1538"&gt;
+    &lt;idno type="gnd"&gt;https://d-nb.info/gnd/116755121&lt;/idno&gt;
+    &lt;idno type="uri"&gt;https://musiklexikon.ac.at/0xc1aa5576_0x00025509&lt;/idno&gt;
+    &lt;persName type="reg"&gt;
+        &lt;surname&gt;Hertzka&lt;/surname&gt;
+        &lt;forename&gt;Emil&lt;/forename&gt;
+    &lt;/persName&gt;
+    &lt;persName type="alt" subtype="birthname"&gt;[...]&lt;/persName&gt;
+    &lt;persName type="alt" subtype="pseudonym"&gt;[...]&lt;/persName&gt;
+    &lt;persName type="alt" subtype="referencemark"&gt;D&lt;/persName&gt;
+    &lt;birth&gt;
+        &lt;date when="1869-08-03"/&gt;
+        &lt;placeName&gt;Pest&lt;/placeName&gt;
+    &lt;/birth&gt;
+    &lt;death&gt;
+        &lt;date when="1932-05-09"/&gt;
+        &lt;placeName&gt;Wien&lt;/placeName&gt;
+    &lt;/death&gt;
+    &lt;occupation&gt;
+        &lt;term ref="https://www.wikidata.org/entity/Q222836"&gt;Musikverleger&lt;/term&gt;
+    &lt;/occupation&gt;
+    &lt;affiliation key="org.1"&gt;Universal-Edition&lt;/affiliation&gt;
+&lt;/person&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Einträge zu Personen werden nach Möglichkeit mit mindestens einer
+                                 Normdatenbank verlinkt (in der Regel <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">GND</a>). Zusätzliche Identifikatoren können inkludiert werden,
+                                 vorzugsweise sind hierbei persistent identifiers zu verwenden. Für die
+                                 Codierung von Personennamen stehen mehrere Namenstypen und -subtypen zur
+                                 Auswahl, die nicht nur den für alle Register, Metadaten etc. verwendeten
+                                 Standardnamen erfassen können, sondern auch Geburtsname, Pseudonym und
+                                 Bezugszeichen von UE-Mitarbeiter:innen. Aufgenommen werden auch Geburts-
+                                 und Sterbedatum sowie -ort, normalisierte Berufsbezeichnungen und
+                                 Verknüpfungen zwischen Personen und Organisationen.</td>
+                              <td style="width: 33%;" rowspan="1">Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                                 Verlinkung zu referenzierten Briefen und anderen Registern</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.b" style="font-weight: 200;">Organisationen</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;org xml:id="org.1" type="publisher"&gt;
+    &lt;idno type="uri"&gt;https://d-nb.info/gnd/2045143-X&lt;/idno&gt;
+    &lt;orgName type="reg"&gt;Universal-Edition&lt;/orgName&gt;
+    &lt;orgName type="alt"&gt;Universal Edition&lt;/orgName&gt;
+    &lt;orgName type="acronym"&gt;UE&lt;/orgName&gt;
+    &lt;location&gt;
+        &lt;placeName key="place.2.20.8"&gt;Leipzig, Karlstr. 10&lt;/placeName&gt;
+        &lt;placeName key="place.9.11.6.24"&gt;Wien, Innere Stadt (I.), Karlsplatz 6&lt;/placeName&gt;
+    &lt;/location&gt;
+&lt;/org&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Das Organisationsregister enthält Einträge zu Gruppierungen,
+                                 Institutionen und Körperschaften (Ensemble, Theater, Verlag,
+                                 Verwertungsgesellschaft etc.). Die Codierung sieht die Einbindung von
+                                 Normdatenlinks (GND), drei verschiedene Namenstypen sowie Standort(e)
+                                 gemäß Ortsregister vor.</td>
+                              <td style="width: 33%;" rowspan="1">Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                                 Verlinkung zu referenzierten Briefen und anderen Registern</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.c" style="font-weight: 200;">Orte</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;place xml:id="place.2.4" type="settlement"&gt;
+    &lt;placeName type="reg"&gt;Berlin-Wilmersdorf&lt;/placeName&gt;
+    &lt;placeName type="alt"&gt;Deutsch-Wilmersdorf&lt;/placeName&gt;
+    &lt;location&gt;
+        &lt;geo&gt;52.4871152, 13.3203298&lt;/geo&gt;
+    &lt;/location&gt;
+    &lt;idno type="uri"&gt;https://sws.geonames.org/2808473&lt;/idno&gt;
+&lt;/place&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Einträge im Ortsregister sind in einer hierarchischen Struktur
+                                 gegliedert, welche die Zuordnung geographischer Orte und Gebäude zu
+                                 administrativen Einheiten abbildet. Jeder Ort ist durch die semantische
+                                 Definition (Land, Gemeinde, Bezirk, Gebäude) und die Zifferfolge in
+                                 seiner Position innerhalb der Hierarchie bestimmt. Jeder Eintrag wird mit
+                                 Name, geographischen Koordinaten sowie einem Normdatenlink zur Datenbank
+                                 <a href="https://www.geonames.org/">Geonames</a> codiert. Die
+                                 hierarchische Anlage ermöglicht beim Tagging der kleinsten Einheit die
+                                 Abfrage aller Informationen höherer Ordnung, bedingt jedoch Unschärfe
+                                 hinsichtlich geopolitischer Veränderungen im
+                                 Korrespondenzzeitraum.</td>
+                              <td style="width: 33%;" rowspan="1">Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                                 aktueller Landkarte und Verlinkung zu referenzierten Briefen</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.d" style="font-weight: 200;">Musikalische Werke</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;bibl xml:id="werke.54"&gt;
+    &lt;author role="composition"&gt;
+        &lt;persName key="pers.3263"&gt;
+            &lt;surname&gt;Schönberg&lt;/surname&gt;
+            &lt;forename&gt;Arnold&lt;/forename&gt;
+        &lt;/persName&gt;
+    &lt;/author&gt;
+    &lt;author role="text"&gt;
+        &lt;persName key="pers.1228"&gt;
+            &lt;surname&gt;Giraud&lt;/surname&gt;
+            &lt;forename&gt;Albert&lt;/forename&gt;
+        &lt;/persName&gt;
+    &lt;/author&gt;
+    &lt;author role="translation"&gt;
+        &lt;persName key="pers.1465"&gt;
+            &lt;surname&gt;Hartleben&lt;/surname&gt;
+            &lt;forename&gt;Otto Erich&lt;/forename&gt;
+        &lt;/persName&gt;
+    &lt;/author&gt;
+    &lt;author role="arrangement"&gt;[...]&lt;/author&gt;
+    &lt;title&gt;Pierrot lunaire. Dreimal sieben Gedichte aus Albert Girauds „Lieder des Pierrot Lunaire“ op. 21&lt;/title&gt;
+    &lt;idno&gt;ASW 21&lt;/idno&gt;
+    &lt;ref type="partOf" target="#werke.123"/&gt;
+    &lt;date from="1912-03-12" to="1912-07-24"/&gt;
+    &lt;note&gt;
+        &lt;bibl&gt;
+            &lt;title ref="[url]"/&gt;
+        &lt;/bibl&gt;
+        &lt;bibl type="print"&gt;Originaldruck. Große Partitur. Universal-Edition Wien-Leipzig, U. E. 5334&lt;/bibl&gt;
+    &lt;/note&gt;
+&lt;/bibl&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Das Register musikalischer Werke differenziert prinzipiell zwischen
+                                 Einträgen für Originalwerke und Bearbeitungen. Die Codierung von
+                                 Autor:innen wird durch die Rollenzuweisung zu Komposition, Text,
+                                 Übersetzung und Bearbeitung spezifiziert. Der Werktitel wird inklusive
+                                 Opus-Zahl angegeben, für Schönberg-Werke ist außerdem eine Identifikation
+                                 durch die ASW-Nummer (Melkert 2023) vorgesehen, die nach Publikation des
+                                 Arnold Schönberg Werkverzeichnisses ergänzt werden kann. Bei
+                                 Bearbeitungen und Werken mit mehreren Fassungen wird ein Bezug zu
+                                 verwandten Einträgen hergestellt. Einträge von Schönberg-Werken enthalten
+                                 zudem eine bibliographische Auflistung der im Korrespondenzzeitraum bei
+                                 Dreililien und UE erschienenen Druckausgaben. Jeder Schönberg-Werkeintrag
+                                 wird zudem mit dem entsprechenden Eintrag der Arnold Schönberg Center
+                                 Werk- und Quellendatenbank verlinkt.</td>
+                              <td style="width: 33%;" rowspan="2">Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                                 Verlinkung zu referenzierten Briefen und anderen Registern</td>
+                           </tr>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;note&gt;
+    &lt;bibl n="1"&gt;
+    &lt;title ref="[url]"&gt;Erwartung&lt;/title&gt;
+    &lt;date when="1899-08-09"/&gt;
+    Text: &lt;persName role="text" key="pers.842" &gt;Richard Dehmel&lt;/persName&gt;
+    &lt;/bibl&gt;
+    [...]
+    &lt;bibl n="4"&gt;
+    &lt;title ref="[...]"&gt;Waldsonne&lt;/title&gt;
+    &lt;date when="1900"/&gt;
+    Text: &lt;persName role="text"&gt;Johannes Schlaf&lt;/persName&gt;
+    &lt;/bibl&gt;
+    &lt;bibl type="print"&gt;Verlag Dreililien Berlin 1903. Plattennummer 237&lt;/bibl&gt;
+    [...]
+&lt;/note&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Liederhefte, die als Einzelwerke komponierte Lieder bzw. Lieder mit
+                                 unterschiedlichen Textautor:innen zusammenfassen, bedürfen einer
+                                 entsprechend angepassten Codierung. Hier werden für jeweils Nummer des
+                                 Liedes in der Sammlung sowie Titel, Entstehungszeit und Textautor:in
+                                 eingetragen. Links zur Werk- und Quellendatenbank des ASC verweisen
+                                 ebenfalls auf Liedeinträge.</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.e" style="font-weight: 200;">Schriften</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;bibl xml:id="schriften.1"&gt;
+    &lt;author role="text"&gt;
+        &lt;persName key="pers.3263"&gt;
+            &lt;surname&gt;Schönberg&lt;/surname&gt;
+            &lt;forename&gt;Arnold&lt;/forename&gt;
+        &lt;/persName&gt;
+    &lt;/author&gt;
+    &lt;title&gt;Harmonielehre&lt;/title&gt;
+    &lt;idno&gt;ASSV 2.1.1.&lt;/idno&gt;
+    &lt;note&gt;
+        &lt;date when="1911"/&gt;
+        &lt;bibl&gt;VORABDRUCK des Kapitels "Über Oktaven- und Quintenparallelen" in: Die Musik 10, Nr. 2, zweites Oktoberheft 1910/1911), S. 96-105.&lt;/bibl&gt;
+        &lt;bibl&gt;VORABDRUCK einer Textauswahl aus dem Kapitel "Über Oktaven- und Quintparallelen" [übersetzt von Wassily Kandinsky] im Katalog zur Internationalen Kunstausstellung "Salon 2" in Odessa (1910/1911), S. 16–18.&lt;/bibl&gt;
+        &lt;bibl type="print"&gt;ERSTDRUCK: Arnold Schönberg: Harmonielehre, Leipzig – Wien: Universal-Edition 1911.&lt;/bibl&gt;
+    &lt;/note&gt;
+&lt;/bibl&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Struktur und Inhalt der Einträge im Schriftenregister orientieren sich
+                                 am 2011 erschienenen Arnold Schönberg Schriften Verzeichnis (<a href="https://www.zotero.org/groups/4528359/schoenberg-ue/items/XYWAN8II/item-list">Bungardt et al. 2011</a>). Autor:innen und Übersetzer:innen werden
+                                 mit ihrer Rolle und Name codiert, außer Titel und ASSV-Nummer enthält der
+                                 Registereintrag Entstehungsdatum und im Korrespondenzzeitraum erschienene
+                                 Druckausgaben. Für Schriften anderer Autor:innen wird nur die im
+                                 Korrespondenzzusammenhang relevante Ausgabe angegeben.</td>
+                              <td style="width: 33%;" rowspan="1"></td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.f" style="font-weight: 200;">Ereignisse</h5>
+                     <table class="table table-bordered">
+                        <tbody>
+                           <tr>
+                              <td style="width: 33%;" rowspan="1">
+                                 <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;event xml:id="event.29"&gt;
+    &lt;label&gt;
+        &lt;date when="1912-03-05"&gt;5. März 1912&lt;/date&gt;, &lt;placeName key="place.2.3"&gt;Berlin&lt;/placeName&gt;, Bechstein-Saal, III. Kammermusik-Abend
+    &lt;/label&gt;
+    &lt;desc&gt;
+        &lt;list type="program"&gt;
+            &lt;item&gt;
+            &lt;bibl sameAs="werke.42"&gt;Arnold Schönberg, Streichquartett Nr. 1 op. 7&lt;/bibl&gt;
+            &lt;/item&gt;
+            &lt;item&gt;
+                &lt;persName key="pers.331"&gt;Ludwig van Beethoven&lt;/persName&gt;, Streichquartett Nr. 13 op. 130
+                &lt;/item&gt;
+            &lt;/list&gt;
+        &lt;list type="participants"&gt;
+            &lt;item&gt;&lt;orgName key="org.144"&gt;Rosé-Quartett&lt;/orgName&gt; (&lt;persName key="pers.3045"&gt;Arnold Rosé&lt;/persName&gt;, Violine; Paul Fischer, Violine; Anton Ruzitska, Viola; Friedrich Buxbaum, Violoncello)&lt;/item&gt;
+        &lt;/list&gt;
+    &lt;/desc&gt;
+    &lt;bibl&gt;
+        &lt;rs type="bibl" key="zotero-4528359-3P6RGNDR"&gt;Berliner Börsen-Zeitung 1912&lt;/rs&gt;
+    &lt;/bibl&gt;
+    &lt;bibl&gt;
+        &lt;rs type="bibl" key="zotero-4528359-JJ7QYG8G"&gt;Norddeutsche Allgemeine Zeitung 1912&lt;/rs&gt;
+    &lt;/bibl&gt;
+&lt;/event&gt;</pre>
+                              </td>
+                              <td style="width: 33%;" rowspan="1">Das Ereignisregister dient der systematischen Erfassung von
+                                 Veranstaltungsdaten, insbesondere von Konzerten und Lesungen. Enthalten
+                                 sind in der Titelzeile Datum, Veranstaltungstitel und Veranstaltungsort,
+                                 darüber hinaus werden die Programmpunkte und
+                                 Interpret:innen/Darsteller:innen in Listen erfasst. Jeder Eintrag enthält
+                                 einen bibliographischen Nachweis der Quelle, aus der die daten
+                                 recherchiert wurden. Häufig sind dies Kritiken oder Programmzettel aus
+                                 dem Schönberg-Nachlass auf deren Digitalisate in den Datenbanken des ASC
+                                 in dem Fall referenziert wird. Das Register erfüllt eine Hybridfunktion
+                                 zwischen Verzeichnis und Stellenkommentar: Es dient der Auslagerung oft
+                                 umfangreicher Daten aus dem Stellenkommentar und ermöglich zugleich durch
+                                 die eindeutige Identifikation die Eingliederung dieser für einen
+                                 Musikerbriefwechsel wesentlichen Daten in die Gesamtinfrastruktur der
+                                 Edition. Events werden ausschließlich als leere Elemente im
+                                 Stellenkommentar codiert.</td>
+                              <td style="width: 33%;" rowspan="1">Im Stellenkommentar zu einem erwähnten Ereignis erscheint die
+                                 Titelzeile der Veranstaltung, ein link führt zum Detaileintrag im
+                                 Register.</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+                  <div>
+                     <h5 class="mt-4 mb-2" id="chapter-10.g" style="font-weight: 200;">Bibliographie</h5>
+                     <p>In der <a href="https://www.zotero.org/groups/4528359/schoenberg-ue/library">Bibliographie</a> wird hauptsächlich Sekundärliteratur verwaltet. Dies
+                        sind Drucknachweise bereits veröffentlichter Briefe und Literatur, die im Zuge
+                        der Kommentierung nachzuweisen ist. Inkludiert werden außerdem zeitgenössische
+                        Texte, die nicht als Schriften im engeren Sinne definiert werden können (z. B.
+                        Zeitungsartikel). Die Zitation erfolgt durch Angabe von Kurztitel, Seitenangabe
+                        und Referenzierung auf den entsprechenden Zotero-Eintrag.</p>
+                  </div>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-11" style="font-weight: 200;">Abweichende Regeln für die Lesefassung</h3>
+                  <p>Die Lesefassung ist eine emendierte Fassung, der mitgeteilte Text ist jener nach
+                     Änderung/Korrektur durch Autor:in oder Herausgeber:in, Anmerkungen von
+                     Empfänger:in, Dritten oder Unbekannt werden ausgeblendet. Textkritische
+                     Anmerkungen entfallen, lediglich unsichere Lesarten werden durch [?] angezeigt.
+                     Zeilenumbrüche und Seitenumbrüche werden zugunsten eines durchlaufenden,
+                     linksbündigen Fließtextes ausgeblendet, Abkürzungen und Unterführungszeichen
+                     werden aufgelöst. Sämtliche Hervorhebungen erscheinen als Kursivierung. </p>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-12" style="font-weight: 200;">Abweichende Regeln für Nicht-Brief-Dokumente des Sekundärkorpus </h3>
+                  <table class="table table-bordered">
+                     <tbody>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;profileDesc/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Enthält dokumentenspezifische Metadaten</td>
+                           <td style="width: 33%;" rowspan="3">Listenansicht und Detailansicht von Metadaten und
+                              Faksimile</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;abstract/&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Beschreibung des Dokuments und seiner Funktion im
+                              Korrespondenzkontext</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">
+                              <pre class="prettyprint lang-xml" style="font-size: 0.8rem; border: none; white-space: pre-wrap; margin-bottom: 0px; word-break: break-all;">&lt;creation&gt;
+    &lt;persName&gt;Schönberg, Mathilde&lt;/persName&gt;
+    &lt;persName&gt;Schönberg, Arnold&lt;/persName&gt;
+    &lt;persName&gt;Greissle, Josef Rudolf Georg&lt;/persName&gt;
+    &lt;persName&gt;Greissle, Theresia Josefa&lt;/persName&gt;
+    &lt;date notBefore="1921-11-01" notAfter="1921-11-10" cert="high"/&gt;
+    &lt;placeName&gt;Wien&lt;/placeName&gt;
+&lt;/creation&gt;</pre>
+                           </td>
+                           <td style="width: 33%;" rowspan="1">Ersetzt die Korrespondenzbeschreibung durch eine Liste aller relevanten
+                              an der Erstellung des Dokuments beteiligten Personen und
+                              Institutionen</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+               <div>
+                  <h3 class="mt-5 mb-3" id="chapter-13" style="font-weight: 200;">Abkürzungen</h3>
+                  <table class="table table-bordered">
+                     <tbody>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASC</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://schoenberg.at/de">Arnold Schönberg Center
+                                 Privatstiftung, Wien</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASCC</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://archive.schoenberg.at/letters/letters.php">Arnold
+                                 Schönberg Center Correspondence Database</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASCI</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://archive.schoenberg.at/resources/pages/home.php">Arnold Schönberg Center Image Archive</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASCR</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://archive.schoenberg.at/av/tontraeger.php">Arnold
+                                 Schönberg Center Recordings Audiodatenbank</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASSV</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://archive.schoenberg.at/library/bilddaten/ASSV.pdf">Arnold Schönberg Schriftenverzeichnis</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASW</td>
+                           <td style="width: 33%;" rowspan="1">Arnold Schönberg Werkverzeichnis (<a href="https://www.zotero.org/groups/4528359/schoenberg-ue/items/UCF6QZEI/item-list">Melkert 2023</a>)</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">ASGA</td>
+                           <td style="width: 33%;" rowspan="1">Arnold Schönberg Gesamtausgabe (<a href="https://www.schoenberg-gesamtausgabe.de/informationen.html">https://www.schoenberg-gesamtausgabe.de/informationen.html</a>)</td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">NYPL</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://www.nypl.org/">The New York Public
+                                 Library</a></td>
+                        </tr>
+                        <tr>
+                           <td style="width: 33%;" rowspan="1">WZAS</td>
+                           <td style="width: 33%;" rowspan="1"><a href="https://www.mdw.ac.at/imi/wissenschaftszentrum-arnold-schoenberg/">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <p></p>
+               </div>
+            </div>
+         </div>
+         <div class="catStickyTop" style="opacity: 0; pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" class="bi bi-chevron-double-up" width="32px" height="32px" viewBox="0 0 16 16" fill="currentColor">
+               <path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L8 3.707 2.354 9.354a.5.5 0 11-.708-.708l6-6z" clip-rule="evenodd"></path>
+               <path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L8 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd"></path></svg></div>
+      </div>
+   </div><script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?lang=xml"></script><script>
+                        let scrollTop = document.querySelector('.catStickyTop')
+                        document.addEventListener('scroll', () =&gt; {
+                            if (window.scrollY &gt; '600') {
+                                scrollTop.style.opacity = 1
+                                scrollTop.style.pointerEvents = 'auto'
+                            }
+                            else {
+                                scrollTop.style.opacity = 0;
+                                scrollTop.style.pointerEvents = 'none'
+                            }
+                        })
+                        scrollTop.addEventListener('click', () =&gt; {
+                            window.scrollTo(0, 100);
+                        })
+                    </script></div>

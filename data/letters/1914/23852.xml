@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.23852"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>F. M. Geidel an Universal-Edition, 19. Mai 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.23852</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 23852</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                            <biblScope unit="page" from="234" to="234"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1202">Geidel, Friedrich Moritz</persName>
+                    <orgName key="org.65">F. M. Geidel</orgName>
+                    <placeName key="place.2.20.7">Leipzig, Wittenberger Straße 23</placeName>
+                    <date when="1914-05-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.23853"/>
+                </correspContext>
+                <note>Beilage zu <ref target="letter.17537">Universal-Edition an Arnold Schönberg,
+                        20. Mai 1914</ref>; angeklebt: <ref target="letter.23853">Arnold Schönberg
+                        an F. M. Geidel, zwischen 21. und 27. Mai 1914</ref>
+                </note></correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/23852_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.23852_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.16">
+                        <orgName key="org.65">F. M. GEIDEL</orgName>, LEIPZIG<lb/>Anstalt für<lb/>
+                  Notenstich, Notendruck und Anastatischen Druck<lb/>Stein- und Buchdruckerei,
+                  Notensatz, Stereotypie<lb/>Lithographie, Autographie und Buchbinderei<lb/>
+                  Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., Leipzig<lb/>Leipzig, den <date when="1914-05-19">
+                            <seg hand="#author">19. Mai</seg> 191<seg hand="#author">4.</seg>
+                        </date>
+                        <lb/>
+                        <placeName key="place.2.20.7">Wittenbergerstraße 23</placeName>
+                    </stamp>
+                    <address>
+                        <addrLine>Verehrl.</addrLine>
+                        <addrLine rendition="#c">
+                            <orgName key="org.1">Universal-Edition, A.-G.</orgName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.9.11">Wien</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Das <seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note sameAs="letter.32/#nodl_zfs_3dc"/>
+                    </seg> von der <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="nxj3_lps_pdc" resp="#KBleier">
+                            <bibl sameAs="werke.7">Erwartung op.
+                                17</bibl>
+                        </note>
+                    </seg> erhielt ich und hat mein <lb/>Faktor sofort
+                    die Einteilung gemacht.</p>
+                <p>Freilich stossen nun <add place="superlinear">dabei</add> eine ganze Masse Fragen auf
+               und kann <lb/>ich Ihnen demzufolge auch noch nicht <add place="superlinear">genau</add> sagen, wieviel Seiten die Partitur <lb/>wohl einnehmen wird. Der
+               Umfang dürfte sich auf ungefähr 80–85 Seiten <lb/>belaufen, wobei fast
+               durchgehend 2 Systeme auf die Platte kommen und zwar <lb/>bis zu 34 Linien in der
+                    Höhe. Dies bedingt nun freilich, dass ein etwas <lb/>grösseres <add place="superlinear" hand="#pers.3263">
+                        <metamark target="letter.23853#start_odq_yfx_tbc">1)</metamark>
+                    </add> Format als das übliche Quart genommen wird und zwar
+               das soge<g ref="#typoHyphen"/>
+                    <lb break="no"/>nannte Doppel-Pariser, wovon ich Ihnen
+               zur Ansicht einen Bogen mit einer <lb/>gedruckten Partiturseite von 33 Linien
+               gleichzeitig unter x Bd. zusende. <lb/>Zu der Partitur würde auch dasselbe Zeug, wie
+               zu der Vorlage, zu nehmen <lb/>sein.</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_mzb_zfx_tbc">2)</metamark>
+                    </add> Das Manuskript ist meist sehr eng geschrieben, sodass
+               <lb/>es sehr oft nicht möglich ist, den vorhandenen Stoff auf einer Seite <add place="superlinear">des Manuscr.</add> auch <lb/>wieder auf einer Platte
+               unterzubringen.</p>
+                <p>Sie schreiben nun, dass alles genau wie in der Partitur <lb/>gestochen und
+               eingerichtet werden solle, was aber ganz undenkbar ist, denn <lb/>es sind lt.
+                    Vorschrift des Herrn <rs type="person" key="pers.3263">Komponisten</rs> oft Linien, <add place="superlinear" hand="#pers.3263">
+                        <metamark target="letter.23853#start_lmk_zfx_tbc">3)</metamark>
+                    </add>
+                    <hi rendition="#u" hand="#pers.3263">wo 5 und noch</hi>
+                    <lb/>mehr Instrumente darauf stehen, in 2 Linien auseinander zu ziehen. Auch
+                    <lb/>kommt es oft vor, dass z. B. <add place="superlinear" hand="#pers.3263">
+                        <metamark target="letter.23853#start_vxs_zfx_tbc">4)</metamark>
+                    </add>
+                    <hi rendition="#u" hand="#pers.3263">die Celestastimme mit der Linie der</hi> Harfen<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimme geschrieben ist, was doch auch nicht
+               geschehen darf. Dann wieder <lb/>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_nnz_zfx_tbc">5)</metamark>
+                    </add>
+                    <hi rendition="#u" hand="#pers.3263">ist die Harfenstimme oft auf eine</hi> Linie
+               geschrieben, was auch nicht ge<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>bräuchlich ist, denn sie wird stets auf 2 Linien gestochen. Auch steht <lb/>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_s5b_g5l_5bc">6)</metamark>
+                    </add>
+                    <hi rendition="#u" hand="#pers.3263">die Celestastimme</hi> oft über der Harfe und so
+               auch die Beckenstimme über und <lb/>unter den Pauken. Hier muss doch eine Gleichheit
+               durchgeführt werden. <lb/>Wollen Sie mir also sagen, ob die Harfenstimme <add place="superlinear">(auch Celesta<supplied cert="high">)</supplied>
+                    </add>
+               durchgehend auf <hi rendition="#u">2</hi>
+                    <hi rendition="#u">Linien</hi>
+                    <lb/>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_ic2_mgx_tbc">7)</metamark>
+                    </add> gestochen werden soll. Auch bitte ich
+               um Bescheid, ob die Celestastimme <lb/>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_ic2_mgx_tbc">8)</metamark>
+                    </add>
+               immer <hi rendition="#u">unter</hi> die Harfe zu stehen kommen soll und die
+               Beckenstimme <hi rendition="#u">unter</hi>
+                    <lb/>die Paukenstimme.</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_gnp_qgx_tbc">9)</metamark>
+                    </add> Hin und wieder ist auch bei dem Schlagzeug nur <hi rendition="#u">eine</hi>
+                    <hi rendition="#u">Li<g ref="#typoHyphen"/>
+                        <lb break="no"/>nie</hi> für die Noten
+               gezogen, z. B. für Triangel und auch für Becken. Sollen <lb/>da nicht auch immer die
+               üblichen <hi rendition="#u">5</hi>
+                    <hi rendition="#u">Rastorallinien</hi>
+                    <add place="superlinear">sein</add> und dass bei der Tri<g ref="#typoHyphen"/>
+                    <lb break="no"/>angelstimme die Note in die <hi rendition="#u">C</hi> Linie gestochen
+               werden? ( <notatedMusic place="inline">
+                        <section xmlns="http://www.music-encoding.org/ns/mei">
+                            <scoreDef mnum.visible="false">
+                                <staffGrp>
+                                    <staffDef n="1"
+                                              lines="5"
+                                              clef.line="2"
+                                              clef.shape="G"
+                                              clef.visible="false"/>
+                                </staffGrp>
+                            </scoreDef>
+                            <measure n="1" left="invis" right="invis">
+                                <staff n="1">
+                                    <layer n="1">
+                                        <note pname="c" oct="5" dur="4" stem.dir="down"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                        </section>
+                    </notatedMusic>?)</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_xsw_qgx_tbc">10)</metamark>
+                    </add> Es ist öfters nötig, dass, wo 3
+                  Instrumente<del rendition="#s">n</del> von <hi rendition="#u">un<g ref="#typoHyphen"/>
+                        <lb break="no"/>gleicher</hi> Stimmung auf einer Linie
+               stehen, dieselben auseinander gestochen <lb/>werden müssen, z. B. Clarinette in D
+               &amp; A. In solchen Fällen ist es wohl <lb/>nötig, dass die Noten <add place="superlinear">der einen Stimme</add>
+                    <hi rendition="#u" hand="#pers.3263">transponiert werden</hi>? <add place="intralinear" hand="#pers.3263">
+                        <hi rendition="#circle">10</hi>
+                    </add>
+                    <note place="left" hand="#pers.3263">!! <hi rendition="#uu">nein</hi>
+                    </note>
+                </p>
+                <p>In der Regel werden Bezeichnungen auf <add place="superlinear" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_ar2_rgx_tbc">11</metamark>
+                        </hi>
+                    </add> der <hi rendition="#u">A</hi>
+               &amp; <hi rendition="#u">C</hi>
+                    <hi rendition="#u">Saite</hi>
+                    <lb/>bei den Streichern und etwaigen Bezeichnungen wie <add place="superlinear" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_c2q_tgx_tbc">12</metamark>
+                        </hi>
+                    </add>
+                    <hi rendition="#u">Flatterzunge</hi> in den <lb/>
+                    <note place="left" hand="#pers.3263">!!</note>
+                    <hi rendition="#u" hand="#pers.3263">Bläsern nicht</hi> mit in die Partitur
+               aufgenommen. Scheinbar will dies aber <lb/>hier der Herr Komponist und ich frage <choice>
+                        <sic>a</sic>
+                        <corr cert="high">n</corr>
+                    </choice>ur noch einmal der Sicherheit hal<g ref="#typoHyphen"/>
+                    <lb break="no"/>ber
+               an, ob sie tatsächlich hier in der Partitur mit zu stechen sind.</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_wky_tgx_tbc">13</metamark>
+                        </hi>
+                    </add> Wenn 1systemige Platten
+               vorkommen, dann könnten wohl <lb/>
+                    <note place="left" hand="#pers.3263">nein</note>
+               die <hi rendition="#u">Divisistellen</hi> in den Streichinstrumenten auseinander
+               gestochen werden, <lb/>damit die Seite besser gefüllt wird?</p>
+                <p>
+                    <note place="left" hand="#pers.3263">nein</note>
+                    <add place="left" hand="#pers.3263">
+                        <metamark target="letter.23853#start_x3h_5gx_tbc">14</metamark>
+                    </add> Auf der 1. Seite der Partitur ist es wohl angebracht,
+               <lb/>dass alle vorkommenden Instrumente vertreten sind (es würden 28 Linien <pb n="3" xml:id="p.3"/>werden) es würde da natürlich nur <hi rendition="#u">1</hi> System
+               mit 28 Linien gestochen. </p>
+                <p>Nun möchte ich auch genaue Angaben darüber haben, wie <lb/>
+                    <add place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_d4p_5gx_tbc">15</metamark>
+                        </hi>
+                    </add> die Abkürzungen vor den einzelnen Linien
+               gehalten werden sollen, ich <lb/>lege die Instrumentenbezeichnung bei und bitte Sie,
+               darauf die Abkürzun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen vornehmen zu lassen und
+               mir wieder zurückzuschicken. Jedenfalls <lb/>ist es ratsam, dass die Abkürzungen so
+               kurz wie möglich gemacht werden, <lb/>denn es wird sonst zu viel Raum vor den Linien
+               gebraucht und der Kosten<g ref="#typoHyphen"/>
+                    <lb break="no"/>punkt spricht hier auch
+               mit.</p>
+                <p>Dann möchte ich Sie auch um ein Textbuch bitten, was <lb/>zur Erleichterung bei de<subst>
+                        <del rendition="#ow">n</del>
+                        <add place="across">m</add>
+                    </subst> Steche<del rendition="#s">r</del>n dienen soll.</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_d3y_5gx_tbc">16</metamark>
+                        </hi>
+                    </add> Wie ich nun die verschiedenen
+               Crescendozeichen und <lb/>Diminuendozeichen etc. stechen soll, ist mir auch noch
+               nicht klar, und <lb/>ich möchte Sie doch bitten, auf der mitfolgenden Probe prüfen zu
+               las<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_mm3_vgx_tbc">17</metamark>
+                        </hi>
+                    </note> sen, ob sie so
+               richtig sind. Auch finden Sie darauf <hi rendition="#u" hand="#pers.3263">ein <add place="superlinear" hand="#pers.3263">
+                            <metamark>
+                                <hi rendition="#circle">17</hi>
+                            </metamark>
+                        </add> Tempowort</hi> und <lb/>
+                    <note place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_k1s_vgx_tbc">18</metamark>
+                        </hi>
+                    </note>
+                    <hi rendition="#u" hand="#pers.3263">
+                        <add place="superlinear" hand="#pers.3263">
+                            <metamark>
+                                <hi rendition="#circle">18</hi>
+                            </metamark>
+                        </add>
+               Wiederholungszahlen</hi> und bitte ich, mir auch hierüber zu
+               sagen, ob diese <lb/>so <subst>
+                        <del rendition="#s">richtig</del>
+                        <add place="superlinear">recht</add>
+                    </subst> sind.</p>
+                <p>Es ist eben bei der Partitur so vielerlei fraglich, <lb/>dass die Stecher sehr
+               ängstlich werden und nicht wissen, wie sie es rich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tig machen, daher frage ich an und würde dann unter Umständen<add place="intralinear">,</add> nach Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>gang
+               ihrer Antwort<add place="intralinear">,</add> erst eine Probeplatte stechen lassen,
+               damit für spä<g ref="#typoHyphen"/>
+                    <lb break="no"/>ter unliebsame Veränderungen
+               vermieden werden.</p>
+                <p>
+                    <add place="left" hand="#pers.3263">
+                        <hi rendition="#circle">
+                            <metamark target="letter.23853#start_p3x_vgx_tbc">19</metamark>
+                        </hi>
+                    </add> Obwohl ich annehme, dass es
+               seine Richtigkeit hat, möch<lb break="no"/>te ich aber doch zur Sicherheit noch anfragen, ob die aufgeklebte Seite <lb/>67 das wirkliche Schluss ist?;
+               scheinbar geht es ja weiter, denn es <lb/>schliesst mit fortlaufender Figur.</p>
+                <closer rendition="#r">
+                    <salute>Hochachtungsvoll</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.1202">F. M. Geidel</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Auf der ersten Seite des Manuscripts steht auch noch bei den Anmerkungen des Herrn
+                  <lb/>Komponisten: Notiz „<bibl sameAs="werke.54">Pierrot</bibl>
+                        <bibl sameAs="werke.24">George Lieder</bibl>“, was mir nicht klar ist. <add place="left" hand="#pers.3263">
+                            <hi rendition="#circle">
+                                <metamark target="letter.23853#start_ylf_wgx_tbc">20</metamark>
+                            </hi>
+                        </add>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

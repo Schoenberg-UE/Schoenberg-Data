@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20716_ccd"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 7. November 1936</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20716_ccd</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und
+                            darstellende Kunst Wien</institution>
+                        <repository>Wissenschaftszentrum Arnold Schönberg und die Wiener
+                            Schule</repository>
+                        <collection>Archiv der Universal Edition, Depositum</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20716</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1936-11-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.7416"/>
+                </correspContext>
+                <note>Entwurf zu <ref target="letter.20716_tl">Universal-Edition an Arnold Schönberg, 7. November 1936</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-02-16+02:00" who="KBleier">Korrektur Werk</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20716_ccd.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20716_ccd"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>Hochverehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir haben uns mit den Ausführungen Ihres <ref target="letter.7416">Briefes</ref>
+                    vom <lb/>
+                    <date when="1936-10-10">10. v. M.</date> in gründlichster Weise
+                    beschäftigt und alle unsere Aufzeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>nungen, die damit zusammenhängen, genau nachgeprüft.</p>
+                <p>Wir gehen die einzelnen Punkte im Folgenden durch:</p>
+                <p>
+                    <hi rendition="#u">Verrechnungsmodus Ihrer Anteile an Leihgebühren und Kauf<g ref="#typoHyphen"/>
+                        <lb break="no"/>beträgen:</hi> Unseres Erachtens ist
+                    die Textierung im <seg type="comment">
+                        <orig>Vertrage</orig>
+                        <note sameAs="letter.20716_tl/#njf1_mmz_5cc"/>
+                    </seg> vollkommen <lb/>eindeutig. Leihgebühren oder
+                    Kaufpreise von Orchestermaterialen sind <lb/>die Beträge, die wir tatsächlich
+                    erhalten. Deutlich geht dies überdies <lb/>aus dem <seg type="comment">
+                        <orig>Vertrage</orig>
+                        <note sameAs="letter.20716_tl/#nw4j_cyt_vxb"/>
+                    </seg>
+                    hervor, den wir im Jahre <date when="1922">1922</date> abgeschlossen haben, in
+                    <lb/>dem es ausdrücklich heisst, dass die Materialtantiemen von den
+                        „effek<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiven Eingängen“ der
+                    Kauf- oder Leihpreise zu zahlen sind. Anders ist <lb/>das bei den sogenannten
+                    Editionsausgaben, bei welchen die Autorenan<g ref="#typoHyphen"/>
+                    <lb break="no"/>teile vom Ladenpreis, also von dem Preis, den die letzte Hand bezahlt,
+                    <lb/>berechnet werden.</p>
+                <p>Wiewohl wir also unseren Standpunkt bezüglich der Verrech<g ref="#typoHyphen"/>
+                    <lb break="no"/>nung im Sinne des Vertrages für vollkommen richtig halten,
+                    wollen wir <lb/>Ihre Ansicht in dieser Angelegenheit als Ihren Wunsch
+                    respektieren und <lb/>sind bereit, diesem Wunsche zu entsprechen. Wir merken in
+                    unseren Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>trägen vor, dass die
+                    Verrechnung von nun an, resp. rückwirkend ab <lb/>
+                    <date when="1936-06-30">30.
+                        Juni 1936</date>, in der Weise erfolgen soll, dass Ihre Tantieme bei Or<g ref="#typoHyphen"/>
+                    <lb break="no"/>chestermaterialen von jenem Betrag
+                    errechnet wird, welchen <del rendition="#s">die letzte <lb/>Hand, also</del> der
+                    Veranstalter der Aufführung bezahlt. Wir möchten noch <lb/>bemerken, dass <subst>
+                        <del rendition="#s">ein Grossteil unserer</del>
+                        <add place="superlinear">die</add>
+                    </subst> Orchestermateriale <add place="superlinear">größtenteils</add> von den
+                    <lb/>Konzertveranstaltern direkt bezogen <subst>
+                        <del rendition="#s">wird</del>
+                        <add place="across">werden</add>
+                    </subst>
+                    <add place="superlinear">und daher von uns keine Vermittlungsprovisionen <lb/>zu
+                        zahlen <lb/>sind</add>. Die Differenz zwischen dem <lb/>früheren und dem
+                    neuen Verrechnungsmodus kann infolgedessen keine sehr <lb/>grossen Beträge
+                        ergeben.<pb n="2" xml:id="p.2"/>
+                </p>
+                <p>Der Passus Ihres Briefes, in dem Sie schreiben, dass <lb/>Sie einstellige
+                    Dollarbeträge für Aufführungen verrechnet erhielten, <lb/>für welche
+                    dreistellige gezahlt wurden, ist uns allerdings vollkommen <lb/>unverständlich.
+                    Es ist da unbedingt notwendig, dass Sie uns die be<g ref="#typoHyphen"/>
+                    <lb break="no"/>treffenden Fälle bekanntgeben, oder uns wenigstens einen
+                    einzigen <lb/>Fall als Beispiel <del rendition="#s">zu</del> nennen. Wir sind
+                    überzeugt, dass hier ein Irrtum <lb/>Ihrerseits vorliegt, den wir bestimmt
+                    werden aufklären können.</p>
+                <p>Was Ihre Ausführ<subst>
+                        <del rendition="#ow">en</del>
+                        <add place="across">ungen</add>
+                    </subst> betrifft, wonach Sie von einer Reihe <lb/>von Aufführungen, bei denen
+                    Sie anwesend waren, keine Verrechnung er<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten haben, kann es sich hier nur um Materiale handeln, die vor <lb/>vielen
+                    Jahren nach <placeName key="place.15">Amerika</placeName> verkauft wurden und
+                    die Ihnen seinerzeit <lb/>auch als Verkäufe verrechnet worden sind. Wir bitten
+                    Sie, uns auch da <lb/>die konkreten Fälle <add place="superlinear">oder
+                        wenigstens einen Fall</add> anzugeben, damit wir in der Lage sind, nachzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>prüfen, ob unsere Annahme auf Richtigkeit
+                    beruht. Wir halten es <del rendition="#s">aber</del>
+                    <lb/>für ganz ausgeschlossen, dass die <orgName key="org.23">A.M.P.</orgName>
+                    Beträge für Leih- oder Kauf<g ref="#typoHyphen"/>
+                    <lb break="no"/>materiale
+                    entgegengenommen hat, ohne dass sie uns, und <subst>
+                        <del rendition="#s">darum</del>
+                        <add place="superlinear">damit</add>
+                    </subst> auch Ihnen <lb/>verrechnet worden wären. Auch wir wollen, dass <subst>
+                        <del rendition="#s">allen</del>
+                        <add place="superlinear">allen</add>
+                    </subst> Bedenken, die <lb/>Sie haben, und allen Fällen, <subst>
+                        <del rendition="#s">die</del>
+                        <add place="superlinear">in denen</add>
+                    </subst> Ihnen nach Ihrer Meinung nicht oder <lb/>unrichtig verrechnet worden <subst>
+                        <del rendition="#s">sind</del>
+                        <add place="superlinear">ist</add>
+                    </subst>, genauest nachgegangen werden soll. <lb/>Wir halten es aber für ganz
+                    unwahrscheinlich, dass eine Gesellschaft <lb/>vom Rang und der kapi<g ref="#typoHyphen"/>
+                    <lb break="no"/>talistischen <add place="intralinear">Durchschlagskraft</add> der <orgName key="org.23">AmP</orgName>, selbst
+                    wenn es <lb/>sich um grössere Beträge handel<subst>
+                        <del rendition="#s">n würde,</del>
+                        <add place="across">te,</add>
+                    </subst> (was hier nicht der Fall ist) <lb/>tatsächlich kaufmännische und
+                    moralische Unanständigkeiten begehen <lb/>würde.</p>
+                <p>Wir teilen gleichzeitig Ihre Beschwerden der <orgName key="org.23">AMP</orgName>
+                    mit und werden <lb/>Sie von der Antwort verständigen. Wir fürchten nur, dass es
+                    nicht leicht <pb n="3" xml:id="p.3"/>sein wird, zu einem Resultat zu kommen, wenn
+                    wir der <orgName key="org.23">AMP</orgName> kein einziges <lb/>konkretes Faktum
+                    angeben können.</p>
+                <p>Was nun die Verrechnung aus Erträgnissen von Schallplatten <lb/>der <seg type="comment">
+                        <orig>„<bibl sameAs="werke.16">Gurre-Lieder</bibl>“</orig>
+                        <note sameAs="letter.2253/#nipl_lvb_mgc"/>
+                    </seg> und der <seg type="comment">
+                        <orig>„<bibl sameAs="werke.14">Verklärten Nacht</bibl>“</orig>
+                        <note sameAs="letter.7416/#ng52_51c_pcc"/>
+                    </seg> betrifft, haben wir Ihnen
+                    die <lb/>letzte Abrechnung, welche den Zeitraum von <date when="1934-09">September 1934</date> bis <date when="1935-06">Juni 1935</date>
+                    <lb/>betraf, in unserer <ref target="document.24089">Abrechnung</ref> vom <date when="1936-06-30">30. Juni 1936</date> übermittelt. Es waren <lb/>dort 1614
+                    Lizenzmarken <bibl sameAs="werke.13">Verklärte Nacht</bibl> und 538 der <bibl sameAs="werke.16">Gurrelieder</bibl> verrechnet. <lb/>Das Erträgnis der
+                    einzelnen Schallplatte ist allerdings nur ganz minimal. <lb/>Die Abrechnung über
+                    die Schallplatten für die Zeit vom <date when="1935-09-30">30. September
+                        1935</date>
+                    <lb/>bis <date when="1936-03-31">31. März 1936</date> ist uns im <date when="1936-09">September 1936</date> zugekommen und Sie erhalten <lb/>die
+                    Ihnen zukommende Tantieme hieführ in der <ref target="document.24052">Abrechnung</ref> per <date when="1936-12-31">31. XII. 1936</date>
+                    <lb/>verrechnet.</p>
+                <p>Die Rekordierung der <bibl sameAs="werke.13">Verklärten Nacht</bibl> ist ohne unser Wissen <lb/>erfolgt. Wir haben
+                    seinerzeit im Jahre <date when="1932">1932</date>, wie dies mit Ihnen vereinbart
+                    <lb/>worden war, sowohl der <orgName key="org.18">Ammre</orgName>, wie der
+                        <orgName key="org.73">GDT</orgName>
+                    <seg type="comment"><orig>mitgeteilt</orig><note xml:id="nlr3_zjf_l1c"
+                            resp="#pkehrer"><ref target="document.24369">Universal-Edition an
+                                Anstalt für mechanisch-musikalische Rechte, 20. August
+                            1932</ref>
+                        </note>
+                    </seg>, dass Erstaufnahmen <lb/>ohne Ihre Genehmigung
+                    nicht stattfinden dürfen. Wir haben auch die <seg type="comment">
+                        <orig>Be<g ref="#typoHyphen"/>
+                            <lb break="no"/>stätigung</orig>
+                        <note xml:id="nrbm_dkf_l1c" resp="#pkehrer">
+                            <ref target="document.24367">Genossenschaft deutscher Tonsetzer an Universal-Edition, 5.
+                                September 1932</ref>; <ref target="document.24368">Anstalt für
+                                mechanisch-musikalische Rechte an Universal-Edition, 1. September
+                                1932</ref>
+                        </note>
+                    </seg> auf diese Schreiben in der Hand. Ausserdem
+                    haben wir beide Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sellschaften am <date when="1932-09-15">15. September 1932</date> ersucht, auch Ihnen das Verbot
+                    der Erst<g ref="#typoHyphen"/>
+                    <lb break="no"/>aufnahmen ohne Ihre Zustimmung zu
+                    bestätigen. <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                </p>
+                <p>Es liegt uns sehr daran, dass die Angelegenheiten, über die Sie <lb/>Beschwerde
+                    führen, vollständig geklärt und zu Ihrer Zufriedenheit bereinigt <lb/>werden.
+                    Wir zweifeln nicht, dass dies gelingen wird, wenn Sie Vertrauen <lb/>zu uns
+                    haben und uns angeben, <subst>
+                        <del rendition="#s">für</del>
+                        <add place="superlinear">auf</add>
+                    </subst> welche Aufführungen sich Ihre Beschwerden <lb/>beziehen.</p>
+                <p>Sie müssen wissen, wie hoch wir Sie, hochverehrter Meister  <lb/>
+                    <persName key="pers.3263">Schönberg</persName>, schätzen, und <del rendition="#s">sollen</del> das Gefühl haben, dass es Freunde sind, die  <lb/>Ihre Rechte
+                    verwalten. Es kann für uns nichts anderes Richtlinie sein, als <pb n="4" xml:id="p.4"/>Ihre Interessen wirksam zu vertreten und es ist
+                    selbstverständlich,  <lb/>dass Sie restlos jenen Ertrag aus Ihren Werken
+                    erhalten sollen, der  <lb/>Ihnen zusteht. Wenn Sie uns die erbetenen genaueren
+                    Angaben machen,  <lb/>bitten wir Sie, es uns zu überlassen, ob und in wie weit
+                    wir Ihre  <lb/>Mitteilungen an die <orgName key="org.23">AMP</orgName>
+                    weitergeben; wir werden dabei nur in Ihrem  <lb/>Interesse handeln.</p>
+                <closer>
+                    <salute>Wir bitten Sie freundlich um Antwort auf dieses Schreiben  <lb/>und zeichnen mit
+                        verbindlichen Grüssen <seg rendition="#r">in vorzüglicher
+                        Hochachtung</seg>
+                    </salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

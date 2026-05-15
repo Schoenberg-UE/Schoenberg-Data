@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.21777"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. Juni 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.21777</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21777</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1923-06-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.10">Traunkirchen</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.859"/>
+                    <ref type="answered-by" target="letter.924"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21777_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21777_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.101">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                  <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien, A. B. C. Code 5<hi rendition="#sup">th</hi> Ed.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228,
+                  4533·Bank-Konto: <orgName key="org.199">Oesterr. Länder-<lb/>bank. Wien</orgName>.
+                  Postsparkassen Konto: 57557.<lb/>Wien<seg hand="#author">, am <date when="1923-06-25">25. Juni 1923</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4368">Ei</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#g #uda">
+                                <placeName key="place.9.10">Traunkirchen</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich versuche es heute, Ihnen <del rendition="#s">heute</del> einen neuen Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag zu unterbreiten, um einen Streit, den
+               Sie allem Anschein nach <lb/>hervorzurufen gedenken, zu verhüten.</p>
+                <p>Ich erkläre mich bereit, Ihnen, <hi rendition="#u" hand="#addressee">insolange Sie
+                  Ihre <lb/>Vertragsverpflichtungen erfüllen</hi>, eine <hi rendition="#u" hand="#addressee">einheitliche Auflagentantieme</hi>
+                    <lb/>von <hi rendition="#u" hand="#addressee">10 % auf den schweizer
+                  Franken-Ladenpreis</hi> zu bezahlen. Dieses Zuge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständnis ist ein sehr weitgehendes und ich kann es mir ersparen,
+                  darü<g ref="#typoHyphen"/>
+                    <lb break="no"/>ber weitere Worte zu verlieren. Ihre
+               Einkünfte würden dadurch in <lb/>automatischer Weise ausserordentlich erhöht. Für uns
+               bedeutet das ein <lb/>grosses Opfer. Unter teilweiser Anlehnung an die Vorschläge
+               meines <lb/>
+                    <ref target="letter.21772">Schreibens</ref> vom <date when="1923-05-25">25. Mai</date> würden nun folgende Abänderungen unseres Vertrages
+               <lb/>resultieren:</p>
+                <p>I. Die Goldauflagentantieme würde <hi rendition="#u" hand="#addressee">vom <date when="1923-07-01">1. Juli 1923</date>
+                    </hi>
+                    <lb/>an in Kraft treten.</p>
+                <p>II. Für das derzeit ablaufende Halbjahr erhalten Sie <lb/>die Berechnung für
+               Exemplare, die verkauft sind, auch wenn sie nicht <lb/>bezahlt worden wären.</p>
+                <p>
+                    <note place="left" hand="#addressee">unannehmbar</note>
+                    III. Falls das Erträgnis für
+                    die Zeit <date when="1923-07-01">vom <date when="1923-07-01">1. Juli 1923</date>
+                    </date>
+                    <lb/>an pro Jahr gerechnet nicht mindestens <hi rendition="#u">6000 schweizer
+                        Franken</hi> beträgt, <lb/>dann sollen Sie berechtigt sein, über die Hälfte
+                    Ihres künftigen Schaf<g ref="#typoHyphen"/>
+                    <note place="mBottom" hand="#addressee">Steigerung für die neuen Werke</note>
+                    <pb n="2" xml:id="p.2" break="no"/>fens unter gewissen Voraussetzungen
+                    anderweitig zu verfügen. Es
+                    <lb/>sollen dann Werke in einem Umfange, der annähernd jenem entspricht,
+                    <lb/>die im Rahmen der neuen Abmachung der <orgName key="org.1">U.E.</orgName>
+                    überlassen wurden, einem <lb/>anderen Verlage überlassen werden können. Diese
+                    Werke sollen jedoch, <lb/>bevor sie an den anderen Verlag übergehen, der
+                        <orgName key="org.1">U.E.</orgName> unter den glei<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen Bedingungen angeboten werden, und nur, wenn diese von der
+                        <orgName key="org.1">U.E.</orgName>
+                    <lb/>nicht akzeptiert werden würden, soll die anderweitige Ueberlassung
+                    <lb/>erfolgen.</p>
+                <p>
+                    <note place="left" hand="#addressee">Sicherung gegen <lb/>Kronensteigerung</note>IV.
+               Die in dem erwähnten Schreiben erwähnte Formulierung <lb/>entfällt dadurch, weil wir
+               ja jetzt einheitlich 10 % des Friedens-<lb break="no"/>Frankenpreises an Tantiemen
+               bezahlen, unbeschadet dessen, dass die <lb/>
+                    <placeName key="place.9">österreichischen</placeName> und namentlich die <placeName key="place.2">deutschen</placeName> Ladenpreise nur einen <lb/>Bruchteil des Friedenspreises
+               erreichen.</p>
+                <p>Ich hoffe, dass Sie es nun doch vorziehen werden, die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>ziehungen mit uns aufrecht zu erhalten, denn ich kann es mir,
+                    nachdem <lb/>ich Sie nun 15 Jahre lang kenne, nicht vorstellen, dass Sie
+                    lediglich <lb/>
+                    <hi rendition="#u" hand="#addressee">von materiellen Erwägungen</hi> geleitet,
+                    einen bindenden Pakt zerreissen <lb/>werden. Lassen Sie mich hoffen, dass Sie,
+                    da ich Ihnen durch mein Heu<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiges bewiesen haben dürfte, welchen Wert ich auf den
+                    Fortbestand un<g ref="#typoHyphen"/>
+                    <lb break="no"/>serer Beziehungen lege, meine Vorschläge akzeptieren werden,
+                    damit wir <lb/>die Streitaxt begraben. </p>
+                <closer>
+                    <salute>In dieser Hoffnung verbleibe ich mit den herzlichsten Grüssen  <lb/>
+                        <seg rendition="#r">Ihr
+                  in warmer Verehrung ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P. S. Bezüglich „<bibl sameAs="werke.44">Friede auf Erden</bibl>“ wäre
+                        <lb/>Ihrerseits die Erklärung abzugeben, dass <lb/>Sie sich mit der
+                        Uebertragung der Plat<g ref="#typoHyphen"/>
+                        <lb break="no"/>ten und Vorräte seitens Dr. <persName key="pers.3872">Tischers</persName> an <lb/>uns einverstanden erklären. Dieser hätte
+                            <add place="intralinear">Ihnen</add>
+                        <lb/>bis <date when="1923-07-01">1. Juli</date> genaue Abrechnung zu
+                        erteilen, <lb/>während ab 1. Juli die Verrechnung mit Ihnen von <lb/>der
+                            <orgName key="org.1">U.E.</orgName> aus zu geschehen hätte.</p>
+                </postscript>
+                <stamp>Recommandirt</stamp>
+            </div>
+        </body>
+    </text>
+</TEI>

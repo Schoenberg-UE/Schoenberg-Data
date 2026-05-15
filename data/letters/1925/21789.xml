@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.21789"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 13. Mai 1925</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.21789</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21789</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1520">Heinsheimer, Hans</persName>
+                    <persName key="pers.3600">Stefan, Paul</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1925-05-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4">Mödling</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21789_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21789_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.104">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien, A. B. C. Code
+                            5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 51351, 51352. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank Wien</orgName>.
+                        Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, den <date when="1925-05-13">13. Mai 1925</date>
+                        </seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4190">Dr. W.</persName>/<persName key="pers.4382">We.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#g #uda">
+                                <placeName key="place.9.4">Mödling</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Die <orgName key="org.1">Universal-Edition</orgName> wird in diesem <lb/>Jahre
+                    zum erstenmal ein <seg type="comment">
+                        <orig>Jahrbuch</orig>
+                        <note xml:id="ncdh_l15_qwb">
+                            <rs type="bibl" key="zotero-4528359-ELJ3ISFU">Heinsheimer-Stefan
+                                1926</rs> (Exemplare aus dem Schönberg-Nachlass; BOOK F11, c.1; BOOK
+                            F11, c.2)</note>
+                    </seg> herausgeben, das in den kommenden <lb/>Jahren regelmässig erscheinen
+                    soll. Es besteht die Absicht, dieses <lb/>erste, an der Schwelle des zweiten
+                    Viertels des Jahrhunderts erschei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nende Jahrbuch in der Weise auszugestalten, dass ein Rückblick
+                    über <lb/>die Wandlungen der neuen Musik in den vergangenen 25 Jahren gegeben,
+                    <lb/>ein Ausblick auf die kommenden 25 Jahre versucht wird. Wir wenden uns
+                    <lb/>nun in allererster Linie an einige hervorragende Komponisten mit der
+                    <lb/>Bitte, uns zu diesem Jahrbuch Aufsätze zu liefern, und zwar würde es
+                    <lb/>uns natürlich ganz besonders interessieren, wenn die Komponisten, von
+                    <lb/>der erwähnten Devise ausgehend, in einer Art autobiographischer Skizze
+                    <lb/>ihre eigenen Wandlungen schildern, ihre Wege in den vergangenen 25
+                    <lb/>Jahren beschreiben, Eindrücke, Urteile, Beobachtungen etc. von dem ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>meinsamen Standpunkt einer wertenden Rückschau aus niederlegen
+                    würden.</p>
+                <p>Wir rechnen ganz bestimmt damit, dass <lb/>auch Sie, sehr verehrter Herr
+                        <persName key="pers.3263">Schönberg</persName>, uns zu diesem Jahrbuch einen
+                    <lb/>entsprechenden <seg type="comment">
+                        <orig>Aufsatz</orig>
+                        <note xml:id="nozd_dgq_kyb" resp="#pkehrer">
+                            <bibl sameAs="schriften.41">Arnold Schönberg, Gesinnung oder
+                                Erkenntnis?</bibl>
+                        </note>
+                    </seg> liefern würden. Selbstverständlich ist das ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>nannte Thema nur eine Anregung. Sollten Sie aus irgend einem
+                    Grunde <pb n="2" xml:id="p.2"/>ein anderes Thema wählen wollen, so bitten wir
+                    höflichst um Nachricht. <lb/>Auf jeden Fall bitten wir Sie, uns freundlichst
+                    umgehend mitteilen zu <lb/>wollen, ob wir <choice>
+                        <sic>bis</sic>
+                        <corr type="deleted"/>
+                    </choice> spätestens <add place="superlinear">bis</add>
+                    <date when="1925-09-01">1. September</date> mit Ihrem Beitrag rechnen
+                    <lb/>dürfen und wieviel Raum (das Jahrbuch erscheint im Format des „<orgName key="org.7">Anbruch</orgName>“) <lb/>wir Ihnen dafür reservieren dürfen.</p>
+                <closer>
+                    <salute>Wir begrüssen Sie <lb/>
+                        <seg rendition="#r">Hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <seg rendition="#r">DIE REDAKTION DES JAHRBUCHS</seg>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1520">Heinsheimer</persName>
+                    </signed>
+                    <signed rendition="#r">
+                        <persName key="pers.3600">Paul Stefan</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

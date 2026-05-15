@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1711"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 16. Mai 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1711</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1711</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-05-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17603"/>
+                    <ref type="answered-by" target="letter.20141"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1711_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1711_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.20">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>PROFESSOR AN DER <orgName key="org.197">AKADEMIE DER KÜNSTE ZU
+                            BERLIN</orgName>
+                    </stamp>
+                    <seg type="row">
+                        <seg type="column">
+                            <address>
+                                <addrLine>Berlin-Charlottenburg 9;</addrLine>
+                                <addrLine>
+                                    <placeName key="place.2.3.1.8">Nussbaumallee 17</placeName>
+                                </addrLine>
+                            </address>
+                        </seg>
+                        <seg type="column">
+                            <date>16.V.<lb/>1929</date>
+                        </seg>
+                    </seg>
+                    <lb/>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">UE</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>liebe <orgName key="org.1">Universal Edition</orgName> (wie soll ich denn
+                    <lb/>sagen?)</salute>
+                <p>der Verlag <orgName key="org.4">Tischer und Jagenberg</orgName>
+                    <seg type="comment">
+                        <orig>teilt <lb/>mir mit</orig>
+                        <note xml:id="nm1w_q4b_1dc" resp="#KBleier">Tischer &amp; Jagenberg an Arnold Schönberg, 15. Mai
+                            1929 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B206134">ASCC 20613</ref>)</note>
+                    </seg>, dass <add place="superlinear">er</add> Abrechnungen und Beträge für <date when="1926">1926</date>
+                    <lb/>(171,10) und <date when="1927">1927</date> (39.50)<note place="inline" hand="#addressee">bez <date when="1928-06-11">11/6.28</date>. 1/2 <orgName key="org.4">T &amp; J</orgName>. <lb/>S 66.64 Anteil <persName key="pers.3263">Schönberg</persName>
+                        <seg type="comment">
+                            <orig>verr <date when="1928-07-28">23/7.28</date>.</orig>
+                            <note xml:id="nrwz_d13_rzb" resp="#pkehrer">
+                                <ref target="document.23454">Kontoauszug, 23. Juli 1928</ref>
+                            </note>
+                        </seg>
+                    </note> an Sie gesandt habe.</p>
+                <p>Ich kann aus meinen Aufzeichnungen fürs <lb/>Erste nicht finden, dass mir diese
+                    Beträge aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gezahlt worden sind und bitte Sie deshalb, mir <lb/>freundlichst
+                    mitzuteilen, ob und wann das gesche<g ref="#typoHyphen"/>
+                    <lb break="no"/>hen <add place="superlinear">ist</add> und wo es verrechnet,
+                    resp. mir mitgeteilt <lb/>wurde.</p>
+                <closer rendition="#inline">
+                    <salute>Besten<choice>
+                            <sic>n</sic>
+                            <corr type="deleted"/>
+                        </choice>s dankend, bin ich mit besten <lb/>Grüssen, ergebenst</salute>
+                    <signed rendition="#c">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#addressee">f. <persName key="pers.3263">Schönberg</persName>
+                    <lb/>
+                    <unclear reason="illegible" cert="high">v/</unclear>
+                    <orgName key="org.4">T. &amp; J.</orgName> erhalten <lb/>am <lb/>
+                    <date when="1926-01-06">6 I. 1926</date> – M 42.15 = S 71.23 <seg type="comment">
+                        <orig>überwiesen an <orgName key="org.130">E Horowitz</orgName>
+                        </orig>
+                        <note xml:id="nff3_j4t_szb" resp="#pkehrer">
+                            <ref target="letter.17647">Universal-Edition an Arnold Schönberg, 8. März 1926</ref>. Der
+                            Betrag ist in keiner der erhaltenen Abrechnungen nachweisbar</note>
+                    </seg>
+                    <date when="1926-02-12">12/II 26</date>.</note></div>
+        </body>
+    </text>
+</TEI>

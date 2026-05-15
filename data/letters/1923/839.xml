@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.839"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 14. Mai 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.839</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 839</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1923-05-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <!-- Postscriptum um 180 Grad gedreht -->
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/839_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.839_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>MÖDLING, <date when="1923-05-14">
+                            <seg hand="#author">14.
+                        Mai</seg> 192<seg hand="#author">3</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">Sie fragten Herrn <lb/>
+                    <persName key="pers.1339">Greissle</persName> um die Ursachen zu meinem <ref target="letter.7120">Er<g ref="#typoHyphen"/>
+                        <lb break="no"/>suchen</ref>, mir alle Botschaften schrif<supplied cert="high">t</supplied>lich <supplied cert="high">u</supplied>nd <lb/>durch die Post zu senden. Ist eine Erläu<g ref="#typoHyphen"/>
+                    <lb break="no"/>terung hiefür nötig? Meinetwegen also: <lb/>Ich anerkenne also
+                    nur die schriftlich von <lb/>mir herrührenden Aufträge <choice>
+                        <sic>m</sic>
+                        <corr type="deleted"/>
+                    </choice>als wirklich <lb/>durch<del rendition="#s">m</del> mich erteilt, weil
+                    ich nicht Miss<g ref="#typoHyphen"/>
+                    <lb break="no"/>verständnissen und Willkür ausgesetzt sein <lb/>mag. Ich wünsche
+                    mir jede Ihrer Fragen <lb/>nach meinem Belieben lange überlegen zu <lb/>können,
+                    während mündlich gestellte und ü<g ref="#typoHyphen"/>
+                    <lb break="no"/>berbrachte nur eine gewisse für beide Tei<g ref="#typoHyphen"/>
+                    <lb break="no"/>le unerfreuliche Ueberraschung erzielen. <lb/>Ich wünsche dann
+                    auch für jede Frage die <lb/>sie mir stellen, den schriftlichen Beweis <lb/>zu
+                    erhalten und (, da ich meine Antworten <lb/>stets mit Durchschlag schreibe) auch
+                    stets <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> meine Antwort <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> überprüfen zu kön<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen. Darum nehme ich seit langem <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <choice>
+                        <sic>münd<g ref="#typoHyphen"/>
+                        </sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>mündliches nicht mehr zur Kenntnis. Fällt <lb/>ihnen das erst
+                    heute auf? Ich habe es
+                    al<choice>
+                        <sic>ler</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>
+                    <choice>
+                        <sic>ler dings noch <supplied cert="high">nie so ausführlich begrün<g ref="#typoHyphen"/>
+                            </supplied>
+                        </sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <pb n="2" xml:id="p.2" break="no"/>lerdings noch nie so ausführlich begrün<g ref="#typoHyphen"/>
+                    <lb break="no"/>det, aber immer so gehandelt.</p>
+                <p>Sie waren so freundlich mir Ihren Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>such in
+               baldige Aussicht zu stellen. Das <lb/>würde mich nicht nur sehr freuen<del rendition="#s">u</del>, son<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern wäre auch
+               sehr nötig, da wir ja un<choice>
+                        <sic>ser</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>ser Verhältnis unbedingt revidieren müs<choice>
+                        <sic>sen</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>sen. Ich bitte Sie aber lieber <date when="1923-05-18">Samstag</date>
+                    <choice>
+                        <sic>nach</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>nachmittags zu kommen und es mich 1–2 Ta<g ref="#typoHyphen"/>
+                    <lb break="no"/>ge früher wissen zu lassen. Denn am Sonn<g ref="#typoHyphen"/>
+                    <lb break="no"/>tag, der der Zerstreuung gewidmet ist, sind <lb/>wir nur selten
+               ungestört. So gerne ich mit <lb/>Ihnen dann von allen möglichen anderen <lb/>Dingen
+               mich unterhielte, so schwer wäre <choice>
+                        <sic>es</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>es mir, meine andern Gäste im Stich zu <lb/>lassen, die mich höchstens an diesem
+                  ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Tag sehen können, während ich Ihnen <lb/>
+                    <hi rendition="#u">ausserdiesem</hi> auch
+               noch den Samstag Nach<g ref="#typoHyphen"/>
+                    <lb break="no"/>mittag zur Verfügung
+               stelle. Darf ich Sie <choice>
+                        <sic>d</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>dann für den Abend zu Tisch bitten?</p>
+                <closer>
+                    <salute>Viele herzliche Grüsse Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Was haben Sie nach <placeName key="place.2.13">Fra<supplied cert="high">n</supplied>kfurt</placeName> geantwortet? Sie <lb/>retournieren <choice>
+                            <sic>dne</sic>
+                            <corr cert="high">den</corr>
+                        </choice>
+                        <ref target="document.20838">Brie<choice>
+                                <sic>i</sic>
+                                <corr cert="high">f</corr>
+                            </choice>
+                        </ref> ohne ein Wort dazu! <lb/>=== Der vor 3 Tagen <ref target="letter.21771">angekündigte</ref> Klavi<supplied cert="high">e</supplied>rauszug
+                        <lb/>
+                        <bibl sameAs="werke.189">Pierrot</bibl> ist bis jetzt nicht eingetroffen:
+                            of<g ref="#typoHyphen"/>
+                        <lb break="no"/>fenbar wurde er noch nicht abgeschickt!!!</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

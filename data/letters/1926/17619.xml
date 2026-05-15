@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17619"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 30. April 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17619</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17619</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-04-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1">Berlin, Charlottenburg</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1174"/>
+                    <ref type="response-to" target="letter.1214"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.23438">Kontoauszug, 28. April 1926</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17619_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17619_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.65">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.16">40 West 34<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <stamp>Ab <date when="1926-05-05">5. Mai 1926</date> neue
+                        Telefonnummer:<lb/>Serie 57-5-85</stamp>
+                    <lb/>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.1740">Ks.</persName>
+                    <dateline>Wien, <date when="1926-04-30">30. April 1926</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <placeName key="place.2.3.1">Berlin-Charlottenburg</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Ihr <ref target="letter.1174">Schreiben</ref> vom <date when="1926-04-26">26.
+                        ds.</date> kam uns unmittelbar vor Ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>reise des Herrn Direktor <persName key="pers.1538">Hertzka</persName> zu. Die uns aufgegebenen Ueberweisun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen und zwar: <!--<list>
+                        <item>S 888.06 an die <orgName key="org.309">Gasgesellschaft, Mödling</orgName></item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>S</supplied>
+                            </ellipsis> 362.14 Steuer</item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>S</supplied>
+                            </ellipsis> 80.– <orgName key="org.130">Pelzhaus
+                            Horovitz</orgName>
+                        </item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>S</supplied>
+                            </ellipsis> 93.52
+                            <persName key="pers.3907">Viktor Unzeitig</persName>
+                        </item>
+                        <item>-\-\-\-\-\-\-\-\-\-\-\-</item>
+                        <item>zusammen <hi rendition="#uda">S 1423.72</hi>
+                        </item>
+                    </list>-->
+                    <table rows="5" cols="3">
+                        <row>
+                            <cell/>
+                            <cell>S 888.06</cell>
+                            <cell>an die <orgName key="org.309">Gasgesellschaft,
+                                Mödling</orgName>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>S</supplied>
+                                </ellipsis> 362.14</cell>
+                            <cell>Steuer</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>S</supplied>
+                                </ellipsis> 80.–</cell>
+                            <cell>
+                                <orgName key="org.130">Pelzhaus Horovitz</orgName>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <hi rendition="#uda">
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>S</supplied>
+                                    </ellipsis> 93.52</hi>
+                            </cell>
+                            <cell>
+                                <persName key="pers.3907">Viktor Unzeitig</persName>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>zusammen</cell>
+                            <cell>
+                                <hi rendition="#uda">S 1423.72</hi>
+                            </cell>
+                            <cell/>
+                        </row>
+                    </table> haben wir ausgeführt und Ihr Konto hiefür wie vorstehend belastet.</p>
+                <p>Wir bitten Sie, verehrter Herr Professor, es uns nicht <lb/>zu verübeln wenn wir
+                    Ihnen ganz offen mitteilen, dass uns die wirt<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaftlichen Verhältnisse zwingen mit Ausgaben aller Art soweit
+                    als nur <lb/>möglich zurückzuhalten und wir Sie bitten uns in der nächsten Zeit
+                    <lb/>keine Ueberweisungen zu Lasten Ihres Kontos aufzugeben, damit wir nicht
+                    <lb/>in die unangenehme Lage kommen Ihren diesbezüglichen Wünschen nicht
+                    <lb/>entsprechen zu können.</p>
+                <p>Nur zu Ihrer Orientierung senden wir Ihnen anbei einen <lb/>
+                    <ref target="document.23438">Auszug</ref> über Ihr General-Verrechnungskonto,
+                    welches bei Berücksichtigung <lb/>der heutigen Zahlungen für Ihre Rechnung einen
+                    Saldo von .. <hi rendition="#uda">S 14.200.90</hi>
+                    <lb/>zu Ihren Lasten
+                    aufweist.</p>
+                <closer>
+                    <salute>Wir empfehlen uns mit dem Ausdrucke <lb/>
+                        <seg rendition="#r">vorzüglicher Hochachtung</seg>
+                    </salute>
+                    <lb/>
+                    <ref target="document.23438">1 Beilage</ref>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <signed rendition="#r"> pp <persName key="pers.4190">Winter</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

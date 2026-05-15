@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.17753"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 17. Dezember 1948</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17753</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17753</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1948-12-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.4834"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change><change when="2026-01-14+02:00" who="KBleier">Ergänzung Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17753_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.17753_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">WIEN</hi>, I.,</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</addrLine>
+                    </address>
+                    <seg rendition="#c">
+                        <persName key="pers.416">Be</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1948-12-17">17.
+                            Dezember 1948</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Prof. <persName key="pers.3263">Arnold
+                            Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Los Angeles</hi>, 24</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter, lieber Herr <rs type="person" key="pers.3263"
+                    >Professor</rs>!</salute>
+                <p>Besten Dank für Ihren <ref target="letter.4834">Brief</ref> vom <date
+                        when="1948-12-11">11. ds. M.</date> Selbstver<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständlich werde ich Ihre Wünsche respektieren und <lb/>habe zur
+                    Kenntnis genommen, dass Sie Herrn <persName key="pers.4190">Winter</persName>
+                    <lb/>keinerlei Aufträge, Vollmachten oder Botschaften <lb/>für uns übergeben
+                    haben. Darf ich Ihnen aber sagen, <lb/>dass es mich sehr schmerzt, dass so
+                    schwerwiegende <lb/>Missverständnisse zwischen Ihnen und Herrn <persName
+                        key="pers.4190">Winter</persName>
+                    <lb/>bestehen, denn ich kann im allseitigen Interesse <lb/>wirklich nur hoffen,
+                    dass es sich um blosse Miss<g ref="#typoHyphen"/>
+                    <lb break="no"/>verständnisse handelt, die auch einmal aus der Welt
+                    <lb/>geschafft werden können.</p>
+                <p>Es wäre grossartig, wenn wir es ermöglichen könnten, <lb/>dass eine Bandaufnahme
+                    vom <bibl sameAs="werke.54">Pierrot</bibl> gemacht und Ihnen <lb/>geschickt
+                    wird. Leider ist das, so wie eigentlich
+                    <lb/>alle Dinge des täglichen und geistigen Lebens eine <lb/>Geldfrage, aber ich
+                    bitte Sie zu glauben, dass ich <lb/>alles daran setzen werde, um eine solche
+                    Aufnahme <lb/>zu ermöglichen. Doch muss ich Sie jedenfalls bitten, <lb/>in
+                    dieser Hinsicht noch etwas Geduld zu haben.</p>
+                <p>Den Freunden geht es gut. Dr. <persName key="pers.2817">Polnauer</persName> hat
+                    sein un<g ref="#typoHyphen"/>
+                    <lb break="no"/>verwüstliches, jugendliches Temperament bewahrt und <lb/>jedes
+                    Gespräch mit ihm ist wie ein erfrischendes Bad. <lb/>
+                    <persName key="pers.2870">Ratz</persName> unterrichtet in besonders hübscher Art
+                        Formen<g ref="#typoHyphen"/>
+                    <lb break="no"/>lehre in der <orgName key="org.10">Akademie</orgName>, <persName
+                        key="pers.165">Apostel</persName> arbeitet als Lektor <lb/>bei uns. Leider
+                    geht es ihm gesundheitlich nicht <lb/>sehr gut.</p>
+                <p>Frau <persName key="pers.1539">Hertzka</persName> war eigentlich noch nicht so
+                    besonders <lb/>alt, im 76. Lebensjahr, aber durch ihre anstrengende <lb/>Arbeit
+                    – in der Emigration arbeitete sie als <seg type="comment">
+                        <orig>Gärtnerin</orig>
+                        <note xml:id="nqsw_fhv_ngc" resp="#KBleier">
+                            <persName key="pers.1539">Yella Hertzka</persName> konnte im Exil in
+                                <placeName key="place.3">England</placeName> als Gärtnerin an
+                            Erfahrungen mit der von ihr in <placeName key="place.9.11"
+                                >Wien</placeName> gegründeten Gartenbauschule anknüpfen. Schwere
+                            Arbeitsbedingungen bei fortgeschrittenem Alter sowie Unterernährung
+                            hatten bleibende Spuren hinterlassen und zu einer chronischen
+                            Herzerkrankung geführt (<rs type="bibl" key="zotero-4528359-ES5K4BHJ"
+                                >Oesch 2008</rs>, S. 157)</note>
+                    </seg> – <lb/>war doch der ganze Lebensmotor überansprucht. Ueber <lb/>
+                    <persName key="pers.2497">Hans Nachod</persName> kann ich Ihnen gar nichts
+                    sagen, ich kannte <lb/>ihn nicht und habe auch nie etwas von ihm gehört, werde
+                    <lb/>mich aber gleich in <placeName key="place.3">England</placeName>
+                    erkundigen. <seg type="comment"><orig>Dr. <persName key="pers.67"
+                                >Adler</persName> geht <lb/>es gut</orig><note xml:id="nvc1_pns_yhc"
+                            resp="#KBleier">„Since I am mainly teaching, I medi[t]ate on different
+                            things concerning voice production and composition for voice [...] I
+                            have accomplished a book on singing and voice production [...] Dr.
+                                <persName key="pers.67">Oscar Adler's</persName> address: Gale
+                            Cottage, Ambleside, Westmorland. I meet him from time to time. He is in
+                            good health, and so is his wife <persName key="pers.70"
+                            >Paula</persName>. He plays violin and lectures on music and different
+                            other things and is a nice old fellow.“ (Hans Nachod an Arnold
+                            Schönberg, 30. November 1944; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B145583">ASCC
+                                14558</ref>).</note></seg>, er hat einen angenehmen, treuen Kreis
+                    und macht <lb/>viel Kammermusik, vielleicht kommt er nächsten Sommer <lb/>mit
+                    seiner <persName key="pers.70">Frau</persName> auf Besuch nach <placeName
+                        key="place.9.11">Wien</placeName>. Am liebsten würde <lb/>er ja hier
+                    bleiben, es muss sich aber noch herausstel<g ref="#typoHyphen"/>
+                    <lb break="no"/>len, wie und ob das materiell zu regeln geht.</p>
+                <closer>
+                    <salute>Mit den besten Wünschen für Sie und ihre Angehörigen <lb/>zum
+                        Weihnachtsfest und zum Neuen Jahr bin ich mit <lb/>
+                        <seg rendition="#c">ergebensten Grüssen <lb/>Ihr</seg>
+                    </salute>
+                    <signed rendition="#c">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+                <closer>
+                    <salute hand="#pers.3067">Viele herzliche Grüsse <lb/>Ihnen u. Ihrer verehrten <lb/>
+                        <rs type="person" key="pers.3297">Frau</rs> Ihre</salute>
+                    <signed>
+                        <persName key="pers.3067">Betti Rothe</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1657"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 29. Jänner 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1657</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1657</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-QMQDSHYD">Brand
+                     1991</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.7.1.1.1">Monaco, Hotel Bristol Majestic</placeName>
+                    <date when="1929-01-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17799"/>
+                    <ref type="answered-by" target="letter.17800"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1657_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1657_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>MONTE CARLO</addrLine>
+                        <addrLine>
+                            <placeName key="place.7.1.1.1">HOTEL BRISTOL</placeName>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1929-01-29">29.I.1929</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                <p>aus Ihrem <ref target="letter.17799">Brief</ref> entnehme ich mit Bedauern,
+                    <lb/>dass sich die <orgName key="org.1">Universal Edition</orgName> also für
+                    meine neuen Werke nicht <choice>
+                        <sic>m</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>mehr interessiert.</p>
+                <p>Man hat mir ja in der letzten Zeit keinen Zwei<g ref="#typoHyphen"/>
+                    <lb break="no"/>fel daran gelassen: aus tausend kleinen Zügen (fahrplanmässigen:
+                    denn <lb/>die Direktion ist eine andere als die meine) konnte ich das in
+                    <lb/>den letzten Jahren entnehmen; man hat es mir ja auch direkt gesagt;
+                    <lb/>insbesondere aber zeigt es mir das von der <orgName key="org.1">UE</orgName> herausgegebene <rs type="org" key="org.7">Blatt</rs>,
+                    <lb/>welches <seg type="comment">
+                        <orig>Propaganda gegen die von mir der <orgName key="org.1">UE</orgName> anvertrauten Werke macht</orig>
+                        <note xml:id="nar1_mjk_d2c" resp="#pkehrer">
+                            <persName key="pers.3263">Schönberg</persName> bezieht sich vor allem auf den <ref target="document.12846">Bürstenabzug: Alfredo Casella über sein
+                                neues Stück „Scarlattiana“, 4. Jänner 1929</ref>
+                        </note>
+                    </seg>.</p>
+                <p>Und nun: nicht wahr, lieber Herr Direktor, Sie berei<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen die Welt, wenn Sie das Glück haben können, ein Werk von <persName key="pers.2394">Milhaud</persName>, <lb/>
+                    <persName key="pers.2963">Respighi</persName>,
+                  <persName key="pers.2053">Krenek</persName>, <persName key="pers.4048">Weillll</persName> oder <persName key="pers.20">Miasmatzki</persName> erwerben
+               können.</p>
+                <p>Aber au<choice>
+                        <sic>d</sic>
+                        <corr cert="high">f</corr>
+                    </choice> die Frage, ob ein solches grandioses <lb/>Geschäft Sie nicht vielleicht
+               auch zu einem kleinen Geschäftchen <lb/>an die Riviera führen könnte, auf diese Frage
+               reagieren Sie nicht!</p>
+                <p>Gewiss meinen Sie es nun eben so wenig im Ernst, <lb/>dass ich mich für ein Vorrecht
+               an meiner <bibl sameAs="werke.65">Oper</bibl> für Sie mit einem oder <lb/>mehreren
+               Verlegern verfeinden soll. Ich bin überzeugt, dass es
+               sich dabei <lb/>nur um eine Geste handelt, mittelst welcher Sie mir zeigen wollen,
+               wie <lb/>gerne Sie mein Werk erwerben wollten. Aber, wie gewöhnlich scheitert
+               <lb/>alles an meinem Grössenwahn, da ich es noch nicht begriffen habe, dass
+               <lb/>meine Zeit vorbei ist.</p>
+                <p>Ich gehe auf Ihren stillschweigend gemachten Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag ein: betrachten wir, bitte, mein Angebot, Ihnen ein Vorkaufs<g ref="#typoHyphen"/>
+                    <lb break="no"/>recht einzuräumen, als eine liebenswürdige
+               Geste, mit der wir einan<g ref="#typoHyphen"/>
+                    <lb break="no"/>der gegenseitig den
+               Abschied erleichtern wollen.</p>
+                <p>Es hat ja doch keinen Zweck; ganz angesehen davon, <lb/>dass Sie ja gewiss nicht eine
+               grössere Barsumme für mich (wenn für <lb/>irgendjemand) werden ausgeben wollen: es
+               tut mir leid! Aber: <hi rendition="#g">es <lb/>ist nicht meine Schuld</hi>: ich habe
+               Ihnen die <lb/>Hand geboten. Aber nachdem Sie mich die längste Zeit haben warten
+               <lb/>lassen, machen Sie mir einen Vorschlag, bei welchem ich mich mit allen
+               <lb/>Verlegern verfeinden müsste und noch in schlechten Ruf käme.</p>
+                <p>Ich verstehe Sie wirklich nicht!</p>
+                <p>Ich staune, dass wir uns so entfremden konnten!</p>
+                <p>Bloss, weil ich wie gewöhnlich – seit dreissig <lb/>Jahren – bei der <seg type="comment">
+                        <orig>Uraufführung</orig>
+                        <note xml:id="nuvy_5yd_k2c" resp="#pkehrer"><ref target="event.118"/>; <ref target="event.119"/>
+                        </note>
+                    </seg> Misserfolg habe, während die
+                    jetzigen <lb/>Götter, schon bei der Uraufführung für fünf Jahre unsterblich
+                    sind.</p>
+                <p>Aber es fällt mir nicht ein, für mich Propaganda <lb/>zu machen. Nur: ich wünsche
+                    allerdings sehr, diesmal Erfolg zu haben! <lb/>Schliesslich kann ich auch einmal
+                    in der Lotterie Glück haben.</p>
+                <p> </p>
+                <closer>
+                    <salute>Ich bin mit besten Grüssen, Ihr ergebener </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+               Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

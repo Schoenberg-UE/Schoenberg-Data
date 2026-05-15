@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7241"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 23. Juli 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7241</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7241</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.15.1">Brookline, 1284 Beacon Street</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1934-07-23" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17614"/>
+                </correspContext>
+                <note>Datierung laut Eingangsstempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7241_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7241_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.38">HOTEL ANSONIA <lb/>
+                        <placeName key="place.15.8.14">BROADWAY 73RD STR</placeName>
+                        <lb/>NEW YORK CITY</stamp>
+                </opener>
+                <lb/>
+                <salute>Verehrte Direktion der <orgName key="org.1">U. E.</orgName>
+                </salute>
+                <p>Ich habe das <orgName key="org.53">Deutschmeister Reg.</orgName> um <lb/>meinen
+                        <seg type="comment">
+                        <orig>Landsturm Urlaubschein</orig>
+                        <note xml:id="nak1_jqg_j1c" resp="#pkehrer">Landsturmurlaubsschein, 5.
+                            Dezember 1917 (<ref target="https://archive.schoenberg.at/resources/pages/view.php?search=basicyear%3A1917&amp;k=&amp;modal=&amp;display=thumbs&amp;order_by=relevance&amp;offset=0&amp;per_page=48&amp;archive=&amp;sort=DESC&amp;restypes=2&amp;recentdaylimit=&amp;foredit=&amp;noreload=true&amp;access=&amp;ref=6131">ASCI D6131</ref>)</note>
+                    </seg> und <lb/>die <orgName key="org.94">Israel. Kultusgem.</orgName> um meinen <lb/>
+                    <note place="left" hand="#unknown">
+                        <hi rendition="#u">erl </hi>
+                        <lb/>
+                        <date when="1934-07">VII 34</date>
+                    </note>
+                    <seg type="comment">
+                        <orig>Geburtsschein</orig>
+                        <note xml:id="nvhm_yqg_j1c" resp="#pkehrer">Geburts-Zeugnis, 17. Juli 1934
+                                (<ref target="https://archive.schoenberg.at/resources/pages/view.php?search=d6135&amp;k=&amp;modal=&amp;display=thumbs&amp;order_by=relevance&amp;offset=0&amp;per_page=48&amp;archive=&amp;sort=DESC&amp;restypes=1%2C2%2C5%2C6%2C7%2C8%2C9%2C12&amp;recentdaylimit=&amp;foredit=&amp;noreload=true&amp;access=&amp;ref=6135">ASCI D6135</ref>)</note>
+                    </seg>
+                    <seg type="comment">
+                        <orig>gebeten</orig>
+                        <note xml:id="npbw_t5g_j1c" resp="#pkehrer">
+                            <ref target="document.2720">Arnold Schönberg an Israelitische
+                                Kultusgemeinde Wien, 2. Juli 1934</ref>; Arnold Schönberg an die
+                            Regimentskanzlei des ehem. K u. K Infanterieregiments Hoch und
+                            Deutschmeister Nr. 4 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B027229">ASCC
+                                2722</ref>)</note>
+                    </seg>
+                </p>
+                <p>und ersucht die Bezahlung von Ihnen <lb/>zu verlangen. Bitte freundlichst das zu
+                    <lb/>übernehmen und raschestens an mich <lb/>zu senden.</p>
+                <closer rendition="#inline">
+                    <salute>Besten Dank und herzl. Grüße <lb/>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                </closer>
+                <note place="left" hand="#unknown">
+                    <!-- steno -->
+                    <hi rendition="#st">wir eben besucht haben</hi>
+                </note>
+                <pb n="2" xml:id="p.2"/>
+                <note place="left"> am <date when="1934-07-02">20.7.</date>
+                    <lb/>
+                    <hi rendition="#u">verständigt</hi>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

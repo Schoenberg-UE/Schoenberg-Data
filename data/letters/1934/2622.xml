@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2622"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. Jänner 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2622</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2622</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.15.1">Brookline, 1284 Beacon Street</placeName>
+                    <date when="1934-01-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17612"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2622_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2622_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.32">
+                        <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        <lb/>PELHAM HALL<lb/>
+                        <placeName key="place.15.15.1">1284 BEACON STREET</placeName>
+                        <lb/>BROOKLINE – MASS.<lb/>TEL. BEACON 2430</stamp>
+                    <dateline>
+                        <date when="1934-01-18">18.I.1934</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">UE</orgName>
+                    <lb/>Abteilung Orchestermusik <lb/>(Sind Sie das Herr <persName key="pers.3612">Stein</persName>?)<lb/>
+                    <add place="intralinear">Lieber Herr <persName key="pers.3612">Stein</persName>,</add>
+                </salute>
+                <p>Eben war Herr Kapellmeister <persName key="pers.1075">Fiedler</persName>,
+                        <placeName key="place.15.1">Boston</placeName>, bei mir, <lb/>der am <date when="1934-02-12">12.II.</date> die <hi rendition="#u">erste</hi>
+                    <placeName key="place.15">amerikanische</placeName>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nbfb_3ck_bdc" resp="#pkehrer">Nicht nachweisbar. Die
+                            amerikanische Erstaufführung hatte bereits am <date when="1915-11-05">5.
+                                November 1915</date> in <placeName key="place.15.10">Philadelphia</placeName> stattgefunden (<rs type="bibl" key="zotero-4528359-XLEYY3J6">Feisst 2011</rs>, S. 18f.)</note>
+                    </seg><!-- nicht nachweisbar --> (Sie <lb/>würden sagen: die UR-Aufführung, in <placeName key="place.2">Deutschland</placeName> aber <lb/>wo man es voller nimmt,
+                    bloss um es mehr aufreissen zu <lb/>dürfen, wenn auch man in den Mund bloss von
+                    der Hand <lb/>lebt, dort, also <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> würde man sagen: <placeName key="place.15">amerikanische</placeName>
+                        Welt<g ref="#typoHyphen"/>
+                    <lb break="no"/>uraufführung) meiner <bibl sameAs="werke.2">Kammersymphonie</bibl> dirigiert (sie <lb/>ist <date when="1906">1906</date> komponiert und dank der liebevollen Tätigkeit <lb/>des Herrn
+                    Direktor <persName key="pers.1538">Herzka</persName> ein recht spätes Mädchen
+                    mit <lb/>ihren 28 Jahren!). Aber das alles sind Scherze, ernst <lb/>ist nur, was
+                    jetzt kommt: Herr <persName key="pers.1075">Fiedler</persName> ist in grösster
+                    <lb/>Verlegenheit: da nämlich die <seg type="comment">
+                        <orig>Partitur (verbesserte Aus<g ref="#typoHyphen"/>
+                            <lb break="no"/>gabe)</orig>
+                        <note xml:id="ngrh_g2n_xcc" resp="#pkehrer">Verbesserte Ausgabe (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=596&amp;werke_id=224&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 11/2, Quelle E)</ref>
+                        </note>
+                    </seg> nicht mit den <seg type="comment">
+                        <orig>Stimmen</orig>
+                        <note xml:id="nvwh_l2n_xcc" resp="#pkehrer">Gedruckte Stimmen zum Erstdruck
+                                (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=594&amp;werke_id=224&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 11/2, Quelle D</ref>) oder Korrigierte Stimmen (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=598&amp;werke_id=224&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 11/2, Quelle F</ref>)</note>
+                    </seg> übereinstimmt (diese sind <lb/>
+                    <seg type="comment">
+                        <orig>später erst korrigiert</orig>
+                        <note xml:id="njgm_sfn_xcc" resp="#pkehrer">Korrigierte Stimmen (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=598&amp;werke_id=224&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 11/2, Quelle F</ref>)</note>
+                    </seg> worden) hat er sich die <seg type="comment">
+                        <orig>Philhar<g ref="#typoHyphen"/>
+                            <lb break="no"/>monia-Partitur</orig>
+                        <note xml:id="nxrb_2fn_xcc" resp="#pkehrer">Studienpartitur (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=600&amp;werke_id=224&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 11/2, Quelle H</ref>)</note>
+                    </seg> gekauft und das führte zur Katastrophe. <lb/>Denn diese Ausgabe stimmt
+                    zwar mit den Stimmen überein, <lb/>aber er meint, dass sich diese Partitur auf
+                    ein anderes <lb/>Werk oder eine andere Ausgabe beziehen müsse, <subst>
+                        <del rendition="#s">da</del>
+                        <add place="right">obwohl</add>
+                    </subst> sie <lb/>zwar mit den Stimmen vollkommen übereinstimmt, aber, <choice>
+                        <sic>w</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>während die Stimmen unzweifelhaft und fehlerfrei in E-<lb break="no"/>dur
+                    seien (und darin ebenfalls mit der Ph.-Ausg. überein<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmen) stehe auf dem Titel so ausdrücklich und in <lb/>
+                    <hi rendition="#g">drei</hi> Sprachen Kammersymphonie in <hi rendition="#g">Es-</hi>Dur, dass <lb/>die Annahme nicht von der Hand zu weisen sei, dass
+                    es <lb/>sich um irgendeine andere Ausgabe handeln müsse. <lb/>Er weiss nun
+                    nicht, was er tun solle. Da es nur zwei <lb/>Möglichkeiten gibt (deren eine
+                    meines Erachtens ein <lb/>Schwindel wäre, nämlich aufs Programm einfach keine
+                    <lb/>Tonart, oder brutal E-Dur zu drucken) so habe ich ihm <lb/>geraten, alle
+                    Stimmen einfach nach Es Dur transponieren <lb/>zu lassen, was allerdings viel
+                    Geld kosten wird. <lb/>Was ist Ihre Meinung darüber, Herr <persName key="pers.3612">Stein</persName>? Fragen Sie <lb/>vielleicht einmal Herrn
+                        <persName key="pers.2870">Ratz</persName>, und antworten Sie mir <lb/>bald:
+                    Sie sind mir ohnedies noch eine Antwort schul<g ref="#typoHyphen"/>
+                    <lb break="no"/>dig.</p>
+                <closer rendition="#inline">
+                    <salute>Mit herzlichsten Grüssen, Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Wie ist das möglich? <lb/>Ich selbst erinnere mich <lb/>dunkel, dass ich an
+                        diesem <lb/>Es-Dur hängen geblieben <lb/>sein muss, aber es ist mir
+                        <lb/>offenbar nicht zum <lb/>Bewusstsein gekommen. <lb/>Schauen Sie einmal
+                        <lb/>das Originalmanuskript <lb/>an. Es wäre interessant, <lb/>wenn ich es
+                            <add place="superlinear">selbst </add>geschrieben <lb/>hätte. Ich glaube
+                        es <lb/>allerdings nicht!</p>
+                </postscript>
+                <postscript>
+                    <p rendition="#r">Wie geht’s Ihnen? <lb/>Schreiben Sie einmal <lb/>ausführlich</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

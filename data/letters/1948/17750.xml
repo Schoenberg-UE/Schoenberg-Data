@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17750"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 16. September 1948</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17750</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17750</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1948-09-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.4758"/>
+                </correspContext>
+                <note>Rückseite: Entwurf zu <ref target="letter.4758">Arnold Schönberg an
+                    Universal-Edition, 21. September 1948</ref> von fremder Hand</note>
+                <!-- identischer kommentar zur Ode-->
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17750_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17750_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">Universal-Edition</orgName>,</addrLine>
+                        <addrLine>
+                            <hi rendition="#g">Wien</hi> I.,</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1948-09-16">16.
+                            September 1948</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham
+                            Avenue</placeName>,</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Los Angeles</hi> 24.</hi>,</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich habe Ihnen vor vielen Wochen, etwa Ende <date when="1948-07">Juli</date>,
+                    über <lb/>die Frage einer deutschen Uebersetzung der <hi rendition="#u">„<bibl sameAs="werke.72">Ode an Napo<g ref="#typoHyphen"/>
+                            <lb break="no"/>leon</bibl>“</hi>
+                    <ref target="letter.17749">geschrieben</ref> und Ihnen die ersten Strophen eines
+                    <lb/>solchen <ref target="document.17749">Uebersetzungsversuches</ref> zur
+                    Begutachtung und Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>nehmigung eingesandt. Ich fürchte, dass dieser Brief in <lb/>den
+                    Sommerwochen bei Ihnen in Vergessenheit geraten ist <lb/>und wäre Ihnen für eine
+                    umgehende Stellungnahme dankbar.</p>
+                <p>Abgesehen davon, dass wir das Werk für <placeName key="place.9">Oesterreich</placeName>, <lb/>
+                    <placeName key="place.11">Schweiz</placeName>, etc. vertreten, besteht auch die
+                    Absicht, es <lb/>im kommenden Winter hier in <placeName key="place.9.11">Wien</placeName>
+                    <seg type="comment">
+                        <orig>aufzuführen</orig>
+                        <note xml:id="ntgy_rn3_qfc" resp="#KBleier">
+                            <ref target="event.178"/>
+                        </note>
+                    </seg> und es wäre <lb/>höchste Zeit, dass die
+                    Uebersetzung fertiggemacht wird, <lb/>was natürlich ganz von Ihrer Zustimmung
+                    abhängt. </p>
+                <closer rendition="#r">
+                    <salute>Mit verbindlichsten Grüssen <lb/>Ihr sehr ergebener</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+            <pb n="2" xml:id="p.2"/>
+            <div type="letter">
+                <p>Ich habe seinerseits eine <seg type="comment">
+                        <orig>Übersetzung</orig>
+                        <note xml:id="nm2g_3gp_rcc" resp="#pkehrer">Es existieren ein Typoskript von
+                                <persName key="pers.3263">Schönbergs</persName> deutscher
+                            Übersetzung des Textes (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1309&amp;werke_id=448&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 24/2, Quelle M</ref>) sowie die autographe Niederschrift der
+                            Rezitationsstimme mit deutschem Text (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1311&amp;werke_id=448&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 24/2, Quelle
+                            N</ref>)<!--. Schönbergs Bemerkung im Hinblick auf
+                            &#8222;rythmische Adjustierungen&#8220; spricht dafür, dass hier
+                            letztere gemeint ist (aber es ist immer nur von "Text" die Rede, was dagegen spricht)
+                            
+                            quellen Ao (Übersetzungsskizze), 
+                                M (typoskript) und N (autograph der sprechstimme mit dt. text). 
+                                wenn er von rhythmischen "adjustierungen" redet muss es N sein weil 
+                                die anderen keine noten enthalten.
+                                am 26. Oktober 1945 bestätigt AS 
+                                scherchens plan die ode "using lady speaking" aufzuführen.
+                                am12. november 1945 teilt scherchen absage der aufführung mit, denkt 
+                                an eine aufführung der ode in holland mit englischem sprecher 
+                                (AS glossiert "deutsche Übersetzung").
+                                am 30. november 1945 teilt AS 
+                                scherchen mit dass es die übersetzung gibt.
+                                am 7.1.1946 bittet 
+                                scherchen um die übersetzung.
+                                am 29.1.1946 fragt AS ob scherchen die 
+                                übersetzung haben will.
+                                am 20.2.1946 scherchen wartet mit ungeduld 
+                                auf die übersetzung der ode weil er im april aufführen will 
+                                und auf einem großen musikfest im sommer.
+                                am 12.3.1946  scherchen dankt "für die Textkopie", 
+                                ist das jetzt mit Noten??
+                                am 9.4.1946 as erwartet gespannt aufführung
+                            undatiert: AS erklärt dem Zensor die deutsche übersetzung, die er beiliegend
+                            scherchen schickt. es klingt, als wäre es nur text, keine noten. 
+                            erwähnt aufführung im märz in zürich: notbefore 29.1.1946, not after 12.3.1946--></note>
+                    </seg>
+                    <add place="superlinear">selbst</add> davon <lb/>gemacht und habe eine Kopie an
+                    Herrn <lb/>
+                    <persName key="pers.3148">Scherchen</persName> in <placeName key="place.11.6"
+                        >Zürich</placeName>
+                    <seg type="comment">
+                        <orig>gesendet</orig>
+                        <note xml:id="nnkq_xmp_rcc" resp="#pkehrer">Vgl. den Zettel für die Zensur,
+                            den <persName key="pers.3263">Schönberg</persName> der Sendung beilegte
+                                (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B075611"
+                                >ASCC 7561</ref>)</note>
+                    </seg>. Es wäre <lb/>am einfachsten von ihm diese zu verlangen.
+                    <lb/>Nötigenfalls kann ich Ihnen aber eine <lb/>Kopie selbst senden. Das ist
+                    besonders wichtig <lb/>da ich viele rythmische Adjustierungen <add
+                        place="superlinear">machen</add> musste. <lb/>Ich glaube <orgName
+                        key="org.70">Schirmers</orgName> müssen auch eine <lb/>Kopie davon
+                    haben.</p>
+                <closer>
+                    <seg rendition="#c">Schreiben Sie mir,</seg>
+                    <lb/>
+                    <salute rendition="#r">Herzliche Grüsse,</salute>
+                </closer>
+                <postscript>
+                    <p>P. S. Ich <del rendition="#s">war</del> bin sehr krank gewesen was die
+                        <lb/>Verzögerung meiner Antwort entschuldigen soll.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

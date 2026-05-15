@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.3563"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 7. März 1941</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.3563</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 3563</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                    <date when="1941-03-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17721"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/3563_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.3563_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. ROCKINGHAM
+                                AVENUE</placeName>
+                        </addrLine>
+                        <addrLine>BRENTWOOD PARK</addrLine>
+                        <addrLine>LOS ANGELES CALIFORNIA</addrLine>
+                    </address>
+                    <dateline>March 7, 1941</dateline>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition A. G.</orgName>
+                        </addrLine>
+                        <addrLine>I. <placeName key="place.9.11.6.12">Karlsplatz
+                            6</placeName>
+                        </addrLine>
+                        <addrLine>Wien, Ostmark, Germany</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrte Herren:</salute>
+                <p>Erst gestern erhielt ich Ihnen <ref target="letter.17721">Brief</ref>
+                    <lb/>vom <date when="1940-12-27">27. Dezember 1940</date>. Ich hoffe, Sie
+                    erwarteten nicht <lb/>längst meine Antwort. Und ich fürchte Sie werden sie nicht
+                    <lb/>vor 2–3 Monaten erhalten.</p>
+                <p>Zur Frage der Begleichung meines <lb/>Kontos: ich habe allerdings gehofft, dass
+                    diese Beträge <lb/>teils durch europäische Einnahmen, teils durch <placeName key="place.15">amerikanische</placeName>
+                    <lb/>gedeckt werden sollten. Insbesondere da ja <orgName key="org.23">Associated
+                        <lb/>Music Publishers</orgName> mir nicht verrechnet hatten, was Sie
+                    <lb/>seinerzeit beantragt hatten.</p>
+                <p>Ich muss nun sagen, dass, als ich zuletzt <lb/>versuchte, Geld nach <placeName key="place.2">Deutschland</placeName> zu senden, die Post, ohne <lb/>zu
+                    erklären warum, die Annahme von Postanweisungen ablehnte. <lb/>Ich will, sobald
+                    ich kann, versuchen herauszufinden, ob das <lb/>jetzt schon möglich ist.</p>
+                <p>Ich musste sagen: sobald ich kann: denn  <lb/>ich bin augenblicklich ein bischen
+                    beschränkt mit meinen  <lb/>Mitteln, was sich aber hoffentlich bald ändern
+                    wird.</p>
+                <p>Jedenfalls erkläre ich mich bereit, diese  <lb/>Schuld zu bezahlen, falls Sie
+                    nicht Ihrerseits finden, dass  <lb/>es nicht ungerecht wäre, sie aus den
+                    kärglichen Einnahmen  <lb/>meines Lebenswerkes bezahlen zu dürfen.</p>
+                <p>Darf ich eine diesbezügliche Antwort  <lb/>erwarten?</p>
+                <closer>
+                    <salute>Mit bestem Dank im Vorhinein, bin ich  <lb/>
+                        <seg rendition="#r">hochachtungsvoll</seg>
+                    </salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

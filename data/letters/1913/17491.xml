@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17491"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 23. August 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17491</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17491</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                    <date when="1913-08-23" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.6860"/>
+                    <ref type="response-to" target="letter.6859"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17491_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17491_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.18">Reichsratsstrasse 9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition,
+                  Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank,
+                  Wien</orgName>·Postsparkassen-Konto: 57557.<lb/>Wien <seg hand="#author">
+                            <date when="1913-08-23">23. August 1913.</date>
+                        </seg>
+                    </stamp>
+                    <address>
+                        <addrLine>Hochwohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.2.3">Berlin</placeName>.
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir bestätigen den Empfang Ihrer beiden <seg type="comment">
+                        <orig>Karten</orig>
+                        <note xml:id="ne3g_jwf_qxb" resp="#KBleier">
+                            <ref target="letter.6860">Arnold Schönberg an Universal-Edition, 20.
+                                August 1913</ref>; <ref target="letter.6859">Arnold Schönberg an
+                                Universal-Edition, 21. August 1913</ref>
+                        </note>
+                    </seg>
+                    <lb/>vom <date when="1913-08-20">20, ds.</date> und haben Ihrem Wunsche gemäss
+                    das komplette Orchester-<lb break="no"/>Material <bibl sameAs="werke.5">Pelleas</bibl> samt Partitur an Herrn <persName key="pers.3148">Hermann
+                        Scherchen</persName>
+                    <placeName key="place.2.49">Dietrichs<g ref="#typoHyphen"/>
+                        <lb break="no"/>hagen</placeName> gesandt, damit derselbe die <seg type="comment">
+                        <orig>Aenderung</orig>
+                        <note sameAs="letter.6859/#nuqv_rkb_fgc"/>
+                    </seg> nach Ihrer <seg type="comment">
+                        <orig>retouchier<g ref="#typoHyphen"/>
+                            <lb break="no"/>ten Partitur</orig>
+                        <note sameAs="letter.6852/#nsjl_mrv_2gc"/>
+                    </seg> eintragen kann. Wir sind
+                    gerne bereit, Herrn <lb/>
+                    <persName key="pers.3148">Scherchen</persName> eine weitere Partitur zur
+                    Eintragung der Korrektur zu <lb/>senden, wenn e<subst>
+                        <del rendition="#s">s</del>
+                        <add place="across">r</add>
+                    </subst> nicht zu hohe Honorar-Ansprüche stellt. Andernfalls <lb/>wären wir
+                    Ihnen dankbar, wenn Sie uns die Partitur direkt zusenden <lb/>würden, damit wir
+                    hier die Eintragung vornehmen lassen un<subst>
+                        <del rendition="#s">s</del>
+                        <add place="across">d</add>
+                    </subst> so imstan<g ref="#typoHyphen"/>
+                    <lb break="no"/>de sind, den Bestellern auskorrigierte Materiale zu liefern.</p>
+                <p>Was Ihre Mitteilung betrifft, dass unsere Buchhal<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung irrtümlicher Weise die <bibl sameAs="werke.5">Pelleas</bibl> Materiale erst im <add place="intralinear">1.</add> Halbjahr
+                        <date when="1913">1913</date>
+                    <lb/>statt <date when="1912">1912</date> verrechnet, so erlauben wir uns darauf
+                    zu erwidern, dass <lb/>wir mit sämtlichen unserer Autoren und Komponisten die
+                    Abrechnungen <lb/>in der Weise pflegen, dass Material<subst>
+                        <del rendition="#ow">e</del>
+                        <add place="across">-</add>
+                    </subst> oder sonstige Tantiemen erst dann <lb/>ausbezahlt werden, wenn der
+                    Kaufpreis tatsächlich eingegangen ist.</p>
+                <p>Wir wollen jedoch trotzdem Ihrem Wunsche Rechnung <lb/>tragen und lassen Ihnen gleichzeitig M
+               73.25 per Postanweisung <pb n="2" xml:id="p.2"/>zugehen, müssen uns jedoch
+               nachträglich die Genehmigung unseres <lb/>Herrn Direktors <persName key="pers.1538">Hertzka</persName> und eventuelle Einrechnung in Ihren Tan<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiemenanteil für das zweite Halbjahr <date when="1913">1913</date> vorbehalten.</p>
+                <closer>
+                    <salute>Wir empfehlen uns <lb/>
+                        <seg rendition="#r">hochachtungsvoll </seg>
+                    </salute>
+                    <lb/>
+                    <seg rendition="#r">f <stamp sameAs="stamp.46">
+                            <orgName key="org.1">Universal-Edition
+                            Actiengesellschaft</orgName>
+                        </stamp>
+                        <lb/>
+                        <signed>
+                            <persName key="pers.1750">Kalmus</persName>
+                        </signed>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

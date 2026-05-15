@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17606"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 12. Juli 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17606</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17606</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1929-07-12" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1571"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17606_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17606_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, am <date when="1929-07-12">12. Juli 1929</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4362">M</persName>/<persName key="pers.4341">BO.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Westend</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.8">Nussbaumallee 17</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Seit wenigen Stunden in <placeName key="place.9.11">Wien</placeName>, habe ich <lb/>mich trotz aufgetürmter Mappen vor mir mit der Frage Ihrer <lb/>
+                    <bibl sameAs="werke.65">Oper</bibl> beschäftigt. Ich möchte Ihnen in aller Eile
+                    und <hi rendition="#u">nur <lb/>in grossen Zügen</hi>
+                    <add place="superlinear">
+                        <metamark/>
+                    </add>
+                    <note place="mBottom" hand="#author">
+                        <metamark/> die Details (auch verlagstechnischer Art) wäre dann noch zu
+                        regeln.</note> folgenden Vorschlag machen:</p>
+                <p>1.) Sie erhalten für die Verlagsrechte <add place="superlinear">der neuen <bibl sameAs="werke.65">Oper</bibl>
+                    </add> die selben <lb/>Anteile, wie sie in
+                    unseren bisherigen Abmachungen enthalten <lb/>sind.</p>
+                <p>2.) <hi rendition="#uu">Ausser</hi> diesen Anteilen erhalten Sie</p>
+                <list>
+                    <item>a) eine Bar-<hi rendition="#uu">Prämie</hi> von M 3000.– bei Abschluss des
+                        Vertrages,</item>
+                    <item>b) eine <hi rendition="#uu">Prämie</hi> in Form einer <hi rendition="#u">Gutschrift von ebenfalls M 3000.–</hi>
+                        <lb/>auf Ihr Vorschuss-Konto.</item>
+                </list>
+                <p> 3.) <subst>
+                        <del rendition="#ow">Würden wir</del>
+                        <add place="across">Wir würden</add>
+                    </subst>, falls Sie uns die <bibl sameAs="werke.65">Oper</bibl> überlassen,
+                    <lb/>Ihnen von der Halbjahres-Verrechung der anderen Werke (also al<g ref="#typoHyphen"/>
+                    <lb break="no"/>te Werke und neue Werke bis <date when="1928-12-31">31. Dezember
+                        1928</date>) <add place="superlinear">jeweilig</add> ein Drittel <hi rendition="#uu">bar</hi>
+                    <lb/>auszahlen, wogegen <add place="superlinear">nur</add> die anderen zwei
+                    Drittel zur Amortisierung <lb/>des Gesamtvorschusses zu dienen haben. Der
+                    Gesamtvorschuss <seg type="comment">
+                        <orig>hat rund 59.000 Schilling betragen</orig>
+                        <note xml:id="ns4c_xv4_tzb" resp="#pkehrer">12.919,37 Schilling laut <ref target="document.23456">Kontoauszug, 2. Februar 1929</ref> und
+                            46.068,33 Schilling laut <ref target="document.23457">Kontoauszug, 4.
+                                Februar 1929</ref>
+                        </note>
+                    </seg> pro <lb/>
+                    <date when="1928-12-31">31. Dezember 1928</date>. Die <ref target="document.24074">Halb<g ref="#typoHyphen"/>
+                        <lb break="no"/>jahresabrechnung</ref> für das erste Semester beträgt rund
+                    2.600
+                    Schilling.
+                    <lb/>Es wäre also pro <date when="1929-07-01">1. Juli</date>
+                    <add place="superlinear">noch</add> eine Gesamtschuld von rund 56.400 Schilling
+                    <lb/>zu tilgen. Diese Ziffer wird es Ihnen verständlich machen, dass <pb n="2" xml:id="p.2"/>Ihr <seg type="comment">
+                        <orig>Vorschlag</orig>
+                        <note sameAs="letter.1569/#nen1_mwk_k2c"/>
+                    </seg>
+                    <!-- nicht nachweisbar -->, es
+                    sollte Ihnen für 5 Jahre ein Betrag bezahlt <lb/>werden und nach diesen 5
+                    Jahren, unabhängig von diesem auszu<g ref="#typoHyphen"/>
+                    <lb break="no"/>zahlenden Betrag, <hi rendition="#u">auch noch der gesamte alte
+                        Vorschuss als ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>tilgt gelten, undiskutabel ist!</hi>
+                </p>
+                <p>Ich betrachte meinen Vorschlag als einen für <lb/>Sie sehr günstigen. Ich glaube,
+                    dass, wenn Sie alle die Vortei<g ref="#typoHyphen"/>
+                    <lb break="no"/>le, die ein Abschluss mit uns zur Folge hat, genau berücksich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tigen, <hi rendition="#u">kein wie immer gearteter Antrag von
+                        einer anderen Seite, <lb/>selbst wenn er scheinbar günstiger wäre, Sie
+                        veranlassen sollte, <lb/>meinen Vorschlag <supplied cert="high">abzulehnen</supplied>
+                    </hi>. </p>
+                <p>Ich habe <supplied cert="high">d</supplied>as Buch
+                    des<!-- womöglich: Jules Cambon, "le diplomat" von 1926, Verlag Reimar Hobbing, Berlin 1927 (deutsche übersetzung https://d-nb.info/572818122)  -->
+                        „<bibl sameAs="schriften.113">Diplo<supplied cert="high">m</supplied>aten</bibl>“ <supplied cert="high">ge</supplied>lesen und
+                    <lb/>möchte mich ebenfalls aus <supplied cert="high">d</supplied>iplomatischen
+                    Gründen zunächst über <lb/>dasselbe nicht äussern.</p>
+                <closer>
+                    <salute>
+                        <seg rendition="#r">Mit herzlichen Grüssen, auch an</seg>
+                        <lb/>Ihre verehrte <rs type="person" key="pers.3297">Frau</rs>
+                        <lb/>
+                        <seg rendition="#r">Ihr in warmer Verehrtung ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#unknown">20.000 4 <add place="superlinear">1/4 J.</add>
+                    Raten <lb/>alle Bühnentantiemen <gap reason="illegible" unit="words" quantity="1"/>
+                    <lb/>Werke 5 Jahre <gap reason="illegible" unit="words" quantity="1"/>
+                    <lb/>
+                    <table rows="3" cols="3">
+                        <row>
+                            <cell>5 ⋅ 5.200</cell>
+                            <cell>=</cell>
+                            <cell>26.000</cell>
+                        </row>
+                        <row>
+                            <cell>200 Auf</cell>
+                            <cell>à 100 M.</cell>
+                            <cell>34</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>2000</cell>
+                            <cell>
+                                <hi rendition="#o">60.000</hi>
+                            </cell>
+                        </row>
+                    </table>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

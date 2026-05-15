@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17791"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 30. November 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17791</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17791</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3065">Roth, Ernst</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1928-11-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                </correspAction>
+                <!-- Beilage: Vorbemerkung und Orchesterbesetzung aus ASGA B 13, Quelle B -->
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17791_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17791_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.26">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi rendition="#sup #uu">o</hi>.57-5-85 Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank Wien</orgName>.
+                        Postsparkassen-Kto. 57557.</stamp>
+                    <lb/>
+                    <stamp>NEUE TELEFONNUMMER<lb/>U 47-5-85 SERIE</stamp>
+                    <lb/>
+                    <persName key="pers.3065">Dr. R</persName>/<persName key="pers.4376">A.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1928-11-30">30.
+                            November 1928</date>
+                    </dateline>
+                    <lb/>
+                    <note hand="#addressee">Stichanweisungen</note>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold
+                                Schönberg</persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Charlottenburg 9</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.8">Nussbaum-Allee 17</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Wir senden Ihnen beiliegend die <seg type="comment">
+                        <orig>Vor<g ref="#typoHyphen"/>
+                            <lb break="no"/>bemerkung für die „<bibl sameAs="werke.64"
+                                >Variationen</bibl>“ mit der Orchesterbesetzung</orig>
+                        <note xml:id="nd1x_xcv_jdc" resp="#pkehrer">Nicht sicher zu identifizieren.
+                            Den Korrekturfahnen der Notenseiten des Originaldrucks (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=637&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle D</ref>)
+                            liegen „Vorbemerkungen zu <persName key="pers.3263"
+                                >Schönberg’s</persName>
+                            <bibl sameAs="werke.64">Orchestervariationen</bibl>“ bei, in denen u. a.
+                            die Reihenfolge der einzelnen Punkte gegenüber den älteren Versionen
+                            (zur <bibl sameAs="werke.62">Suite op. 29</bibl> und zum <bibl
+                                sameAs="werke.63">Streichquartett Nr. 3 op. 30</bibl>) verändert
+                            wurde. In den Vorbemerkungen des Originaldrucks (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=638&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle E</ref>) ist die ursprüngliche Reihenfolge
+                            hingegen beibehalten. Es ist daher denkbar, dass es sich bei der
+                            Umstellung um die hier erwähnte und später rückgängig gemachte Revision
+                                <persName key="pers.1339">Felix Greissles</persName> handelt. Eine
+                            korrespondierende Besetzungsliste liegt allerdings nicht vor</note>
+                    </seg>, <lb/>die von Herrn <persName key="pers.1339">Greissle</persName> revidiert und
+                    ergänzt ist und bitten <lb/>Sie um Mitteilung, ob die Vorbemerkung und
+                    Orchesterbesetzung <lb/>in dieser Form gedruckt werden kann, bezw. welche
+                    Aenderungen <lb/>Sie dabei wünschen.</p>
+                <closer>
+                    <salute>Wir empfehlen uns <lb/>
+                        <seg rendition="#r">hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <stamp sameAs="stamp.108" rendition="#r">„<orgName key="org.1">Universal Edition
+                     Actiengesellschaft</orgName>“</stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.3065">Roth</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P. S. Eben erhalten wir die Korrektur der I. Geige des <bibl sameAs="werke.63">Streich-<lb break="no"/>Quartetts</bibl>
+                        zurück<!-- Eintrag 12.1. in UE-Herstellungskartei-op_30_3 nicht genau lesbar -->.
+                        Wir haben selbstverständlich vorgemerkt, <lb/>dass die <seg type="comment">
+                            <orig>Vorbemerkung</orig>
+                            <note sameAs="letter.17778/#nw4r_5hz_nfc"/>
+                        </seg> jeder Stimme beizugeben ist. Wir werden <lb/>Ihnen, was wir
+                        allerdings für überflüssig gehalten haben, <lb/>mit der Korrektur der
+                        weiteren Stimmen, einen Abzug dieser <lb/>Vorbemerkung einsenden.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

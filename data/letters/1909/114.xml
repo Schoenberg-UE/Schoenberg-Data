@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.114"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Verlag Dreililien, 30. Dezember 1909</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.114</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 114</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1909-12-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.12416"/>
+                    <ref type="answered-by" target="letter.12418"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-18+02:00" who="KBleier">Ergänzung Schreibort</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/114_cc.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.114_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>Lieber Herr <persName key="pers.2283">Marschalk</persName>,</salute>
+                <p rendition="#inline">ich <seg type="comment">
+                        <orig>schrieb</orig>
+                        <note xml:id="ngmw_5f2_1vb">
+                            <ref target="letter.24382">Arnold Schönberg an Verlag Dreililien,
+                                zwischen 11. Oktober und 30. Dezember 1909
+                            [erschlossen]</ref></note>
+                    </seg> Ihnen seinerzeit, dass mein Monodram <lb/>„<bibl sameAs="werke.7"
+                        >Erwartung</bibl>“ in <placeName key="place.2.22">Mannheim</placeName> am
+                        <orgName key="org.2">Hoftheater</orgName> zur <seg type="comment">
+                        <orig>Uraufführung</orig>
+                        <note xml:id="nzkg_g3c_rzb" resp="#KBleier">Die Aufführung kam nicht
+                            zustande. <persName key="pers.498">Artur Bodanzky</persName> begründete
+                            eine Verschiebung „1. durch Abgang [Carl] <persName key="pers.1420"
+                                >Hagemanns</persName>. 2. Absage [Anna Bahr] <persName key="pers.3"
+                                >Mildenburg</persName>“ (Artur Bodanzky an Arnold Schönberg, 5. Juni
+                            1910; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B202565"
+                                >ASCC 20256</ref>). Intendant <persName key="pers.1420">Carl
+                                Hagemann</persName> wechselte <date when="1910">1910</date> von
+                                <placeName key="place.2.22">Mannheim</placeName> an das Deutsche
+                            Schauspielhaus <placeName key="place.2.40">Hamburg</placeName></note>
+                    </seg> gelangen soll <lb/>und ersuchte Sie um eine Erklärung ob Sie es erwerben
+                    wollen. Ich wieder<g ref="#typoHyphen"/>
+                    <lb break="no"/>hole diese Anfrage, die Sie unbeantwortet ließen, heute und
+                    stelle folgende <lb/>Bedingungen:</p>
+                <list>
+                    <item>I. 300 Mark Honorarvorschuss bar</item>
+                    <item>II 200 Mark Abschreibung vom Gesamtvorschuss</item>
+                    <item>III. Der <bibl sameAs="werke.174">Klavier-Auszug</bibl> muss bis
+                        spätestens <date when="1910-02-15">15 Februar</date> gedruckt sein. <lb/>Für
+                        jeden Tag, den er ohne mein Verschulden später erscheint erhalte ich als
+                        <lb/>Entschädigung 5 Mark.</item>
+                </list>
+                <p>Ich sende Ihnen heute die <seg type="comment">
+                        <orig>Noten</orig>
+                        <note xml:id="nkkm_3f5_gdc" resp="#KBleier">Reinschrift des Klavierauszugs,
+                            autograph (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1420&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 6/2, Quelle L</ref>) oder Reinschrift eines weiteren
+                            Klavierauszugs, verschollen (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1421&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 6/2, Quelle
+                            M*</ref>)</note>
+                    </seg> und das <seg type="comment">
+                        <orig>
+                            <bibl sameAs="schriften.94">Textbuch</bibl>
+                        </orig>
+                        <note xml:id="nnk5_jbt_gdc" resp="#KBleier">Textbuch (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1452&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 6/2, Quelle TB*</ref>)</note>
+                    </seg>. Ich muss <lb/>Ihnen, da die Sache drängt und ich Ihre Neigung zum
+                    Verschleppen <lb/>kenne wieder einen Termin stellen. Sie müssen das einsehen,
+                    <lb/>denn ich kann doch unmöglich immer wieder geschädigt werden. Da die
+                    <lb/>Aufführung Mitte <date when="1910-02">Februar</date> sein soll, muss doch
+                    der Klavierauszug <lb/>rechtzeitig aufliegen.</p>
+                <p>Ich werde also annehmen, dass Sie auf das Werk nicht <lb/>reflektieren, wenn Sie
+                    mir von heute in 10 Tagen (d. i. also <lb/>am <date when="1910-01-09">
+                        <hi rendition="#u">9. Jänner 1910</hi>
+                    </date>
+                    <supplied cert="high">)</supplied> nicht mitgeteilt haben, dass Sie mit <lb/>den
+                    Bedingungen einverstanden sind und der Betrag von <lb/>300 Mark angewiesen, der
+                    von 200 Mark abgeschrieben <lb/>ist. Jede andere Wendung, die den Zweck haben
+                    könnte die <lb/>Sache hinauszuschieben, werde ich als Ablehnung ansehen
+                    müssen.</p>
+                <p>Uebrigens, was ist also mit <bibl sameAs="werke.5">Pelleas</bibl>? Sie <ref
+                        target="letter.12416">schrieben</ref>, meine <lb/>Bedingungen <hi
+                        rendition="#u">schienen</hi> Ihnen annehmbar, <anchor type="target"
+                        xml:id="start_t3y_bvx_bvb"/>sagten aber Direktor <lb/>
+                    <persName key="pers.1538">Herzka</persName> von der <orgName key="org.1"
+                        >Universal Ed.<anchor type="target" xml:id="stop_t3y_bvx_bvb"/>
+                    </orgName> ich müsste gewisse Bedingungen <lb/>erfüllen, die Sie mir mitgeteilt
+                    haben. Welche Bedingungen <lb/>sollen das denn sein? Was hat das wieder zu
+                    bedeuten? <lb/>Ich muss Ihnen auch in dieser Angelegenheit den selben Termin
+                    <lb/>stellen (<date when="1910-01-09">9 Jänner 1910</date>) da <persName
+                        key="pers.2518">Nedbal</persName> das Werk für nächstes <lb/>Jahr wünscht
+                    und es sich jetzt schon durchstudieren
+                    will<!-- Kein Nachweis in anno 1910/11 -->. Ich bitte <lb/>sich also auch
+                    darüber zu entscheiden. Habe ich bis zum <date when="1910-01-09">9. Jänner
+                        1910</date>
+                    <pb n="2" xml:id="p.2"/>nicht schon zusagende Antwort, so werde ich über das
+                    Werk ander<g ref="#typoHyphen"/>
+                    <lb break="no"/>weitig verfügen, was wie Sie jetzt wissen keine leere Drohung
+                    <lb/>mehr ist; auch keine solche sein soll. Denn diese Absicht ist <lb/>mir
+                    stets ferne gelegen und niemand wäre froher gewesen, wie <lb/>ich, wenn wir
+                    beide hätten gut miteinander auskommen <lb/>können.</p>
+                <p>Ich hoffe, Sie nehmen mir die nötige Energie nicht übel. <lb/>Ich muss ja doch
+                    ins Reine kommen. <seg type="comment">
+                        <orig>Seit dem <bibl sameAs="werke.42">Dmoll <lb/>Quartett</bibl>
+                        </orig>
+                        <note xml:id="nztb_k25_bgc" resp="#KBleier">
+                            <rs type="bibl" key="zotero-4528359-GDGH89ZG">Hofmeister
+                            1907</rs></note>
+                    </seg> haben Sie nichts von mir gedruckt, das schädigt <lb/>mich ja
+                    ungemein.</p>
+                <closer>
+                    <salute>Also herzliche Neujahrswünsche Ihres </salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <dateline rendition="#l">
+                        <placeName key="place.9.11">Wien</placeName>
+                        <date when="1909-12-31">
+                            <date when="1909-12-30">30/12. 1909</date>
+                        </date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

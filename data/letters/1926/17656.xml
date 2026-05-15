@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17656"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 21. April 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17656</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17656</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-04-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1209"/>
+                    <ref type="answered-by" target="letter.1210"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17656_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17656_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.104">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>
+                        <placeName key="place.9.11.6.12">I·Karlsplatz
+                        6</placeName>·<lb/>Musikvereinsgebäude<lb/>Telegr.-Adr.: Musikedition, Wien,
+                        A.B.C. Code 5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 51351, 51352. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank Wien</orgName>.
+                        Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, <date when="1926-04-21">21. April 1926</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1485">LH</persName>/<persName key="pers.4342">Wi.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin – Charlottenburg 2,</hi>
+                            <lb/>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>, Pension
+                            Bavaria.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir danken Ihnen bestens für Ihr <ref target="letter.1209">Schreiben</ref>
+                    <lb/>vom <date when="1926-04-16">16. d. M.</date> und nehmen zur Kenntnis, daß
+                    Sie doch keine Tei<g ref="#typoHyphen"/>
+                    <lb break="no"/>lung von <bibl sameAs="werke.60">op. 27</bibl> wünschen und werden also von einer separaten
+                    <lb/>Ausgabe des 4. Chores absehen.</p>
+                <p>Was nun den Stich von <bibl sameAs="werke.61">op. 28</bibl> betrifft, so war
+                    <lb/>in letzter Zeit unsere Stecherei derartig überbürdet, daß es <lb/>bisher
+                    nicht möglich war, das Werk zu stechen, obwohl es schon <lb/>seit längerer Zeit
+                    von uns der Druckerei <seg type="comment">
+                        <orig>übergeben</orig>
+                        <note xml:id="nss1_pn2_3fc" resp="#KBleier">Laut
+                        <orgName key="org.1">UE</orgName>-Herstellungskartei am <date when="1926-04-28">28. April
+                            1926</date> zum Stich an <orgName key="org.186">Waldheim-Eberle</orgName> gegeben</note>
+                    </seg> worden war. <lb/>Wir
+                    erhielten übrigens gestern das <seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note xml:id="nu1p_2gq_hfc" resp="#KBleier">Reinschrift und Stichvorlage (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=913&amp;werke_id=287&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 18/2, Quelle H</ref>)</note>
+                    </seg> des Werkes von <lb/>der
+                    Stecherei zurück mit der Anfrage, wie sie sich bei den <lb/>
+                    <seg type="comment">
+                        <orig>Spiegelkanons</orig>
+                        <note xml:id="nr4l_kfq_hfc" resp="#KBleier">
+                            <bibl sameAs="werke.61">Arnold Schönberg, Drei Satiren für
+                                gemischten Chor op. 28</bibl>: Vielseitigkeit op. 28/2, I. [Anhang]
+                            Ein Spruch und zwei Variationen über ihn</note>
+                    </seg> bezüglich des
+                    Untersatzes zu verhalten hat. Wir <lb/>sind nun selbst der Ansicht, daß die
+                    Spiegelung auch im Unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>satz zum Ausdruck zu bringen ist, d. h. daß die kleinsten
+                        Noten<g ref="#typoHyphen"/>
+                    <lb break="no"/>einheiten normal zu verteilen und die darüber, bezw. darunter
+                    <lb/>stehenden größeren Einheiten <hi rendition="#u">in die Mitte</hi> zwischen
+                    die kleineren <lb/>zu setzen sind, also zum Beispiel <notatedMusic place="inline" style="scale: 30">
+                        <section xmlns="http://www.music-encoding.org/ns/mei">
+                            <scoreDef mnum.visible="false">
+                                <staffGrp>
+                                    <staffDef n="1" lines="5" lines.visible="false"/>
+                                </staffGrp>
+                            </scoreDef>
+                            <measure n="1" right="invis">
+                                <staff n="1">
+                                    <layer xml:id="layer-0000000767356305" n="1">
+                                        <beam place="below">
+                                            <note xml:id="note-0000001318117900"
+                                                  dur="8"
+                                                  oct="4"
+                                                  pname="f"
+                                                  stem.dir="down"/>
+                                            <note xml:id="note-0000000166242848"
+                                                  dur="8"
+                                                  oct="4"
+                                                  pname="f"
+                                                  stem.dir="down"/>
+                                        </beam>
+                                        <beam place="below">
+                                            <note xml:id="note-0000000167321589"
+                                                  dur="8"
+                                                  oct="4"
+                                                  pname="f"
+                                                  stem.dir="down"/>
+                                            <note xml:id="note-0000001117852400"
+                                                  dur="8"
+                                                  oct="4"
+                                                  pname="f"
+                                                  stem.dir="down"/>
+                                        </beam>
+                                    </layer>
+                                    <layer n="3">
+                                        <space dur="16"/>
+                                        <note xml:id="note-0000000167321584"
+                                              dur="4"
+                                              oct="5"
+                                              pname="c"
+                                              stem.dir="down"
+                                              stem.len="5"/>
+                                        <note xml:id="note-0000001117852401"
+                                              dur="4"
+                                              oct="5"
+                                              pname="c"
+                                              stem.dir="down"
+                                              stem.len="5"/>
+                                    </layer>
+                                    <layer n="2">
+                                        <space dur="8"/>
+                                        <space dur="16"/>
+                                        <note xml:id="note-0000000167321511"
+                                              dur="2"
+                                              oct="5"
+                                              pname="e"
+                                              stem.dir="up"/>
+                                    </layer>
+                                </staff>
+                            </measure>
+                        </section>
+                    </notatedMusic>. Da dies jedoch in <lb/>Ihrem Manuskript nicht konsequent
+                    durchgeführt ist, fragen wir <lb/>doch diesbezüglich auf alle Fälle bei Ihnen
+                    an, bevor wir der <lb/>Druckerei weitere Weisungen in dieser Sache erteilen. –
+                    Was den <lb/>Text der Spiegelkanons betrifft, müßte nicht auch da die<pb n="2" xml:id="p.2"/> Spiegelung irgendwie zum Ausdruck gebracht werden?</p>
+                <p>Auch bei diesem Werk werden wir vorsichtshalber <lb/>von dem <seg type="comment">
+                        <orig>Chor</orig>
+                        <note xml:id="nf5p_ht4_hfc" resp="#KBleier">
+                            <bibl sameAs="werke.61">Drei
+                        Satiren für gemischten Chor op. 28</bibl>: Der neue Klassizismus op. 28/3</note>
+                    </seg>, der Instrumentalbegleitung
+                    enthält, eine Probe<g ref="#typoHyphen"/>
+                    <lb break="no"/>seite stechen lassen und sie Ihnen zur Begutachtung einsenden.
+                    <lb/>Mit dem Stich der übrigen Teile wird sogleich nach Eintreffen <lb/>Ihrer
+                    Anweisungen begonnen und wir werden alles tun, um den <lb/>Stich zu
+                    beschleunigen.</p>
+                <p>Wir haben nun noch eine Anfrage zu <bibl sameAs="werke.61">op. 28</bibl>: In
+                    <lb/>dem Manuskript der Texte zu diesem Werk heißt es beim Anhang:
+                    <lb/>„Ein Spruch und drei Variationen über ihn“. Wir glauben nun,
+                    <lb/>daß es sich hier um einen Schreibfehler handeln dürfte und <lb/>wohl
+                    „zwei Variationen“ heißen soll, da ja der ganze Anhang <lb/>nur aus
+                    drei Stücken besteht.</p>
+                <p>Was nun Ihren Wunsch nach einer <placeName key="place.2.3">Berliner</placeName>
+                    Kopiatur <lb/>der Stimmen Ihrer neuen <bibl sameAs="werke.62">Suite</bibl>
+                    betrifft, so legen wir Ihnen über <lb/>Wunsch des Herrn Direktors <persName key="pers.1538">Hertzka</persName> nahe, doch die Stimmen in <lb/>
+                    <placeName key="place.9.11">Wien</placeName> schreiben zu lassen, eventuell unter
+                    Aufsicht eines Ihrer <lb/>Freunde (vielleicht <persName key="pers.3612">Stein</persName>), da die Kopiaturkosten in <placeName key="place.2.3">Berlin</placeName>
+                    <lb/>ca. das Dreifache der <placeName key="place.9.11">Wiener</placeName> Preise
+                    betragen. Wir glauben, daß <lb/>Sie die Arbeit ruhig in <placeName key="place.9.11">Wien</placeName> machen lassen können, da wir sehr
+                    <lb/>gewissenhafte Kopisten zur Verfügung haben und diese Arbeit
+                    <lb/>selbstverständlich nur dem allerbesten und erprobtesten Herrn <lb/>unseres
+                    Kopistenstabes anvertrauen würden.</p>
+                <closer> Wir erwarten Ihre Antwort auf alle Anfragen dieses <lb/>Briefes und
+                    zeichnen <salute>mit <lb/>
+                        <seg rendition="#r">ganz vorzüglicher Hochachtung</seg>
+                    </salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r"> D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Alfred Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

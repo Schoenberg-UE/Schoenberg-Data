@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD für ediarum.ASUE.api</title>
+        <editor>Jannik Franz <email>franz@mdw.ac.at</email></editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+        <pubPlace key="place.9.11">Wien</pubPlace>
+        <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Das ediarum zugrundeliegende TEI-XML-Schema basiert weitgehend auf dem Basisformat des Deutschen Textarchivs.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="asue-api" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/compiledODD/ediarum.asue.compiled.odd" start="TEI">
+        <moduleRef key="tei"/>
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="msdescription"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="textcrit"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="gaiji"/>
+        
+        <specGrpRef target="datatypes.odd.xml#asue-datatypes"/>
+        
+        <!-- include element <encodingDesc> which is excluded from ediarum.asue.odd -->
+        <elementRef key="encodingDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="tagsDecl" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="styleDefDecl" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="rendition" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="namespace" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="tagUsage" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="handDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="handNote" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="charDecl" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="char" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="unicodeProp" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="mapping" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <elementRef key="schemaRef" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <classRef key="model.encodingDescPart" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- ############################################################################################################################################## -->
+        <!-- All internal ID-references (with @key, @sameAs or @target) are resolved into absolute URLs linking to the index entries of the digital edition -->
+        <!-- ############################################################################################################################################## -->
+        
+        <!-- remove attribute "telota:doctype", which is only needed for frameworks in Oxygen author mode -->
+        <elementSpec ident="TEI" module="textstructure" mode="change">
+          <attList>
+            <attDef ident="doctype" ns="http://www.telota.de" mode="delete"/>                        
+          </attList>
+        </elementSpec>
+        
+        <!-- replace @key with @ref that contains a URI to the person entry in the online edition -->
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="ref" mode="replace">
+              <datatype>
+                <dataRef key="asueOnline.persEntry"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- replace @key with @ref that contains a URI to the organisation entry in the online edition -->
+        <elementSpec ident="orgName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="ref" mode="replace">
+              <datatype>
+                <dataRef key="asueOnline.orgEntry"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- replace @key with @ref that contains a URI to the place entry in the online edition -->
+        <elementSpec ident="placeName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="key" mode="delete"/>
+            <attDef ident="ref" mode="replace">
+              <datatype>
+                <dataRef key="asueOnline.placeEntry"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- @sameAs contains a URI to the work entry in the online edition -->
+        <elementSpec ident="bibl" module="core" mode="change">
+          <attList>
+            <attDef ident="sameAs" mode="change">
+              <datatype>
+                <dataRef key="asueOnline.workEntry"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- @sameAs contains a URI to the stamp entry in the online edition -->
+        <elementSpec ident="stamp" module="msdescription" mode="change">
+          <attList>
+            <attDef ident="sameAs" mode="change">
+              <datatype>
+                <dataRef key="asueOnline.stampEntry"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <!-- ########################################################################################################################## -->
+        <!-- all attribute values beginning with hashtag reference an element in a declaration in the metadata which explains the value -->
+        <!-- ########################################################################################################################## -->
+        
+        <!-- values of @hand and @rendition -->
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

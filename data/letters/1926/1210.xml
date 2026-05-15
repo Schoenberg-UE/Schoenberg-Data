@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1210"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 22. April 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1210</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1210</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2 (Pension
+                        Bavaria)</placeName>
+                    <date when="1926-04-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17656"/>
+                    <ref type="answered-by" target="letter.17669"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1210_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1210_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHöNBERG</persName>
+                        </addrLine>
+                        <addrLine>CHARLOTTENBURG 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">STEINPLATZ 2</placeName>
+                        </addrLine>
+                        <addrLine>PENSION BAVARIA</addrLine>
+                    </address>
+                    <note place="mTop" hand="#addressee">erl. 27.IV. <lb/>
+                        <persName key="pers.1485">ELH</persName>
+                    </note>
+                    <dateline>
+                        <date when="1926-04-22">22.IV.1926</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr Doktor <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p rendition="#inline">ich antworte Ihnen sofort, damit die <lb/>Sache endlich
+                    vorwärts kommt. Ich bin über diese Verzöge<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung sehr bös. Alles das hätte man mich schon vor zwei
+                    <lb/>Monaten fragen können</p>
+                <p>
+                    <metamark function="done" hand="#addressee">✓</metamark> I. Der Untersatz
+                    in de<supplied>n</supplied>
+                    <seg type="comment">
+                        <orig>Spiegelkanons</orig>
+                        <note sameAs="letter.17656/#nr4l_kfq_hfc"/>
+                    </seg> soll so durchgeführt
+                    <lb/>werden, wie Sie schreiben, also: jede längere Note in die <lb/>Mitte
+                    zwischen die nächst kürzere.</p>
+                <p>
+                    <metamark function="done" hand="#addressee">✓</metamark> II. Der Text hinge<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>gen kann, wie im Manuskript, normal ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>stochen werden, da man nur die Tatsache der Notenumkehrung
+                    <lb/>zu entnehmen braucht, denn die Worte sind ja nicht umge<g ref="#typoHyphen"/>
+                    <lb break="no"/>kehrt.</p>
+                <p>
+                    <metamark function="done" hand="#addressee">✓</metamark> III. Es muss (wie
+                    Sie richtig konstatieren) heissen: <lb/>
+                    <seg rendition="#c">
+                        <hi rendition="#u">Ein Spruch und zwei Variationen über
+                            ihn</hi>.</seg>
+                    <lb/>„drei“ ist also falsch. <add place="intralinear">Besten Dank!</add>
+                </p>
+                <p>
+                    <metamark function="done" hand="#addressee">✓</metamark> IV. Die Kopiatur
+                    der <bibl sameAs="werke.62">Suite</bibl> möchte ich doch in <placeName key="place.2.3">Berlin</placeName> vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>nehmen lassen, denn es steht mir hiefür Kapellmeister <lb/>
+                    <persName key="pers.3211">Schmied</persName> zur Verfügung, der mir durch seine ausgezeichnete <lb/>Arbei<choice>
+                        <sic>r</sic>
+                        <corr>t</corr>
+                    </choice> einen guten Dienst lei<supplied>s</supplied>t<supplied>e</supplied>n
+                    und auch die Parti<g ref="#typoHyphen"/>
+                    <lb break="no"/>tur gut korrigier<supplied cert="high">e</supplied>n
+                        wird<supplied cert="high">.</supplied> Vor allem aber mag ich es nicht
+                    <lb/>riskieren, das <seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note xml:id="nrr2_1bs_kfc" resp="#KBleier">Partiturreinschrift (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1754&amp;werke_id=531&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 23/2, Quelle B</ref>)</note>
+                    </seg> durch <supplied cert="high">d</supplied>ie Post zu schicken, weil <lb/>mir die
+                    Neuanfertigung einer Partitur zuviel Mühe machen <lb/>würde. Herr Schmied hat
+                    übrigens versprochen, nicht die <placeName key="place.2.3">Ber<lb break="no"/>liner</placeName> Preise zu berechnen, sondern wird sich mit einem ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ringerem Satz zufrieden geben, so dass sein<supplied cert="high">e</supplied> Arbeit für die <lb/>
+                    <orgName key="org.1">UE</orgName> gar nicht zu teuer kommt, da man ja dadurch
+                        Revisions<g ref="#typoHyphen"/>
+                    <lb break="no"/>gelder ersparen wird. Bitte teilen Sie mir also umgehend
+                    <lb/>den Höchstbetrag, den Sie pro Seite zahlen wollen, mit. Ver<lb break="no"/>gessen Sie aber dabei nicht, dass meine Noten immer am teu<lb break="no"/>ersten sind, weil nicht nur bei jeder Note 2–3 Zeiche<supplied cert="high">n</supplied> ste<g ref="#typoHyphen"/>
+                    <lb break="no"/>hen, sondern auch die Einteilung eh<supplied cert="high">e</supplied>r schwierig ist. Ich <lb/>mag auch nicht soviel Zeit verlieren,
+                    bis das den Weg nach <lb/>
+                    <placeName key="place.9.11">Wien</placeName> und zurück gemacht hat und bis man
+                    sich in <placeName key="place.9.11">Wien</placeName> zu <lb/>einer Arbeit
+                    entschliesst, ist man wo anders schon längst <lb/>fertig damit. Und mit meinen
+                    Arbeiten hat es ja die <orgName key="org.1">UE</orgName>
+                    <choice>
+                        <sic>sch</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>scheinbar nicht so eilig.</p>
+                <p>Bitte beschleunigen Sie nun alles wirklich.</p>
+                <closer rendition="#inline">
+                    <salute>Herzlichste <lb/>Grüße, Ihr</salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <note hand="#addressee">
+                    <hi rendition="#u">7 Instrumente (darunter Klavier)</hi>
+                    <lb/>
+                    <table rows="2" cols="3">
+                        <row>
+                            <cell rows="2">
+                                <placeName key="place.9.11">Wien</placeName>
+                            </cell>
+                            <cell>Stimmen</cell>
+                            <cell>S –'45</cell>
+                        </row>
+                        <row>
+                            <cell>Klavier</cell>
+                            <cell> –'50 </cell>
+                        </row>
+                    </table>
+                </note>
+                <lb/>
+                <note hand="#addressee">
+                    <hi rendition="#u">Held à –'50 M</hi>
+                </note>
+                <lb/>
+                <note hand="#addressee">
+                    <hi rendition="#uu">Materialfrage!</hi>
+                    <lb/>
+                    <metamark function="done">✓</metamark>
+                    <hi rendition="#u">
+                        <gap reason="illegible" unit="words" quantity="2"/>
+                        <!-- Steno -->
+                        <seg type="comment">
+                            <orig>IV. Chor</orig>
+                            <note xml:id="nqr1_qx4_hfc" resp="#KBleier">
+                                <bibl sameAs="werke.60">Vier Stücke für gemischten
+                                    Chor op. 27</bibl>: Der Wunsch des Liebhabers op.
+                            27/4</note>
+                        </seg>
+                    </hi>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

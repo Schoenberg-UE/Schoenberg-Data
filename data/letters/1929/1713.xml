@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1713"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 17. Mai 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1713</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1713</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-05-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1929-05-21" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17604"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1713_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1713_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.112">
+                        <persName key="pers.3263">ARNOLD
+                  SCHÖNBERG</persName>
+                        <lb/> CHARLOTTENBURG 9<lb/>
+                        <placeName key="place.2.3.1.8">NUSSBAUM-ALLEE 17</placeName>
+                        <lb/>TEL: WESTEND 2266</stamp>
+                    <dateline>
+                        <date when="1929-05-17">17.V.1929</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">Universal Edition</orgName>
+                </salute>
+                <p>schon zweimal habe ich die Frage <choice>
+                        <sic>ges</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>
+                    <note place="left" hand="#addressee">Material <lb/>Bei <persName key="pers.1339"
+                            >Greissle</persName>
+                    </note>
+                    <seg type="comment">
+                        <orig>gestellt</orig>
+                        <note xml:id="nzgk_yqk_d2c" resp="#pkehrer">Erhalten ist <ref
+                                target="letter.7223">Arnold Schönberg an Universal-Edition, 8.
+                                Februar 1929</ref>
+                        </note>
+                    </seg>, warum meine <persName key="pers.252">Bach</persName>-<bibl
+                        sameAs="werke.32">Instrumentation</bibl> noch immer <lb/>nicht angekündigt
+                    wird und warum keine Aufführungen <lb/>dafür aquiriert werden.</p>
+                <p>Heute wiederhole ich diese Frage und <lb/>bitte ausserdem um Aufklärung, wie es
+                    kommt, dass ich <lb/>
+                    <note place="left" hand="#addressee">
+                        <persName key="pers.1339">Greissle</persName>
+                        <gap reason="illegible" unit="words" quantity="1"/>
+                        <lb/>Partitur <lb/>
+                        <bibl sameAs="werke.64">Orche-<hi rendition="#u">Variationen</hi>
+                        </bibl>
+                        <lb/>
+                        <table rows="11" cols="2">
+                            <row>
+                                <cell>1. Korr</cell>
+                                <cell>
+                                    <date from="1929-11-22" to="1929-11-27" cert="high">22.XI. –
+                                        27.XI.</date>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>2. Korr.</cell>
+                                <cell>
+                                    <date from="1929-12-19" to="1929-12-20" cert="high">19.XII. –
+                                        20.XII.</date>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>3. Korr.</cell>
+                                <cell>25.I. –</cell>
+                            </row>
+                            <row>
+                                <cell>4. Korr.</cell>
+                                <cell>
+                                    <date when="1929-01-28">28.I.</date> an <persName key="pers.3263">Schönberg</persName>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell/>
+                                <cell>
+                                    <date when="1929-02-06">6.II.</date> zurück</cell>
+                            </row>
+                            <row>
+                                <cell>5. Korr.</cell>
+                                <cell>
+                                    <date when="1929-02-23">23.II.</date>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <gap reason="lost" unit="chars" quantity="1"/>
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>Korr.</supplied>
+                                    </ellipsis>
+                                </cell>
+                                <cell>
+                                    <date when="1929-02-26">26.II.</date>
+                                    <persName key="pers.3263">Schönberg</persName>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell> </cell>
+                                <cell>
+                                    <date when="1929-03-05">5.III.</date>
+                                    <persName key="pers.1339">Greissle</persName>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>6. Korr.</cell>
+                                <cell>
+                                    <date when="1929-03-12">12.III.</date>
+                                    <persName key="pers.1596">Hirsch</persName>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Plattenabl.</cell>
+                                <cell>
+                                    <date when="1929-04-09">9.IV.</date>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell>Druckauftr.</cell>
+                                <cell>
+                                    <date when="1929-04-12">12.IV.</date>
+                                </cell>
+                            </row>
+                        </table>
+                    </note> auch nichts über Aufführungen meiner <bibl sameAs="werke.64">Orchestervariatio<lb break="no"/>nen</bibl>
+                    höre<!-- keine Aufführung nachweisbar -->; warum diese nicht angekündigt
+                    werden; warum <seg type="comment">
+                        <orig>die<lb break="no"/>se Partitur nicht
+                        erscheint</orig>
+                        <note xml:id="np3j_31c_rdc" resp="#KBleier">Lieferdatum: <date when="1929-06-04">4. Juni
+                            1929</date>, Auflage: 97 (<rs type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon 2015</rs>, Bd.
+                            5, S. 665)</note>
+                    </seg> und desgleichen die <seg type="comment">
+                        <orig>Parti<g ref="#typoHyphen"/>
+                            <lb break="no"/>tur der <bibl sameAs="werke.32">Bachinstrumentation</bibl>
+                        </orig>
+                        <note xml:id="ng4q_q1c_rdc" resp="#pkehrer">Erscheinungsdatum: <date when="1929-11-02">20. November
+                                1929</date>, Auflage: 97 (<rs type="bibl" key="zotero-4528359-3MMC3IIJ">ASGA B 25/26</rs>,
+                    S.35)</note>
+                    </seg>.</p>
+                <p> Ich selbst wurde von verschiedenen <lb/>Seiten darum angegangen und habe bisher
+                    immer um Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>duld gebeten: Die <orgName key="org.1">UE</orgName> hat das
+                    bisher nicht getan: will <lb/>sie herbei führen, dass sie mir reisst? Ich kanns
+                        ris<g ref="#typoHyphen"/>
+                    <lb break="no"/>kieren! Der <seg type="comment">
+                        <orig>Verlagskonkurrenzvertrag</orig>
+                        <note xml:id="nhk1_xqn_sdc" resp="#pkehrer">
+                            <persName key="pers.3263">Schönberg</persName> hatte <persName
+                                key="pers.3068">Josef Rufer</persName> beauftragt, an potentielle
+                            Verlage für seine Oper <bibl sameAs="werke.65">Von heute auf morgen op.
+                                32</bibl> heranzutreten (Arnold Schönberg an Josef Rufer, 28.
+                            Dezember 1928; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B016326">ASCC
+                                1632</ref>); als <persName key="pers.3068">Rufer</persName> ihm von
+                            der Absage des Fürstner-Verlags aufgrund einer Vereinbarung mit der
+                                <orgName key="org.1">UE</orgName> berichtete (Josef Rufer an Arnold
+                            Schönberg, 18. Februar 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B152003">ASCC
+                                15200</ref>), hielt <persName key="pers.3263">Schönberg</persName>
+                            es für „fast bewiesen [...], dass [der Misserfolg] an diesem
+                            Verlags-Konkurrenz-Vertrag liegt und [...] es sich auch bei <orgName
+                                key="org.25">Schott</orgName> [...] um nichts anderes handelt“
+                            (Arnold Schönberg an Josef Rufer, 23. Februar 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B016712">ASCC
+                                1671</ref>) – obwohl <orgName key="org.25">Schott</orgName> dies
+                                <persName key="pers.3068">Rufer</persName> zufolge bestritten hatte
+                            (Josef Rufer an Arnold Schönberg, 2. März 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B151999">ASCC
+                                15199</ref>). Ob an einer solchen Vereinbarung tatsächlich mehrere
+                            Verlage beteiligt waren, ist nicht bekannt; <persName key="pers.3263"
+                                >Schönberg</persName> wandte sich mit der Bitte um Intervention auch
+                            an die <orgName key="org.73">Genossenschaft deutscher
+                                Tonsetzer</orgName> (Arnold Schönberg an Genossenschaft deutscher
+                            Tonsetzer, 23. Februar 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B016737">ASCC
+                                1673</ref>). Trotzdem schrieb er noch im <date when="1929-06"
+                                >Juni</date> an <persName key="pers.1339">Felix Greissle</persName>,
+                                <persName key="pers.1538">Emil Hertzka</persName> würde nach wie vor
+                            „speziell auf die Oper“ reflektieren (Arnold Schönberg an Felix
+                            Greissle, 15. Juni 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B015269">ASCC
+                                1526</ref>)</note>
+                    </seg> wird hiebei wenig <lb/>nützen! Ich bitte freundlichst um baldige Antwort
+                    und <lb/>hoffe selbst, dass es Ihnen gelingen möge mich zufrieden <lb/>zu
+                    stellen. </p>
+                <closer rendition="#inline">
+                    <salute>Inzwischen bin ich mit vorzüglicher Hochach<choice>
+                            <sic>t</sic>
+                            <corr type="deleted"/>
+                        </choice>
+                        <lb break="no"/>tung ergebenst</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

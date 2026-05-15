@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17657"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 17. April 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17657</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17657</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                            <biblScope unit="page" from="289" to="289"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="273" to="273"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-04-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17657_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17657_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.104">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>
+                        <placeName key="place.9.11.6.12">I·Karlsplatz
+                        6</placeName>·<lb/>Musikvereinsgebäude<lb/>Telegr.-Adr.: Musikedition, Wien,
+                        A.B.C. Code 5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 51351, 51352. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank Wien</orgName>.
+                        Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, <date when="1926-04-17">17. April 1926</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4362">M.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">BERLIN-CHARLOTTENBURG 2,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich war in der ersten Woche nach meiner Rückkehr <lb/>aus <placeName key="place.2.3">Berlin</placeName> so mit Arbeit überhäuft, dass ich Ihnen
+                    gar nicht <lb/>schreiben konnte. Nun will ich aber, bevor ich wieder auf Rei<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen gehe, Ihnen einiges berichten.</p>
+                <p>Aus <placeName key="place.15">Amerika</placeName> kam ein Telegramm, dass
+                        <persName key="pers.3699">
+                        <hi rendition="#g">Stock</hi>
+                    </persName>, <lb/>
+                    <placeName key="place.15.5">Chicago</placeName>, die Bedingungen für die „<bibl sameAs="werke.16">GURRELIEDER</bibl>“ verlangt. Ich <lb/>habe ausführlich
+                    zurückgeschrieben, dass ich über die „<bibl sameAs="werke.16">Gurre<g ref="#typoHyphen"/>
+                        <lb break="no"/>lieder</bibl>“ für <placeName key="place.15">Amerika</placeName> zunächst nur dann verfügen möchte, wenn da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit eine Reise resp. Tournee für Sie in Betracht käme. Viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht wird in <placeName key="place.15.5">Chicago</placeName>
+                    das, was <seg type="comment">
+                        <orig>in <placeName key="place.15.8">New
+                                York</placeName> misslungen</orig>
+                        <note xml:id="nufj_b52_3gc" resp="#TMuxeneder">Im <date when="1916-12">Dezember 1916 </date>wurde
+                            erstmals eine <bibl sameAs="werke.16">Gurre-Lieder</bibl>-Aufführung in
+                                <placeName key="place.15.8">New York</placeName> erwogen. Mit dem
+                            Kriegseintritt <placeName key="place.15">Amerikas</placeName> waren
+                            diese Pläne jedoch hinfällig geworden (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>, S. 77). Weitere
+                                <placeName key="place.15">USA</placeName>-Aufführungsinteressen von
+                            <persName key="pers.498">Artur Bodanzky</persName>, <persName key="pers.3719">Leopold Stokowski</persName>, <persName key="pers.3699">Frederick Stock</persName> und <persName key="pers.1190">Ossip Gabrilowitsch</persName>
+                            scheiterten an <persName key="pers.3263">Schönbergs</persName> Beharren
+                            auf einer Erstaufführung unter seiner Leitung bzw. einer Tournee (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>, S.
+                            75)</note>
+                    </seg> ist, <lb/>leichter gehen und wir wollen ja sehen, was
+                        <persName key="pers.3699">Stock</persName> über die <lb/>Sache meldet. Eine
+                    andere Sache, die Sie interessieren dürfte, <lb/>betrifft die „<bibl sameAs="werke.50">Glückliche Hand</bibl>“. <persName key="pers.3972">Bruno
+                            <hi rendition="#g">Walter</hi>
+                    </persName> wäre nicht <lb/>abgeneigt, das Werk in <placeName key="place.2.3">Berlin</placeName> herauszubringen. Der Plan steckt <lb/>noch in den ersten
+                    Ansätzen. Haben Sie die Möglichkeit, sich <lb/>mit <persName key="pers.3972">Walter</persName> persönlich über die Sache zu unterhalten?</p>
+                <p>Und nun muss ich Ihnen eine mir nicht angenehme Mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>teilung machen. Der Humor unseres <orgName key="org.7"
+                        >Anbruch</orgName>-Redaktions-Komitees,<lb/>der, wie ich Ihnen schon
+                    persönlich mitgeteilt habe, so spärlich<pb n="2" xml:id="p.2"/> war, dass ich
+                    wenig Hoffnung hatte, das diesjährige <seg type="comment">
+                        <orig>Abbruch-<lb/>Heft</orig>
+                        <note xml:id="ncgr_rv2_3gc" resp="#TMuxeneder">Faschingsblätter für neue
+                            Musik; in den Jahren <date when="1924">1924</date> und <date when="1925"
+                                >1925</date> erschienene Parodie auf die von der <orgName
+                                key="org.1">UE</orgName> herausgegebene Zeitschrift <orgName
+                                key="org.7">Musikblätter des Anbruch</orgName> (<rs type="bibl"
+                                key="zotero-4528359-EKI82KL8">Krones 1997</rs>)</note>
+                    </seg> herauszubekommen, ist vollständig versiegt und hat die
+                    <lb/>Humorlosigkeit einen Grad erreicht, der zu dem Entschluss <lb/>führte,
+                    trotz Ihrer <add place="superlinear">(den anderen nicht bekannten)</add>
+                    ausgezeichneten <bibl sameAs="schriften.24">Beiträge</bibl> den diesjährigen
+                    <lb/>Abbruch überhaupt fallen zu lassen. Ich musste meinen Mit<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>arbeitern immerhin recht geben, dass man weder von ihnen noch
+                    <lb/>von den Lesern <add place="sublinear">jetzt</add> jene Faschingsstimmung
+                    verlangen dürfte, die für <lb/>den Erfolg des Abbruches unerlässlich ist. Wir
+                    wollen also, <lb/>um nicht die Idee des Abbruchs zu diskreditieren, lieber bis
+                    <lb/>zum nächsten Fasching warten und hoffen, dass dann allen Be<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>teiligten das Richtige einfällt. Ich glaube, dass einige Ihrer
+                    <lb/>glänzenden, mir mitgegebenen Beiträge bis dahin ihre Aktualität <lb/>nicht
+                    verloren haben werden und wenn Sie mir gestatten würden, <lb/>dass ich das
+                    Manuskript inzwischen wohl verwahrt hier behalte, <lb/>würde ich das gerne tun.
+                    Anderenfalls stelle ich es Ihnen selbst<g ref="#typoHyphen"/>
+                    <lb break="no"/>verständlich wieder zurück. Es ist nicht unmöglich, dass ich auf
+                    <lb/>der Durchreise zwischen <placeName key="place.2.5">Bremen</placeName> und
+                        <placeName key="place.2.6">Breslau</placeName> innerhalb der <lb/>nächsten
+                    8–10 Tage nach <placeName key="place.2.3">Berlin</placeName> komme und ich lasse
+                    gleichzeitig <lb/>bei Ihrer Frau <rs type="person" key="pers.1949"
+                        >Schwiegermutter</rs> wegen des Präparates, das Sie in <lb/>
+                    <placeName key="place.2.3">Berlin</placeName> nicht bekommen, anfragen und
+                    hoffe, es Ihnen mitbringen <lb/>zu können.</p>
+                <p>Ich denke noch mit Vergnügen an die Stunden, die ich <lb/>mit Ihnen und Ihrer
+                    lieben <rs type="person" key="pers.3297">Frau</rs> verbringen durfte und
+                    verbleibe <lb/>mit vielen herzlichen Grüssen an Sie Beide</p>
+                <closer rendition="#r">
+                    <salute>Ihr, in Verehrung ergebener</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1302"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 8. April 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1302</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1302</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="275" to="275"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1927-04-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-04-11" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17690"/>
+                    <ref type="answered-by" target="letter.19886"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1302_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1302_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1927-04-08">8.IV.1927</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">UE</orgName>
+                </salute>
+                <p rendition="#inline">ich bitte Sie auf Ihre <ref target="letter.17690">Anfrage</ref> bezüglich der Ueberlassung <lb/>der <bibl sameAs="werke.16">Gurrelieder</bibl> an <placeName key="place.15">amerikanische</placeName>
+                    Dirigenten zur Kenntnis zu <lb/>nehmen, dass ich nach wie vor das mir zustehende
+                    Recht der <placeName key="place.15">ame<g ref="#typoHyphen"/>
+                        <lb break="no"/>rikanischen</placeName>
+                    <seg type="comment">
+                        <orig>Erstaufführung</orig>
+                        <note sameAs="letter.17657/#nufj_b52_3gc"/>
+                    </seg> für mich als Dirigenten in
+                    Anspruch <lb/>nehme. </p>
+                <p>
+                    <note hand="#addressee" place="left">
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.1758">Kaminski</persName>
+                                <bibl sameAs="werke.215">Magnif.</bibl> P.</orig>
+                            <note xml:id="nvs3_bgh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.215">Heinrich Kaminski, Magnificat</bibl> (Exemplar aus dem Schönberg-Nachlass; PM/lg
+                                7)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.2005">Kosa</persName>
+                                <bibl sameAs="werke.221">
+                                    <supplied cert="high">6</supplied> Orch. <!-- steno --><hi
+                                        rendition="#st">Stücke</hi>
+                                </bibl> P. </orig>
+                            <note xml:id="nr2v_vgh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.221">György Kósa, Sechs Orchesterstücke für
+                                    großes Orchester</bibl> (Exemplar aus dem Schönberg-Nachlass; PM/med 8)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.1238">Gmeindl</persName>
+                                <bibl sameAs="werke.220">3 <!-- steno --><hi rendition="#st">leichte
+                                        Stücke</hi>
+                                </bibl> P. </orig>
+                            <note xml:id="ning_1hh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.169">Walther Gmeindl, Drei Orchesterstücke op.
+                                    12</bibl> (Exemplar aus dem Schönberg-Nachlass; PM/lg 5)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.2053">Krenek</persName>
+                                <bibl sameAs="werke.218">Conc. gr.</bibl> P.</orig>
+                            <note xml:id="nsbf_dhh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.218">Ernst Krenek, Concerto grosso Nr. 2 op.
+                                    25</bibl> (Exemplar aus dem Schönberg-Nachlass; PM/med 9)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.1925">Kodaly</persName>
+                                <bibl sameAs="werke.170">Psalm h.</bibl> P.</orig>
+                            <note xml:id="nbdv_3hh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.170">Zoltán Kodály, Psalmus Hungaricus op.
+                                    13</bibl> (Exemplar aus dem Schönberg-Nachlass; MSCO K2)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.4048">Weill</persName>
+                                <bibl sameAs="werke.217">Violin <!-- steno --><hi rendition="#st"
+                                        >Konzert</hi>
+                                </bibl> Kl. A.</orig>
+                            <note xml:id="nlgz_nhh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.217">Kurt Weill, Violinkonzert op. 12</bibl>
+                                (Exemplar aus dem Schönberg-Nachlass; PM/med 17)</note>
+                        </seg>
+                        <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.2053">Krenek</persName>
+                                <bibl sameAs="werke.216">Orpheus</bibl> kl. A.</orig>
+                            <note xml:id="nt2c_rhh_fzb" resp="#pkehrer">
+                                <bibl sameAs="werke.216">Ernst Krenek, Orpheus und Eurydike op.
+                                    21</bibl> (Exemplar aus dem Schönberg-Nachlass; PM/med 10)</note>
+                        </seg>
+                        <lb/>
+                        <!-- steno -->
+                        <hi rendition="#st">
+                            <gap reason="illegible" unit="words" quantity="1"/>
+                        </hi>
+                        <bibl sameAs="werke.16">Gurrelieder</bibl> – <bibl sameAs="werke.62"
+                            >Suite</bibl>
+                        <lb/> von <persName key="pers.3286">Greissle</persName>, <!-- steno --><hi
+                            rendition="#st">Schwarzschrift</hi>
+                    </note>Sie <seg type="comment">
+                        <orig>schrieben</orig>
+                        <note xml:id="nt1f_qn4_fzb" resp="#pkehrer">
+                            <ref target="letter.24380">Universal-Edition an Arnold Schönberg, 1.
+                                April 1927 [erschlossen]</ref>
+                        </note>
+                    </seg> mir dieser Tage, wegen etlicher Partituren jünger<supplied cert="high"
+                        >er</supplied>
+                    <lb/>Komponisten, welche<del rendition="#s">n</del>
+                    <add place="superlinear">den</add> Vorzug geniessen, in meiner Bibliothek vor<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>handen zu sein. Ich nehme an, dass die verehrliche <orgName
+                        key="org.1">UE</orgName> das als <lb/>eine Art Verlagserfolg bucht und bitte
+                    darum, den Betrag, mit dem <lb/>sie mein Konto für die Ueberlassung dieser
+                    „Ehrenexemplare“ <lb/>(welche nämlich der obengenannten Ehre teilhaftig wurden)
+                    von <lb/>meinem Konto <hi rendition="#g">streicht</hi>! Bitte mir von der
+                    Buchhaltung <lb/>darüber Nachricht zukommen zu lassen.</p>
+                <p>Ferner bitte ich Sie mir von meiner <hi rendition="#g">endlich</hi>
+                    <seg type="comment">
+                        <orig>erschie<g ref="#typoHyphen"/>
+                            <lb break="no"/>nene<supplied cert="high">n</supplied>
+                            <bibl sameAs="werke.62">Suite</bibl>
+                        </orig>
+                        <note sameAs="letter.19884/#nuyv_txn_lfc"/>
+                    </seg> (Sie haben offenbar augenblicklich doch
+                    nichts besser<g ref="#typoHyphen"/>
+                    <lb break="no"/>es vorgehabt) noch 4 Partituren zu senden.</p>
+                <p>Ich warte immer noch auf die Erledigung meines letzten <ref target="letter.1297">Briefes</ref>!</p>
+                <p>Es wäre nun doch höchste Zeit; das ist doch kein Verlagswerk von <lb/>mir, dass
+                    das so lange dauert!</p>
+                <closer>
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

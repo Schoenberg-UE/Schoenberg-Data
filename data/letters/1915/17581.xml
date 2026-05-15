@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17581"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. Oktober 1915</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17581</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17581</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="234" to="234"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                            <biblScope unit="page" from="153" to="153"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1915-10-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.461"/>
+                    <ref type="answered-by" target="letter.460"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17581_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17581_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.49">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.10">Seeburgstr. 14–20</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                  <lb/>Musikvereinsgebäude<lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon
+                  N<hi rendition="#sup #uu">o</hi> 3228, 4533·Bank-Konto: <orgName key="org.199">k-k·priv·öst·<lb/>Länderbank. Wien</orgName>·Postsparkassen·Konto
+                  57557.<lb/>Wien <seg hand="#author">
+                            <date when="1915-10-25">25. Oktober 1915</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <lb/>
+                    <hi rendition="#u">Buchhaltung</hi>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.9.11">Wien</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Euer Wohlgeboren!</salute>
+                <p>Auf Ihre geschätzte <ref target="letter.461">Zuschrift</ref> vom <date when="1915-10-19">19. ds.</date> beehren <lb/>wir uns Ihnen die auf die
+               Abrechnungen bezüglichen Reklama<g ref="#typoHyphen"/>
+                    <lb break="no"/>tionen im
+               Nachfolgenden zu beantworten:</p>
+                <p>1.) Auf Grund einer im Sommer <date when="1914">1914</date> geschlossenen <seg type="comment">
+                        <orig>Auf<g ref="#typoHyphen"/>
+                            <lb break="no"/>führungsabmachung</orig>
+                        <note sameAs="letter.17523/#ntf1_qjr_fgc"/>
+                    </seg> hat sich die <orgName key="org.282">Tonkunstgesellschaft</orgName> in <placeName key="place.8.1">Amster<g ref="#typoHyphen"/>
+                        <lb break="no"/>dam</placeName> verpflichtet, uns für das
+                    Aufführungsmaterial der <bibl sameAs="werke.16">Gurre-<lb break="no"/>Lieder</bibl> M 1500.– <hi rendition="#u">bei Lieferung</hi> des Materials
+                    zu bezahlen. Wir <lb/>haben nun von der Firma <orgName key="org.69">Alsbach</orgName> die die Vermittlung in dieser <lb/>Angelegenheit geführt
+                    hat und mit der wir in sehr reger Quartals<g ref="#typoHyphen"/>
+                    <lb break="no"/>verrechnung stehen, zu einer Zeit, als von der Lieferung des
+                    <lb/>Materiales noch keine Rede gewesen ist, einen Betrag in annähern<g ref="#typoHyphen"/>
+                    <lb break="no"/>der Höhe dieses <bibl sameAs="werke.16">Gurrelieder</bibl>-Materialbetrages erhalten. Wir haben <lb/>diesen Betrag
+                    zunächst der Firma <orgName key="org.69">Alsbach</orgName> gutgebracht gehabt,
+                    weil <lb/>eine Verrechnung desselben auf <bibl sameAs="werke.16">Gurrelieder</bibl>-Konto insolange nicht <lb/>durchführbar erschien, als
+                    das <bibl sameAs="werke.16">Gurrelieder</bibl>-Material nicht tat<g ref="#typoHyphen"/>
+                    <lb break="no"/>sächlich geliefert wurde. Als wir nun im Sommer dieses Jahres
+                    <lb/>die endgiltige Lieferung des Materiales veranlassen konnten, ist <lb/>der
+                    betreffende Betrag ordnungsgemäss dem <bibl sameAs="werke.16">Gurrelieder</bibl>-Konto gut<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>gebracht worden und gelangt auch Ende ds.
+                    Jahres auf Ihrem <lb/>werten Konto zur Verrechnung.</p>
+                <p>Diese buchhalterischen Verfügungen alterieren in <lb/>keiner Weise die mit Ihnen
+               gepflogene Verrechnung, nachdem <lb/>an Sie auch dann keine <hi rendition="#u">Barzahlung</hi> geleistet worden wäre, wenn <lb/>das Material schon in der
+               Rechnung vom <date when="1914-12-31">31. Dezember 1914</date> oder <lb/>
+                    <date when="1915-06-30">30. Juni 1915</date> auf Ihrem Konto <add place="superlinear">als Gutschrift</add> erschienen wäre.</p>
+                <p>2. Was Ihre Tantièmenanteile an dem <bibl sameAs="werke.2">Kammersymphonie</bibl>-<lb break="no"/>Material betrifft, so teilen wir
+                    Ihnen höfl. mit, dass wir nach <lb/>
+                    <placeName key="place.5">Italien</placeName> ein Material der <bibl sameAs="werke.2">Kammersymphonie</bibl> nicht geliefert haben. <lb/>Nach
+                        <placeName key="place.1.1">Kopenhagen</placeName> wurde im vergangenen Jahre ein Material an den <lb/>
+                    <orgName key="org.124">Nordisk Musikforlag</orgName> geliefert, dieses Material
+                    ist auch in der <lb/>Ihnen im Jahre <date when="1914">1914</date> erteilten
+                    Abrechnung enthalten. Sie erhiel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten damals verrechnet: 4 ganze <add place="superlinear">Orchester-</add>Materiale und 1 mal Orchester-<lb break="no"/>Stimmen, die
+                    sich auf die Städte <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.20">Leipzig</placeName>
+                        </orig>
+                        <note xml:id="nebb_hpm_ggc" resp="#KBleier">
+                            <ref target="event.49"/>
+                        </note>
+                    </seg>, <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.3">Berlin</placeName>
+                        </orig>
+                        <note xml:id="nwxb_jpm_ggc" resp="#KBleier">
+                            <ref target="event.203"/>
+                        </note>
+                    </seg>,
+                        <placeName key="place.8.2">Haag</placeName>, <hi rendition="#uu">
+                        <placeName key="place.1.1">Kopen<g ref="#typoHyphen"/>
+                            <lb break="no"/>hagen</placeName>
+                    </hi> und <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.18">Köln</placeName>
+                        </orig>
+                        <note xml:id="nwsf_ws3_fgc" resp="#TMuxeneder">
+                            <ref target="event.201"/>
+                        </note>
+                    </seg> bezogen
+                    haben.</p>
+                <p>3. Was nun Ihre Reklamation bezüglich unseres <placeName key="place.3">englischen</placeName>
+                    <lb/>Kataloges betrifft, so teilen wir Ihnen höfl. mit, dass sich die<g ref="#typoHyphen"/>
+                    <lb break="no"/>se Sache folgenderweise verhält: Wir verkaufen
+               die Werke an <lb/>unsere ausländischen Alleinvertreter nach <placeName key="place.3">England</placeName> und <placeName key="place.15">Amerika</placeName>, <lb/>etc.
+               auf Grundlage des deutschen Ladenpreises, fakturieren die <lb/>Waren in Mark und
+               erhalten auch die Bezahlung von den Firmen <lb/>in Markwährung. Unsere ausländischen
+               Vertreter lassen sich nun, <lb/>da sie ja die gesamten Transport- und <add place="superlinear">hohe</add> Zollspesen tragen, Kata<g ref="#typoHyphen"/>
+                    <lb break="no"/>loge mit einem entsprechenden Aufschlag drucken, wodurch sie <lb/>von
+               ihren Kunden einen höheren Betrag erhalten, als den durch <lb/>blosse Umrechnung
+               gewonnenen <placeName key="place.3">englischen</placeName> oder <placeName key="place.15">amerikanischen</placeName> Preis. <pb n="3" xml:id="p.3"/>Dieser
+               Vorgang ist ein allgemein üblicher, entzieht sich über<g ref="#typoHyphen"/>
+                    <lb break="no"/>dies unserer Ingerenz, weil die betreffenden auswärtigen Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>treter nicht in der Lage wären, die hohen
+               Beschaffungsspesen <lb/>bei Beibehaltung des regulär umgerechneten Kurses zu tragen.
+               <lb/>Nachdem wir, wie erwähnt, nur in Markwährung fakturieren und <lb/>in Markwährung
+               bezahlt erhalten, so sind wir ganz ausserstande, <lb/>Ihnen Tantièmen von einem
+               anderen Ladenpreise zu bezahlen, als <lb/>von dem Ladenpreis des Markkataloges.</p>
+                <p>Ganz besonders möchten wir auch noch darauf hinweisen, <lb/>dass unsere
+               Generalvertreter gezwungen sind, den <placeName key="place.15">amerikanischen</placeName>
+                    <lb/>Musikalienhändlern recht hohe Rabatte zu gewähren und dass auch <lb/>der
+                  <placeName key="place.15">amerikanische</placeName> Musikalienhändler wieder
+               seinen Klienten Rabatte <lb/>vom Ladenpreis zugesteht, der letzte Käufer also
+               billiger kauft, <lb/>als der sogenannte Ladenpreis ist.</p>
+                <p>Sie werden in diesem Vorgang die Erklärung dafür finden, <lb/>dass der Preiszuschlag,
+               der aber <hi rendition="#u">keinesfalls das Doppelte des <lb/>
+                        <placeName key="place.2">deutschen</placeName> Preises</hi> beträgt, sondern zka.
+               30–40 % mehr, in den <lb/>ausländischen Gebieten unerlässlich ist. So kosten z.
+               B. Ihre <lb/>
+                    <bibl sameAs="werke.9">Klavierstücke op. 11</bibl>: Deutscher
+               Katalogpreis M 2.50, 3 ½ Schilling, <lb/>
+                    <bibl sameAs="werke.52">op. 19, 6
+                  Klavierstücke</bibl>: Deutscher Ladenpreis M 1.50, 2 Schilling, <lb/>etc. etc.</p>
+                <p>Wir hoffen Sie nun über diese Fragen vollkommen <lb/>zufriedenstellend aufgeklärt zu
+               haben und zeichnen</p>
+                <closer>
+                    <salute rendition="#r">hochachtungsvoll</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.128" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>.</stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

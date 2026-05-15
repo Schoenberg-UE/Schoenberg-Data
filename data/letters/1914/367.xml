@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.367"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 1. August 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.367</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 367</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+               
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.25.1">Murnau, Seidlstraße 6</placeName>
+                    <date when="1914-08-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17560"/>
+                    <ref type="answered-by" target="letter.17561"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/367_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.367_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-08-01">1./8.1914</date>
+                    </dateline>
+                    <supplied cert="high">
+                        <stamp sameAs="stamp.1">
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                            <lb/>Berlin-Südende<lb/>
+                            <placeName key="place.2.23.1.1">Berlinerstr. 17a</placeName>, <hi rendition="#sup">I.</hi>
+                            <lb/>Tel.:
+                     Tempelhof 174.</stamp>
+                    </supplied>
+                    <address>
+                        <addrLine>dz. <hi rendition="#u">Murnau</hi>, OberBayern</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.25.1">Seidlstr. 9</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>P. T. <orgName key="org.1">Universal-Edition</orgName>.</salute>
+                <p rendition="#inline">An den beiden <lb/>letzten Abrechnungen habe ich folgendes zu
+               bemängeln.</p>
+                <p>I. <hi rendition="#u">
+                        <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                    </hi>. Die Hälfte <add place="superlinear">meines Anteils an</add> de<subst>
+                        <del rendition="#ow">r</del>
+                        <add place="across">n</add>
+                    </subst> Eingänge<add place="intralinear">n</add>
+                    <lb/>(d. ist heuer 413.84/2 = <hi rendition="#u">206 Mark 92 Pfg</hi>) ist mir <lb/>
+                    <hi rendition="#uu">in bar auszubezalen</hi>. Die betreffende <ref target="letter.17534">Abmachung</ref>
+                    <lb/>fand Ende <date when="1914-04">April</date> statt und wurde von mir am
+                        <date when="1914-05-04">4. <lb/>
+                        <hi rendition="#u">Mai</hi>
+                    </date>
+                    <ref target="letter.405">bestätigt</ref>.</p>
+                <p rendition="#lll #llr">Bitte senden Sie mir <add place="superlinear">diesen
+                        Betrag</add> daher auf dem <lb/>
+                    <hi rendition="#uu">kürzesten Weg</hi> direkt <hi rendition="#u">hieher</hi> in
+                        <hi rendition="#uu">bar</hi>
+                    <lb/>per <hi rendition="#u">Postanweisung</hi>
+                    <hi rendition="#u">oder Geldbrief</hi>.</p>
+                <p>II In der Noten-Abrechnung fehlt: <lb/>1. Materialgebühren für die <bibl sameAs="werke.16">Gurre Lieder</bibl> aus
+                <list>
+                        <item>
+                            <hi rendition="#u">
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.2.20">Leipzig</placeName>
+                                    </orig>
+                                    <note xml:id="nc2z_vdx_fgc" resp="#KBleier">
+                                        <ref target="event.103"/>
+                                    </note>
+                                </seg>
+                            </hi> (500 Mark<supplied cert="high">)</supplied>
+                        </item>
+                        <item>
+                            <seg type="comment">
+                                <orig>
+                                    <hi rendition="#u">
+                                        <placeName key="place.2.24">München</placeName>
+                                    </hi>
+                                </orig>
+                                <note sameAs="letter.17503/#nmrm_zhk_fgc"/>
+                            </seg> (1000)</item>
+                        <item>
+                            <seg type="comment">
+                                <orig>
+                                    <hi rendition="#u">
+                                        <placeName key="place.9.11">Wien</placeName>
+                                    </hi>
+                                </orig>
+                                <note xml:id="nedz_g2x_fgc" resp="#KBleier">
+                                    <ref target="event.205"/>
+                                </note>
+                            </seg>
+                            (500) (so sagt mir Dir. <persName key="pers.1538">Herzka</persName>
+                            <supplied cert="high">)</supplied>
+                        </item>
+                    </list>
+                </p>
+                <p>2. der <seg type="comment">
+                        <orig>Materialverkaufspreis</orig>
+                        <note sameAs="letter.17523/#ntf1_qjr_fgc"/>
+                    </seg> aus <list>
+                        <item>
+                            <hi rendition="#u">
+                                <placeName key="place.8.1">Amsterdam</placeName>
+                            </hi> (1500 Mark)</item>
+                    </list>
+                </p>
+                <p>3. die Materialgebühren der <hi rendition="#u">
+                        <bibl sameAs="werke.11">Orchesterlieder</bibl>
+                    </hi>
+                    <list>
+                        <item>
+                            <hi rendition="#u">
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.13.1">Prag</placeName>
+                                    </orig>
+                                    <note xml:id="nabn_t2x_fgc" resp="#KBleier">
+                                        <ref target="event.172"/>
+                                    </note>
+                                </seg>
+                            </hi>
+                        </item>
+                        <pb n="2" xml:id="p.2"/>
+                        <item>
+                            <placeName key="place.4.4">
+                                <hi rendition="#u">Paris</hi>
+                            </placeName> (<seg type="comment">
+                                <orig>Natur</orig>
+                                <note sameAs="letter.17506/#npyr_l4j_wxb"/>
+                            </seg>)</item>
+                        <item>
+                            <hi rendition="#u">
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.2.50">Altenburg</placeName>
+                                    </orig>
+                                    <note xml:id="nk41_w2x_fgc" resp="#KBleier">
+                                        <ref target="event.200"/>
+                                    </note>
+                                </seg>
+                            </hi> (<seg type="comment">
+                                <orig>Natur u. Vöglein</orig>
+                                <note sameAs="letter.17496/#ngtn_44y_5xb"/>
+                            </seg>)</item>
+                        <item>
+                            <hi rendition="#u">Kammersänger <persName key="pers.3557">Soot</persName>
+                            </hi>
+                        </item>
+                    </list>
+                </p>
+                <p>4. die Materialgebühr für die Aufführung<lb/>der „<hi rendition="#u">Waldtaube</hi> (<bibl sameAs="werke.16">Gurrel.</bibl>) in <seg type="comment">
+                        <orig>
+                            <hi rendition="#uu">
+                                <placeName key="place.4.4">Paris</placeName>
+                            </hi>
+                        </orig>
+                        <note xml:id="nac5_cfx_fgc" resp="#KBleier">
+                            <ref target="event.199"/>
+                        </note>
+                    </seg>
+                </p>
+                <p>Dagegen bitte ich Sie um Aufschluss <lb/>über die verkauften Materialien</p>
+                <list>
+                    <item>1. <bibl sameAs="werke.2">Kammersymph.</bibl> (4 mal) <lb/>und 1 mal
+                            Orchesterstimmen.<lb/>
+                        <seg type="comment">
+                            <orig>(<placeName key="place.2.20">Leipzig</placeName>
+                            </orig>
+                            <note xml:id="njnx_lt3_fgc" resp="#KBleier">
+                                <ref target="event.49"/>
+                            </note>
+                        </seg>, <seg type="comment">
+                            <orig>
+                                <placeName key="place.9.15">Graz</placeName>
+                            </orig>
+                            <note xml:id="nqtm_nt3_fgc" resp="#KBleier">
+                                <ref target="event.202"/>
+                            </note>
+                        </seg>, <seg type="comment">
+                            <orig>
+                                <placeName key="place.2.18">Köln</placeName>
+                            </orig>
+                            <note xml:id="nab3_rz3_fgc" resp="#KBleier">
+                                <ref target="event.201"/>
+                            </note>
+                        </seg>, <seg type="comment">
+                            <orig>
+                                <placeName key="place.2.3">Berlin</placeName>
+                            </orig>
+                            <note xml:id="njzd_rbj_fgc" resp="#KBleier">
+                                <ref target="event.203"/>
+                            </note>
+                        </seg> und welche 5<hi rendition="#sup">
+                            <hi rendition="#u">te</hi>
+                        </hi> Stadt?)<!-- vgl. 17581 --></item>
+                    <item>2. 300 Mark für ein <bibl sameAs="werke.16">Gurrelieder</bibl>-Material.<lb/>
+                        <hi rendition="#u">Wohin</hi>? ging
+                  dieses?</item>
+                </list>
+                <p rendition="#lll #llr">5. Von den nach unserem neuen <ref target="document.376">Vertrags</ref>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>abschluss erschienenen Werken erhalte ich schon <lb/>jetzt <hi rendition="#u">12 1/2 %</hi>.</p>
+                <p>Das ist also schon für das eine <hi rendition="#u">
+                        <bibl sameAs="werke.54">Pierrot</bibl>
+                    </hi>
+                    <lb/>Exemplar so zu berechnen! Bitte wollen Sie <lb/>das aber jetzt notieren!!</p>
+                <p>Bitte wollen Sie <del rendition="#s">mir</del> immer die Orte <lb/>wohin
+               Orchester-Materiale geliefert wurden in der <lb/>Abrechnung aufführen.</p>
+                <p>Ich bitte sehr darum, diese Angelegenheiten<pb n="3" xml:id="p.3"/>sofort zu erledigen,
+               denn ich muss Geld <lb/>bei der Hand haben, da ich noch nicht weiß, <lb/>in welche
+               Situation <add place="superlinear">ich</add> durch den Krieg <del rendition="#s">für</del>
+                    <lb/>komme.</p>
+                <closer rendition="#inline">
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

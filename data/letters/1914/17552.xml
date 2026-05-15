@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17552"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 9. Juli 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17552</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17552</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                    <date when="1914-07-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.428"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17552_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17552_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr.
+                            15–21</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                            9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                        57557.<lb/>Wien <seg hand="#author">
+                            <date when="1914-07-09">9. Juli 1914</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                </opener>
+                <salute>Sehr geehrter Herr!</salute>
+                <p>Einer Anregung aus Sängerkreisen entsprechend, haben wir <lb/>uns entschlossen,
+                    einen Sammelband unter dem Titel:</p>
+                <p rendition="#c">
+                    <hi rendition="#uda">
+                        <seg type="comment">
+                            <orig>„Das moderne Lied“</orig>
+                            <note xml:id="npqd_y3c_fdc" resp="#KBleier">Das moderne Lied, Wien 1915,
+                                U. E. 5500</note>
+                        </seg>
+                    </hi>
+                </p>
+                <p>zu veröffentlichen, der das Schaffen von etwa 30 zeitgenössischen
+                    <lb/>Komponisten umfassen und etwa 45–50 Lieder enthalten soll. Der <lb/>Preis
+                    dieses umfangreichen Bandes wird <hi rendition="#u">(in neuartigem
+                        Prachteinband)</hi>, <lb/>mit <hi rendition="#uu">nur M 4.–</hi> angesetzt.
+                    Nachdem wir dem Zwischenhandel hohe Rabatte <lb/>gewähren müssen, werden wir
+                    höchstens die Herstellungs- und Einband-<lb break="no"/>Spesen decken können,
+                    und kaum Gewinn erzielen. Der Zweck die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Herausgabe ist <hi rendition="#u">in erster Linie, auf die
+                        zeitgenössischen Lieder-<lb break="no"/>Komponisten hinzuweisen und sowohl
+                        den Berufssängern, als auch dem <lb/>gesangskundigen Publikum, eine gute
+                        Auswahl zu beispiellos billigem <lb/>Preise an die Hand zu geben,</hi> damit
+                    diese Lieder häufiger gesungen <lb/>werden, als dies bisher der Fall war. Wir
+                    werden für diesen Band <lb/>in 100.000en Prospekten, Katalogen und Inseraten
+                    grosszügige Propa<g ref="#typoHyphen"/>
+                    <lb break="no"/>ganda machen.</p>
+                <p>In dieses Album sollen auch Ihre in unserem Verlage erschie<g ref="#typoHyphen"/>
+                    <lb break="no"/>nenen Lieder:</p>
+                <p rendition="#c">
+                    <seg type="comment">
+                        <orig>
+                            <hi rendition="#g">„<hi rendition="#u">Sehnsucht</hi>“</hi> und <hi rendition="#g">„<hi rendition="#u">Natur</hi>“</hi>
+                        </orig>
+                        <note xml:id="nx5v_j4s_zxb" resp="#pkehrer">
+                            <bibl sameAs="werke.11">Arnold Schönberg, Sechs Lieder für Gesang und
+                                Orchester op. 8</bibl>: Sehnsucht op. 8/3, Natur op. 8/1</note>
+                    </seg>
+                </p>
+                <p>aufgenommen werden. Nach dem Vorhergesagten werden Sie es begrei<g ref="#typoHyphen"/>
+                    <lb break="no"/>fen, dass wir Tantièmen oder Honorare für die Aufnahme in dieses
+                        <pb n="2" xml:id="p.2"/>Propaganda-Album nicht bezahlen können und könnten
+                    wir unser <lb/>Vorhaben nur ausführen, wenn Sie keine Tantièmen-Ansprüche für
+                    <lb/>die Aufnahme Ihrer Lieder stellen.</p>
+                <p>Wir bitten, uns in diesem Falle die mitfolgende Karte un<g ref="#typoHyphen"/>
+                    <lb break="no"/>verzüglich unterfertigt zu retourniren und werden Ihnen bei
+                    <lb/>Erscheinen des Bandes zwei <add place="superlinear">oder auch mehr</add>
+                    Ehren-Exemplare zur Verfügung stellen.</p>
+                <p>Wir bemerken nur noch, dass von zahlreichen hervorragenden <lb/>Komponisten die
+                    Zustimmung zur kostenlosen Überlassung ihrer <lb/>Lieder in diese Sammlung
+                    bereits vorliegt.</p>
+                <p>In der Sammlung sollen u. a. folgende Komponisten vertreten <lb/>sein:</p>
+                <p>
+                    <persName key="pers.90">Eugen d’Albert</persName>, <persName key="pers.460">Leo
+                        Blech</persName>, <persName key="pers.1090">J. B. Foerster</persName>,
+                        <persName key="pers.1270">C. Goldmark</persName>, <persName key="pers.1288">Rob. Gound</persName>, <lb/>
+                    <persName key="pers.1303">Paul Graener</persName>, <persName key="pers.2095">Carl Lafite</persName>, <persName key="pers.2225">Gust. Mahler</persName>,
+                        <persName key="pers.2296">Jos. Marx</persName>, <persName key="pers.2328">Arnold Mendelssohn</persName>, <lb/>
+                    <persName key="pers.2835">Karl Prochaska</persName>, <persName key="pers.1901">Paul v. Klenau</persName>, <persName key="pers.2905">Max Reger</persName>,
+                        <persName key="pers.3178">Max Schillings</persName>, <persName key="pers.3301">Franz <lb/>Schreker</persName>, <persName key="pers.3750">Richard Strauss</persName>, <persName key="pers.3854">Ludwig
+                        Thuille</persName>, <persName key="pers.3972">Bruno Walter</persName>,
+                        <persName key="pers.4209">Hugo Wolf</persName>, <lb/>
+                    <persName key="pers.4230">Erich J. Wolf</persName>, <persName key="pers.4273">Jos. V. v. Wöss</persName>, <persName key="pers.4309">A. v.
+                        Zemlinsky</persName>, etc.</p>
+                <closer>Ihrer gesch. Nachricht mit Interesse entgegensehend, zeichnen <lb/>wir
+                        <lb/>
+                    <seg rendition="#r">hochachtungsvoll ergeben</seg>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                    <lb/>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine>Herrn <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Murnau, Ober-Bayern, <placeName key="place.2.25.1">Seidlstr.
+                                6</placeName>
+                        </addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

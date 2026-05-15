@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.6988"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 29. Juni 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6988</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6988</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa Lepcke</placeName>
+                    <date when="1912-06-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24221"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6988_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6988_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>, Berlin-Zehlendorf-Wannseebahn
+                     <lb/>
+                        Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline>
+                        <date when="1912-06-29">29/6
+                  1912</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">es ist ein Irrtum von <lb/>Ihnen, wenn Sie annehmen, dass <add place="superlinear">Sie</add> die Partitur <lb/>
+                    <supplied cert="high">m</supplied>einer Melodramen (<bibl sameAs="werke.54">Pierrot lunair</bibl>.) für
+               <lb/>6 Mark geben können. Ich sage Ihnen, sie <lb/>wird cirka 80 Seiten stark werden
+               und das <lb/>kostet wohl sicher 12 Mark (vielleicht sogar 15) <lb/>Ich habe mich also
+               nicht bloß an die Angebote anderer <lb/>Firmen gehalten. Aber ich finde: Sie könnten
+               <lb/>es mir erleichtern über das Peinliche meiner <lb/>Situation hinweg zu kommen:
+               dass ich mir näm<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich stets höhere Angebote
+               entgehen lassen muss, <lb/>
+                    <anchor type="target" xml:id="start_kpt_bbx_dyb"/>weil ich
+               einen Vertrag mit Ihnen gerne halten <lb/>möchte!<anchor type="target" xml:id="stop_kpt_bbx_dyb"/> Und deshalb erhoffe ich mir bestimmt, <lb/>dass Sie
+               bereit sein werden mir 500 <lb/>Mark zu geben und zwar unter den Voraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzungen meines vorigen <ref target="letter.6987">Briefes</ref>, für <lb/>alle dort genannten Werke, also auch
+               für die <lb/>
+                    <seg type="comment">
+                        <orig>Lieder</orig>
+                        <note sameAs="letter.294/#nkdz_5kx_kwb"/>
+                    </seg> und <bibl sameAs="werke.43">Balladen</bibl>, wobei ich es Ihnen <pb n="2" xml:id="p.2"/>anheimstelle, diese
+               Lieder und Balladen inner<g ref="#typoHyphen"/>
+                    <lb break="no"/>halb 3<hi rendition="#sup #u">er</hi> Jahre zu drucken.</p>
+                <p>Sollten Sie damit einverstanden sein, <lb/>dann bitte ich Sie, mir die betreffende
+               <lb/>Summe (500 MK) wieder an die <orgName key="org.56">Dresdner <lb/>Bank, Filiale
+                     <hi rendition="#u">Zehlendorf</hi>
+                    </orgName> U2 <hi rendition="#u">Hauptstraße
+                     <supplied cert="high">7</supplied>
+                    </hi>
+                    <lb/>zu senden.</p>
+                <p>Berücksichtigen Sie dabei dass es ja <lb/>für mich eine schwere Schädigung wäre,
+               <lb/>wenn Sie stets nur diejenigen Werke <lb/>auswählen, von denen Sie sich
+               momentanen <lb/>Erfolg versprechen und die anderen, die durch <lb/>Ihre Ablehnung
+               auch für andere Verleger <lb/>entwertet sind, ausschließen. Ich meine <lb/>aber:
+               warum sollten denn diese Sachen <lb/>gerade schlechter gehen? Es ist höchst wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich, dass sie sehr gut gehen, sobald
+               <lb/>meine Lieder überhaupt in Schwung kommen.</p>
+                <p>Bitte um umgehende Nachricht.</p>
+                <closer>
+                    <salute>Viele herzliche Grüße Ihr </salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

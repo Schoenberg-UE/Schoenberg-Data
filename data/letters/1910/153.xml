@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.153"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Verlag Dreililien, 8. März 1910</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.153</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 153</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1910-03-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                </correspAction>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/153_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.153_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1910-03-08">8/3. 1910</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.2283">Marschalk</persName>,</salute>
+                <p rendition="#inline">dass <persName key="pers.1112">Fried</persName>
+                    <bibl sameAs="werke.5">Pelleas</bibl> nicht <seg type="comment">
+                        <orig>aufführt</orig>
+                        <note xml:id="nf1t_c4v_hdc" resp="#KBleier">
+                            <ref target="event.8"/></note>
+                    </seg> dürfte <lb/>doch nun wohl entschieden sein<supplied cert="high"
+                        >.</supplied> Er könnte mir nun also die <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.12379/#neg4_pby_b5b"/>
+                    </seg>
+                    <lb/>und die <seg type="comment">
+                        <orig>Skizze</orig>
+                        <note xml:id="nojf_wrb_ddc" resp="#KBleier">Vermutlich die handschriftliche
+                            Vorlage für die Aufstellung der Besetzung des Orchesters, welche im
+                            Originaldruck von <date when="1911">1911</date> publiziert ist
+                            (Lieferdatum: <date when="1911-10-06">6. Oktober 1911, Auflage 100;
+                                </date><rs type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon
+                                2015</rs>, Bd. 5, S. 665)</note>
+                    </seg> die beilag zurückschicken. Bitte wollen Sie das <lb/>veranlassen. Ich
+                    benöthige die Partitur dringend, da ich sie <lb/>
+                    <persName key="pers.2518">Nedbal</persName> (<orgName key="org.172"
+                        >Tonkünstler-Orchester</orgName>) geben muss, der sie nächstes <lb/>Jahr
+                    aufführen<!-- nicht nachweisbar in anno 1910/11 --> will.</p>
+                <p>Sie müssen sich dann ja auch schon entschieden haben, <lb/>ob Sie auf <bibl sameAs="werke.5">Pelleas</bibl> reflektieren oder nicht. Es ist doch nicht
+                    <lb/>nötig, dass Sie zu dem Zweck die Partitur dort haben. Ich kann <lb/>dadurch
+                    nirgends einen Versuch wegen einer Aufführung wagen, <lb/>dass <persName key="pers.1112">Fried</persName> immer noch meine Partitur zu lesen
+                    versucht.</p>
+                <p>Er bringts ja doch nicht zusammen.</p>
+                <p>Wie gehts Ihnen. Lassen Sie etwas von sich hören.</p>
+                <p>Ueber die cretinhafte <seg type="comment">
+                        <orig>Kritik</orig>
+                        <note xml:id="nftc_nl5_zfc" resp="#TMuxeneder">„Eine zarte Anziehungskraft
+                            hatte der Liederabend [<date when="1910-01-22">22. Jänner 1910</date>]
+                            von Herrn <persName key="pers.1035">Artur van Eweyk</persName> auf das
+                            Publikum ausgeübt, denn der Saal der Singakademie war dicht gefüllt und
+                            der Beifall sehr lebhaft. Der feinsinnige Künstler, über den ich weiter
+                            nichts zu sagen brauche, sang einige belanglose neue Lieder, über die
+                            ebenfalls nichts zu sagen wäre, wenn sich darunter nicht zwei von
+                                <persName key="pers.3263">Arnold Schönberg</persName> befunden
+                            hätten. Das ist musikalische Impotenz in Reinkultur. Texte und Tonsatz
+                            sind einander wert. <placeName key="place.9.11">Wiener</placeName>
+                            Kaffeehaus-Tragik (Café &#8218;Größenwahn&#8216;, dritter Tisch links) und
+                            eine Musik, die am Stammtisch &#8218;Zum mißvergnügten Übermenschen&#8216; gewiß
+                            sehr hoch geschätzt wird. Wie kann ein geschmackvoller Sänger nur so
+                            etwas in die Öffentlichkeit bringen!“ (<rs type="bibl"
+                                key="zotero-4528359-MTZXMKLE">Krebs 1910</rs>, S. 2)</note>
+                    </seg> des Herr <hi rendition="#u"><persName key="pers.2052"
+                        >Krebs</persName></hi>, von dem <lb/>ich einmal sagte: er ist so <hi
+                        rendition="#u">reaktionär</hi>, dass er sich selbst <lb/>im <del
+                        rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> Konzertsaal nach <hi rendition="#u">rückwärts</hi> setzt, habe ich lachen
+                    <lb/>müssen. Dieser Idiot gehört nach <placeName key="place.9.11"
+                        >Wien</placeName>; den sollte man hier <lb/>zu erwerben trachten! Oder
+                    gehört er vielleicht doch nach <placeName key="place.2.3">Berlin</placeName>?
+                    <lb/>Ich weiß nicht! Mir entsinkt das Unterscheidungsvermögen <lb/>für die
+                    kleinen Nuancen und persönlichen, nationalen Noten in <lb/>der Idiotie, für die
+                    Heimatskunst des Kretinismus.</p>
+                <closer rendition="#c">
+                    <salute>Herzl Gruß Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#u">NB</hi> bitte notieren Sie meine <rs type="place" key="place.9.11.5.3">neue Adresse</rs>. Ich wohne <lb/>seit <date when="1910-02">Februar</date> hier</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

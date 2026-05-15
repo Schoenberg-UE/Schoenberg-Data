@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12381"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 10. April 1904</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12381</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12381</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1904-04-10" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24162"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-14+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12381_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12381_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.52">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1904-04-10">
+                            <seg hand="#author">10.IV </seg>190<seg hand="#author">4</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>.</salute>
+                <p>Wofern <lb/>Sie also Ihr <bibl sameAs="werke.13">Sextett</bibl> „voll <lb/>und
+                    ganz“ vertreten, wollen <lb/>wir es in Verlag nehmen. Wenn <lb/>ich nicht irre,
+                    sagten Sie mir <lb/>einmal, dass Sie irgendwelche <lb/>
+                    <seg type="comment">
+                        <orig>Aenderungen</orig>
+                        <note xml:id="niy5_2s1_myb" resp="#KBleier">Die Autographe Reinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1209&amp;werke_id=420&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 22, Quelle B</ref>) enthält Änderungen, deren Ausführung
+                            nicht datiert werden kann</note>
+                    </seg> vornehmen wollten, <lb/>Kürzungen oder sonst was? <lb/>Meine Erinnerung
+                    an jene <lb/>
+                    <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.3">Berliner</placeName> Aufführung</orig>
+                        <note xml:id="ndtp_yn2_c5b">
+                            <ref target="event.4"/>
+                        </note>
+                    </seg> ist, dass <lb/>sie sehr schlecht war. Trotz<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem hatte ich stellenweise einen <lb/>starken Eindruck. Ob die
+                    <lb/>Längen, die mich ermüdeten, <lb/>wirklich Längen waren, oder <lb/>ob ich
+                    Längen empfand, weil <lb/>die Leute so miserabel spiel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, vermag ich nicht zu ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheiden. Sie werden ja wohl <lb/>selbst unter der lebendigen
+                    <lb/>Vorführung darüber nachge<g ref="#typoHyphen"/>
+                    <lb break="no"/>dacht haben und vielleicht <lb/>auch auf <seg type="comment">
+                        <orig>Freunde</orig>
+                        <note xml:id="nfmd_zlm_lyb" resp="#KBleier">
+                            <persName key="pers.4309">Alexander Zemlinsky</persName> hatte <persName
+                                key="pers.3263">Schönberg</persName> eine Überarbeitung wegen „grosse[r] Längen u. Gespreiztheiten in der Mitte des Werkes“ empfohlen
+                            (Alexander Zemlinsky an Arnold Schönberg, 19. März 1902; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B186625">ASCC
+                                18662</ref>)</note>
+                    </seg> gehört haben <pb n="2" xml:id="p.2"/>deren Urteil Sie schätzen!?
+                    <lb/>Allerdings – ich halte Sie <lb/>für einen eigensinnigen und <lb/>in die
+                    eigenen Arbeiten ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>liebten Menschen. – Wenn wir <lb/>an den Verlag des Werkes
+                    gehen, <lb/>so rechnen wir von vornherein <lb/>natürlich auf keinen Gewinn,
+                    <lb/>denn dieses Sextett werden nur <lb/>wenig auserlesene Vereinigungen
+                    <lb/>spielen, spielen können! Wir <lb/>müssen auch davon absehen eine
+                    <lb/>Vorschussverrechnung eintreten <lb/>zu lassen. Das werden Sie als
+                    <lb/>honett und billig denkender Mann <lb/>einsehen. Ich bin nebenbei überzeugt
+                    <lb/>dass Sie keinen Verleger finden <lb/>würden. Wenn wirklich durch <lb/>
+                    <persName key="pers.2225">Mahlers</persName> Empfehlung etwa <orgName key="org.186"
+                        >Eberle</orgName>
+                    <lb/>sich bereit fände, so würden <lb/>Sie sich wahrscheinlich ein für <lb/>alle
+                    Mal (ohne Honorar erhal<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten zu haben) jeden Nutzens ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>äussern müssen. – Wir denken <lb/>natürlich daran das Sextett
+                    <lb/>stechen zu lassen – kleines <lb/>Format in billiger <seg type="comment">
+                        <orig>Ausgabe</orig>
+                        <note sameAs="letter.12384/#nozg_2cb_myb"/>
+                    </seg>
+                    <lb/>etwa MK 1.50 – MK 2.– .–, auch <lb/>die Stimmen dürften nicht
+                    <lb/>autographiert werden.</p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Die <seg type="comment">
+                        <orig>Bestrebungen der <lb/>Wiener Komponisten</orig>
+                        <note xml:id="neg1_k42_c5b">
+                            <orgName key="org.208">Vereinigung schaffender Tonkünstler</orgName>,
+                            konstituierende Hauptversammlung am <date when="1904-04-23">23. April
+                                1904</date> (<rs type="bibl" key="zotero-4528359-LLD84FJP">Neues
+                                Wiener Journal 1904</rs>, S. 7); Vorstand: <persName key="pers.4309">Alexander von Zemlinsky</persName>, <persName key="pers.3263">Arnold Schönberg</persName>, <persName key="pers.2821">Oskar C.
+                                Posa</persName>, <persName key="pers.1288">Robert Gound</persName>,
+                                <persName key="pers.4230">Erich J. Wolff</persName>, <persName key="pers.4273">Josef Venantius von Wöss</persName>
+                        </note>
+                    </seg> sind <lb/>sehr lobenswert, und ich <lb/>wünsche in ihrem und <lb/>im
+                    Interesse der allgemeinen <lb/>Musikpflege guten Erfolg <lb/><del rendition="#s">wünschen</del>. Ich habe nur <lb/>das eine, allerdings ziemlich
+                    <lb/>schwere Bedenken, dass es <lb/>Ihnen an wirklich wertvollen <lb/>
+                    <seg type="comment">
+                        <orig>Werken fehlen</orig>
+                        <note xml:id="ndhq_y1p_xfc" resp="#TMuxeneder">
+                            <p>Am <date when="1904-05-05">5. Mai 1904</date> veröffentlichte die
+                                    <orgName key="org.208">Vereinigung schaffender
+                                    Tonkünstler</orgName> einen Aufruf zur Einreichung von Werken.
+                                Mitte <date when="1904-10">Oktober 1904</date> lagen 858 Werke von
+                                127 Komponist:innen vor (<rs type="bibl"
+                                    key="zotero-4528359-77EH9EAA">Die Lyra 1904</rs>).
+                                Uraufführungen u. a. von Werken <persName key="pers.2225">Gustav
+                                    Mahlers</persName>, <persName key="pers.3263">Arnold
+                                    Schönbergs</persName> und <persName key="pers.4309">Alexander
+                                    Zemlinsky</persName>s.</p>
+                            <p>
+                                <ref target="event.34"/>;
+                                <ref target="event.5"/>
+                            </p>
+                        </note>
+                    </seg> wird. Ich <lb/>weiss, was <persName key="pers.3750">Rich.
+                        Strauss</persName>
+                    <lb/>hier für einen Schund <seg type="comment">
+                        <orig>brin<g ref="#typoHyphen"/>
+                            <lb break="no"/>gen musste</orig>
+                        <note xml:id="np5p_wlw_1dc" resp="#KBleier">
+                            <date when="1901">1901</date> gründete <persName key="pers.3750">Richard Strauss</persName> das Berliner
+                            Tonkünstler-Orchester und führte in der Serie „Moderne
+                            Konzerte“ zeitgenössische Musik auf. Nach dem Sommer <date when="1903">1903</date> gab <persName key="pers.3750">Strauss</persName> die Konzerte wieder auf (Repertoire vgl. <rs type="bibl" key="zotero-4528359-YAWYMQIW">Steinitzer 1911</rs>)</note>
+                    </seg>. Und das Publi<g ref="#typoHyphen"/>
+                    <lb break="no"/>kum – o je – wird in <placeName key="place.9.11">Wien</placeName>
+                    <lb/>nicht besser sein als in <lb/>
+                    <placeName key="place.2.3">Berlin</placeName>. Immerhin – alle <lb/>Bemühungen
+                    aus dem Sumpf <lb/>heraus zu kommen müssen <lb/>mit Freuden begrüsst werden.</p>
+                <closer rendition="#c">
+                    <salute>Herzlichst <lb/>
+                        <seg rendition="#r">Ihr</seg>
+                    </salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

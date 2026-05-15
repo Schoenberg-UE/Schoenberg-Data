@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16827"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 15. Juli 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16827</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16827</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <date when="1932-07-15" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1837"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16827_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16827_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1932-07-15">15.VII.32</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p rendition="#inline">Ich werde Ihnen morgen einen offiziellen <ref target="letter.16824">Brief</ref> vom <rs type="org" key="org.1">Verlag</rs>
+                    aus schreiben, <lb/>möchte ihn aber im Voraus privat kommentieren. Ich war heute
+                    zur Verwaltungsratsitzung <lb/>eingeladen und habe den Leuten in längerer und
+                    wie ich glaube ganz geschickter Rede auseinander<g ref="#typoHyphen"/>
+                    <lb break="no"/>gesetzt, wer Sie sind, so daß jeder sich genieren hätte müssen,
+                    wenn er dies nicht ohnedies gewußt <lb/>hätte. Ich habe auch, nicht ohne Pathos,
+                    auf die musikhistorische Situation gewiesen, in der sich <lb/>der Verwaltungsrat
+                    befinde. Man ist also zu weiterem Entgegenkommen bereit, meinte aber, daß die
+                    <lb/>Angelegenheit zu kompliziert sei, namentlich die vertragliche Seite, als
+                    daß sie schriftlich erledigt <lb/>werden könne. Die völlige Streichung des
+                    Betrages auf Konto „alte Werke“ wird <subst>
+                        <del rendition="#s">nicht</del>
+                        <add place="superlinear">kaum</add>
+                    </subst> durchzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzen sein, aber, ich glaube die Streichung eines Teilbetrages,
+                    vielleicht mehr als man im alten <lb/>Anbot auf Konto „neue Werke“ streichen
+                    wollte. Auch über „<bibl sameAs="werke.65">Von heute auf morgen</bibl>“ wurde
+                    viel <lb/>gesprochen. Ich sagte, daß die <orgName key="org.1">U.E.</orgName> für
+                    viele der besten Musiker vor allem als der Verlag <persName key="pers.3263">Schönbergs</persName>
+                    <lb/>seinen Ruf habe. Auch Ihr Vorwurf „amusisch“ scheint gewirkt zu haben. Aber
+                    es will ihnen <lb/>nicht in den Kopf, daß sie dafür die Prozeßkosten zahlen
+                    sollen. Zum Schluß wurde ich <lb/>offiziell ersucht, weiter zu vermitteln. Man
+                    meinte (der Vertreter der <orgName key="org.199">Länderbank</orgName>), daß sie
+                    doch <lb/>bald einmal nach <placeName key="place.9.11">Wien</placeName> kommen
+                    würden und <del rendition="#s">ich solle Sie bitten</del> dann könne ja mündlich
+                    <lb/>verhandelt werden. Ich erwiderte, daß Sie in den letzten Jahren nur selten
+                    und ungern nach <placeName key="place.9.11">Wien</placeName>
+                    <lb/>gekommen seien. Die andere Möglichkeit, daß ein Vertreter der <orgName key="org.1">U.E.</orgName> nach <placeName key="place.2.3">Berlin</placeName> kommt wurde <lb/>auch erörtert, das könnte aber erst
+                    Ende <date when="1932-08">August</date> oder im <date when="1932-09">September</date> sein. Die Sache läuft <lb/>aber wie ich vermutet hatte auf
+                    eine Vertagung hinaus. Ich glaube aber, daß die <orgName key="org.1">U.E.</orgName> jetzt schon <lb/>eine Barzahlung leisten würde, <del rendition="#s">die</del> ev. die $ 480.–, wenn <del rendition="#s">nochmal</del> von Ihrer <del rendition="#s">und</del> Seite die
+                    <lb/>Absicht zu einer gütlichen Regelung zu gelangen dezidiert erklärt würde.
+                    Natürlich müßte der <lb/>Verlag Ihnen eine analoge Erklärung abgeben. Vielleicht
+                    finden Sie da eine Formel, die Ihnen <lb/>genehm wäre. Diese Anregung ist nicht
+                    offiziell und geht nur von mir aus.</p>
+                <closer rendition="#r">
+                    <salute>Viele herzlichste Grüße <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

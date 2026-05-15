@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7557"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Musikblätter des Anbruch, nach 5. Juni 1925</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7557</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7557</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <date notBefore="1925-06-05" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.7">Musikblätter des Anbruch</orgName>
+                </correspAction>
+                <note>= <bibl sameAs="schriften.82">Herr Prof. Lach (an der Wiener Universität für
+                        Musikgeschichte)</bibl>
+                </note></correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7557_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7557_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <head>HERR PROF: <persName key="pers.2092">LACH</persName> (, an der <orgName key="org.293">Wiener <lb/>Universität</orgName> für Musikgeschichte)</head>
+                <salute>P. T Redaktion des <orgName key="org.7">Anbruch</orgName>
+                </salute>
+                <p>Im <seg type="comment">
+                        <orig>Juni-Juli Heft</orig>
+                        <note xml:id="ns2w_lzq_rzb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-K7C3VIF6">Anbruch 1925</rs>
+                            (Exemplar aus dem Schönberg-Nachlass; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=126&amp;action=view&amp;sortieren=veroeffentlichungsDatum&amp;vonBis=0-19"
+                                >P11</ref>) </note>
+                    </seg>
+                    <seg type="comment">
+                        <orig>citieren Sie</orig>
+                        <note xml:id="nj5w_dnp_tgc" resp="#KBleier">
+                            <bibl sameAs="schriften.141">Robert Lach, Musik</bibl>; im
+                            angesprochenen Zitat kritisiert <persName key="pers.2092"
+                                >Lach</persName> „Dilettanten, die nicht einmal
+                            musikalisch-orthographisch zu schreiben imstande sind“ und erinnert an
+                            „die sogenannten ‚Atonalisten‘ und sonstige den ‚Anbruch‘ einer neuen
+                            Kunstära mit einer ‚Universal‘-Reklame verkündigende musikalische
+                            Anarchisten […]“. Kommentar im Anbruch: Abermals weiß […] Herr Professor
+                                <persName key="pers.2092">Lach</persName> etwas zu sagen; abermals
+                            weiß er über die ganze neue Musik in <placeName key="place.9"
+                                >Österreich</placeName> nichts anderes zu sagen. Es ist ein Jammer!
+                            Das glaubt sich nun, weil es über irgendwelche ältere Zeiten gearbeitet
+                            hat, berechtigt, in die Gegenwart dreinzureden, in die es nicht oder
+                            noch nicht hineingehört […]“ (<bibl sameAs="schriften.142">Paul Stefan,
+                                Die letzten Dezennien</bibl>)</note>
+                    </seg> eine Äußerung des Professor <persName key="pers.2092">Lach</persName>
+                    <lb/>und glossieren sie in so <subst>
+                        <del rendition="#s">milder</del>
+                        <add place="superlinear">maßvoller</add>
+                    </subst> Form, dass ich Ihre Anständigkeit nicht <lb/>genug loben kann. Dennoch
+                    aber meine ich, dass man einem Gegner <lb/>besser Achtung, die ihm gebührt,
+                    bezeugen kann: Indem man <lb/>den Gegensatz zwischen sich und ihm deutlich,
+                    rücksichtslos deutlich <lb/>macht, zeigt man ihm, was er ist; alle können es
+                    dann sehen <lb/>und sich entscheiden.</p>
+                <p>Lassen Sie <add place="superlinear">bitte</add> mich das besorgen, so will ich <del rendition="#s">Ih</del>
+                    <add place="superlinear">gerne</add> versprechen relativ ebenso maßvoll zu bleiben.</p>
+                <p>Vor allem eine Entschul<supplied cert="high">d</supplied>igung des Herrn
+                    Professors: es ist nicht so <lb/>wie Sie <del rendition="#s">sagen,</del>
+                    schreiben, dass er „über die neue Musik nichts anderes <lb/>zu sagen weiß.“ Denn
+                    etwas <hi rendition="#u">anderes</hi> zu sagen weiß er, <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> nur dass was <lb/>er sagen will, kann er nicht sagen. Er sagt immer etwas
+                    anderes, als er <lb/>weiß. Z Bsp.</p>
+                <p>Zeile 1 – „Die letzten Dezennien des 19. Jahrhunderts... <lb/>… <hi rendition="#u">Seither beginnt</hi>... <lb/>... <lb/>bis Seite 339 oben
+                    Zeile 4 ... angestürmt wird“ <lb/>soll doch wohl heißen <lb/>„ … bedeuten
+                        ein<supplied cert="high">e</supplied> Hochblüte des ... Musiklebens. <hi rendition="#u">Danach begann</hi>“ <lb/>(also etwa <date when="1898">1898</date> oder <date when="1902">1902</date>) „eine Zeit des
+                    Experimentierens... <lb/>...seinen <hi rendition="#u">Ausdruck</hi> fand. Die
+                    Anarchie und der Mangel <lb/>...seit dem Zusammenbruch“ (<subst>
+                        <del rendition="#s">ebenfalls</del>
+                        <add place="superlinear">
+                            <date when="1918">1918</date>
+                        </add>
+                    </subst>) „zum <lb/>
+                    <hi rendition="#u">Ausdruck</hi> gekommen sind, <hi rendition="#u">waren
+                        vorher</hi> (<date when="1898">1898</date> oder <date when="1902">1902</date>) schon auf <lb/>musikalischem Gebiete in Erscheinung <hi rendition="#u">getreten</hi>, insofern etc...<supplied cert="high">“</supplied>
+                </p>
+                <p>Trotzdem <add place="superlinear">dem</add> Herrn Professor hier offenbar der
+                    Ueberblick über die <lb/>Zeiten gefehlt hat, glaube ich doch nicht, dass da sein
+                    Hauptmangel <lb/>liegt. Ich glaube, in diesem Falle wenigstens hat ihm mehr <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> der Ueberblick über die Zeilen <add place="superlinear">gefehlt</add>,
+                    über die paar Zeilen, <del rendition="#s">mit</del> die er <lb/>zwanzig Jahren
+                    des <del rendition="#s">Lebens</del> Wirkens von Dilettanten widmet, <lb/>
+                    <del rendition="#s">die</del> deren Namen er nicht nennt, weil sie „nicht einmal
+                    musikalisch <lb/>orthographisch zu schreiben im Stande sind“ – wie würden die
+                        <del rendition="#s">erst</del> sich<lb/>
+                    <del rendition="#s">bei</del> erst blamieren, wenn sie 20 Zeilen überblicken
+                    müßten, was <lb/>selbst für den Herrn Professor schwer ist.</p>
+                <p>
+                    <note place="mBottom" hand="#author">
+                        <hi rendition="#u">Denk</hi>
+                    </note> Man wird vielleicht erkennen, dass der Schreiber dieser Zeilen<pb n="2" xml:id="p.2"/>nicht zu jenen gehört, denen der Respekt vor der Autorität fehlt.
+                    Er glaubt <lb/>
+                    <del rendition="#s">seinen</del> sogar <del rendition="#s">fest</del>
+                    darüberhinaus <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> versichern zu können, dass er ihn <lb/>für <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> alle Zeiten – alles zu seiner Zeit – bewahren <del rendition="#s">und</del>
+                    <del rendition="#s">werde</del>
+                    <lb/>und dass kein Zusammenbruch, auch in den fernsten Zeiten nicht, <del rendition="#s">ihn</del>
+                    <lb/>bewirken könne, dass er ihn <add place="superlinear">je verlieren werde,
+                        weder</add> vorher <add place="sublinear">noch</add> nach<supplied cert="high">h</supplied>er, gleichzeitig oder wie sonst das
+                    <lb/>Durcheinander dann genannt werden mag. Und eben <subst>
+                        <del rendition="#s">aus</del>
+                        <add place="superlinear">wegen</add>
+                    </subst> diese<subst>
+                        <del rendition="#s">m</del>
+                        <add place="across">s</add>
+                    </subst>
+                    <lb/>Respekt vor dem wahren Verdienst überließe er es lieber einem der <lb/>gerügten, namenlosen Dilettanten (die nicht
+                    musikalisch orthographisch zu <lb/>schreiben imstande sind) den Herrn Professor
+                    gegen einen anderen <lb/>seiner Fehler in Schutz zu nehmen.</p>
+                <p>
+                    <add place="superlinear">In diesem zweiten Falle nämlich</add>
+                    <del rendition="#s">Hier</del> verdient Herr Professor <persName key="pers.2092">Lach</persName> nicht bloß Nachsicht sondern <add place="superlinear">wirklich</add> Schutz. Denn <lb/>sein Fehler ist die Bescheidenheit und
+                    diese Anlagen sind dem Schutze des <lb/>Publikums empfohlen.</p>
+                <p>Zweifellos ist nämlich der Name des Herrn Professor <persName key="pers.2092">Lach</persName> nicht <lb/>nur geachtet, sondern auch geschätzt. Und nur
+                    dem Schutze des Publikums <lb/>empfohlene Anlagen, wie Bescheidenheit, vermögen
+                    es zu erklären, <lb/>dass es diesen Namen zu wenig schätzt, ja einen bessern
+                    wünscht.</p>
+                <p>Das geht wenigstens aus diesen Sätzen hervor:</p>
+                <p>„Umso mehr muss man sich freuen... <lb/>...es sei hier nur an <del rendition="#s">die</del>
+                    <hi rendition="#u">Namen</hi> wie... <lb/>… erinnert! Solange <hi rendition="#u">wir diese unser nennen</hi>
+                    <lb/>
+                    <hi rendition="#u">dürfen</hi>, braucht uns nicht bange zu sein...</p>
+                <p>Er nennt also diese Namen sein? <del rendition="#s">Also nicht Lach</del>? Nennt
+                    <lb/>er also nicht den Namen Lach sein? Aus Bescheidenheit? <del rendition="#s">Oder</del>
+                    <lb/>
+                    <subst>
+                        <del rendition="#ow">w</del>
+                        <add place="across">W</add>
+                    </subst>ill er ihn <add place="superlinear">etwa</add> nicht zum Falschen und
+                    Eiteln ausgesprochen haben?</p>
+                <p>Der Herr Professor kann sicherlich musikalisch orthographisch <lb/>schreiben.
+                        <del rendition="#s">Und</del>
+                    <subst>
+                        <del rendition="#ow">w</del>
+                        <add place="across">W</add>
+                    </subst>enn es ihn <add place="superlinear">aber</add> Ueberwindung kostet,
+                    seine Sätze <lb/>so oft zu lesen, bis er die wichtigsten Schnitzer entdeckt hat,
+                    so ist <lb/>ihm das nicht zu verargen. Denn uns geht es gradeso: ich habe mich
+                    <lb/>zwar überwunden, sie mehreremale zu lesen, aber <add place="superlinear">werde das Gefühl</add> noch nicht alle <lb/>Schnitzer gefunden zu haben,
+                    nicht los.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

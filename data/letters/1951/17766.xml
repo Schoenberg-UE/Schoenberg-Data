@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17766"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 28. Mai 1951</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17766</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17766</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1951-05-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17766_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17766_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.47">
+                        <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        <lb/>WIEN I·<placeName key="place.9.11.6.12">KARLSPLATZ
+                        6</placeName>·MUSIKVEREINSGEBÄUDE·TELEFON U 47-5-85<lb/>TELEGRAMME:
+                        MUSIKEDITION WIEN</stamp>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1951-05-28">28.
+                            Mai 1951</date>
+                    </dateline>
+                    <seg rendition="#r">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.416">Be</persName>
+                    </seg>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Prof. <persName key="pers.3263">Arnold Schoenberg</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 North Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">Los Angeles 49, California</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Aus einem allerdings nicht ganz verständlichen <seg type="comment"
+                            ><orig>Telegramm</orig><note xml:id="nnpz_db5_ngc" resp="#KBleier"
+                            >&#8222;Unofficially advised <persName key="pers.3263"
+                                >Schoenberg</persName> notified <orgName key="org.125">Alien
+                                Property </orgName>that his cancellation of <orgName key="org.1"
+                                >Universal</orgName> contract has been accepted by you subject to
+                            renewal excluding such agreement invalid as only <orgName key="org.125"
+                                >Alien Property</orgName> has authority cable full
+                            particulars&#8220; (Associated Music Publishers an Universal-Edition,
+                            24. Mai 1951; WZAS 11)</note></seg> der <lb/>
+                    <orgName key="org.23">Associated Music Publishers</orgName> sehe ich, dass
+                    anscheinend sich <lb/>dort irgendwelche Entscheidungen vorbereiten.</p>
+                <p>Wir werden uns nun auch mit dem <orgName key="org.125">Alien Property
+                        Custodian</orgName> direkt <seg type="comment">
+                        <orig>
+                            <lb/>in Einvernehmen setzen</orig>
+                        <note xml:id="nq43_pvt_ngc" resp="#KBleier">Die <orgName key="org.1"
+                                >Universal-Edition</orgName> bestätigte <persName key="pers.3263"
+                                >Schönbergs</persName> Absicht, den Vertrag mit der <orgName
+                                key="org.1">UE</orgName> zu lösen, sofern die Repräsentation durch
+                                <orgName key="org.23">Associated Music Publishers</orgName>
+                            weiterhin bestünde. Unter Hinweis auf <persName key="pers.3263"
+                                >Schönbergs</persName> Genie und Ausnahmestellung erkundigt sich die
+                                <orgName key="org.1">UE</orgName> &#8222;whether you could agree to
+                            an alteration of our contract with <orgName key="org.23">A. M. P.
+                            </orgName>stipulating that <persName key="pers.3263"
+                                >Schoenberg's</persName> works should be represented by another firm
+                            in <placeName key="place.15">USA</placeName>.&#8220; (Universal-Edition
+                            an Office of Alien Property, 30. Mai 1951; WZAS 3)</note></seg>, um
+                    festzustellen, welche Schritte unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>nommen werden können. Ich danke Ihnen jedenfalls sehr für Ihre <lb/>
+                    <ref target="letter.5879">Nachricht</ref> vom <date when="1951-05-19">19.
+                        Mai</date> und warte jetzt mit Spannung auf die Bot<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaft, ob Ihre in der Presse <seg type="comment">
+                        <orig>angekündigte Europareise</orig>
+                        <note sameAs="letter.17765/#nen3_ftt_ngc"/>
+                    </seg> Wirklich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit wird.</p>
+                <closer>
+                    <salute rendition="#c">Mit ergebensten Grüssen</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

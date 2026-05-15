@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.603"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 23. Februar 1921</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.603</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 603</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="254" to="254"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.8.3.1">Zandvoort, Brederodestraat 65</placeName>
+                    <date when="1921-02-23" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24515"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/603_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.603_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1">
+                    <pb n="1" xml:id="p.1"/>
+                    <opener>
+                        <stamp sameAs="stamp.7">
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                            <lb/>
+                            <placeName key="place.8.3.1">Brederodestraat 65</placeName>
+                            <lb/>Zandvoort Holland</stamp>
+                        <dateline>
+                            <date when="1921-02-23">23. Februar 1921</date>
+                        </dateline>
+                    </opener>
+                    <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                    <p rendition="#inline">ich erfuhr schon durch meine <rs type="person" key="pers.3284">Tochter</rs> (!!) dass Sie <lb/>wegen der <bibl sameAs="schriften.1">Harmonielehre</bibl> anders über mich denken, als uns beiden zuträglich
+                  <lb/>und angemessen ist und war noch mehr darüber verwundert, als dass ich es
+                     über<g ref="#typoHyphen"/>
+                        <lb break="no"/>haupt erfahre, darüber, dass es meine
+                  Tochter erfahren musste – dass sie <lb/>daran glauben musste. Ich hätte das
+                  nicht für nötig gehalten, da ja alle <lb/>Mitteilungen durch die Post mich direkt
+                  erreichen.</p>
+                    <p>Zur Sache selbst habe ich nun soviel zu bemerken, dass dadurch allein schon
+                  <lb/>erklärt ist, warum ich nicht Zeit fand, Ihnen zu antworten.</p>
+                    <list>
+                        <item> I. Trifft die Schuld, dass wir ohne <bibl sameAs="schriften.1">Harmonielehre</bibl> dastehen nicht <lb/>mich, sondern Sie, indem Sie (ohne
+                     mich zu befragen und nachdem <lb/>mir mehreremale der Betrag für den Satz
+                     aufgerechnet wurde) den <lb/>Satz ablegen ließen, wodurch ich 4 (vier-)fachen
+                     Schaden erlitt:</item>
+                        <item>
+                            <list>
+                                <item>
+                                    <del rendition="#s">1)</del> 1. Indem dadurch meine Anteile und mein Gewinn sich
+                           verringerte,</item>
+                                <item>2. Indem mir zuzeiten wo ich das Geld gebraucht hätte keine Verkäufe
+                           <lb/>gutgeschrieben werden konnten.</item>
+                                <item>3. Indem die werbende Kraft dieses Werkes für mein übriges Schaffen
+                           <lb/>außer Tätigkeit gesetzt wird und</item>
+                                <item>4. <hi rendition="#u">insbesondere</hi>, indem ich jetzt gezwungen
+                           wurde, die Neube<g ref="#typoHyphen"/>
+                                    <lb break="no"/>arbeitung viel
+                           früher zu machen, als es mir passt, was mir sowohl <lb/>künstlerisch
+                           (wegen des Ausreifenlassens) als auch materiell (wegen <lb/>meiner
+                           Zeiteinteilung) höchst unangenehm ist.</item>
+                            </list>
+                        </item>
+                        <item>II. Also habe ich Sie schon zur <add place="superlinear">Zeit</add>
+                            der <add place="superlinear">Herstellung</add> II.  Auflage gefragt, ob
+                            Sie ei<g ref="#typoHyphen"/>
+                            <lb break="no"/>ne Neubearbeitung wünschen, was Sie damals ablehnten und
+                            <lb/>behaupteten es hätte noch einige Jahre Zeit, worin Sie sich irrten
+                            <lb/>und mich nach kaum einem halben Jahr um eine Neubear<g ref="#typoHyphen"/>
+                            <lb break="no"/>beitung ersuchten</item>
+                        <item>III. Haben Sie, als ich die Hälfte der Neubearbeitung fertig hatte und
+                     <lb/>im besten Zuge war, mich aufgefordert, lieber zu komponieren, <lb/>die
+                        <bibl sameAs="schriften.1">
+                                <hi rendition="#u">Harmonie</hi>-L.</bibl> hätte
+                     noch Zeit. Sie hatten damals die Kosten be<g ref="#typoHyphen"/>
+                            <lb break="no"/>rechnet und schwankten, ob Sie den Neudruck schon jetzt machen <pb n="2" xml:id="p.2"/>wollten und erst, als ich Ihnen nachwies, dass der
+                     Verkaufspreis <lb/>für das Buch ruhig höher sein könne und Einwendungen gegen
+                     <lb/>das Fehlen des Werkes machte, wurden Sie – anscheinend, <lb/>denn
+                     Sie teilten mir damals Ihre Sinnesänderung nicht <lb/>mit – anderer
+                     Meinung, denn knapp vor Ihrer Abreise wurde <lb/>ich aufgefordert das
+                     Manuskript zu schicken, ohne vorher etwas <lb/>darüber gehört zu haben.
+                     Inzwischen hatte ich jedoch zugunsten des <lb/>Komponierens mit der Bearbeitung
+                     aufgehört, dann kam die <lb/>Zeit der Abreise mit Vorbereitungen, Vorsorgen und
+                     Unruhe und so <lb/>blieb die Arbeit stecken. Dass ich hier nicht dazu komme zu
+                     <lb/>arbeiten, muss Sie nun nicht wundern. Denn wenn Sie <lb/>auch annehmen,
+                     wie Sie meiner Tochter ebenso witzig als <lb/>spöttisch sagten, dass ich, woran
+                     Sie kein Interesse hätten (das <lb/>meinige kommt wohl auch einigermaßen <del rendition="#s">
+                                <gap reason="illegible" quantity="1" unit="words"/>
+                            </del> in
+                     Betracht) in <lb/>
+                            <placeName key="place.8">Holland</placeName>
+                            <rs type="place" key="place.9">österreichische</rs> Schüler unterrichte, so
+                     müssten Sie <lb/>sich selbst doch darüber wundern, dass mir die Holländer
+                     <lb/>bloß für diese Tätigkeit 10.000 Gulden bezalen.</item>
+                    </list>
+                    <p>Was nun jedoch den <seg type="comment">
+                            <orig>Verkauf</orig>
+                            <note xml:id="nn1q_qmr_bdc" resp="#pkehrer">Laut <ref
+                                    target="letter.20193">Universal-Edition an Arnold Schönberg, 11.
+                                    Oktober 1933</ref> wurde 1920 eine nicht erhaltene Vereinbarung
+                                mit der Boston Music Company getroffen, die dem Verlag wohl das
+                                Exklusivrecht für eine englische Übersetzung für die Vereinigten
+                                Staaten zusicherte, sie wurde jedoch 1924 wieder aufgehoben, ohne zu
+                                einer Publikation geführt zu haben</note>
+                        </seg> meiner <hi rendition="#u">
+                            <bibl sameAs="schriften.1">Harm.-L.</bibl>
+                        </hi> nach <placeName key="place.15">Amerika</placeName>
+                        <lb/>anbelangt, so befinde ich mich zu Ihrer Auffassung in einem <subst>
+                            <del rendition="#s">sehr</del>
+                            <add place="right">so</add>
+                        </subst>
+                        <lb/>bedeutenden Gegensatz, dass ich, wenn Ihre Ungeduld meinen gut<supplied
+                            cert="high">en</supplied>
+                        <lb/>Vorschlag nicht gestört hätte, im Interesse unserer freundschaftlichen
+                        <lb/>Beziehungen über diesen Gegenstand lieber mündlich verhandelt
+                        <lb/>hätte, da ich überzeugt bin, dass Sie meine Gründe, als eine bessere
+                        <lb/>Wahrung unserer Interessen gefunden hätten, wenn ich mit Ihnen
+                        <lb/>gesprochen hätte. Und ich meine fast: es ist jetzt noch besser, wir
+                        <lb/>sprechen nach meiner Rückkehr uns lieber in Ruhe und Wohl<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>wollen darüber aus, als uns in Briefen einander unangenehme
+                        <lb/>Dinge zu sagen (d. h.: ich tue es, wie Sie sehen nicht; ich bin
+                        <lb/>liebenswürdig wie immer; aber Sie sind spitzig) wobei nur <lb/>Ärger
+                        herauskommt, während wir uns doch mündlich schließlich <lb/>immer geeinigt
+                        haben und gute Freunde geblieben sind. Sie <lb/>sehen, ich werde ruhiger.
+                        Vor 10 Jahren hätte ich Ihnen einen <lb/>wütenden Brief geschrieben! Wann
+                        aber wird Ihr Tempra<g ref="#typoHyphen"/>
+                        <lb break="no"/>ment einmal sanfter, abgeklärter werden?</p>
+                </div>
+                <div type="writingSession" n="2">
+                    <pb n="3" xml:id="p.3"/>
+                    <p>Um Ihnen kurz jedoch meine Einwendungen zur <lb/>Kenntnis zu bringen, diene
+                  folgendes:</p>
+                    <list>
+                        <item>I. Finde ich den Betrag von 500 Dollar sehr gering. Es <lb/>sind das 2000
+                     Friedens-Mark und das entspricht kaum dem <lb/>Gewinn bei 500 Exemplaren,
+                     welcher ja beinahe 4 Mark <lb/>pro Exemplar ausmachte. (Sie haben mir übrigens
+                     gar nichts <lb/>Näheres über Ihre Abmachung mitgeteilt; weder die Höhe der
+                        Auf<g ref="#typoHyphen"/>
+                            <lb break="no"/>lage, noch die Bestimmungen für die
+                     Zukunft, noch wer über<g ref="#typoHyphen"/>
+                            <lb break="no"/>setzt etc)</item>
+                        <item>II. Ist bei der Uebersetzung dieses Werkes nicht einmal das <lb/>Geld
+                            die erste Frage, sondern: <hi rendition="#u">die Uebersetzung</hi>: Ein
+                            Werk <lb/>vom künstlerischen Rang dieses, könnte nicht einem x-be<g ref="#typoHyphen"/>
+                            <lb break="no"/>liebigen übergeben werden und nur nachdem mir von
+                            einigen <lb/>wichtigen Stellen Proben vorgelegt worden sind, könnte ich
+                            <lb/>jemanden dazu autorisieren. Und an dieser künstlerischen <lb/>Frage
+                            sind <hi rendition="#u">auch Sie</hi> beteiligt. Der <hi rendition="#u">
+                                <bibl sameAs="schriften.1">Harm.-L.</bibl>
+                            </hi> verdanke ich ge<g ref="#typoHyphen"/>
+                            <lb break="no"/>ring 9 Zehntel meiner Anhänger. Aber Sie glauben doch
+                            <lb/>nicht, dass es das rein schulmäßige ist, was den Leuten <lb/>daran
+                            gefällt! Das könnten sie viel bequemer bei 
+                                <seg type="comment">
+                                <orig>
+                                    <persName key="pers.3854">Thuille</persName>
+                                </orig>
+                                <note xml:id="nnv1_zts_cxb">
+                                    <bibl sameAs="schriften.99">Ludwig Thuille,
+                                            Harmonielehre</bibl>
+                                </note>
+                            </seg>
+                            <lb/>und <seg type="comment">
+                                <orig>
+                                    <persName key="pers.3709">Stöhr</persName>
+                                </orig>
+                                <note xml:id="nn11_c5s_cxb">
+                                    <bibl sameAs="schriften.98">Richard Stöhr, Praktischer Leitfaden
+                                        der Harmonielehre</bibl>
+                                </note>
+                            </seg> bekommen. Sondern es ist die künstlerische und <lb/>moralische
+                            Wirkung, die hier wirkt und die nicht bloß Mu<g ref="#typoHyphen"/>
+                            <lb break="no"/>siker, sondern auch Literaten und Gelehrte anzieht. Und
+                            <lb/>die kann nur durch eine ebenbürtige Uebersetzung <lb/>wiedergegeben
+                            werden – sonst bleibts eine „Harmonie<g ref="#typoHyphen"/>
+                            <lb break="no"/>lehre<supplied cert="high">“</supplied> und die wird
+                            keinen Absatz finden.</item>
+                        <item>III. Ist nebenbei die englische Uebersetzung, <hi rendition="#uu">wenn
+                                Sie <lb/>sie verkaufen</hi> eigentlich ein Schaden für das deutsche
+                            <lb/>Original. Denn die Engländer und anderen Ausländer, die <lb/>bisher
+                            das Deutsche gelesen haben, werden nunmehr die englische <lb/>benutzen
+                            können. Und es giebt viele Ausländer, <hi rendition="#u">die schlecht
+                                <lb/>deutsch können</hi> aber besser englisch, als deutsch und <hi rendition="#uu">die gehen <lb/>Ihnen nun verloren</hi>.</item>
+                        <pb n="4" xml:id="p.4"/>
+                        <item>IV. Etwas anderes jedoch wäre es, wenn Sie die englische <lb/>Ausgabe
+                            selbst herstellten. Den Uebersetzer könnte man leicht  <lb/>bekommen und
+                            zufriedenstellen. Und Sie hätten nicht nur keinen <lb/>Entfall durch die
+                            Uebersetzung, sondern selbst den vollen Valuta-<lb break="no"/>Gewinn.
+                            Sie sollten das riskieren. Ich selbst kann hiebei <lb/>bestimmt
+                            mithelfen. Insbesondere auch durch meine auslän<g ref="#typoHyphen"/>
+                            <lb break="no"/>dischen Beziehungen.</item>
+                        <item>V. Was nun die Frage eines Valuta-Schadens anbelangt, so bin ich
+                            <lb/>von Ihrer Klugheit in solchen Dingen vielzusehr überzeugt, als dass
+                            <lb/>ich das für etwas anderes, als für einen Schreckschuss halte: Sie,
+                            der Sie  <lb/>mir vor Ihrer Abreise die ausgezeichnete Idee mitgeteilt
+                            haben, <lb/>dass Sie alle Ihre Valuta-Einnahmen in Dollar stehen lassen
+                                w<supplied cert="high">ollen</supplied>, <lb/>Sie werden nicht
+                            gerade mit diesen 500 Dollar zum nächsten <lb/>Greissler gelaufen sein
+                            und sie eingewechselt haben. Aber wenn, so <lb/>würde ich es sehr
+                            bedauern, dass Sie dadurch einen Schaden haben und <lb/>mich freuen,
+                            dass Sie an mich keine Ansprüche stellen können, da <lb/>Sie über diesen
+                            Punkt keine wie immer geartete Zusage von mir besitzen </item>
+                    </list>
+                    <p>Was nun die Erhöhung der Herstellungskosten anbelangt, so haben <lb/>sich
+                        viel weitblickendere Menschen, als ich scheinbar auf diesen Um<g ref="#typoHyphen"/>
+                        <lb break="no"/>stand nicht gefasst gemacht, sonst besäßen wir von der <bibl sameAs="schriften.1">Harm. L.</bibl> sicher <lb/>jetzt 2–3000 Exemplare
+                        zum Preis von <date when="1917">1917</date> oder <date when="1918">18</date>. Aber ich halte das, <lb/>so aufrichtig ich es bedaure, dennoch
+                        für kein größeres Unglück, als <lb/>alle vorhergehenden Preissteigerungen;
+                        denn: <hi rendition="#u">entsprechend den <lb/>Herstellungskosten wird der
+                            Verkaufspreis</hi> angesetzt. Gewiss <lb/>wäre höherer Gewinn zu
+                        erzielen, aber dem Absatz wird der Preis <lb/>nicht schaden, schon wegen des
+                        Verhältnisses zwischen Krone und <lb/>Mark nicht.</p>
+                    <p>Bitte: akzeptieren Sie nun meinen Vorschlag, über die ganze <lb/>Angelegenheit
+                  nach meiner Rückkehr uns mündlich zu unterhalten. <lb/>Viel lieber als einen
+                  polemischen, hätte ich Ihnen einen Freund<g ref="#typoHyphen"/>
+                        <lb break="no"/>schaftsbrief geschrieben. Dass ich Ihnen aber nicht früher schrieb <lb/>als
+                  heute, werden Sie begreifen können, wenn Sie daran <pb n="5" xml:id="p.5"/>denken,
+                  dass auch Sie mir aus <placeName key="place.15">Amerika</placeName> nur <hi rendition="#u">eine</hi>
+                        <lb/>
+                        <hi rendition="#u">einzige</hi> Postkarte geschrieben haben. Ja wenn ich
+                 <lb/>in die Schreibmaschine diktieren könnte, wie <lb/>Sie, würde ich auch rascher
+                  meine Korrespondenz er<g ref="#typoHyphen"/>
+                        <lb break="no"/>ledigen.</p>
+                    <p>Nun befinde ich mich in den letzten Wochen meines <add place="superlinear">hiesigen</add> Aufent<g ref="#typoHyphen"/>
+                        <lb break="no"/>haltes, <seg type="comment">
+                            <orig>probiere bereits <bibl sameAs="werke.16">Gurrelieder</bibl>
+                            </orig>
+                            <note sameAs="letter.7043/#nozr_4ps_ggc"/>
+                        </seg> und denke an die
+                            Rück<g ref="#typoHyphen"/>
+                        <lb break="no"/>reise. Es war nicht durchaus alles so, wie es hätte sein
+                        <lb/>sollen. Durch <persName key="pers.2334">Mengelbergs</persName>
+                        Krankheit und eine gewisse <lb/>Schwerfälligkeit und Arbeitsscheu der
+                        Holländer war <lb/>manches arg verschlampt worden. Nach und nach wurde
+                        <lb/>es besser und nun scheint – wenn mich nicht alles <lb/>täuscht – sich
+                        mit der <bibl sameAs="werke.16">Gurrelieder</bibl> Aufführung ein schöner
+                        <lb/>Abschluss des Ganzen vorzubereiten.</p>
+                    <p>Ich komme gleich nach der <seg type="comment">
+                            <orig>Aufführung</orig>
+                            <note xml:id="nvdh_sht_ggc" resp="#KBleier"><ref target="event.212"/>; <ref target="event.213"/>
+                            </note>
+                        </seg> nach <placeName key="place.9.11">Wien</placeName>: ca <lb/>
+                        <date notBefore="1921-03-22" notAfter="1921-03-23">22–23 März</date>. Aber
+                        nur für wenige Wochen. Dann <lb/>will ich arbeiten und vorher – ehe ich an
+                        die Neu<g ref="#typoHyphen"/>
+                        <lb break="no"/>bearbeitung der <bibl sameAs="schriften.1">Harmonielehre</bibl> gehe, noch <del rendition="#s">an</del> die
+                       <lb/>Wiederherstellung unserer Harmonie bearbeiten.</p>
+                    <closer>
+                        <salute>Seien Sie bis dahin aufs herzlichste begrüßt und <lb/>lassen Sie sichs gut
+                  gehen. Ihr</salute>
+                        <signed>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

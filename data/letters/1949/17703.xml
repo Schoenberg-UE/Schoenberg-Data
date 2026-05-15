@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17703"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 23. Juni 1949</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17703</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17703</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-W3J64FR7">ASGA B 23/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1949-06-23" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.5084"/>
+                    <ref type="answered-by" target="letter.4942"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17703_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17703_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">WIEN</hi>, I.,</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</addrLine>
+                    </address>
+                    <seg rendition="#c">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.416">Be</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1949-06-23">23.
+                            Juni 1949</date>.</dateline>
+                    <address>
+                        <addrLine>Mr.</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">Los Angeles 24, Ca.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Ich bestätige Ihren <ref target="letter.5084">Brief</ref> vom <date when="1949-06-07">7. Juni</date> und bin ein wenig erstaunt. <lb/>Nach den
+                    bei uns liegenden Verträgen sind Ihre Manuskripte ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>deutig in den <seg type="comment">
+                        <orig>Besitz</orig>
+                        <note sameAs="letter.5084/#no2t_pdy_nyb"/>
+                    </seg> der <orgName key="org.1">Universal-Edition</orgName> übergegangen, die da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit durchaus das Recht hätte, über sie zu verfügen. Die <orgName key="org.1">Univer<g ref="#typoHyphen"/>
+                        <lb break="no"/>sal-Edition</orgName> hat aber keines Ihrer Manuskripte zum
+                    Verkauf ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>boten oder verkauft. Es würde mich also sehr interessieren, um
+                    <lb/>welchen konkreten Fall es sich handelt.</p>
+                <p>Kürzlich fand in <placeName key="place.11.6">Zürich</placeName> eine <seg
+                        type="comment">
+                        <orig>Auktion</orig>
+                        <note xml:id="nnty_yjf_52c" resp="#pkehrer">Bei der Auktion am <date
+                                when="1948-11-17">17. November 1948</date>, veranstaltet durch das
+                            Antiquariat L'Art Ancien S. A., wurde die Erste Niederschrift der <bibl
+                                sameAs="werke.50">Glücklichen Hand op. 18</bibl> (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1433&amp;werke_id=474&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 6/3, Quelle B</ref>) für 5.350 Schweizer Franken verkauft
+                            (Erwin Rosenthal an Arnold Schönberg, 28. Februar 1949; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B154607">ASCC
+                                15460</ref>). <persName key="pers.3263">Schönberg</persName> scheint
+                            für diesen Anlass zudem die Erste Niederschrift als Particell (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1477&amp;werke_id=477&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 7/2, Quelle A</ref>) zu <bibl sameAs="werke.65">Von heute
+                                auf morgen op. 32</bibl> angeboten zu haben (Erwin Rosenthal an
+                            Arnold Schönberg, 10. Mai 1948; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B154541">ASCC
+                                15454</ref>; <rs type="bibl" key="zotero-4528359-QMQDSHYD">Brand
+                                1991</rs>, S. 259); dieses Manuskript taucht im Auktionskatalog
+                            jedoch nicht auf</note></seg> von Manuskripten statt, die <lb/>in erster
+                    Linie aus dem Besitz von Frau <persName key="pers.2244">Mahler</persName>
+                    stammen. Hat sich <lb/>darunter auch ein Manuskript, das Sie nicht uns übergeben
+                    haben, <lb/>befunden? Jedenfalls muss ich Sie herzlichst bitten, Ihre Verfü<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>gung zurückzuziehen, da sie im Widerspruch zu den geschlossenen
+                    <lb/>Verträgen steht.</p>
+                <p> Inzwischen habe ich bei der <orgName key="org.247">Nationalbank</orgName> um die
+                    Bewilligung ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>gereicht, Ihnen Dollar 76.91 (= S 779.82) laut der <seg type="comment">
+                        <orig>Abrechnung</orig>
+                        <note xml:id="nayd_gjp_tbc" resp="#pkehrer">Der hier genannte Betrag taucht in der <ref target="document.23462">Abrechnung, 9. April 1949</ref> nicht
+                            auf</note>
+                    </seg> per <lb/>
+                    <date when="1948-07-31">31. Juli 1948</date> zu überweisen und ich hoffe, dass
+                    diese Ueberweisung <lb/>schon in allernächster Zeit durchgeführt werden
+                    wird.</p>
+                <p>Ich hoffe Sie sehen daraus, dass wir uns nicht nur Mühe geben, son<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern dass tatsächlich die grössten
+                    Schwierigkeiten bereits hinter  <lb/>uns liegen und damit zu rechnen ist, dass
+                    in den nächsten Jahren  <lb/>alle Geschäfte normal abgewickelt werden können.
+                    Dasselbe bezieht  <lb/>sich selbstverständlich auch auf den Nachdruck Ihrer
+                    Werke, die,  <lb/>wie wir hoffen, in absehbarer Zeit wieder vollständig
+                    vorliegen  <lb/>werden.</p>
+                <p>Meine <ref target="letter.17755">Bemerkung</ref> bezüglich des Abzuges bezog sich
+                    nur auf die Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnung neuer Werke. Ich
+                    hatte nicht die Absicht, die Einkünfte <lb/>aus alten Werken dazu zu benutzen,
+                    sondern lediglich solche Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>nahmen aus
+                    neuen Werken, die die <orgName key="org.23">AMP</orgName> allenfalls an Sie zur
+                        Aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>zahlung gebracht hat. Wenn, wie Sie
+                    schreiben, neue Werke über<g ref="#typoHyphen"/>
+                    <lb break="no"/>haupt nicht zur
+                    Aufführung gekommen sind, so ist mein Vorschlag <lb/>hinfällig.</p>
+                <closer>
+                    <salute rendition="#c">Mit den besten Grüssen</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

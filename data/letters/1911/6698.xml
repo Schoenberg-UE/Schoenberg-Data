@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.6698"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 23. Juli 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6698</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC 6698</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-3F5L5XDT">Stephan 1981</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1911-07-23" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.23512"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6698_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6698_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.4">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>WIEN, XIII. <lb/>
+                        <placeName key="place.9.11.5.3">HIETZINGER HAUPTSTRASSE 113</placeName>
+                    </stamp>
+                    <dateline>
+                        <date when="1911-07-23">23/7.1911</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">
+                    <persName key="pers.702">Cassierer</persName> hat mir <lb/>noch nicht
+                    geschrieben und ich kann eigentlich <lb/>
+                    <supplied cert="high">k</supplied>aum länger <seg type="comment">
+                        <orig>warten.</orig>
+                        <note xml:id="nwjm_bj5_bgc" resp="#TMuxeneder">
+                            <persName key="pers.702">Paul Cassirer</persName> trat nicht nur als
+                            Herausgeber der Zeitschrift <orgName key="org.127">Pan</orgName> und
+                            Kunsthändler, sondern auch als Verleger hervor. <persName
+                                key="pers.3263">Schönberg</persName> intendierte, seine mehrbändig
+                            konzipierte Kompositionslehre alternativ zur <orgName key="org.1"
+                                >UE</orgName> bei <persName key="pers.702">Cassirer</persName> zu
+                            veröffentlichen</note>
+                    </seg> Deshalb möchte ich Sie <lb/>also jetzt bitten, mir so rasch es geht einen
+                    <lb/>Antrag zu machen. Nur bitte ich Sie diesen <lb/>Antrag so zu fassen, dass
+                    ich wirklich da<g ref="#typoHyphen"/><lb break="no"/><del rendition="#s"><gap reason="illegible" quantity="1" unit="chars"/></del>rauf eingehen kann. Bitte überlegen Sie: <lb/>ich habe an der <bibl
+                        sameAs="schriften.1">Harmonielehre</bibl> bis jetzt nahezu <lb/>1 1/2 Jahre
+                        (<hi rendition="#u">rein</hi> gering 1 Jahr) gearbeitet und <lb/>habe dafür
+                    500 Kr. gehabt! Nicht wahr, das geht <lb/>ja nicht. Aber abgesehen davon, ich
+                    könnte <lb/>
+                    <supplied cert="high">das</supplied> auch <del rendition="#s">bei</del> deshalb
+                    jetzt nicht annehmen, <lb/>weil mir damit nicht gedient ist. Ich habe <lb/>am
+                        <date when="1911-08-01">1. August</date> Zins zu zahlen und habe außer<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>dem nichts für die Zeit bis Mitte <date when="1911-09"
+                        >September</date>, <pb n="2" xml:id="p.2"/>wo ich erst wieder Hoffnung habe,
+                    etwas zu <lb/>verdienen. Es wäre mir also mit einer <lb/>geringen Summe nicht
+                    gedient. Denn <lb/>abgesehen von Allem gäbe ich damit die <lb/>Chance auf den
+                    Erfolg meiner <bibl sameAs="schriften.1">Harmonie<g ref="#typoHyphen"/>
+                        <lb break="no"/>lehre</bibl> abzuwarten, worauf mir wohl sicher <lb/>hohe
+                    Honorare in Aussicht stehen.</p>
+                <p>Bitte missverstehen Sie mich nicht! Ich <lb/>will sehr gerne <del rendition="#s">mit</del> Sie dem <persName key="pers.702">Cassierer</persName>
+                    <lb/>vorziehen. Denn ich weiß ja, dass Ihr <lb/>Verlag für mich sehr vorteilhaft
+                    dadurch ist, <lb/>dass alle<del rendition="#s">s</del> meine neuen Sachen bei
+                    Ihnen <lb/>erscheinen.</p>
+                <p>Aber die Sache ist doch so, dass <del rendition="#s">ich</del> mir <lb/>mit einer
+                    kleinen Summe nicht geholfen ist <lb/>ich mich aber dann zu einer Arbeit
+                    verpflichtet <lb/>habe, <add place="superlinear">für</add> die <subst>
+                        <del rendition="#s">mir</del>
+                        <add place="superlinear">ich</add>
+                    </subst>
+                    <del rendition="#s">son</del> möglicherweise einige Monate <lb/>später <del rendition="#s">die</del> den fünffachen Betrag <del rendition="#s">
+                        <unclear reason="illegible" cert="low">hab</unclear>
+                    </del> bekommen
+                    <lb/>könnte – denn die <bibl sameAs="schriften.1">Harmonielehre</bibl> wird <pb n="3" xml:id="p.3"/>nach der Meinung aller – <del rendition="#s">
+                        <unclear reason="illegible" cert="low">sehr</unclear>
+                    </del> selbst sehr
+                    <lb/>kühl und pessimistisch denkender – sicher <lb/>ein Sensations-Erfolg.
+                    Speziell als <hi rendition="#u">Lehrbuch</hi>!!</p>
+                <p>Nun aber bitte, nicht diese Gründe allein <lb/>sind es auf die ich mich stützen
+                    will, sondern <lb/>
+                    <supplied cert="high">v</supplied>ielmehr habe ich die Hoffnung, dass Sie
+                    <lb/>diese Gelegenheit benutzen werden, um <lb/>hier (wo Ihr Risiko weniger groß
+                    ist) <lb/>an mir <hi rendition="#uu">als Mäcen</hi> zu handeln. Als <lb/>einer
+                    der mir wirklich nützen will, indem <lb/>er mir die dringendsten Sorgen vom
+                    <lb/>Leib hält. Schaun Sie, ich arbeite seit <lb/>6 Monaten an der <bibl sameAs="schriften.1">Harmonielehre</bibl> durchschnittlich <lb/>7–9 Stunden
+                    täglich. Ich leiste etwas, <lb/>ich arbeite, ich bin fleißig, ich besitze alle
+                    <lb/>moralischen Tugenden, die man verlangen <lb/>kann, und muss solche Sorgen
+                    haben, dass <lb/>ich nicht aus noch ein weiß! Alles erholt <lb/>sich im Sommer –
+                    ich arbeite! Alles <pb n="4" xml:id="p.4"/>hat einen freien Kopf – ich habe
+                    Sorgen. <lb/>Nun aber: und wieviele leisten noch <lb/>soviel wie ich?!? Ist das
+                    nicht ungerecht. <lb/>Und wäre es nicht schön von Ihnen mir <lb/>da ausgiebig zu
+                    helfen. Denken Sie <lb/>in 50 Jahren, wenn man allgemein <lb/>wissen wird, wer
+                    ich war, dann wird <lb/>man ebenso darüber urteilen, wie über <lb/>andere
+                    ähnliche Fälle.</p>
+                <p>Deshalb wende ich mich an Sie, dass <lb/>Sie <add place="intralinear">diese
+                        Angelegenheit</add>
+                    <hi rendition="#uu">als Mäcen</hi>
+                    <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> behandeln.</p>
+                <p>Nicht wahr, mein anderer Vertrag ist
+                    <lb/>ja sowenig günstig (ich bekomme, wie <lb/>ich neulich berechnet habe <hi rendition="#u">genau halb</hi> so <lb/>viel von Ihnen als ich unter gleichen
+                    <lb/>Umständen bei <persName key="pers.2283">Marschalk</persName> bekommen
+                    <lb/>hätte), ich meine da könnten Sie mir <lb/>hier, indem Sie ein wenig nur von
+                        <pb n="5" xml:id="p.5"/>Ihren geschäftlichen Prinzipien abgehen,
+                    <lb/>diesmal einen günstigeren Vertrag machen. <lb/>Ich meine, wenn Sie sich auf
+                    den <lb/>Standpunkt <hi rendition="#u">
+                        <del rendition="#s">handeln</del>
+                    </hi> stellen wollen, dass <lb/>ein Mensch,
+                    wie ich einen <hi rendition="#u">Mäcen </hi>
+                    <hi rendition="#uu">ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>dient</hi>!</p>
+                <p>Ich hoffe Sie von der Richtigkeit meiner <lb/>Ansicht überzeugt zu haben und
+                    erwarte mir <lb/>von Ihrer Noblesse, dass Sie dem guten <lb/>Kaufmann einmal
+                    einen Possen spielen <lb/>wird.</p>
+                <p>Also bitte: machen Sie mir einen <lb/>
+                    <supplied cert="high">gü</supplied>nstigen
+                    Antrag.</p>
+                <p>Und aber: <hi rendition="#uu">sehr rasch</hi>!!!</p>
+                <p>Das bitte ich Sie sehr.</p>
+                <p>Sie entschließen sich ja immer <lb/>so schnell. Ueberlegen Sie, wie es <pb n="6" xml:id="p.6"/>am raschesten geht. Vielleicht können <lb/>Sie es so machen,
+                    dass sie mir in <lb/>einem Brief Ihre Bedingungen schreiben <lb/>und ich hätte
+                    bloß mein Einverständ<supplied cert="high">nis</supplied>
+                    <lb/>mit diesen Bedingungen mitzuteilen <lb/>(an die <orgName key="org.1">Universal-Edition</orgName>) worauf <lb/>mir die Vertragssumme sofort
+                        ausbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>zalt wird.</p>
+                <p>Ich bitte Sie keinen Tag zu ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>lieren.</p>
+                <p>Wenn Sie mir eine große Summe <lb/>geben könnten (womöglich 1500 Kronen)
+                    <lb/>könnte ich vielleicht doch noch auf ein <lb/>paar Wochen fort. Ich hätte es
+                    sehr nötig. <lb/>Und meine <rs type="person" key="pers.3290">Frau</rs> noch
+                    mehr. Die hat <lb/>eben wieder einen heftigen Anfall <lb/>von einem
+                    Lungenspitzenkatarrh. Sie <pb n="7" xml:id="p.7"/>sollte unbedingt fort. Und ich
+                    kann sie <lb/>nicht fortschicken.</p>
+                <p>Ich wäre eventuell bereit einen <lb/>Vertrag auf meine ganze <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del>musik<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <supplied cert="high">sch</supplied>riftstellerische Tätigkeit zu machen. <lb/>Ich plane folgende
+                    Schriften in der <lb/>nächsten Zeit: (außer dem Kontrapunkt)</p>
+                <p>eine <hi rendition="#u">Instrumentationslehre</hi>; die <lb/>gibt es nämlich bis
+                    jetzt nicht; denn alle <lb/>vorhandenen Bücher sind Instrumenten<g ref="#typoHyphen"/>
+                    <lb break="no"/>kunde. Ich aber will die <hi rendition="#u">Satzkunst</hi>
+                    <hi rendition="#u">
+                        <lb/>für Orchester</hi> lehren!!!! Das ist ein großer <lb/>Unterschied und
+                    etwas <hi rendition="#u">absolut Neues</hi>!!</p>
+                <p rendition="#c">dann</p>
+                <p>eine</p>
+                <p rendition="#c">„<hi rendition="#u">Vorstudie zur Formenlehre</hi>“ <lb/>„<hi rendition="#u">Untersuchung über die formalen Ursachen</hi>
+                    <hi rendition="#u">
+                        <lb/>für die Wirkung in modernen Kompositionen</hi>“</p>
+                <p>Diese Schrift wird <add place="intralinear">sich</add> wahrscheinlich <lb/>nur
+                    mit <hi rendition="#u">
+                        <persName key="pers.2225">Mahler</persName>
+                    </hi>-Werken
+                    befassen.</p>
+                <pb n="8" xml:id="p.8"/>
+                <p>Dann später:</p>
+                <p>ebenfalls als Vorstudie zur Formen<g ref="#typoHyphen"/>
+                    <lb break="no"/>lehre:</p>
+                <p>„<hi rendition="#u">Form-Analysen und Gesetze die sich <lb/>daraus
+                    ergeben</hi>“</p>
+                <p rendition="#c">schliesslich hierauf:</p>
+                <p>„<hi rendition="#u">Formenlehre</hi>“</p>
+                <p>Alle diese Bücher sind Lehrbücher <lb/>oder Lehr-Hilfsbücher. Das ganze
+                    <lb/>zusammen ergibt <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> dann eine Ästhetik <lb/>der Tonkunst unter welchem
+                    Titel ich <lb/>ein <add place="superlinear">das</add> zusammenfassendes Werk
+                    schreiben <lb/>will.</p>
+                <p>Zu allen diesen Werken habe ich <lb/>bereits Ideen und auch Notizen.</p>
+                <p>Im Lauf von fünf Jahren kann alle<supplied cert="high">s</supplied>
+                    <lb/>fertig sein!</p>
+                <p>Also ich biete Ihnen, was ich kann, <lb/>tun Sie das gleiche und bieten Sie <del rendition="#s">auch</del>
+                    <lb/>mir <hi rendition="#u">mehr</hi>.</p>
+                <closer rendition="#inline">
+                    <salute>Viele herzliche Grüße Ihr</salute>
+                    <lb/>
+                    <signed rendition="#c">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

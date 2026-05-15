@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20192"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 6. Oktober 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20192</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20192</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1933-10-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4.3.1">Paris, 192 rue de Rivoli</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.7235"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20192_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20192_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1933-10-06">6.
+                            Oktober 1933</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold </persName>
+                            <hi rendition="#g">
+                                <persName key="pers.3263">Schönberg</persName>,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.4.4.3.1">Hotel Regina</placeName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">Place des Pyramides</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geerehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Es hat uns sehr leid getan, dass unser heutiges Telephonge<g ref="#typoHyphen"/>
+                    <lb break="no"/>spräch vorzeitig unterbrochen wurde, wir haben aber eben Ihr
+                        <ref target="letter.7235">Tele<g ref="#typoHyphen"/>
+                        <lb break="no"/>gramm</ref> erhalten und an <orgName key="org.70">Schirmer</orgName>
+                    <placeName key="place.15.8">New York</placeName> entsprechend gekabelt. Der
+                    <lb/>Termin, den Sie <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> für die <seg type="comment">
+                        <orig>Auszahlung</orig>
+                        <note sameAs="letter.2417/#nabq_5qd_ngc"/>
+                    </seg>
+                    verlangen, ist leider aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>serordentlich kurz gestellt, sodass wir zweifeln, dass eine
+                        Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>einbarung bis zu diesem Zeitpunkt zustandekommt. Da wir
+                    annehmen, <lb/>dass wir von <orgName key="org.70">Schirmer</orgName> noch vor
+                    Ihrer Abreise Nachricht haben wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den, so werden wir Sie noch ausführlich in dieser Angelegenheit
+                    <lb/>verständigen, damit Sie eventuell in der Lage sind, persönlich in <lb/>
+                    <placeName key="place.15.8">New York</placeName> zu verhandeln. Da Sie <add place="superlinear">erst</add> am <date when="1933-10-18">18.</date> nach
+                        <placeName key="place.15.1">Boston</placeName> reisen, wird der
+                    <lb/>Unterzeichnete noch das Vergnügen haben, Sie in <placeName key="place.4.4">Paris</placeName> begrüssen zu <lb/>können.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen <lb/>
+                        <seg rendition="#r">in vorzüglicher Hochschätzung</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                    <signed rendition="#r">
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

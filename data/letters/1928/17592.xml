@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17592"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 3. April 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17592</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17592</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-SE97ZUHX">ASGA B 21</rs>
+                            <biblScope unit="page" from="7" to="7"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3065">Roth, Ernst</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1928-04-03" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1453"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17592_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17592_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.130">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon N<hi rendition="#sup #uu">o</hi>.57-5-85 Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank Wien</orgName>.
+                        Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, am <date when="1928-04-03">3. April 1928</date>
+                        </seg>
+                    </stamp>
+                    <persName key="pers.3065">Dr. R</persName>/<persName key="pers.4379">Pz.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold
+                                SCHÖNBERG</persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Westend</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.8">Nussbaumallee 17</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Nachdem nun das <orgName key="org.3">Kolisch-Quartett</orgName> nach <placeName key="place.9.11">Wien</placeName> zurück<g ref="#typoHyphen"/>
+                    <lb break="no"/>gekehrt ist und die von ihm benützten <seg type="comment">
+                        <orig>Stimmen</orig>
+                        <note sameAs="letter.1319/#ns4g_2zb_3zb"/>
+                    </seg> Ihres <bibl sameAs="werke.63">Streich<g ref="#typoHyphen"/>
+                        <lb break="no"/>quartetts op. 30</bibl> verfügbar sind, beabsichtigen wir
+                    schon in den <lb/>nächsten Tagen den Stich dieser Stimmen in Angriff zu nehmen.
+                    <lb/>Wir haben heute mit Herrn <persName key="pers.1947">Kolisch</persName> über
+                    die technische Einrich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung der Stimmen gesprochen und er teilte uns mit, dass die in
+                    <lb/>seinem Besitz befindlichen Stimmen von Ihnen als Stichvorlage <lb/>noch
+                    nicht gutgeheissen seien. Wir bitten Sie daher um gefälli<g ref="#typoHyphen"/>
+                    <lb break="no"/>ge Mitteilung, ob Sie die Zusendung dieser Stimmen wünschen,
+                    <lb/>um für den Stich etwaige Anweisungen dazu geben zu können, ins<g ref="#typoHyphen"/>
+                    <lb break="no"/>besondere was die Stichnoten anlangt, oder ob Ihnen diese Stim<g ref="#typoHyphen"/>
+                    <lb break="no"/>men soweit in Erinnerung sind, dass Sie sie als Stichvorlage
+                    <lb/>gutheissen können, ohne sie vorher noch einmal durchgesehen zu <lb/>haben.
+                    Wir bitten Sie, <del rendition="#s">auch</del> uns auch alle ihre sonstigen
+                        Wün<g ref="#typoHyphen"/>
+                    <lb break="no"/>sche in Bezug auf den Stich der Stimmen mitzuteilen und zeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen, in Erwartung Ihrer gefl. Nachrichten, </p>
+                <closer>
+                    <salute rendition="#c">in vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.128" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>.
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.3065">Roth</persName>
+                    </signed>
+                </closer>
+                <note hand="#unknown" place="mBottom">6/4</note>
+            </div>
+        </body>
+    </text>
+</TEI>

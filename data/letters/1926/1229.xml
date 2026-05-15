@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1229"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 22. Juni 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1229</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1229</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1926-06-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1926-06-23" cert="high"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1229_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1229_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <note place="mTop" hand="#unknown"><!-- steno -->
+                        <hi rendition="#st">geschrieben verreist</hi>
+                        <date when="1926-06-24">24/VI</date>
+                    </note>
+                    <dateline>
+                        <date when="1926-06-22">22.VI.1926</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Hertzka</persName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">gelegentlich meiner <seg type="comment">
+                        <orig>Anmeldung</orig>
+                        <note xml:id="np2b_l32_czb" resp="#pkehrer">Arnold Schönberg an
+                                Genossenschaft deutscher Tonsetzer, 6. Juni 1926 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B012234">ASCC
+                            1223</ref>)</note>
+                    </seg> als Mitglied der <lb/>
+                    <orgName key="org.73">Genossenschaft Deutscher Tonsetzer</orgName> mache ich eine sehr
+                    überraschende <lb/>Entdeckung. Aus dem mir vorliegenden <ref target="document.24086">Verlagsschein</ref> über meine beiden <lb/>letzten
+                        <seg type="comment">
+                        <orig>Werke</orig>
+                        <note sameAs="letter.17652/#nfvr_2ps_zyb"/>
+                    </seg> geht nämlich hervor, dass
+                    ich Ihnen nicht nur das Verlags- <lb/>sondern auch das Urheber<choice>
+                        <sic>L</sic>
+                        <corr cert="high">-</corr>
+                    </choice> und Aufführungsrecht abgetreten haben soll.</p>
+                <p>Da ich mich nun genau daran erinnere, dass dieser Passus in unseren <lb/>früheren
+                    Abmachungen nicht erläutert wurde und dass Sie mir einmal, <lb/>als ich ihn
+                    beanstandete erklärten, es gienge aus „technischen Grün<g ref="#typoHyphen"/>
+                    <lb break="no"/>den“ nicht, dass Sie nicht das <subst>
+                        <del rendition="#s">Verlagsrecht</del>
+                        <add place="sublinear">Urheber- und Aufführungsrecht</add>
+                    </subst>
+                     besitzen; da ich weiters <lb/>keine Ahnung hatte, dass damit
+                    <lb/>eine Kürzung meiner Tantièmenanteile auf ein Drittel zusammenhängt, <lb/>da
+                    ich <subst>
+                        <del rendition="#ow">mich</del>
+                        <add place="across">mir</add>
+                    </subst> der Tragweite dieses Passus nicht bewusst war und Sie sie  <lb/>mir
+                    auch nicht erklärt haben; da mir weiters bekannt ist, dass fast alle
+                    <lb/>Verleger sich mit dem Verlagsrecht begnügen und ich weiters weiss, dass
+                    <lb/>eine grosse Anzahl mir dem Namen nach bekannter Autoren Ihres Verlages
+                    <lb/>ebenfalls nur das Verlagsrecht an Sie abgetreten haben, nehme ich an,
+                    <lb/>dass es nur auf einem Irrtum beruht, dass man gerade <hi rendition="#u">mir</hi>, der ich der  <lb/>älteste und vielleicht auch verdienstvollste
+                    unter Ihren lebenden  <lb/>Autoren bin, dieses ungünstigere Formular zur
+                    Unterschrift hingelegt  <lb/>hat und dass Sie nicht die Absicht hatten, gerade
+                    mich schlechter zu  <lb/>stellen, als andere.</p>
+                <p>Ich erwarte darum, dass Sie mir umgehend (meine Anmeldung verzögert sich
+                    <lb/>sonst) eine rechtsverbindliche und auf all<choice>
+                        <sic>l</sic>
+                        <corr type="deleted"/>
+                    </choice>e meine Werke, also auf unseren  <lb/>ganzen Vertrag sich beziehende
+                    Erklärung geben, welche diesen merkwürdi<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen Fall aus der Welt schafft.</p>
+                <closer rendition="#r">
+                    <salute>Mit besten Grüssen, Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

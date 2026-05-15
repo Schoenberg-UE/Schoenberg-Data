@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20010"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 25. November 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20010</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20010</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-11-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.2">Berlin, Kantstraße 4</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.7189"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20010_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20010_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1750">Dr. K</persName>/<persName key="pers.4374">L.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1927-11-25">25.
+                            November 1927</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin.Charlottenburg</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.2">Kantstr. 4</placeName> IV.<choice>
+                                <sic>c</sic>
+                                <corr type="deleted"/>
+                            </choice>r.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir erlauben uns, Ihnen <lb/>Folgendes zu Ihrer freundlichen Information
+                    mitzuteilen:</p>
+                <p>Frau <persName key="pers.1105">Maria FREUND</persName>, <placeName key="place.4.4">Paris</placeName>, <lb/>welcher wir entsprechend Ihrem
+                    Wunsche ein Notenmaterial <lb/>der „<bibl sameAs="werke.22">Waldtaube</bibl>“
+                    für Kammerorchester geschickt haben, <lb/>schreibt uns, dass sie dieses Lied in
+                    der <bibl sameAs="werke.146">eingezogenen <lb/>grossen Besetzung</bibl>
+                    <seg type="comment">
+                        <orig>aufführen</orig>
+                        <note xml:id="nu2n_w5l_3gc" resp="#KBleier">
+                            <ref target="event.72"/>
+                        </note>
+                    </seg> möchte. Da wir für
+                        <del rendition="#s">einzelne</del>
+                    <note hand="#unknown" place="right">
+                        <!-- steno -->
+                        <hi rendition="#st">
+                            <unclear reason="illegible" cert="high">Konzert</unclear>
+                        </hi>
+                    </note>
+                    <lb/>Aufführungen des „Waldtauben“-Liedes speziell die Kammer<g ref="#typoHyphen"/>
+                    <lb break="no"/>orchesterausgabe drucken haben lassen, so existiert von der
+                    <lb/>eingezogenen grossen Besetzung ausser der eingerichteten
+                    <lb/>Vorlagenpartitur nur ein Material, welches sich derzeit <lb/>in <seg type="comment">
+                        <orig>
+                            <placeName key="place.10.2">Leningrad</placeName>
+                        </orig>
+                        <note xml:id="nfqx_bfm_3gc" resp="#KBleier"><ref target="event.232"/>; <ref target="event.233"/>
+                        </note>
+                    </seg> befindet und daher für die
+                        <placeName key="place.4.4">Pariser</placeName> Aufführung <lb/>nicht in
+                    Betracht kommt. Wir haben daher Frau <persName key="pers.1105">Freund</persName>
+                        tele<g ref="#typoHyphen"/>
+                    <lb break="no"/>graphiert, dass wir ihr, wenn sie die „Waldtaube“ nicht <lb/>in
+                    der Kammerorchesterbesetzung aufführen will, nur die <pb n="2" xml:id="p.2"/>Originalbesetzung zur Verfügung stellen können.</p>
+                <closer>
+                    <salute>
+                        <seg rendition="#c">In vorzüglicher Hochachtung</seg>
+                        <lb/>
+                        <seg rendition="#r">ergebenst</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#unknown"><!-- steno -->
+                    <hi rendition="#st">Wir haben auf
+                        alle Fälle das <placeName key="place.10.2">Leningr.</placeName> Material
+                        telef. zurück verlangt <lb/>nachdem dort die Aufführung vor einigen Tagen
+                        stattgefunden hat.</hi>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

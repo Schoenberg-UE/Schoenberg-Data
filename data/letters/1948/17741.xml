@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17741"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 22. Jänner 1948</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17741</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17741</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1948-01-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.4617"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.17741">Aufführungsverzeichnis, 22. Jänner 1948</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17741_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17741_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">WIEN</hi>, I.,</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</addrLine>
+                    </address>
+                    <seg rendition="#c">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.416">Be</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1948-01-22">22.
+                            Jänner 1948</date>.</dateline>
+                    <address>
+                        <addrLine>Mr.</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham
+                            Avenue</placeName>,</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Los Angeles</hi>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Besten Dank für den <ref target="letter.4617">Brief</ref> vom <date when="1948-01-10">10. Jänner</date>. Die <lb/>
+                    <ref target="document.17741">Aufstellung</ref> für die <orgName key="org.22">ASCAP</orgName> liegt bei.
+                    Da die <lb/>Mehrzahl der Kammermusikaufführungen von gekauf<g ref="#typoHyphen"/>
+                    <lb break="no"/>tem Material stattgefunden haben, wird die Liste <lb/>auf jeden
+                    Fall nur einen Bruchteil der wirklichen <lb/>Aufführungen darstellen und kann
+                    höchstens zur <lb/>Kontrolle für Stichproben benutzt werden, aber <lb/>nicht die
+                    Grundlage für die Abrechnung darstellen. <lb/>Die <orgName key="org.93">IGNM</orgName>, <persName key="pers.2207">Loriod</persName> und <persName key="pers.3591">Stadlen</persName> werden noch separate <lb/>
+                    <seg type="comment">
+                        <orig>Aufstellungen</orig>
+                        <note xml:id="naty_zpf_q1c" resp="#pkehrer"><ref target="letter.17742">Universal-Edition an
+                                Arnold Schönberg, 26. Jänner 1948</ref>; Yvonne Loriod an Arnold
+                            Schönberg, 9. Februar 1948 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B139158">ASCC 13915</ref>); Peter
+                            Stadlen an Arnold Schönberg, 23. Februar 1948 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B169310">ASCC
+                                16931</ref>)</note>
+                    </seg> schicken.</p>
+                <p>Unsere Herstellungssorgen sind noch immer gross. <lb/>Ich würde aber alles daran
+                    setzen, ein neues Werk <lb/>von Ihnen, sei es nun die deutsche Ausgabe der
+                        <lb/>„<bibl sameAs="schriften.27">Konstruktiven Funktionen der
+                        Harmonie</bibl>“ in ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>hältnismässig kurzer Zeit herauszubringen.</p>
+                <p>Sollen die „<bibl sameAs="schriften.25">Models for beginners</bibl>“
+                    nicht auch in <lb/>einer deutschen Ausgabe erscheinen? Da sie ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>hältnismässig geringen Umfang haben, wäre
+                    so et<g ref="#typoHyphen"/>
+                    <lb break="no"/>was leicht zu machen.</p>
+                <p>Und was ist mit der <bibl sameAs="schriften.26">Kompositionslehre</bibl>? Sollten
+                    <lb/>wir den ersten Band nicht gleichzeitig in deut<g ref="#typoHyphen"/>
+                    <lb break="no"/>scher Sprache erscheinen lassen?</p>
+                <closer>
+                    <salute rendition="#c">Ergebenste Grüsse</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">1 <ref target="document.17741">Beilage</ref>
+                    </hi>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#u">P. S.</hi> Die Noten für Mr. <persName key="pers.2098">Langlie</persName> sind, soweit <lb/>sie vorrätig waren, schon
+                        unterwegs.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

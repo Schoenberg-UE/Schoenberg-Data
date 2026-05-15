@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2779"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 16. September 1935</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2779</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2779</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1.2">Los Angeles, 5860 Canyon Cove</placeName>
+                    <date when="1935-09-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.20252"/>
+                    <ref type="answered-by" target="letter.20254"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2779_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2779_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <note place="mTop" hand="#unknown">50 $ <!-- steno --><hi rendition="#st">an
+                            <persName key="pers.3281">Georg</persName>
+                        <lb/>Telegramm</hi>
+                    <gap reason="illegible" unit="words" quantity="1"/>
+                </note>
+                <note place="mTop" hand="#unknown">
+                    <hi rendition="#u">Dr. <persName key="pers.1750">K.</persName>
+                    </hi>
+                    <!-- steno -->
+                    <hi rendition="#st">zurück</hi>
+                </note>
+                <opener>
+                    <dateline>
+                        <date when="1935-09-16">16.IX.1935</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Dr <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p>ich habe im <date when="1935-12">December</date> hier einen <seg type="comment">
+                        <orig>Orchester<g ref="#typoHyphen"/>
+                            <lb break="no"/>abend</orig>
+                        <note xml:id="nps3_psf_vcc" resp="#pkehrer">
+                            <p>
+                                <ref target="event.69"/>
+                            </p>
+                            <p>Laut Southern California Symphony Association an Arnold Schönberg,
+                                19. September 1935 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B216543">ASCC 21654</ref>), waren zunächst zwei Konzerte am 26. und 27.
+                                Dezember geplant. In Florence M. Irish an Arnold Schönberg, 26.
+                                November 1935 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B168909">ASCC 16890</ref>), wird als Termin nur noch der 27. Dezember
+                                genannt</p>
+                        </note>
+                    </seg> mit nur eigenen Werken zu dirigieren <lb/>und da ich diesmal
+                    nicht wieder aufsitzen <lb/>möchte, schreibe ich bereits heute, obwohl das
+                    <lb/>definitive Programm erst in 8–10 Tagen fixiert <lb/>sein wird, um Sie zu
+                    bitten, dafür <hi rendition="#uu">sofort</hi>
+                    <lb/>(bitte vielmal: wirklich sofort – ein Brief <lb/>dauert 3 Wochen, ein
+                    Pakett 6!) dafür Sorge <lb/>zu tragen, dass <orgName key="org.23">Ass.
+                        Publ.</orgName>
+                    <hi rendition="#u">tadellose</hi> Ma<g ref="#typoHyphen"/>
+                    <lb break="no"/>teriale der in Frage kommenden Werke <lb/>vorrätig haben.</p>
+                <p>Es stehen in Frage:</p>
+                <table cols="2">
+                    <row>
+                        <cell>1. Teile aus den <bibl sameAs="werke.146">Gurreliedern</bibl>
+                            <lb/>(aus allen 3 Teilen</cell>
+                        <cell rows="2">beides <lb/>
+                            <hi rendition="#u">in der <lb/>von <persName key="pers.3612">Stein</persName> besorgten</hi>
+                            <lb/>
+                            <hi rendition="#uu">Reduction</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>2. <bibl sameAs="werke.147">Pelleas und Melisande</bibl>
+                            <lb/>(beide)</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>3. <bibl sameAs="werke.11">Sechs Orchester Lieder op 8</bibl>
+                        </cell>
+                        <cell/>
+                    </row>
+                </table>
+                <p>Bitte sorgen Sie für die bestkorrigierten <lb/>Materiale, denn ich habe <hi rendition="#u">sehr wenig Proben!!</hi>
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Ich muss augenblicklich 10 Tage im <lb/>Bett liegen; ich habe mich angeblich beim
+                    <lb/>Tennis überanstrengt.</p>
+                <p>Bitte sagen Sie <persName key="pers.3612">Erwin Stein</persName> meine
+                    <lb/>innigste Teilnahme <seg type="comment">
+                        <orig>zum Tod seines <lb/>
+                            <persName key="pers.3614">Vaters</persName> und beste Wünsche für seine
+                                Gesund<g ref="#typoHyphen"/>
+                            <lb break="no"/>heit</orig>
+                        <note xml:id="nen5_11y_k1c" resp="#pkehrer">Davon berichtete Alban Berg an
+                            Arnold Schönberg, 28. August 1935 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B194772">ASCC
+                                19477</ref>)</note>
+                    </seg>. Ich bin sehr überarbeitet und kann <lb/>keine Briefe schreiben.</p>
+                <closer rendition="#inline">
+                    <salute>Mit vielen herzlichsten <lb/>Grüßen an Sie und alle Freunde und besten
+                        <lb/>Dank im Voraus Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                    <address>
+                        <lb/>
+                        <addrLine>
+                            <persName key="pers.3263">SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.1.2">5860 CANYON COVE</placeName>
+                        </addrLine>
+                        <addrLine>HOLLYWOOD – CAL</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

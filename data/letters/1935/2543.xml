@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2543"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 14. Jänner 1935</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2543</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2543</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-I6XZLIU9">ASGA B 9</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1.2">Los Angeles, 5860 Canyon Cove</placeName>
+                    <date when="1935-01-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.20241"/>
+                    <ref type="answered-by" target="letter.20246"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2543_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2543_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.37">
+                        <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        <lb/>
+                        <placeName key="place.15.7.1.2">5860 CANYON COVE</placeName>
+                        <lb/>HOLLYWOOD, CALIFORNIA<lb/>TEL. HEMPSTEAD 1095</stamp>
+                    <dateline>
+                        <lb/>14.I.1935</dateline>
+                    <address>
+                        <addrLine>Herrn Direktor Dr. <persName key="pers.1750">Kalmus</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>I<choice>
+                                <sic>V</sic>
+                                <corr type="deleted"/>
+                            </choice>. <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">Wien</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr Dr. <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p>vor Allem sage ich Ihnen meinen herz<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichsten Dank für alles, was Sie für <persName key="pers.3281">Görgi</persName> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>tan haben. Es ist wirklich sehr, sehr lieb von <lb/>Ihnen, dass
+                    Sie mir in dieser schweren Sorge <lb/>geholfen haben und sich <persName key="pers.3281">Görgis</persName> so annehmen. <lb/>Ich wünsche herzlichst,
+                    Ihnen meinen Dank be<g ref="#typoHyphen"/>
+                    <lb break="no"/>weisen zu können!</p>
+                <p>Ferner danke ich Ihnen vielmals für <lb/>die Verzollung der Weihnachtssendungen
+                    und bin <lb/>sehr froh, dass es gelungen ist, sie ohne Zoll
+                    <lb/>herauszukriegen. Bitte sagen Sie auch dem
+                    Herrn<!-- nicht identifiziert -->, <lb/>der das besorgt hat meinen herzlichsten
+                    Dank. <lb/>Darf ich das gelegentlich wieder tun? Ich habe <lb/>soviele Leute in
+                        <placeName key="place.9.11">Wien</placeName>, für die ich gerne etwas
+                    <lb/>tun möchte. Wenn ich nur in der Lage wäre! Aber <lb/>leider: davon ist es
+                    noch weit entfernt, obwohl <lb/>ich voller Hoffnung bin.</p>
+                <p>Des Weiteren bestätige ich mit Dank den <lb/>Empfang der
+                    Noten, und zwar von meinen Werken:
+                        Gurre<g ref="#typoHyphen"/>
+                    <lb break="no"/>lieder <bibl sameAs="werke.16">Partitur</bibl> und <bibl
+                        sameAs="werke.17">Kl. A.</bibl>, <bibl sameAs="werke.44">Friede auf
+                        Erden</bibl>, <bibl sameAs="werke.64">Variati<g ref="#typoHyphen"/>
+                        <lb break="no"/>onen</bibl> (Part) und <bibl sameAs="schriften.1"
+                        >Harmonielehre</bibl>: ferner <persName key="pers.385">Bergs</persName>
+                    <bibl sameAs="werke.90">Symph. <lb/>Stücke</bibl>, eine fabelhaft schöne <seg
+                        type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.20242/#nlv4_xf1_y5b"/>
+                    </seg> und ein gross<g ref="#typoHyphen"/>
+                    <lb break="no"/>artiges Stück, über das ich <persName key="pers.385"
+                        >Berg</persName> noch <seg type="comment">
+                        <orig>schreiben werde</orig>
+                        <note xml:id="nnwb_442_ngc" resp="#TMuxeneder">
+                            <persName key="pers.3263">Schönberg</persName> bedankte sich für die
+                            Widmung musikalisch. Anlässlich von <persName key="pers.385"
+                                >Bergs</persName> 50. Geburtstag am <date when="1935-02-09">9.
+                                Februar 1935</date> sandte er nebst einem Gedicht und einem
+                            Gratulationsschreiben die Reinschrift eines Geburtstagskanons mit
+                            einigen <bibl sameAs="werke.91">Lulu</bibl>-Anspielungen (Arnold
+                            Schönberg an Alban Berg, 22. Jänner 1935; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B025485">ASCC
+                                2548</ref>; Alban Berg an Arnold Schönberg, 9. Februar 1935; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B194865">ASCC
+                                19486)</ref></note></seg>.</p>
+                <p>Ich habe mich entschlossen, der <orgName key="org.5">AKM</orgName> beizutre<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten und bitte Sie, meine Mitgliedschaft auf dem kür<g ref="#typoHyphen"/>
+                    <lb break="no"/>zesten Wege zu bewirken, so dass womöglich noch die
+                    <lb/>Aufführungsanteile aus dem vergangenen Jahr, die in <lb/>
+                    <placeName key="place.15">Amerika</placeName> allein ziemlich zahlreich waren,
+                        mitverrech<g ref="#typoHyphen"/>
+                    <lb break="no"/>net werden, da ich ja in dieser Zeit von keiner Sei<g ref="#typoHyphen"/>
+                    <lb break="no"/>te etwas bekommen habe.</p>
+                <p>Mittlerweile haben Sie wohl das <bibl sameAs="schriften.106">Journal</bibl> <lb/>erhalten. Die Abfassung, der Druck und die Versen<g ref="#typoHyphen"/>
+                    <lb break="no"/>dung an circa 100 Menschen haben mich 10 Tage Ar<g ref="#typoHyphen"/>
+                    <lb break="no"/>beit gekost<choice>
+                        <sic>t</sic>
+                        <corr type="deleted"/>
+                    </choice>et. Und ich hoffe, es wird niemand be<g ref="#typoHyphen"/>
+                    <lb break="no"/>leidigt sein, dass ich ihm nicht extra geschrieben <lb/>habe,
+                    denn ich habe in der ganzen Zeit hier nur ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>faullenzt, wenn ich zu müd war.</p>
+                <p>Was <persName key="pers.3281">Görgi</persName> weiter anbelangt, so muss ich
+                    <lb/>Sie bitten, ihm zu sagen, dass davon keine Rede sein <lb/>kann, dass ich
+                    ihm monatlich $ 50 sende. Wenn ich ihm <lb/>etwas senden kann, werde ich es tun;
+                    sofern er es <lb/>braucht. Aber ich kann mich vorläufig absolut nicht
+                    <lb/>verpflichten. Ich wollte ja das grosse Opfer brin<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, ihn hieher kommen zu lassen, weil ich Hoffnung <lb/>
+                    <choice>
+                        <sic>habe, dass er sich hier selbst erhält</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <pb n="2" xml:id="p.2"/>habe, dass er sich hier selbst erhält. Auf Ihr <seg type="comment">
+                        <orig>Tele<g ref="#typoHyphen"/>
+                            <lb break="no"/>gramm</orig>
+                        <note xml:id="nclf_m3q_5xb" resp="#pkehrer">Vermutlich <ref target="letter.20241">Universal-Edition an Arnold Schönberg, 18.
+                                Dezember 1934</ref>
+                        </note>
+                    </seg> hin habe ich diesmal noch der Auszahlung zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>gestimmt, könnte es aber in Hinkunft nicht verspre<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen. Dagegen habe ich vorgestern an Sie eine <bibl sameAs="werke.145">Suite</bibl>, <lb/>die ich hier für Schülerorchester
+                    geschrieben habe, <lb/>
+                    <seg type="comment">
+                        <orig>geschickt</orig>
+                        <note xml:id="nrvz_njk_z5b">Photographische Reproduktion der Partitur (<rs type="bibl" key="zotero-4528359-I6XZLIU9">ASGA B 9</rs>, Quelle
+                            B2*)</note>
+                    </seg>. Er soll unverzüglich <add place="intralinear">
+                        <hi rendition="#circle">1</hi>
+                    </add>
+                    <note place="left" hand="#author">
+                        <metamark>
+                            <hi rendition="#circle">1</hi>
+                        </metamark> womöglich in 14 Tagen!</note> die Stimmen auf
+                    <lb/>Lichtpauspapier schreiben, <add place="intralinear">
+                        <metamark/>
+                    </add>
+                    <note place="left" hand="#author">
+                        <metamark/> Die geteilten <del rendition="#s">
+                            <unclear reason="illegible" cert="high">Str</unclear>
+                        </del> Instrumente, soweit <lb/>es die Deutlichkeit und Les<g ref="#typoHyphen"/>
+                        <lb break="no"/>barkeit verlangt, auseinander<g ref="#typoHyphen"/>
+                        <lb break="no"/>schreiben, da man mit <lb/>Schülern rechnen muss.</note> da
+                        si<supplied cert="high">e</supplied> hier bestellt sind. <lb/>Eventuell
+                    werde ich auch den Druck in <placeName key="place.9">Oesterreich</placeName>
+                    <lb/>machen lassen, wenn ich dafür durch Ihre Protektion <lb/>einen wirklich
+                    billigen Preis bekomme, so dass ich <lb/>nicht wieder prozessieren muss. Wenn
+                    Sie so freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich wären, anzufragen, ohne meinen Namen zu nennen, <lb/>so
+                    wäre mir das sehr angenehm. Wahrscheinlich wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>de ich dieser Tage mit einem <rs type="org" key="org.70">Verleger</rs> hierüber ab<lb break="no"/>schliessen (ich hoffe dringendst,
+                    denn ich benötige <lb/>es sehr) und der wird dann über alles weitere ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheiden. Die <seg type="comment">
+                        <orig>Erstaufführung</orig>
+                        <note xml:id="nfwb_kq2_ngc" resp="#KBleier">
+                            <ref target="event.253"/>
+                        </note>
+                    </seg> wird voraussichtlich <lb/>in der <orgName key="org.204">Juilliardschule</orgName> erfolgen, wohin man mich für <lb/>nächsten Winter
+                    haben will. Aber ich weiss nicht, <lb/>ob ich das <placeName key="place.15.8">New Yorker</placeName> Klima noch einmal riskieren <lb/>kann. Das Geld wird
+                        <persName key="pers.3281">Görgi</persName> nicht früher bekommen, <lb/>als
+                    bis er die Arbeit abgeliefer<supplied cert="high">t</supplied> hat. Höchstens
+                    <lb/>könnte man ihm, sobald er die Hälfte abliefert, ein <lb/>Drittel als
+                    Vorschuss geben. Ich werde dieser Tage <lb/>abschliessen und dann einen Scheck
+                    an Sie senden, <lb/>bitte Sie aber eventuell vorher für mich auszuzah<g ref="#typoHyphen"/>
+                    <lb break="no"/>len. Als Preis muss er sich einstweilen mit dem in <lb/>
+                    <placeName key="place.9.11">Wien</placeName> üblichen begnügen. Sollte ich mehr
+                    erreichen <lb/>können, so will ich es ihm gerne verschaffen. Wie<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="left" hand="#author">?????</note>viel bezahlen Sie
+                    hiefür?</p>
+                <p>Seien Sie mir nicht böse, dass ich Sie <lb/>wieder damit befasse, aber ich weiss
+                    Niemand, der <lb/>das besser betreiben könnte, als Sie. Und deshalb <lb/>danke
+                    ich Ihnen auch sehr für Ihre Bemühungen, die <lb/>Voraussetzungen für seine
+                    Uebersiedlung nach <lb/>
+                    <placeName key="place.15">Amerika</placeName> (vorraussichtlich nach <placeName key="place.15.8">New York</placeName>) zu schaffen.</p>
+                <p>Vor Kurzem waren Sie freundlich, mich an <lb/>
+                    <persName key="pers.385">Bergs</persName> 50. Geburtstag zu erinnern und ich
+                    möchte <lb/>unter allen Umständen diesen Zeitpunkt diesmal <lb/>nicht versäumen.
+                    Ich nehme an, dass Sie ein Heft <lb/>des <orgName key="org.7">Anbruch</orgName>
+                    rechtzeitig herausbringen können und <lb/>wenn ich etwas fertig habe, so sende
+                    ich es für die<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen Zweck. Sollte das aber nicht möglich sein, dann
+                    <lb/>überlasse ich es Ihrem Gutdünken, ob Sie es dem <lb/>
+                    <persName key="pers.2923">Reich</persName> geben
+                    wollen oder an einen besseren Ort.</p>
+                <closer>Nun habe ich, glaube ich, alles erledigt <lb/>und danke Ihnen nochmals
+                    herzlichst. <salute>Viele Grüsse, <lb/>auch an Frl. <persName key="pers.3067">Rothe</persName> und Dr <persName key="pers.4190">Winter</persName>, <lb/>
+                        <seg rendition="#r">Ihr</seg>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                </closer>
+                <lb/>
+                <postscript>
+                    <p>Bitte schreiben Sie mir nicht mehr Professor, das <lb/>war „bestenfalls“ mein
+                        deutscher Titel!</p>
+                    <p>NB: Die <bibl sameAs="werke.3">Kammersymphonie für Orchester</bibl> habe ich
+                        schon <lb/>
+                        <seg type="comment">
+                            <orig>auf Lichtpauspapier angefangen</orig>
+                            <note xml:id="nw13_1v1_vcc" resp="#pkehrer">Vermutlich
+                                Transparentreinschrift, autograph (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=627&amp;werke_id=229&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 12, Quelle
+                                A</ref>)<!--. Arnold Schönberg an Georg
+                                    Schönberg, 21. Februar 1935 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B025563">ASCC
+                            2556</ref>) enthält den Auftrag zur Herstellung der Stimmen, ohne dass die Übernahme durch einen Verlag zu diesem Zeitpunkt gesichert war --></note>
+                        </seg>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

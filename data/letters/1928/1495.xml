@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1495"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 28. August 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1495</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1495</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                            <biblScope unit="page" from="301" to="301"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                    <date when="1928-08-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1928-09-01" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17774"/>
+                    <ref type="answered-by" target="letter.17775"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1495_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1495_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.20">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>PROFESSOR AN DER <orgName key="org.197">AKADEMIE DER KÜNSTE ZU BERLIN</orgName>
+                    </stamp>
+                    <dateline>
+                        <date when="1928-08-28">28.VIII.1928</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Roquebrune-Cap Martin</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.6.1">Pavillon Sévigné</placeName>
+                        </addrLine>
+                        <addrLine>Frankreich</addrLine>
+                    </address>
+                </opener>
+                <note place="right" hand="#addressee">
+                    <date when="1928-08-18">18.VIII.</date> a <lb/>
+                    <orgName key="org.98">Kontophot</orgName>
+                    <lb/>
+                    <gap reason="illegible" unit="chars" quantity="2"/>
+                </note>
+                <salute>PT <orgName key="org.1">UE.</orgName>
+                </salute>
+                <p rendition="#inline">ich habe leider gar keine Noten mit mir, so dass ich <lb/>das
+                        <seg type="comment">
+                        <orig>Stück für Klavier</orig>
+                        <note sameAs="letter.17769/#nksg_s23_tcc"/>
+                    </seg> nach der Serenade aus <bibl sameAs="werke.54">Pierrot</bibl> nur <lb/>machen könnte, wenn Sie mir
+                    umgehend eine kleine Partitur <lb/>schicken würden.</p>
+                <p>Bis wann – <hi rendition="#g">spätestens</hi> – müssten Sie es denn
+               <lb/>haben?</p>
+                <p>Ich bleibe doch wahrscheinlich noch längere Zeit hier, weil <lb/>ich eigentlich
+                    trotz der Hitze hier recht gut gearbeitet <lb/>habe. Die <bibl sameAs="werke.64">Variationen für grosses Orchester</bibl>
+                    <seg type="comment">
+                        <orig>sind seit dem <lb/>
+                            <date when="1928-08-21">21.</date> fertig</orig>
+                        <note xml:id="nixk_wbr_fdc" resp="#pkehrer">Erste Niederschrift (<ref target="https://archive2.schoenberg.at/compositions/werke_einzelansicht.php?werke_id=230&amp;herkunft=allewerke">ASGA B 13, Quelle B</ref>)</note>
+                    </seg> und ich bin schon dabei,
+                    die <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="nn32_v4k_nzb" resp="#pkehrer">Partiturreinschrift, autograph
+                                (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=634&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 13, Quelle C</ref>)</note>
+                    </seg> fertig zu <lb/>machen. Ich könnte eventuell auch bald eine kleine Partie,
+                    <lb/>die ersten zwanzig Seiten, schicken. Aber ich warte bisher <lb/>vergebens
+                    darauf, dass Sie mir die Antwort der <placeName key="place.2.3">Berliner</placeName>
+                    <lb/>
+                    <orgName key="org.98">Kontophot</orgName>-Centrale endlich mitteilen: ob <add place="superlinear">sie</add> in <placeName key="place.4.11">Nizza</placeName> oder even<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuell in <placeName key="place.4.10">Marseille</placeName> eine
+                    Filiale hat.</p>
+                <p>Ist Herr Direktor <persName key="pers.1538">Herzka</persName> in <placeName key="place.9.11">Wien</placeName>? Wenn ja, so bitte ich, ihm ... <lb/>resp.: dann
+               lesen Sie ja, lieber Herr Direktor, ohnedies diesen <lb/>Brief selbst; also, wenn
+               nicht, so bitte, ihm vielmals und herzlichst <lb/>für sein freundliches Interesse für
+               meinen <rs type="person" key="pers.3281">Sohn</rs> zu danken. Ich <lb/>hätte längst
+               geschrieben: aber so oft die Hitze den Aufenthalt <lb/>am Schreibtisch zugelassen
+               hat, habe ich komponiert.</p>
+                <closer>
+                    <salute>Mit besten Grüssen und Empfehlungen bin ich, Ihr </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                  Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

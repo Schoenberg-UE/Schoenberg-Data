@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.150"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 7. März 1910</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.150</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 150</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-XFDLP3DV">Eisler
+                                1984</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-SQ55MUV6">Schönberg
+                                et al. 1969</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-XTI37KRZ">Schönberg
+                                1958</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-BILVHRHU">Schönberg
+                                1992</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-7GV7Y5HS">Jestremski-Hilmar 1993</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JR8BMXMV">Naumann
+                                1988</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-THVFD6XK">Nono-Schoenberg 1998</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-RHSDY8HP">Freitag-Schönberg 1973</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-4IDTMTDW">Schönberg
+                                1991a</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-TH89M3ES">Comini
+                                1984</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-TZAKED66">Kallir
+                                1984</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-WJ3THMHR">Peyser
+                                1971</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-Q2XMWI78">Vezin-Vezin
+                                1992</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EL3MAVJ6">Meibach
+                                1984</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-49ZGE6RA">Schoenberg
+                                1964</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-9Q5VPRLP">Schoenberg
+                                1983</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-96BGK8XF">Schoenberg
+                                1974</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-GZ93ZLVU">García Laborda 1989</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-FEPRWWWT">Romano
+                                1969</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-BILVHRHU">Schönberg
+                                1992</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-S66B3FL2">Freitag-Schönberg 1982</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-DE3U5QIJ">Schoenberg
+                                1965</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1910-03-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-01-11+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/150_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.150_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1910-03-07">7/3.1910</date>
+                    </dateline>
+                </opener>
+                <salute>Verehrter Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                <p rendition="#inline">durch die Dazwischenkunft <persName key="pers.3301">Schrekers</persName> kam ich <lb/>nicht dazu noch eine Sache mit Ihnen zu
+                    besprechen.</p>
+                <p>Ich möchte Sie nämlich ersuchen, mir womöglich irgend eine Arbeit <lb/>(Revision,
+                    Klavierauszug oder dergl) für die <orgName key="org.1">Universal
+                        Edition</orgName> zu <lb/>geben, da ich genötigt bin, mein Einkommen
+                    irgendwie zu ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>größern. Sie wissen ich habe heuer wenig Stunden. Mein
+                    <lb/>Einkommen hat sich verringert, meine Ausgaben haben sich erhöht. <lb/>Ich
+                    muss da etwas thun. Aus dem Verlag werde ich doch, wie <lb/>es scheint nicht
+                    sehr bald etwas bekommen. Vor Allem aber <lb/> brauche ich <hi rendition="#u">jetzt</hi> sehr dringend Geld. Ich denke Sie werden schon <lb/>irgend eine
+                    Arbeit für mich finden (eventuell Instrumenta<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion?).</p>
+                <p>Aber ich wollte <add place="superlinear">Ihnen</add> noch etwas anderes sagen.
+                    Sie wissen, <seg type="comment">
+                        <orig>dass ich <lb/>male</orig>
+                        <note xml:id="ns4q_2pt_zfc" resp="#TMuxeneder">Das bildnerische Werk
+                                <persName key="pers.3263">Arnold Schönbergs </persName>umfasst 347
+                            Werknummern. Die Mehrzahl der Gemälde, Zeichnungen und Designs entstand
+                            in den Jahren <date when="1906">1906</date> bis <date when="1911"
+                                >1911</date> (<rs type="bibl" key="zotero-4528359-IXI33IZE"
+                                >Schönberg 2005</rs>)</note>
+                    </seg>. Aber Sie wissen nicht, dass meine Arbeiten von Sachver<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ständigen sehr gelobt werden. Ich soll auch nächstes Jahr <seg
+                        type="comment">
+                        <orig>ausstellen</orig>
+                        <note xml:id="npll_l5t_zfc" resp="#TMuxeneder">
+                            <date when="1910-10-08">8. Oktober 1910</date>, <placeName
+                                key="place.9.11">Wien</placeName>, Ausstellung im <orgName
+                                key="org.84">Kunstsalon Heller</orgName> (<rs type="bibl"
+                                key="zotero-4528359-HA8GTJJQ">Bienenfeld 1910</rs>, S. 18f.); <date
+                                when="1911-12-18">18. Dezember 1911</date>–<date when="1912-01-01"
+                                >1. Jänner 1912</date>, <placeName key="place.2.24"
+                                >München</placeName>, Galerie Thannhauser; Erste Ausstellung der
+                            Redaktion <orgName key="org.48">Der Blaue Reiter</orgName> (Gabriele
+                            Münter, Fotos der Ausstellung Der Blaue Reiter; <ref
+                                target="https://archive.schoenberg.at/resources/?r=4262">ASCI
+                                PH8037</ref>, <ref
+                                target="https://archive.schoenberg.at/resources/?r=4261">ASCI
+                                PH8063</ref>, <ref
+                                target="https://archive.schoenberg.at/resources/?r=4263">ASCI
+                                PH8038</ref>); <date when="1912-01-06">6.</date>– Ende <date
+                                when="1912-01">Jänner 1912</date>, <placeName key="place.14.1"
+                                >Budapest</placeName>, Künstlerhaus, Ausstellung der
+                            Neukunst-Gruppe, <placeName key="place.9.11">Wien</placeName> (<rs
+                                type="bibl" key="zotero-4528359-U5CA5BRQ">Pester Lloyd
+                            1912</rs>)</note>
+                    </seg>. <lb/>Und da denke ich, vielleicht könnten Sie bekannte Mäcene
+                    <lb/>veranlassen, mir Bilder abzukaufen, oder sich von mir <lb/>malen zu lassen.
+                    Ich bin gerne bereit Ihnen <del rendition="#s">als</del> ein Probe<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>bild zu machen. Ich möchte Sie unentgeltlich malen, wenn
+                    <lb/>Sie mir zusichern, dass Sie mir dann Aufträge verschaffen. <lb/>Nur dürfen
+                    Sie den Leuten nicht sagen, dass Ihnen meine <lb/>Bilder gefallen <hi
+                        rendition="#u">werden</hi>. Sondern Sie müssen Ihnen <lb/>begreiflich
+                    machen, dass Ihnen meine Bilder gefallen <lb/>müssen, weil sie von
+                    Fachautoritäten gelobt wurden<unclear reason="illegible" cert="high">;</unclear>
+                    <lb/>und vor Allem aber, dass es doch <subst>
+                        <del rendition="#s">höchst</del>
+                        <add place="superlinear">viel</add>
+                    </subst> interessanter ist <lb/>von einem Musiker meines Rufes gemalt zu werden
+                    oder <lb/>ein Bild zu besitzen, als von irgend einem Kunsthandwerker,
+                    <lb/>dessen Namen in 20 Jahren kein Mensch mehr kennt, <lb/>während meiner schon
+                    heute der Musikgeschichte angehört. <lb/>Ich verlange für ein <seg
+                        type="comment">
+                        <orig>Porträt</orig>
+                        <note xml:id="nxgb_gjd_bgc" resp="#TMuxeneder">Die portraitierten Personen
+                            entstammen dem persönlichen Umfeld <persName key="pers.3263"
+                                >Schönbergs</persName>. Familie: <persName key="pers.3290"
+                                >Mathilde</persName>, <rs type="person" key="pers.3284"
+                                >Gertrude</rs> und <persName key="pers.3281">Georg
+                                Schönberg</persName>, <persName key="pers.4310">Clara</persName> und
+                                <persName key="pers.4309">Alexander Zemlinsky</persName>; Freunde,
+                            Schüler, Interpret:innen: <persName key="pers.386">Helene
+                                Nahowski</persName> und <persName key="pers.385">Alban
+                                Berg</persName>, <persName key="pers.4124">Karl</persName> und
+                                <persName key="pers.4125">Etta Werndorff</persName>; Personen des
+                            Wiener Kulturlebens: Musikwissenschaftler <persName key="pers.531">Hugo
+                                Botstiber</persName> und Galerist <persName key="pers.1535">Hugo
+                                Heller</persName> (<rs type="bibl" key="zotero-4528359-IXI33IZE"
+                                >Schönberg 2005</rs>)</note>
+                    </seg>
+                    <add place="superlinear">in Lebensgröße</add> 2 bis sechs Sitzungen <lb/>und
+                    zweihundert bis 400 Kronen. Das ist doch sehr billig, <pb n="2" xml:id="p.2"
+                    />wenn man bedenkt, dass man für diese Bilder in 20 Jahren <lb/>das 10fache und
+                    40 Jahren das 100fache bezalen wird. <lb/>Das wissen Sie wol selbst und ich
+                    hoffe Sie machen über eine <lb/>so ernste Sache keine schlechten Witze, sondern
+                    nehmen <lb/>sie so ernst, wie sie ist.</p>
+                <p>Ich bin also, wie gesagt bereit, <seg type="comment">
+                        <orig>Ihr
+                            Porträt</orig>
+                        <note xml:id="nfzx_fqt_zfc" resp="#TMuxeneder">Arnold
+                            Schönberg, Emil Hertzka, Öl auf Pappe, Catalogue raisonné 86 (<ref target="https://archive.schoenberg.at/resources/?r=8848">ASCI
+                                CR086</ref>; <rs type="bibl" key="zotero-4528359-IXI33IZE">Schönberg
+                                2005</rs>, S. 161, 91)</note>
+                    </seg> als Probebild
+                    <lb/>unentgeltlich zu malen, wenn Sie mir zusichern, dass ich darauf<g ref="#typoHyphen"/>
+                    <lb break="no"/>hin Aufträge erhalte. Allerdings aber: darauf lasse ich
+                    <lb/>mich nicht ein, dass der Ankauf eines Bildes davon abhängt <lb/>ob es dem
+                    Besteller gefällt. Der Besteller weiß, wer <lb/>malt; er muß auch wissen, dass
+                    er nichts davon versteht, <lb/>dass aber das Bild Kunstwert oder doch mindestens
+                    historischen <lb/>Wert hat.</p>
+                <p>Ich wäre Ihnen sehr dankbar, wenn Sie mir in dieser <lb/>Hinsicht helfen wollten
+                    und glaube Sie würden sich <hi rendition="#u">nicht <lb/>nur um mich</hi> ein
+                    Verdienst erwerben, wenn Sie darin <lb/>nicht <placeName key="place.9.11">wienerisch</placeName>, sondern großzügig: weltbürgerisch <lb/>denken
+                    wollten.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Bitte bestellen Sie das <bibl sameAs="werke.16">Gurre</bibl>
+                    <seg type="comment">
+                        <orig>Notenpapier</orig>
+                        <note sameAs="letter.6903/#nor5_f2t_zfc"/>
+                    </seg> sofort. <lb/>Ich habe trotz
+                    meiner von Ihnen boshafterweise als <lb/>„gefährliche Drohung“
+                    aufgefassten Bemerkung schon <lb/>mit Vorarbeiten <seg type="comment">
+                        <orig>begonnen</orig>
+                        <note xml:id="nb51_fvd_bgc" resp="#KBleier">
+                            <persName key="pers.3263">Schönberg</persName> nahm nach über
+                            sechsjähriger Unterbrechung die Arbeit an den <bibl sameAs="werke.16">Gurre-Liedern</bibl> wieder auf (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3,</rs> S.
+                    25)</note>
+                    </seg>.</p>
+                <closer rendition="#inline">
+                    <salute>Herzl Gruß</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

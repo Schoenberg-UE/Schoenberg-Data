@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7009"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 10. Oktober 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7009</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7009</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa Lepcke</placeName>
+                    <date when="1912-10-10" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7009_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7009_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>, Berlin-Zehlendorf-Wannseebahn
+                     <lb/>
+                        Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline>
+                        <date when="1912-10-10">10/10.
+                  1912</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">
+                    <date when="1912-10-09">gestern</date> war die <seg type="comment">
+                        <orig>Generalprobe</orig>
+                        <note xml:id="nsvd_bfc_1fc" resp="#KBleier">
+                            <ref target="event.144"/>
+                        </note>
+                    </seg>
+                    <lb/>am <date when="1912-10-16">16.</date> ist die <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nfq4_2fc_1fc" resp="#KBleier">
+                            <ref target="event.145"/>
+                        </note>
+                    </seg> des „<bibl sameAs="werke.54">Pierrot</bibl>“. Sie kommen <lb/>doch!! Am <date when="1912-10-13">13</date> halte ich meinen <seg type="comment">
+                        <orig>
+                            <bibl sameAs="schriften.50">Mahler-Vortrag</bibl>
+                        </orig>
+                        <note xml:id="niyx_3fc_1fc" resp="#KBleier">
+                            <ref target="event.143"/>
+                        </note>
+                    </seg>. –</p>
+                <p>– Zu den <bibl sameAs="werke.16">Gurre Liedern</bibl> einiges sehr
+               Wichtige.</p>
+                <p>I. Ich wüßte nun endlich gern was los ist! <lb/>Kommt <hi rendition="#u">eine
+                            <seg type="comment">
+                            <orig>Aufführung</orig>
+                            <note xml:id="nstz_bcn_bgc" resp="#KBleier">
+                                <p>
+                                    <ref target="event.47"/>
+                                </p>
+                                <p>Im Zuge der
+                                Terminplanung stand auch die Aufführung im Rahmen der Musikfestwoche
+                                im <date when="1913-06">Juni 1913</date> im Raum, die insbesondere
+                                wegen Beteiligung hochkarätiger Künstler:innen attraktiv erschien
+                                (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B
+                                16/3</rs>, S. 41)</p>
+                            </note>
+                        </seg> zustande oder nicht?</hi>
+                    <lb/>Ich reiße mich gar nicht sehr um diese Musikfest<g ref="#typoHyphen"/>
+                    <lb break="no"/>woche. Aber wenn<hi rendition="#u"> es dort ist, dann möchte ich
+                        <lb/>gerne selber dirigieren</hi>. <persName key="pers.3301">Schreker</persName> könnte <lb/>mir diesen Dienst leisten. Er hat das ja
+                    <lb/>jetzt nicht mehr nötig, mit dem Dirigieren <lb/>Erfolg zu haben, während
+                    ich es brauche! <lb/>Und dann: es ist doch sicher, dass der <lb/>Autor, die
+                    Sache noch anders macht, als selbst <lb/>der beste Interpret. Vielleicht klopfen
+                    Sie <lb/>einmal bei <persName key="pers.3301">Schreker</persName> an.</p>
+                <p>II. Was ich von der Besetzung <seg type="comment">
+                        <orig>höre</orig>
+                        <note xml:id="nwdp_v2n_bgc" resp="#KBleier">
+                            <persName key="pers.3263">Schönberg</persName> paraphrasiert <persName key="pers.385">Alban
+                                Bergs</persName> Bericht und Meinungsäußerung zu den
+                            Konzertplanungen (Alban Berg an Arnold Schönberg, 6. Oktober 1912; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B197973">ASCC
+                                19797</ref>)</note>
+                    </seg> ist <lb/>schrecklich: <hi rendition="#uu">die <persName key="pers.894">Drill-Orrigde</persName> ist un<g ref="#typoHyphen"/>
+                        <lb break="no"/>möglich.</hi> Das seelenloseste, was es giebt. <pb n="2" xml:id="p.2"/>Eine Kuh! Ich will, dass an ihr<supplied cert="high">er</supplied> Stelle <lb/>
+                    <hi rendition="#u">Frau <persName key="pers.1105">Maria Freund</persName>
+                    </hi> (Breslau, <placeName key="place.2.6.1">Kaiser-<lb break="no"/>Wilhelmstr.
+                        139</placeName>) singt. Die ist ausgezeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>net. Ich habe sie gehört und habe mit Ihr <lb/>,
+                        <hi rendition="#u">dass Sie ihr den <bibl sameAs="werke.17">Klavierauszug</bibl>
+                    </hi>
+                    <lb/>
+                    <hi rendition="#uu">schicken</hi>!! Sobald er <seg type="comment">
+                        <orig>erscheint</orig>
+                        <note sameAs="letter.6937/#nby2_n3f_bgc"/>
+                    </seg>!!! Sagen Sie <lb/>das dem <persName key="pers.3301">Schreker</persName>. – Auch <hi rendition="#u">
+                        <persName key="pers.4299">Wyß</persName>
+                    </hi> soll recht <lb/>gut sein! Und wer ist der <hi rendition="#uu">Tenor</hi>?
+                    <lb/>Davon höre ich gar nichts mehr!! Ich schlage <lb/>vor: <hi rendition="#u">
+                        <persName key="pers.2497">Nachod</persName>
+                    </hi> (der die Partie in <placeName key="place.9.11">Wien</placeName>
+                    <lb/>schon <seg type="comment">
+                        <orig>gesungen hat</orig>
+                        <note xml:id="nanb_kgn_bgc" resp="#KBleier">
+                            <p>
+                                <ref target="event.85"/>
+                            </p>
+                            <p>
+                                <persName key="pers.3263">Schönberg</persName> war bereits an seinen
+                                Cousin <persName key="pers.2497">Hans Nachod</persName>
+                                herangetreten und hatte avisiert, dass dieser die ihm noch neuen
+                                Teile der Partie des Waldemar nach gutem Studium mit <persName
+                                    key="pers.3263">Schönberg</persName> durchnehmen müsse.
+                                    <persName key="pers.2497">Nachod</persName> reagierte
+                                „[h]ocherfreut“ und stellte sich „mit Begeisterung“ zur Verfügung
+                                (Arnold Schönberg an Hans Nachod, 23. Juli 1912; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064443"
+                                    >ASCC 6444</ref>; Hans Nachod an Arnold Schönberg, 4. August
+                                1912; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B145782"
+                                    >ASCC 14578</ref>)</p>
+                        </note>
+                    </seg>) und <hi rendition="#u">
+                        <persName key="pers.3999">Waschmann</persName>
+                    </hi>! <lb/>
+                    <persName key="pers.3441">Seidler</persName> soll nicht besonders gut sein.
+                    Stimmlich <lb/>schon, aber sonst – ! –</p>
+                <p>Nun das Wichtigste:</p>
+                <p>III. Sie sagten, die <seg type="comment">
+                        <orig>Partiturausgabe</orig>
+                        <note sameAs="letter.6981/#nsww_54v_jgc"/>
+                    </seg> die Sie drucken <lb/>lassen,
+                    werde zum Dirigieren nicht geeignet sein. <lb/>Sie wollten dazu Abschriften <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear">im</add>
+                    </subst> großen Format <lb/>anfertigen lassen.</p>
+                <p>Ich schlage etwas besseres vor, das billiger ist und, <lb/>wie mir scheint, viel
+               Zukunft hat.</p>
+                <p>Nämlich:</p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Lassen S<supplied cert="high">ie</supplied> ein <hi rendition="#u">
+                        <seg type="comment">
+                            <orig>Particell</orig>
+                            <note xml:id="nakc_pzp_jgc" resp="#KBleier">
+                                <persName key="pers.3263">Schönbergs</persName> Idee
+                                wurde nicht realisiert</note>
+                        </seg>
+                    </hi> machen. Es <lb/>wäre das
+                    ein Partitur-Auszug (der alle Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sangsstimmen etc so bringt, wie ein gewöhnlicher
+                    <lb/>Klavier-Auszug, die Orchesterpartie aber <lb/>auf 2–<subst>
+                        <del rendition="#ow">4</del>
+                        <add place="across">5</add>
+                    </subst> oder 6 Systemen, partiturartig, <lb/>aber nicht zum Klavierspielen. Bei
+                    jeder <lb/>Stimme steht die genaue Instrumentations-<lb break="no"/>Angabe. Das
+                    wäre zum Dirigieren sehr <lb/>angenehm! Beim Studieren kann man <lb/>die <subst>
+                        <del rendition="#s">große</del>
+                        <add place="superlinear">gedruckte</add>
+                    </subst> Partitur benutzen! <del rendition="#s">Die</del> Das ganze <lb/>hätte
+                    dann kein so <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> großes Format und <lb/>wäre also sehr bequem. Außerdem wäre Alles <lb/>im
+                    Violin- und Baßschlüssel. Auch eine Erleichterung. <lb/>Ich bin überzeugt, dass,
+                    wenn Sie das autogra<g ref="#typoHyphen"/>
+                    <lb break="no"/>fieren lassen, es noch immer nicht teurer <lb/>kommt, als 2 oder
+                    3 Abschriften der Partitur. <lb/>Diese Abschriften werden ja doch wenigstens
+                    <lb/>700–800 Mark kosten! Und dann wimmeln <lb/>sie von Fehlern! <hi rendition="#u">
+                        <persName key="pers.385">Berg</persName>
+                    </hi> könnte diesen <lb/><seg type="comment"><orig>Auszug machen</orig><note
+                            xml:id="np2h_ybq_jgc" resp="#KBleier">Alban Berg an Arnold
+                            Schönberg, 22. Oktober 1912 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B198001">ASCC
+                                19800</ref>); Arnold Schönberg an Alban Berg, 27. Oktober 1912
+                                (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B061736"
+                                >ASCC 6173</ref>)</note></seg>. Der hat Intelligenz und <lb/>viel
+                    praktische Einfälle und würde das sehr <pb n="4" xml:id="p.4"/>schön lösen. –
+                    Vielleicht könnte man es <lb/>so einrichten, dass man die Platten des <lb/>
+                    <bibl sameAs="werke.17">Klavierauszuges</bibl>, dort wo Chor etc vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommt teilweise benützt. Das muss doch <lb/>technisch möglich
+                    sein. Bitte schreiben <lb/>Sie mir gleich darüber. Fragen Sie auch <lb/>
+                    <persName key="pers.3301">Schreker</persName>, ob ihm das nicht zum Dirigieren
+                    <lb/>sehr angenehm wäre. Freilich: Die <lb/>Instrumentationsbezeichnung müsste
+                    sehr <lb/>groß und deutlich und systematisch sein. <lb/>Fragen Sie auch
+                        <persName key="pers.4273">Wöß</persName>, der versteht ja so <lb/>viel von
+                    diesen Dingen. (herzl Gruß an ihn).</p>
+                <closer>Ich hoffe Sie bald zu sehen <salute>und grüße <lb/>Sie einstweilen herzlichst
+                  Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

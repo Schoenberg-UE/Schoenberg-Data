@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.23855"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an F. M. Geidel, 6. Juni 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.23855</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 23855</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1.1">Mariendorf, Berliner Straße 17a</placeName>
+                    <date when="1914-06-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1206">Geidel, Johannes</persName>
+                    <orgName key="org.65">F. M. Geidel</orgName>
+                    <placeName key="place.2.20.7">Leipzig, Wittenberger Straße 23</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.23854"/>
+                </correspContext>
+                <note>Ort erschlossen aus Arnold Schönberg an Heinrich Jalowetz, 6. Juni 1914 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B237507">ASCC 23750</ref>); angeklebt an <ref target="letter.23854">F. M.
+                        Geidel an Universal-Edition, 3. Juni 1914</ref>; die mit Ziffern
+                    nummerierten Absätze beziehen sich auf dortige Stellen, die von <persName key="pers.3263">Schönberg</persName> mit einem Kreuz markiert wurden.</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/23855_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.23855_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <p>Ich habe geglaubt, Ihre Fragen deutlich und klar beantwortet zu <lb/>haben. Nun
+                    sehe ich mit Bedauern, dass Sie meine ausführlichen <lb/>Auseinandersetzungen
+                    nicht genügend beachtet haben.</p>
+                <p>Ich schrieb wörtlich:</p>
+                <p rendition="#ll">„Es ist gar kein Unglück, sieht auch besser aus und ist
+                    <lb/>lesbarer, wenn auf einer einsystemigen Platte nur 24 cm <lb/>der Höhe
+                    bedruckt sind, als wenn Ueberflüssiges dort steht. <lb/>Die <seg type="comment">
+                        <orig>Partituren</orig>
+                        <note xml:id="nmkl_ph5_ldc" resp="#KBleier">
+                            <bibl sameAs="werke.7">Erwartung op. 17</bibl>
+                        </note>
+                    </seg> dienen
+                    einzig und allein <hi rendition="#u">praktischen</hi>
+                    <lb/>Zwecken und je besser sie denen entsprechen, desto schöner <lb/>sind sie.
+                    Jede andere Schönheit ist Mumpitz.“</p>
+                <p>Ich habe geglaubt, dass dieser Hinweis: <lb/>
+                    <hi rendition="#u">Lesbarkeit</hi>
+                   = <hi rendition="#u">Schönheit</hi>
+                    <lb/>von Ihnen zur Kenntnis genommen werden wird.</p>
+                <p>Ich habe gedacht, Sie werden einsehen, dass die <lb/>Partituren <lb/>für die <hi rendition="#u">Dirigenten</hi> und <hi rendition="#u">Musiker</hi> sind
+                    <lb/>und dass man denen die Mühe der Entzifferung <lb/>so weit wie möglich zu
+                    erleichtern hat!!!</p>
+                <p>
+                    <seg rendition="#lll #llr">
+                        <anchor type="target" xml:id="start_yr2_k34_3tb"/>
+                        <hi rendition="#circle">1</hi>
+                        <anchor type="target" xml:id="stop_yr2_k34_3tb"/> Deshalb ist es also durchaus
+                   nicht an<g ref="#typoHyphen"/>
+                        <lb break="no"/>gebracht, durchaus <hi rendition="#uu">falsch</hi>, 2 Stimmen
+                   die auf <lb/>einer Zeile stehen können, auf 2 zu stechen!!</seg>
+                    <lb/>Insbesondere, da
+                   meist die Akkorde leichter zu lesen <lb/>sind, wenn möglichst viel davon
+                   (2–3 Töne) in einer <lb/>Zeile stehen.</p>
+                <p>Eine <hi rendition="#uu">Ausnahme</hi> davon machen natürlich <lb/>Zeilen, in
+                    denen zwei rhytmisch verschiedene <lb/>Stimmen stehen z Bsp: Seite 3, <choice>
+                        <orig>V<hi rendition="#sup #uu">cll</hi>
+                        </orig>
+                        <reg>Violoncello</reg>
+                    </choice>, 2 Takt:
+                    <lb/>
+                    <seg type="row" rendition="#lr">
+                        <seg type="column" rendition="#m">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <staffDef n="1" lines="5" clef.line="4" clef.shape="C"/>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <space dur="4"/>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.visible="false">
+                                                    <rest dur="8"/>
+                                                    <rest dur="8"/>
+                                                    <clef line="4" shape="F" visible="false"/>
+                                                    <note pname="c" accid="s" oct="4" dur="8" stem.dir="up"/>
+                                                </tuplet>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.visible="false">
+                                                    <note pname="d" accid="s" oct="4" dur="4" stem.dir="up"/>
+                                                    <note pname="d" accid="n" oct="4" dur="8" stem.dir="up"/>
+                                                </tuplet>
+                                            </layer>
+                                            <layer n="2">
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.visible="false">
+                                                    <rest dur="8"/>
+                                                    <beam>
+                                                        <chord dur="8" stem.dir="down" xml:id="m1s1l2c1">
+                                                            <note pname="c" accid="s" oct="4"/>
+                                                            <note pname="e" accid="f" oct="4"/>
+                                                        </chord>
+                                                        <chord dur="8" stem.dir="down">
+                                                            <note pname="c" accid="n" oct="4"/>
+                                                            <note pname="f" accid="n" oct="4"/>
+                                                        </chord>
+                                                    </beam>
+                                                </tuplet>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.visible="false">
+                                                    <chord dur="4" stem.dir="down">
+                                                        <note pname="c" accid.ges="n" oct="4"/>
+                                                        <note pname="f" accid.ges="n" oct="4"/>
+                                                    </chord>
+                                                    <clef line="4" shape="F"/>
+                                                    <chord dur="8" stem.dir="down" xml:id="m1s1l2c4">
+                                                        <note pname="d" accid="s" oct="3"/>
+                                                        <note pname="g" accid="s" oct="3"/>
+                                                    </chord>
+                                                </tuplet>
+                                            </layer>
+                                        </staff>
+                                        <dir staff="1" layer="1" place="above" tstamp="1.5">Solo</dir>
+                                        <slur staff="1"
+                                              layer="2"
+                                              curvedir="below"
+                                              startid="#m1s1l2c1"
+                                              endid="#m1s1l2c4"/>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                        <seg type="column" rendition="#m">das ist besser in <lb/>2 Zeilen:</seg>
+                        <seg type="column">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <staffDef n="1"
+                                                      lines="5"
+                                                      clef.line="4"
+                                                      clef.shape="C"
+                                                      clef.visible="false"/>
+                                            <staffDef n="2"
+                                                      lines="5"
+                                                      clef.line="4"
+                                                      clef.shape="C"
+                                                      clef.visible="false"/>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <rest dur="4"/>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.place="above">
+                                                    <rest dur="8"/>
+                                                    <rest dur="8"/>
+                                                    <clef line="4" shape="F" visible="false"/>
+                                                    <note pname="c" accid="s" oct="4" dur="8" stem.dir="down"/>
+                                                </tuplet>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.visible="false">
+                                                    <note pname="d" accid="s" oct="4" dur="4" stem.dir="down"/>
+                                                    <note pname="d" accid="n" oct="4" dur="8" stem.dir="down"/>
+                                                </tuplet>
+                                                <rest dur="4"/>
+                                            </layer>
+                                        </staff>
+                                        <staff n="2">
+                                            <layer n="1">
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.place="below">
+                                                    <rest dur="8"/>
+                                                    <beam>
+                                                        <chord dur="8" stem.dir="down">
+                                                            <note pname="c" accid="s" oct="4"/>
+                                                            <note pname="e" accid="f" oct="4"/>
+                                                        </chord>
+                                                        <chord dur="8" stem.dir="down">
+                                                            <note pname="c" accid.ges="n" oct="4"/>
+                                                            <note pname="f" oct="4"/>
+                                                        </chord>
+                                                    </beam>
+                                                </tuplet>
+                                                <tuplet dur="4"
+                                                        num="3"
+                                                        numbase="2"
+                                                        bracket.visible="false"
+                                                        num.place="below">
+                                                    <chord dur="4" stem.dir="down">
+                                                        <note pname="c" accid.ges="n" oct="4"/>
+                                                        <note pname="f" accid.ges="n" oct="4"/>
+                                                    </chord>
+                                                    <clef line="4" shape="F"/>
+                                                    <chord dur="8" stem.dir="down">
+                                                        <note pname="d" accid="s" oct="3"/>
+                                                        <note pname="g" accid="s" oct="3"/>
+                                                    </chord>
+                                                </tuplet>
+                                                <rest dur="2"/>
+                                            </layer>
+                                        </staff>
+                                        <dir staff="1" layer="1" place="above" tstamp="0.5">Solo Vcll</dir>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                    </seg>
+                    <lb/>
+                    <seg rendition="#c">oder: Seite 3; Takt 2, <choice>
+                            <orig>Flöten</orig>
+                            <reg>Flöte</reg>
+                        </choice>
+                    </seg>
+                    <lb/>
+                    <seg type="row">
+                        <seg type="column" rendition="#m">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <staffDef n="1"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false"/>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <rest dur="8"/>
+                                                <beam>
+                                                    <chord dur="16" stem.dir="up">
+                                                        <note pname="g" oct="4"/>
+                                                        <note pname="b" accid="f" oct="4"/>
+                                                    </chord>
+                                                    <chord dur="16" stem.dir="up">
+                                                        <note pname="d" oct="4"/>
+                                                        <note pname="g" oct="4"/>
+                                                    </chord>
+                                                </beam>
+                                                <chord dur="8" stem.dir="up">
+                                                    <note pname="d" oct="4"/>
+                                                    <note pname="g" oct="4"/>
+                                                    <note pname="b" accid.ges="f" oct="4"/>
+                                                </chord>
+                                            </layer>
+                                            <layer n="2">
+                                                <space dur="8"/>
+                                                <beam>
+                                                    <note pname="d" oct="4" dur="16" stem.dir="down"/>
+                                                    <note pname="b" accid="f" oct="4" dur="16" stem.dir="down"/>
+                                                </beam>
+                                            </layer>
+                                        </staff>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                        <seg type="column" rendition="#m">besser:</seg>
+                        <seg type="column">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <label>Fl</label>
+                                            <staffDef n="1"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false">
+                                                <label>1. 2</label>
+                                            </staffDef>
+                                            <staffDef n="2"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false">
+                                                <label>3.</label>
+                                            </staffDef>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <rest dur="8"/>
+                                                <beam>
+                                                    <chord dur="16" stem.dir="up">
+                                                        <note pname="g" oct="4"/>
+                                                        <note pname="b" accid="f" oct="4"/>
+                                                    </chord>
+                                                    <chord dur="16" stem.dir="up">
+                                                        <note pname="d" oct="4"/>
+                                                        <note pname="g" oct="4"/>
+                                                    </chord>
+                                                </beam>
+                                                <chord dur="8" stem.dir="up">
+                                                    <note pname="g" oct="4"/>
+                                                    <note pname="b" accid.ges="f" oct="4"/>
+                                                </chord>
+                                            </layer>
+                                        </staff>
+                                        <staff n="2">
+                                            <layer n="1">
+                                                <rest dur="8"/>
+                                                <beam>
+                                                    <note pname="d" oct="4" dur="16" stem.dir="down"/>
+                                                    <note pname="b" accid="f" oct="4" dur="16" stem.dir="down"/>
+                                                </beam>
+                                                <note pname="d" oct="4" dur="8" stem.dir="down"/>
+                                            </layer>
+                                        </staff>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                    </seg>
+                    <lb/>
+                    <seg rendition="#c">oder Seite 4, 2. System, 3. Takt, <choice>
+                            <orig>Fl</orig>
+                            <reg>Flöte</reg>
+                        </choice> u <choice>
+                            <orig>Pic</orig>
+                            <reg>Piccolo</reg>
+                        </choice>
+                    </seg>
+                    <lb/>
+                    <seg type="row">
+                        <seg type="column" rendition="#m">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <staffDef n="1"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false"/>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <rest dur="4"/>
+                                                <rest dur="16"/>
+                                                <note pname="e"
+                                                      oct="6"
+                                                      dur="8"
+                                                      dots="1"
+                                                      stem.dir="up"
+                                                      xml:id="e1m1s1l1n1"/>
+                                                <beam>
+                                                    <note pname="e" oct="6" dur="8" stem.dir="up" xml:id="e1m1s1l1n2"/>
+                                                    <note pname="f" oct="6" dur="16" stem.dir="up"/>
+                                                </beam>
+                                                <rest dur="16"/>
+                                            </layer>
+                                            <layer n="2">
+                                                <chord dur="2" dots="1" stem.dir="down">
+                                                    <note pname="g" accid="s" oct="4"/>
+                                                    <note pname="b" accid="n" oct="4"/>
+                                                </chord>
+                                            </layer>
+                                        </staff>
+                                        <dir staff="1" layer="1" place="above" tstamp="1">kl Fl</dir>
+                                        <tie staff="1"
+                                             layer="1"
+                                             curvedir="below"
+                                             startid="#e1m1s1l1n1"
+                                             endid="#e1m1s1l1n2"/>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                        <seg type="column" rendition="#m">besser:</seg>
+                        <seg type="column">
+                            <notatedMusic place="inline">
+                                <section xmlns="http://www.music-encoding.org/ns/mei">
+                                    <scoreDef mnum.visible="false">
+                                        <staffGrp>
+                                            <staffDef n="1"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false">
+                                                <label>kl Fl.</label>
+                                            </staffDef>
+                                            <staffDef n="2"
+                                                      lines="5"
+                                                      clef.line="2"
+                                                      clef.shape="G"
+                                                      clef.visible="false">
+                                                <label>gr Fl</label>
+                                            </staffDef>
+                                        </staffGrp>
+                                    </scoreDef>
+                                    <measure n="1" right="invis">
+                                        <staff n="1">
+                                            <layer n="1">
+                                                <rest dur="4"/>
+                                                <rest dur="16"/>
+                                                <note pname="e"
+                                                      oct="6"
+                                                      dur="8"
+                                                      dots="1"
+                                                      stem.dir="up"
+                                                      xml:id="e2m1s1l1n1"/>
+                                                <beam>
+                                                    <note pname="e" oct="6" dur="8" stem.dir="up" xml:id="e2m1s1l1n2"/>
+                                                    <note pname="f" oct="6" dur="16" stem.dir="up"/>
+                                                </beam>
+                                            </layer>
+                                        </staff>
+                                        <staff n="2">
+                                            <layer n="1">
+                                                <chord dur="2" dots="1" stem.dir="up">
+                                                    <note pname="g" accid="s" oct="4"/>
+                                                    <note pname="b" accid="n" oct="4"/>
+                                                </chord>
+                                            </layer>
+                                        </staff>
+                                        <tie staff="1"
+                                             layer="1"
+                                             curvedir="above"
+                                             startid="#e2m1s1l1n1"
+                                             endid="#e2m1s1l1n2"/>
+                                    </measure>
+                                </section>
+                            </notatedMusic>
+                        </seg>
+                    </seg>
+                    <lb/>aber Seite 8, 1. System, 4. Takt Solo <choice>
+                        <orig>B<hi rendition="#sup #uu">r</hi>
+                        </orig>
+                        <reg>Viola</reg>
+                    </choice>
+                    <lb/>besser in 2 Zeilen (eventuell!!)
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Dagegen sind folgende Stellen <hi rendition="#uu">besser</hi> in <hi rendition="#uu">einer</hi> Zeile als in 2: <lb/>Seite 6, Takt 5, die <hi rendition="#u">
+                        <choice>
+                            <orig>B<hi rendition="#sup #uu">r</hi>
+                            </orig>
+                            <reg>Viola</reg>
+                        </choice>
+                    </hi>; Seite 7, Takt 2, die <choice>
+                        <orig>Clar.</orig>
+                        <reg>Klarinette</reg>
+                    </choice> und die <hi rendition="#u">
+                        <choice>
+                            <orig>Fag</orig>
+                            <reg>Fagott</reg>
+                        </choice>.</hi>
+                    <lb/>Seite 5, 1. System, Takt 1 die <hi rendition="#rectangle">
+                        <choice>
+                            <orig>Ktrbsse</orig>
+                            <reg>Kontrabass</reg>
+                        </choice>
+                    </hi> Seite 9, 2. Syst, 6. Takt, <choice>
+                        <orig>Ob</orig>
+                        <reg>Oboe</reg>
+                    </choice> und <choice>
+                        <orig>Klar</orig>
+                        <reg>Klarinette</reg>
+                    </choice>. </p>
+                <p>
+                    <anchor type="target" xml:id="start_rlp_bk4_3tb"/>
+                    <hi rendition="#circle">2.</hi>
+                    <anchor type="target" xml:id="stop_rlp_bk4_3tb"/> Zusammenziehungen nur bei
+                    Instrumenten der gleichen Gattung, die die <lb/>gleiche Notierung haben!!!</p>
+                <closer rendition="#inline">
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                    <date when="1914-06-06">6./6.1914</date>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1308"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 25. April 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1308</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1308</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1927-04-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-04-26" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.19911"/>
+                    <ref type="response-to" target="letter.19913"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1308_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1308_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1927-04-25">25<choice>
+                                <sic>!</sic>
+                                <corr cert="high">.</corr>
+                            </choice>IV.1927</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">UE</orgName>
+                </salute>
+                <p rendition="#inline">aus den letzten <seg type="comment">
+                        <orig>Briefen</orig>
+                        <note xml:id="nwxq_mwc_gzb" resp="#pkehrer">
+                            <ref target="letter.19911">Universal-Edition an Arnold Schönberg, 22.
+                                April 1927</ref>; <ref target="letter.19913">Universal-Edition an
+                                Arnold Schönberg, 23. April 1927</ref>
+                        </note>
+                    </seg> glaube ich den Stil des Herrn <lb/>Direktor <persName key="pers.1538">Herzka</persName> zu erkennen. Auch von ihm würde ich die Grobhe<supplied cert="high">i</supplied>t <lb/>des <ref target="letter.19913">Briefes</ref>
+                    vom <date when="1927-04-23">2<subst>
+                            <del rendition="#ow">2</del>
+                            <add place="across">3</add>
+                        </subst>
+                    </date>. Absatz 2: „Ihre Bemerkung.........dürfen wir <lb/>wohl
+                    übergehen“ nicht unwidersprochen hinnehmen, obwohl wir <lb/>ja immerhin alte
+                    Freunde sind. Den Unterzeichneten müsste ich <lb/>sie unbedingt <hi rendition="#u">sehr übelnehmen</hi> und darum wäre es mir erwünscht
+                    <lb/>wenn derjenige, den man am Stil erkennt, auch an der Unterschrift
+                    <lb/>kenntlich wäre. Sollte <choice>
+                        <sic>S</sic>
+                        <corr type="deleted"/>
+                    </choice>ich mich aber irren und sollte Herr Di<g ref="#typoHyphen"/>
+                    <lb break="no"/>rektor <persName key="pers.1538">Herzka</persName> noch krank
+                    sein, so bitte ich ihn herzlichst von <lb/>mir zu grüssen und gefälligst zur
+                    Kenntnis zu nehmen, dass man <lb/>eine <add place="superlinear">Bemerkung</add>
+                    von mir höchstens mit <hi rendition="#u">Stillschweigen</hi> übergehen dürfte.
+                    <lb/>Welches nämlich sehr beredt wäre – zu meinen Gunsten!</p>
+                <p>Zur Sache möchte ich erwähnen, dass meine Bemerkung keineswegs <lb/>irrtümlich
+                    ist, sondern auf der Tatsache beruht, dass ich Herrn <choice>
+                        <sic>D</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>Direktor <persName key="pers.1538">Herzka</persName> unzähligemale bat,
+                    meine <rs type="org" key="org.5">Autorenbanden</rs>-Angelegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit zu ordnen, dass ich mir das sogar bei Abschluss unseres
+                    <lb/>letzten Vertrages ausbedungen habe; mehr aber noch, dass ich <add place="intralinear">im</add>
+                    <lb/>
+                    <date when="1926-07">Juli</date> vorigen Jahres über Zureden des Herrn Direktors
+                    auf die <lb/>augenblickliche Regelung meines Verhältnisses verzichtete, da
+                    <lb/>er mir eine zufriedenstellende Lösung für den Herbst zuverläs<g ref="#typoHyphen"/>
+                    <lb break="no"/>sig versprach. So sieht nun die Zuverlässigkeit und so die Lö<g ref="#typoHyphen"/>
+                    <lb break="no"/>sung aus: dass ich nämlich <hi rendition="#g">heuer wieder keine
+                        <lb/>Tantiemen</hi> erhalten soll – wenn ich mich nicht zur <lb/>Wehre
+                    setze!</p>
+                <p>Aber vielleicht hat derjenige der den <ref target="letter.19911">Brief</ref> vom
+                        <date when="1927-04-22">22.</date>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4377">Ma.</persName>
+                    <pb n="2" xml:id="p.2"/>verfasst hat,
+                    Recht; vielleicht ist es wirklich besser diese <lb/>Sache bis zu meiner
+                        Rück<supplied cert="high">k</supplied>ehr (Anfangs <date when="1927-06">Juni</date>) zu verschieben. Man <lb/>würde sich gewiss unnötig ärgern. Und
+                    da ich augenblicklich <lb/>sehr angestrengt an einem grösseren<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice> Werke arbeite, darf ich <lb/>mich bei <hi rendition="#u">Ihrem</hi>
+                    besten Willen nicht ärgern.</p>
+                <p>Ich bin also, ohne meinem Standpunkt zu präjudizieren, bereit, <lb/>im <date when="1927-06">Juni</date> diese Fragen mündlich zu besprechen.</p>
+                <p>Da jedoch durch Ihren <ref target="document.23464">Antrag</ref>, durch meine <ref target="letter.7179">Antwort</ref> hierauf, durch <lb/>Ihre <ref target="letter.17681">Zurückziehung</ref> und meinen <ref target="letter.1297">Protest</ref> hiegegen soviel Zeit ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>flossen ist, die ich gerne zur
+                    Wettmachung meiner alljährlichen <lb/>Abrechnungsent<supplied cert="high">t</supplied>äuschung (das einzige was ich von der <orgName key="org.1">UE</orgName> derzeit <lb/>mit Sicherheit erwarten darf) benützt hätte, wozu
+                    mir in Aussicht <lb/>stehende sehr nette Angebote leicht verholfen hätten, so
+                    möchte <lb/>ich von Ihnen eine<supplied cert="high">n</supplied> Vorschuss auf
+                    meine Erträgnisse, also auf <lb/>konto „<hi rendition="#g">alte Werke</hi>“ von <hi rendition="#u">tausend</hi>
+                    Mark haben.<note place="mBottom" hand="#author">dessen umgehende <lb/>Einsendung
+                        mir <lb/>Ihre Zustimmung <lb/>zeigen würde</note> Sie nann<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Ihren vorigen <ref target="letter.19886">Brief</ref> eine Friedenstaube. Wir halten noch nicht
+                    <lb/>dabei, sondern erst bei den Präliminarien: ich will gerne mit <lb/>der
+                    schliesslichen Friedenspfeife rechnen, obwohl mir meine <lb/>Aerzte verbieten,
+                    so schlechtes zu rauchen. Dann will ich aber <lb/>vorher eine kleine Leistung
+                    meines Kontos alte Werke sehen, wel<g ref="#typoHyphen"/>
+                    <lb break="no"/>che ja
+                    auch nicht ohne sind: ohne Leistungen und ohne Erträgnis<lb break="no"/>se
+                        nicht; gewiss wenigstens in diesem Jahre!</p>
+                <closer>Bitte Herrn Direktor <persName key="pers.1538">Herzka</persName> auf alle Fälle meine herzlichsten <lb/>Grüsse.
+                        <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

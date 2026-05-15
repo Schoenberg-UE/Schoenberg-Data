@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16829"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 19. Juli 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16829</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16829</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1932-07-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1837"/>
+                    <ref type="response-to" target="letter.24449"/>
+                    <ref type="answered-by" target="letter.2256"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-12-12+02:00" who="KBleier">Ergänzung Schreibort</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16829_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16829_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1932-07-19">19.VII.1932</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich danke Ihnen herzlichst für <lb/>Ihre <seg type="comment">
+                        <orig>Karten</orig>
+                        <note xml:id="nbfs_j1q_3wb">
+                            <ref target="letter.1837">Arnold Schönberg an Erwin Stein, 17. Juli
+                                1932</ref> und <ref target="letter.24449">Arnold Schönberg an
+                                Universal-Edition, 17. Juli 1932 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <add place="superlinear">vom 17. d. M</add>. Ich hab sie Frl <persName
+                        key="pers.3067">Rothe</persName> und Dr <persName key="pers.1750"
+                        >Kalmus</persName> vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>gelesen. Offiziell müssen wir jetzt auf Ihre Antwort wegen
+                    <lb/>der mündlichen Fortsetzung der Verhandlungen warten. Wir <lb/>haben an der
+                    Hand Ihrer Karten die finanzielle Seite durch<g ref="#typoHyphen"/>
+                    <lb break="no"/>besprochen. Ich habe Dr <persName key="pers.1750">K.</persName>
+                    gefragt, was das äußerste Zuge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständnis in finanzieller Hinsicht ist, das er beim Verwaltungs<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>rat durchsetzen zu können glaubt. Ich bin leider nicht er<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>mächtigt, Ziffern zu nennen. Sie differieren aber <add
+                        place="superlinear">rein ziffernmäßig</add> nicht mehr <lb/>nennenswert von
+                    dem, was Sie sich vorstellen. Allerdings <lb/>meint <persName key="pers.1750"
+                        >Kalmus</persName>, daß Voraussetzung hiezu der vollständige
+                    <lb/>Friedensschluß, d. h. auch eine Einigung in den vertraglichen <lb/>Punkten
+                    wäre. – Ich würde Ihnen gerne jetzt doch ein paar <lb/>Ziffern nennen, aber ich
+                    weiß weder ob sie durchzusetzen sind, <lb/>noch ob Sie Ihnen akzeptabel
+                    scheinen. Sie differieren von dem, <lb/>was <persName key="pers.1750"
+                        >Kalmus</persName> sagte, weniger in der Höhe als in den Modalitäten.
+                    <lb/>Der <orgName key="org.1">U.E</orgName> ist es nämlich sehr wichtig, durch
+                    Gutschriften auf <lb/>altes Konto Ihr Konto abzudecken und sträubt sich deshalb,
+                    es <lb/>ganz freizugeben. Also: 1.) Bare Auszahlung von $ 800. Damit <lb/>würde
+                    der Verlag sagen, daß er Ihnen seine ganzen Eingänge aus <lb/>den <seg
+                        type="comment">
+                        <orig>4 <placeName key="place.15">amerikanischen</placeName>
+                            Aufführungen</orig>
+                        <note xml:id="naxk_hjw_cdc" resp="#pkehrer"><ref target="event.100"/>; <ref
+                                target="event.101"/>; <ref target="event.102"/>; <ref
+                                target="event.104"/>
+                        </note>
+                    </seg> der <bibl sameAs="werke.16">Gurrelieder</bibl> überläßt. <lb/>2.)
+                    Streichung von S. 10.000 vom Konto <hi rendition="#u">alte</hi> Werke. (Das
+                    Konto <pb n="2" xml:id="p.2"/>war am <date when="1932-01-01">1.I.32</date> mit
+                    ca S 18.000 <seg type="comment">
+                        <orig>belastet</orig>
+                        <note xml:id="njdg_fkw_cdc" resp="#pkehrer"><ref target="document.24067"
+                                >Abrechnung, 9. Februar 1932</ref>
+                        </note>
+                    </seg>).
+                    3.) Ausbezahlung <lb/>der <hi rendition="#u">halben</hi> Eingänge auf Konto alte
+                        <hi rendition="#u">und</hi> neue <subst>
+                        <del rendition="#ow">
+                            <del rendition="#s">
+                                <gap reason="illegible" quantity="1" unit="words"/>
+                            </del>
+                        </del>
+                        <add place="across">Werke</add>
+                    </subst>
+                    <lb/>vom <date when="1932-01-01">1.I.32</date>
+                    an. Bitte antworten Sie mir auf
+                    diesen Vorschlag <lb/>privat. Es ist nicht der Vorschlag der <orgName
+                        key="org.1">U.E.</orgName>
+                </p>
+                <p>Aber <hi rendition="#u">außerdem</hi> erwarte ich Ihre<del rendition="#s">n</del>
+                    <del rendition="#s">Vorschlag</del> Antwort wegen der <lb/>mündlichen
+                    Verhandlungen. Oder schreiben Sie diese Antwort <lb/>an den Verlag. Oder an mich per Adr. <orgName key="org.1">U.E.</orgName>
+                     Wie es Ihnen <lb/>besser paßt. Auf alle Fälle bitte
+                    ich Sie aber, Ihre beiden <lb/>Antworten getrennt zu halten und die wegen der
+                    finanziellen <lb/>Vorschläge an meine Privatadresse zu schicken. </p>
+                <closer>
+                    <salute rendition="#c">Mit den herzlichsten Grüßen  <lb/>
+                        <seg rendition="#r">Ihr</seg>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

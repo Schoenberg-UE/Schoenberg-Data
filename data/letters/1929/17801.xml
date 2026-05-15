@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17801"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 26. Februar 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17801</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17801</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1520">Heinsheimer, Hans</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1929-02-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.7.1.1.1">Monaco, Hotel Bristol Majestic</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17801_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17801_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, am <date when="1929-02-26">26. Februar 1929</date>
+                        </seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1520">Dr. Hei</persName>/<persName key="pers.4363">No</persName>/<persName key="pers.4358">W.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Monte Carlo</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.7.1.1.1">Hotel Bristol</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir erhalten soeben die Mitteilung <lb/>von Herrn Intendanten <persName key="pers.3226">Schmitt</persName> aus <placeName key="place.2.11">Duisburg</placeName>, dass <lb/>die <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nqnp_xh4_4dc" resp="#pkehrer">
+                            <ref target="event.122"/>
+                        </note>
+                    </seg> der <hi rendition="#u">„<bibl sameAs="werke.50">Glücklichen
+                            Hand</bibl>“</hi>, wie er <lb/>schreibt, „nicht nur ohne jeden
+                    Widerspruch aufge<g ref="#typoHyphen"/>
+                    <lb break="no"/>nommen wurde, sondern sogar einen erklecklichen <lb/>Erfolg für
+                    sich buchen konnte.“</p>
+                <p>Wir erlauben uns, Ihnen gleichzeitig <lb/>die erste uns soeben zugekommene <seg type="comment">
+                        <orig>Kritik</orig>
+                        <note xml:id="nvrz_ftt_ndc" resp="#pkehrer">Rezension aus dem Schönberg-Nachlass: <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12144&amp;action=view&amp;sortieren=&amp;vonBis=0-9998">Weber, 22. Februar 1929</ref>
+                        </note>
+                    </seg> über die<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen Abend zu übermitteln und fügen auch eine in <lb/>vier
+                    Fortsetzungen erschienene <seg type="comment">
+                        <orig>Darstellung</orig>
+                        <note xml:id="nhr1_pv1_rzb" resp="#pkehrer">Exemplare aus dem Schönberg-Nachlass: <ref target="https://archive.schoenberg.at/library/event.php?id_event=120&amp;action=view">Weber, 18.–21.Februar 1929</ref>
+                        </note>
+                    </seg> des <orgName key="org.60">Duisburger
+                        <lb/>Generalanzeigers</orgName> bei, die Sie interessieren dürfte. <lb/>Der
+                        <rs type="person" key="pers.4003">Verfasser</rs> ist der Chefredakteur des
+                    Blattes.</p>
+                <closer>
+                    <salute rendition="#c">Mit ergebenster Begrüssung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#c">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">pp <persName key="pers.1520">Heinsheimer</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

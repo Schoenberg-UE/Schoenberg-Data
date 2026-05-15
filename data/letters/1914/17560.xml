@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17560"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 10. August 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17560</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17560</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                    <date when="1914-08-10" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.367"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17560_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17560_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <note place="mTop" hand="#unknown">
+                        <orgName key="org.199">Länderbank</orgName>
+                    </note>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr.
+                            15–21</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                            9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                        57557.<lb/>Wien <seg hand="#author">
+                            <date when="1914-08-10">10. August 1914</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3">
+                                <hi rendition="#g #uda">Berlin</hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Nachdem Ihre <ref target="letter.367">Zuschrift</ref> vom <date when="1914-08-01">1. August</date> aus <placeName key="place.2.25">Murnau</placeName> erst
+                    Samstag <lb/>den <date when="1914-08-08">8.</date> hier eintraf, weiss ich
+                    nicht, wann Sie dieses Schreiben <lb/>erhalten werden, ich will Ihnen aber
+                    trotzdem antworten.</p>
+                <p>Ihre<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice> Abrechnung ist vor meiner Rückkehr aus <placeName key="place.5"
+                        >Mittelitalien</placeName>
+                    <lb/>erledigt worden und die Buchhaltung hat tatsächlich die neue <ref
+                        target="letter.17534">Abma<g ref="#typoHyphen"/>
+                        <lb break="no"/>chung</ref> bezgl. der „<bibl sameAs="schriften.1"
+                        >Harmonielehre</bibl>“ nicht berücksichtigt und Ihnen <lb/>weniger auszahlen
+                    lassen, als Ihnen gebührt hätte. Das ist mir <lb/>im vorliegenden Falle umso
+                    unangenehmer, als ich augenblicklich <lb/>
+                    <hi rendition="#ll" hand="#unknown">bei bestem Willen nicht imstande bin, Ihnen den
+                        Differenzbetrag <lb/>anweisen zu lassen, nachdem unsere <rs type="org"
+                            key="org.199">Bank</rs> im gegenwärtigen Moment <lb/>Zahlungen für uns
+                        überhaupt nicht leistet. <hi rendition="#u">Das <seg type="comment"
+                                    ><orig>Moratorium</orig><note xml:id="ndxr_53x_fgc"
+                                    resp="#TMuxeneder">Mit dem Ausbruch des Ersten Weltkriegs im
+                                    Juli/August <date when="1914">1914</date> geriet das Finanz- und
+                                    Wirtschaftssystem in Österreich-Ungarn unter enormen Druck. Es
+                                    bestand die Gefahr massenhafter Abhebungen und
+                                    Zahlungsunfähigkeit von Banken und Schuldnern. Das Moratorium
+                                    war eine Notmaßnahme, um die Zahlungsfähigkeit des Staats, der
+                                    Banken und der Bevölkerung in der ersten Phase des Kriegs zu
+                                    sichern. Es schränkte die sofortige Durchsetzung
+                                    privatrechtlicher Geldforderungen ein und begrenzte
+                                    Bargeldabhebungen, um eine Finanzkrise zu verhindern (<rs
+                                        type="bibl" key="zotero-4528359-W6MUX7XS">Kleinwächter
+                                        1916</rs>)</note></seg> wird</hi>
+                        <lb/>hier auf das Allerstrengste gehandhabt und wir wissen tatsächlich
+                        <lb/>nicht, wie die Sache werden wird. Zahlreiche grosse Fabriken</hi>
+                    <lb/>und Unternehmungen deren Inhaber als „steinreich“ galten und es
+                    <lb/>möglicherweise auch immer noch sind, müssen ihre Leute entlassen <lb/>und
+                    ihre Unternehmungen sperren, weil die Banken in zahlreichen <lb/>Fällen den
+                    Besitzern von grossen Bank-Depots nichteinmal die <pb n="2" xml:id="p.2"/>Löhne
+                    und Gehalte zur Verfügung stellen können oder wollen.</p>
+                <p>Heute war Herr <persName key="pers.3612">Stein</persName> bei mir, der sich
+                    überzeugt hat, dass <lb/>Ihnen der Rechnungsbetrag am <date when="1914-07-30">30. Juli</date> von der <orgName key="org.199">Länderbank</orgName> per
+                    <lb/>Postanweisung überwiesen wurde. Ich glaube also noch immer, dass <lb/>die
+                    Ausbezahlung des Betrages, wenn sie nicht inzwischen schon <lb/>erfolgt ist, in
+                    den allernächsten Tagen doch noch erfolgen wird. <lb/>Ich wünsche und hoffe,
+                    dass das Geld nicht <hi rendition="#uu" hand="#unknown">als „unbestellbar“ zu<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>rückgelangt, weil ich Ihnen in diesem Falle auch diesen Betrag
+                    <lb/>derzeit nicht überweisen könnte.</p>
+                <p>Auf Ihre Bemängelung bezgl. der in der Noten-Abrechnung <lb/>fehlenden Beträge
+                    erlaube ich mir zu bemerken, dass wir Ihnen <lb/>selbstverständlich Anteile nur
+                    von Einnahmen gutbringen und auszah<g ref="#typoHyphen"/>
+                    <lb break="no"/>len können und nicht etwa von Zahlungsversprechungen seitens
+                    irgend <lb/>einer Konzertvereinigung. Es unterliegt gar keinem Zweifel, dass
+                    <lb/>ein Tantièmenanteil als eine Gewinnbeteiligung nur im Falle einer
+                    <lb/>tatsächlichen Zahlung verrechnet werden kann und es ist auch in den
+                    <lb/>hunderten Abmachungen die wir in dieser Beziehung mit Autoren haben,
+                    <lb/>niemals diesbezüglich eine Divergenz entstanden. Alle Materialge<g ref="#typoHyphen"/>
+                    <lb break="no"/>bühren die Sie nicht verrechnet gefunden haben, sind eben nicht
+                    zur <lb/>Bezahlung gelangt.</p>
+                <p>Ich lasse Ihnen durch die Buchhaltung die von Ihnen gewünschten <lb/>Daten über
+                    die verkauften Materiale der <bibl sameAs="werke.2">Kammersymphonie</bibl>, etc.
+                        ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben. – Ihre Anschauung bzgl. der 12 1/2 % Tantième für die <bibl sameAs="werke.54">Pierrot-<lb break="no"/>Lieder</bibl> ist richtig und es
+                    wird vorgemerkt, dass Ihnen die Tantiemen <lb/>für dieses und die anderen,
+                    neuerscheinenden Werke 12 1/2 % be<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnet werden (für das 1 Exemplar wird Ihnen die Divergenz
+                        gutge<g ref="#typoHyphen"/>
+                    <lb break="no"/>bracht).</p>
+                <pb n="3" xml:id="p.3"/>
+                <closer>
+                    <salute>Mit herzlichen Grüssen <lb/>
+                        <seg rendition="#r">Ihr ganz ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

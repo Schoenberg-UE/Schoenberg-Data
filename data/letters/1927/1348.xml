@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1348"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 27. Juli 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1348</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1348</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.6.1">Pörtschach, Werzer Promenade 8</placeName>
+                    <date when="1927-07-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-07-28" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.19924"/>
+                    <ref type="answered-by" target="letter.19954"/>
+                    <ref type="answered-by" target="letter.19958"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1348_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1348_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Pörtschach a/See</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.6.1">Hotel Werzer</placeName>
+                        </addrLine>
+                        <addrLine>Kärnten</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1927-07-27">27.VII.1927</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">UE</orgName>
+                </salute>
+                <p>Ihre „<ref target="letter.19924">Vorschläge</ref>“ kann ich nicht
+                    ernst nehmen, muss <lb/>aber doch meine gute Zeit leider verwenden, Ihnen zu
+                        sa<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, was Sie ja ohnedies wissen
+                    warum.</p>
+                <p>Sie bieten mir 100 M. monatlich (170 Sch.) das ist jährlich <lb/>ca 2000 Sch..
+                    Und dafür soll ich Ihnen das Recht geben, <lb/>den Vorschuss auf neue Werke aus
+                    den Erträgnissen der al<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten zu decken. D. H. dass wenn die Erträgnisse auch nur an<g ref="#typoHyphen"/>
+                    <lb break="no"/>nähernd das erreichen würden, was minimal der Fall sein
+                    <lb/>müsste, nämlich 6000 M (10000 Sch) jährlich (während es <lb/>in dem Jahr
+                    über welches ich mich <hi rendition="#g">beschwert <lb/>
+                    </hi>habe immer hin schon 6000 Sch waren, wobei ja eine Anzahl <lb/>bereits
+                    bezahlter und verrechnet<supplied cert="high">e</supplied>r Posten, wie ich
+                    beweisen <lb/>kann ausgelassen wurden): so würden Sie mir auf neue Wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>ke auszahlen: 6000 Mark und auf alte Werke abziehen 6000
+                    <lb/>Mark, ich bekäme also <hi rendition="#g">Null</hi> und hätte die
+                        Verpflich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung Ihnen neue Werke zu liefern!</p>
+                <p>Da mein Konto im schlechten vorigen Jahr <del rendition="#s">R T</del> 6000 Sch.
+                    <lb/>(alte W) trug bedeutet die Auszahlung von 2000 Schilling <lb/>einen Abzug von 4000 Sch. Es ist
+                    wahrhaft lächerlich!</p>
+                <p>Zum Glück hat sich meine Situation so geändert, <lb/>dass ich nicht genötigt bin,
+                    mir Ihr<supplied cert="high">e</supplied> „Voschläge“ auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>zwingen zu lassen. Diesmal werden Sie endlich einmal den
+                    <lb/>Kürzeren ziehen. Denn wenn Sie es durch Ihre Taktik da<g ref="#typoHyphen"/>
+                    <lb break="no"/>hin bringen sollten, dass ich den Vertrag neue Werke
+                    <!-- Vertrag vom 7.7.1924 -->als <lb/>ungiltig bezeichnen muss,
+                    werden Sie es sehr bedauern <lb/>müssen!</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Ich habe Ihnen folgende Erklärung abzugeben:</p>
+                <list>
+                    <item>I. Ein Abzug auf das Konto Alte W. von den Erträgnissen, <lb/>kann nach
+                        unseren mündlichen Besprechungen und den Zusa<g ref="#typoHyphen"/>
+                        <lb break="no"/>gen des Dir. <persName key="pers.1538">Herzka</persName> ohne
+                        meine Zustimmung nicht erfolgen. <lb/>Ich werde jeden solchen Abzug, solange
+                        keine Einigung er<g ref="#typoHyphen"/>
+                        <lb break="no"/>zielt wurde als
+                        Vertragsverletzung ansehen.</item>
+                    <item>II. Sie sind nicht berechtigt die Auszahlung auf Konto <lb/>Neue Werke zu
+                        unterbrechen: ich habe den letzten Vorschuss <lb/>von 1000 M, den Sie mir
+                        nach <placeName key="place.2.3">Berlin</placeName> gesandt haben, ausdrück
+                        <lb/>lich auf Konto alte Werke bekommen, wie Sie aus dem <seg type="comment">
+                            <orig>Tele<g ref="#typoHyphen"/>
+                                <lb break="no"/>grammwechsel</orig>
+                            <note xml:id="na4h_qsv_hzb" resp="#pkehrer">
+                                <ref target="letter.17688">Universal-Edition an Arnold Schönberg,
+                                    27. April 1927</ref>; <ref target="letter.1309">Arnold Schönberg
+                                    an Universal-Edition, 27. April 1927</ref>
+                            </note>
+                        </seg> gewiss entnommen haben.</item>
+                </list>
+                <p>
+                   Sollten Sie die Auszahlung der Augustrate verweigern, so <lb/>müsste ich den
+                    Vertrag sofort als gelöst ansehen und <lb/>würde dann allerdings die Lösung in
+                    nicht mehr wieder gut<g ref="#typoHyphen"/>
+                    <lb break="no"/>zumachender Form
+                    vollziehen.</p>
+                <p>Zum Schluss möchte ich Ihnen noch nahelegen, die letzten
+                    <lb/>Abrechnungen einer kleinen Revision zu unterziehen. Ich <lb/>habe, sagen
+                    wir: das „Gefühl“, dass sich einige Irrtümer <lb/>untergeordneter
+                    Angestellter (zu meinen Ungunsten) darin <lb/>befinden, während sich manches
+                    andere nicht darin be<g ref="#typoHyphen"/>
+                    <lb break="no"/>findet!</p>
+                <closer>
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Nebenbei will ich noch erwähnen, dass Ihre „Vorschläge“ in
+                        <lb/>keiner Weise den Besprechungen gerecht werden, die wir <lb/>vor den
+                        Ferien hatten. Das ist Sabotage</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

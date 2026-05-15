@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.616"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 8. Juli 1921</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.616</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 616</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="257" to="257"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                            <biblScope unit="page" from="163" to="163"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-44PACN98">Muxeneder 2019</rs>
+                            <biblScope unit="page" from="232" to="232"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.3">Mattsee</placeName>
+                    <date when="1921-07-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1921-07-11" cert="high"/>
+                </correspAction>
+                <note>Beilagen: <ref target="document.19673">Hendrik Freijer an Arnold Schönberg,
+                        30. Juni 1921</ref> und <ref target="document.7047">Arnold Schönberg an
+                        Hendrik Freijer, 8. Juli 1921</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+            <change when="2025-10-31+02:00" who="KBleier">Korrektur Kommentar</change>
+            <change when="2025-11-10+02:00" who="KBleier">Ergänzung Kommentar</change>
+            <change when="2026-01-05+02:00" who="KBleier">Korrektur Transkription</change><change when="2026-03-31+02:00" who="KBleier">Korrektur Transkription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/616_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.616_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline rendition="#l">
+                        <placeName key="place.9.3">Matts<supplied cert="high"
+                            >e</supplied>e</placeName>, <date when="1921-07-08">8. Juli 1921</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr Direktor<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <persName key="pers.1538">Herzka</persName>,</salute>
+                <p rendition="#inline">beiliegend ein <lb/>
+                    <ref target="document.19673">Brief</ref> des Herr <persName key="pers.1111"
+                        >Freyer</persName> (<orgName key="org.203">koncertgebou<add
+                            place="superlinear">w</add>
+                    </orgName>) <subst>
+                        <del rendition="#s">U</del>
+                        <add place="superlinear">u</add>
+                    </subst>nd die <ref target="document.7047">Kopie</ref> meiner Antwort. Ich
+                    <lb/>lege Gewicht darauf, dass Sie sich dazu ebenso stellen, und bitte Sie sich
+                    <lb/>die Antwort über die F<choice>
+                        <sic>a</sic>
+                        <corr cert="high">r</corr>
+                    </choice>age der Aufführung bloss eines Teiles eventuell zu <lb/>kopieren<add
+                        place="intralinear">,</add> und wenn Sie es nicht in <hi rendition="#u"
+                        >Ihrem</hi> Namen<add place="intralinear">,</add> mit eigen<supplied
+                        cert="high">e</supplied>n Worten tun wollen, <lb/>in <hi rendition="#u"
+                        >meinem Namen diese Erklärung wörtlich abzugeben</hi>. Ich halte diese Ent<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>scheidung für richtig und wichtig. Die <bibl sameAs="werke.16"
+                        >Gurrelieder</bibl> wirken nur als Ganzes <lb/>so, wie es für die
+                    Weiterverbreitung gerade dieses Jugendwerkes nötig <lb/>ist: es muss der <hi
+                        rendition="#u">Siedegrad der Begeisterung jedesmal erreicht werden</hi>. <hi
+                        rendition="#uu">Ein</hi>
+                    <lb/>Grad bei einigen Au<choice>
+                        <sic>u</sic>
+                        <corr type="deleted"/>
+                    </choice>fführungen weniger, und weitere Aufführungen sind frag<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>lich. Es ist eben ein Jugendwerk, und solche sind auch bei
+                        <persName key="pers.331">Beethoven</persName> nicht <lb/>vor dem Veralten
+                    geschützt. Übrigens aber muss ich Ihnen sagen, dass die <lb/>Absicht <persName
+                        key="pers.2334">Mengelbergs</persName> nicht auf praktische Erwägungen
+                    zurückzuführen ist, <lb/>sondern auf die lästige Vorlautheit dieses Dr.
+                        <persName key="pers.2351">Rud. Mengelberg</persName>, der, um <lb/>die
+                    Selbständigkeit sein<choice>
+                        <sic>r</sic>
+                        <corr cert="high">e</corr>
+                    </choice>r Meinungen zu beweisen, entgegen allen Er<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>fahrun<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <subst>
+                        <del rendition="#ow">bei allen Aufführungen behaupten soll, der zweite Teil
+                            sei schwächer,</del>
+                        <add place="across">
+                            <del rendition="#s">Geben Sie nun auch nur ein einziges Mal hier nach,
+                                so schaffen Sie der</del>
+                        </add>
+                    </subst>
+                    <lb break="no"/>gen bei allen bisherigen Au<choice>
+                        <sic>u</sic>
+                        <corr type="deleted"/>
+                    </choice>fführungen, behaupten soll, der zweiten Teil sei <lb/>schwächer. Geben
+                    Sie hier nun <hi rendition="#u">auch nur ein einziges <subst>
+                            <del rendition="#ow">m</del>
+                            <add place="across">M</add>
+                        </subst>al</hi> nach, so schaf<g ref="#typoHyphen"/>
+                    <lb break="no"/>fen Sie der Dummheit des Herrn <persName key="pers.2351"
+                        >Rudi</persName> zuliebe ein Präjudiz, welches die Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>führung des Werkes als Ganzes, wenn nicht verhindert, so doch
+                    erschwert. <lb/>Ich bin übrigens unbesorgt: wenn <persName key="pers.2334"
+                        >Mengelberg</persName> das Werk als Ganzes selbst <lb/>daraufhin <subst>
+                        <del rendition="#ow">,</del>
+                        <add place="across">(</add>
+                    </subst>was ich übrigens nicht für gewiss <subst>
+                        <del rendition="#s">anschaue</del>
+                        <add place="superlinear">halte</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#ow">,</del>
+                        <add place="across">)</add>
+                    </subst> heuer nicht auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>führt, so wird er es umso bestimmter nächstes Jahr tun. Denn er
+                    braucht <lb/>meine Werke nicht nur für <placeName key="place.8"
+                        >Holland</placeName>, sondern insbesondere für <placeName key="place.15"
+                            >Ame<g ref="#typoHyphen"/>
+                        <lb break="no"/>rika</placeName>, wo man sie von ihm verlangt, <del
+                        rendition="#s">und</del>
+                    <add place="superlinear">vor allem aber</add>
+                    <del rendition="#s">auch</del> zu Vervollständigung seines Re<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>pertoires als moderner Dirigent: <subst>
+                        <del rendition="#s">und</del>
+                        <add place="superlinear">er</add>
+                    </subst> ist viel zu klug, um sich auf die <lb/>Dauer einen so grossen
+                    Dirigentenerfolg entgehen zu lassen<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice>, wie man <lb/>ihn nach dem 2. Teil hat.</p>
+                <p>Zur Frage der <bibl sameAs="schriften.1">Harmonielehre</bibl>-Übersetzung: Das
+                    Urteil des Herrn <persName key="pers.2169">Cort van <lb/>der Linde</persName>,
+                    eines <placeName key="place.8">Holländers</placeName>, der hier ist, um bei mir
+                    während des Sommers zu <lb/>lernen, lautet, der Hauptsache nach,
+                    folgendermassen: Die Arbeit ist zwar <lb/>nicht sehr feinfühlig, aber immerhin
+                    könnte sie vielleicht <del rendition="#s">ganz</del> brauch<g ref="#typoHyphen"/>
+                    <lb break="no"/>bar werden, wenn man Gelegenheit hätte, mit dem Mann persönlich
+                    zu sprechen. <lb/>Der grösste Fehler ist eine gewisse Freiheit der Wiedergabe,
+                    welche <note place="left" hand="#author">Ich schreibe, wenn auch schon ziemlich
+                        schnell, so doch noch sehr fehlerhaft mit der Machine – wie Sie sehen</note>
+                    <pb n="2" xml:id="p.2"/>jedoch nicht aus der Beherrschung der Aufgabe
+                    entspringt, sondern aus der <lb/>Unzulänglichkeit des Könnens. Daher bleibt er
+                    auch hin<choice>
+                        <sic>e</sic>
+                        <corr cert="high">t</corr>
+                    </choice>er der Deutlichkeit <lb/>und Ausdruckskraft des Originals immer
+                    beträchlich zurück. Ob das, was Herr <lb/>
+                    <seg type="comment">
+                        <orig>Engel</orig>
+                        <note xml:id="nlbt_ndr_bdc" resp="#pkehrer">Vermutlich handelt es sich hier
+                            um den späteren Präsidenten des Verlags <orgName key="org.70">G.
+                                Schirmer, Inc.</orgName>
+                            <persName key="pers.985">Carl Engel</persName>, mit dem <persName
+                                key="pers.3263">Schönberg</persName> ab <date when="1934"
+                                >1934</date> ausgiebig korrespondierte. <persName key="pers.985"
+                                >Engel</persName> war seit <date when="1909">1909</date> für die
+                                <orgName key="org.35">Boston Music Company</orgName>
+                            tätig – jenen Verlag, mit dem die <orgName key="org.1">UE</orgName> eine
+                            schriftliche (und <date when="1924">1924</date> annullierte) Abmachung
+                            über die Rechte an einer englischen Übersetzung der <bibl
+                                sameAs="schriften.1">Harmonielehre</bibl> getroffen hatte (<ref
+                                target="letter.20193">Universal-Edition an Arnold Schönberg, 11.
+                                Oktober 1933</ref>) – und scherzte noch <date when="1943"
+                                >1943</date> gegenüber <persName key="pers.3263"
+                                >Schönberg</persName>: „was hätte der Autor für Geld verdienen
+                            können, wenn er vor fünfundzwanzig Jahren seine Zustimmung zu einer
+                            englischen Übersetzung einer gewissen <bibl sameAs="schriften.1"
+                                >Harmonielehre</bibl> gegeben hätte!“ (G. Schirmer, Inc. an Arnold
+                            Schönberg, 18. Oktober 1943; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B158382">ASCC
+                                15838</ref>)</note>
+                    </seg> schreibt ein litterarisch<add place="intralinear">-</add>hochstehendes
+                    Englisch, oder bloss das eines <lb/>Zeitungsartikels oder am Ende gar nur das
+                    eines Mittelschülers <add place="superlinear">ist</add> – das <lb/>kann Herr
+                        <persName key="pers.2169">Cort</persName> nicht beurteilen.</p>
+                <p>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="lines"/>
+                    </del>
+                </p>
+                <p>
+                    <hi rendition="#u">DAS IST ABER LEIDER D<choice>
+                            <sic>T</sic>
+                            <corr cert="high">I</corr>
+                        </choice>E HAUPTSACHE!</hi>
+                </p>
+                <p>
+                    <hi rendition="#u">Damit steht und fällt das ganze Werk</hi>.</p>
+                <p>Jedenfalls müsste das <del rendition="#s"> ganze</del> Probestück erst einmal auf
+                    diese Frage <lb/>hin geprüft werden.</p>
+                <p>Ich schlage zu diesem Zweck Herrn <persName key="pers.1348">Cecil Grey</persName>
+                    vor und bitte Sie, sich <choice>
+                        <sic>m</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>mit ihm in Verbindung zu setzen. Sollte er dafür nicht zu haben sein,
+                    <lb/>so könnte ich eventuell durch meinen ehemaligen Schüler <persName
+                        key="pers.751">Edward Clark</persName>, <lb/>welcher letzthin mit viel
+                    Erfolg die <bibl sameAs="werke.2">Kammersymphonie</bibl>
+                    <seg type="comment"><orig>aufgeführt</orig><note xml:id="ndtf_yt4_ghc"
+                            resp="#KBleier"><ref target="event.261"/></note></seg> hat, <lb/>einen
+                    geeigneten Prüfer erfahren.</p>
+                <p>Den <seg type="comment">
+                        <orig>Tonwillen</orig>
+                        <note xml:id="nvmn_nn2_2xb">
+                            <bibl sameAs="schriften.95">Heinrich Schenker, Von der Sendung des
+                                deutschen Genies</bibl></note>
+                    </seg> finde ich nicht nur sehr interessant, sondern auch <lb/>sehr sympathisch.
+                    Den <seg type="comment">
+                        <orig>Ausländerhass</orig>
+                        <note xml:id="ns1g_mnl_32c" resp="#KBleier">In seiner Glosse zu <persName
+                                key="pers.3127">Schenkers</persName> Aufsatz formuliert <persName
+                                key="pers.3263">Schönberg</persName>: „Damit ist also für <persName
+                                key="pers.3127">Schenker</persName> das deutsche Genie zuende und
+                            das ist es ja, was die Franzosen und Engländer (zum Teil) auch glauben
+                            machen möchten! Weil <persName key="pers.3127">Schenker</persName> ihnen
+                            sagt, dass die Deutschen nach <persName key="pers.543">Brahms</persName>
+                                (<persName key="pers.3946">Wagner</persName> u <persName
+                                key="pers.2180">Liszt</persName> sind ohnedies ausgeschlossen) kein
+                            Genie mehr hervorgebracht haben, meinen sie, dass die Hegemonie in der
+                            Musik nun auf die Franzosen oder Engländer übergehen werde! Hätte
+                                <persName key="pers.3127">Schenker</persName> nicht solche
+                            Widersprüche zu decken, müsste er nicht so heftig sein. So sympathisch
+                            mir sein Fremdenhass ist – wenn es bei mir auch weniger Hass ist, als
+                            Nicht-Liebe; aber seit langem schon! – geht er doch viel zu weit darin,
+                            ihnen alles abzusprechen. Vieles; das schon; sehr vieles sogar: aber
+                            nicht das, was sie haben, obwohl es für uns wenig [W]ert hat, und sogar
+                            bis zu einem gewissen Grad komisch und verächtlich scheint: Esprit,
+                            Grazie, Leichtigkeit, Eleganz. Die haben sie so sicher und freuen sich
+                            dessen, wie wir uns der gegenteiligen Eigenschaften freuen: Tiefe,
+                            Energie, Festigkeit, Solidität.“ (<rs type="bibl"
+                                key="zotero-4528359-5A5XAU9J">Schönberg 1921</rs>; Exemplar aus dem
+                            Schönberg-Nachlass; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12029&amp;action=view&amp;sortieren=veroeffentlichungsDatum&amp;vonBis=0-19"
+                                >P16</ref>)</note>
+                    </seg> des Dr <persName key="pers.3127">Schenker</persName> teile ich nur aus
+                        ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nem Grunde nicht: weil ich nicht hassen will. Verachten
+                    vielleicht, aber <lb/>auch das mit Mass. Mir genügt eigentlich die Nichtliebe;
+                    und als Gegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>massnahme gegen Ausbrüche des Hasses der anderen, soweit ich
+                    dagegen nicht <lb/>ohnedies immun bin, kann ich mich ganz gut auf das Min<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>imum einer Abwehr in <lb/>Parenthese beschränken. An Gemüt und darum
+                    auch an Gemütsaufwallungen ka<supplied cert="high">nn</supplied>
+                    <lb/>ich Ihnen sowenig widmen, dass ich leicht imstande bin, den rein geisi<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>gen Zorn zu temperieren, wie es sich für diesen schickt.
+                    Immerhin habe ich <lb/>mich über vieles sehr gefreut, weil es sich gedeckt hat –
+                    zum Teil sogar wört<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich – mit von mir getanen Aeusserungen! Dinge, die gesagt
+                    werden mussten: <lb/>was ich auch zum teil bereits getan habe und insbesondere
+                    aber, wonach <lb/>ich bereits gehandelt habe, als ich z. b. Anträge des <choice>
+                        <sic>h</sic>
+                        <corr cert="high">H</corr>
+                    </choice>errn <persName key="pers.2832">Prünière</persName>, des <lb/>
+                    <orgName key="org.169">Cheste<add place="superlinear">r</add>ian</orgName> und
+                    anderer <subst>
+                        <del rendition="#ow">
+                            <placeName key="place.4">französischer</placeName> Zeitschriften und
+                                <placeName key="place.3">englischer</placeName>
+                        </del>
+                        <add place="across">
+                            <placeName key="place.4">französischer</placeName> und <placeName
+                                key="place.3">englischer</placeName> Zeitschriften</add>
+                    </subst>
+                    <seg type="comment">
+                        <orig>igno<g ref="#typoHyphen"/>
+                            <lb break="no"/>rierte</orig>
+                        <note xml:id="njhk_1mj_pyb" resp="#pkehrer">Am <date when="1920-06-30">30.
+                                Juni 1920</date> hatte <persName key="pers.2832">Henry
+                                Prunières</persName> bei <persName key="pers.3263"
+                                >Schönberg</persName> um die Komposition eines Klavierstückes
+                            gebeten (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B152096">ASCC
+                                15209</ref>). Anlass war die erste Ausgabe der Musikzeitschrift
+                                <orgName key="org.261">La Revue musicale</orgName>, in der
+                            internationale Komponisten im Sinne künstlerischer Völkerverständigung
+                            jeweils ein kurzes Klavierstück zu Ehren Claude Debussys beisteuern
+                            sollten. <persName key="pers.3263">Schönberg</persName> komponierte zwar
+                            das <bibl sameAs="werke.56">Klavierstück op. 23/1</bibl>, entschied sich
+                            aber nach der Lektüre eines von ihm als abwertend empfundenen Textes von
+                                <persName key="pers.688">Alfredo Casella</persName> gegen eine
+                            Veröffentlichung in diesem Publikationszusammenhang (<rs type="bibl"
+                                key="zotero-4528359-WG3EAV9P">Krämer 2019</rs>; undatierter Entwurf
+                            eines offenen Briefes Arnold Schönberg an Henry Prunières, August 1920;
+                                <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B065274"
+                                >ASCC 6527</ref>)</note>
+                    </seg> oder ihnen durch Dritte (Dr. <persName key="pers.4098"
+                    >Wellesz</persName>) abschlägigen Bescheid sagen <lb/>liess. Das ist dann die
+                    positive, und heroischere Form der Behandlung <del rendition="#s">der</del>
+                    <lb/>solcher Angelegenheiten.</p>
+                <p>Noch eine Kleinigkeit: im Chesterian finde ich eine <seg type="comment">
+                        <orig>Anzeige</orig>
+                        <note xml:id="nfnf_slx_pyb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-99EQQVUD">Zeitschrift für Musik
+                                1921</rs></note>
+                    </seg> (oder wars <lb/>im <orgName key="org.112">Melos</orgName>?) der <orgName
+                        key="org.1">U.E.</orgName>: ...„...das Schaffen der hervorragendsten zeitg<choice>
+                        <sic>r</sic>
+                        <corr cert="high">e</corr>
+                    </choice>nössi<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen Komponisten in der <orgName key="org.1"
+                    >U.E.</orgName>....“ – Gehört da nicht vielleicht au<supplied cert="high"
+                        >c</supplied>h ein <lb/>gewisser Herr <persName key="pers.4309">Alex. von
+                        Zemlinski</persName> dazu? Es sollte der HERR, der das bei <pb n="3"
+                        xml:id="p.3"/>Ihnen anfertigt, sich durch gründliche Information bei
+                        Sachverständi<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, die hiefür nötige Objektivität verschaffen, ehe er es auf
+                    sich nimmt Leu<g ref="#typoHyphen"/>
+                    <lb break="no"/>te vom Rang und von der Bedeutung eines <persName
+                        key="pers.4309">Zemlinski</persName> durch Krän<g ref="#typoHyphen"/>
+                    <lb break="no"/>kung zu reizen. Dabei sehe ich ganz von Dr. <persName
+                        key="pers.4001">Webern</persName> ab, den Sie ja wohl <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="lines"/>
+                    </del>
+                    <lb/>nicht etwa deshalb drucken weil er nicht einmal so bedeutend ist, wie <lb/>
+                    <persName key="pers.564">Braunfels</persName> – den der Waschzettelhersteller
+                    aber erwähnt!!!</p>
+                <p>Ich dürfte <placeName key="place.9.3">Mattsee</placeName> in der nächsten Zeit
+                        <seg type="comment">
+                        <orig>verlassen</orig>
+                        <note xml:id="nsqx_55k_k2c" resp="#KBleier">Das sogenannte
+                            „Mattsee-Ereignis“ vom Frühsommer <date when="1921">1921</date> gilt
+                            gemeinhin als zentrale antisemitische Erfahrung <persName
+                                key="pers.3263">Schönbergs</persName> und wurde in der Forschung als
+                            Initiale für dessen Fokussierung bzw. Rückbesinnung auf seine jüdische
+                            Identität gedeutet. <persName key="pers.3263">Schönbergs</persName>
+                            Vertreibung aus dem „judenreinen“ Sommerfrischeort fand im In- und
+                            Ausland ein großes Medienecho (<rs type="bibl"
+                                key="zotero-4528359-44PACN98">Muxeneder 2019</rs>, S.
+                            176–254)</note>
+                    </seg>. Die Gründe dafür <lb/>werden Sie ja schon durch die <seg type="comment">
+                        <orig>ekelhafte Pressenotiz</orig>
+                        <note xml:id="nsnq_sn2_2xb">Vermutlich <rs type="bibl"
+                                key="zotero-4528359-7SRYWHXW">Neue Freie Presse 1921</rs>
+                        </note>
+                    </seg> erfahren haben. Ich <lb/>bitte Sie – obwohl ich üb<choice>
+                        <sic>s</sic>
+                        <corr cert="high">e</corr>
+                    </choice>rzeugt bin dass Sie mich gut genug kennen, um <lb/>meinen Standpunkt:
+                    meine Privatangelegenheiten gehen die Oeffentlichkeit <choice>
+                        <sic>nich</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>nichts an, erraten haben, ohne dass ich es Ihnen sagen muss <add
+                        place="superlinear">sich darüber nicht weiter zu äussern</add>. Wahrschein<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>lich hat irgend ein <seg type="comment">
+                        <orig>Sommerfrischling</orig>
+                        <note xml:id="ncxb_4vk_k2c" resp="#KBleier">Anonym an Arnold Schönberg, 5.
+                            Juli 1921 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B188410">ASCC
+                                18841</ref>)</note>
+                    </seg> das auf dem Gewissen, dass ich jetzt <lb/>unschuldig durch alle <seg
+                        type="comment">
+                        <orig>Zeitungen des In- und Auslandes</orig>
+                        <note xml:id="nfnf_vvk_k2c" resp="#KBleier">Pressespiegel (<rs type="bibl"
+                                key="zotero-4528359-44PACN98">Muxeneder 2019</rs>, S.
+                            245–254)</note>
+                    </seg> geschleift werde, <lb/>wo ich es so gut verstehe derlei hinzunehmen ohne
+                    einen Ton laut werden <lb/>zu lassen.</p>
+                <closer>
+                    <salute>Ich schliesse mit vielen herzlichen Grüssen, <lb/>Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>NB: Ich hatte angefangen den „<bibl sameAs="schriften.32">Zusammen<g
+                                ref="#typoHyphen"/>
+                            <lb break="no"/>hang</bibl><supplied cert="high">&#8220;</supplied> zu
+                        schreiben. Muss aber nun unterbrechen. <lb/>Meine nächste <placeName
+                            key="place.9.10.1">Adresse</placeName> teile ich Ihnen <lb/>mit, sobald
+                        ich sie weiß. <lb/>Vielleicht gehe ich nach <placeName key="place.9.4"
+                            >Mödling</placeName> zurück.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

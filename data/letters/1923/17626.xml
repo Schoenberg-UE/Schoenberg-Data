@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17626"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 3. Jänner 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17626</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17626</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1923-01-03" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.774"/>
+                    <ref type="answered-by" target="letter.776"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-03+02:00" who="KBleier">Korrektuzr Transkription</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17626_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17626_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.101">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien, A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228, 4533·Bank-Konto: <orgName key="org.199">Oesterr.
+                            Länder-<lb/>bank. Wien</orgName>. Postsparkassen Konto:
+                            57557.<lb/>Wien<seg hand="#author">, am <date when="1923-01-03">3.
+                                Jänner 1923</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/Ei<address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#c">
+                            <hi rendition="#uda">Mödling bei Wien</hi>
+                        </addrLine>
+                        <addrLine rendition="#c">
+                            <placeName key="place.9.4.1">Bernhardgasse 6<choice>
+                                    <sic>6</sic>
+                                    <corr type="deleted"/>
+                                </choice></placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Auf mitfolgendes Schreiben<!-- nicht in ASCC --> von Dr. <persName key="pers.3872">Tischer</persName> erbitte ich <lb/>mir Ihre freundl.
+                    Rückäusserung.</p>
+                <p>Gestern hat mich Herr <persName key="pers.1901">Klenau</persName> gebeten, Ihnen
+                        mitzutei<g ref="#typoHyphen"/>
+                    <lb break="no"/>len, dass er sich die <seg type="comment">
+                        <orig>Zusammenstellung
+                            des <placeName key="place.1.1">Kopenhagener</placeName>
+                            <lb/>Programmes</orig>
+                        <note xml:id="nbkw_hvb_hgc" resp="#KBleier">Paul von Klenau an Arnold Schönberg, 9. November 1922 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B212400">ASCC 21240</ref>); <ref target="event.219"/></note>
+                    </seg> in folgender Weise vorstellt:</p>
+                <p>
+                    <list>
+                        <item>I. <bibl sameAs="werke.22">Waldtaube</bibl>,</item>
+                        <item>II. <bibl sameAs="werke.2">Kammersymphonie</bibl>,</item>
+                        <item>III. <bibl sameAs="werke.132">Lieder</bibl>,</item>
+                        <item>IV. <bibl sameAs="werke.2">Kammersymphonie</bibl>.</item>
+                    </list>
+                </p>
+                <p>Er bittet um Ihre freundl. Rückäusserung, ob Sie da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit einverstanden sind. Dies ist sehr dringend, ebenso auch
+                    <lb/>die Bekanntgabe, welche Lieder Frau <persName key="pers.1105">Marya
+                        Freund</persName> singen soll, <lb/>damit man ihr das sofort schreiben kann.
+                        <persName key="pers.1901">Klenau</persName> hat mich be<g ref="#typoHyphen"/>
+                    <lb break="no"/>auftragt, Ihre Mitteilung sofort Frau <persName key="pers.1105">Marya Freund</persName> weiterzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben, denn er ist heute für 5 Tage verreist und kommt Mon<g ref="#typoHyphen"/>
+                    <lb break="no"/>tag den <date when="1923-01-08">8. ds. M.</date> wieder
+                    zurück.</p>
+                <p>
+                    <persName key="pers.1901">Klenau</persName> hat auch gefragt, ob Sie für das
+                        <seg type="comment">
+                        <orig>Programmbuch</orig>
+                        <note xml:id="nw5p_wyb_hgc" resp="#KBleier">Programm, 30. Jänner 1923 (<ref target="https://archive.schoenberg.at/resources/?r=15103">ASCI
+                                CP5905</ref>)</note>
+                    </seg>
+                    <lb/>der Aufführung spezielle Wünsche haben. Er meinte, man könne <lb/>eventuell
+                    auch ein kurzes Kapitel aus der <hi rendition="#u" hand="#addressee">
+                        <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                    </hi> zum <lb/>Abdruck
+                        bringen.<note place="left" hand="#addressee">
+                        <hi rendition="#u">nein</hi>
+                    </note> Das Programmbuch soll die Liedertexte ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten. Bezüglich der <bibl sameAs="werke.2">Kammersymphonie</bibl> wird wohl nichts abge<g ref="#typoHyphen"/>
+                    <lb break="no"/>druckt, nachdem wir ja die <bibl sameAs="schriften.115">Analyse</bibl> von <persName key="pers.385">Berg</persName> zum Verkauf
+                        brin<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>gen.</p>
+                <closer>
+                    <salute>Ihre gütige baldige Rückäusserung erbittend, <lb/>zeichne ich mit
+                        herzlichen Grüssen <lb/>
+                        <seg rendition="#r">Ihr in warmer Verehrung ergebener </seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

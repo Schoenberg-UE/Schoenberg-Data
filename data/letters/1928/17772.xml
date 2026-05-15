@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17772"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 21. Juli 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17772</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17772</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1928-07-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6">Roquebrune-Cap-Martin</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17772_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17772_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <div type="writingSession" n="1" hand="#author">
+                    <opener>
+                        <stamp sameAs="stamp.122">
+                            <orgName key="org.1">UNIVERSAL-EDITION
+                                A.-G.</orgName>
+                            <lb/>WIEN, I. <placeName key="place.9.11.6.12">KARLSPLATZ
+                                6</placeName> (Musikvereinsgebäude)</stamp>
+                        <address>
+                            <addrLine>Herrn</addrLine>
+                            <addrLine>Professor <persName key="pers.3263">Arnold Schönberg</persName>
+                            </addrLine>
+                            <addrLine>Roquebrune-Cap Martin</addrLine>
+                            <addrLine>
+                                <placeName key="place.4.6.1">Pavillon Sevigné</placeName>
+                            </addrLine>
+                            <addrLine>Frankreich</addrLine>
+                        </address>
+                    </opener>
+                    <pb n="2" xml:id="p.2"/>
+                    <opener>
+                        <persName key="pers.1740">Ks.</persName>
+                        <dateline>
+                            <placeName key="place.9.11">Wien</placeName>, <date when="1928-07-21">21.
+                                Juli 1928</date>.</dateline>
+                        <address>
+                            <addrLine>
+                                <hi rendition="#uda">Herrn Professor <persName key="pers.3263">Arnold
+                                    Schönberg</persName>, <placeName key="place.4.6">Roquebrune</placeName>
+                                </hi>.</addrLine>
+                        </address>
+                    </opener>
+                    <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                    <p>Wir überwiesen Ihnen heute auf Ihr <lb/>
+                        <placeName key="place.9.11">Wiener</placeName>
+                        <orgName key="org.126">Postsparkassen</orgName>-Konto den Betrag von <lb/>S
+                        840.– als Gegenwert von M 500.– dessen Er<g ref="#typoHyphen"/>
+                        <lb break="no"/>halt Sie uns gefl. gelegentlich bestätigen <lb/>wollen.</p>
+                    <closer>
+                        <salute rendition="#r">Mit vorzüglicher Hochachtung</salute>
+                        <lb/>
+                        <stamp sameAs="stamp.46" rendition="#r">
+                            <orgName key="org.1">Universal-Edition
+                                Actiengesellschaft</orgName>
+                        </stamp>
+                        <lb/>
+                        <signed rendition="#r">pp <persName key="pers.4190">Winter</persName>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2" hand="#pers.4190">
+                    <salute>Sehr verehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                    <p>Das letz<supplied cert="high">t</supplied>e Heft der „Fackel“ und
+                        <lb/>
+                        <persName key="pers.2031">K. Kraus</persName> „<bibl sameAs="schriften.92">Die Unüberwindlichen</bibl>“ <!-- kein Exemplar im Schönberg-Nachlass --><lb/>erliegt bei mir
+                        zu Ihrer Verfügung. <lb/>Soll ich beides nach <placeName key="place.4.6">Roquebrune</placeName> senden?</p>
+                    <closer rendition="#r">
+                        <salute>Ergebenst</salute>
+                        <signed>
+                            <persName key="pers.4190">Winter</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

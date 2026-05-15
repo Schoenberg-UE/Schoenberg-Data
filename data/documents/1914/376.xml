@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="document.376"
+     telota:doctype="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vertrag, 14. Jänner 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/documents/document.376</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 376</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                            <biblScope unit="page" from="276" to="276"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1">Mariendorf, Südende</placeName>
+                    <date when="1914-01-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <note><!-- bis Mai hat die UE noch keine Abschrift an Schönberg geschickt, vgl. ID 412--></note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Vertrag</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/376_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.376_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">U.E. A.G.</orgName>
+                            <placeName key="place.9.11">Wien</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <p>In Ergänzung und Abänderung unseres Vertrages vom ... <lb/>haben wir heute folgendes
+               vereinbart:</p>
+                <list>
+                    <item>1) Es wird sowol für die <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                        <hi rendition="#u">ein</hi> einziges Conto ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>führt.</item>
+                    <item>2) der Vertrag wird bis <date when="1925-07-01">1. Juli 1925</date> verlängert.</item>
+                    <item>3) die Tantieme auf alle von heute ab erscheinenden Werke wird <lb/>auf 12½ %
+                  vom Ladenpreis festgesetzt.</item>
+                    <item>4) für die bisher erschienenen Werke, wird die Tantieme vom <lb/>
+                        <date when="1920-07-01">1. Juli 1920</date>
+                  ab von 10 % aus 12½ % des LdPr. erhöht.</item>
+                    <item>5) der Vorschuss wird durch die heutige Zalung von 500 Mk. auf cirka <lb/>Kr
+                  7000 erhöht und soll in der Weise getilgt werden, dass ohne Rücksicht <lb/>auf die
+                  Höhe der Halbjahreserträgnisse im Verlaufe der nächsten 20 Halbjahre <lb/>je <del rendition="#s">
+                            <gap reason="illegible" quantity="1" unit="chars"/>
+                        </del> Kr.
+                  350 verrechnet werden. Im Falle eines geringeren Erträgnisses wird <lb/>der Rest
+                  auf das nächste Halbjahr vorgetragen.</item>
+                    <item>6) für künftige Werke werden keine Vorschüsse geleistet. Ausge<g ref="#typoHyphen"/>
+                        <lb break="no"/>nommen sind Bühnenwerke für die folgendes
+                  bestimmt wird.</item>
+                    <item>
+                        <list>
+                            <item>a) abendfüllende Werke Mk 1500 bei Ablieferung von Part. u Buch</item>
+                            <item>b) nicht <metamark function="ellipsis">〃</metamark>
+                                <supplied>abend</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>füllende</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Werke</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Mk</supplied> 500
+                           <metamark function="ellipsis">〃</metamark>
+                                <supplied>bei</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ablieferung</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Part.</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>u</supplied>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Buch</supplied>
+                            </item>
+                        </list>
+                    </item>
+                    <pb n="2" xml:id="p.2"/>
+                    <item>7) die Erklärung der Annahme hat innerhalb 6 Wochen <lb/>nach Vorlage des
+                  Werkes zu erfolgen, widrigenfalls das <del rendition="#s">Prioritäts<g ref="#typoHyphen"/>
+                        </del>
+                        <lb break="no"/>
+                        <add place="superlinear">Options</add>recht erlischt. Wenn ein Jahr nach der Annahme das Werk nicht
+                  <lb/>erschienen ist, bezahlen Sie eine Konventionalstrafe von <lb/>Mk 300 für
+                  jedes Werk, <add place="superlinear">für</add> das ich dann wieder das freie
+                     Verfügungs<g ref="#typoHyphen"/>
+                        <lb break="no"/>recht habe. Bei Opern gilt der
+                  Vorschuss als Konventionalstrafe.</item>
+                    <item>8. Sie sind verpflichtet im Verlaufe des Jahres <date when="1914"
+                            >1914</date>
+                        <seg rendition="#c">das <bibl sameAs="werke.7">Monodram</bibl>, <bibl
+                                sameAs="werke.24">George Lieder</bibl>, <bibl sameAs="werke.54"
+                                >Pierrot</bibl> und das „<bibl sameAs="werke.53">Harm. Lied</bibl>“,
+                            <lb/>im Jahre <date when="1915">1915</date>
+                            <lb/>
+                            <bibl sameAs="werke.50">Glückliche Hand</bibl>, <bibl sameAs="werke.43"
+                                >2 Balladen</bibl>, 5 Lieder<!-- welche?-->, <seg type="comment">
+                                <orig>Orch. Lied „Seraphita“</orig>
+                                <note sameAs="letter.17498/#nfyh_vpb_wxb"/>
+                            </seg>.</seg>
+                        <lb/>Die Herausgabe hier nicht genannter neuer Werke ist nur in dringen<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>dem Fall früher als vor Ablauf <date when="1915">1915</date>
+                        in Aussicht zu nehmen. Als solcher <lb/>ist eine aussichtsreiche Aufführung
+                        insbesondere eines Bühnenwerkes zu ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>stehen. (Gilt auch als teilweise Beschränkung des §
+                        7)</item>
+                    <item>9. Im Falle ich auf gerichtlichem Wege die Auflösung dieses <del rendition="#s">Ver</del> Ue<supplied cert="high">be</supplied>reinkommens <lb/>anstrebe und
+                  eine Klage nicht rechtzeitig, spätestens aber innerhalb 14 Tagen wieder
+                  <lb/>zurückziehe, sind Sie berechtigt die sofortige Rückzalung des
+                  Gesamtvorschusses <pb n="3" xml:id="p.3"/>zu erlangen und meine Anteile auf 10 %
+                  zu reducieren.</item>
+                </list>
+                <p>Ich erkläre hiemit freiwillig, dass der gegenwärtige <lb/>Zustand unseres Vertrages
+               mich vollständig befriedigt.</p>
+                <closer>
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <address>
+                        <addrLine>
+                            <placeName key="place.2.23.1">Berlin – Südende</placeName>
+                            <date when="1914-01-14">14. Januar 1914</date>
+                        </addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

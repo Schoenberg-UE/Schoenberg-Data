@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7022"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 25. Februar 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7022</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7022</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.13.1.2.1">Prag, Hawliczekgasse 9</placeName>
+                    <date when="1912-02-25" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                </correspAction>
+                <note>Datierung laut Poststempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-21+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7022_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7022_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <del rendition="#s">
+                        <stamp sameAs="stamp.6">
+                            <persName key="pers.3263">Arnold Schönberg</persName>,
+                            Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    </del>
+                    <address>
+                        <addrLine>derzeit Prag II. <placeName key="place.13.1.2.1">Hawliczekgasse
+                                9</placeName>
+                        </addrLine>
+                        <addrLine>per Adr. <persName key="pers.4309">Zemlinsky</persName>
+                        </addrLine>
+                    </address>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Herzka</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal-Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I.</addrLine>
+                        <addrLine>
+                            <del rendition="#s">Wip</del>
+                            <placeName key="place.9.11.6.18">Reichsratsstr. 9</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <pb n="2" xml:id="p.2"/>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>;</salute>
+                <p rendition="#inline">die Generalprobe findet <lb/>am gleichen Tag wie die <seg
+                        type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nqyr_qjr_m2c" resp="#KBleier">
+                            <ref target="event.15"/>
+                        </note>
+                    </seg> statt: am <date when="1912-02-29">29.</date> – <lb/>Das <seg
+                        type="comment">
+                        <orig>Konzert</orig>
+                        <note xml:id="nofb_dm5_2gc" resp="#KBleier">
+                            <persName key="pers.4309">Alexander Zemlinsky</persName> engagierte sich
+                            in <placeName key="place.13.1">Prag</placeName>, um für <persName
+                                key="pers.3263">Arnold Schönberg</persName> auch im Umfeld des
+                            Orchesterkonzerts öffentliches Interesse zu wecken: <persName
+                                key="pers.71">Felix Adler</persName> publizierte am Konzerttag ein
+                            Feuilleton über <bibl sameAs="werke.5">Pelleas und Melisande op.
+                                5</bibl> (<rs type="bibl" key="zotero-4528359-QLKT4U2Q">Adler
+                                1912</rs>). Für den <date when="1912-02-28">28. Februar 1912
+                            </date>war eine Einführungsveranstaltung geplant. Angedacht waren ein
+                            Vortrag <persName key="pers.3263">Schönbergs</persName> über dessen
+                            kompositionsstilistische Entwicklung, Erläuterung von Ausschnitten aus
+                                <bibl sameAs="werke.5">Pelleas und Melisande op. 5</bibl> sowie eine
+                            Aufführung des 1. Teils aus den <bibl sameAs="werke.16"
+                                >Gurre-Liedern</bibl> (jeweils im Klavierauszug) (Alexander
+                            Zemlinsky an Arnold Schönberg, Februar 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B186609">ASCC
+                                18660</ref>; Alexander Zemlinsky an Arnold Schönberg, Februar 1912;
+                                <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B186585"
+                                >ASCC 18658</ref>)</note>
+                    </seg>, das für den Vorabend geplant war, entfällt, <lb/>weil keine Sänger für
+                    die <seg type="comment">
+                        <orig>Lieder vorhanden waren</orig>
+                        <note xml:id="ng5s_n2d_pgc" resp="#KBleier">„Trotzdem weiss ich noch nicht
+                            bestimmt, ob ich das Concert zusammenbringe. Die Sänger! Zunächst
+                            quali[fi]ciert sich keiner von den Baritonen recht für die Lieder, auch
+                            sind sie jetzt sehr überbeschäftigt mit <bibl sameAs="werke.107">Mahlers
+                                VIII</bibl> u. Meistersinger. Aber auch von den Sopranen wäre nur
+                            für die früheren Lieder, nicht aber für die <bibl sameAs="werke.24"
+                                >Georgel[ieder]</bibl> eine zu finden. Aber sicher für die <bibl
+                                sameAs="werke.17">Gurrelieder</bibl>. Tenor – etwa <persName
+                                key="pers.3999">Waschmann</persName>. <persName key="pers.4179"
+                                >Winkelmann</persName> unmöglich. Ob sie aber <persName
+                                key="pers.3999">Waschmann</persName> noch erlernt? Kurzum ich weiss
+                            noch nichts bestimmtes.“ (Alexander Zemlinsky an Arnold Schönberg,
+                            Februar 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B186585">ASCC
+                                18658</ref>)</note>
+                    </seg>. Schreiben <lb/>Sie wann Sie kommen.</p>
+                <closer rendition="#inline">
+                    <salute>Besten Gruß</salute>
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

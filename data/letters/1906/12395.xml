@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12395"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 30. Oktober 1906</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12395</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12395</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1906-10-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="prev" target="letter.1"/>
+                    <ref type="next" target="letter.220"/>
+                    <ref type="response-to" target="letter.24180"/>
+                </correspContext>
+                <note>Beilagen: <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12530&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19">B. C., 25. Oktober 1906</ref>
+                    <!--,
+                    <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12650&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19">National-Zeitung
+                        Berlin, 26. Oktober 1906</ref>; ACHTUNG erst mit letter.21437 verschickt-->
+                    <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12443&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19">Berliner Lokal-Anzeiger, 30. Oktober 1906</ref> und <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12529&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19">Vossische Zeitung, 30. Oktober 1906</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12395_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12395_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.52">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1906-10-30">
+                            <seg hand="#author">30. X </seg>190<seg hand="#author">6</seg>
+                        </date>
+                    </stamp>
+                    <address>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <placeName key="place.9.11">Wien</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute rendition="#c">Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p> Die <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nddn_bnz_3zb" resp="#KBleier">
+                            <ref target="event.7"/>
+                        </note>
+                    </seg> Ihres <bibl sameAs="werke.13">Sextettes</bibl> liess sehr viel zu
+                    wünschen <lb/>übrig; einige Stellen gelangen den <rs type="org" key="org.196"
+                        >Herren</rs> sehr gut, andere dahin<g ref="#typoHyphen"/>
+                    <lb break="no"/>gegen wurden dermassen verpatzt, dass es zum Davonlaufen war.
+                    <lb/>Immerhin war die Aufführung besser als <seg type="comment">
+                        <orig>die, welche damals im <placeName key="place.2.3.4.13">Archi<g
+                                    ref="#typoHyphen"/>
+                                <lb break="no"/>tektenhause</placeName> stattfand</orig>
+                        <note xml:id="nx4z_lnz_3zb" resp="#KBleier">
+                            <ref target="event.4"/>
+                        </note>
+                    </seg>. Mir hat das Werk jetzt besser gefallen, und <lb/>wenn es mir im Ganzen
+                    auch noch etwas chaotisch vorkommt, wenn ich <lb/>die architektonische
+                    Gliederung auch noch nicht auffasse, so sehe ich <lb/>doch in vielen Stellen
+                    starke Talentproben! Die Aufnahme war sehr <lb/>freundlich, doch will das nichts
+                    besagen, da ein sehr schlechtes <lb/>
+                    <bibl sameAs="werke.129">Quartett</bibl> von <persName key="pers.1734"
+                        >Juon</persName> noch freundlicher aufgenommen wurde. Einige <seg
+                        type="comment">
+                        <orig>Kriti<g ref="#typoHyphen"/>
+                            <lb break="no"/>ken</orig>
+                        <note xml:id="npng_lxq_pyb" resp="#KBleier">Rezensionen aus dem
+                            Schönberg-Nachlass mit Annotationen von <persName key="pers.2283">Max
+                                Marschalk</persName>: <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12530&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >B. C., 25. Oktober 1906</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12443&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >Berliner Lokal-Anzeiger, 30. Oktober 1906</ref>; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12529&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >Vossische Zeitung, 30. Oktober 1906</ref>
+                        </note>
+                    </seg> lege ich Ihnen bei. Es werden wohl noch mehr erschienen sein, doch
+                    <lb/>vermutlich keine guten mit Ausnahme der <seg type="comment">
+                        <orig>Nationalzeitung</orig>
+                        <note xml:id="npn1_wrz_3zb" resp="#KBleier">Rezension aus dem
+                            Schönberg-Nachlass mit Annotationen von <persName key="pers.2283">Max
+                                Marschalk</persName>: <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12650&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >National-Zeitung Berlin, 26. Oktober 1906</ref>
+                        </note>
+                    </seg>, die ich mir <lb/>noch beschaffen will.<add place="intralinear">
+                        <metamark/>
+                    </add>
+                    <note place="mBottom" hand="#author">
+                        <metamark/>
+                        <seg type="comment">
+                            <orig>B. T.</orig><note xml:id="nwpn_3vq_pyb" resp="#KBleier"><rs type="bibl" key="zotero-4528359-I3M7B4RE">Berliner Tageblatt
+                                1906a</rs></note></seg> war sehr schlecht; das werden Sie wohl gelesen
+                        haben.</note>
+                </p>
+                <p>Was Ihr <bibl sameAs="werke.42">Quartett</bibl> anbelangt, so wollen wir es
+                    drucken, aber ich möch <lb break="no"/>te Ihnen doch dringend raten, eine <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nqnt_ssz_3zb" resp="#KBleier">
+                            <ref target="event.25"/>
+                        </note>
+                    </seg> abzuwarten, damit nicht <lb/>ein Wunsch noch Aenderungen vorzunehmen zu
+                    spät kommt. </p>
+                <p>
+                    <persName key="pers.1112">Fried</persName> hat noch nichts wieder von sich hören
+                    lassen. Da auch ein <pb n="2" xml:id="p.2"/>anderes <orgName key="org.200">Orchester</orgName>, das grosse Unternehmungen plant, auf Ihre <bibl sameAs="werke.5">sin<g ref="#typoHyphen"/>
+                        <lb break="no"/>fonische Dichtung</bibl> reflektiert, so werde ich jetzt
+                    noch einmal anfra<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen. </p>
+                <p>Ich bin heute etwas pressiert und muss abbrechen. Die weiteren <lb/>Fragen Ihres
+                    <seg type="comment">
+                        <orig/>Briefes<note xml:id="nd51_srd_syb" resp="#KBleier">
+                            <ref target="letter.24180">Arnold Schönberg an Verlag Dreililien,
+                                zwischen 28. September und 30. Oktober 1906
+                            [erschlossen]</ref>
+                        </note>
+                    </seg> werde ich nächster Tage beantworten. </p>
+                <closer rendition="#r">
+                    <salute>Mit besten Grüssen auch an Ihre <rs type="person" key="pers.3290">Frau</rs>
+                        <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

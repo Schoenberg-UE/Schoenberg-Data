@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1197"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 13. März 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1197</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1197</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-DIYJCNLL">ASGA B 18/2</rs>
+                            <biblScope unit="page" from="23" to="23">XXIII</biblScope>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1926-03-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17654"/>
+                    <ref type="answered-by" target="letter.17658"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1197_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1197_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <note place="mTop" hand="#addressee">beantw. <lb/>17.3.26.
+                            <lb/>
+                        <persName key="pers.1485">ELH</persName>
+                    </note>
+                    <dateline>
+                        <date when="1926-03-13">13.III.1926</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Pt. <orgName key="org.1">UE</orgName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr Doktor <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p rendition="#inline">diese „Anfrage“ der <rs type="org" key="org.186">Stecherei</rs>, nach<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem sie mit dem Stich begonnen hat, finde ich sehr komisch! Es
+                    <lb/>wäre doch eben früher zu entscheiden gewesen! Wenn nicht mit <lb/>diesem
+                    Stechzeug zwei Systeme auf die Seite giengen, könnte <lb/>man nur folgendes
+                    tun.</p>
+                <p rendition="#lll">I. Eventuell die Chornoten einen Grad kleiner nehmen. Das aber
+                    <lb/>nur dann, wenn sie <hi rendition="#u">für den Dirigenten dann noch gross
+                        genug</hi>
+                    <lb/>sind!</p>
+                <p>II. Notfalls könnte man höchstens noch die beiden Streichinstru<g ref="#typoHyphen"/>
+                    <lb break="no"/>mente <hi rendition="#g">auch</hi> kleiner (aber in <add place="superlinear">jedenfalls</add> derselben Grösse wie die
+                    <lb/>Chorstimmen) machen. (Die Chorstimmen brauchen nicht mehr aufzu<lb break="no"/>fallen, als alles andere; denn da der Dirigent mit den Chören
+                    <lb/>am meisten Probieren muss, kennt der die Partitur in dieser Hin<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht ohnedies am besten).</p>
+                <p>III. Müsste man sich aber entschliessen, <subst>
+                        <del rendition="#s">die</del>
+                        <add place="superlinear">alle</add>
+                    </subst> Begleitungsstim<g ref="#typoHyphen"/>
+                    <lb break="no"/>men kleiner zu stechen (was ich sehr ungünstig fände) so gienge
+                    <lb/>das nur, wenn extra eine Stimme für den <seg type="comment">
+                        <orig>Klavierspieler</orig>
+                        <note xml:id="nxdg_t1d_bzb" resp="#pkehrer">
+                            <persName key="pers.3263">Schönberg</persName> bezieht sich auf <bibl
+                                sameAs="werke.61">Drei Satiren für gemischten Chor op. 28</bibl>:
+                            Der neue Klassizismus op. 28/3 (dort ist ein Klavier besetzt), anstatt
+                                <persName key="pers.1750">Alfred Kalmus</persName>’ Erkundigung in
+                                <ref target="letter.17654">Universal-Edition an Arnold Schönberg,
+                                11. März 1926</ref> entsprechend auf <bibl sameAs="werke.60">Vier
+                                Stücke für gemischten Chor op. 27</bibl>: Der Wunsch des Liebhabers
+                            op. 27/4 (<rs type="bibl" key="zotero-4528359-DIYJCNLL">ASGA B
+                            18/2</rs>, S. XXIII)</note>
+                    </seg> heraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gegeben würde. In dieser müsste die Klavierstimme dann so
+                    <lb/>gross gestochen sein, wie in Klavierquintetten, und die Chor- <lb/>und
+                    Streicherstimmen entsprechend kleiner. Also selbstverständ<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich eine <hi rendition="#g">Partitur</hi>! Für die Herausgabe
+                    einer solchen <lb/>Stimme bin ich ja sehr, weil die Aufführenden dann nicht zwei
+                    <lb/>ganze Exemplare des ganzen Opus kaufen müssten. Aber ebenso<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>sehr bin ich eigentlich gegen zweierlei Schriften in einer
+                    <lb/>Dirigierpartitur. Vielleicht hätte man ein etwas grösseres <lb/>Format von
+                    vornherein wählen sollen. Der Stich könnte als<pb n="2" xml:id="p.2"
+                    />Dirigierpartitur kaum kleiner genommen werden. Als Spielstim<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>me (daran scheint die Stecherei gar nicht gedacht zu haben) ist
+                    <lb/>sie ohnedies schon fast zu klein.</p>
+                <p>Zwei Systeme sollten beim letzten Stück unbedingt auf der <lb/>Seite stehen.</p>
+                <p>
+                    <hi rendition="#g">ACHTUNG</hi>: bitte auf jeder Seite alle Systeme zu bringen
+                    <lb/>auch wenn die betreffenden Stimmen Pausen haben. Bei einer <lb/>so kleinen
+                    Partitur gewöhnt man sich nicht so leicht an <lb/>differierende Notenbilder.</p>
+                <p>Ich bin mit Ihrem Vorschlag, auf Quartformat zu drucken sehr <lb/>einverstanden.
+                    Es sieht viel besser aus.</p>
+                <p rendition="#lll">
+                    <hi rendition="#u">Bitte machen Sie mir auch gleich Vorschläge für die Herstel<g ref="#typoHyphen"/>
+                        <lb break="no"/>lung des Stimmenmaterials.</hi>
+                </p>
+                <p>Ich lege die <seg type="comment">
+                        <orig>Probeseite</orig>
+                        <note xml:id="nubf_j22_3fc" resp="#KBleier">Zu <bibl sameAs="werke.60">Arnold
+                                Schönberg, Vier Stücke für gemischten Chor op. 27</bibl>; Laut
+                    <orgName key="org.1">UE</orgName>-Herstellungskartei am <date when="1926-03-17">17. März 1926</date> an
+                                <orgName key="org.186">Waldheim-Eberle</orgName>
+                            weitergeleitet</note>
+                    </seg> gleich hier bei, damit der Brief noch
+                    <lb/>heute fortgeht. Bitte beschleunigen Sie den Stich aufs äusser<g ref="#typoHyphen"/>
+                    <lb break="no"/>ste. Es ist nicht unmöglich, dass ich noch heuer eine Aufführung <lb/>davon mache.</p>
+                <closer rendition="#inline">
+                    <salute>Mit besten Grüssen und schönstem Dank, Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#pers.1750">
+                    <!-- steno -->
+                    <hi rendition="#st">bitte Manuskript sofort herein kommen lassen! <lb/>Sehr beschleunigen.</hi>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

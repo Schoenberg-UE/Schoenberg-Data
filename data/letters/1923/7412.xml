@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7412"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 22. Februar 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7412</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7412</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+               
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1923-02-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>= <bibl sameAs="schriften.80">Brief an die U. E.</bibl>; nicht
+                    abgeschickt</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-02+02:00" who="KBleier">Änderung Kommentar</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7412_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7412_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <note place="right" hand="#author">Seite 1</note>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>MOEDLING BEI WIEN</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.4.1">BER<supplied cert="high">N</supplied>HARDGASSE 6</placeName>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <placeName key="place.9.4">Mödling</placeName>, <date when="1923-02-22">22.II.1923</date>
+                    </dateline>
+                    <address>
+                        <addrLine>P. T. <orgName key="org.1">Univ. Edition</orgName>
+                            <note place="mTop" hand="#author">diesen Brief <lb/>habe ich leider <lb/>nicht
+                            abgeschickt!</note>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>
+                    <choice>
+                        <sic>d</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">als Sie mich <seg type="comment">
+                        <orig>neulich</orig>
+                        <note xml:id="nhps_t1r_nyb" resp="#pkehrer">Am <date when="1923-02-18">18.
+                                Februar 1923</date> fand bei <persName key="pers.2244">Alma
+                                Mahler</persName> eine Privataufführung von <bibl sameAs="werke.54"
+                                >Pierrot lunaire op. 21</bibl> statt (<persName key="pers.3263"
+                                >Schönbergs</persName> 2. Handexemplar des Originaldrucks D; <ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1508&amp;werke_id=478&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 24/1, Quelle D2</ref>). In Arnold Schönberg an Alma
+                            Mahler-Werfel, 20. Februar 1923 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B067796">ASCC
+                                6779</ref>), dankt <persName key="pers.3263">Schönberg</persName>
+                            „begeistert für den schönen Sonntag Nachmittag“</note>
+                    </seg> bei Frau <persName key="pers.2244">Mahler</persName>
+                    <lb/>wegen <orgName key="org.255">Hansen</orgName> fragten, habe ich Ihnen
+                    ausweichend geantwortet, weil ich <lb/>
+                    <choice>
+                        <sic>ich</sic>
+                        <corr type="deleted"/>
+                    </choice> Zeit und Ort nicht für geeignet fand, eine so ausladende Angele<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>genheit zu besprechen. In Wirklichkeit hatte ich damals <orgName
+                        key="org.255">Hansen</orgName>
+                    <lb/>bereits <subst>
+                        <del rendition="#s">
+                            <subst>
+                                <del rendition="#ow">geschrieben und auch von ihm antwort</del>
+                                <add place="across">sind die Verträge eingetroffen</add>
+                            </subst>
+                        </del>
+                        <add place="superlinear">geschrieben und von ihm <seg type="comment">
+                                <orig>Antwort</orig>
+                                <note xml:id="nvlq_xzq_nyb" resp="#pkehrer">Wilhelm Hansen
+                                    Musikforlag an Arnold Schönberg, 15. Februar 1923 (<ref
+                                        target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B166387"
+                                        >ASCC 16638</ref>). Der vorhergehende Brief <persName
+                                        key="pers.3263">Schönbergs</persName> ist nicht
+                                    nachweisbar</note>
+                            </seg>
+                        </add>
+                    </subst> erhalten, und heu<g ref="#typoHyphen"/>
+                    <lb break="no"/>te ist auch der <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note xml:id="nshh_rdl_nyb" resp="#pkehrer">Urheberrechtsabtretung: Serenade
+                            op. 24 etc., 5. März 1923 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B060269">ASCC
+                                6026</ref>)</note>
+                    </seg> eingetroff<choice>
+                        <sic>o</sic>
+                        <corr cert="high">e</corr>
+                    </choice>n, den ich in den näch<g ref="#typoHyphen"/>
+                    <lb break="no"/>sten Tagen unterzeichnen werde.</p>
+                <p>Warum ich Ihnen nicht sofort geschrieben habe, hat mehrere <lb/>Gründe. Vor allem,
+               weil ich über Ihre letzte Abrechnung ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>zweifelt bin.</p>
+                <p>I.) Wir haben viele Monate über meine Bemängelungen Ihrer <lb/>Praxis verhandelt;
+                    mit dem Resultat, dass die erste Abrechnung <lb/>nach unserer <seg
+                        type="comment">
+                        <orig>Einigung</orig>
+                        <note xml:id="niyg_ndr_nyb" resp="#pkehrer"><ref target="document.19681"
+                                >Abmachung, 7. Oktober 1922</ref>
+                        </note>
+                    </seg> mir wieder auf Treu und Glauben eine <lb/>Reihe von Zahlen hinsetzt, die
+                    für mich vollkommen unkontrol<g ref="#typoHyphen"/>
+                    <lb break="no"/>lierbar sind. <hi rendition="#u">Nirgends ein Ladenpreis!</hi>
+                    Nirgends ein Katalog<g ref="#typoHyphen"/>
+                    <lb break="no"/>preis! Kein Aufschluss über die Art der Verrechnung!</p>
+                <p>2. Die <bibl sameAs="schriften.1">Harmonielehre</bibl> (ebenfalls ohne Angabe irgend
+               eines De<g ref="#typoHyphen"/>
+                    <lb break="no"/>tails: obwohl Sie 2 Ausgaben führen!)
+               trägt mir pro Exemplar <lb/>heute bei der circa 3-fachen Weltteuerung circa nur wenig <choice>
+                        <sic>mehr</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>mehr als <hi rendition="#u">eine</hi> Goldkrone, während sie mir im Frieden in
+               Gold <lb/>2 Kr. 40 trug. Sie nehmen aber den umgerechneten Goldbetrag ein!</p>
+                <p>3. Meine Erträgnisse werden bei Ihnen immer geringer: noc<supplied cert="high">h</supplied> im <lb/>Jahre <date when="1921">192<subst>
+                            <del rendition="#ow">0</del>
+                            <add place="across">1</add>
+                        </subst>
+                    </date> bekam ich (für <add place="superlinear">das 1. Halbjahr</add>
+                    <date when="1921">192<subst>
+                            <del rendition="#ow">0</del>
+                            <add place="across">1</add>
+                        </subst>
+                    </date>) eine Abrechnung, de<choice>
+                        <sic>z</sic>
+                        <corr type="deleted"/>
+                    </choice>ren Gold<g ref="#typoHyphen"/>
+                    <lb break="no"/>wert mehr als 700 schw. Frk. betrug. Die diesmalige Abrechnung
+                    <lb/>bringt mir, obwohl die <bibl sameAs="schriften.1">Harmonielehre</bibl> (mit
+                    circa 300 Frk. dabei <lb/>ist, nur etwas über 1000. Frk, d. s. also 700 Frk.
+                    obwohl hier <del rendition="#s">viel</del>
+                    <lb/>vielmehr Materiale verrechnet worden sind, als damals: perzen<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuell also ist das Erträgnis wieder ger<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>inger!</p>
+                <p>4. Unbegreiflich und wohl nur durch Irrtümer zu erklären ist <lb/>aber der
+                    Umstand, dass obwohl die Zahl der Auff<choice>
+                        <sic>f</sic>
+                        <corr type="deleted"/>
+                    </choice>ührungen (wie <lb/>mir auch über die Abrechnung hinausgehend bekannt
+                    ist) ausser<g ref="#typoHyphen"/>
+                    <lb break="no"/>orden<supplied cert="high">t</supplied>lich gewachsen ist, die
+                    Stückzahl der Verkäufe auf weniger <lb/>als die Hälfte, ja zum Teil sogar auf
+                    ein Drittel gegenüber <choice>
+                        <sic>dem</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>dem Durchschnitt der 4–5 letzten Abrechnungen zurückgegan<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen ist. Hier muss ich bitten, e<supplied cert="high">i</supplied>nmal genau zu prüfen! In <lb/>dieser Hinsicht scheint mir diese
+                    Abrechnung zumindest als <lb/>etwas oberflächlich gemacht, denn mehr als das
+                    Doppelte muss <lb/>sich ergeben, wenn man etwas tiefer eindringt!</p>
+                <note place="left" hand="#author">
+                    <hi rendition="#u">Bio</hi>
+                </note>
+                <note place="mBottom" hand="#author">
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                </note>
+                <pb n="2" xml:id="p.2"/>
+                <note place="mTop" hand="#author">an die <orgName key="org.1">UE</orgName>
+                </note>
+                <p>5. Vermisse ich Materialgebühren aus einer Reihe mir bekannter <lb/>Aufführungen
+                    (z. B. <seg type="comment">
+                        <orig>
+                            <placeName key="place.8.1">Amsterdam</placeName>
+                        </orig>
+                        <note xml:id="nddc_33l_yfc" resp="#KBleier"><ref target="event.240"/></note>
+                    </seg>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <add place="superlinear">
+                        <placeName key="place.11.2">Genf</placeName> (<bibl sameAs="werke.2">Kammers.</bibl> und <seg type="comment">
+                            <orig>
+                                <bibl sameAs="werke.54">Pierr</bibl>
+                            </orig>
+                            <note xml:id="nicy_d1l_yfc" resp="#KBleier">
+                                <ref target="event.185"/>
+                            </note>
+                        </seg>) <placeName key="place.2.20">Leipzig</placeName>
+                    </add>
+                    <seg type="comment">
+                        <orig>
+                            <placeName key="place.4.4">Paris</placeName>
+                        </orig>
+                        <note xml:id="nwfm_wcl_yfc" resp="#KBleier">
+                            <ref target="event.184"/>
+                        </note>
+                    </seg> – <placeName key="place.2.18">Köln</placeName>
+                    <choice>
+                        <sic>etc</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>etc.)</p>
+                <p>Ich muss sagen, dass die genannten Mängel der Abrech<g ref="#typoHyphen"/>
+                    <lb break="no"/>nung in einem Verhältnis, wie es das unsere ist unerträglich
+                    <lb/>sind, da es unmöglich ist, wenn sich in einer Abrechnung auch <lb/>nur ein
+                    Fehler findet, zu glauben, dass der der einzige sein <lb/>soll. Aber ich will
+                    mich diesmal damit nicht aufhalten, son<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern muss Ihnen sagen, dass diese Abrechnung eben für mich
+                    <lb/>die Probe darauf sein soll, welches unser künftiges Verhält<g ref="#typoHyphen"/>
+                    <lb break="no"/>nis sein wird: Sie müssen einsehen, dass ich gegen ein solches
+                    <lb/>Erträgnis meine Werke nicht hergeben kann. Als Ertrag einer <lb/>mehr als
+                    20-jährigen Arbeit soll ich 2000 Frk. beziehen. Wenn a<g ref="#typoHyphen"/>
+                    <lb break="no"/>ber jemand durch 20 Jahre wertvollste Arbeit leistet, und <choice>
+                        <sic>l</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>lässt sein Einkommen von sagen wir nur 20000 Frk. während die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Zeit auf Zinsen liegen, so besitzt er mit Zinseszinsen
+                    <lb/>eine halbe Million, resp. eine Rente von 20000 Frk. – Ich bin <lb/>wie Sie
+                    wissen heute soweit, mir ein einigermassen entspre<g ref="#typoHyphen"/>
+                    <lb break="no"/>chendes Einkommen aus meinen Werken schon jetzt verschaffen
+                    <lb/>zu können und da mir ihre Abrechnung keine Möglichkeit zeigt <lb/>auch nur
+                    einigermassen entsprechende Summen zu errreichen, <lb/>so kann ich wenigstens,
+                    was die Zukunft anbelangt nicht <lb/>weiter Ihnen meine Werke überlassen. Und
+                    Sie können das auch, <lb/>wenn Sie mir wirklich wohlwollen auch gar nicht von
+                    mir ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>langen! Vergessen Sie nicht: während ihr alle Beamte wart und <lb/>be<choice>
+                        <sic>p</sic>
+                        <corr cert="high">q</corr>
+                    </choice>uem gelebt habt, oder auch sogar reich geworden seid, ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>be ich zugeschaut, habe doppelt und dreimal soviel gearbeitet
+                    <lb/>als andere, bin dafür beschimpft worden, habe Sorgen gehabt <lb/>und Aerger
+                    und von einen Tag auf den nächsten oft genug nicht <lb/>weiter gewusst, und nun
+                    wo das vorbei ist, mag ich es nicht <lb/>mehr fortsetzen und kein Mensch kann
+                    und darf das von mir <lb/>verlangen<supplied cert="high">.</supplied> Wenn Sie
+                    mir meine vertragsmässigen Anteile an mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen bisherigen Werken ausbezahlen, sind Sie für Ihre materi<g ref="#typoHyphen"/>
+                    <lb break="no"/>ellen Leistungen reichlich entschädigt. Für geistige Leistun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen aber können Sie sowenig Ansprüche erheben, wie ich, denn
+                    <lb/>sonst müssten auch Sie sich mit der Ehre, meine Sachen ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>druckt zu haben begnügen und den ganzen Ertrag mir überlassen,
+                    <lb/>da ich ja dann auch solche Ansprüche machen könnte.</p>
+                <note place="mBottom" hand="#author">
+                    <signed>
+                        <persName key="pers.3263">Arnold
+                     Schönberg</persName>
+                    </signed>
+                </note>
+                <pb n="3" xml:id="p.3"/>
+                <note place="mTop" hand="#author">An die <lb/>
+                    <orgName key="org.1">UE</orgName>
+                </note>
+                <p>Nun zu <orgName key="org.255">Hansen</orgName>:</p>
+                <p>Ich habe ihm die zwischen uns bes<choice>
+                        <sic>q</sic>
+                        <corr cert="high">p</corr>
+                    </choice>rochenen Vorschläge gemacht <lb/>er ist aber leider nicht bereit, Ihnen
+                    das Mitvertriebsrecht <lb/>zu übertragen. Aus welchem Grund er sich weigert, da
+                    er mir <lb/>es ursprünglich zugesagt hatte – dem nach zu gehen bin ich nicht
+                    <lb/>in der Lage. Ebensowenig aber kann ich <choice>
+                        <sic>t</sic>
+                        <corr cert="high">m</corr>
+                    </choice>ich entschliessen auf <lb/>einen Verkauf zu verzichten, der zwar meine
+                    kühnsten Träu<g ref="#typoHyphen"/>
+                    <lb break="no"/>me noch lange nicht err<choice>
+                        <sic>r</sic>
+                        <corr type="deleted"/>
+                    </choice>eicht, aber doch – Sie werden das doch <lb/>zugeben müssen – mich dem
+                    Niveau nähert auf dem meine Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>künfte gerechterweise sich bewegen müssen. Ich <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> nehme <lb/>als gewiss an, dass Sie mir hiebei nicht unrecht geben kön<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen. Ich selbst entschliesse mich nur sehr schwer einen Schritt
+                    <lb/>zu tun, ohne vorher ein Einvernehmen mir Ihnen gesucht zu <lb/>haben. Aber:
+                    einmal muss es doch sein! Ich weiss nicht woran <lb/>es liegt, aber Sie wollen
+                    sich nicht mit dem Gedanken vertraut <lb/>machen, dass Künstler, die etwas
+                    besonderes leisten vom Hun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gertuch allein nicht satt werden können! Ich habe ehrlich ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>standen gehofft, dass Sie mir, sobald ich Ihnen den Antrag <lb/>
+                    <orgName key="org.255">Hansens</orgName> nennen werde, einen vermittel<add place="superlinear">n</add>den Antrag machen werden. <lb/>Ich wäre bereit
+                    gewesen, auf einiges zu verzichten, um ganz <lb/>bei der <orgName key="org.1">U.
+                        E.</orgName> bleiben zu können. Insbesondere habe ich auf die
+                    <lb/>Abrechnung gehofft und gedacht, dass wenn sich jetzt eine Er<g ref="#typoHyphen"/>
+                    <lb break="no"/>tragsmöglichkeit zeigen sollte, ich doch bei Ihnen zu blei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben vorziehen würde. Aber da die Abrechnung so kläglich ist,
+                    <lb/>wie ich es nie für möglich gehalten hätte, da auch die <bibl sameAs="schriften.1">Har<g ref="#typoHyphen"/>
+                        <lb break="no"/>monielehre</bibl> nicht dazu beiträgt, mir ein Einkommen zu
+                        verschaf<g ref="#typoHyphen"/>
+                    <lb break="no"/>fen von dem ich leben kann, so bleibt eben nichts andere ü<g ref="#typoHyphen"/>
+                    <lb break="no"/>brig, als die Trennung rasch <choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>und schmerzlos zu vollziehen. <lb/>Denn darum handelt es sich: dass ich
+                    endlich sorgenfrei und mit <lb/>dem Komfort leben kann, der einem gebührt, der
+                    etwas gelei<g ref="#typoHyphen"/>
+                    <lb break="no"/>stet hat, noch etwas leisten will, auf alles verzichtet hat
+                    <lb/>und sich nun für die wenigen Jahre, die ihm möglicherweise noch <lb/>zur
+                    Arbeit gegönnt sind wenigstens die Zeit nehmen will, die <lb/>Zeit, die Ihm
+                    bisher immer gefehlt hat, weil er sie zum Brot<g ref="#typoHyphen"/>
+                    <lb break="no"/>erwerb verwenden musste: <hi rendition="#u">ich<choice>
+                            <sic>:</sic>
+                            <corr type="deleted"/>
+                        </choice> will eben nur mehr arbeiten.</hi>
+                </p>
+                <p>Das können Sie mir, so scheint es wenigstens gegenwärtig <lb/>nicht leisten.
+                    Mindestens so lange werden Sie eben darauf ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>zichten müssen, neue Werke von mir zu bekom<lb break="no"/>men.
+                    Ich will nicht sagen, dass das für immer sein muss: Im Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>genteil, ich rechne sehr damit, dass auch meine bei Ihnen sich
+                    <lb/>befindenden Werke schliesslich ein solches Erträgnis wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="mBottom" hand="#author">
+                        <signed>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </signed>
+                    </note>
+                    <pb n="4" xml:id="p.4" break="no"/>
+                    <note place="mTop" hand="#author">An die <orgName key="org.1">U.E.</orgName>
+                    </note>den abwerfen müssen, wie es den ursprünglich geschlossenen <choice>
+                        <sic>Ver</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>Verträgen entspricht. Ich bin auch weder gelaunt, noch in der <lb/>Lage,
+                    auch nur auf ein Jota davon zu verzichten; und schliess<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich wird auch die durch den Krieg hervorgerufene Rechtsun<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicherheit und Finanzschwierigkeit einmal ein Ende haben:
+                    <lb/>dann, spätestens dann hoffe ich dass meine Tantiemen bei <lb/>Ihnen mir die
+                    Ueberzeugung beibringen, dass mein Interesse bei <lb/>Ihnen ebenso gewahrt wird,
+                    wie bei einem gänzlichen Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>kauf; spätestens dann werde ich Ihnen meine Werke wieder gegen
+                    <lb/>Tantiemen überlassen können. Aber ich hoffe, ja ich rechne be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmt damit, dass in diese Angelegenheit früher Ordnung
+                    <lb/>kommt; dass in absehbarer Zeit mein Erträgnis bei Ihnen ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>sprechend sein wird. </p>
+                <p>Selbstverständlich sollen Sie stets bevorzugt werden. <lb/>Wenn Sie nur annähernd
+               gleichwertiges bieten, werde ich immer <lb/>Ihnen den Zuschlag machen. Aber eine
+               Kluft wie die gegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>wärtige ist
+               unüberbrückbar.</p>
+                <p>Oder sollten Sie vielleicht doch noch den Versuch probieren?</p>
+                <p>Heute erhielt ich einen <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nfs1_ddm_jyb" resp="#pkehrer">Paul Pella an Arnold Schönberg,
+                            20. Februar 1923 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B148909">ASCC
+                                14890</ref>)</note>
+                    </seg> von <persName key="pers.2735">Pella</persName> in welchem er mich <lb/>ersucht auf die Entscheidung über
+                    die Vergebung der <bibl sameAs="werke.16">Gurre<g ref="#typoHyphen"/>
+                        <lb break="no"/>lieder</bibl>
+                    <seg type="comment">
+                        <orig> für <placeName key="place.2.3">Berlin</placeName>
+                        </orig>
+                        <note xml:id="njwm_nhm_lgc" resp="#KBleier">
+                            <p>
+                                <persName key="pers.3120">Paul Scheinpflug</persName> hatte die
+                                    <bibl sameAs="werke.16">Gurre-Lieder</bibl> in <placeName
+                                    key="place.2.11">Duisburg</placeName> dirigiert. <persName
+                                    key="pers.1914">Wilhem Klitsch,</persName> der den Sprecher-Part
+                                übernommen hatte, setzte sich bei <persName key="pers.3263"
+                                    >Schönberg</persName> dafür ein, <persName key="pers.3120"
+                                    >Scheinpflug</persName> das Recht für eine Aufführung in
+                                    <placeName key="place.2.3">Berlin</placeName> zu übertragen.
+                                    <persName key="pers.3263">Schönberg</persName> gab seine
+                                Zustimmung (Wilhelm Klitsch an Arnold Schönberg, 31. Dezember 1922;
+                                    <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B212308"
+                                    >ASCC 21230</ref>; Arnold Schönberg an Wilhelm Klitsch, 8.
+                                Jänner 1923; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064737"
+                                    >ASCC 6473</ref>). <persName key="pers.3120"
+                                    >Scheinpflugs</persName> Unternehmung wurde von der
+                                Konzertagentur <persName key="pers.2221">Löwensohn</persName>
+                                unterstützt. Gleichzeitig bemühten sich <persName key="pers.2735"
+                                    >Paul Pella</persName> und <persName key="pers.1702">Heinrich
+                                    Jalowetz</persName> um die <placeName key="place.2.3"
+                                    >Berliner</placeName> Erstaufführung. <persName key="pers.2328"
+                                    >Pella</persName> beschwert sich über „Machinationen des
+                                Direktor <persName key="pers.1538">Hertzka</persName>“, die sich in
+                                Unentschiedenheit zwischen den konkurrierenden Aufführungsambitionen
+                                und -modalitäten äußerten und bat Schönberg um Intervention (Paul
+                                Pella an Arnold Schönberg, 20. Februar 1923; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B148909"
+                                    >ASCC 14890</ref>).</p>
+                            <p>
+                                <ref target="event.247"/>; <ref target="event.248"/>
+                            </p>
+                        </note>
+                    </seg> zu seinen Gunsten einzuwirken. Ich bin mir <lb/>jedoch über
+                    die Rechtslage noch nicht genügend klar, als dass <lb/>ich schon eine Meinung
+                    hätte. Jedenfalls scheint mir, hatte <lb/>Herr <persName key="pers.2221">Löwensohn</persName> nicht das Recht, das Aufführungsrecht der <bibl sameAs="werke.16">Gur<g ref="#typoHyphen"/>
+                        <lb break="no"/>relieder</bibl> zu verkaufen, sondern konnte bloss für
+                    seinen Verzicht <lb/>eine Entschädigung verlangen, wogegen das Aufführungsrecht
+                    <lb/>nur von Ihnen erworben werden kann. Ausserdem hat, so hoffe ich,
+                    <lb/>wenigstens nicht dieser Herr <persName key="pers.2221">Loewensohn</persName> für seine Person das <lb/>Recht erworben, weil dieses
+                    doch hoffentlich immer nur an <lb/>einen bestimmen Künstler vergeben werden
+                    kann. Ich glaube <lb/>also, dass man <persName key="pers.3120">Scheinpflug</persName>, solange er auf sein Recht besteht, <lb/>im Wort
+                    bleiben muss. Gerne würde ich <persName key="pers.1702">Jalowetz</persName> und
+                    auch <persName key="pers.2735">Pella</persName>
+                    <lb/>nützen, sehr gerne; aber <persName key="pers.3120">Scheinpflug</persName>,
+                    der sich ganz ungewöhn<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich nett und <choice>
+                        <sic>und</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <seg type="comment">
+                        <orig>freundlich zu mir</orig>
+                        <note sameAs="letter.682/#nnky_xp5_ggc"/>
+                    </seg> gezeigt hat, möchte ich
+                    <lb/>unter keiner Bedingung verletzen! <persName key="pers.2735">Pella</persName> hat eben scheinbar <lb/>einige schwere Fehler gemacht.</p>
+                <p>Ich muss schliessen um weiterzuarbeiten.</p>
+                <closer rendition="#inline">
+                    <salute>Also, viel<supplied cert="high">e</supplied> herzlich<choice>
+                            <sic>n</sic>
+                            <corr cert="high">e</corr>
+                        </choice>
+                        <lb/>Grüsse Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                  Schönberg</persName>
+                    </signed>
+                    <note place="mBottom" hand="#author">der Brief ist
+                  stilistisch <lb/>recht unklar. Das<choice>
+                            <sic>s</sic>
+                            <corr type="deleted"/>
+                        </choice> liegt daran, <lb/>dass ich damals im Schreibma<g ref="#typoHyphen"/>
+                        <lb break="no"/>schinschreiben noch so ungeübt <lb/>war, dass ich oft, wie ich
+                  sagte <lb/>geschrieben habe, was die <lb/>Maschine wollte. In Wirk<g ref="#typoHyphen"/>
+                        <lb break="no"/>lichkeit: das Korrigieren <lb/>eines Satzes,
+                  eines Fehlers <lb/>war zu schwierig. Und das <lb/>Schreiben beschäftigte mich so,
+                  <lb/>dass ich den aus<g ref="#typoHyphen"/>
+                        <lb break="no"/>gedachten Satz da<g ref="#typoHyphen"/>
+                        <lb break="no"/>rüber vergaß. <lb/>
+                        <date when="1932-08-03">3.VIII.32</date>
+                    </note>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

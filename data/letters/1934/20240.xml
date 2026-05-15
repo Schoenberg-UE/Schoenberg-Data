@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20240"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 7. Dezember 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20240</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20240</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-I6XZLIU9">ASGA B 9</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1934-12-07" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1.2">Los Angeles, 5860 Canyon Cove</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2476"/>
+                    <ref type="answered-by" target="letter.2534"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20240_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20240_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.41">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>TELEGRAMM-ADRESSE:
+                        MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN 57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1934-12-07">7.
+                            Dezember 1934</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn Prof. <persName key="pers.3263">Arnold </persName>
+                            <hi rendition="#g">
+                                <persName key="pers.3263">Schönberg</persName>,</hi>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.1.2">5860 Canyon Cove</placeName>,</addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Hollywood,</hi> California</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir bedauern sehr, auf unser <ref target="letter.20238">Telegramm</ref> in
+                    Angelegenheit Ihres <lb/>
+                    <rs type="person" key="pers.3281">Sohnes</rs> bisher keine Antwort bekommen zu
+                    haben. Wir haben uns inzwi<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen grosse Mühe gegeben, um ihm zu einer Verlängerung seines
+                        Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>enthaltes in <placeName key="place.4.4">Paris</placeName> zu
+                    verhelfen und warten nur auf Ihre Nachricht, <lb/>um weitere Schritte
+                    durchzuführen.</p>
+                <p>Zurückkommend auf ihren <ref target="letter.2476">Brief</ref> vom <date when="1934-10-28">28. Oktober</date> teilen wir Ihnen <lb/>folgendes
+                    mit:</p>
+                <p>
+                    <hi rendition="#uu" hand="#addressee">1.) <orgName key="org.5">A. K.
+                            M.</orgName>:</hi> Das Verrechnungssystem bei der <orgName key="org.5">A. K. M.</orgName> ist nur auf <lb/>Programmen aufgebaut und es bekommt
+                    jeder Komponist für Aufführungen <lb/>eines Werkes im gleichen Rahmen und in
+                    gleicher Dauer die gleichen <lb/>Aufführungsanteile. Eine Einschätzung findet
+                    nicht statt und daher <lb/>kann die <orgName key="org.5">A. K. M.</orgName>
+                    weder ein anderes Mitglied höher einschätzen als Sie, <lb/>noch ist sie in der
+                    Lage, Ihnen eine Mindestsumme zu garantieren. Die <lb/>
+                    <orgName key="org.5">A. K. M.</orgName> würde Ihnen nach dem gleichen System
+                    verrechnen, wie den ande<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren Komponisten, und würde sich selbstverständlich soweit es
+                    überhaupt <lb/>technisch möglich ist, bemühen, alle Aufführungen zu erfassen.
+                    Bei der <lb/>
+                    <rs type="org" key="org.227">tschechoslowakischen</rs> und <rs type="org" key="org.205">englischen Gesellschaft</rs> sind die Verhältnisse
+                    <lb/>ähnlich und wir glauben kaum, dass irgend eine Gesellschaft Ihnen eine
+                    <lb/>Mindestsumme für irgend ein Jahr oder gar für die Dauer des Verwaltungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>vertrags garantieren wird. Bei der <rs type="org" key="org.22">amerikanischen Gesellschaft</rs> ist die <lb/>Sachlage ganz anders, denn
+                    bei der <orgName key="org.22">Ascap</orgName> wird in einer noch viel unge<g ref="#typoHyphen"/>
+                    <lb break="no"/>naueren Weise geschätzt, als dies bei der <orgName key="org.72">GEMA</orgName> bezw. jetzt bei der <pb n="2" xml:id="p.2"/>
+                    <orgName key="org.163">STAGMA</orgName> der Fall ist, und soviel uns bekannt,
+                    werden die ernsten Kom<g ref="#typoHyphen"/>
+                    <lb break="no"/>ponisten sehr ungünstig behandelt. Die <orgName key="org.22">Ascap</orgName> hat übrigens wiederholt <lb/>erklärt, dass sie sich für das
+                    Inkasso von Aufführungsgebühren ernster <lb/>Musik gar nicht interessiert und
+                    daher haben viele Verleger, die ern<g ref="#typoHyphen"/>
+                    <lb break="no"/>ste sinfonische Musik vertreiben, das Inkasso der
+                    Aufführungsgebühren <lb/>bei Orchesteraufführungen selbst übernommen. So werden
+                    auch wir durch <lb/>die <orgName key="org.23">Associated Music Publishers
+                        Inc.</orgName>, <placeName key="place.15.8">New York</placeName>, vertreten,
+                    die bei <lb/>Orchester- und Radioaufführungen die Aufführungsgebühren
+                    einkassiert. <lb/>Hingegen wird in ganz <placeName key="place.15">Amerika</placeName> für Kammermusikaufführungen (öffentliche <lb/>Klavier-,
+                    Violin-, Lieder-, Quartett-Konzerte etc.) überhaupt nicht <lb/>einkassiert, weil
+                    diese Gruppe von Aufführungen leider in <placeName key="place.15">Amerika</placeName> noch <lb/>nicht organisiert ist. Wir bitten Sie daher
+                    nach diesen Aufführungen <lb/>um Mitteilung, ob Sie der <orgName key="org.5">A.
+                        K. M.</orgName> unter den gleichen Bedingungen bei<g ref="#typoHyphen"/>
+                    <lb break="no"/>treten wollen, wie die übrigen ernsten Komponisten, und wir
+                    würden <lb/>Ihnen für diesen Fall die notwendigen Anmeldeformulare zusenden.</p>
+                <p>2.) „<bibl sameAs="werke.16">Gurrelieder</bibl>“, „<bibl sameAs="werke.13">Verklärte Nacht</bibl>“, „<bibl sameAs="werke.2">Kammersinfonie</bibl>“:
+                    Ihre <lb/>Mitteilung, dass die „<bibl sameAs="werke.16">Gurrelieder</bibl>“
+                    nicht Copyright sind, ist nicht <lb/>richtig, denn es ist der <bibl sameAs="werke.17">Klavierauszug</bibl> gleich nach Erscheinen im Jahre <lb/>
+                    <date when="1913">1913</date> zum Copyright eingetragen worden und das Werk
+                    daher vollkommen <lb/>geschützt, selbst wenn die Partitur nicht separat zum
+                    Copyright angemel<g ref="#typoHyphen"/>
+                    <lb break="no"/>det wurde.</p>
+                <p>Was „<bibl sameAs="werke.13">Die Verklärte Nacht</bibl>“ angelangt, so ist dieses
+                    Werk <lb/>in der Originalfassung beim <orgName key="org.180"
+                        >Dreililien-Verlag</orgName> erschienen und nicht beim <lb/>
+                    <seg type="comment">
+                        <orig>Copyright-Register</orig>
+                        <note xml:id="nm3m_prv_41c" resp="#pkehrer">„Register of Copyrights“ ist die
+                            Amtsbezeichnung für die Direktion des <orgName key="org.241">United
+                                States Copyright Office</orgName> (Clement Lincoln Bouvé an Arnold
+                            Schönberg, 22. August 1940; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B138078">ASCC
+                                13807</ref>); die Mitarbeiter:innen der <orgName key="org.1"
+                                >Universal-Edition</orgName> scheinen den Begriff synonym für die
+                            Institution bzw. das Verzeichnis der geschützen Einträge selbst
+                            verwendet zu haben</note>
+                    </seg> eingetragen, worauf wir keine Ingerenz hatten. Die <lb/>
+                    <bibl sameAs="werke.14">Orchesterfassung</bibl>, die von der Originalfassung nur
+                    geringfügig abweicht, <lb/>ist im Jahre <date when="1917">1917</date> erschienen
+                    und konnte während der Kriegszeit nicht <lb/>eingetragen werden. Aber selbst
+                    wenn eine Eintragung möglich gewesen <lb/>wäre, würde ein Nachdruckverleger in
+                        <placeName key="place.15">U.S.A.</placeName> in der Lage sein, die Ori<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ginalfassung herauszugeben und selbst eine Kontrabass-Stimme von
+                    irgend <lb/>einem Bearbeiter dazu arrangieren lassen.</p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Die <bibl sameAs="werke.2">Kammersinfonie</bibl> ist, wie wir konstatieren,
+                    leider im Jahre <lb/>
+                    <date when="1913">1913</date> nicht zum Copyright eingetragen worden, was wir
+                        ausserordent<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich bedauern, aber wofür wir die Gründe heute nach 21 Jahren
+                    nicht <lb/>mehr feststellen können. Das Werk ist jedoch nicht nachgedruckt wor<g ref="#typoHyphen"/>
+                    <lb break="no"/>den und es ist überhaupt kaum anzunehmen, dass ein Nachdruck
+                    erfolgen <lb/>wird. Wir bedauern dies ausserordentlich, müssen aber feststellen,
+                    <lb/>dass eine Schädigung Ihrer Interessen nicht erfolgt ist und selbst
+                    <lb/>wenn ein Nachdruck von irgend jemandem vorgenommen würde, würde der
+                    <lb/>Schaden, <del rendition="#s">würde der Schaden,</del> den Sie durch Entgang
+                    von Tantiemen er<g ref="#typoHyphen"/>
+                    <lb break="no"/>leiden würden, kein nennenswerter sein.</p>
+                <p>Wir stellen dies alles fest, da Sie einen neuen Vorschlag <lb/>„unter Vorbehalt
+                    aller sich aus Ihrer Schuld <del rendition="#s">entstehenden</del> entstande<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Ansprüche“ machen. Wir möchten Sie, verehrter Herr <persName key="pers.3263">Schönberg</persName>, sehr <lb/>bitten, keine
+                    Schadensersatzansprüche zu stellen, denn abgesehen da<g ref="#typoHyphen"/>
+                    <lb break="no"/>von, dass die Angelegenheit der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ in Ordnung ist, dass <lb/>wir auf ein Copyright der
+                        „<bibl sameAs="werke.13">Verklärten Nacht</bibl>“ keine Ingerenz hatten
+                    <lb/>und dass die <bibl sameAs="werke.2">Kammersinfonie</bibl> nicht
+                    nachgedruckt wurde, so mussten Sie <lb/>doch aus den ganzen Verhandlungen, die
+                    zum Abschluss unseres <ref target="document.7359_cn">Ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>trages</ref> vom <date when="1932-09-11">11. September
+                        1932</date> geführt haben und der von Ihnen selbst <lb/>als eine Abmachung
+                    „zum ewigen Frieden“ bezeichnet wird, ersehen, <lb/>dass wir alles getan haben
+                    und auch weiterhin tun wollen (wobei wir <lb/>auch erhebliche materielle Opfer
+                    nicht gescheut haben), um Ihre Wün<g ref="#typoHyphen"/>
+                    <lb break="no"/>sche in jeder Weise zu befriedigen. <pb n="4" xml:id="p.4"/>
+                </p>
+                <p>Wir sind natürlich sehr dafür, dass Sie Neufassungen Ihrer <lb/>älteren Werke,
+                    die praktisch leichter aufführbar sind, schreiben, aber <lb/>wir könnten hiefür
+                    irgend eine Entschädigung für eine Arbeit Ihrerseits <lb/>nicht bezahlen,
+                    sondern die Neufassungen nur in derselben Weise tantie<g ref="#typoHyphen"/>
+                    <lb break="no"/>misieren, wie es für die jetzt bestehenden Fassungen in unseren
+                        Verträ<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen vorgesehen ist. Sie wissen selbst sehr gut, mit welchen
+                    grossen <lb/>Schwierigkeiten heute jeder ernste Musikverlag durch den Ausfall
+                        <placeName key="place.2">Deutsch<g ref="#typoHyphen"/>
+                        <lb break="no"/>lands</placeName> und durch die Wirtschaftslage in
+                        <placeName key="place.2">Deutschland</placeName> und der ganzen Welt <lb/>zu
+                    kämpfen hat und nur wenn wir dieser Wirtschaftslage und dem Rückgang <lb/>der
+                    Kaufkraft des Publikums in jeder Weise Rechnung tragen, dann können <lb/>wir,
+                    wie wir es bisher getan haben und auch weiter durchzuführen hoffen, <lb/>im
+                    Interesse der zeitgenössischen Musik unsere Tätigkeit fortsetzen.
+                    <lb/>Irgendwelche Spezialauslagen oder Honorare sind wir aber zu tragen lei<g ref="#typoHyphen"/>
+                    <lb break="no"/>der nicht in der Lage. Wir würden uns sehr freuen, wenn Sie sich
+                        nichts<g ref="#typoHyphen"/>
+                    <lb break="no"/>destoweniger dazu entschliessen würden, die von Ihnen
+                    vorgeschlagenen <lb/>Neufassungen fertigzustellen und wenn wir Ihre Manuskripte
+                    bezw. die <lb/>Lichtpausen auf Transparentpapier erhalten, wollen wir uns
+                    darüber <lb/>schlüssig werden, ob wir Neuherausgaben allein oder mit einem
+                        <placeName key="place.15">amerikani<g ref="#typoHyphen"/>
+                        <lb break="no"/>schen</placeName> Verleger machen wollen.</p>
+                <closer>Wir wären Ihnen sehr verbunden, wenn Sie unseren Standpunkt <lb/>akzeptieren
+                    wollten, und zeichnen in der Hoffnung, recht bald von Ihnen <lb/>zu hören, <lb/>
+                    <salute rendition="#r">in vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <seg rendition="#r">
+                        <orgName key="org.1">UNIVERSAL-EDITION A. G.</orgName>
+                    </seg>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750"> Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

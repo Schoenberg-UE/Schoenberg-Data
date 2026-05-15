@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.6839"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 20. Jänner 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6839</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6839</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1913-01-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24235"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-24+02:00" who="KBleier">Korrektur Transkription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6839_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.6839_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName
+                            key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline rendition="#c">
+                        <date when="1913-01-20">20/1. 1913</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">Ihre Forderung von 1000 Mark <lb/>als Strafe für eine
+                    eventuelle <placeName key="place.2.3">Berliner</placeName>
+                    <bibl sameAs="werke.16">Gurrelieder</bibl>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note sameAs="letter.6829/#nl1m_bmj_kgc"/>
+                    </seg> muss ich <hi rendition="#u">absolut ablehnen</hi>. Sollte eine
+                    <lb/>genügende Summe zustande kommen, um das <lb/>Konzert (dessen Kosten doch
+                    noch viel höher sind, als ich an<g ref="#typoHyphen"/>
+                    <lb break="no"/>nahm, weshalb die bis jetzt vorhandene <seg type="comment">
+                        <orig>Summe</orig>
+                        <note sameAs="letter.6831/#nozg_11k_kgc"/>
+                    </seg> noch <lb/>lange nicht genügt) abzuhalten und sollte es möglich sein,
+                    <lb/>dass sogar mehr <subst>
+                        <del rendition="#ow">davon</del>
+                        <add place="across">Geld</add>
+                    </subst> da ist, dann werde ich den <lb/>Mehrbetrag dazu verwenden, um eine oder
+                    2 Proben <lb/>mehr zu machen. Denn ich habe nur mit 8 Proben gerech<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>net. – Sollte sich aber gar aus den Erträgnissen ein
+                    <lb/>Ueberschuss ergeben, dann werden Sie, der Sie mir <lb/>für die <bibl
+                        sameAs="werke.16">Gurrelieder</bibl> nur ein Honorar von 500 Kronen
+                    <lb/>gegeben haben, es nicht ungerecht finden dürfen, wenn <lb/>dieser
+                    Ueberschuss mir verbliebe. Ich muss gestehen, <lb/>dass ich mit den Aktionären
+                    der <orgName key="org.1">Universal Edition</orgName>
+                    <lb/>recht wenig Mitleid haben kann. Denn sie werden <lb/>mehr an den <bibl
+                        sameAs="werke.16">Gurreliedern</bibl> verdienen, als ich, der ich <lb/>ja,
+                    wenn Sie wirklich au<subst>
+                        <del rendition="#ow">ch</del>
+                        <add place="across">f</add>
+                    </subst> unseren Vertrag werden <lb/>bestehen wollen, bloß 10 % bekomme, während
+                    <lb/>die <orgName key="org.1">U. E.</orgName> mindestens 50 % bekommt. Aber <pb
+                        n="2" xml:id="p.2"/>selbst wenn ich mein Mitleid so weit triebe, dass
+                    <lb/>ich mich entschlösse, der <orgName key="org.1">U. E.</orgName> eine solche
+                        Subven<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion aus dem Fonds für mein Konzert zukommen <lb/>zu lassen, so
+                    hätte ich doch gebundene Hände. Denn <lb/>ich bin verpflichtet über die
+                    Verwendung der gezeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>neten Gelder Rechnung zu legen. Und das würde <lb/>mir kein
+                    Mensch glauben, dass ich für ein Material, <lb/>da<subst>
+                        <del rendition="#ow">ss</del>
+                        <add place="across">s</add>
+                    </subst> sicher für 250 Mark <hi rendition="#u">käuflich</hi> sein müsste,
+                    <lb/>eine <hi rendition="#u">Leihgebühr</hi> von 1000 Mark gezahlt habe. Sondern
+                    <lb/>man würde annehmen, dass ich das in meine <lb/>Tasche gesteckt habe, oder,
+                    dass es eine abgekartete <lb/>Sache mit dem Verlag sei. (Halbpart). Zu solchen
+                    <lb/>Dingen kann ich mich aber nicht hergeben.</p>
+                <p>Lieber Herr Direktor, seien Sie nicht bös, dass <lb/>ich das so entschieden
+                    ablehne. Ich bin überzeugt, <lb/>Sie haben mir diesen <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nvhd_xkk_5wb">
+                            <ref target="letter.24235">Universal-Edition an Arnold Schönberg,
+                                zwischen 14. und 20. Jänner 1913 [erschlossen]</ref>
+                        </note>
+                    </seg> nur so in einer <lb/>ersten Aufwallung geschrieben und habens nicht or<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>dentlich überlegt. Ich hoffe, Sie verschließen sich <lb/>meinen
+                    Gründen nicht. Und ich hoffe, Sie werden <lb/>diese Forderung, die die
+                    Aufführung vereiteln <lb/>kann, nicht aufrecht halten. Denn vorläufig ist noch
+                    <lb/>immer nicht die nötige Summe da. Es ist noch <pb n="3" xml:id="p.3"/>
+                    manche Antwort ausständig. Aber es dürfte wohl in den <lb/>nächsten Tagen
+                    definitiv beisammen sein. Eine Schwierigkeit <lb/>macht auch das Engagement der
+                    Chöre. Insbesondere weil <lb/>keine <bibl sameAs="werke.17"
+                        >Klavierauszüge</bibl> da waren. Nun <del rendition="#s">so</del> wirds wohl
+                    <lb/>auch schneller gehen. Der Klavierauszug sieht sehr <lb/>schön aus. Ich bin
+                    damit sehr zufrieden. Was ist aber <lb/>mir der <seg type="comment">
+                        <orig>Luxusausgabe</orig>
+                        <note sameAs="letter.6840/#nh25_rhc_fgc"/>
+                    </seg>, die doch auf gutes Papier <lb/>gedruckt werden soll.</p>
+                <p>
+                    <hi rendition="#ll" hand="#unknown">
+                        <hi rendition="#u">NB</hi> könnten Sie nicht auch von der Partitur einige
+                        <lb/>Exemplare zu einem etwas höheren Preis auf gutes Papier <lb/>drucken
+                        lassen? Dies Papier ist besonders schlecht. Ich <del rendition="#s">
+                            <gap reason="illegible" quantity="1" unit="words"/>
+                        </del>
+                    </hi>
+                    <lb/>fürchte in 5 Jahren hält kein Exemplar mehr aus.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Gegen <persName key="pers.1112">Fried</persName> und <persName key="pers.1364"
+                        >Gutmann</persName> haben Sie sich <lb/>sehr richtig benommen. Denn die
+                        <bibl sameAs="werke.16">Gurrelieder</bibl>-<lb break="no"/>A<supplied
+                        cert="high">uf</supplied>führung werde <hi rendition="#u">ich hier
+                        dirigieren.</hi> Und ob ich mit <lb/>
+                    <persName key="pers.1364">Gutmann</persName> arbeiten werde, ist auch noch
+                    fraglich. <lb/>Vorläufig verlangt er fürs Arrangement bloß <lb/>10 mal so viel
+                    als <orgName key="org.6">Wolff</orgName>!! –</p>
+                <p>Nun noch folgendes: <note place="right" hand="#addressee">
+                        <metamark/>
+                        <hi rendition="#u">
+                            <persName key="pers.4273">H. v Wöss</persName>
+                        </hi> zeigen! <lb/>
+                        <gap reason="illegible" unit="chars" quantity="2"/>.</note>
+                </p>
+                <p>
+                    <hi rendition="#lll" hand="#unknown">In der Partitur der <bibl sameAs="werke.2"
+                            >Kammersinfonie</bibl>
+                        <lb/>hat der <hi rendition="#u" hand="#unknown">Korrektor</hi> (<persName key="pers.1604">A.
+                            H.</persName>) manchen Unsinn <lb/>angestellt (ich sagte oft: aha;
+                            <persName key="pers.1604">A. H.</persName>). So wenn <lb/>er den Stecher
+                        dazu zwingt jedesmal nach dem</hi>
+                    <pb n="4" xml:id="p.4"/> Wort „Bogen“ einen Schlusspunkt (.) zu <lb/>setzen:
+                    „Bogen.“ Als ob dem Geiger der Bogen <lb/>sonst davon liefe, wenn der Punkt
+                    nicht wäre. <lb/>Weiß denn der Mann nicht, dass man diese Schluss<g ref="#typoHyphen"/>
+                    <lb break="no"/>punkte heute nicht mehr macht?!!? Bloß am Ende <lb/>von Sätzen,
+                    aber nicht mehr nach einzelstehenden <lb/>Worten (lesen Sie die Satire von <seg
+                        type="comment"><orig>
+                            <persName key="pers.2031">Kraus</persName>: der <lb/>
+                            <bibl sameAs="schriften.114">Schlusspunkt nach Burgtheater</bibl>
+                        </orig>
+                        <note sameAs="letter.412/#nfrx_3gv_qdc"/>
+                    </seg>.) – <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> dann, <lb/>wenn er, obwohl in meiner Partitur bloß das <lb/>Wort „hervor“
+                    steht, darauf besteht, dass „her<g ref="#typoHyphen"/>
+                    <lb break="no"/>vortreten“ gestochen würde. Das könnte er doch mir
+                    <lb/>überlassen. Das ist doch meine Sache! – Schlimmer <lb/>aber ist, dass er
+                    mir zwei Fehler hineingemacht <lb/>
+                    <hi rendition="#lll" hand="#unknown">hat. Und zwar auf Seite 53, wo in der obersten <lb/>
+                        <hi rendition="#u">Zeile <hi rendition="#uu" hand="#unknown">gr</hi>
+                            <choice>
+                                <orig>Fl.</orig>
+                                <reg>Flöte</reg>
+                            </choice> zu spielen</hi> hat (er schreibt hin <hi rendition="#u"
+                            >kl</hi>
+                        <choice>
+                            <orig>Fl</orig>
+                            <reg>Piccolo</reg>
+                        </choice>) <lb/>während erst auf Seite 54 kl Flöte kommt. Das <lb/>müsste
+                        noch geändert werden! – Dann bitte ich Sie <lb/>
+                        <hi rendition="#u" hand="#unknown">Herrn von <persName key="pers.4273">Wöss</persName> zu
+                            fragen</hi>, ob es nicht noch möglich ist, <lb/>die von ihm gerügte
+                        Stelle auf <hi rendition="#uu" hand="#unknown">Seite 55</hi> (wo das </hi>
+                    <lb/>erste Horn so tief hinuntergeht, dass kein Platz für <lb/>die Pause ist) in
+                    der Weise zu lösen, dass man <lb/>das I. Horn im Bassschlüssel notiert. Ich lege
+                    eine <lb/>Skizze bei und hoffe, dass Herr <persName key="pers.4273">von
+                        Wöß</persName> den Ausweg, den</p>
+                <pb n="5" xml:id="p.5"/>
+                <stamp sameAs="stamp.6" rendition="#r">
+                    <persName key="pers.3263">Arnold Schönberg</persName>,
+                    Berlin-Zehlendorf-Wannseebahn<lb/> Machnower Chaussee, <placeName
+                        key="place.2.38.2">Villa Lepcke</placeName>. </stamp>
+                <notatedMusic>
+                    <section xmlns="http://www.music-encoding.org/ns/mei">
+                        <scoreDef mnum.visible="false">
+                            <staffGrp n="1" bar.thru="true">
+                                <staffDef n="1" lines="5" clef.line="2" clef.shape="G"
+                                    clef.visible="false">
+                                    <label>Hor  I<lb/>II</label>
+                                </staffDef>
+                                <staffDef n="2" lines="5" clef.line="2" clef.shape="G"
+                                    clef.visible="false">
+                                    <label>I Geige</label>
+                                </staffDef>
+                            </staffGrp>
+                        </scoreDef>
+                        <measure n="1">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="f" accid="s" oct="5" dur="2" stem.dir="up"/>
+                                    <rest dur="4" loc="7"/>
+                                    <note pname="a" accid="f" oct="5" dur="4" stem.dir="up"/>
+                                </layer>
+                                <layer n="2">
+                                    <note pname="c" accid="s" oct="5" dur="2" stem.dir="down"/>
+                                    <rest dur="2"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="e" accid="s" oct="6" dur="4" stem.dir="down"
+                                        xml:id="m1s2l1n1"/>
+                                    <note pname="d" accid="s" oct="6" dur="2" dots="1"
+                                        stem.dir="down" xml:id="m1s2l1n2"/>
+                                </layer>
+                            </staff>
+                            <dir staff="1" layer="1" place="above" tstamp="1">Kammersymph.
+                                <lb/>Seite 55</dir>
+                        </measure>
+                        <measure n="2">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="e" accid="f" oct="5" dur="4" stem.dir="up"/>
+                                    <note pname="b" accid="f" oct="4" dur="4" stem.dir="up"/>
+                                    <note pname="f" accid="n" oct="4" dur="4" stem.dir="up"/>
+                                    <clef line="4" shape="F" visible="true"/>
+                                    <beam>
+                                        <note pname="c" accid="n" oct="3" dur="8" dots="1"
+                                            stem.dir="up"/>
+                                        <note pname="g" accid="n" oct="2" dur="16" stem.dir="up"/>
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="d" accid.ges="s" oct="6" dur="1" xml:id="m2s2l1n1"
+                                    />
+                                </layer>
+                            </staff>
+                            <tie staff="2" layer="1" curvedir="above" startid="#m1s2l1n2"
+                                endid="#m2s2l1n1"/>
+                            <slur staff="2" layer="1" curvedir="above" startid="#m1s2l1n1"
+                                endid="#m2s2l1n1"/>
+                            <tempo staff="1" place="below" tstamp="1.5">rit . . .</tempo>
+                        </measure>
+                        <measure n="3" right="dbl">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="d" accid="n" oct="2" dur="8" stem.dir="up"/>
+                                    <rest dur="8" loc="2"/>
+                                    <clef line="2" shape="G" visible="true"/>
+                                    <chord dur="2" stem.dir="up">
+                                        <note pname="d" oct="5"/>
+                                        <note pname="d" oct="4"/>
+                                    </chord>
+                                    <chord dur="4" stem.dir="up">
+                                        <note pname="c" accid="s" oct="5"/>
+                                        <note pname="c" accid="s" oct="4"/>
+                                    </chord>
+                                </layer>
+                                <layer n="2">
+                                    <rest dur="4"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <note pname="d" accid="s" oct="6" dur="1"/>
+                                </layer>
+                            </staff>
+                            <trill staff="2" place="within" accidupper="n" tstamp="1" tstamp2="0m+3"
+                            />
+                        </measure>
+                        <sb/>
+                        <scoreDef mnum.visible="false">
+                            <staffGrp n="1" symbol="none">
+                                <staffDef n="1" lines="5" clef.line="2" clef.shape="G"
+                                    clef.visible="false"> </staffDef>
+                                <staffDef n="2" lines="5" clef.line="2" clef.shape="G"
+                                    clef.visible="false"> </staffDef>
+                            </staffGrp>
+                        </scoreDef>
+                        <measure n="4">
+                            <staff n="1">
+                                <layer n="1">
+                                    <space dur="2" dots="1"/>
+                                    <note pname="a" accid="f" oct="5" dur="4" stem.dir="up"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <mSpace/>
+                                </layer>
+                            </staff>
+                            <dir staff="1" layer="1" place="above" tstamp="1">eventuell so</dir>
+                        </measure>
+                        <measure n="5">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="e" accid="f" oct="5" dur="4" stem.dir="up"/>
+                                    <note pname="b" accid="f" oct="4" dur="4" stem.dir="up"/>
+                                    <clef line="4" shape="F" visible="true"/>
+                                    <note pname="f" accid="n" oct="3" dur="4" stem.dir="up"/>
+                                    <beam>
+                                        <note pname="c" accid="n" oct="3" dur="8" dots="1"
+                                            stem.dir="up"/>
+                                        <note pname="g" accid="n" oct="2" dur="16" stem.dir="up"/>
+                                    </beam>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <mSpace/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="6">
+                            <staff n="1">
+                                <layer n="1">
+                                    <note pname="d" oct="2" dur="8" stem.dir="up"/>
+                                    <rest dur="8" loc="2"/>
+                                    <chord dur="2" stem.dir="up">
+                                        <note pname="d" oct="4"/>
+                                        <note pname="d" oct="3"/>
+                                    </chord>
+                                    <chord dur="4" stem.dir="up">
+                                        <note pname="c" accid="s" oct="4"/>
+                                        <note pname="c" accid="s" oct="3"/>
+                                    </chord>
+                                    <clef line="2" shape="G" visible="true"/>
+                                </layer>
+                                <layer n="2">
+                                    <rest dur="4"/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <mSpace/>
+                                </layer>
+                            </staff>
+                        </measure>
+                        <measure n="7" right="invis">
+                            <staff n="1">
+                                <layer n="1">
+                                    <mSpace/>
+                                </layer>
+                            </staff>
+                            <staff n="2">
+                                <layer n="1">
+                                    <mSpace/>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </notatedMusic>
+                <pb n="6" xml:id="p.6"/>
+                <p>ich in <persName key="pers.3946">Wagner</persName>-Partituren oft schon bei <choice>
+                        <orig>Clarinetten</orig>
+                        <reg>Klarinetten</reg>
+                    </choice>
+                    <lb/>(Bass Schlüssel-Notation!!) gefunden habe, für gut ansieht. <lb/>Es wäre
+                    gut, wenn man das auch noch ändern könnte. <lb/>Denn schön sieht ja die Stelle
+                    keineswegs aus. <note place="right" hand="#addressee">
+                        <metamark/>
+                    </note>
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>– <hi rendition="#u" hand="#unknown">
+                        <persName key="pers.3301">Schreker</persName>
+                    </hi> ersucht mich, ich möge meinen <lb/>
+                    <hi rendition="#ll" hand="#unknown">Einfluss geltend machen, damit er zur Probe <lb/>ein gut
+                        korrigiertes Material bekomme. Ich </hi>
+                    <lb/>
+                    <supplied cert="high">t</supplied>ue das hiermit! –</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Der <hi rendition="#u" hand="#unknown">
+                        <orgName key="org.11">Akadem. Verband</orgName>
+                    </hi>
+                    <seg type="comment">
+                        <orig>bittet</orig>
+                        <note xml:id="nn2d_jgv_cfc" resp="#KBleier">Karl Linke an Arnold Schönberg,
+                            14. Jänner 1913 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B138775">ASCC
+                                13877</ref>)</note>
+                    </seg> mich für <lb/>einen
+                    Almanach<!-- nicht realisiert? -->,
+                    den er herausgeben will <lb/>um einen Beitrag. Ich bitte Sie um Ihre <lb/>
+                    <hi rendition="#ll" hand="#unknown">Zustimmung dazu. Ich möchte „den kranken <lb/>Mond“ aus dem
+                            <bibl sameAs="werke.54">Pierrot lunaire</bibl> hergeben, weil <lb/>der
+                            <orgName key="org.11">Akademische Verb</orgName> unbedingte Förderung
+                        <lb/>verdient und weil ansonsten <subst>
+                            <del rendition="#s">die Sache</del>
+                            <add place="superlinear">das Reinerträgnis</add>
+                        </subst>
+                    </hi>
+                    <lb/>
+                    <hi rendition="#u">zugunsten</hi> der <orgName key="org.80"
+                        >Mahler-Stiftung</orgName>
+                    <del rendition="#s">stattfindet</del>
+                    <lb/>zugewendet wird. –</p>
+                <p>
+                    <hi rendition="#u">Herzlichen Dank</hi> für die Uebersendung der <lb/>
+                    <bibl sameAs="werke.108">IX. Synphonie</bibl>. Die ist sehr schön!</p>
+                <p>Was sagen Sie dazu, dass ich die <bibl sameAs="werke.109">Kinder<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>totenlieder </bibl>
+                    <seg type="comment">
+                        <orig>aufführe</orig>
+                        <note xml:id="ntbm_2st_21c" resp="#KBleier">
+                            <ref target="event.46"/>
+                        </note>
+                    </seg>? Das muss Sie doch freuen! <lb/>Sie haben mir nicht ein Wort darüber
+                    gesagt.</p>
+                <p>Nun: ich freue mich sehr darüber, dass <lb/>auch die <placeName key="place.9.11"
+                        >Wiener</placeName>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nyyg_ptr_bgc" resp="#KBleier">
+                            <p>
+                                <ref target="event.47"/>
+                            </p>
+                            <p>
+                                <persName key="pers.3263">Schönberg</persName> hielt sich bereits ab
+                                    <date when="1913-02-13">13. Februar</date> in <placeName
+                                    key="place.9.11">Wien</placeName> auf, da fehlerhaftes
+                                Aufführungsmaterial seine Anwesenheit bei den Proben erforderte
+                                    (<ref target="letter.319">Arnold Schönberg an Universal-Edition,
+                                    6. Februar 1913</ref>; Arnold Schönberg an Hans Nachod, 12.
+                                Februar 1913; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064558"
+                                    >ASCC 6455</ref>)</p>
+                        </note>
+                    </seg> zustande kommt. <lb/>Hoffentlich kann ich dazu kommen. Ich habe <pb n="7"
+                        xml:id="p.7"/>dieses Jahr schon sehr viel Geld verreist. Trotz <lb/>meiner
+                    hohen Honorare! Man braucht eben <lb/>auf Reisen sehr viel Geld.</p>
+                <p>Aus <placeName key="place.9.11">Wien</placeName> höre ich, dass Sie krank waren.
+                    <lb/>Ich hoffe, Sie sind inzwischen wieder gesund. <seg type="comment">
+                        <orig>
+                            <lb/>Mein <rs type="person" key="pers.3295">Bruder</rs> schickt</orig>
+                        <note xml:id="nlsn_ntt_21c" resp="#KBleier"><persName key="pers.3263">Arnold
+                                Schönberg</persName> schickte die Stimmen offenbar doch selbst ab
+                                (<ref target="document.24391">Heinrich Schönberg an
+                                Universal-Edition, 21. Jänner 1913</ref>) </note>
+                    </seg> Ihnen heute die Bläser<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmen der <hi rendition="#u" hand="#unknown">
+                        <bibl sameAs="werke.2">Kammersynphonie</bibl>
+                    </hi>. Bitte trachten <lb/>Sie, dass die rechtzeitig, spätestens <hi
+                        rendition="#u" hand="#unknown">bis <date when="1913-03-10">10. Mä<supplied cert="high"
+                                >rz</supplied>
+                        </date>
+                    </hi>
+                    <lb/>fertig sind. Denn sie werden ja zum <seg type="comment">
+                        <orig>Konzert<choice>
+                                <sic>-</sic>
+                                <corr type="deleted"/>
+                            </choice></orig>
+                        <note xml:id="nynl_j4n_21c" resp="#KBleier">
+                            <ref target="event.46"/>
+                        </note>
+                    </seg>
+                    <lb/>gebraucht. <hi rendition="#u" hand="#unknown">Lassen Sie sie jedenfalls gut
+                        korrigieren</hi>. <lb/>Wenn ich irgend Zeit habe, lese ich sie selbst.
+                    <lb/>Aber ich habe wenig Hoffnung. Mein Bruder <lb/>steht Ihnen zur Verfügung.
+                    Er liest ausgezeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>net!! – Ich habe letzthin eine Noten<g ref="#typoHyphen"/>
+                    <lb break="no"/>schreibmaschine gesehen, die sich ausgezeichnet eignen
+                    <lb/>würde Stimmen für Autografie (das ist ausprobiert) <lb/>herzustellen. Der
+                    Schreiber arbeitet sicher schneller als <lb/>mit der Hand und es sieht fast wie
+                    Stich aus. Die <lb/>Maschine erinnert mich sehr <seg type="comment">
+                        <orig>an meine</orig>
+                        <note xml:id="niz3_nfc_fgc" resp="#TMuxeneder"><bibl sameAs="schriften.135"
+                                >Arnold Schönberg, Meine Notenschreibmaschine</bibl>
+                        </note>
+                    </seg>. Wären Sie <lb/>nicht bereit eine solche anzuschaffen? Mein Bruder
+                    <lb/>könnte sich einstweilen darauf einarbeiten. Der Händler <lb/>meint, man
+                    könnte den Drucker ganz entbehren weil <lb/>das Abziehen vom Stein so einfach
+                    ist. Es tut mir sehr <lb/>leid, das<supplied cert="high">s</supplied> meine
+                    Schreibmaschine nicht <del rendition="#s">zur</del>
+                    <subst>
+                        <del rendition="#ow">A</del>
+                        <add place="across">a</add>
+                    </subst>usgeführt <lb/>wurde. Die wäre noch etwas besser geworden. Aber immerhin
+                    <lb/>die kann was man benötigt. – Partitur geht nicht damit. – <lb/>Vielleicht
+                    sagen Sie mir Ihre Meinung.</p>
+                <closer>
+                    <salute>Recht herzliche Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

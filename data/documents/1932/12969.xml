@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="document.12969"
+     telota:doctype="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Wenzel Goldbaum und Gerhard Jacoby, 6. April 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/documents/document.12969</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12969</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1932-04-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1261">Goldbaum, Wenzel</persName>
+                    <persName key="pers.1692">Jacoby, Gerhard</persName>
+                    <placeName key="place.2.3.1.10">Berlin, Rankestraße 30</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="document.22911"/>
+                </correspContext>
+                <note>Beilage zu <ref target="document.12929">Wenzel Goldbaum und Gerhard Jacoby an
+                        Arnold Schönberg, 15. April 1932</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12969_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12969_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter"><!--
+                <pb n="1" xml:id="p.1"/>
+                <opener>J- <hi rendition="#c"><hi rendition="#g"><hi rendition="#uu"
+                            >Abschrift.</hi></hi></hi>
+                    <address>
+                        <addrLine><orgName key="org.1">Universal-Edition A.G.</orgName></addrLine>
+                        <addrLine rendition="#r">Wien I. <placeName key="place.9.11.6.12">Karlsplatz
+                            6</placeName>.</addrLine>
+                    </address>
+                    <dateline><placeName key="place.9.11">Wien</placeName>, <date when="1932-04-06"
+                            >6. April 1932</date>.</dateline><address>
+                        <addrLine>Herren</addrLine>
+                        <addrLine rendition="#c">Dr. <persName key="pers.1261">Wenzel Goldbaum</persName> u. Dr.
+                                <persName key="pers.1692">Gerhard Jacoby</persName>,</addrLine>
+                        <addrLine rendition="#r"><hi rendition="#u"><hi rendition="#g">Berlin</hi>
+                            W.50</hi></addrLine>
+                        <addrLine rendition="#r"><placeName key="place.2.3.1.10">Rankestrasse Nr.
+                            30</placeName>.</addrLine>
+                    </address></opener>
+                <salute>Sehr geehrte Herren!</salute>
+                <p>Wir hätten Herrn Prof. <persName key="pers.3263">Schönberg</persName> auf dessen
+                        <ref target="letter.2223">Brief</ref> vom <date when="1932-02-27"
+                        >27.II.</date> direkt geant<g ref="#typoHyphen"/><lb break="no"/>wortet,
+                    wenn wir nicht einen Tag nach Erhalt seines Schreibens aus <placeName
+                        key="place.15">Amerika</placeName>
+                    <lb/>ein <hi rendition="#u" hand="#pers.3263">Kabel</hi><note place="left"
+                        hand="#pers.3263">wozu</note> bekommen hätten, aus welchen wir ersehen haben,
+                    dass Herr <persName key="pers.3263">Schönberg</persName>
+                    <lb/>sich mit <hi rendition="#u" hand="#pers.3263">Protesten</hi><note place="left"
+                        hand="#pers.3263"><hi rendition="#circle">1</hi></note> an Herrn <persName
+                        key="pers.3719">Stokowsky</persName> gewendet hat und die <placeName
+                        key="place.15">amerikanische</placeName>
+                    <lb/><bibl sameAs="werke.16">&#8222;Gurrelieder&#8220;</bibl> Aufführung
+                        stören<note place="inline" hand="#pers.3263">unwahr</note> und sich selbst und
+                        <hi rendition="#u" hand="#pers.3263">uns</hi> dadurch die <lb/><hi
+                        rendition="#u" hand="#pers.3263">schwersten Schäden</hi> zufügen wollte. Da Herr
+                        <persName key="pers.3263">Schönberg</persName> dadurch, ohne auch nur
+                    <lb/>unsere Rückäusserung auf seinen Brief abzuwarten, sich Selbsthilfe für ein
+                        <lb/><hi rendition="#u" hand="#pers.3263">vermutlich</hi> an ihm begangenen
+                    Unrecht verschaffen wollte, haben wir es für <lb/>richtiger gefunden, den
+                    weiteren Gang der Geschehnisse abzuwarten, bevor <lb/>wir uns zu der Sache
+                    neuerlich äussern. – Wir wollen vor allem die <hi rendition="#u" hand="#pers.3263"
+                            >Rechts<g ref="#typoHyphen"/><lb break="no"/>lage</hi> feststellen:</p>
+                <p>Herr <persName key="pers.3263">Schönberg</persName> hat uns mit der hier
+                    vorliegenden Urheberrechtsabtretungs<g ref="#typoHyphen"/><lb break="no"
+                    />erklärung das vollständige Verfügungsrecht über das Werk übertragen. <lb/>Im
+                        <date when="1916-12">Dezember 1916</date>, <hi rendition="#u" hand="#pers.3263"
+                        >inmitten des Weltkrieges</hi> und vor Eintritt <placeName key="place.15"
+                        >Amerikas</placeName> in <lb/>diesen Weltkrieg, ist in <placeName
+                        key="place.15.8">New York</placeName> der Plan einer <bibl sameAs="werke.16"
+                        >Gurrelieder</bibl>-Aufführung <lb/>aufgetaucht. Es ist die heute beinahe
+                    fantastisch anmutende Absicht vor<g ref="#typoHyphen"/><lb break="no"/>handen
+                    gewesen, das <bibl sameAs="werke.16">Gurrelieder</bibl>-Material mit einem
+                    U-Bott nach <placeName key="place.15.8">New York</placeName> zu <lb/>bringen, um
+                    diese Aufführung technisch zu ermöglichen. Bei dieser Gelegen<g
+                        ref="#typoHyphen"/><lb break="no"/>heit wurden im Einverständnis mit Herrn
+                        <persName key="pers.3263">Schönberg</persName> Beträge für die dortige
+                    <lb/>Aufführungsmöglichkeit genannt, die schon nach den damaligen Verhält<g
+                        ref="#typoHyphen"/><lb break="no"/>nissen etwa übertrieben angemutet haben,
+                    die aber immerhin als Basis für <lb/>die Verhandlungen hätten dienen können. <hi
+                        rendition="#u" hand="#pers.3263">Damals, also vor ca. 16 Jahren, <lb/>ist Herrn
+                            <persName key="pers.3263">Schönberg</persName> der Gedanke gekommen, die
+                            <placeName key="place.15">amer</placeName><placeName key="place.15"
+                                >ikanische</placeName></hi><note place="left" hand="#pers.3263">unwahr</note>
+                    Aufführung <pb n="2" xml:id="p.2"/>selbst zu dirigieren, um sich dadurch ein
+                    Dirigenten-Honorar <hi rendition="#u" hand="#pers.3263">in Dollars zu</hi>
+                    <lb/>verschaffen. Ein solches Dirigenten-Honorar, selbst in einem bescheidenem
+                    <lb/>Umfang, schien im Jahre <date when="1916">1916</date> als der <hi
+                        rendition="#u" hand="#pers.3263">höchste Wunschtraum</hi><note place="left"
+                        hand="#pers.3263"><hi rendition="#u">Poesie</hi></note> und nachdem Herr
+                        <lb/><persName key="pers.3263">Schönberg</persName> damals im
+                    Dauervertragsverhältnis zu der <orgName key="org.1">Universal-Edition</orgName>
+                    <lb/>gestanden ist und auch die persönlichen Beziehungen zwischen ihm und dem
+                    <lb/>Verlag die allerengsten gewesen sind, so wurde in Anbetracht der Chancen,
+                    <lb/>die sich damals für ihm aus einer Dirigiermöglichkeit der &#8222;<bibl
+                        sameAs="werke.16">Gurrelieder</bibl>&#8220; <lb/><hi rendition="#lll"
+                        hand="#pers.3263">ergeben hätten, die mündliche, durch <hi rendition="#u"
+                            hand="#pers.3263">keinerlei Gegenansprüche</hi> kompensier<g
+                            ref="#typoHyphen"/><lb break="no"/>te Zusage gemacht, dass er die
+                        Erstaufführung in <placeName key="place.15">Amerika</placeName> dirigieren
+                        solle</hi>
+                    <lb/>(dies vor ca. 16 Jahren, inmitten des Weltkrieges und dem im Rahmen eines
+                        <lb/><hi rendition="#ll" hand="#pers.3263">engen Vertragsverhältnisses). Im
+                        Jahre <choice>
+                            <sic><date when="1817">1817</date></sic>
+                            <corr cert="high"><date when="1917">1917</date></corr>
+                        </choice> bereits wurde der Fall fest<g ref="#typoHyphen"/><lb break="no"
+                        />gelegt, dass Herr <persName key="pers.3263">Schönberg</persName> auf das <hi
+                            rendition="#u">ihm mündlich gegebene und allerdings <lb/>später auch
+                            </hi><hi rendition="#u" hand="#pers.3263">schriftlich wiederholte</hi>
+                        Versprechen, die Erstaufführung der <lb/><bibl sameAs="werke.16"
+                            >&#8222;Gurrelieder&#8220;</bibl> zu dirigieren, <hi rendition="#u"
+                            hand="#pers.3263"><hi rendition="#u">verzichten</hi></hi> würde, wenn ihm
+                        als Entschädigung</hi>
+                    <lb/><hi rendition="#lll" hand="#pers.3263">für den Gewinn, der ihm durch das
+                        Dirigieren in <placeName key="place.15">Amerika</placeName> entgangen wäre,
+                        <lb/>3/5 jenes Betrages eingeräumt würden, der damals von der Firma <orgName
+                            key="org.38">Breit<g ref="#typoHyphen"/><lb break="no"/>kopf &amp;
+                            Härtel</orgName> in <placeName key="place.15.8">New York</placeName>
+                        verlangt wurde und der für 10 Aufführungen</hi><lb/>
+                    <hi rendition="#ll" hand="#pers.3263">5000 Dollars betragen hätte. Es war also eine
+                        Aufführungsgebühr (Material </hi><lb/>und Aufführungsrecht) von 500 Dollars
+                    pro Aufführung vorgesehen und soll<g ref="#typoHyphen"/><lb break="no"/>te die
+                    Firma <orgName key="org.38">Breitkopf &amp; Härtel</orgName> 10 solche <bibl
+                        sameAs="werke.16">Gurrelieder</bibl>-Aufführungen da<g ref="#typoHyphen"
+                        /><lb break="no"/>mals veranstalten (auch das geschah noch im Verlaufe des
+                    Weltkrieges). <lb/><note place="left" hand="#pers.3263"><unclear reason="illegible"
+                            cert="low">Hertzka</unclear></note>Auch für noch weitere Aufführungen
+                    hätte die Firma <orgName key="org.38">Breitkopf &amp; Härtel</orgName>
+                    <lb/>je 500 Dollars zu bezahlen gehabt und in jedem Falle war vorgesehen, dass
+                    <lb/>3/5, als 60%, davon Herrn <persName key="pers.3263">Schönberg</persName> und
+                    2/5, also 40%, der <orgName key="org.1">Universal-<lb break="no"
+                        />Edition</orgName> verbleiben sollten.</p>
+                <p>So stand die Angelegenheit zu einer Zeit, als in <placeName key="place.15"
+                        >Amerika</placeName>, dem Lande der <lb/><note place="left" hand="#pers.3263"
+                        >Poesie</note>damals unbegrenzten Möglichkeiten, Fantasiezahlen erreichbar
+                    schienen und <lb/>die &#8222;<bibl sameAs="werke.16">Gurrelieder</bibl>&#8220;
+                    als eine Sensationsnovität der europäischen Konzertin<g ref="#typoHyphen"/><pb
+                        n="3" xml:id="p.3" break="no"/>stitute galten.</p>
+                <p>Dann trat auch <placeName key="place.15">Amerika</placeName> in den Krieg ein und
+                    die ganze Sache ist ei<g ref="#typoHyphen"/><lb break="no"/>gentlich in
+                    Vergessenheit geraten. Wir haben zwar sofort, nachdem die <lb/>Beziehungen mit
+                        <placeName key="place.15">Amerika</placeName> wieder aufgenommen worden
+                    sind, das war im <lb/>Jahre <date when="1920">1920</date>, gelegentlich einer
+                    persönlichen Reise unseres Herrn Di<g ref="#typoHyphen"/><lb break="no"/>rektors
+                        <hi rendition="#u" hand="#pers.3263"><persName key="pers.1538">Hertzka</persName>
+                        die ernstesten Versuche gemacht, eine Placierung der <lb/>&#8222;<bibl
+                            sameAs="werke.16">Gurrelieder</bibl>&#8220; durchzusetzen und hat</hi>
+                    Herr Direktor <persName key="pers.1538">Hertzka</persName> damals mit
+                    <lb/>besonderem Nachdruck <hi rendition="#u" hand="#pers.3263">die Einladung des
+                        Komponisten zum Dirigieren</hi>
+                    <lb/>durchzuführen getrachtet. Leider hat sich auch damals nicht die ge<g
+                        ref="#typoHyphen"/><lb break="no"/>ringste Aussicht auf Verwirklichung
+                    dieses Projektes ergeben. Im <hi rendition="#u" hand="#pers.3263">Jah<g
+                            ref="#typoHyphen"/><lb break="no"/>re <date when="1924">1924</date>,
+                        nachdem</hi> sich unsere <rs type="org" key="org.23">amerikanische
+                        Vertretung</rs> wiederholt inten<g ref="#typoHyphen"/><lb break="no"/>siv
+                    mit dieser Sache beschäftigt hat, tauchte ein neuer Plan auf. Da<g
+                        ref="#typoHyphen"/><lb break="no"/>mals war davon die Rede, dass Herr
+                        <persName key="pers.498">Bodanzky</persName> die Aufführung hätte diri<g
+                        ref="#typoHyphen"/><lb break="no"/>gieren sollen, woran Herr <persName
+                        key="pers.3263">Schönberg</persName> die Bedingung knüpfte, dass die
+                    <lb/>grössten Dirigenten <placeName key="place.15">Amerika&#8217;s</placeName>
+                    und zwar <hi rendition="#u" hand="#pers.3263"><persName key="pers.3719"
+                            >Stokowsky</persName>, <persName key="pers.3699">Stock</persName>,
+                            <persName key="pers.498">Bodanzky</persName> und </hi><lb/><hi
+                        rendition="#ll" hand="#pers.3263"><hi rendition="#u" hand="#pers.3263"><persName
+                                key="pers.1185">Gabrilowitsch</persName></hi>, einen Fond aufbringen
+                        sollen, der Herrn <persName key="pers.3263">Schönberg</persName> als
+                        <lb/>Ersatz bezahlt werden sollte, wenn nicht in der auf die &#8222;<bibl
+                            sameAs="werke.16">Gurrelieder</bibl>&#8220;-<lb break="no"/>Aufführung
+                        folgenden Saison ein Engagement mit Gastspielen in ameri<g ref="#typoHyphen"
+                            /><lb break="no"/>kanischen Städten ermöglicht werden würde.<add
+                            place="intralinear" hand="#pers.3263">&#9126;</add> Dieser Plan kam niemals
+                        auch</hi>
+                    <lb/>nur zu einer ernsten Behandlung seitens der Beteiligten, denen er mit<g
+                        ref="#typoHyphen"/><lb break="no"/>geteilt wurde, und so ist auch dieses
+                        <bibl sameAs="werke.16">&#8222;Gurrelieder&#8220;</bibl>-Projekt ins Wasser
+                    <lb/>gefallen. So erging es auch in den nächsten Jahren den verschiedenen
+                    <lb/>Versuchen, die die <hi rendition="#u" hand="#pers.3263"><orgName key="org.1"
+                            >Universal-Edition</orgName> persönlich</hi> bei den hie und da in
+                    <lb/>Europa anwesenden <placeName key="place.15">amerikanischen</placeName>
+                    Dirigenten und durch ihre <rs type="org" key="org.23">amerikani<g
+                            ref="#typoHyphen"/><lb break="no"/>sche Vertretung</rs> gemacht hat,
+                    wobei die Chancen bis zum Herbst <date when="1929"><hi rendition="#u"
+                            hand="#pers.3263">1929</hi></date> noch <lb/>immerhin verhältnismässig
+                    günstig gewesen wären, bis im Herbst <date when="1929">1929</date>
+                    <lb/>der grosse <placeName key="place.15">amerikanische</placeName> Krach sich
+                    ereignete. Damit ist jede Aussicht, <lb/>eine Summe zu erzielen, die ein
+                    Dirigieren der <placeName key="place.15">amerikanischen</placeName> Erstauf<g
+                        ref="#typoHyphen"/><lb break="no"/>führung durch Herrn <persName
+                        key="pers.3263">Schönberg</persName> ermöglicht hätte, auf absehbare Zeit ver<g
+                        ref="#typoHyphen"/><lb break="no"/>nichtet worden. – In dem Jahre <date
+                        when="1930">1930</date> war Herr Direktor <persName key="pers.1538"
+                        >Hertzka</persName> persön<g ref="#typoHyphen"/><lb break="no"/>lich in
+                        <placeName key="place.15.8">New York</placeName>, <placeName
+                        key="place.15.10">Philadelphia</placeName>, etc. und hat sich damals wieder
+                    bemüht, <pb n="4" xml:id="p.4" break="no"/>eine &#8222;<bibl sameAs="werke.16"
+                        >Gurrelieder</bibl>&#8220;-Aufführung mit <persName key="pers.3263"
+                        >Schönberg</persName> zustandezubringen, aber es wurde <lb/>ihm erklärt,
+                    dass <placeName key="place.15">Amerika</placeName> keine Chöre hätte, die ein so
+                    grosses Werk auf<g ref="#typoHyphen"/><lb break="no"/>führen könnten und dass in
+                    dieser Krisenzeit und auch für längere Zeit <lb/>hinaus eine solche Aufführung
+                    überhaupt gar nicht in Betracht käme. Im Jah<g ref="#typoHyphen"/><lb break="no"
+                    />re <date when="1931">1931</date> hatte <persName key="pers.3719"
+                        >Stokowsky</persName> mit <persName key="pers.385">Alban
+                        Berg&#8217;s</persName> &#8222;<bibl sameAs="werke.89">Wozzeck</bibl>&#8220;
+                    einen grossen Erfolg. <lb/>Herr Direktor <persName key="pers.1538"
+                        >Hertzka</persName>, der unmittelbar nach der <placeName key="place.15"
+                        >amerikanischen</placeName> Erstauffüh<g ref="#typoHyphen"/><lb break="no"
+                    />rung in <placeName key="place.15.10">Philadelphia</placeName> bei <persName
+                        key="pers.3719">Stokowsky</persName> gewesen ist, hat nun einen erneuten sehr
+                    <lb/>ernsten Versuch gemacht, eine Aufführung der <bibl sameAs="werke.16"
+                        >&#8222;Gurrelieder&#8220;</bibl> zu ermöglichen <lb/>und als er sah, dass
+                    die Sache auch diesmal wieder scheitern müsste, wenn er <lb/>bei dem vollkommen
+                    hoffnungslosen Versuch, Herrn <persName key="pers.3263">Schönberg</persName> zum
+                    Dirigieren <lb/>einladen zu lassen, beharren würde, musste er von diesem Plan
+                    endgültig Ab<g ref="#typoHyphen"/><lb break="no"/>stand nehmen und auch
+                    bezüglich der Material- und Aufführungsbedingungen <lb/>wesentlich unter den
+                    früher beabsichtigten Beträgen heruntergehen. Eine <lb/>Kopie der Abmachung
+                    zwischen der <orgName key="org.23">Associated Music Publischers</orgName>
+                    (unserer ame<g ref="#typoHyphen"/><lb break="no"/>rikanischen Vertretung) und
+                    dem <orgName key="org.132">Philadelphia Orchestra</orgName> liegt diesem
+                        Schrei<g ref="#typoHyphen"/><lb break="no"/>ben bei.</p>
+                <p>Wir waren uns bewusst, dass wir die Chance, die <bibl sameAs="werke.16"
+                        >&#8222;Gurrelieder&#8220;</bibl> endlich nach <lb/><placeName
+                        key="place.15">Amerika</placeName> zu bringen, nicht vorbeigehen lassen
+                    dürfen und wir hätten die In<g ref="#typoHyphen"/><lb break="no"/>teressen des
+                    Werkes, des Autors und des Verlags schlecht gewahrt, wenn wir <lb/>noch weiter
+                    gezögert hätten. Heute ist es klar, dass sich <placeName key="place.15"
+                        >Amerika</placeName> den Luxus, <lb/><note place="left" hand="#pers.3263"><seg
+                            type="comment"><orig><persName key="pers.3879"
+                        >Toch</persName></orig></seg></note>einen Komponisten zum Dirigieren der
+                    Erstaufführung seines Werkes nach <persName key="pers.3906">Ame<g ref="#typoHyphen"
+                            /><lb break="no"/>rika</persName> kommen zu lassen, nicht leisten kann
+                    und andererseits kann einem Ver<g ref="#typoHyphen"/><lb break="no"/>lag, der
+                    ein Werk im Jahre <date when="1911">1911</date> veröffentlicht hat, nicht
+                    zugemutet werden, <lb/>dass er infolge eines durch zufällige Umstände vor ca. 16
+                    Jahren gegebenen <lb/>Versprechens auf unabsehbare Zeit, auch gegen das
+                    persönlichen Interesse <lb/>des Komponisten darauf verzichtet, das Werk nach
+                    vielen vergeblichen Ver<g ref="#typoHyphen"/><lb break="no"/>suchen in
+                        <placeName key="place.15">Amerika</placeName> zu placieren.</p>
+                <p>Obwohl wir der vollen Ueberzeugung sind, dass Herrn <persName key="pers.3263"
+                        >Schönberg</persName> irgend wel<g ref="#typoHyphen"/><lb break="no"/>che
+                    Sonderrechte aus einem viele Jahre zurückliegenden und unter ganz an<g
+                        ref="#typoHyphen"/><lb break="no"/>deren Umständen gegebenen Versprechen
+                    nicht zustehen, wollen wir uns damit <pb n="5" xml:id="p.5"/>einverstanden
+                    erklären, dass der aus <placeName key="place.15">Amerika</placeName> an uns
+                    gelangende Er<g ref="#typoHyphen"/><lb break="no"/>lös aus den &#8222;<bibl
+                        sameAs="werke.16">Gurreliedern</bibl>&#8220; entgegen der sonstigen
+                    vertragsmässigen <lb/>Verteilungsnorm in der Weise verteilt wird, dass Herrn
+                        <persName key="pers.3263">Schönberg</persName> 3/5 <lb/>und uns 2/5 aus diesem
+                    Erlös zustehen sollen. Damit greifen wir den <lb/>Schlüssel auf, den Herr
+                        <persName key="pers.3263">Schönberg</persName> vor 15 Jahren selbst als
+                    entsprechend <lb/>gefunden hat.</p>
+                <p>Wir hoffen, Ihnen, sehr geehrte Herren, die Angelegenheit nun in kla<g
+                        ref="#typoHyphen"/><lb break="no"/>rer Weise vorgelegt zu haben und würden
+                    uns freuen, wenn Ihr Mandant <lb/>sich mit unserem
+                            Vorschlag einverstanden erklären würde. </p>
+                <closer>Wir zeichnen  <lb/><salute rendition="#c">in vorzüglicher Hochachtung </salute><lb/><seg rendition="#c">gez.
+                        Unterschriften.</seg></closer>-->
+            </div>
+        </body>
+    </text>
+</TEI>

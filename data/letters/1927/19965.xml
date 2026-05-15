@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.19965"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 26. August 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19965</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19965</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                            <biblScope unit="page" from="253" to="253"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-08-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.6.1">Pörtschach, Werzer Promenade 8</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1273"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc> </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19965_cc.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.19965_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4351"
+                        >Fi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1927-08-26">26.
+                            August 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi
+                                    rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Pörtschach</hi> a/See</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.6.1">Hotel Werzer</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263"
+                    >Schönberg</persName>!</salute>
+                <p>Die Intendantur des <orgName key="org.162">Staatstheaters</orgName> in <lb/>
+                    <placeName key="place.2.36">Wiesbaden</placeName> schreibt uns folgendes:</p>
+                <quote rendition="#blockquote">
+                    <p>Unter Bezugnahme auf den mit Ihnen geschlossenen Auf<g ref="#typoHyphen"/>
+                        <lb break="no"/>führungsvertrag zu dem Werk „<hi rendition="#u">
+                            <bibl sameAs="werke.7">Erwartung</bibl>
+                        </hi>“ von <persName key="pers.3263">Arnold <lb/>SCHÖNBERG</persName> teilt
+                        die Intendantur ergebenst mit, dass <lb/>nach einer Mitteilung des <orgName
+                            key="org.50">Deutschen Bühnenvereins</orgName>
+                        <lb/>der Komponist nicht Mitglied des <orgName key="org.51">Verbandes
+                            Deutscher <lb/>Bühnenschriftsteller und Bühnenkomponisten</orgName> sein
+                        soll. <lb/>Wir nehmen an, dass hier wohl ein Missverständnis vor<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>liegt und bitten um gefl. Aufklärung. Wie Ihnen bekannt
+                        <lb/>ist, kann das <orgName key="org.162">Staatstheater</orgName> nur solche
+                        Werke zur Auf<g ref="#typoHyphen"/>
+                        <lb break="no"/>führung erwerben, deren Autoren dem genannten Verbande <lb/>
+                        <seg type="comment">
+                            <orig>angehören</orig>
+                            <note xml:id="nhcv_vsk_d2c" resp="#KBleier">Zwischen dem <orgName
+                                    key="org.50">Deutschen Bühnen-Verein</orgName> einerseits und
+                                dem <orgName key="org.51">Verband Deutscher Bühnenschriftsteller und
+                                    Bühnenkomponisten</orgName> sowie der Vereinigung der
+                                Bühnenverleger andererseits bestand ein Kartellvertrag vom <date
+                                    when="1924-12-31">31. Dezember 1924</date> (UNESCO Archives,
+                                    <ref
+                                    target="https://atom.archives.unesco.org/contrats-entre-les-auteurs-dramatiques-et-compositeurs-dune-part-et-les-directeurs-de-theatres-dautre-part"
+                                    >Contrats entre les auteurs dramatiques et compositeurs d’une
+                                    part, et les directeurs de théâtres d’autre part</ref>, S.
+                                19)</note>
+                        </seg>. Ihrer gefl. Nachricht sehen wir entgegen.</p>
+                </quote>
+                <p>Wir hatten angenommen, dass Sie Mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>glied des deutschen oder des Wiener Verbandes sind und bit<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ten um freundl. Verständigung, ob dies der Fall ist. Soll<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ten Sie nicht Mitglied sein, so ist es notwendig, dass Sie <lb/>eine<choice>
+                        <sic>n</sic>
+                        <corr cert="high">m</corr>
+                    </choice> der Verbände sofort <seg type="comment">
+                        <orig>beitreten</orig>
+                        <note xml:id="npz2_g1l_d2c" resp="#KBleier">
+                            <persName key="pers.3263">Schönberg</persName> kam der Aufforderung zum
+                            Beitritt nach (Arnold Schönberg an den Verband Deutscher
+                            Bühnenschriftsteller und Bühnenkomponisten, 4. Oktober 1927; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B013709">ASCC
+                                1370</ref>)</note>
+                    </seg>, weil sonst Aufführungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>verträge nicht geschlossen werden können. Falls sie es<choice>
+                        <sic>s</sic>
+                        <corr type="deleted"/>
+                    </choice> wün<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen könnten wir Ihnen der Einfachheit halber sofort die not<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>wendigen Formulare des Wiener Verbandes, der <orgName
+                        key="org.74">Genossenschaft <lb/>der <subst>
+                            <del rendition="#ow">Bühnen</del>
+                            <add place="superlinear">dramatischen </add>
+                        </subst>
+                        <subst>
+                            <del rendition="#ow">s</del>
+                            <add place="across">S</add>
+                        </subst>chriftsteller und Komponisten</orgName> verschaffen. Beide
+                    <lb/>Verbände sind eng liiert und wahren die Rechte der Bühnenauto<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ren in der gleichen Weise. Wir wären Ihnen für freundliche
+                    eheste <lb/>Antwort sehr verbunden und zeichnen</p>
+                <closer rendition="#r">
+                    <salute>in vorzüglicher Hochschätzung <lb/>ergebenst</salute>
+                    <signed>
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

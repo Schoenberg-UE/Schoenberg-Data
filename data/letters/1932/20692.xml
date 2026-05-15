@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20692"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 15. Februar 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20692</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20692</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1932-02-15" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.12.1.1">Barcelona, Bajada de Briz 14</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2214"/>
+                    <ref type="answered-by" target="letter.2223"/>
+                </correspContext><note>Zur Kenntnisnahme leitete Schönberg diesen Brief an seinen Rechtsanwalt Gerhard Jacoby weiter, vgl. <ref target="document.2236">Arnold Schönberg an Gerhard Jacoby
+                    23. März 1932</ref></note>
+            </correspDesc>
+            
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20692_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20692_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.84">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.</stamp>
+                    <note place="left" hand="#addressee">
+                        <subst>
+                            <del rendition="#ow">5</del>
+                            <add place="across">3</add>
+                        </subst>
+                        <hi rendition="#sup">
+                            <hi rendition="#uu">a</hi>
+                        </hi>
+                        <lb/>
+                        <hi rendition="#circle">
+                            <subst>
+                                <del rendition="#ow">5</del>
+                                <add place="across">3</add>
+                            </subst>b<lb/>und</hi>
+                    </note>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4342">Wi-</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1932-02-15">15.
+                            Februar 1932</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <hi rendition="#g">Barcelona</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.12.1.1">Bajada de Briz 14</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Hochverehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Es ist richtig, dass wir Ihnen vor vielen Jahren <add place="superlinear" hand="#addressee">
+                        <metamark/>
+                    </add>
+                    <note place="left" hand="#addressee">verjähren etwa <lb/>Verträge über
+                        <lb/>Werke?</note>
+                    <note place="left" hand="#addressee">dann wären meine <lb/>Werke wohl
+                        frei</note> eine <seg type="comment">
+                        <orig>Zu<g ref="#typoHyphen"/>
+                            <lb break="no"/>sage</orig>
+                        <note xml:id="ni2g_s2c_ddc" resp="#pkehrer">Die einzige erhaltene schriftliche Abmachung ist <ref target="letter.17700">Universal-Edition an Arnold Schönberg, 29.
+                                Dezember 1916</ref>
+                        </note>
+                    </seg> gemacht haben, die „<bibl sameAs="werke.16">Gurrelieder</bibl>“ in <placeName key="place.15">Amerika</placeName> nur einer Gesell<g ref="#typoHyphen"/>
+                    <lb break="no"/>chaft zur Erstaufführung zu überlassen, die sich verpflichtet,
+                    <lb/>das Werk von Ihnen selbst dirigieren zu lassen. Diese Zusage ist <lb/>
+                    <note place="left" hand="#addressee">
+                        <stamp sameAs="stamp.29">
+                            <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                            <lb/>BARCELONA<lb/>
+                            <placeName key="place.12.1.1">BAJADA DE BRIZ 14</placeName>
+                        </stamp>
+                    </note> zu einer Zeit gemacht worden, in welcher die Verhältnisse sowohl <lb/>in
+                    Europa als auch in <placeName key="place.15">Amerika</placeName>
+                    grundverschieden von den jetzigen <lb/>waren und in der ein derartiger
+                    wirtschaftlicher Umsturz gar nicht <lb/>vorhersehbar war. Wir haben schon in den
+                    guten Zeiten wiederholte <lb/>energische Versuche gemacht, Ihren Wunsch, die
+                        <placeName key="place.15">amerikanische</placeName> Erst<g ref="#typoHyphen"/>
+                    <lb break="no"/>aufführung zu dirigieren, durchzusetzen. Es ist ja klar, dass
+                    eine <lb/>derartige von Ihnen geleitete Aufführung auch in unserem Interesse
+                    <lb/>gelegen wäre und dass wir daran, dass Sie nach <placeName key="place.15">Amerika</placeName> kommen, um <lb/>das Werk persönlich zu dirigieren, auch
+                    materiell in hervorragen<g ref="#typoHyphen"/>
+                    <lb break="no"/>der Weise mitinteressiert gewesen wären. Leider waren wir aber
+                    schon <lb/>zur Zeit, als es in <placeName key="place.15">Amerika</placeName>
+                    wirklich noch Mäzene und reiche Konzert<g ref="#typoHyphen"/>
+                    <lb break="no"/>unternehmungen gegeben hat, ganz ausserstande, die von Ihnen und
+                    <lb/>uns gehegte Absichten zu verwirklichen. Als sich im Herbst <date when="1929">1929</date>
+                    <lb/>der <placeName key="place.15">amerikanische</placeName> Krach ereignete,
+                    war jede Hoffnung, unseren Plan <lb/>durchzusetzen, vereitelt. Im Frühjahr <date when="1930">1930</date> hat Herr Direktor <persName key="pers.1538">Hertzka</persName>
+                    <lb/>persönlich in verschiedenen Städten in <placeName key="place.15">U.S.A.</placeName> mit den zahlreichen <pb n="2" xml:id="p.2"/>Dirigenten,
+                    mit denen er zusammengekommen ist, mündliche Unterhandlun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen wegen einer etwaigen Aufführung der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ unter Ihrer <lb/>Leitung geführt. Es wurde aber von
+                    allen, die für die Sache in Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>tracht kommen konnten, eine derartige Möglichkeit als vollkommen
+                    <lb/>ausgeschlossen bezeichnet. – Bei der neuerlichen Anwesenheit von <lb/>Herrn
+                    Direktor <persName key="pers.1538">Hertzka</persName> in <placeName key="place.15.8">New York</placeName> und <placeName key="place.15.10">Philadelphia</placeName> im Frühjahr <lb/>
+                    <date when="1931">1931</date> lag die Situation noch hoffnungsloser, sodass es
+                    ihm zu voller <lb/>Gewissheit wurde, dass eine Einhaltung Ihres Wunsches und
+                    seiner <lb/>seinerzeitigen Zusage nicht nur für jetzt, sondern auch für lange
+                    <lb/>Jahre hinaus etwas ganz Unerfüllbares geworden ist. So hat er sich
+                    <lb/>entschliessen müssen, dem hervorragendsten <placeName key="place.15">amerikanischen</placeName> Dirigen<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, <add place="superlinear">
+                        <persName key="pers.3719">Stokowsky</persName>
+                    </add> der für eine <placeName key="place.15">amerikanische</placeName>
+                    <seg type="comment">
+                        <orig>Erstaufführung</orig>
+                        <note xml:id="nucd_kq5_lgc" resp="#KBleier"><ref target="event.100"/>; <ref target="event.101"/>; <ref target="event.102"/>; <ref target="event.104"/>
+                        </note>
+                    </seg> prädestiniert er<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheint (<bibl sameAs="werke.89">Wozzeck</bibl>!), diese
+                    Erstaufführung zu übertragen. Die Nicht<g ref="#typoHyphen"/>
+                    <lb break="no"/>überlassung der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ an
+                        <persName key="pers.3719">Stokowsky</persName>, der sich verpflichtet
+                    <lb/>hat, sie in besonders glanzvoller Weise herauszubringen, wäre sowohl
+                    <lb/>für Sie, als auch für den Verlag von grossem Nachteil gewesen. Aber
+                    <lb/>auch dem Werke selbst hätte es in Bezug auf seine Wirkung in <placeName key="place.15">Amerika</placeName>
+                    <lb/>verhängnisvoll werden können, wenn dasselbe noch weitere Jahre oder
+                    <lb/>Jahrzehnte dort <del rendition="#s">dann</del> nicht erklungen wäre, denn
+                    unserer Ansicht nach <lb/>hätte man mit der <placeName key="place.15">U.S.A.</placeName>-Aufführung gar nicht so lange warten sol<g ref="#typoHyphen"/>
+                    <lb break="no"/>len, wie dies schon geschehen war. Wir waren demnach nicht nur
+                        be<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechtigt, sondern auch verpflichtet, die sich bietende
+                    Gelegenheit <lb/>zu ergreifen und die <placeName key="place.15">amerikanische</placeName> Erstaufführung diesem hervor<g ref="#typoHyphen"/>
+                    <lb break="no"/>ragenden Dirigenten zu überlassen.</p>
+                <p>Wir bedauern selbst ausserordentlich, dass es durch die <lb/>allgemeine Situation
+                    nicht möglich geworden ist, die Ihnen seiner<g ref="#typoHyphen"/>
+                    <pb break="no" n="3" xml:id="p.3"/>
+                    <note place="left" hand="#addressee">
+                        <subst>
+                            <del rendition="#ow">5</del>
+                            <add place="across">3</add>
+                        </subst>
+                        <hi rendition="#sup">
+                            <hi rendition="#uu">b</hi>
+                        </hi>
+                    </note>zeit gegebene Zusage einzuhalten und hoffen, dass unsere Erklä<g ref="#typoHyphen"/>
+                    <lb break="no"/>rungen Sie überzeugen werden, dass uns irgend eine Verletzung
+                    <lb/>
+                    <note place="left" hand="#addressee">
+                        <stamp sameAs="stamp.29">
+                            <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                            <lb/>BARCELONA<lb/>
+                            <placeName key="place.12.1.1">BAJADA DE BRIZ 14</placeName>
+                        </stamp>
+                    </note> Ihrer Rechte ferne gelegen ist. </p>
+                <closer>
+                    <salute rendition="#r">Mit vorzüglicher Hochachtung <lb/>ergebenst</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <pb n="4" xml:id="p.4"/>
+                <note place="inline" hand="#addressee">
+                    <p><!-- steno -->
+                        <hi rendition="#st">So unbestritten wie der fast <gap reason="lost" unit="words" quantity="1"/>, ist auch die Annahme, dass es unglaubwürdig ist,
+                            dass Sie sich nicht darüber fest<gap reason="illegible" unit="chars" quantity="2"/> zu 3 Punkten im Klaren gewesen sind: <lb/>1.) Dass
+                                <gap reason="illegible" unit="words" quantity="1"/> alle die von
+                            Ihnen angeführten Umstände Ihnen nicht das Recht geben, ohne mich zu
+                            fragen über mein Recht hinweg zu gehen, wobei immerhin <unclear reason="illegible" cert="low">noch</unclear>
+                            <lb/>die Möglichkeit zu einer Lösung gefunden werden könnte, die alle
+                            Teile befriedigt<lb/>2) <lb/>1. Wie immer die Verhältnisse und Ihre
+                            Meinung darüber auch gewesen sein mögen, so gab Ihnen das kein Recht
+                            über meine Ansprüche zu verfügen, <lb/>ohne mich auch nur zu
+                            fragen.</hi>
+                    </p>
+                    <p>Sie erinnern sich an die seinerzeit zwischen uns getroffene Abmachung,
+                        <lb/>wie hoch wir <add place="superlinear">beide</add> (sogar noch vor der
+                        Nachkriegsteuerung) die <seg type="comment">
+                            <orig>Abtretung <lb/>meiner
+                                Rechte bewertet hatten</orig>
+                            <note xml:id="njm3_ysc_ddc" resp="#pkehrer">
+                                <ref target="document.2180">Arnold Schönberg an
+                                    Gerhard Jacoby, zwischen 15. und 30. April 1932</ref> nennt 5000
+                                Dollar als Entschädigung für entgangene amerikanische
+                                Dirigierhonorare in Höhe von „15 bis 20.000 Dollar“</note>
+                        </seg>.</p>
+                    <p>Ich halte es für unglaubwürdig, dass Sie gemeint haben, ich <lb/>müsse
+                        ungefragt einer solchen Vergewaltigung zustimmen.</p>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

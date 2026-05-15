@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1883"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. Juni 1930</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1883</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1883</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1930-06-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17803"/>
+                    <ref type="answered-by" target="letter.7228"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1883_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1883_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1930-06-18">18.VI.1930</date>
+                    </dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>,
+                                <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Herr <persName key="pers.3924">Armand Vandelle</persName>, Paris VIe, <placeName key="place.4.4.4.1">11 Rue Jacob</placeName>
+                    <lb/>hat mir vor einiger Zeit Übersetzungsproben aus meiner <bibl sameAs="schriften.1">Harmonie<lb break="no"/>lehre</bibl> ins Französische
+                        <seg type="comment">
+                        <orig>vorgelegt</orig>
+                        <note xml:id="nmfw_yzp_f1c" resp="#pkehrer">
+                            <ref target="letter.17605">Universal-Edition an Arnold Schönberg, 27. Mai 1929</ref>
+                        </note>
+                    </seg>, welche mich dazu bestimmten, <lb/>ihn zur Fortsetzung seiner Arbeit zu
+                        <seg type="comment">
+                        <orig>ermuntern</orig>
+                        <note xml:id="nnrw_b1q_f1c" resp="#pkehrer">Arnold Schönberg an Romuald
+                            Vandelle, 11. Juni 1930 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B017226">ASCC
+                                1722</ref>)</note>
+                    </seg> und ihm mein <lb/>Einverständnis zur Publikation zu versprechen.</p>
+                <p>Herr <persName key="pers.3924">Vandelle</persName>
+                    <seg type="comment">
+                        <orig>unterhandelt</orig>
+                        <note xml:id="nisb_m1q_f1c" resp="#pkehrer">Romuald Vandelle an Arnold
+                            Schönberg, 7. Mai 1930 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B179503">ASCC
+                                17950</ref>)</note>
+                    </seg> nun mit französischen <lb/>Verlegern über die <seg type="comment">
+                        <orig>Herausgabe</orig>
+                        <note sameAs="letter.17605/#ngr1_dpb_mgc"/>
+                    </seg> und will dazu, die meinerseits <lb/>zu stellenden Bedingungen
+                    erfahren.</p>
+                <p>Ich halte es für das Beste, wenn dieses Geschäft nun <lb/>von Ihnen weiterbesorgt
+                    wird und nenne Ihnen daher die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>dingungen, die ich namens meiner Rechte und als Entschädigung
+                    <lb/>für meine Mitarbeit (Kontrolle der Uebersetzung und der Herausga<lb break="no"/>be) stelle.</p>
+                <p>I. Die herausgebende Firma hat an mich bei Abschluss <lb/>des Vertrages einen
+                    einmaligen Betrag von fünf Prozent des La<g ref="#typoHyphen"/>
+                    <lb break="no"/>denpreises der ersten zweitausend Exemplare in bar und direkt
+                    <lb/>zu bezahlen.</p>
+                <p>II. Die Firma ist verpflichtet, das Werk ungekürzt <lb/>h<supplied cert="high">e</supplied>r<supplied cert="high">a</supplied>uszugeben, doch soll es ihr
+                    gestattet sein, alle rein theo<g ref="#typoHyphen"/>
+                    <lb break="no"/>retischen, oder <choice>
+                        <sic>b</sic>
+                        <corr cert="high">ä</corr>
+                    </choice>sthetischen, oder sonst von handwerklich-musi<g ref="#typoHyphen"/>
+                    <lb break="no"/>kalischen abschweifenden Erörterungen in kleinerem Druck aber
+                    <lb/>innerhalb des fortlaufenden Textes zu drucken.</p>
+                <p>III. Die Firma ist verpflichtet, mir die letzten <lb/>Probedrucke zur Approbation
+                    vorzulegen und mir hiefür einen <lb/>Zeitraum von vier Wochen einzuräumen.</p>
+                <p>IV. Die Firma verpflichtet sich, alle hiebei von <lb/>mir gefundenen Fehler oder
+                    Missverständnisse zu verbessern, <lb/>so dass das herausgegebene Exemplar
+                    insoweit fehlerlos ist.</p>
+                <p>V. Im übrigen erhalte ich durch die <orgName key="org.1">UE</orgName> in
+                    halbjähriger <lb/>Abrechnung <add place="left">anstelle der</add>
+                    <del rendition="#s">
+                        <unclear reason="illegible" cert="high">die</unclear>
+                    </del>
+                    in unserem Vertrag für die deutsche Ausgabe vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>gesehenen Anteile, fünfzig Prozent der von der Firma an die
+                        <orgName key="org.1">
+                        <lb/>Universal Edition</orgName> bezahlten Anteile oder sonst wie immer
+                        namen<g ref="#typoHyphen"/>
+                    <lb break="no"/>habenden Erträgnisse <hi rendition="#u">halbjährig in bar
+                        ausgezahlt</hi>.</p>
+                <p>Ich bemerke bei dieser Gelegenheit, dass dieser Vor<choice>
+                        <sic>schla</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>schlag nur für die französische Ausgabe gilt, bei
+                    welcher ich <lb/>einen Absatz von etwa 10.000 Exemplaren in 4–5 Jahren erwarte.
+                    <lb/>Nicht aber für die Englische, welche ein Vielfaches dieser Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>lagenziffer erreichen wird, infolge der Mentalität der Ameri<g ref="#typoHyphen"/>
+                    <lb break="no"/>kaner und Engländer, sowie der Verbreitung der englischen Spra<g ref="#typoHyphen"/>
+                    <lb break="no"/>che.</p>
+                <p>Ich bitte, sich mit <persName key="pers.3924">Vandelle</persName> in Verbindung
+                    zu setzen <lb/>und mir Bescheid zu geben.</p>
+                <closer rendition="#inline">
+                    <salute>Mit vorzüglicher Hochachtung ergebenst</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

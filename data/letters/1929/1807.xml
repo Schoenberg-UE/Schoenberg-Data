@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1807"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 13. November 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1807</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1807</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-11-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17351"/>
+                </correspContext>
+                <note>Ort erschlossen; Vgl. <ref target="letter.565">Arnold Schönberg an Universal-Edition, zwischen
+                        9. und 13. November 1929</ref> und <ref target="letter.571">Arnold Schönberg
+                        an Universal-Edition, zwischen 9. und 13. November 1929</ref>; ob der Brief
+                    mit diesem Wortlaut oder in einer weiteren, nicht erhaltenen Version abgeschickt
+                    wurde, ist unklar.</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1807_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1807_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline rendition="#c">
+                        <date when="1929-11-13">13.XI.1929</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Herzka</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universa<supplied cert="high">l</supplied>
+                                Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien<choice>
+                                <sic>L</sic>
+                                <corr type="deleted"/>
+                            </choice>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.1538">Direktor</rs>
+                </salute>
+                <p>Entsch<supplied cert="high">u</supplied>ldigen Sie; ich konnte nicht sofort
+                    <lb/>antworten, weil ich dieser Tage so viel zu tu<supplied cert="high">n</supplied> hatte.</p>
+                <p>Es ist nicht richtig, dass ich Herrn <persName key="pers.995">Erd<g ref="#typoHyphen"/>
+                        <lb break="no"/>mann</persName> ersucht habe, <persName key="pers.2053">Krenek</persName> mitzuteilen, um was Sie mich <lb/>fragen; sondern ich
+                    habe zu ihm gesagt:</p>
+                <p>„Ich, wenn ich ein Freund des <persName key="pers.2053">Krenek</persName> wäre,
+                    <lb/>würde ihm raten, sein Geld schleunigst aus der <orgName key="org.1">UE</orgName> zurück <lb/>zu ziehen, da diese unmittelbar vor dem
+                    Zusammenbruch zu <lb/>stehen scheint“.</p>
+                <p>Diesen Rat würde ich ihm gegeben haben, weil <lb/>ich selbst, wenn Sie mein Konto
+                    nicht gesperrt hätten, un<g ref="#typoHyphen"/>
+                    <lb break="no"/>bedingt auch etwas Aehnliches getan hätte, da Sie mir als
+                    <lb/>Sie <seg type="comment">
+                        <orig>mein<supplied cert="high">e</supplied>
+                            <bibl sameAs="werke.65">Oper</bibl> erwerben wollten</orig>
+                        <note sameAs="letter.565/#nf5m_dhv_s2c"/>
+                    </seg>, durch Ihre eigenen Worte
+                    <lb/>einen unerhörten Schreck eingejagt hatten. Sie sagten mir <lb/>in grösster
+                    Aufregung und fast schluchzend:</p>
+                <p>„Bis vor Kurzem war es der <orgName key="org.1">UE</orgName> noch möglich ge<choice>
+                        <sic>g</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>gen höchste Zinsen von der Bank Geld zu bekommen. Jetzt
+                    <lb/>geht aber auc<supplied cert="high">h</supplied> das nicht mehr.“</p>
+                <p>Da ich selbst bis zu einem gewissen Grad den <lb/>Eindruck hatte, dass Sie mich
+                    selbst damit warnen wollten, <lb/>was ich in Anbetracht unseres früher doch
+                    recht guten Ver<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>hältnisses für einen Freundschaftsakt
+                    gehalten hätte <lb/>(wogegen nur die Sperrung meines Kontos sprach!) und <lb/>da
+                    ich nach Ihren Worten an eine unmittelbare und unab<g ref="#typoHyphen"/>
+                    <lb break="no"/>wendbare Gefahr glauben musste, mir andererseits der Fall <lb/>
+                    <persName key="pers.2053">Krenek</persName> sehr leid tat, glaubte ich das sagen
+                    zu sollen.</p>
+                <p>Wenn der Stand der <orgName key="org.1">UE</orgName> besser sein sollte:
+                    <lb/>warum haben Sie mir dann so etwas gesagt???</p>
+                <p>Ich muss leider schliessen, stehe aber na<g ref="#typoHyphen"/>
+                    <lb break="no"/>türlich zu weiteren Auskü<supplied cert="high">n</supplied>ften
+                    gerne zur Verfügung.</p>
+                <closer>
+                    <salute>Einstweilen bin ich, in vorzüglicher Hoch<g ref="#typoHyphen"/>
+                        <lb break="no"/>achtung ergebenst</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

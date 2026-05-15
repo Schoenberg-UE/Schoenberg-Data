@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.220"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 9. Dezember 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.220</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC 220</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1911-12-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                </correspAction>
+                <note>Beilagen: <ref target="document.6705">Arnold Schönberg an Alma Mahler, 9.
+                        Dezember 1911</ref>, <ref target="document.6345">Arnold Schönberg an Justine
+                        Ernestine Rosé, 9. Dezember? 1911</ref>, <ref target="document.219">Arnold
+                        Schönberg an Karl Kraus, 9. Dezember 1911</ref> und <ref target="document.6959">Arnold Schönberg an Alexander Zemlinsky, 9.? Dezember
+                        1911</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-21+02:00" who="KBleier">Herausgeberkorrektur</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/220_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.220_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>. </stamp>
+                    <dateline rendition="#c">
+                        <date when="1911-12-09">9/12.1911</date>
+                    </dateline>
+                    <note place="right" hand="#addressee">
+                        <stamp>Erledigt</stamp>
+                    </note>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">das war schade, dass wir uns nicht mehr getroffen haben. Ich
+                    habe <lb/>von dem, was Sie ins Telefon sprachen, nur wenig gehört; denn sehr
+                    bald war mein <lb/>Anschluss plötzlich tot und meine Wiederbelebungsversuche
+                    blieben erfolglos. </p>
+                <p>Ich muss mit Bleistift schreiben, denn ich habe Schreibkrampf. </p>
+                <p>Also: die 3 Exemplare der <bibl sameAs="schriften.1">Harmonielehre</bibl> habe
+                    ich erhalten <seg type="comment">
+                        <orig>„und hab mich <lb/>sehr
+                            gefreuet“</orig>
+                        <note xml:id="nxh3_4jn_bgc" resp="#TMuxeneder">
+                            <persName key="pers.3320">Franz Schubert</persName>, Winterreise D 911: Der
+                            greise Kopf</note>
+                    </seg>. Das heißt eigentlich war ich verstimmt, was
+                    ich stets bin, <lb/>so oft ich ein gedrucktes Werk von mir in die Hand bekomme.
+                    Dann <lb/>kann ich es zuerst lange nicht ansehen, vor Ekel und Katzenjammer. Es
+                    <lb/>dauert dann geraume Zeit, bis ich wieder daran glaube. </p>
+                <p>Was Ihre Frage über die Versendung von Frei-Exemplaren an Musik<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>kritiker anbelangt, so muss ich das ganz Ihnen überlassen. Es
+                    ist mir <lb/>wirklich nicht möglich, die kleinen Nuancen zu unterscheiden um die
+                    <lb/>der <seg type="comment">
+                        <orig>Kohn weniger schlecht ist als der Stangelbauer oder der
+                            Plutzenhuber</orig>
+                        <note xml:id="nw3b_yzz_bgc" resp="#TMuxeneder">Stereotype
+                            Stellvertreternamen</note>
+                    </seg>. <lb/>Jedenfalls bin ich mit Ihnen sehr einverstanden, möglichst wenig
+                        Freiexem<g ref="#typoHyphen"/>
+                    <lb break="no"/>plare <del rendition="#s">an</del> diesem Gesindel in den Rachen
+                    zu werfen. Ich möchte Ihnen <lb/>vorschlagen (da Sie ja wahrscheinlich nicht
+                    davon absehen werden <lb/>wollen, <subst>
+                        <del rendition="#ow">den</del>
+                        <add place="intralinear">die</add>
+                    </subst> „besseren“ Kritiker<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice> bedeutenderer Blätter zu bedenken) <lb/>wenigstens den anerkannt
+                    schlechteren Kritikern, der unbedeutendsten <lb/>Blätter Exemplare nur dann zu
+                    geben, wenn sie darum er<g ref="#typoHyphen"/>
+                    <lb break="no"/>suchen. Dagegen bin ich einverstanden, <del rendition="#s"
+                        >da</del> wenn Sie jenen Fach- <lb/>und Kunstzeitschriften, die mir
+                    befreundet sind welche schicken <lb/>wollen (<orgName key="org.113"
+                        >Merker</orgName>, <orgName key="org.54">Musik</orgName>, <orgName
+                        key="org.143">Rheinische Musik-Zeitung</orgName>, <orgName key="org.127"
+                        >Pan</orgName>, etc) ferner <lb/>
+                    <note place="left" hand="#author">1)</note>bitte ich Sie an Herrn <note
+                        place="mBottom" hand="#author">Adresse: München, Ainmillerstr. 36</note>
+                    <persName key="pers.1774">W. Kandinsky</persName>, Maler (der ab <date
+                        when="1912-01">Jänner</date> eine <lb/>neue <orgName key="org.48"
+                        >Kunstzeitschrift</orgName> herausgiebt) und mit dem ich befreundet bin,
+                    <lb/>ein Exemplar zu schicken. Ebenso Herrn <persName key="pers.957">Carl
+                        Einstein</persName> in Wilmers<g ref="#typoHyphen"/>
+                    <lb break="no"/>dorf-Berlin, <placeName key="place.2.4.2">Jenaerstr.
+                        26</placeName>, der<del rendition="#s">s</del> Sie darum ersuchen wird. Er
+                    giebt <lb/>auch eine <seg type="comment">
+                        <orig>
+                            <orgName key="org.315">Kunstzeitschrift</orgName>
+                        </orig>
+                        <note xml:id="ng5c_1zz_bgc" resp="#TMuxeneder">
+                            <orgName key="org.315">Neue Blätter</orgName> (Carl Einstein an Arnold
+                            Schönberg, [Herbst 1911]; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B105567">ASCC
+                                10556</ref>)</note>
+                    </seg> heraus.</p>
+                <p> Dann bitte ich Sie je ein gebundenes Exemplar zu schicken, <lb/>
+                    <note place="mBottom" hand="#author">bitte beantworten Sie die rot bezeichneten
+                        Fragen!</note>
+                    <pb n="2" xml:id="p.2"/>
+                    <lb/>an: </p>
+                <list>
+                    <item>Frau <persName key="pers.2244">Alma Mahler</persName>
+                    </item>
+                    <item>Frau <persName key="pers.3056">Justine Rosé</persName>
+                    </item>
+                    <item>
+                        <note place="left" hand="#author">2)</note>Herrn <persName key="pers.2422">Karl Moll</persName> und </item>
+                    <item>an <persName key="pers.2031">Karl Kraus</persName>.<note place="mTop" hand="#author">so bald wie möglich</note>
+                    </item>
+                </list>
+                <p>Ich lege diesem Brief kleine <seg type="comment">
+                        <orig>Begleitschreiben</orig>
+                        <note xml:id="nacn_2fh_cbc" resp="#pkehrer">
+                            <ref target="document.6705">Arnold Schönberg an Alma Mahler, 9. Dezember
+                                1911</ref>; <ref target="document.6345">Arnold Schönberg an Justine
+                                Ernestine Rosé, 9. Dezember? 1911</ref>; <ref target="document.219"
+                                >Arnold Schönberg an Karl Kraus, 9. Dezember 1911</ref>; <ref
+                                target="document.6959">Arnold Schönberg an Alexander Zemlinsky, 9.?
+                                Dezember 1911</ref>. Das Schreiben an <persName key="pers.2422">Carl
+                                Moll</persName> ist verschollen, erhalten ist das Dankschreiben Carl
+                            Moll an Arnold Schönberg, 22. März 1912 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B143855">ASCC
+                                14385</ref>)</note>
+                    </seg> bei, <lb/>die Sie so freundlich sein werden <del rendition="#s">mit
+                        den</del> in die Bücher <lb/>hineinzugeben. </p>
+                <p> Dann eines an <persName key="pers.4309">Zemlinsky</persName> in <placeName key="place.13.1">Prag</placeName>. </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Nun danke ich Ihnen noch sehr für die <persName key="pers.2225">Mahler</persName>-<bibl sameAs="werke.107">Symphonie</bibl>
+                    <lb/>und das <bibl sameAs="werke.123">Lied von der Erde</bibl>. Das ist sehr
+                    lieb von Ihnen, dass Sie an <lb/>mich gedacht haben. </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Was <persName key="pers.4001">Weberns</persName>
+                    <bibl sameAs="schriften.103">Aufsatz</bibl> anbelangt, so bitte ich Sie, ehe
+                    <lb/>Sie sich an <persName key="pers.4001">Webern</persName> wenden, den Aufsatz
+                    zu lesen und <lb/>sich zu entscheiden, ob Sie ihn bringen wollen. Ich kenne den
+                    <lb/>Aufsatz schon und er gefällt mir sehr, denn er ist außer<g ref="#typoHyphen"/>
+                    <lb break="no"/>ordentlich warm, ohne jede Schmockerei und sagt zum er<g ref="#typoHyphen"/>
+                    <lb break="no"/>sten mal wirklich Richtiges über meine Melodik und <lb/>meine
+                    Technik. Ob er sich für Ihre Zwecke eignet kann <lb/>
+                    <supplied cert="low">
+                        <metamark>3)</metamark>
+                    </supplied> und mag ich nicht beurteilen, möchte aber jedenfalls dem <persName key="pers.4001">Webern</persName>
+                    <lb/>die Kränkung einer Ablehnung ersparen. Aber ich hoffe be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmt, dass er Ihnen gefällt!! Jedenfalls wird Ihnen <lb/>
+                    <persName key="pers.4001">Webern</persName> keine Schwierigkeiten machen, wenn
+                    Sie den Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>satz <subst>
+                        <del rendition="#s">bringen</del>
+                        <add place="superlinear">verwenden</add>
+                    </subst> wollen und sich mit einem Ehrenhonorar be<g ref="#typoHyphen"/>
+                    <lb break="no"/>gnügen. </p>
+                <p>Ihrem Wunsch im <orgName key="org.165">Sternschen Konservatorium</orgName> einen
+                    Prospekt <lb/>zu verteilen, kann ich nicht nachkommen. Es tut mir leid, aber ich
+                    <lb/>muss solche Dinge unbedingt vermeiden. Aber ich bin sicher, dass <lb/>der
+                    Direktor, Professor <persName key="pers.1609">Gustav Holländer</persName>, der
+                    sich sehr für mich in<g ref="#typoHyphen"/>
+                    <lb break="no"/>teressiert, etwas in dieser Sache tun wird, wenn Sie ihn darum
+                    <lb/>angehen. </p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Möchten Sie nicht an <persName key="pers.2600">Nikisch</persName> ein Exemplar
+                    der <bibl sameAs="werke.11">Orchesterlieder</bibl>
+                    <lb/>schicken. Frau <persName key="pers.4247">Wolff</persName> will ihn zu einer
+                    Aufführung bewe<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen. Eventuell <hi rendition="#u">zur Ansicht</hi> auch die
+                        <bibl sameAs="werke.5">Pelleas</bibl>- <lb/>Partitur! </p>
+                <p> Nun etwas sehr Wichtiges: </p>
+                <p> Die <orgName key="org.5">Wiener Autoren Gesellschaft</orgName> hat beschlossen: </p>
+                <p>
+                    <note place="left" hand="#author">4)</note>die ihr übertragenen Werke sollen
+                    noch 10 Jahre nach dem <lb/>Austritt eines Mitgliedes ihr zur Verwaltung
+                    überlassen bleiben. </p>
+                <p> Bis zum <date when="1912-01-01">1. Jänner</date> müsste man sich entscheiden
+                    <lb/>ob man unter dieser Bedingung Mitglied bleiben will. </p>
+                <p> Ich finde diese Bedingung unannehmbar. Insbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>sondere, weil die <orgName key="org.5">Aut. Ges.</orgName> gar
+                    nicht versteht, ernste Wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>ke zu behandeln und nur für ihre Kuplets und Tänze ar<g ref="#typoHyphen"/>
+                    <lb break="no"/>beitet. Wäre nicht diese Pension, so hielte mich <lb/>nichts vom
+                    Austritt ab. </p>
+                <p> Könnten Sie da nicht darauf Einfluss nehmen, <lb/>dass dieser <subst>
+                        <del rendition="#s">Antr</del>
+                        <add place="intralinear">Beschluß</add>
+                    </subst> rückgängig gemacht wird? </p>
+                <p> Bitte schreiben Sie mir was ich tun soll! </p>
+                <p> Ich habe von dieser famosen <orgName key="org.5">Gesellschaft</orgName> noch
+                    <lb/>keine Abrechnung bekommen!!!! </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p> Noch etwas sehr dringendes: </p>
+                <p>
+                    <note place="left" hand="#author">5)</note>Bitte schicken Sie mir umgehend die
+                    Matritzen <lb/>meines <bibl sameAs="werke.26">II. Quartetts</bibl>, damit ich
+                    die Fehler-Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>besserungen eintragen kann. – Bitte, geben Sie das <lb/>dann
+                    rasch zum Drucken und teilen Sie mir mit, wann <lb/>die <seg type="comment">
+                        <orig>neuen Exemplare</orig>
+                        <note xml:id="noxb_kjh_qcc" resp="#KBleier">Lieferdatum: <date when="1912-01-31">31. Jänner 1912</date>, Auflage:
+                            157 (<rs type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon 2015</rs>, Bd.
+                            5, S. 667)</note>
+                    </seg> kommen sollen. </p>
+                <p> Nun für heute Schluss. Schreiben Sie mir, wie mein <bibl sameAs="werke.44">Chor</bibl> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>fallen hat und schicken Sie mir die <seg type="comment">
+                        <orig>Kritiken</orig>
+                        <note xml:id="nz3z_bvf_xcc" resp="#KBleier">
+                            <p><ref target="event.51"/></p>
+                            <p>Rezensionen aus dem Schönberg-Nachlass: <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12444&amp;action=view&amp;sortieren=veroeffentlichungsDatum&amp;vonBis=0-19">Fremden-Blatt, 11. Dezember 1911</ref>; <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12447&amp;action=view&amp;sortieren=veroeffentlichungsDatum&amp;vonBis=0-19">Der Morgen, 18. Dezember 1911</ref>; <ref target="https://archive.schoenberg.at/library/bilddaten/1911_12_20_Neues_Wiener_Tagblatt.pdf">Neues Wiener Tagblatt, 20. Dezember 1911</ref>
+                            </p>
+                        </note>
+                    </seg>
+                    Ich retourniere sie. </p>
+                <closer>
+                    <salute>Viele herzliche Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7230"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 31. März 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7230</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7230</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3</placeName>
+                    <date when="1933-03-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17376"/>
+                    <ref type="answered-by" target="letter.19891"/>
+                </correspContext>
+                <note>Datierung laut Poststempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7230_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7230_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.91">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>BERLIN W 50<lb/>
+                        <placeName key="place.2.3.9.1">NÜRNBERGER PLATZ 3</placeName>
+                        <lb/>TEL. B4 BAVARIA 44 66</stamp>
+                    <address>
+                        <addrLine>An die</addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I.</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz <supplied cert="high">6</supplied>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Liebe <orgName key="org.1">Universal Editions</orgName>-Direktion,</salute>
+                <p rendition="#inline">ich bin <del rendition="#s">sehr</del>
+                    <lb/>mit der Absicht des Herrn <persName key="pers.1536">Heller</persName> sehr
+                        einver<g ref="#typoHyphen"/>
+                    <lb break="no"/>st<supplied cert="high">a</supplied>nden. Es ist durchaus
+                    möglich, an der „<bibl sameAs="werke.7">Erwartung</bibl>“-<lb break="no"
+                    />Partitur, die sehr dünn instrumentiert ist, solche <lb/>Einziehungen
+                    vorzunehmen, dass der Gesamtklang <lb/>darunter nicht leidet.
+                    <!-- keine Aufführung nachgewiesen -->Schlecht wäre es ja nicht, wenn <lb/>jemand die
+                    Arbeit prüfen und begutachten würde. Wenn <lb/>ich Zeit habe, kann ich selbst
+                    ein bischen hineinsehen. <lb/>Aber das muss nicht unbedingt sein. – <seg
+                        type="comment">
+                        <orig>Hier ist alles ruhig <lb/>und ich kann versichern, dass ich und meine
+                            Bekannten von <lb/>Greueln nichts gemerkt haben und in keiner Weise
+                            <lb/>belästigt worden sind.</orig>
+                        <note xml:id="nrsc_sz4_h1c" resp="#pkehrer">Eine entsprechende Erkundigung
+                            der <orgName key="org.1">UE</orgName> ist nicht erhalten, aber in der
+                            zeitgenössischen deutschen Tagespresse wurde dazu aufgerufen, im Ausland
+                            lebende Bekannte brieflich von der Falschheit der „Greuelpropaganda“
+                            über die Ereignisse in <placeName key="place.2">Deutschland</placeName>
+                            zu überzeugen, wo den ganzen <date when="1933-03">März 1933</date>
+                            hindurch antisemitische Gewaltaktionen der Nationalsozialisten
+                            stattgefunden hatten (<rs type="bibl" key="zotero-4528359-XHKEBSBM"
+                                >Vossische Zeitung 1933</rs>)</note>
+                    </seg> Es ist sehr bedauerlich, dass solche Dinge <lb/>bedenkenlos geglaubt
+                    worden sind! Haben sich die betreffenden <lb/>
+                    <seg type="comment">
+                        <orig>„Gei<supplied cert="high">ste</supplied>sgrößen“</orig>
+                        <note xml:id="nrgn_m1p_h1c" resp="#TMuxeneder">
+                            <persName key="pers.3263">Schönberg</persName> bezieht sich auf
+                                <persName key="pers.940">Albert Einsteins</persName> Plan, ein
+                            „Parlament der geistigen Führer der Welt zu organisieren“. Die Wahl des
+                            Komitees sollte „nach den Grundätzen höchster Intellektualität,
+                            weitester Liberalität und größter internationaler Geltung erfolgen.“
+                                (<rs type="bibl" key="zotero-4528359-RMIKTYUK">Neues Wiener Tagblatt
+                                1933</rs>)</note>
+                    </seg> nicht <subst>
+                        <del rendition="#ow">zuerst gesagt, dass man</del>
+                        <add place="across">gesagt, dass man zuerst</add>
+                    </subst> abwarten muss, <lb/>ob das auch wahr ist? Muss der <seg type="comment">
+                        <orig>Herr <persName key="pers.940">Einstein</persName>
+                        </orig>
+                        <note xml:id="nyj1_g2y_mgc" resp="#TMuxeneder">
+                            <persName key="pers.940">Albert Einstein</persName> fand nicht nur
+                            aufgrund seiner wissenschaftlichen Forschungen reges Interesse in den
+                            Medien, sondern auch aufgrund seines Engagements für die Rechte der
+                            Juden, was Beifall, aber auch antisemitische Ressentiments innerhalb und
+                            außerhalb akademischer Kreise hervorrief (<rs type="bibl"
+                                key="zotero-4528359-44PACN98">Muxeneder 2019</rs>). Über die
+                                <placeName key="place.15">USA</placeName>-Aufenthalte <persName
+                                key="pers.940">Einsteins</persName>, dessen Engagement für jüdische
+                            Belange für große Publizität sorgte, wurde in den Medien häufig
+                            berichtet, u. a. über dessen Vorträge in Kalifornien im <date
+                                when="1933-02">Februar 1933</date> (<rs type="bibl"
+                                key="zotero-4528359-3T3DIPTB">Pester Lloyd 1933</rs>)</note>
+                    </seg> mit jedem <lb/>schäbigen Journalisten
+                    reden und ihm sein <seg type="comment">
+                        <orig>Herz aus<g ref="#typoHyphen"/>
+                            <pb n="2" xml:id="p.2" break="no"/>schütten</orig>
+                        <note xml:id="nxv3_rgy_mgc" resp="#TMuxeneder">
+                            <persName key="pers.940">Einstein</persName> hatte nach seiner Rückkunft
+                            aus den <placeName key="place.15">USA</placeName> Ende <date
+                                when="1933-03">März 1933</date> eine schriftliche Erklärung über die
+                            Internationale Liga gegen den Antisemitismus abgegeben, in dem er an den
+                            Humanitätsgedanken apellierte. Seine Pressenotiz wurde in
+                            Publikationsorganen sämtlicher politischer Couleurs veröffentlicht (<rs
+                                type="bibl" key="zotero-4528359-PGZYTUYJ">Echo der Gegenwart
+                                1933</rs>; <persName key="pers.3263">Arnold Schönberg</persName>,
+                            Einstein’s falsche Politik; ASSV 6.1.12)</note>
+                    </seg>? Was ist das für eine <lb/>jämmerliche Haltung von einem <lb/>Mann, der
+                    verpflichtet wäre, die <lb/>größte Intelligenz zu reprä<g ref="#typoHyphen"/>
+                    <lb break="no"/>sentieren? – Es ist wirklich <lb/>unglaublich!</p>
+                <closer>
+                    <salute rendition="#c">Herzlichste Grüße Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1509"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 12. Oktober 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1509</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1509</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-3MMC3IIJ">ASGA B 25/26</rs>
+                            <biblScope unit="page" from="30" to="30">XXX</biblScope>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" xml:lang="en">
+                            <rs type="bibl" key="zotero-4528359-RQT5247Y">Heyworth 1983</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                    <date when="1928-10-12" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1928-10-15" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17782"/>
+                    <ref type="answered-by" target="letter.20092"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc></teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1509_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1509_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Roquebrune Cap Martin</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.6.1">Pavillon Sévigné</placeName>
+                        </addrLine>
+                        <addrLine>Frankreich</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1928-10-12">12.X.1928</date>
+                    </dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11">Wien</placeName>,</addrLine>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Herzka</persName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>, ich bin sehr
+                    fleissig gewesen: die <persName key="pers.252">Bach</persName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="nadh_k31_4zb" resp="#pkehrer">
+                            <bibl sameAs="werke.32">Johann Sebastian Bach/Arnold Schönberg,
+                                Präludium und Fuge in Es-Dur für Orgel BWV 552</bibl>;
+                            Partiturautograph (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1310&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle B</ref>)</note>
+                    </seg> geht heute an Sie ab! Es ist ein ziemlich grosses Stück. <lb/>Ich möchte
+                    allerdings gerne selbst einige Engagements dafür be<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen; aber ich will nicht im Weg stehen: wenn einer meiner
+                    <lb/>wirklichen Freunde (die es aber nicht giebt) die <seg type="comment">
+                        <orig>Uraufführung</orig>
+                        <note xml:id="nqpf_1xh_c2c" resp="#pkehrer"> Die Uraufführung wurde zeitlich
+                            ineinandergreifend von <persName key="pers.1167">Wilhelm
+                                Furtwängler</persName> in <placeName key="place.2.3"
+                                >Berlin</placeName> und <persName key="pers.4001">Anton
+                                Webern</persName> in <placeName key="place.9.11">Wien</placeName>
+                                dirigiert:<ref target="event.127"/>; <ref target="event.125"
+                            /></note>
+                    </seg>
+                    <lb/>haben will, so kann man darüber reden: aber z. B. <persName key="pers.1881"
+                        >Kleiber</persName>, <persName key="pers.1885">Klem<g ref="#typoHyphen"/>
+                        <lb break="no"/>perer</persName> und <persName key="pers.3972"
+                        >Walter</persName> und alle die anderen Affen der Sachlichkeit, <lb/>die nur
+                    ihnen, aber nicht mir eine <hi rendition="#g">„neue“</hi> ist, zähle <lb/>ich
+                    nicht zu meinen Freunden. Bitte vielmals also: vergeben Sie <lb/>es nicht dem
+                    ersten Ueberläufer: wenn Sie allerdings andere heute <lb/>finden können!</p>
+                <p>Ich möchte nun gerne auch gleich über den Vorschuss von tausend <lb/>Mark
+                    verfügen und finde <choice>
+                        <sic>sdam</sic>
+                        <corr cert="high">es am</corr>
+                    </choice> einfachsten, wenn die <orgName key="org.1">UE</orgName> so freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich sein wollte, die beiliegende Rechnung des Zahnarztes Dr. <lb/>
+                    <persName key="pers.2021">Franz C. Krasa</persName>, Wien I. <placeName key="place.9.11.6.7">Ebendorferstrasse 10</placeName> im Betrage von
+                    <lb/>Sch. 338“64 Gr. auf dem kürzesten Wege zu begleichen (um eine
+                    <lb/>Schlamperei von mir gut zu machen) und den Rest auf mein <lb/>Konto Nr. <hi rendition="#g">121</hi>.518 beim <orgName key="org.214">Postscheckamt
+                        BERLIN</orgName> zu überweisen, <lb/>da ich dann gleichzeitig von hier
+                    darüber disponiere.</p>
+                <p>Bitte freundlichst, mir den Empfang der Partitur, von welcher es <lb/>
+                    <hi rendition="#g">keine</hi> Copie giebt, telegrafisch anzuzeigen!</p>
+                <p>Ich bleib nun nicht mehr lange hier. Ich arbeite noch etwas und <lb/>bin anfangs
+                    recht gut weiter gekommen, stecke aber jetzt s<choice>
+                        <sic>d</sic>
+                        <corr cert="high">c</corr>
+                    </choice>hein<g ref="#typoHyphen"/>
+                    <lb break="no"/>bar hoffnungslos. Was aber nichts zu be<supplied cert="high">s</supplied>agen hat, da ich ganz im An<g ref="#typoHyphen"/>
+                    <lb break="no"/>fang bin.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Ich danke Ihnen noch sehr für Ihr letztes <ref target="letter.20085"
+                        >Telegramm</ref> und für <lb/>die telegrafische <ref target="letter.20084">Empfangsbestät<choice>
+                            <sic>t</sic>
+                            <corr type="deleted"/>
+                        </choice>igung</ref> über die letzte <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="npmd_sgv_lgc" resp="#KBleier">
+                            <bibl sameAs="werke.64">Arnold Schönberg, Variationen für Orchester op.
+                                31</bibl>; Partiturreinschrift, autograph (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=634&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle C</ref>)</note>
+                    </seg>! <lb/>Dagegen erwarte ich schon seit ein<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>igen Tagen die Partitur zurück. <lb/>Sie ist doch hoffentlich schon
+                        <seg type="comment">
+                        <orig>photographiert</orig>
+                        <note sameAs="letter.1497/#nrls_11p_jdc"/>
+                    </seg> und an <persName key="pers.1167">Furtwängler</persName>
+                    <lb/>geschickt! Die <seg type="comment">
+                        <orig>restlichen Vorbemerkungen</orig>
+                        <note xml:id="nu2k_fsb_hdc" resp="#pkehrer">Bei den der Ersten Niederschrift
+                                (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=633&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle B</ref>) beiliegenden Entwürfen handelt es sich
+                            vermutlich um bei <persName key="pers.3263">Schönberg</persName>
+                            verbliebene Kopien der später an die <orgName key="org.1">UE</orgName>
+                            gesendeten Schriftstücke (vgl. <ref target="letter.1614">Arnold
+                                Schönberg an Universal-Edition, 5. Dezember 1928</ref>). Dass
+                                <persName key="pers.3263">Schönberg</persName> hier von den
+                            „restlichen“ Vorbemerkungen spricht, könnte entweder darauf hindeuten,
+                            dass die auf <date when="1928-09-29">29. September 1928</date> datierten
+                            Stichanweisungen, die bereits Entwürfe zu den Vorbemerkungen enthalten,
+                            schon mit der Partiturreinschrift an die <orgName key="org.1"
+                                >UE</orgName> gegangen waren – oder aber sich auf die Notizen auf
+                            der zweiten Umschlagseite der Reinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=634&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle C</ref>) beziehen</note>
+                    </seg> sende ich demnächst. <lb/>
+                    <seg type="comment">
+                        <orig>Für diese Partitur muss ich eventuell neue schreiben.</orig>
+                        <note xml:id="nfhc_d5b_hdc" resp="#pkehrer"><persName key="pers.3263"
+                                >Schönberg</persName> bezieht sich wieder auf <bibl
+                                sameAs="werke.32">Johann Sebastian Bach/Arnold Schönberg, Präludium
+                                und Fuge in Es-Dur für Orgel BWV 552</bibl>. Die Vorbemerkungen im
+                            Originaldruck (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1313&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle E</ref>) sind identisch mit jenen im
+                            Originaldruck der <bibl sameAs="werke.64">Variationen für Orchester op.
+                                31</bibl> (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=638&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle E</ref>)</note>
+                    </seg>
+                </p>
+                <p>Ich möchte, dass auch hier <seg type="comment">
+                        <orig>
+                            <hi rendition="#g">keine transponieren<lb break="no"/>den</hi>
+                            Instrumente</orig>
+                        <note xml:id="ncpz_grp_hdc" resp="#pkehrer">Stattdessen sind im
+                            Originaldruck (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1313&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle E</ref>) zwar transponierende Instrumente
+                            (Englischhorn, Klarinetten, Horn) klingend notiert, oktavtransponierende
+                            Instrumente (Piccoloflöte, Kontrabass, Kontrafagott etc.) hingegen in
+                            transponierter Notation. <persName key="pers.3263">Schönberg</persName>
+                            kommentiert diesen Fehler später in einem in sein Handexemplar (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1314&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle Ea</ref>) eingeklebten
+                            Typoskript</note>
+                    </seg> mehr vorkommen; das wäre also dementsprechend <lb/>durch den Stecher zu
+                    besorgen. Ob es aber nicht vielleicht das Beste <lb/>wäre (korrekturensparend)
+                    wenn ein sehr gewissenhafter Musiker <lb/>in die betreffenden Instrumental
+                    Zeilen durch <hi rendition="#sup">8.......</hi> und <del rendition="#s">8</del>
+                    <lb/>
+                    <hi rendition="#sub">8!......</hi> Zeichen dem Stecher das Irren unmöglich
+                    machen würde!?! <lb/>Vielleicht äussert sich Herr <persName key="pers.3612"
+                        >Stein</persName> dazu und veranlasst es selbst!</p>
+                <closer>Ich muss schliessen: <salute>viele herzliche Grüsse, wobei ich annehme, dass
+                        <lb/>Sie diesmal wirklich in <placeName key="place.9.11">Wien</placeName>
+                        sind: Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

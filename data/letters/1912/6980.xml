@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.6980"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 29. April 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6980</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6980</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1912-04-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24218"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-01+02:00" who="KBleier">Kodierung unleserlicher Text
+                geändert</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6980_po.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.6980_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName
+                            key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <address>
+                        <addrLine>
+                            <gap reason="illegible" unit="chars" quantity="3"/> Direktor <persName
+                                key="pers.1538">
+                                <hi rendition="#u">Emil Herzka</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal-Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.18">Reichsratsstraße 9</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <pb n="2" xml:id="p.2"/>
+                <salute>
+                    <supplied cert="high">Li</supplied>eber Herr <rs type="person" key="pers.1538"
+                        >Direktor</rs>,</salute>
+                <p rendition="#inline">ich will noch die Antwort <lb/>eines
+                    Kopisten abwarten, die ich in 2–3 Tagen habe. <lb/>Sollte ich bei dem nicht Termin und
+                    Preis nach Wunsch <lb/>erzielen, dann lassen wirs durch <persName
+                        key="pers.1641"><unclear reason="illegible" cert="low"
+                        >Horslik</unclear></persName>
+                    <seg type="comment">
+                        <orig>machen</orig>
+                        <note xml:id="nnpw_3nv_jgc" resp="#KBleier">
+                            <bibl sameAs="werke.16">Gurre-Lieder</bibl>
+                        </note>
+                    </seg>.</p>
+                <p>Bitte um schleunige Antwort ob Sie nicht das <hi rendition="#u"
+                        >Streich-Quintett</hi>
+                    <lb/>
+                    <add place="superlinear">der <bibl sameAs="werke.16">Gurre Lieder</bibl>
+                    </add> autografieren lassen wollen. Ich glaube es steht dafür, da man <lb/>20
+                    Prim zu 20 Sekundgeiger hat!! Was zahlen Sie dafür! <hi rendition="#uu">Bitte
+                        Antwort!</hi>
+                    <lb/>Auch wegen der Korrektur wäre es einfacher.</p>
+                <p>Ich freue mich, Sie in <placeName key="place.2.3">Berlin</placeName> zu sehen.
+                    Ich kann leider <lb/>nicht mehr schreiben, denn ich bin im Begriff ein größeres
+                        <seg type="comment">
+                        <orig>
+                            <lb/>
+                            <bibl sameAs="werke.54">Werk</bibl> fertig zu stellen</orig>
+                        <note xml:id="ngfk_zvt_xfc" resp="#KBleier">
+                            <bibl sameAs="werke.54">Pierrot lunaire op. 21</bibl> entstand im
+                            Frühjahr und Sommer <date when="1912">1912</date> im Auftrag von
+                                <persName key="pers.4302">Albertine Zehme</persName>. Nach Anbahnung
+                            seit <date when="1912-01">Jänner 1912</date> erging der vertraglich
+                            festgelegte Auftrag am <date when="1912-03-12">10. März 1912</date> an
+                                <persName key="pers.3263">Schönberg</persName>, Abschluss der
+                            Komposition spätestens <date when="1912-07-24">24. Juli 1912
+                            </date>(Albertine Zehme an Arnold Schönberg, 10. März 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B185014">ASCC
+                                1850</ref>; <rs type="bibl" key="zotero-4528359-THVFD6XK"
+                                >Nono-Schoenberg 1998</rs>, S. 109; Albertine Zehme an Arnold
+                            Schönberg, 29. Juli 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B185041">ASCC
+                                18504</ref>; <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B
+                                24/1</rs>, S. 178ff.)</note>
+                    </seg>. Etwas sehr interessantes.</p>
+                <closer rendition="#inline">
+                    <salute>Herzl Gruß </salute>
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                    <dateline rendition="#l">
+                        <date when="1912-04-29">2<supplied cert="high">9</supplied>.4.1912</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="document.7827"
+     telota:doctype="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an unbekannt, 1916</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/documents/document.7827</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7827</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <date notAfter="1916-09-01" cert="low"/>
+                </correspAction>
+                <correspAction type="received"/>
+                <note>Datierung laut Bezugnahme auf „unser Telegramm und unseren späteren Bestätigungsbrief in
+                    Angelegenheit der von Ihnen angeregten ‚Gurre-Lieder-Sache‘“ in: <ref target="document.24279">Universal-Edition an Breitkopf &amp; Härtel, 1.
+                        September 1916</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7827_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7827_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <p>
+                    <del rendition="#s">Ich</del> Die <orgName key="org.1">U.E.</orgName>
+                    beabsichtigt <del rendition="#s">die <add place="superlinear">Erste</add>
+                        Aufführung</del>
+                    <subst>
+                        <del rendition="#ow">der</del>
+                        <add place="across">die</add>
+                    </subst>
+                    <bibl sameAs="werke.16">Gurrelieder</bibl>
+                    <lb/>für <rs type="place" key="place.15">Amerika</rs> nur an den zu<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> vergeben, der mich <del rendition="#s">daf</del> zur <lb/>Leitung der
+                    Erst-Aufführung engagiert.</p>
+                <p>
+                    <note place="left" hand="#author">Bedingungen des Verlegers</note>Wir haben
+                    nun bereits <add place="superlinear">radiografisch</add> einen Antrag aus
+                        <placeName key="place.15.8">N. Y.</placeName> und <lb/>stehen im
+                        Begrif<supplied cert="high">f</supplied> ihn abzuschließen. Wir erwarten nur
+                    das <lb/>Eintreffen des Briefes der die Bedingungen bringt.<note place="right" hand="#author">muss mich entscheiden <lb/>erw. Eintreffen des Briefes</note>
+                    Passen uns <lb/>diese, <subst>
+                        <del rendition="#s">dann werden wir wenn</del>
+                        <add place="superlinear">und sind</add>
+                    </subst> Zahl der Proben, Größe des <lb/>Chors und Orchesters und Qualität der
+                    Mitwirkenden entsprechend <lb/>dann werden wir allerdings dorthin abschließen
+                    müssen.</p>
+                <p>
+                    <del rendition="#s">Wurde</del>
+                </p>
+                <p>Ich wäre aber geneigt <del rendition="#s">Ihrem</del> Ihrem Unternehmen,
+                    <lb/>weil es Wohlfahrtszwecke fördert den Vorzug zu geben und <lb/>kann das
+                    deshalb ganz gut jetzt tun, weil ich ohnedies eine <lb/>neue Bedingung stellen
+                    muss, von deren Notwendigkeit ich nicht <lb/>wusste als ich der ersten
+                    Gesellschaft meine Bedingungen nannte. </p>
+                <p>
+                    <note place="left" hand="#author">
+                        <gap reason="illegible" unit="words" quantity="1"/>
+                        <placeName key="place.9">Oesterreich</placeName>
+                    </note>Die Hauptfrage ist
+                    nämlich: wie komme ich hinüber, <lb/>da doch die <placeName key="place.3">Engländer</placeName> niemanden durchlassen.</p>
+                <p>Ich bin mir nun klar darüber, dass das nur so geht, dass <lb/>
+                    <del rendition="#s">ich</del> von <placeName key="place.15">Amerika</placeName>
+                    aus an die <placeName key="place.3">Engl.</placeName> Regierung <hi rendition="#u">freies Geleite</hi>
+                    <lb/>für mich und meine Familie (zus. 4 Personen) und mein Gepäck <lb/>und
+                    Material der <bibl sameAs="werke.16">Gurrelieder</bibl> und meine Noten,
+                    Manuskripte <lb/>und Bücher verlangt wird.</p>
+                <p>Und da ich ja ohnedies nicht anders hinüberkann, ist <lb/>es wohl am besten,
+                    wenn ich mit dem abschließe, dessen <lb/>Bemühungen es gelingt, mir dieses freie
+                    Geleite <lb/>und Freigabe von <placeName key="place.9">Oesterreich</placeName>
+                    erwirkt.</p>
+                <p>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                </p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Ich würde es <del rendition="#s">bei</del> Ihnen <subst>
+                        <del rendition="#s">unter</del>
+                        <add place="superlinear">im Uebrigen</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#ow">den</del>
+                        <add place="across">die</add>
+                    </subst>selben Bedingungen <lb/>
+                    <del rendition="#s">machen,</del> stellen.
+                    Nämlich: </p>
+                <p>5000 $ für die ersten 5 Aufführungen, ferner <lb/>freie Hin u Rückreise für
+                    mich <del rendition="#s">und meine</del>
+                    <rs type="person" key="pers.3290">Frau</rs> und <lb/>2 <seg type="comment">
+                        <orig>Kinder</orig>
+                        <note sameAs="letter.25/#nolf_kdy_5xb"/>
+                    </seg> (15
+                    und 10 Jahre) und vollständig freien Aufent<g ref="#typoHyphen"/>
+                    <lb break="no"/>halt erster Klasse für <del rendition="#s">alle</del> mich und alle diese
+                    Personen. <lb/>Für jede weitere Aufführung bis zu 10 ebenfalls <add place="superlinear">je</add> 1000 $ <lb/>und falls diese in anderen
+                        <placeName key="place.15">amerikanischen</placeName> Städten statt<g ref="#typoHyphen"/>
+                    <lb break="no"/>finden, <del rendition="#s">entsprechende</del> freie Reise und Aufenthalt.</p>
+                <p>Ferner: Garantie für eine genügende Probenanzahl <lb/>(für ein Orchester im
+                    Rang der <orgName key="org.263">W<hi rendition="#sup #u">r</hi>
+                        Philharmoniker</orgName> rechne <lb/>ich 10–12 Proben davon einige geteilt)
+                        <del rendition="#s">ca 140 <del rendition="#s">
+                            <gap reason="illegible" quantity="1" unit="words"/>
+                        </del>
+                    </del>
+                    <lb/>Die Orchesterbesetzung <add place="superlinear">mindestens</add> wie in der
+                    Partiturangabe. <lb/>300–500 Männerchor, 250–350 Frauen Chor, <lb/>erstklassige
+                    Solisten. Bedingungen des Verlags extra</p>
+                <p>Ich muss mit einem längeren Aufenthalt <lb/>in <placeName key="place.15">Am.</placeName> rechnen meine Manuskripte und auch <lb/>etwas aus meiner
+                    Bibliothek mitnehmen.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Erwarte Brief in diesen Tagen </p>
+            </div>
+        </body>
+    </text>
+</TEI>

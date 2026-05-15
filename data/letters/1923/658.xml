@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.658"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. Juli 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.658</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 658</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.10">Traunkirchen</placeName>
+                    <date when="1923-07-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.21780"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.658">Bestellliste, 18. Juli 1923</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/658_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.658_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>
+                        <add place="superlinear">
+                            <seg hand="#author">
+                                <placeName key="place.9.10">Traunkirchen</placeName>
+                            </seg>
+                        </add>MÖDLING, <date when="1923-07-18">1<seg hand="#author">8.VII.</seg> 192<seg hand="#author">3</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>PT <orgName key="org.1">Universal Edition</orgName>, </salute>
+                <p rendition="#inline">darf ich bitten<del rendition="#s">n</del>, mir die auf
+                    beiliegendem <ref target="document.658">Ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>zeichnis</ref> genannten Verlagsnummern der <orgName key="org.1">UE</orgName> gefälligst so bald wie mög<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich zu schicken. Den Betrag können Sie entweder auf mein Konto
+                        schrei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, oder ich kann ihn einsenden.</p>
+                <p>Ich bin noch nicht dazu gekommen, Herrn Direktor <persName key="pers.1538">Herzka</persName> zu antworten. <lb/>Jedenfalls möchte ich darauf
+                    aufmerksam machen, dass trotz meiner un<g ref="#typoHyphen"/>
+                    <lb break="no"/>zähligen Beanstandungen die Abrechnung auch diesmal wieder so
+                        abge<g ref="#typoHyphen"/>
+                    <lb break="no"/>fasst ist, dass sie für mich vollkommen unverständlich ist.
+                    Obwohl ich <lb/>immer verlangt habe, dass die zugrundeliegenden Katalogspreise
+                    zu je<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem Werk genannt werden und mir die Geheimnisse der
+                    Preisberechnung <lb/>mitgeteilt werden, ist das wieder nicht geschehen. Ich kann
+                    mit die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Abrechnung nichts anfangen und bitte um eine neue.</p>
+                <closer>
+                    <salute>Herrn Direktor <persName key="pers.1538">Herzka</persName> inzwischen meine herzlichsten
+                  Grüsse. Mit vorzüg<g ref="#typoHyphen"/>
+                        <lb break="no"/>licher
+                  Hochachtung</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

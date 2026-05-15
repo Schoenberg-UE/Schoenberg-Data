@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.487"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 24. Juli 1917</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.487</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 487</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-IEUTQ7MD">ASGA B 17/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.1">Wien, Gloriettegasse 43</placeName>
+                    <date when="1917-07-24" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17701"/>
+                    <ref type="response-to" target="letter.17589"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-02+02:00" who="KBleier">Korrektur Transkription</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/487_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.487_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1917-07-24">24. Juli 1917</date>
+                    </dateline>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">Ihre Entschuldigung kann mich natürlich nicht
+                    <lb/>befriedigen. Vor allem, weil Ihr durch Ihre Nervosität hervorgerufenes
+                        Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>gehen gegen mich, sobald Sie wieder wegen eines Papierwaggons
+                    nervös <lb/>sind, neuerdings ausbrechen kann, und Sie werden einsehen, dass es
+                    für mich <lb/>nichts Verlockendes ist, der Sündenbock Ihrer Launen zu sein. Dann
+                    aber, weil <lb/>Sie <add place="superlinear">fast</add> acht Wochen verstreichen
+                    ließen, ohne <supplied cert="high">daß</supplied> Sie Ihr Unrecht gut machten,
+                    statt <lb/>mir <hi rendition="#u">sofort am nächsten Tag zu schreiben!!</hi> Ja
+                    sogar als <persName key="pers.3612">Stein</persName> Sie daran <lb/>erinnerte,
+                    wie Sie mich durch Ihr Benehmen beleidigt hatten, auch dann <lb/>ließen Sie noch
+                    4 Wochen verstreichen. Schließlich aber sehe ich mit alle <lb/>dem, dass Sie
+                    sich wahrscheinlich <hi rendition="#u">gar nicht entschuldigt hätten</hi>, wenn
+                    nicht der <lb/>Umstand, dass wir miteinander verkehren müssen, Ihnen eine recht
+                        cere<g ref="#typoHyphen"/>
+                    <lb break="no"/>monielle Entschuldigung abgenötigt hätte. Da ich nun – ganz
+                    abgesehen von <lb/>meinen Leistungen – als einfacher Bürger, wie jeder verlangen
+                    muss, <lb/>dass er mich mit vollendeter Höflichkeit behandle, mit Rücksicht auf
+                    die <lb/>Besonderheit meiner Leistungen sogar eine besonders auszeichnende
+                    <lb/>Höflichkeit beanspruchen darf, da soweit es im Allgemeinen den <lb/>
+                    <hi rendition="#u">Künstlern die Nervosität zugebilligt</hi> wird, während man
+                    von <lb/>den <hi rendition="#u">Verlegern Ruhe und Maß</hi> mit Recht erwartet,
+                    so werden Sie <lb/>einsehen, dass ich nicht damit zufrieden bin, wenn Sie
+                    schreiben <lb/>„Sollten Sie sich dennoch unbegreiflicherweise(!!) durch irgend
+                    <lb/>etwas verletzt fühlen –“. Denn daß ich verletzt bin <unclear
+                        reason="illegible" cert="low">und</unclear> dass das <lb/>nicht
+                    „unbegreiflich“ ist, wussten Sie doch wohl sofort, als Sie ohne <lb/>jeden Grund
+                    das Telefon Gespräch mit einseitiger Eigenmäch<g ref="#typoHyphen"/>
+                    <lb break="no"/>tigkeit abbrachen. Sie werden wohl ebenso empfinden, wie <pb
+                        n="2" xml:id="p.2"/>
+                    <add place="superlinear">ich</add>, <choice>
+                        <sic>darin empfinden</sic>
+                        <corr type="deleted"/>
+                    </choice> (oder nicht. – Soll ich es einmal probieren?) und werden
+                    <lb/>verlangen, dass eine Unterredung nicht von dem einen eigenmächtig <lb/>
+                    <hi rendition="#u">abgebrochen</hi>, sondern in gegenseitiger Uebereinstimmung
+                    geschlossen <lb/>wird. Wer das anders empfindet, mit dem kann ich allerdings
+                    <lb/>nicht weiter diskutieren; dem <add place="superlinear">allein</add> darf es
+                        <del rendition="#s">dann auch nicht</del> unbegreif<lb break="no"/>lich
+                    sein, wenn der Andre sich beleidigt. Soweit ich weiß, sind <lb/>Sie hingegen <hi
+                        rendition="#u">sehr empfindlich</hi>. Ich frage nun:</p>
+                <p>„<hi rendition="#u">Beanspruchen Sie eine andere Höflichkeit, als Sie <add place="superlinear">sie</add> mir be<g ref="#typoHyphen"/>
+                        <lb break="no"/>weisen wollen?</hi>“</p>
+                <p>Das könnte ich Ihnen nicht geben; denn es giebt nur <hi rendition="#uu">eine</hi>
+                    <lb/>
+                    <hi rendition="#uu">einzige</hi> Art von Höflichkeit. Die aber, die
+                    Gespräche <lb/>abbricht, mag ich nur anwenden, wo ich jeden Verkehr abbreche!
+                        <lb/>
+                    <hi rendition="#uu">Empfinden Sie das anders</hi>?</p>
+                <p>Aber ich will mich aus folgenden Gründen mit Ihrer <lb/>Erklärung zufrieden geben:</p>
+                <p>I. Weil ich dieses Werk<!-- welches? --> noch fertig machen will (denn<lb/><choice>
+                        <sic>(</sic>
+                        <corr type="deleted"/>
+                    </choice>ich muss, eh der Winter kommt, noch ein zweites
+                    <!-- welches? -->schreiben) und <lb/>das nicht weiter arbeiten kann, ehe ich
+                    über das Verlagstech<g ref="#typoHyphen"/>
+                    <lb break="no"/>nische nicht im Klaren bin.</p>
+                <p>II. Weil ich nicht aus Rachsucht unsere Verlagsbeziehungen <lb/>stören will.</p>
+                <p>III. Weil ich mit Bestimmtheit darauf rechne, dass Sie <lb/>mir beim persönlichen Zusammentreffen
+                    mit der nötigen <lb/>Aufrichtigkeit und Ehrlichkeit durch eine <hi rendition="#u">herzliche Entschuldigung <lb/>die Garantie geben werden, dass
+                        ich nicht mehr befürchten muss, <lb/>wegen Papier<metamark/>
+                        <note place="mBottom" hand="#author">
+                            <metamark/>oder sonst was anderem!</note> der Sündenbock
+                        zu sein!</hi>
+                </p>
+                <p>Da ich zur Fertigstellung des <bibl sameAs="schriften.12">Buches</bibl> cirka 2-3 Wochen brauche,
+                    <lb/>drängt meine Zeit sehr. Ich bitte deshalb um umgehende Ant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wort. Wollen Sie mir vielleicht auch
+                    gleich diejenigen <lb/>Nachmittagsstunden nennen, die Ihnen passen. Unsre Un<g ref="#typoHyphen"/>
+                    <lb break="no"/>terredung wird nicht kurz sein können,
+                    denn es sind <pb n="3" xml:id="p.3"/>einige Fragen zu besprechen. Außerdem: ich
+                    arbeite sehr angestrengt <lb/>an der Komposition der „<bibl sameAs="werke.78">Jakobsleiter</bibl>“, muss also auch etwas
+                    <lb/>Spielraum haben. Wenn Sie auf noble Weise mich ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>söhnen wollten, würden Sie das berücksichtigen und würden
+                        <lb/>
+                    <add place="superlinear">auf</add> einen Nachmittag zu mir kommen (ich
+                    habe aus Ärger und <lb/>mit diesem langen Brief genug Zeit verbraucht, die mir
+                    <lb/>jetzt unersetzlicher ist, als je) und alles in Ordnung bringen. <lb/>Ich
+                    fände es gerecht, aber ich fordere es nicht, denn es ist Ihre <lb/>Sache, ob Sie
+                    gute Beziehungen wiederherstellen wollen <lb/>und einen Fehler gründlich gut
+                    machen. Meine Sache mag <lb/>es sein, Ihnen den Weg zu zeigen und die
+                        Bereitwillig<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit. Aber ich kann mich
+                    ja auch mit dem Verhältnis <lb/>begnügen, das Sie für angemessen halten, da
+                    meine <lb/>sehr in Anspruch genommene Phantasie genug <unclear reason="illegible" cert="low">Beschäftigung</unclear>
+                    <lb/>findet, an den Aufgaben, die sie sich selbst stellt.</p>
+                <closer>
+                    <salute>Also: ich bin mit vorzüglicher Hochachtung Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold  Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

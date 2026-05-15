@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17800"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 15. Februar 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17800</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17800</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1929-02-15" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.7.1.1.1">Monaco, Hotel Bristol Majestic</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1657"/>
+                    <ref type="response-to" target="letter.7223"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17800_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17800_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, <date when="1929-02-15">15. Februar 1929</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4377">Ma</persName>/<persName key="pers.4362">M.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">MONTE CARLO,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.7.1.1.1">Hotel Bristol</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <p>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</p>
+                <p>Mein recht unbefriedigender Gesundheitszustand ist <lb/>schuld daran, dass ich
+                    auf Ihr geschätztes <ref target="letter.1657">Schreiben</ref> vom <lb/>
+                    <date when="1929-01-29">29. Januar</date> erst heute antworten kann.</p>
+                <p>Ich bin sehr traurig, aus Ihrem Briefe zu ersehen, <lb/>dass Sie aus einer mir
+                    unverständlichen Verbitterung der <orgName key="org.1">U.E.</orgName>
+                    <lb/>gegenüber den jahrelangen positiven Leistungen gegenüber taub <lb/>und
+                    blind sind, dagegen bei vermeintlichen negativen Vorfällen <lb/>eine übermässige
+                    Hellsichtigkeit und Feinhörigkeit entwickeln. <lb/>Ihre Unzufriedenheit in den
+                    letzten Vertragsjahren spiegelte <lb/>sich in jedem Ihrer Briefe wieder und
+                    führte dazu, dass wir die <lb/>Überzeugung hatten, Sie könnten den Moment nicht
+                    erwarten, um <lb/>die Ihnen schon so lästige Bindung unserem Verlage gegenüber
+                    <lb/>los zu werden und über Ihr Schaffen frei zu verfügen. Sollte <lb/>und
+                    durfte ich Sie von diesem Vorhaben abhalten? Diese Frage <lb/>hat mich oft genug
+                    gequält. Würden mir so grosse Mittel zur <lb/>Verfügung stehen, um Ihre unter
+                    allen Umständen berechtigten <lb/>materiellen Ansprüche auch weiterhin zu
+                    befriedigen, dann <lb/>hätte ich noch vor Ablauf unseres <seg type="comment">
+                        <orig>Vertrages</orig>
+                        <note sameAs="letter.17667/#ny15_crt_gdc"/>
+                    </seg> die grössten An<g ref="#typoHyphen"/>
+                    <lb break="no"/>strengungen gemacht, um ihn zu verlängern. Ich war und bin mir
+                    <lb/>aber bewusst, dass wir in dieser Zeit, die wirtschaftlich <pb n="2"
+                        xml:id="p.2"/>für uns immer schwieriger und kritischer wird, alles weniger
+                    als <lb/>grosszügig sein können und dass eine Verständigung zwischen uns,
+                    <lb/>wenn überhaupt, schliesslich nur unter Bedingungen, die keinen von <lb/>uns
+                    beiden befriedigt hätte, erfolgen könnte. So stand die Sache <lb/>zur Zeit als
+                    unser Vertrag zu Ende ging, und nicht anders steht <lb/>sie heute. Sie wissen
+                    seit jeher, dass die ganze Organisation <lb/>unseres leider allzuweit
+                    verzweigten Verlages grosse Pauschal<g ref="#typoHyphen"/>
+                    <lb break="no"/>summen für Verlagsrecht-Ankäufe überhaupt ausschliesst. Da Sie
+                    <lb/>trotzdem als Voraussetzung für eine Abmachung über Ihr „<bibl
+                        sameAs="werke.65">Musik<g ref="#typoHyphen"/>
+                        <lb break="no"/>drama</bibl>“ von vorneherein die Zahlung einer grossen
+                    Pauschalsumme <lb/>stellten, schalteten Sie uns aus der Bewerbung selbst aus.
+                    Ich <lb/>begreife auch diesen Ihren Standpunkt und ich glaube, dass es
+                    <lb/>Ihnen leicht fallen wird, einen angesehenen <seg type="comment">
+                        <orig>Verlag zu finden</orig>
+                        <note xml:id="nojz_5k1_j2c" resp="#pkehrer">Josef Rufer an Arnold Schönberg,
+                            11. Februar 1929 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B152033">ASCC
+                                15203</ref>), berichtet von der Absage der Verlage <orgName
+                                key="org.25">B. Schott’s Söhne</orgName> und Fürstner</note>
+                    </seg>, <lb/>der für die Chance, ein Werk von Ihnen in seinem Katalog zu führen,
+                    <lb/>einen Betrag bezahlen wird, der jenen, den ich Ihnen anbieten <lb/>könnte,
+                    bedeutend übersteigen dürfte. Es gibt viel Verläge, die <lb/>reicher und
+                    unabhängiger sind als die <orgName key="org.1">U.E.</orgName> und denen die
+                        Erträg<g ref="#typoHyphen"/>
+                    <lb break="no"/>nisse nicht so wichtig sind als der <orgName key="org.1"
+                        >U.E.</orgName> – Es lagen ja auch in <lb/>früheren Jahren Fälle vor, wo im
+                    Rahmen unserer Vertragsbeziehun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen Ähnliches geschehen ist (<seg type="comment">
+                        <orig>vide <orgName key="org.43">Peters</orgName> und <orgName key="org.255"
+                                >Hansen</orgName>
+                        </orig>
+                        <note xml:id="nn1v_zn1_j2c" resp="#pkehrer">Die <bibl sameAs="werke.47">Fünf
+                                Orchesterstücke op. 16</bibl> waren bei <orgName key="org.43">C. F.
+                                Peters</orgName> (<date when="1912">1912</date>), die <bibl
+                                sameAs="werke.56">Fünf Klavierstücke op. 23</bibl> und die <bibl
+                                sameAs="werke.57">Serenade op. 24</bibl> im <orgName key="org.255"
+                                >Wilhelm Hansen Musikforlag</orgName> erschienen (<date when="1923"
+                                >1923</date>–<date when="1924">1924</date>) – jeweils während eines
+                            laufenden Generalvertrags mit der <orgName key="org.1">UE</orgName> –
+                            und tatsächlich bot <persName key="pers.3263">Schönberg</persName> dem
+                            letzteren Verlag auch <bibl sameAs="werke.65">Von heute auf
+                                Morgen</bibl> an (Arnold Schönberg an Wilhelm Hansen Musikforlag,
+                            18. Februar 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B016693">ASCC
+                                1669</ref>). Nach einer Absage in Wilhelm Hansen Musikforlag an
+                            Arnold Schönberg, 25. Februar 1929 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B130082">ASCC
+                                13008</ref>), folgte nach mehreren Monaten ein erneutes, konkreteres
+                            Angebot, das allerdings ebenfalls erfolglos blieb (Arnold Schönberg an
+                            Wilhelm Hansen Musikforlag, 25. Juli 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B015737">ASCC
+                                1573</ref>)</note>
+                    </seg>), ohne dass <lb/>dadurch unsere Beziehungen beeinträchtigt worden wären.
+                    Warum soll <lb/>etwas derartiges nicht auch diesmal als Ausnahmsfall eintreten
+                    <lb/>können? Ich wäre für Sie sehr froh, wenn Sie von einer anderen <lb/>Seite
+                    eine recht bedeutende Barsumme erhalten könnten und ich <lb/>würde, wenn ich
+                    Ihnen nach dieser Richtung helfen könnte, es mit <lb/>grösster Freude tun, weil
+                    ich weiss, dass Sie diese Summe haben <pb n="3" xml:id="p.3"/>müssen und ich sie
+                    Ihnen nicht bieten kann.</p>
+                <p>Die Idee in Bezug auf das Vorrecht muss, nachdem Sie <lb/>befürchten, durch
+                    dieselbe in schlechten Ruf zu kommen und <lb/>sich mit allen Verlegern zu
+                    verfeinden, selbstredend wegfallen.</p>
+                <p>Dass Sie die Empfindung haben können, dass wir uns <lb/>entfremdet haben, ist mir
+                    nicht verständlich. Ich kann Ihnen <lb/>nur sagen, dass ich mich Ihnen gegenüber
+                    gar nicht entfremdet <lb/>fühle und dass ich hoffe und glaube, dass dieser
+                    Gedanke auch <lb/>bei Ihnen nur ein vorübergehender sein konnte. Sie können
+                    <lb/>doch nicht ernstlich glauben, dass ich mich durch einen momenta<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Erfolg oder Misserfolg in der Einstellung, die ich zu Ihrer
+                    <lb/>Person und zu Ihrem Schaffen habe, irgendwie beeinflussen lasse <lb/>und es
+                    wäre eine schwere Kränkung für mich, wenn Sie tatsäch<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich meinen würden, dass ich aus Gründen irgend eines <seg type="comment">
+                        <orig>Urauffüh<g ref="#typoHyphen"/>
+                            <lb break="no"/>rungs-Misserfolges</orig>
+                        <note xml:id="nh3h_3lj_k2c" resp="#pkehrer"><ref target="event.118"/>; <ref target="event.119"/>
+                        </note>
+                    </seg> die Verbindung zwischen uns lockern möchte.</p>
+                <p>Eines möchte ich zum Schlusse noch ausdrücklich fest<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellen. Entgegen Ihrer Annahme habe ich nach wie vor für jedes
+                    <lb/>Ihrer neuen Werke, also auch für das derzeit in Frage kommende
+                    <lb/>Bühnenwerk, das allergrösste Interesse und wenn Sie aus irgend <lb/>welchen
+                    Gründen nicht zu einer Sie völlig befriedigenden Eini<g ref="#typoHyphen"/>
+                    <lb break="no"/>gung mit einem anderen Verlag kommen könnten, dann möchte ich
+                    <lb/>Sie auf das dringendste bitten, mir doch die Gelegenheit zu <lb/>geben, in
+                    dieser Sache wieder mit Ihnen verhandeln zu dürfen.</p>
+                <pb n="4" xml:id="p.4"/>
+                <p>Lassen Sie, bitte, den Gedanken fallen, dass wir auseinander<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen und verurteilen Sie mein Tun und Lassen nicht, dessen
+                        Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>weggründe Sie ja nicht kennen können. Sie können sich unmöglich
+                    in <lb/>meine Lage versetzen, da Sie ja nicht verlegen müssen, was sicher<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich noch schwerer ist als gut zu komponieren. Tatsache ist ja
+                    <lb/>doch, dass es schon seitdem Musik gedruckt wird weit mehr gute
+                    <lb/>Komponisten als gute Verleger gibt. Was nun das Lotterieglück
+                    <lb/>betrifft, das auch Sie einmal haben sollten, so wünsche ich Ihnen <lb/>das
+                    gerade bei diesem neuesten Werk aus vollem Herzen.</p>
+                <p>In der angenehmen Erwartung, dass mein Brief von <lb/>Ihnen so verstanden wird
+                    wie ich in empfinde und dass Sie mir <lb/>auch künftighin gut gesinnt sind,
+                    verbleibe ich</p>
+                <closer rendition="#inline">mit den besten <lb/>Grüssen stets in aufrichtiger warmer
+                    Verehrung <lb/>
+                    <salute rendition="#r">Ihr ergebener</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P.S. Was „<bibl sameAs="werke.32">Präludium und Fuge</bibl>“ <lb/>betrifft,
+                        so befindet sich das <lb/>
+                        <seg type="comment">
+                            <orig>Material</orig>
+                            <note sameAs="letter.1512/#nojc_wc2_ndc"/>
+                        </seg> seit langem in den <lb/>Händen von Herrn <persName key="pers.1339"
+                            >Greissle</persName>, der <lb/>zuerst die <seg type="comment">
+                            <orig>Transponierung der be<g ref="#typoHyphen"/>
+                                <lb break="no"/>treffenden Instrumente</orig>
+                            <note xml:id="nptd_3vx_kdc" resp="#pkehrer">Quittung, 13. Februar 1929
+                                    (<ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B111153"
+                                    >ASCC
+                                11115</ref>)</note>
+                        </seg> vorgenommen <lb/>hat und jetzt die <seg type="comment">
+                            <orig>Kopiatur und <lb/>Kollationierung der Stimmen</orig>
+                            <note xml:id="nmkj_4zx_kdc" resp="#pkehrer">Felix Greissle an Arnold
+                                Schönberg, 22. Mai 1929 (<ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B111988"
+                                    >ASCC 11198</ref>); Erscheinungsdatum der gedruckten Stimmen
+                                    (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1315&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                    >ASGA B 25/26, Quelle F</ref>): <date when="1929-11-04">4.
+                                    November 1929</date>
+                            </note>
+                        </seg> be<g ref="#typoHyphen"/>
+                        <lb break="no"/>sorgt.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17722"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 1. November 1941</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17722</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17722</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1941-11-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.3639"/>
+                    <ref type="response-to" target="letter.3551"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.24399">Universal-Edition an United States
+                        Copyright Office, 30. August 1941</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17722_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17722_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.71">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>TELEGR.-ADR.: MUSIKEDITION WIEN</stamp>
+                    <lb/>
+                    <persName key="pers.3204">schl</persName>/<persName key="pers.4351">Fi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1941-11-01">1.
+                            November 1941</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schoenberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine>Brentwood Park</addrLine>
+                        <addrLine>
+                            <hi rendition="#g">Los Angeles</hi>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">Californien</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schoenberg</persName>!</salute>
+                <p> Ihr <ref target="letter.3551">Brief</ref> vom <date when="1941-02-21">21.
+                        Februar 1941</date> ist tatsächlich <lb/>verlorengegangen. Wir hätten ihn
+                    selbstverständlich sofort <lb/>beantwortet. Wir haben nun jetzt die Abschrift
+                    mit Ihrem <ref target="letter.3639">Schreiben</ref>
+                    <lb/>vom <date when="1941-08-10">10. August 1941</date> erhalten und beeilen uns
+                    Ihnen zu antworten.</p>
+                <p> Wir wollen uns bereit erklären Ihnen die <lb/>Genehmigung zu erteilen,
+                    Partituren des <hi rendition="#u">„<bibl sameAs="werke.54">Pierrot
+                            lunaire</bibl>“</hi> in <lb/>
+                    <placeName key="place.15">U.S.A.</placeName> herstellen zu lassen und diese <seg type="comment">
+                        <orig>den Platten beizulegen</orig>
+                        <note sameAs="letter.3551/#nnnv_ypq_yfc"/>
+                    </seg>. <lb/>Diese Partituren dürfen
+                    allerdings dann ausschliesslich zu diesem <lb/>Zweck verwendet werden. Um die
+                    finanzielle Voraussetzung dafür <lb/>festzustellen, müssten wir allerdings
+                    wissen:</p>
+                <p>1. wieviele Exemplare hergestellt werden,</p>
+                <p>2. den Preis, falls diese Partituren verkauft werden</p>
+                <p>3. ob der Käufer der Platten, wenn er die Partitur miterwirbt, <lb/>ausserdem
+                    noch einen Kaufpreis für die Partitur zu zahlen <lb/>hat oder ob die Partitur in
+                    dem Kaufpreis <del rendition="#s">inbegriffen ist,</del>
+                    <lb/> der Platten inbegriffen ist, das heisst, ob etwa die <lb/>
+                    <rs type="org" key="org.47">Grammophongesellschaft</rs> die Partituren von Ihnen
+                    erwirbt.</p>
+                <p>Geben Sie uns bitte möglichst genau an, wie die Angelegenheit <lb/>organisiert
+                    werden soll, erst dann können wir Ihnen den Betrag <lb/>nennen, der als unser
+                    Verlegeranteil anzusetzen ist.</p>
+                <p> Mit der <rs type="person" key="pers.1480">Witwe</rs>
+                    <persName key="pers.1465"> Otto Erich Hartleben’s</persName> sind keine
+                    <lb/>besonderen <seg type="comment">
+                        <orig>Abmachungen</orig>
+                        <note sameAs="letter.739/#nip5_jpk_yfc"/>
+                    </seg> getroffen worden.</p>
+                <p>Wir senden Ihnen gleichzeitig einige Exemplare <lb/>der von Ihnen gewünschten
+                    Stücke an Sie und hoffen, dass Sie sie <lb/>richtig erhalten. Bestätigen Sie uns
+                    bitte den Empfang.</p>
+                <p>Bezüglich des Copyright senden wir Ihnen anbei <lb/>die <ref
+                        target="document.24399">Abschriften</ref> von zwei Briefen, einen an Sie und
+                    einen an die <lb/>
+                    <seg type="comment">
+                        <orig>Register of Copyrights</orig>
+                        <note sameAs="letter.20240/#nm3m_prv_41c"/>
+                    </seg>, aus welchen Sie entnehmen können, dass <lb/>wir diesbezüglich bereits
+                    selbst etwas unternommen haben. Haben <lb/>Sie die <seg type="comment">
+                        <orig>Erklärungen</orig>
+                        <note xml:id="nyqq_ddv_41c" resp="#pkehrer">
+                            <ref target="document.24400_cc">Antrag auf Verlängerung des Copyrights,
+                                25. Juni 1941</ref>; <ref target="document.24400_ccen">Antrag auf
+                                Verlängerung des Copyrights, 25. Juni 1941 (englisch)</ref>. Aus
+                            Arnold Schönberg an Clement Lincoln Bouvé, 31. Dezember 1941 (<ref
+                                target="">ASCC 3700</ref>), geht hervor, dass sowohl der Antrag der
+                                <orgName key="org.1">UE</orgName> als auch jener <persName
+                                key="pers.3263">Schönbergs</persName> beim <orgName key="org.241"
+                                >United States Copyright Office</orgName> eingingen</note>
+                    </seg> an das Register und an uns abgesandt? Bitte <lb/>auch diesbezüglich um
+                    Nachricht.</p>
+                <closer>
+                    <salute rendition="#r">Mit vorzüglichster Hochachtung</salute>
+                    <lb/>
+                    <seg rendition="#r">
+                        <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                    </seg>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                    <lb/>1 <seg type="comment">
+                        <orig>Beilage</orig>
+                        <note xml:id="nmwk_kbx_wxb" resp="#pkehrer">
+                            <ref target="document.24399">Universal-Edition an United States Copyright Office, 30. August
+                                1941</ref>
+                        </note>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

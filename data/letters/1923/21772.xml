@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.21772"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. Mai 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.21772</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21772</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1923-05-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.851"/>
+                    <ref type="answered-by" target="letter.859"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-03+02:00" who="KBleier">Korrektur Transkription</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21772_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21772_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.101">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien, A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228, 4533·Bank-Konto: <orgName key="org.199">Oesterr.
+                            Länder-<lb/>bank. Wien</orgName>. Postsparkassen Konto:
+                            57557.<lb/>Wien<seg hand="#author">, am <date when="1923-05-23">25. Mai
+                                1923</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4368">Ei</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Mödling bei Wien,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.4.1">Bernhardgasse 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Im Besitze Ihres gestrigen <ref target="letter.851">Schreibens</ref> möchte ich
+                    <lb/>vor allem bemerken, dass ich Ihre Auffassung, dass zwischen <lb/>uns
+                    derzeit überhaupt kein Vertrag besteht, als vollkommen <lb/>irrig bezeichnen
+                    muss, ebenso irrig, dass der zwischen uns <lb/>bestehende Vertrag unanwendbar
+                    wäre. Der zwischen uns be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stehende <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note xml:id="numq_c25_gdc" resp="#pkehrer"><ref target="document.19681">Abmachung, 7. Oktober 1922</ref>
+                        </note>
+                    </seg> ist in allen seinen
+                    Punkten anwendbar. Er <lb/>ist zwischen uns nach monatelangen Verhandlungen, bei
+                    denen <lb/>Sie, wie aus der Korrespondenz nachweisbar, Ihre Interessen <lb/>in
+                    der energischesten Weise vertreten haben, erst abge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlossen worden, bis ich Ihre sämtlichen Wünsche und Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>dingungen erfüllt habe. Es ist ja vollkommen klar, dass
+                    <lb/>Ihnen der Vertrag erst in dem Moment unanwendbar erschien, <lb/>als die
+                    Firma <hi rendition="#g">
+                        <orgName key="org.255">Hansen</orgName>
+                    </hi> in einer Anwandlung von <lb/>Mäcenatentum für zwei Werke ein Honorar
+                    bewilligt hat, das <lb/>in keinem Falle als geschäftlicher Maßstab gelten
+                    kann.</p>
+                <p>Im übrigen übersehen Sie vollständig, dass die Ueberlassung <lb/>der <seg
+                        type="comment">
+                        <orig>beiden Stücke</orig>
+                        <note xml:id="nxqj_4n3_hgc" resp="#KBleier">
+                            <bibl sameAs="werke.56">Fünf Klavierstücke op. 23</bibl>; <bibl
+                                sameAs="werke.57">Serenade op. 24</bibl>
+                        </note>
+                    </seg> an die Firma <orgName key="org.255">Hansen</orgName> nur zufolge unserer <lb/>
+                    <seg type="comment">
+                        <orig>Abmachung</orig>
+                        <note xml:id="njlp_wxt_lcc" resp="#pkehrer">Inhalt dieses Dokuments war die
+                            Einwilligung der <orgName key="org.1">UE</orgName> in die Freigabe
+                            zweier Werke <persName key="pers.3263">Arnold Schönbergs</persName>
+                            (Arnold Schönberg an Wilhelm Hansen Musikforlag, 8. Februar 1923; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B007713">ASCC
+                                771</ref>)</note>
+                    </seg> vom <date when="1923-02-07">7. Feber</date> möglich war und in dieser
+                    Abmachung <lb/>haben Sie sich ausdrücklich zu gleichzeitiger Lieferung der
+                    <lb/>bewussten beiden <seg type="comment">
+                        <orig>Werke</orig>
+                        <note xml:id="nk2q_svt_lcc" resp="#pkehrer">
+                            <bibl sameAs="werke.58">Suite für Klavier op. 25</bibl>; <bibl
+                                sameAs="werke.59">Quintett für Flöte, Oboe, Klarinette, Horn und
+                                Fagott op. 26</bibl>
+                        </note>
+                    </seg> an uns verpflichtet. In dieser<pb n="2" xml:id="p.2"/>Abmachung haben Sie
+                    aber auch erklärt, dass Ihnen die <orgName key="org.255">Fa. Hansen</orgName>
+                    <lb/>zugesagt hat, das Mitvertriebsrecht für die beiden Werke der <orgName
+                        key="org.1">U.E.</orgName>
+                    <lb/>zu überlassen. Nachdem die Ueberlassung des Mitvertriebes mit <lb/>eine
+                    Voraussetzung dafür war, dass wir gegen die Ueberlassung <lb/>an <orgName
+                        key="org.255">Hansen</orgName> keine Einwendungen erhoben, so bedeutet es
+                    ohnedies <lb/>ein sehr weitgehendes Entgegenkommen für Sie, wenn wir gegen
+                    <lb/>den Standpunkt der Firma <orgName key="org.255">Hansen</orgName>, dass sie
+                    uns kein Mitver<g ref="#typoHyphen"/>
+                    <lb break="no"/>triebsrecht bewilligt, nicht energisch Stellung nehmen. Ich
+                    <lb/>tue das aber nicht, weil ich Ihnen nicht Schwierigkeiten verur<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>sachen will.</p>
+                <p>Wie ich Ihnen schon persönlich mitgeteilt habe, <lb/>lege auch ich den grössten
+                    Wert darauf, dass unsere Beziehungen <lb/>angenehm und ungetrübt bleiben. Ich
+                    will daher versuchen, jene <lb/>Punkte unserer Abmachung, die Sie nun zu drücken
+                    scheinen, abzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>ändern und mache Ihnen folgende verbindliche Vorschläge:</p>
+                <p>I) Die in unseren beiden <seg type="comment">
+                        <orig>Verträgen</orig>
+                        <note xml:id="nsgw_znm_jyb" resp="#pkehrer"><ref target="document.19681"
+                                >Abmachung, 7. Oktober 1922</ref>; <ref target="document.24105"
+                                >Abmachung, August 1922 (Ergänzung)</ref>
+                        </note>
+                    </seg> vom <date when="1922-10-12">12. Oktober 1922</date>
+                    <lb/>vorgesehenen Gold-Auflagentantiemen<del rendition="#s">e</del> sollen
+                    unabhängig von der <lb/>weiteren Währungsgestaltung am <date when="1923-07-01"
+                        >1. Juli 1923</date> in Kraft treten. Es <lb/>würde dann sofort mit allen
+                    Vorarbeiten begonnen werden, damit <lb/>Sie vom <date when="1923-07-01">1.
+                        Juli</date> ab ausschließlich nur mehr auf Grund des Vertra<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ges vom <date when="1922-10-12">12. Oktober</date> Ihre
+                    Tantiemen erhalten. </p>
+                <p>II) Für das derzeit ablaufende Halbjahr d. i. <date when="1923-01-01">1. Jänner
+                        23</date>
+                    <lb/>bis <date when="1923-06-30">30. Juni 23</date> werden Sie die Berechnung
+                    für alle Exemplare <lb/>die verkauft worden sind, unabhängig davon, ob sie auch
+                    bezahlt <lb/>worden sind, erhalten.</p>
+                <p>III) Die Prolongation, die Sie in dem neuen Vertrag bewilli<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, (§ 9) wonach der am <date when="1925-07-01">1. Juli
+                        25</date> ablaufende Vertrag für weitere <lb/>5 Jahre d. i. bis zum <date when="1930-07-01">1. Juli 30</date> verlängert wird, <subst>
+                        <del rendition="#s">ist</del>
+                        <add place="superlinear">soll</add>
+                    </subst> an die Voraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzung gebunden <add place="superlinear">werden</add>, dass die
+                    Erträgnisse aus den Werken in der Zeit<pb n="3" xml:id="p.3"/>ab <date when="1925-07-01">1. Juli 25</date> mindestens 5000 schweizer Franken
+                    jährlich betragen. <lb/>Falls dieses Erträgnis für die abgelaufenen Jahre am
+                        <date when="1926-07-01">1. Juli 1926</date> und <lb/>in den weiteren Jahren
+                    nicht erreicht worden wäre, dann ist der <lb/>Vertrag in Bezug auf die neu zu
+                    verlegenden Werke als abgelaufen <lb/>anzusehen. Ich glaube, dass diese
+                    Mindest-Garantie Ihnen einen <lb/>weitgehenden Beweis meines guten Willens, zu
+                    einer Einigung zu <lb/>gelangen, gibt.</p>
+                <p>IV) Ich bin bereit, eine andere Formulierung von Punkt 12 <lb/>unseres Vertrages
+                    zu akzeptieren, die einerseits klar sein soll <lb/>und andererseits Ihren
+                    Interessen besser Rechnung trägt. Hierzu <lb/>möchte ich vor allem bemerken,
+                    dass Sie bei unserer letzten Bespre<g ref="#typoHyphen"/>
+                    <lb break="no"/>chung auf die Unmöglichkeit der Ziffern in § 4 hingewiesen
+                    haben, <lb/>aber offenbar vollkommen übersehen haben, dass der 1. Absatz des
+                    <lb/>Punkt 4 gestrichen ist und durch § 12 ersetzt wurde.</p>
+                <p>Ich schlage nun folgende Formulierung des ersten Ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>satzes von § 4 resp. des analogen Inhaltes von § 12 vor:</p>
+                <p>Die Höhe der Tantieme wird im allgemeinen mit mindestens <lb/>7 % und höchstens
+                    12 % fixiert. (§ 4 Absatz 2 und § 5 ausgenommen) <lb/>(Dies bedeutet für Sie
+                    schon deswegen einen ganz kolossalen Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>teil, weil die Mindesttantieme nicht wie dort angenommen mit 5
+                    <lb/>sondern mit 7 % fixiert werden soll).</p>
+                <p>Der Tantiemensatz von 12 % soll erst dann Geltung haben,<pb n="4" xml:id="p.4"
+                    />sobald der Hauptsache nach den Eingängen die <seg type="comment">
+                        <orig>Friedens-Gold-Laden<g ref="#typoHyphen"/>
+                            <lb break="no"/>preise</orig>
+                        <note xml:id="na1m_yq3_hgc" resp="#TMuxeneder">Als Friedensgold wurde
+                            wertbeständiges Geld (meist in Form von Goldmark-Anleihen) bezeichnet,
+                            das im Zuge der Hyperinflation als Gegenstück zur rasch entwerteten
+                            Papiermark ausgegeben wurde. Diese Form von Geld oder Anlage war an den
+                            Wert von Gold gekoppelt und stellte damit eine wertsichere Alternative
+                            zur entwerteten Papierwährung dar</note>
+                    </seg> zugrunde liegen. Insolange dies nicht der Fall ist, soll <lb/>das
+                    Verhältnis zwischen dem zu fixierenden Tantiemensatz und dem <lb/>Höchst-Satz
+                    (12 %) dem Verhältnis zwischen den geltenden Mark <lb/>oder Kronen-Ladenpreisen
+                    und dem Goldpreise entsprechen. Für die <lb/>Berechnung soll die folgende
+                    Staffel Anwendung finden:</p>
+                <p>
+                    <subst>
+                        <del rendition="#s">Erreicht</del>
+                        <add place="superlinear">Insolange</add>
+                    </subst> der Markladenpreis <add place="superlinear">nicht</add> 60 % des
+                    Friedensgoldladenpreises <add place="intralinear">erreicht</add>
+                </p>
+                <p>
+                    <table rows="4" cols="3">
+                        <row>
+                            <cell>beträgt die Tantieme <hi rendition="#uu">7 %</hi>,</cell>
+                            <cell>von 61 bis 69 %</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>des Friedensgoldladenpreises</supplied>
+                                </ellipsis> 8 %</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>von</supplied>
+                                </ellipsis> 70 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>bis</supplied>
+                                </ellipsis> 79 %</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>des Friedensgoldladenpreises</supplied>
+                                </ellipsis> 9 %</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>von</supplied>
+                                </ellipsis> 80 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>bis</supplied>
+                                </ellipsis> 89 %</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>des Friedensgoldladenpreises</supplied>
+                                </ellipsis> 10 %</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>von</supplied>
+                                </ellipsis> 90 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>bis</supplied>
+                                </ellipsis> 99 %</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>des Friedensgoldladenpreises</supplied>
+                                </ellipsis> 11 %</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>und falls der Markladenpreis den Friedensgoldpreis erreicht, <lb/>(also 100 %)
+                    dann 12 %.</p>
+                <p>Als Erläuterung diene folgendes Beispiel: Ihre <bibl sameAs="werke.9">Kla<g ref="#typoHyphen"/>
+                        <lb break="no"/>vierstücke op. 11</bibl> haben einen <hi rendition="#u">Friedensladenpreis von M 3</hi>.– das <lb/>würde in der <hi rendition="#u">heutigen</hi> Papierwährung M <hi rendition="#u">30.000.</hi>– bedeuten;
+                    insolange <lb/>also diese Klavierstücke nur <subst>
+                        <del rendition="#ow">20</del>
+                        <add place="across">18</add>
+                    </subst>.000.– oder weniger Papierladen<g ref="#typoHyphen"/>
+                    <lb break="no"/>preis haben, erhalten Sie eine Tantieme von <subst>
+                        <del rendition="#ow">8</del>
+                        <add place="across">7</add>
+                    </subst> %.</p>
+                <p>
+                    <table rows="4" cols="3">
+                        <row>
+                            <cell/>
+                            <cell>
+                                <seg rendition="#c">
+                                    <add place="superlinear">18.100 und
+                                        20.900</add>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg rendition="#c">
+                                    <add place="superlinear">8
+                                %</add>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>Ist der Papierladenpreis </cell>
+                            <cell>zwischen 21.000 und 23.900 M</cell>
+                            <cell>dann 9 %</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Ist</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>der</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Papierladenpreis</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>zwischen</supplied>
+                                </ellipsis> 24.000 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>und</supplied>
+                                </ellipsis> 26.900 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>M</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>dann</supplied>
+                                </ellipsis> 10 %</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Ist</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>der</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Papierladenpreis</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>zwischen</supplied>
+                                </ellipsis> 27.000 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>und</supplied>
+                                </ellipsis> 29.900 <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>M</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>dann</supplied>
+                                </ellipsis> 11 %</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Ist</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>der</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Papierladenpreis</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>M 30.000.–</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>dann</supplied>
+                                </ellipsis> 12 %</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>Ich glaube, dass ich den Gedanken klar gefasst und erläutert <lb/>habe.</p>
+                <p>Nach diesen Vorschlägen, die eine <hi rendition="#u">weitgehende</hi> Ver<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>besserung für Sie bedeuten, darf ich wohl annehmen, dass Sie,
+                    <lb/>ob Sie nun mit der Formulierung in allen Punkten einverstanden <lb/>sind
+                    oder nicht, nicht weiter zögern werden und mir vor allem <pb n="5" xml:id="p.5"
+                    />jene zwei <seg type="comment">
+                        <orig>Werke</orig>
+                        <note xml:id="nm3q_xrm_jyb" resp="#pkehrer">
+                            <bibl sameAs="werke.58">Suite für Klavier op. 25</bibl>; <bibl
+                                sameAs="werke.59">Quintett für Flöte, Oboe, Klarinette, Horn und
+                                Fagott op. 26</bibl>
+                        </note>
+                    </seg>, auf die wir auf Grund unserer Abmachung vom <date when="1923-02-07">7.
+                        <lb/>Feber</date> ein <hi rendition="#u">unbedingtes</hi>
+                    <hi rendition="#u">Anrecht</hi> haben, unverzüglich einsenden. <lb/>Ich brauche
+                    Sie nicht daran zu erinnern, dass Sie mir vor etwa <lb/>drei Wochen, also schon
+                    im Monate <date when="1923-05">Mai</date>, als ich bei Ihnen war, <lb/>die <bibl
+                        sameAs="werke.58">Klaviersuite</bibl> gezeigt haben, deren Ueberlassung an
+                    uns sofort <lb/>nach Kopiatur erfolgen solle, nachdem Sie selbst erwähnt haben,
+                    <lb/>dass Sie diese Suite<del rendition="#s">n</del> für die <orgName
+                        key="org.1">U.E.</orgName> als geeigneter erachten, als <lb/>die anderen, an
+                        <orgName key="org.255">Hansen</orgName> zu liefernden Stücke.</p>
+                <p>Ich würde auf eine rasche Erledigung umso grösseren <lb/>Wert legen, als ich Ende
+                    nächster Woche nach <placeName key="place.2">Deutschland</placeName> fahre,
+                    <lb/>und etwa 14 Tage ausbleibe. (<seg type="comment"><orig><placeName key="place.2.3">Berlin</placeName>
+                            <bibl sameAs="werke.16">Gurrelieder</bibl>
+                        </orig>
+                        <note xml:id="nbhd_jxn_lgc" resp="#KBleier"><ref target="event.247"/>; <ref target="event.248"/>
+                        </note>
+                    </seg> etc.) </p>
+                <closer>
+                    <salute>Mit herzlichen Grüssen <lb/>
+                        <seg rendition="#r">Ihr in warmer Verehrung <lb/>ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P. S. Zufolge Ihrer Bemerkungen bezüglich <lb/>der <placeName key="place.2.13">Frankfurter</placeName>
+                        <bibl sameAs="werke.16">Gurrelieder</bibl>-<seg type="comment">
+                            <orig>Angelegenheit</orig>
+                            <note sameAs="letter.851/#nzhv_n5n_lgc"/>
+                        </seg>
+                        <lb/>werde ich mich mit dem <orgName key="org.151">Sängerchor des Leh<g ref="#typoHyphen"/>
+                            <lb break="no"/>rervereines</orgName> in Unterhandlungen bezüglich
+                        <lb/>der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ einlassen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

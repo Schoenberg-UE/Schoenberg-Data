@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1628"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 25. Dezember 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1628</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1628</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                    <date when="1928-12-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1928-12-29" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.20102"/>
+                    <ref type="answered-by" target="letter.17798"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1628_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1628_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Roquebrune Cap Martin</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.6.1">Pavillon Sévigné</placeName>
+                        </addrLine>
+                        <addrLine>Frankreich</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1928-12-25">25.XII.1928</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                <p rendition="#inline">unsere <seg type="comment">
+                        <orig>Absicht</orig>
+                        <note xml:id="nzrp_g4k_pzb" resp="#pkehrer"><ref target="letter.17788"
+                                >Universal-Edition an Arnold Schönberg, 19. November 1928</ref>
+                        </note>
+                    </seg>, in <placeName key="place.2.3">Berlin</placeName>
+                    <lb/>über meine geplante <bibl sameAs="werke.65">Oper</bibl> zu sprechen, hat
+                    sich nicht <lb/>verwirklicht. Ich hatte gehofft, mein <bibl
+                        sameAs="schriften.13">Drama</bibl> fertigzustellen <lb/>und bin zu diesem
+                    Zweck hiergeblieben, habe die <placeName key="place.2.3">Berliner</placeName>
+                    <lb/>
+                    <bibl sameAs="werke.64">Variationen</bibl>-<seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="naph_j3c_fdc" resp="#pkehrer"><ref target="event.118"/>; <ref
+                                target="event.119"/>
+                        </note>
+                    </seg> deshalb versäumt und die <placeName key="place.2.10">Dresde<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>ner</placeName>
+                    <bibl sameAs="werke.62">Suite</bibl>-<seg type="comment">
+                        <orig>Aufführung nicht dirigiert</orig>
+                        <note sameAs="letter.1609/#np5j_rnr_pzb"/>
+                    </seg>. Leider aber kann ich <lb/>das doch nicht hier, wo mir einiges Material
+                    fehlt fertig <lb/>machen, obwohl ja nur mehr ganz wenig daran zu tun war
+                    <lb/>und eine Woche fester Arbeit für den Rest genügte.</p>
+                <p>Ich will Ihnen aufrichtig sagen, warum ich mich sosehr bemüht <lb/>habe, ein Werk
+                    noch vor meiner <placeName key="place.2.3">Berliner</placeName> Arbeitszeit zu
+                        vollenden<add place="intralinear">:</add>
+                    <lb/>Unser <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note sameAs="letter.17667/#ny15_crt_gdc"/>
+                    </seg> läuft am <date when="1928-12-31">31.XII.</date> ab und ich habe nun begreif<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher Weise kein Werk fertig, um die entfallende Monatsrate
+                    <lb/>von 500. Mark durch Verkauf an einen Verleger zu ersetzen. <lb/>Ich habe
+                    nun vor ca drei Wochen die Arbeit an meinem <bibl sameAs="schriften.13">Drama</bibl>
+                    <lb/>einstweilen eingestellt und mit der Komposition dieser ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>aktigen <bibl sameAs="werke.65">Oper</bibl> begonnen, von der
+                    ich Ihnen letz<supplied cert="high">t</supplied>hin <ref target="letter.1523">geschrie<g ref="#typoHyphen"/>
+                        <lb break="no"/>ben</ref> habe und deren <bibl sameAs="schriften.110">Textbuch</bibl> nun wesentlich verbessert ist. <lb/>Leider aber komme ich
+                    auch mit dieser Arbeit nicht so rasch <lb/>vorwärts, als ich gehofft hatte.
+                    Kompositionen mit zwölf Tö<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen müssen ja nicht bloss dem Pöblikum gefallen, sondern
+                    <lb/>sogar den Eingeweihten (oder, wie Sie richtig bemerken: den
+                    <lb/>Auserwählten). Dazu kommt, dass sich hier neue Probleme die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Kunst zeigen, für welche ich noch keine Erfahrungen sam<g ref="#typoHyphen"/>
+                    <choice>
+                        <sic>meln</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <pb n="2" xml:id="p.2" break="no"/>meln konnte: es heisst, Recitative zu schreiben und, die
+                    grösste <lb/>Schwierigkeit: Ensembles.</p>
+                <p>Immerhin kann ich, auch wenn ich nicht so rasch vorwärts komme, <lb/>wie zb bei
+                    der <bibl sameAs="werke.7">Erwartung</bibl> oder dem <bibl sameAs="werke.54">Pie<choice>
+                            <sic>e</sic>
+                            <corr cert="high">r</corr>
+                        </choice>rot</bibl> oder dem <bibl sameAs="werke.63">3. Streich<g ref="#typoHyphen"/>
+                        <lb break="no"/>quartett</bibl>, vielleicht Ende <date when="1929-01">Jänner</date> fertig werden.</p>
+                <p>Ich habe nun den Eindruck, dass Sie seit der <placeName key="place.2.3"
+                        >Berliner</placeName> Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>führung meiner <bibl sameAs="werke.64"
+                        >Orchestervariationen</bibl> das Zutrauen zu meiner <lb/>Sache verloren
+                    haben. Ich kann das sehr gut begreifen, würde <lb/>Ihnen keinen Vorwurf daraus
+                    machen können und möchte nicht, <lb/>dass Sie sich bei Ihren Entschliessungen
+                    durch andere Rück<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichten leiten lassen, als (ich kann mich nicht enthalten, hier
+                    <lb/>ohne böse Nebenabsicht, einen Witz anzubringen, den ich sehr <lb/>gut
+                    finde) durch die Erwägung, dass bei dem gegenwärtigen <lb/>Zinsfuss nur <seg
+                        type="comment">
+                        <orig>Gemeinschaftskunst</orig>
+                        <note xml:id="nlwj_wzl_sdc" resp="#pkehrer">In einer Randglosse zu <persName
+                                key="pers.4048">Kurt Weills</persName> Zeitungsartikel Der Musiker
+                            Weill (ASSV 5.3.1.76.) schreibt <persName key="pers.3263"
+                                >Schönberg</persName> diesen Witz einem „Verleger“ zu, womöglich war
+                            es also <persName key="pers.1538">Emil Hertzka</persName> selbst, der
+                            ihm dieses Stichwort lieferte. <persName key="pers.3263"
+                                >Schönberg</persName> greift den für ihn problematischen Begriff in
+                            dieser Zeit mehrfach auf; vgl. Gemeinschaftskunst (ASSV 5.3.2.12.) und
+                            Technische Probleme und Gemeinschaftskunst (ASSV
+                            5.3.1.79.)</note>
+                    </seg> einige Aussicht auf Rentabi<g ref="#typoHyphen"/>
+                    <lb break="no"/>lität hat.</p>
+                <p>Meine Gründe kennen Sie nun. Und jetzt möchte ich Sie bitten, <lb/>mir umgehe<choice>
+                        <sic>h</sic>
+                        <corr type="deleted"/>
+                    </choice>nd zu sagen, ob Sie dieses Werk erwerben wollen. <lb/>Nur muss ich
+                    gleich sagen, dass ein Vertrag, wie wir ihn bis <lb/>jetzt hatten, für mich
+                    nicht mehr in Betracht käme, da es meine <lb/>feste Ueberzeugung ist, dass es
+                    für den Autor günstiger ist, <lb/>
+                    <seg type="comment">
+                        <orig>das Verlagsrecht
+                            gänzlich zu verkaufen</orig>
+                        <note xml:id="ny3p_skz_32c" resp="#pkehrer">Bisher war <persName key="pers.3263">Schönberg</persName> mit Tantiemen
+                            an den Einkünften aus seinen Werken beteiligt worden</note>
+                    </seg>.
+                    Deshalb bin auch ich <lb/>nunmehr entschlossen, das Beispiel <persName key="pers.3750">Richard Strauss</persName> zu befol<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, der in Geschäftsfragen vorbildlich ist.</p>
+                <p>Selbstverständlich würde ich bei gleichen Bedingungen un<g ref="#typoHyphen"/>
+                    <lb break="no"/>bedingt die <orgName key="org.1">UE</orgName> vorziehen, schon
+               deshalb, weil ich bei jedem <lb/>andern Verlag in Gefahr bin andere Werke schleppen
+               zu müssen, <lb/>während die <orgName key="org.1">UE</orgName> gewiss <seg type="comment">
+                        <orig>meine beiden
+               früheren Bühnenwerke</orig>
+                        <note sameAs="letter.1512/#nrms_k5x_5wb"/>
+                    </seg> da<lb break="no"/>zu geben würde.
+               Aber ich bitte sich durch keine diesbezügliche <lb/>Rücksichtnahme gebunden zu
+               erachten, denn ich tue das auch <choice>
+                        <sic>nicht</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>nicht.</p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Ich möchte auch wieder einmal einen grösseren Betrag auf <lb/>einmal in die Hand
+               bekommen, was ich ja bei der <orgName key="org.1">UE</orgName> nie er<g ref="#typoHyphen"/>
+                    <lb break="no"/>lebt habe.</p>
+                <p>Ich wäre Ihnen für eine rasche Antwort sehr dankbar, da ich <lb/>im
+                    Ablehnungsfalle gerne gleich <seg type="comment">
+                        <orig>andere Beziehungen an<g ref="#typoHyphen"/>
+                            <lb break="no"/>knüpfen möchte</orig>
+                        <note xml:id="ncbp_klz_32c" resp="#pkehrer">Wenige Tage später wandte sich
+                                <persName key="pers.3263">Schönberg</persName> mit der Bitte an
+                                <persName key="pers.3068">Josef Rufer</persName>, in seinem Namen
+                            einen Verlag für <bibl sameAs="werke.65">Von heute auf morgen op.
+                                32</bibl> zu suchen, und schlug ihm zunächst <orgName key="org.25"
+                                >B. Schott's Söhne</orgName> und Fürstner vor; er selbst wollte für
+                            einen Monat die Verhandlungen ruhen lassen, nannte aber seine
+                            Preisvorstellung: „Ich denke, dass ich doch mehr bekommen müsste, als
+                                <persName key="pers.1974">Korngold</persName>, der für alle Wunder
+                            der Heliane RM 50.000 bekommen hat“ (Arnold Schönberg an Josef Rufer,
+                            28. Dezember 1928; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B016326">ASCC
+                                1632</ref>)</note>
+                    </seg>. Ich bin ja nicht gerade in momentaner Geld<g ref="#typoHyphen"/>
+                    <lb break="no"/>verlegenheit, möchte aber nicht solange warten.</p>
+                <closer>
+                    <salute>Inzwischen verbleibe ich mit den besten Weinachts- und Neu<g ref="#typoHyphen"/>
+                        <lb break="no"/>jahrswünschen, herzlichst, Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

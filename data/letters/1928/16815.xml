@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.16815"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pult und Taktstock an Arnold Schönberg, 26. Oktober 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16815</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16815</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-3MMC3IIJ">ASGA B 25/26</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <orgName key="org.191">Pult und Taktstock</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1928-10-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1518"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16815_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16815_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.54">
+                        <orgName key="org.191">PULT UND TAKTSTOCK</orgName>
+                        <lb/>MONATSSCHRIFT FÜR
+                  DIRIGENTEN<lb/>Verlag der <orgName key="org.1">Universal-Edition</orgName>
+                        <lb/>WIEN, <seg hand="#author">
+                            <date when="1928-10-26">26. Oktober 1928</date>.</seg>
+                        <lb/>I. <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.3612">K. S.</persName>/<persName key="pers.4348">P.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">Roquebrune Cap Martin</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.4.6.1">Pavillon
+                     Sevigne</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich habe mir Ihre <persName key="pers.252">Bach</persName>
+                    <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="nvnx_hb4_c2c" resp="#pkehrer">
+                            <bibl sameAs="werke.32">Johann Sebastian Bach/Arnold Schönberg,
+                                Präludium und Fuge in Es-Dur für Orgel BWV 552</bibl>;
+                            Partiturautograph (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1310&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle B</ref>)</note>
+                    </seg> angeschaut und <seg type="comment">
+                        <orig>bin be<g ref="#typoHyphen"/>
+                            <lb break="no"/>geistert</orig>
+                        <note xml:id="nd3l_k3p_c2c" resp="#pkehrer"><rs type="bibl"
+                                key="zotero-4528359-XP77WKIW">Stein 1929</rs>
+                        </note>
+                    </seg>. Hoffentlich kann ich das Werk schon sehr bald hören. Die <lb/>Gründe,
+                    die Sie zu der grossen Orchesterbesetzung veranlassen, <lb/>sehe ich sehr gut
+                    ein; sie beruhen auf der Vorstellung der Orgel, <lb/>und zwar nicht nur ihres
+                    Klanges.</p>
+                <p>Erlauben Sie mir aber, dass ich jetzt für einen Augen<g ref="#typoHyphen"/>
+                    <lb break="no"/>blick den Standpunkt des Leiters der Orchesterabteilung der <lb/>
+                    <orgName key="org.1">Universal-Edition</orgName> vertrete. Da finde ich, dass es
+                    sehr praktisch <lb/>wäre, wenn auch eine Fassung für kleines, oder wenigstens
+                    kleineres <lb/>Orchester vorläge. Von den <seg type="comment">
+                        <orig>Choralvorspielen</orig>
+                        <note sameAs="letter.17625/#nyb3_hj1_dwb"/>
+                    </seg> zähle ich bis jetzt <lb/>cca. 40 Abschlüsse. Orchesterbearbeitungen
+                        <persName key="pers.252">Bach’scher</persName> Werke durch <lb/>
+                    <persName key="pers.3263">Schönberg</persName> würden aber einen noch ganz
+                    anderen Absatz haben und <lb/>wahrscheinlich von allen Orchestern gespielt
+                    werden, wenn die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzung entsprechend kleiner wäre. Dazu kommt, dass unter den
+                        <pb n="2" xml:id="p.2"/>Städten, welche die Choralvorspiele aufgeführt
+                    haben, einzelne <lb/>sind, von denen ich nicht glaube, dass sie wirklich 2 <choice>
+                        <orig>Engl.<g ref="#typoHyphen"/>
+                            <lb break="no"/>Hörner</orig>
+                        <reg>Englischhorn</reg>
+                    </choice>, 6 <choice>
+                        <orig>Klarinetten</orig>
+                        <reg>Klarinette</reg>
+                    </choice> und 2 <choice>
+                        <orig>Kontrafagotte</orig>
+                        <reg>Kontrafagott</reg>
+                    </choice> aufbringen konnten. <lb/>Es ist
+                    wahrscheinlich, dass sich der betreffende <subst>
+                        <del rendition="#s">Kapelle</del>
+                        <add place="superlinear">Kapellmeister</add>
+                    </subst> die <lb/>Besetzung selbst vereinfacht hat. Das lässt sich nicht
+                    kontrollieren, <lb/>da Einzüge ja wieder ausradiert werden können. Die kleinere
+                        Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzung würde solche Unzukömmlichkeiten verhindern. Selbstver<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständlich dürfte sie nur für jene Orchester in Betracht kommen,
+                    <lb/>welche die Originalfassung unmöglich aufführen können.</p>
+                <p>Ich würde Ihnen den Vorschlag einer 2. Fassung – die <lb/>Anregung stammt von
+               Direktor <persName key="pers.1538">Hertzka</persName> – nicht machen, wenn ich
+               <lb/>mich nicht an Ihren Aus<supplied cert="high">s</supplied>pruch erinnerte, dass
+               man heute Alles für <lb/>jede Kombination von Instrumenten, sogar für Mundharmonika,
+               so <lb/>setzen kann, dass es klingt. Bitte lassen Sie mich, resp. die <lb/>
+                    <orgName key="org.1">Universal-Edition</orgName> wissen, wie Sie über die Sache denken.</p>
+                <p>Auf beiliegendem Zettel erhalten Sie ein Verzeichnis <lb/>der für diese Saison
+               geplanten Aufführungen Ihrer Werke (ohne <lb/>
+                    <bibl sameAs="werke.16">Gurre-Lieder</bibl>).</p>
+                <p>Ich höre von <persName key="pers.1339">Greissle</persName>, dass Sie noch einige Zeit in
+                  <lb/>
+                    <placeName key="place.4.6">Cap Martin</placeName> bleiben und dort
+               arbeiten.</p>
+                <p>Von sehr vielen Seiten wurden wir schon nach Ihrer <pb n="3" xml:id="p.3"/>Adresse gefragt, so gestern telegrafisch von <persName key="pers.3675">Stiedry</persName>. – <lb/>
+                    <persName key="pers.1167">Furtwängler</persName> war jetzt in <placeName key="place.9.11">Wien</placeName>, er hat <bibl sameAs="werke.184">Rheingold</bibl> einstudiert. <lb/>Es war eine sehr gute <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nhfj_42p_c2c" resp="#pkehrer">
+                            <ref target="event.121"/>
+                        </note>
+                    </seg>. Scheinbar hat er
+                    für Ihre <lb/>
+                    <hi rendition="#u">
+                        <bibl sameAs="werke.64">Variationen</bibl>
+                    </hi> wirklich <seg type="comment">
+                        <orig>sehr viele Proben</orig>
+                        <note xml:id="npnm_2y1_h2c" resp="#KBleier"><ref target="event.118"/>; <ref target="event.119"/>
+                        </note>
+                    </seg> vor.</p>
+                <closer>
+                    <salute>Mit den herzlichsten Grüssen an Sie und Ihre <lb/>
+                        <rs type="person" key="pers.3297">Frau</rs> bin ich <lb/>
+                        <seg rendition="#c">Ihr</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#c">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">1 Beilage</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

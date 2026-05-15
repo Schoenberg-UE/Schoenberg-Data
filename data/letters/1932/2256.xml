@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2256"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Erwin Stein, 23. Juli 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2256</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2256</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3 (Meran Corso
+                        Hotel)</placeName>
+                    <date when="1932-07-23" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.16829"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2256_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2256_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1932-07-23">23.VII.1932</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber <persName key="pers.3612">Stein</persName>,</salute>
+                <p rendition="#inline">ich bin wirklich schon müd und ein <lb/>bischen
+                    angewidert.</p>
+                <p>Das Konto Alte Werke möchte ich doch für alle Fälle <lb/>frei bekommen.</p>
+                <p>Aber es geht doch nicht, dass man sich zu meinen <lb/>anderen Punkten gar nicht
+                    äussert.</p>
+                <p> Jedenfalls und das aufrichtig: wenn da nicht endlich <lb/>ein anderes Zeitmass
+                    hineinkommt, tu ich nicht weiter <lb/>mit. Meine Geduld ist zuende.</p>
+                <p>Ich erwarte unbedingt jetzt eine Schlussäusserung.</p>
+                <p>Die Sache geht bereits <seg type="comment">
+                        <orig>seit <placeName key="place.12.1">Barcelona</placeName>
+                        </orig>
+                        <note sameAs="letter.2250/#nf1g_mht_g1c"/>
+                    </seg>!!</p>
+                <p> Da konnte man sich überlegen, was man mir geben will. <lb/>Denn dass ich so
+                    billige Bedingungen stellen werde, <lb/>konnten Sie nicht erhoffen.</p>
+                <p>Ich habe gleich zu Anfang gesagt, dass ich in Klei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nigkeiten nachgeben könnte. Aber wenn man weiter so
+                    <lb/>fortfährt, dann....</p>
+                <p>Inzwischen habe ich auch die <seg type="comment">
+                        <orig>Platten</orig>
+                        <note sameAs="letter.2253/#nipl_lvb_mgc"/>
+                    </seg> gehört und <lb/>daraufhin
+                    wollte ich mein ganzes Angebot zunächst <lb/>zurückziehen: das ist wohl die
+                    höchste Gemeinheit!</p>
+                <p>Um Ihnen noch ein Entgegenkommen zu ermöglichen: <lb/>Ich bin bereit mit einem
+                    Vertreter der <orgName key="org.1">UE</orgName>, wenn <lb/>dieser im Rahmen
+                    meiner Vorschläge zu einem Ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>schluss <hi rendition="#g">autorisiert</hi> ist, bis späte<g ref="#typoHyphen"/>
+                    <lb break="no"/>stens <date when="1932-08-01">Montag</date> Mittag mündlich zu
+                    verhandeln. (Das geht <lb/>trotz der Urlaube, da man in drei Stunden Samstag
+                    <lb/>hieher fliegen kann und Montag wieder in 3 h. zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>rück. (Sonntag ist kein Flugverkehr)</p>
+                <p>Bitte dringen Sie nunmehr auf ernsteste Behandlung.</p>
+                <p>Was machen Sie sonst? </p>
+                <closer rendition="#inline">
+                    <salute>Viele herzlichste Grüsse, Ihrer <lb/>
+                        <rs type="person" key="pers.3627">Frau</rs> und Ihnen, auch von meiner <rs type="person" key="pers.3297">Frau</rs>, Ihr</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

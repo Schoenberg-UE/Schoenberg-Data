@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.7130"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 21. Februar 1924</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7130</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7130</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1924-02-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3067">Rothe, Barbara Maria Agnes</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7130_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.7130_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>Liebes Frl <persName key="pers.3067">Rothe</persName>,</salute>
+                <p rendition="#inline">nun habe ich ganz vergessen, <lb/>zu verabreden, wie ich denn
+                    meinen <lb/>
+                    <seg type="comment">
+                        <orig>P<supplied cert="high">as</supplied>s</orig>
+                        <note xml:id="nsj3_spj_hgc" resp="#KBleier">
+                            <p>Auslandsreise für Aufführungen des <bibl sameAs="werke.54">Pierrot
+                                    lunaire op. 21</bibl>:</p><p><date when="1924-02-25">25. Februar
+                                    1924</date> (Abreise); <date when="1924-03-01">1. März
+                                    1924</date>, <placeName key="place.2.40">Hamburg</placeName>;
+                                    <date when="1924-03-05">5. März 1924</date>, <placeName
+                                    key="place.2.40">Hamburg</placeName> (in Abwesenheit <persName
+                                    key="pers.3263">Schönbergs</persName>)</p><p>Tournee in
+                                    <placeName key="place.5">Italien</placeName>: <date
+                                    when="1924-03-28">28.</date>/<date when="1924-03-29">29. März
+                                    1924</date>, <placeName key="place.5.5">Rom</placeName>; <date
+                                    when="1924-03-30">30. März 1924</date>, Neapel; <date
+                                    when="1924-04-01">1. April 1924</date>, <placeName
+                                    key="place.5.3">Florenz</placeName>; <date when="1924-04-03">3.
+                                    April 1924</date>, <placeName key="place.5.6"
+                                    >Venedig</placeName>; <date when="1924-04-05">5. April
+                                    1924</date>, Padua; <date when="1924-04-06">6. April
+                                1924</date>, Turin; <date when="1924-04-07">7. April 1924</date>,
+                                    <placeName key="place.5.7">Mailand</placeName>
+                            </p>
+                            <p> (Arnold Schönberg an Josef Rufer, 18. Februar 1924; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B010299"
+                                    >ASCC 1029</ref>; Josef Rufer an Arnold Schönberg, 5. März 1924;
+                                    <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B155404"
+                                    >ASCC 15540</ref>; <rs type="bibl" key="zotero-4528359-DSQQH4FZ"
+                                    >Lesure 1985</rs>, S. 189ff.)</p>
+                        </note>
+                    </seg> wiederbekomme (und die Karte). Ich <lb/>hoffe ich vergesse nicht, <date
+                        when="1924-02-23">Samstag</date>
+                    <add place="sublinear">vormittags</add> zu Ihnen <lb/>zu kommen. Wenn nicht,
+                    weiß ich <lb/>mir nicht zu helfen. <date when="1924-02-23">Samstag</date> nach<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>mittags habe ich im <placeName key="place.9.11.8.3"
+                        >Konzerthaus</placeName>
+                    <seg type="comment">
+                        <orig>General<g ref="#typoHyphen"/>
+                            <lb break="no"/>probe</orig>
+                        <note xml:id="nidq_4pf_32c" resp="#KBleier">Zu <ref target="event.139"/>
+                        </note>
+                    </seg>. </p>
+                <p>Eventuell bitte ich Sie mir zu telefo<g ref="#typoHyphen"/>
+                    <lb break="no"/>nieren.</p>
+                <p>Hoffentlich vergesse ich nicht.</p>
+                <p>Auch die Karte muss ich mir <lb/>dann holen!</p>
+                <closer>
+                    <salute>Herzl. Gruß Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <dateline rendition="#l">
+                        <date when="1924-02-21">21/<subst>
+                                <del rendition="#ow">X</del>
+                                <add place="across">II</add>
+                            </subst>.1924</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

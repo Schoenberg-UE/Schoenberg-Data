@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2250"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. Juni 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2250</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2250</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3 (Meran Corso
+                        Hotel)</placeName>
+                    <date when="1932-06-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17360"/>
+                    <ref type="answered-by" target="letter.17359"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2250_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2250_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1">
+                    <pb n="1" xml:id="p.1"/>
+                    <opener>
+                        <dateline>
+                            <date when="1932-06-18">18.VI.1932</date>
+                        </dateline>
+                        <address>
+                            <addrLine>An die Direktion der</addrLine>
+                            <addrLine>
+                                <orgName key="org.1">
+                                    <hi rendition="#g">Universal Edition</hi>
+                                </orgName>
+                            </addrLine>
+                            <addrLine>Wien, I. <placeName key="place.9.11.6.12">Karlsplatz
+                                    6</placeName>
+                            </addrLine>
+                        </address>
+                    </opener>
+                    <p> Ich bin Ihnen eine Aufklärung schuldig.</p>
+                    <p>Der Tod <persName key="pers.1538">Emil Herzkas</persName> hat mich wirklich
+                        tief <lb/>erschüttert und ich konnte nur an den Menschen denken, den
+                        <lb/>ich trotz aller gelegentlicher Zusammenstösse persönlich <lb/>sehr gern
+                        gehabt hatte: in diesem Gefühl habe ich Ihnen <lb/>einen (bereits fertigen)
+                            <bibl sameAs="schriften.3">Nachruf</bibl> versprochen.</p>
+                    <p>Aber leider, <seg type="comment">
+                            <orig>als ich nach <placeName key="place.2.3">Berlin</placeName>
+                                kam</orig>
+                            <note xml:id="nf1g_mht_g1c" resp="#pkehrer">Rückkehr aus <placeName key="place.12.1">Barcelona</placeName> am <date when="1932-06-02">2. Juni 1932</date> (Arnold Schönberg an
+                                Alexander Amersdorfer, 2. Juni 1932; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B059772">ASCC 5977</ref>)</note>
+                        </seg>, fand ich <lb/>Belege vor, aus welchen ich erfuhr, dass man sich
+                        nicht nur <lb/>an meinem <placeName key="place.15">amerikanischen</placeName> Aufführungsrecht, sondern auch <lb/>an
+                        meinen Plattenrechten vergriffen hatte; und das bei <lb/>einem <bibl sameAs="werke.16">Werk</bibl>, welches wohl die meisten Hoffnungen auf einen <lb/>meiner würdigen
+                        Ertrag geboten hätte!</p>
+                    <p>Ich zögerte den <bibl sameAs="schriften.3">Nachruf</bibl> abzuschreiben,
+                        hätte <lb/>es aber vielleicht doch noch getan – obwohl es mir in <lb/>diesem
+                        Stadium als Heuchelei vorkam – die ich kaum mehr ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>antworten konnte. Aber da traf schon die <seg type="comment">
+                            <orig>Nummer des Anbruch</orig>
+                            <note xml:id="nstr_32m_g1c" resp="#pkehrer">
+                                <rs type="bibl" key="zotero-4528359-HR9YVSP7">Anbruch 1932</rs>
+                                (Exemplar aus dem Schönberg-Nachlass; P2)</note>
+                        </seg>
+                        <lb/>ein, mit dem <ref target="document.12481">Zirkular</ref> für
+                        die Gedächtnisstiftung und Sie <lb/>hatten mich damit der Qual der
+                        Entscheidung enthoben: so <lb/>habe ich also nicht unterzeichnet und so ist
+                        es gut.</p>
+                    <p>Man hat mir mitgeteilt, dass die <orgName key="org.1">UE</orgName> derzeit
+                        <lb/>von einem Direktorium: Fräulein <persName key="pers.3067">Rothe</persName>, Herr Dr. <persName key="pers.1750">Kalmus</persName>
+                        und <lb/>Herr <persName key="pers.4190">Winter</persName> geleitet werde.
+                        Ich begrüsse dieses Direktorium <lb/>in der Hoffnung, dass es den Willen
+                        bezeigt, zu einer fried<g ref="#typoHyphen"/>
+                        <lb break="no"/>lichen Einigung mit mir zu gelangen. Ich habe aus diesem
+                        <lb/>Grunde das weitere Vorgehen meines <rs type="person" key="pers.1692">Advokaten</rs> eingestellt <lb/>und möchte Ihnen sagen, dass, wenn Sie
+                        offen und ohne Hin<g ref="#typoHyphen"/>
+                        <lb break="no"/>tergedanken mit mir verhandeln wollen, Sie verständnisvol<g ref="#typoHyphen"/>
+                        <lb break="no"/>les Entgegenkommen und Friedenswillen bei mir finden wer<g ref="#typoHyphen"/>
+                        <lb break="no"/>den und dass ich froh sein werde, wenn ich gegen die
+                            <orgName key="org.1">UE</orgName>
+                        <lb/>nicht jene ganze Härte werde anwenden müssen, welche der
+                        <lb/>Selbsterhaltungstrieb von mir fordert und zu welcher mir <lb/>bisher
+                        zugeredet wurde.</p>
+                    <p>Aber ich bitte Sie – und das müssen Sie seh<supplied cert="high">r</supplied>
+                        <lb/>ernst nehmen – schieben Sie Sache nicht auf die lange <supplied cert="high">Bank</supplied>
+                        <lb/>Denn auch ich habe im Kampf gelernt und die Sache die<supplied cert="high">smal</supplied>
+                        <lb/>so angelegt, dass der Ausgang nicht mehr davon abhän<supplied cert="high">gt, ob</supplied>
+                        <lb/>ich – wie sonst immer – schliesslich die Lust und <supplied cert="high">das In<g ref="#typoHyphen"/>
+                        </supplied>
+                        <lb break="no"/>teresse daran verliere.</p>
+                    <closer>Ich wünsche herzlichst von Ihnen <supplied cert="high">Erfreuli<g ref="#typoHyphen"/>
+                        </supplied>
+                        <lb break="no"/>ches zu hören und bin in dieser Erwartung, <salute>Ihr
+                                h<supplied cert="high">ochachtungs<g ref="#typoHyphen"/>
+                            </supplied>
+                            <lb break="no"/>voll grüssender</salute>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2">
+                    <pb n="2" xml:id="p.2"/>
+                    <p>Ich habe gesagt:<lb/>wenn ich <unclear reason="illegible" cert="low">gezwun</unclear>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

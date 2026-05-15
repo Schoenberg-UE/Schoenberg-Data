@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7114"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, vor 27. Februar 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7114</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7114</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date notAfter="1923-02-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Datierung erschlossen aus Heinrich Bandler an Arnold Schönberg, 27. Februar 1923
+                        (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B101224">ASCC
+                        10122</ref>)</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7114_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7114_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1">
+                    <pb n="1" xml:id="p.1"/>
+                    <p>Konzm. <persName key="pers.294">Bandler</persName> habe ich geantwortet,
+                        dass <lb/>ich Ihnen eine Ausnahme vorschlagen will.</p>
+                    <p>In folgender Form: 1. Verleihung auf die dop<g ref="#typoHyphen"/>
+                        <lb break="no"/>pelte Zeit, oder <hi rendition="#g">besser</hi>: 2. Zusage
+                        einer <lb/>Fristverlängerung (kostenlos) falls er den <lb/>8-wöchigen Termin
+                        nicht einhalten kann – so<g ref="#typoHyphen"/>
+                        <lb break="no"/>bald er darum anspricht und den defini<g ref="#typoHyphen"/>
+                        <lb break="no"/>tiven Aufführungstag<!-- nicht nachweisbar --> angiebt:</p>
+                    <p>da ja gute Aufführungen in unserem <lb/>Interesse liegen – auch in dem
+                        Ihrigen!</p>
+                    <closer>
+                        <stamp sameAs="stamp.9">
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                            <lb/>Mödling bei Wien<lb/>
+                            <placeName key="place.9.4.1">Bernhardg 6</placeName>.-Tel. 118.</stamp>
+                        <lb/>
+                        <salute rendition="#r">Herzl Gruß</salute>
+                        <signed rendition="#r">
+                            <persName key="pers.3263">Schönberg</persName>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2">
+                    <p>Ich sollte neulich den Klav. Auszug der</p>
+                    <p>I) <bibl sameAs="werke.187">Esdur Messe</bibl> von <persName key="pers.3320">Schubert</persName> bei Ihnen <lb/>mitnehmen, erhielt ihn aber <hi rendition="#u">nicht</hi>.</p>
+                    <p>Ferner bitte ich</p>
+                    <list>
+                        <item>II) Werke von <persName key="pers.1901">Klenau</persName>
+                            <note place="right" hand="#unknown">
+                                <del rendition="#s">
+                                    <gap reason="illegible" quantity="1" unit="words"/>
+                                </del>
+                            </note>
+                        </item>
+                        <item>III) <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Werke</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis>
+                            <persName key="pers.2296">Marx</persName>
+                        </item>
+                        <item>IV) <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Werke</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>von</supplied>
+                            </ellipsis>
+                            <persName key="pers.848">Delius</persName>
+                            <note place="right" hand="#author">für mich als <lb/>Vorstand des <lb/>
+                                <orgName key="org.178">Ver. f. m. priv. <lb/>Auff.</orgName>
+                            </note>
+                        </item></list>
+                    <p>wenn Sie mirs nicht zur Kenntnis<g ref="#typoHyphen"/>
+                        <lb break="no"/>nahme lieber persönlich geben wollen.</p>
+                    <p>Wurde „<orgName key="org.180">Dreililien</orgName>“ geschrieben?</p>
+                    <closer rendition="#c">
+                        <salute>herz Gruß</salute>
+                        <signed>
+                            <persName key="pers.3263">Schönberg</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

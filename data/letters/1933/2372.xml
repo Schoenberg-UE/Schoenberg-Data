@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.2372"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Erwin Stein, 28. Juni 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2372</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2372</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4.3.1">Paris, 192 rue de Rivoli</placeName>
+                    <date when="1933-06-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24453"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2372_cc.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.2372_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>HOTEL REGINA</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.4.3.1">192 RUE DE RIVOLI</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">PARIS</hi>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1933-06-28">28.VI.1933</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber <persName key="pers.3612">Stein</persName>,</salute>
+                <p>1. meine <seg type="comment">
+                        <orig>Entlassung</orig>
+                        <note xml:id="ndp1_lyj_31c" resp="#KBleier">Beurlaubungsschreiben Preußische
+                            Akademie der Künste an Arnold Schönberg, 23. Mai 1933 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B151340">ASCC
+                                15134</ref>). Nach <persName key="pers.1598">Adolf
+                                Hitlers</persName> Ernennung zum Reichskanzler erfolgte im <date
+                                when="1933-04">April 1933</date> der Erlass des Gesetztes zur
+                            „Wiederherstellung des Berufsbeamtentums“; Beamte nichtarischer
+                            Abstammung konnten aus dem Dienst entlassen oder zwangspensioniert
+                            werden. Das Ausscheiden <persName key="pers.3263">Schönbergs</persName>
+                            aus der <orgName key="org.197">Preußischen Akademie der Künste</orgName>
+                            wurde in <placeName key="place.9.11">Wien</placeName> bereits Anfang
+                                <date when="1933-06">Juni 1933</date> publik (<rs type="bibl"
+                                key="zotero-4528359-6KYWWH5S">Stefan 1933</rs>)</note>
+                    </seg> soll selbstverständlich bekannt<g ref="#typoHyphen"/>
+                    <lb break="no"/>gegeben werden. Aber, eine Press<choice>
+                        <sic>s</sic>
+                        <corr cert="high">e</corr>
+                    </choice>kampagne daran zu knüpfen, <lb/>hielte ich im Interesse der noch in
+                        <placeName key="place.2">Deutschland</placeName> lebenden <lb/>Juden für
+                    falsch, da die unter jeder solchen Handlung neuer<g ref="#typoHyphen"/>
+                    <lb break="no"/>dings leiden müssen.</p>
+                <p>
+                    <placeName key="place.15">
+                        <hi rendition="#u">Amerika</hi>
+                    </placeName>:</p>
+                <p>2. Dr <persName key="pers.1750">Kalmus</persName> hat mir zwar von seinen
+                    Besprechungen er<g ref="#typoHyphen"/>
+                    <lb break="no"/>zählt. Aber mir ist ganz
+                    unklar, was ich dazu tun soll. Man <lb/>weiss, oder ahnt doch wenigstens
+                    beiläufig, was ich alles <lb/>kann und kann mich direkt unter Zugrundelegung
+                    einer Dollar<g ref="#typoHyphen"/>
+                    <lb break="no"/>summe fragen. Was soll ich da tun? Ich bin bereit hinzukommen,
+                    <lb/>wenn man mir einen würdigen und genügend bezahlenden Antrag <lb/>stellt.
+                    Wobei man allerdings berücksichtigen muss, dass ich <lb/>von meinem <orgName
+                        key="org.197">Akademie</orgName>vertrag zurücktreten müsste, wenn ich et<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>was anderes annehme. Ein <placeName key="place.15"
+                        >amerikanisches</placeName> Angebot könnte also <lb/>bei etwa 12.000 Dollar
+                    beginnen, ohne mir einstweilen mehr <lb/>zu bieten, als mir mein noch 2 1/2
+                    Jahre laufender Vertrag <lb/>bietet.</p>
+                <p>Von <seg type="comment">
+                        <orig>
+                            <persName key="pers.685">Casals</persName>
+                        </orig>
+                        <note xml:id="nfvv_dvx_ycc" resp="#pkehrer"><persName key="pers.3263"
+                                >Schönberg</persName> bezieht sich auf die geplante Uraufführung des
+                                <bibl sameAs="werke.39">Konzerts für Violoncello und Orchester D-Dur
+                                in freier Umgestaltung nach dem Concerto per Clavicembalo</bibl>
+                            (Arnold Schönberg an Pablo Casals, 20. Februar 1933; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B022215">ASCC
+                                2221</ref>)</note>
+                    </seg> weiss ich noch nichts definitives.</p>
+                <p>
+                    <seg type="comment">
+                        <orig>Ebenso von <placeName key="place.3">England</placeName>
+                        </orig>
+                        <note xml:id="nu4p_tvx_ycc" resp="#pkehrer">Arnold Schönberg an Edward
+                            Clark, 30. Mai 1933; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B023519">ASCC
+                                2351</ref></note></seg>, wo sich <persName key="pers.751"
+                        >Clark</persName>, der mich vor einigen Tagen <lb/>hier aufgesucht hat,
+                    relativ kühl zeigt.</p>
+                <p>An englische Vorträge habe ich selbst gedacht und sie <seg type="comment">
+                        <orig>
+                            <persName key="pers.751">Clark</persName>
+                        </orig>
+                        <note xml:id="nr4c_p4y_mgc" resp="#KBleier">
+                            <persName key="pers.751">Edward Clark</persName> war ab <date
+                                when="1927">1927</date> Programmleiter im <placeName key="place.3.1"
+                                >Londoner</placeName> Hauptbüro der <orgName key="org.216"
+                                >B.B.C.</orgName> und konnte in dieser Funktion auch <persName
+                                key="pers.3263">Schönberg</persName> als Dirigent nach <placeName
+                                key="place.3.1">London</placeName> verpflichten: <ref
+                                target="event.99"/>
+                        </note>
+                    </seg>
+                    <lb/>auch vorgeschlagen. Er scheint aber nicht dafür zu sein. <lb/>Auch ist er
+                    nicht zu bewegen, mich einmal etwas anderes, als <lb/>eigenes dirigieren zu
+                    lassen.</p>
+                <p>Weder in <placeName key="place.4">Frankreich</placeName> noch sonst irgendwo auf
+                    der Welt habe <choice>
+                        <sic>ich</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>ich jemanden, der sich für mich einsetzt. Sie alle sind bloss <lb/>Anhänger
+                    der modernen Musik und feiern mich, indem sie mich <lb/>den Vater der modernen
+                    Musik nennen und nur diese aufführen. <lb/>Aber <persName key="pers.3148"
+                        >Scherchen</persName> hat mir gesagt (ich weiss nicht was darauf zu
+                    <lb/>geben ist) dass <persName key="pers.841">Defou</persName> (?) vom <rs
+                        type="org" key="org.222">belgischen Radio</rs> sicher gerne <lb/>eine
+                    Aufführung unter meiner Leitung machen würde.</p>
+                <p>Uns geht es soweit recht gut, bis auf eine allerdings sehr <lb/>schwere Grippe
+                    (bei mir heuer die 5-te) die mehrere Wochen <lb/>gedauert und nur langsam besser
+                    worden ist.</p>
+                <p>Ich freue mich, dass es Ihnen und den Ihrigen gut geht. Grüs<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen Sie Ihre <rs type="person" key="pers.3627">Frau</rs>. Aber
+                    ich weiss nicht, ob sie nach <placeName key="place.2">Deutsch<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>land</placeName> gehen soll. Ist es sicher, dass man sie
+                    wieder zurück <lb/>lässt?</p>
+                <closer rendition="#r">
+                    <salute>Viele herzlichste Grüsse, Ihr</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

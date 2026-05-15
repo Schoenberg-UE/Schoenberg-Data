@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16830"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 28. Juni 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16830</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16830</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1932-06-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24448"/>
+                    <ref type="answered-by" target="letter.2253"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-12-12+02:00" who="KBleier">Ergänzung Schreibort</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16830_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16830_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1932-06-28">28. Vi
+                            1932</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>! </salute>
+                <p rendition="#inline">Ich danke Ihnen herzlich für Ihren lieben <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nrm4_wpy_25b">
+                            <ref target="letter.24448">Arnold Schönberg an Erwin Stein, zwischen 18.
+                                Juni und 28. Juni 1932 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <lb/>und Ihr Vertrauen. Nach dem <seg type="comment">
+                        <orig>Arbeitersymphoniekonzert</orig>
+                        <note xml:id="numm_fhy_nyb" resp="#pkehrer">
+                            <ref target="event.48"/>
+                        </note>
+                    </seg>, in dem <persName key="pers.4001">Webern</persName>
+                    <lb/>dirigierte, waren wir natürlich alle beisammen. Eine <seg type="comment">
+                        <orig>Karte</orig>
+                        <note xml:id="nas3_y3k_5wb">Anton Webern an Arnold Schönberg, 21. Juni 1932
+                                (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B202126">ASCC 20212</ref>)</note>
+                    </seg> an Sie habe <lb/>ich damals auch unterschrieben, auch meine <rs type="person" key="pers.3627">Frau</rs>. – <bibl sameAs="werke.44">Friede
+                        auf Erden</bibl>
+                    <lb/>ist eines Ihrer Werke, die ich besonders liebe – allerdings glaube ich,
+                    <lb/>dass so ziemlich alle Ihre Werke in diese Kategorie gehören, es kommt
+                    <lb/>nur darauf an, was man zuletzt gehört hat. Die Aufführung fand ich ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>gentlich nicht ganz so lebendig, wie <persName key="pers.4001">Webern</persName> das Stück sonst dirigiert <lb/>hat. Er war wohl durch
+                    viel Arbeit und durch unzureichende Probenanzahl <lb/>für die beiden mittleren
+                    Stücke des Programms, die <bibl sameAs="werke.135">Lichtspielmusik</bibl> und <lb/>
+                    <persName key="pers.385">Bergs</persName>
+                    <bibl sameAs="werke.136">Wein-Arie</bibl>, irritiert und überhaupt in den
+                    letzten Wochen gesund<g ref="#typoHyphen"/>
+                    <lb break="no"/>heitlich wieder nicht in Ordnung. Im <date when="1932-07">Juli</date> will er sich gründlich erhol<g ref="#typoHyphen"/>
+                    <lb break="no"/>en. – Die <bibl sameAs="werke.135">Lichtspielmusik</bibl> ist
+                    auf einer höheren Ebene das, was die <lb/>Leute sonst Gebrauchsmusik nennen.
+                    Damit ist natürlich nicht gesagt, das <lb/>sie jeder Esel brauchen kann. Ich
+                    finde das Werk höchst wirkungsvoll, <lb/>stelle es mir allerdings bisschen
+                    anders vor. Die erste <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nb2k_55z_pfc" resp="#KBleier">
+                            <ref target="event.175"/>
+                        </note>
+                    </seg>, die <lb/>
+                    <persName key="pers.4001">Webern</persName> damals im Radio dirigierte, <del rendition="#s">war</del> fand ich übrigens viel besser, <lb/>klarer und
+                    eindrucksvoller. <persName key="pers.4001">Webern</persName> war doch
+                    überarbeitet. Er hatte aber <lb/>einen kollossalen Dirigentenerfolg.</p>
+                <p>Die <bibl sameAs="werke.57">Serenade</bibl> haben wir so ziemlich aufführungsreif
+                    studiert. Wir <lb/>wollen zu Beginn der nächsten Saison einen <persName
+                        key="pers.3263">Schönberg</persName> Abend
+                    geben<!-- nicht nachgewiesen -->, wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich als Werbeabend für die <seg type="comment">
+                        <orig>Wiener Sektion</orig>
+                        <note xml:id="ngq3_zky_nyb" resp="#pkehrer">
+                            <orgName key="org.93">Internationale Gesellschaft für Neue
+                                Musik</orgName>
+                        </note>
+                    </seg>, mit <bibl sameAs="werke.57">Serenade</bibl>, <bibl sameAs="werke.54"
+                        >Pierrot</bibl>, <lb/>und ev. Klavierstücken dazwischen. Das Ensemble wären
+                    bei beiden Werken <lb/>junge Leute, die Sprecherin wahrscheinlich <persName
+                        key="pers.3689">Erika Wagner</persName>, Klavier-Solo <lb/>
+                    <persName key="pers.3662">Steuermann</persName>.</p>
+                <p>Ich hab mich schon oft in der <orgName key="org.1">UE</orgName>
+                    <persName key="pers.1339">Greissles</persName> angenommen. Es war nur
+                    <lb/>leider in den letzten Monaten sehr wenig Arbeit für ihn da. Es ist <pb n="2" xml:id="p.2"/>wirklich wahr, dass er von allen Kollationeuren am
+                    meisten beschäftigt <lb/>wird. Jetzt haben wir endlich auch eine ausgiebigere
+                    Arbeit für ihn: den <lb/>Klavierauszug einer neuen Oper von <persName key="pers.4070">Weinberger</persName>. Bezahlt
+                    wird das schlecht <lb/>genug, aber <persName key="pers.1339">Greissle</persName>
+                    war sehr glücklich darüber. Er weiss, dass die Zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>teilung dieser Arbeit auf Ihre Intervention hin erfolgt ist.</p>
+                <p>In dem Streit über die <placeName key="place.15">amerikanische</placeName>
+                    Erstaufführung der <bibl sameAs="werke.16">Gurre<g ref="#typoHyphen"/>
+                        <lb break="no"/>lieder</bibl> stehe ich mit meinem Herzen natürlich ganz auf
+                    Ihrer Seite und <lb/>ich habe die moralische Berechtigung Ihres Standpunktes
+                    auch sehr betont. <lb/>
+                    <hi rendition="#u" hand="#addressee">Juristisch</hi> scheint die Sache <hi rendition="#u" hand="#addressee">allerdings nicht so einfach</hi> zu sein.
+                    Wenn <lb/>die Darstellung <hi rendition="#u" hand="#addressee">richtig ist</hi>,
+                    die mir seinerzeit <persName key="pers.1538">Hertzka</persName> von der Sachlage
+                    <lb/>gegeben hat und die er auch in einem ausführlichen <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="njny_q5s_g1c" resp="#pkehrer">
+                            <ref target="document.12969">Universal-Edition an Wenzel Goldbaum und
+                                Gerhard Jacoby, 6. April 1932</ref>
+                        </note>
+                    </seg> an Ihre <seg type="comment">
+                        <orig>Advoka<g ref="#typoHyphen"/>
+                            <lb break="no"/>ten</orig>
+                        <note xml:id="nqc5_wd5_f5b">
+                            <persName key="pers.1261">Wenzel Goldbaum</persName> und <persName key="pers.1692">Gerhard Jacoby</persName>
+                        </note>
+                    </seg> schrieb (ich lasse Ihnen in einem zweiten Brief eine Abschrift <lb/>
+                    <hi rendition="#ll" hand="#addressee">schicken), dann liegt ein <hi rendition="#u" hand="#addressee">Versprechen vor, das in einer</hi>
+                        Situation gege<g ref="#typoHyphen"/>
+                        <lb break="no"/>ben wurde, die heute, fürchte ich, nicht mehr zutrifft.<metamark/>
+                        <note place="inline" hand="#addressee">hebt nicht meinen Vertrag auf</note>
+                        Die <placeName key="place.15">Amerikaner</placeName>
+                        <lb/>sind so grosse Schnorrer geworden, als hätten sie nicht mehr Geld
+                        als</hi>
+                    <lb/>die <placeName key="place.9">Oesterreicher</placeName>. Die <orgName key="org.1">UE</orgName> bekommt viele Jammer-Briefe von drüben. Auch
+                    <lb/>wegen der <bibl sameAs="werke.16">Gurrelieder</bibl> wurde in diesem
+                    Frühjahr geschrieben, dass der <lb/>Preis für die jetzige Zeit „excessive“ sei.
+                    So wie ich die Situation <lb/>sehe – ich muss es leider sagen – <subst>
+                        <del rendition="#s">besteht</del>
+                        <add place="superlinear">bestand</add>
+                    </subst> für <hi rendition="#u" hand="#addressee">absehbare</hi> Zeit wirklich
+                    <lb/>keine Aussicht, dass <add place="superlinear">man</add> Sie zur Leitung der
+                        <bibl sameAs="werke.16">Gurrelieder</bibl> zu entsprechenden
+                    <lb/>Bedingungen aufgefordert hätte. Ich weiss, dass sich <persName key="pers.1538">Hertka</persName> darum sehr <lb/>bemüht hat. Nicht nur weil
+                    er trotz eines gewissen Grolls in den letzten <lb/>Jahren immer sehr an Ihnen
+                    gehangen hat. Sondern, man muss sagen vor <lb/>allem, auch aus geschäftlichen
+                    Gründen: sowohl wegen der Reklame als <lb/>auch wegen seiner Tendenz (die er in
+                    den letzten Jahren verfolgte), <lb/>den Autoren andere Einnahmen zu verschaffen,
+                    um den Verlag zu entlasten, <lb/>
+                    <persName key="pers.1538">Hertzka</persName> hat übrigens auch mit <persName key="pers.498">Bodanzky</persName> verhandelt, dessen <rs type="org" key="org.260">Verein</rs>, wie <lb/>sie vielleicht wissen, unterdessen
+                    eingegangen ist, weil der <rs type="person" key="pers.2100">Hauptmäzen</rs>
+                    <lb/>gestorben ist, die andern sich zurückgezogen haben. <persName key="pers.1538">Hertzka</persName> hat mir von <lb/>den Verhandlungen, die
+                    er drüben hatte, ausführlich erzählt. <pb n="3" xml:id="p.3"/>Bei seinem letzten
+                    Aufenthalt in <placeName key="place.15">Amerika</placeName>
+                    <date when="1931">1931</date> war nicht nur Ihre Engage<g ref="#typoHyphen"/>
+                    <lb break="no"/>ment wieder nicht durchzusetzen, sondern kaum eine Aufführung
+                    der <bibl sameAs="werke.16">Gurre<g ref="#typoHyphen"/>
+                        <lb break="no"/>lieder</bibl> unter dortigen Dirigenten. <persName key="pers.498">Bodanzky</persName>, <persName key="pers.2071">Koussewitzky</persName> und andere <lb/>lehnten wegen der grossen internen
+                    Kosten ab. Offenbar bekam da <persName key="pers.1538">Hertzka</persName>
+                    <lb/>Angst, dass <add place="superlinear">er</add> für absehbare Zeit die <bibl sameAs="werke.16">Gurrelieder</bibl> überhaupt nicht nach <lb/>
+                    <placeName key="place.15">Amerika</placeName> werde bringen können, wenn er bei
+                        <persName key="pers.3719">Stokowsky</persName> nicht zugreift. <lb/>Und ich
+                    glaube wirklich, dass er bona fide gehandelt hat. Sie werden <lb/>sagen, er
+                    hätte Sie zumindest fragen müssen, aber er fürchtete, dass <lb/>daran die
+                    Aufführung gescheitert wäre. Ich verstehe Ihren Groll sehr <lb/>gut und verstehe
+                    auch, dass sie sich von dem Engagement für die <bibl sameAs="werke.16">Gurre<g ref="#typoHyphen"/>
+                        <lb break="no"/>lieder</bibl> materiell sehr viel erwartet hatten. <note place="left" hand="#addressee">Stimmung</note>Seien Sie mir nicht böse,
+                    <lb/>dass ich so offen ausgesprochen habe, dass ich für die letztvergangene
+                    <lb/>und nächste Zeit keine Chance dafür sah und sehe. Wenn die Verhältnisse
+                    <lb/>einmal aber wieder besser werden, so ist glaube ich die Aufführung in <lb/>
+                    <placeName key="place.15.10">Philadelphia</placeName> durchaus kein Hindernis
+                    für Ihr Engagement, sondern viel <lb/>eher ein Antrieb dafür.<note place="left" hand="#addressee">Die Unwahrheit aller <lb/>dieser „Stimmungs“geschichten
+                        <lb/>geht schon daraus hervor, <lb/>dass <persName key="pers.1538">Herzka</persName> die Plattenauf<g ref="#typoHyphen"/>
+                        <lb break="no"/>nahmen verkauft hat <lb/>und <subst>
+                            <del rendition="#s">die</del>
+                            <add place="superlinear">zwar in der</add>
+                        </subst>
+                        <hi rendition="#u">deutschen</hi>
+                        <lb/>Originalsprache statt der <lb/>englischen Uebersetzung!!</note>
+                </p>
+                <p>Die juristische Seite der Angelegenheit kann ich nicht beurteilen. <lb/>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="3" unit="words"/>
+                    </del> Es handelt <hi rendition="#u" hand="#addressee">sich offenbar darum ob
+                        ein Verspre<g ref="#typoHyphen"/>
+                        <lb break="no"/>chen bei geändeter Sachlage rechtlich bindend ist</hi>.</p>
+                <p>Ich habe mit den Leuten der <orgName key="org.1">UE</orgName> sehr viel über die
+                    Angelegenheit <lb/>gesprochen und sie waren offenbar sehr froh, dass ich
+                    vermitteln will. <lb/>Denn jeder einzelne, Frl. <persName key="pers.3067">Rothe</persName>, <persName key="pers.1750">Kalmus</persName>, <persName key="pers.4190">Winter</persName>, <persName key="pers.1520">Heinsheimer</persName>, wären <lb/>sehr glücklich, wenn das persönliche und
+                    geschäftliche Verhältnis des <lb/>Verlags zu Ihnen, oder vielmehr Ihres zum
+                    Verlag wieder ein freundschaft<lb break="no"/>liches würde. Ich selbst bin bei
+                    dieser Vermittlung in einer sehr <lb/>schweren Situation und ich fürchte, beide
+                    Teile werden mit mir unzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>frieden sein.</p>
+                <p>Das Angebot der <orgName key="org.1">UE.</orgName> hat <persName key="pers.1538">Hertzka</persName> in einem Brief an Ihre Rechtsan<g ref="#typoHyphen"/>
+                    <lb break="no"/>wälte mitgeteilt: Von dem Betrag, den die <orgName key="org.1">UE</orgName> für die <bibl sameAs="werke.16">Gurrelieder</bibl> in <lb/>
+                    <placeName key="place.15">Amerika</placeName> bekommen hat, sollen Sie <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <seg type="comment">
+                        <orig>2/3</orig>
+                        <note xml:id="nhc2_h4z_g1c" resp="#pkehrer">In <ref target="document.12969">Universal-Edition an Wenzel Goldbaum und Gerhard Jacoby, 6. April
+                                1932</ref> werden „3/5“ genannt</note>
+                    </seg> erhalten. Der Verlag hat <pb n="4" xml:id="p.4"/>800 Dollar bekommen.
+                        <orgName key="org.132">Philadelphia</orgName> zahlte für <seg type="comment">
+                        <orig>3 Aufführungen</orig>
+                        <note xml:id="nnrf_ypy_w2c" resp="#pkehrer">
+                            <ref target="event.100"/>; <ref target="event.101"/>; <ref target="event.102"/>
+                        </note>
+                    </seg> in <placeName key="place.15.10">Phila<g ref="#typoHyphen"/>
+                        <lb break="no"/>delphia</placeName> 1000 Dollar, für eine <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nb12_dqy_w2c" resp="#pkehrer">
+                            <ref target="event.104"/>
+                        </note>
+                    </seg> in <placeName key="place.15.8">New York</placeName> 200 Dollar, zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>sammen also 1200, davon <subst>
+                        <del rendition="#s">erhielt</del>
+                        <add place="superlinear">behielt</add>
+                    </subst> ein Drittel nach den vetraglichen Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmungen die <placeName key="place.15">amerikanische</placeName>
+                    <rs type="org" key="org.23">Vertretung</rs>. Es sind also 480 Dollar, die
+                    <lb/>Ihnen der Verlag sofort bar auszahlen würde, wenn Sie damit einverstan<g ref="#typoHyphen"/>
+                    <lb break="no"/>den, u.zw. in Mark oder Schilling. Wenn Ihnen dieser Betrag im
+                    Verhältnis <lb/>zu dem, was Sie sich seinerzeit von der <placeName key="place.15">amerikanischen</placeName> Erstaufführung <lb/>der <bibl sameAs="werke.16">Gurrelieder</bibl> erwartet hatten, geringfügig erscheint,
+                    so betrachten <lb/>Sie sie als erste Anzahlung auf die <bibl sameAs="werke.16">Gurrelieder</bibl> in <placeName key="place.15">Amerika</placeName>. Wenn
+                    die <lb/>europäische Musikkultur nicht zugrunde geht, werden die <bibl sameAs="werke.16">Gurrelieder</bibl>
+                    <lb/>dort noch sehr viel gespielt werden, ganz gewiss auch unter Ihrer
+                    <lb/>Leitung. Ich bitte Sie recht sehr, mir über die <bibl sameAs="werke.16">Gurrelieder</bibl>-Angelegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit recht <del rendition="#s">sehr</del> bald zu schreiben.</p>
+                <p>Wohin gehen Sie in diesem Sommer? Wir wollen uns im Herbst eine <lb/>
+                    <placeName key="place.9.11.15.1">Wohnung in Pötzleinsdorf</placeName> nehmen, in einem
+                    Haus, das noch in Bau ist, <lb/>und müssen darum in diesem Sommer sehr sparen.
+                    Ich werde nicht lange <lb/>von <placeName key="place.9.11">Wien</placeName> fort
+                    sein. </p>
+                <closer>
+                    <salute>Viele herzlichste Grüsse</salute> von uns beiden an Sie und Ihre <seg rendition="#c">
+                        <lb/>
+                        <persName key="pers.3297">Frau</persName>, und auch an die kleine <persName key="pers.3299">Dorothea Nuria</persName>, von <add place="intralinear">der</add>
+                        <lb/>ich schon Wunderdinge gehört hab.</seg>
+                    <lb/>
+                    <seg rendition="#r">Ihr</seg>
+                    <signed rendition="#r">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Von Aufführungen der letzten und <lb/>nächsten Zeit: <bibl sameAs="werke.57">Serenade</bibl>
+                        <seg type="comment">
+                            <orig>im <del rendition="#s">
+                                    <placeName key="place.2.3">Berliner</placeName> Run</del>
+                            </orig>
+                            <note xml:id="nhbv_wrl_w2c" resp="#pkehrer">Die Funk-Stunde <placeName key="place.2.3">Berlin</placeName>
+                                    übertrug eine Aufführung: <ref target="event.158"/></note>
+                        </seg>
+                        <seg type="comment">
+                            <orig>
+                                <orgName key="org.86">Frankfurter
+                                    Rundfunk</orgName>
+                            </orig>
+                            <note xml:id="nh34_hlr_w2c" resp="#pkehrer">
+                                <ref target="event.159"/>
+                            </note>
+                        </seg> (gewesen).
+                        Nächstes Jahr: <lb/>
+                        <bibl sameAs="werke.16">Gurre Lieder</bibl> in <placeName key="place.9.11">Wien</placeName> (<persName key="pers.1515">Heger</persName>, <orgName key="org.78">Gesellschaft der
+                        Musikfreunde</orgName>)<!-- nicht nachweisbar, heger ging 1933 von wien nach berlin -->,
+                        im Sommer <bibl sameAs="werke.146">Lied der Waldtaube</bibl> in <lb/>
+                        <seg type="comment">
+                            <orig>
+                                <placeName key="place.4.8">Straßburg</placeName>
+                            </orig>
+                            <note xml:id="ntz5_nrs_w2c" resp="#pkehrer">
+                                <ref target="event.160"/>
+                            </note>
+                        </seg> (reduz.
+                        Orchester). <orgName key="org.86">Frankfurter Rundfunk</orgName> will
+                        nächstes Jahr „<bibl sameAs="werke.7">Erwartung</bibl>“ machen, dann <lb/>
+                        <bibl sameAs="werke.2">Kammersymphonie</bibl> (Montag-Konzerte) und <bibl sameAs="werke.62">Suite</bibl> (Septett). Mit <persName key="pers.3030">Rosbaud</persName> war ich auf meiner Reise in <lb/>
+                        <placeName key="place.2.13">Frankfurt</placeName>
+                        <subst>
+                            <del rendition="#s">viel</del>
+                            <add place="sublinear">lange</add>
+                        </subst> beisammen, er ist ein sehr sympathischer Mensch. – Die <bibl sameAs="werke.2">Kammersymphonie</bibl> war unlängst <lb/>
+                        <seg rendition="#r">auch wieder (zum 3. Mal) im <orgName key="org.210">Stuttgarter Radio</orgName>.<!-- nicht nachweisbar --></seg>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

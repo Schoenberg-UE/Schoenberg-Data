@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16808"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Pult und Taktstock an Arnold Schönberg, 28. Februar 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16808</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16808</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <orgName key="org.191">Pult und Taktstock</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1927-02-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1">Berlin, Charlottenburg</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term></keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16808_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16808_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.54">
+                        <orgName key="org.191">PULT UND TAKTSTOCK</orgName>
+                        <lb/>MONATSSCHRIFT FÜR DIRIGENTEN<lb/>Verlag der <orgName key="org.1">Universal-Edition</orgName>
+                        <lb/>WIEN, <seg hand="#author">28. Februar 1927.</seg>
+                        <lb/>I. <placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                    </stamp>
+                    <persName key="pers.3612">K. S.</persName>/<persName key="pers.4348">P.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1">
+                                <hi rendition="#u #g">Charlottenburg</hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Verzeihen Sie, dass ich Ihnen erst heute den <lb/>Empfang der gesandten Kritiken
+                    bestätige. Von der <persName key="pers.1712">Jarnach</persName>-<seg type="comment">
+                        <orig>Kritik</orig>
+                        <note xml:id="nxvb_1yp_dzb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-FEFQ267J">Jarnach
+                            1927a</rs></note>
+                    </seg>
+                    haben <lb/>wir uns eine grössere Anzahl aus <placeName key="place.2.3">Berlin</placeName> kommen lassen und sie im Ori<g ref="#typoHyphen"/>
+                    <lb break="no"/>ginal mit einem entsprechenden Begleitschreiben an etwa 2
+                    Dutzend <lb/>wichtige Dirigenten geschickt, und zwar an solche, die <bibl sameAs="werke.5">Pelleas</bibl> noch <lb/>nicht aufgeführt haben. Ausserdem
+                    wird der von Ihnen gewünschte Pro<g ref="#typoHyphen"/>
+                    <lb break="no"/>spekt
+                    hergestellt, doch wollen wir <add place="superlinear">ihn</add> erst nach, und
+                    zwar unmittelbar <lb/>nach den <persName key="pers.331">Beethoven</persName>-Feiern
+                    versenden, da im Augenblick eine Propaganda <lb/>bei den Dirigenten verpuffen
+                    würde.</p>
+                <p>Die nächste <seg type="comment">
+                        <orig>Nummer</orig>
+                        <note xml:id="nafr_hbq_dzb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-AIBKW6R6">Pult und Taktstock
+                                1927</rs> (Exemplare aus dem Schönberg-Nachlass; P15)</note>
+                    </seg> von „<orgName key="org.191">Pult und Taktstock</orgName>“ wird <lb/>ein
+                        <persName key="pers.3263">Schönberg</persName>-Heft sein, mit grösserem
+                    Umfang als die sonstigen Hefte. <lb/>Die Aufsätze sollen von den
+                    Orchesterwerken, und zwar namentlich den <lb/>älteren handeln. Ich hoffe, dass
+                    das Heft gut ausfallen wird, habe aber <lb/>jetzt noch keine vollständige
+                    Uebersicht, weil ich mit einigen Mitar<g ref="#typoHyphen"/>
+                    <lb break="no"/>beitern noch in Korrepondenz stehe. Könnte nicht <rs type="person" key="pers.3263">Jens Qu.</rs> für dieses <lb/>Heft <persName key="pers.3263">Schönberg</persName> interviewen?</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Ich glaube, dass viele Dirigenten vom <bibl sameAs="werke.5">Pelleas</bibl>
+                    <lb/>durch die Orchesterbesetzung abgeschreckt werden und würde darum <lb/>gerne
+                    wissen, wie Sie sich im Prinzip zu einer <bibl sameAs="werke.147">Bearbeitung</bibl> mit weniger <lb/>Bläsern (etwa 3 faches Holz, 4 Hörner,
+                    3 Trompeten, 3 Posaunen, Tuba) <lb/>stellen würden. Vielleicht sind Sie so
+                    freundlich, <subst>
+                        <del rendition="#ow">das mich</del>
+                        <add place="intralinear">mich das</add>
+                    </subst> recht bald <lb/>wissen zu lassen.</p>
+                <closer>
+                    <salute>Mit den herzlichsten Grüssen an Sie und Ihre <lb/>
+                        <rs type="person" key="pers.3297">Frau</rs>, bin ich stets <lb/>
+                        <seg rendition="#r">Ihr
+                            <lb/>ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.6935"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 13. April 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6935</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC 6935</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1911-04-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-17+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6935_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6935_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.4">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>WIEN, XIII. <lb/>
+                        <placeName key="place.9.11.5.3">HIETZINGER HAUPTSTRASSE 113</placeName>
+                    </stamp>
+                    <dateline>
+                        <date when="1911-04-13">13/4. 1911</date>
+                    </dateline>
+                </opener>
+                <salute>P.T. <orgName key="org.1">Universal Edition</orgName>,</salute>
+                <p rendition="#inline">ich brauche <hi rendition="#uu">dringendst</hi>, <lb/>
+                    <supplied cert="high">alle</supplied>s das, was ich aus meiner <bibl
+                        sameAs="schriften.1">Harmonie<g ref="#typoHyphen"/>
+                        <lb break="no"/>lehre</bibl> bereits zum Druck abgeliefert habe. <lb/>Ich
+                    bin in einem Kapitel auf eine <hi rendition="#u">sehr</hi>
+                    <lb/>
+                    <hi rendition="#u">große</hi> Schwierigkeit gestoßen und muss <lb/>– ehe ich
+                    dieses Kapitel vollenden kann – <lb/>alles durchlesen, was an cirka 8&#8211;12
+                    <lb/>Stellen (die ich aber nicht genau weiß) des <lb/>Vorhergehenden gestanden
+                    ist. Auf das bereits <lb/>Gedruckte hat das mutmaßlich <hi rendition="#u"
+                        >gar</hi> keinen <lb/>Einfluss, da ich es jedenfalls in dem <lb/>
+                    <supplied cert="high">Ka</supplied>pitel an dem ich <seg type="comment">
+                        <orig>gerade arbeite</orig>
+                        <note xml:id="npgk_kxc_bgc" resp="#TMuxeneder">Bezug auf das Kapitel „Die
+                            chromatische Skala als Grundlage der Tonalität“, dessen
+                            Argumentationsgrundlage auf eine Anregung des Philosophen <persName
+                                key="pers.2560">Robert Neumann</persName> zurückging</note>
+                    </seg> richtig<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellen kann. Es handelt sich also keinesfalls <lb/>um eine
+                    Satz-Aenderung. Wenigstens ist sie <lb/>mir vorläufig unwahrscheinlich. Und wenn
+                    <lb/>Sie notwendig werden sollte, werde ich <pb n="2" xml:id="p.2"/>mit der <hi
+                        rendition="#u">größten</hi> Rücksicht vorgehen.</p>
+                <p>Ich bitte also zu veranlassen:</p>
+                <p>I. dass mir zunächst <hi rendition="#uu">sofort</hi> Alles <lb/>das zugeschickt
+                    wird, was schon gedruckt <lb/>ist. Womöglich in (drei) Bürstenabzüg<supplied cert="high">en</supplied>
+                    <lb/>
+                    <hi rendition="#u">mit</hi> dem Originalmanuskript.</p>
+                <p>II. dass alles Uebrige, mir in <lb/>längstens 8 Tagen geschickt wird. <lb/>Im
+                    Bürsten-Abzug, <unclear reason="illegible" cert="low">und</unclear> im
+                    Manuskript. <lb/>Der Druck braucht deswegen <lb/>nicht unterbrochen zu werden.
+                    Denn <lb/>in 8 Tagen muss es ja möglich sein, <lb/>den Rest zu drucken. Aber in
+                    8 Tagen <lb/>
+                    <hi rendition="#uu">muss</hi> ich es unbedingt haben. Denn <lb/>dann bin ich an
+                    einer Stelle, wo ich <lb/>diese Frage (um die es sich handelt) <lb/>unbedingt
+                    gelöst haben muss. Hätte <pb n="3" xml:id="p.3"/>ich es nicht, dann müsste ich
+                    dieses <lb/>Kapitel vorläufig so gut ich kann machen <lb/>und dann könnten
+                    Satz-Aenderungen <lb/>entstehen, für deren Kosten ich <hi rendition="#u">keine</hi>
+                    <lb/>Verantwortung übernehme.</p>
+                <p>Dann aber auch: ich kann nicht <lb/>eher die Fortsetzung schicken, ehe <lb/>ich
+                    diese Frage ins Reine ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>bracht habe, weil es sich um ein <lb/>
+                    <seg type="comment">
+                        <orig>Prinzip</orig>
+                        <note xml:id="njlc_2yc_bgc" resp="#TMuxeneder">Robert Neumann „tadelte“ u. a., „daß das Prinzip,
+                            nach welchem auf den Nebenstufen Dominanten errichtet werden, nirgends
+                            ausgesprochen ist, so daß man meinen kann, die Nebendominanten wären nur
+                            eingeführt, weil sie sich aus den Kirchentonarten ergeben […] Es ist
+                            nicht unrichtig, daß die Prinzipien meiner Darstellung nirgends
+                            zusammenhängend gesagt sind. Aber es ist die Frage, ob das unbedingt
+                            nötig ist, da sie ja doch an den entsprechenden Stellen immer wieder
+                            angewendet werden. Aber ich will sie trotzdem hier
+                            rekapitulieren.“ (<rs type="bibl">
+                                <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                            </rs> 1911, S.
+                            431f.)</note>
+                    </seg> handelt, dass sich durchs
+                    <lb/>ganze Werk zieht und dass an <lb/>mehr als <seg type="comment">
+                        <orig>20
+                            Stellen citiert</orig>
+                        <note xml:id="nv5n_3xx_4gc" resp="#TMuxeneder">U.
+                            a. im Kapitel „Neben-Dominanten und andere aus den Kirchentonarten
+                            übernommene leiterfremde Akkorde“. In einer Einfügung reklamiert
+                                <persName key="pers.3263">Schönberg</persName> die Verwendung des
+                            Begriffs „Nebendominante“ in Abgrenzung zu <persName key="pers.2974">Hugo Riemann</persName> (<rs type="bibl" key="zotero-4528359-S5N5BF5F">Riemann 1893</rs>) und <persName key="pers.3127">Heinrich Schenker</persName> (<rs type="bibl" key="zotero-4528359-BBQG7JTX">Schenker 1906</rs>; Exemplar aus dem
+                            Schönberg Nachlass; BOOK S8 v.1) für sich</note>
+                    </seg> ist.</p>
+                <p>Ich hoffe man nimmt das ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>nügend ernst und erledigt meinen <lb/>Wunsch sofort. </p>
+                <closer rendition="#inline">
+                    <salute>Hochachtungsvoll</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <milestone unit="section" rendition="#hr"/>
+                <postscript>
+                    <p>P. S. Manuskript und Korrektur <seg type="comment">
+                            <orig>über <persName key="pers.3925">Violins</persName>
+                                <bibl sameAs="schriften.100">Continuo</bibl>
+                            </orig>
+                            <note sameAs="letter.6929/#nbwb_pby_ddc"/>
+                        </seg>
+                        <lb/>habe ich sofort erledigt und gestern an Sie geschickt. <lb/>Bitte um
+                        Nachricht ob es eingetroffen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

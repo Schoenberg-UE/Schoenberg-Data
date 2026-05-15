@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17363"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 17. August 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17363</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17363</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1932-08-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.2264"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17363_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17363_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.84">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4345">Re</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1932-08-17">17.
+                            August 1932</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Berlin</hi> W 5<choice>
+                                    <sic>8</sic>
+                                    <corr cert="high">0</corr>
+                                </choice>
+                            </hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.9.1">Nürnbergerplatz 3</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich freue mich sehr, Ihnen unser <seg type="comment">
+                        <orig>gestriges Telegramm</orig>
+                        <note xml:id="nskb_yxq_g5b">
+                            <ref target="letter.24450">Universal-Edition an Arnold Schönberg, 16.
+                                August 1932 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <lb/>bestätigen zu können, nach welchem es uns gelungen ist, die Annahme
+                    <lb/>des zwischen uns am <date when="1932-08-05">5. 8.</date> abgeschlossenen
+                        <ref target="document.7359_cod">Uebereinkommens</ref> durch unsere
+                    <lb/>Verwaltung durchzusetzen und dass damit die Möglichkeit für ungetrübte
+                    <lb/>freundschaftliche Beziehungen zwischen Ihnen und unserem Verlag ge<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>geben sind. Da ich heute einen schon einige Zeit
+                    hinausgeschobenen <lb/>kurzen Erholungsurlaub antrete, bitte ich Sie zu
+                    entschuldigen, wenn <lb/>die <ref target="document.7359_cosd">Reinschrift</ref>
+                    unserer Vereinbarung, die sich im Wortlaut mit der <lb/>von uns gezeichneten
+                    Abmachung decken wird, erst in den nächsten Tagen <lb/>an Sie abgeht. Zu dieser
+                    Abmachung haben wir nur zwei kleine Wünsche, <lb/>die aber nicht wesentlich sind
+                    und daher von Ihnen sicherlich akzep<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiert werden. Der eine Wunsch betrifft Punkt 4, bei welchem wir
+                        er<g ref="#typoHyphen"/>
+                    <lb break="no"/>suchen, dass in einem eventuellen <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note xml:id="nob1_tyn_vzb" resp="#pkehrer"><ref target="document.24406"
+                                >Vereinbarung über die englische Ausgabe der Harmonielehre von Arnold Schönberg,
+                                20. Oktober 1932</ref>
+                        </note>
+                    </seg> über eine fremdsprachige <lb/>Ausgabe der <bibl sameAs="schriften.1"
+                        >Harmonielehre</bibl> auch noch hereingenommen wird, dass Ab<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>rechnungen seitens des fremdsprachigen Verlegers ausser an Sie
+                    in <lb/>Kopie auch an uns jeweils abgehen. Der 2. Punkt, um den wir Sie bitten,
+                    <lb/>ist der, dass sie in eine kleine Aufschiebung eines Teiles der Zahlung
+                    <lb/>per M 3.300.– einwilligen. <orgName key="org.186">Waldheim</orgName> hat
+                    uns mittlerweile die Kosten <lb/>bekanntgegeben, die sich laut umseitiger
+                    Aufstellung inkl. Anwalts<g ref="#typoHyphen"/>
+                    <lb break="no"/>spesen, Prozesskosten und Barauslagen auf Schilling 3.873.51
+                    belaufen. <lb/>Unsere bisherigen Versuche, eine Ermässigung eintreten zu lassen,
+                    <lb/>haben leider <seg type="comment">
+                        <orig>bisher zu keinem Resultat geführt</orig>
+                        <note xml:id="nwgh_1pb_ddc" resp="#pkehrer">
+                            <ref target="letter.17362">Universal-Edition an Arnold Schönberg, 17.
+                                August 1932</ref> kündigt allerdings eine Ermäßigung in Höhe von
+                            73,51 Schilling an</note>
+                    </seg>. Wir werden nochmals <lb/>unser Möglichstes tun, um <orgName
+                        key="org.186">Waldheim</orgName> zu einer Reduktion zu bewegen, <lb/>haben
+                    allerdings wenig Hoffnung. Wir bitten Sie nun um Bestätigung, <lb/>dass Sie mit
+                    diesem Betrag, der zum <placeName key="place.2.3">Berliner</placeName> Kurs des
+                    Schillings <lb/>umgerechnet M 2.014.22 ausmacht, einverstanden sind und bitten
+                    auch <lb/>um Bekanntgabe, wieviel Sie Ihrem <rs type="person" key="pers.1692"
+                        >Anwalt</rs> zu bezahlen haben und ob und <lb/>wieviel separate
+                    Gerichtsspesen in <placeName key="place.2.3">Berlin</placeName> Ihnen erwachsen
+                    sind. Wir <lb/>würden dann die Bezahlung der kompletten <orgName key="org.186"
+                        >Waldheim</orgName>-Rechnung in der <lb/>Höhe von M 2014.22 hier übernehmen
+                    und Ihnen den Markbetrag für Ihren <lb/>
+                    <rs type="person" key="pers.1692">Anwalt</rs> und für Ihre eventuellen
+                        <placeName key="place.2.3">Berliner</placeName> Prozesskosten sogleich an<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>weisen und würden bitten, dass wir den Rest erst am <date
+                        when="1932-11-01">1. November zu d. J.</date>
+                    <lb/>zu bezahlen haben. Wir hoffen, dass Sie mit diesen kleinen Wünschen <lb/>in
+                    Anbetracht dessen, dass wir jetzt eine grössere Barleistung <del rendition="#s"
+                        >zu</del>
+                    <lb/>tragen haben, einverstanden sind.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p> In <subst>
+                        <del rendition="#s">den Beilagen</del>
+                        <add place="superlinear">einem separaten <ref target="letter.17362"
+                                >Schreiben</ref>
+                        </add>
+                    </subst> erhalten Sie die noch ausständigen Verträge<!-- nicht nachweisbar -->
+                    <lb/>über die „<bibl sameAs="werke.64">Variationen</bibl>“, das <bibl
+                        sameAs="werke.63">III. Streichquartett</bibl> und die <bibl
+                        sameAs="werke.32">Bearbeitung</bibl>
+                    <lb/>von <persName key="pers.252">BACHs</persName> „<bibl sameAs="werke.182"
+                        >Präludium und Fuge</bibl>“, die mit Zusätzen im Sinne unserer
+                    <lb/>Abmachungen versehen sind, mit der Bitte, uns dieselben unterfertigt
+                    <lb/>einzusenden, worauf wir Ihnen Gegenexemplare übermitteln werden. <lb/>Die
+                    Abschlussdaten dieser Verträge haben wir entsprechend dem Erschei<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nungstermin der einzelnen Werke ausgefüllt.</p>
+                <p>
+                    <seg type="comment">
+                        <orig>Bezüglich „<orgName key="org.29">Benno Balan</orgName>“</orig>
+                        <note xml:id="nzgg_p1v_x2c" resp="#pkehrer">Nach den massiven
+                            Schwierigkeiten mit der Herausgabe seiner Oper <bibl sameAs="werke.65"
+                                >Von heute auf morgen op. 32</bibl> im Selbstverlag hatte <persName
+                                key="pers.3263">Schönberg</persName> Ende <date when="1929"
+                                >1929</date> die <placeName key="place.2.3">Berliner</placeName>
+                            <orgName key="org.29">Edition Benno Balan</orgName> einerseits mit der
+                            Herstellung einer Neuauflage des Klavierauszugs (Zweiter Originaldruck,
+                            Klavierauszug; <ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1490&amp;werke_id=477&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 7/2, Quelle F</ref>) und der Partitur (Zweiter Originaldruck
+                            der Partitur; <ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1485&amp;werke_id=477&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 7/2, Quelle D</ref>) beauftragt, andererseits – unter
+                            Vereinbarung einer Probezeit – mit dem Bühnenvertrieb des Werks. „[I]n
+                            Anbetracht der Ergebnislosigkeit unserer geschäftlichen Beziehungen“
+                            wollte <persName key="pers.3263">Schönberg</persName> diese Beziehungen
+                            bereits <date when="1930">1930</date> wieder lösen und forderte die von
+                                <persName key="pers.291">Balan</persName> übernommenen
+                            Materialvorräte zurück (Arnold Schönberg an Edition Benno Balan, 13.
+                            Juli 1930; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B019035">ASCC
+                                1903</ref>). Im <ref target="document.7359_cod">Vertragsentwurf, 5.
+                                August 1932</ref> verpflichtet sich die <orgName key="org.1"
+                                >UE</orgName> u. a., die Herausgabe dieser Vorräte
+                            anzustreben</note>
+                    </seg> bitten wir um genaue Nachricht, <lb/>welche Schritte wir unternehmen
+                    sollen, wieviel Material er auf Lager <lb/>hat und auf Grund welcher Abmachung
+                    er das ganze Material herauszu<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben verpflichtet ist. Eventuell bitten wir um Einsendung der
+                    letzten <lb/>auf <persName key="pers.291">Balans</persName> Weigerung
+                    bezughabenden Korrespondenz. Sobald wir Ansichts<g ref="#typoHyphen"/>
+                    <lb break="no"/>material der neuen <bibl sameAs="werke.79">Oper</bibl> besitzen,
+                    wollen wir mit einer intensiven <lb/>Propaganda beginnen, die nach Rückkehr
+                    Herrn <persName key="pers.3612">Steins</persName> neuerlich ganz <lb/>besonders
+                    für alle Ihre Werke einsetzen soll.</p>
+                <closer>Mit besten Empfehlungen, auch an Ihre verehrte Frau <rs type="person" key="pers.3297">Gemahlin</rs>, <lb/>
+                    <salute rendition="#r">Ihr sehr ergebener </salute>
+                    <lb/>
+                    <stamp sameAs="stamp.90" rendition="#r"> „<orgName key="org.1">Universal Edition
+                            Actiengesellschaft</orgName>“ </stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Alfred Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div type="appendix">
+                <table rows="9" cols="2">
+                    <row>
+                        <cell>Fa. v. 26.10.1929</cell>
+                        <cell>S 2421.65</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Fa. v.</supplied>
+                            </ellipsis> 31.10.<ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>1929</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>S</supplied>
+                            </ellipsis>19.–</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Fa. v.</supplied>
+                            </ellipsis> 25.11.<ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>1929</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>S</supplied>
+                                </ellipsis>10.–</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 2450.50</cell>
+                    </row>
+                    <row>
+                        <cell>pl. Zinsen v. 1.11.1929 <lb/>bis 15.8.1932</cell>
+                        <cell>
+                            <lb/>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>S</supplied>
+                            </ellipsis>342.06</cell>
+                    </row>
+                    <row>
+                        <cell>Anwaltspesen, Prozesskosten <lb/>und Barauslagen</cell>
+                        <cell>
+                            <lb/>
+                            <hi rendition="#u">
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>S</supplied>
+                                </ellipsis>914.–</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 3706.71</cell>
+                    </row>
+                    <row>
+                        <cell>pl. Zinsen für 8 Monate <lb/>von 3/4 Teilen (S 2780.–)</cell>
+                        <cell>
+                            <lb/>
+                            <hi rendition="#u">
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>S</supplied>
+                                </ellipsis>166.80</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 3873.51</cell>
+                    </row>
+                </table>
+                <lb/>
+                <p>
+                    <hi rendition="#u">3 Beilagen</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

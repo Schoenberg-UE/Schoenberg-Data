@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.851"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 22. Mai 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.851</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 851</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1923-05-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.21772"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/851_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.851_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>MÖDLING, <date when="1923-05-22">
+                            <seg hand="#author">22. Mai</seg> 192<seg hand="#author">3</seg>
+                        </date>
+                    </stamp>
+                </opener><salute>Lieber Herr Direktor <persName key="pers.1538">Hertzka</persName>,</salute>
+                <p rendition="#inline">anbei ein neuer Brief des <placeName key="place.2.13"
+                        >Frankfurter</placeName>
+                    <lb/>„<orgName key="org.151">Sängerchor</orgName>“. Ich
+                    befürworte sehr, denen die <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nzhv_n5n_lgc" resp="#KBleier">Der Vorsitzende des <orgName
+                                key="org.151">Sängerchors des Lehrervereins zu Frankfurt am
+                                Main</orgName> war mit der Absicht an <persName key="pers.3263"
+                                >Schönberg</persName> herangetreten, die <bibl sameAs="werke.16"
+                                >Gurre-Lieder</bibl> in <placeName key="place.2.13"
+                                >Frankfurt</placeName> aufzuführen. <persName key="pers.3263"
+                                >Schönberg</persName> unterstützte die Ambition, die jedoch durch
+                            die „katastrophale Markentwertung“ und die „absperrenden Franzosen“
+                            (Besetzung des Ruhrgebiets durch französische und belgische Truppen)
+                            nicht zustande kam (Ludwig Grandpierre an Arnold Schönberg, 5. Mai 1923;
+                                <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B208384"
+                                >ASCC 20838</ref>; Ludwig Grandpierre an Arnold Schönberg, 5. Mai
+                            1923; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B208397"
+                                >ASCC 20839</ref>)</note>
+                    </seg> zu überlassen. <lb/>Mir macht das einen in jeder Hinsicht soliden
+                    Eindruck. Sie können un<g ref="#typoHyphen"/>
+                    <lb break="no"/>möglich gezwungen werden, eine Abmachung mit dem <orgName
+                        key="org.265">Opernhaus</orgName> auch über <lb/>die zugesagte Aufführungsfrist hinaus zu halten. Sie setzen sich
+                        dann<del rendition="#s">e</del>
+                    <lb/>eben, wie schon manchmal, zwischen 2–3 Stühle. Alles was Herr <persName
+                        key="pers.1301">Grandpierre</persName>
+                    <lb/>schreibt, hat dagegen Hand und Fuss und ich halte es für das <bibl
+                        sameAs="werke.16">Werk</bibl> für <lb/>sehr günstig, wenn gerade hier
+                    gezeigt wird, dass nicht die grossen <lb/>Unternehm<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>en allein eine Aufführung wagen können, sondern, dass das e<del
+                        rendition="#s">ben</del>
+                    <lb break="no"/>bensogut von mehreren kleineren Vereinen gemein<del
+                        rendition="#s">r</del>sam geschehen kann. <lb/>Ich will mich Ihrer Erfahrung
+                    nicht allz<choice>
+                        <sic>n</sic>
+                        <corr cert="high">u</corr>
+                    </choice>sehr entgegenstemmen, aber <lb/>hier habe ich einen guten Eindruck, das
+                        <orgName key="org.265">Fr.-Opernhaus</orgName> hingegen hat uns <lb/>schon
+                    mehrmals aufsitzen lassen.</p>
+                <p>Zu unseren letzten Besprechungen (leider haben Sie<add place="superlinear">, wie
+                        ich höre,</add> einen Zug versäumt) <lb/>möchte ich noch sagen:</p>
+                <p>Zu einer Klärung der Situation können wir nur gelangen, wenn wir über <lb/>die
+                    Höhe der Auflagen einverstanden sind. Darum bitte ich Sie mir <lb/>so rasch als
+                    möglich einen verbindlichen Vorschlag zu machen, durch <lb/>welchen genau für
+                    alle Werke und alle deren Ausgaben, die gegenwärtige <lb/>Höhe der Auflage
+                    festgesetzt wird. In gewissen Einzelfällen wir<supplied cert="high">d</supplied>
+                    die <lb/>Angabe der vorhandenen Bestände ausserdem erforderlich sein und eine
+                    <lb/>gutgeschätzte Vermutung über den Zeitpunkt der Neuauflage.</p>
+                <p>Ich würde in beiderseitigem Interesse eine umgehende Erledigung <lb/>dieser
+                    Fragen für angezeigt halten, umsomehr, als nach meiner Auffas<g ref="#typoHyphen"/>
+                    <lb break="no"/>sung infolge des unanwendbaren Vertrages derzeit überhaupt kein Ver<choice>
+                        <sic>trag</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>trag besteht.</p>
+                <p>Weil ich es wünsche, nehme ich gerne an, dass es eine<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice> Möglichkeit zur <lb/>Einig<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>ung giebt. Aber ich<choice>
+                        <sic>h</sic>
+                        <corr type="deleted"/>
+                    </choice> muss wis<supplied cert="high">s</supplied>en, was mir meine früheren
+                    Werke <lb/>tragen können, ehe ich mich darauf einlassen kann, neue
+                    herzugeben.</p>
+                <closer>
+                    <salute>Mit herzlichen Grüssen bin ich Ihr ergebener</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

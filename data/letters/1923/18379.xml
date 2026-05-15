@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.18379"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Wiener Philharmonischer Verlag an Arnold Schönberg, 20. März 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.18379</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 18379</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.131">Wiener Philharmonischer Verlag</orgName>
+                    <placeName key="place.9.11.12.1">Wien, Suttnerplatz 10</placeName>
+                    <date when="1923-03-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/18379_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.18379_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener><stamp sameAs="stamp.138">
+                        <orgName key="org.131">WIENER PHILHARMONISCHER VERLAG A.
+                        G.</orgName>
+                        <lb/>BANKKONTO: <orgName key="org.266">ANGLO-AUSTRIAN
+                            BANK</orgName>
+                        <lb/>NIEDERLASSUNG WIEN<lb/>ÖST. POSTSPARKASSEN-KONTO: Nr.
+                        37 470<lb/>WIEN, <seg hand="#author">20. März</seg> 192<seg hand="#author">3</seg>
+                        <lb/>
+                        <subst>
+                            <del rendition="#s">IX/1, <placeName key="place.9.11.1.9">STRUDLHOFGASSE
+                                    13</placeName>
+                                <lb/>TELEPHON 21-3-57</del>
+                            <add place="sublinear">IV. <placeName key="place.9.11.12.1">SUTTNERPLATZ 10</placeName>
+                                <lb/>TELEFON 59-0-74</add>
+                        </subst>
+                    </stamp>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#g">
+                                <hi rendition="#u">Mödling</hi>
+                            </hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.4.1">Bernhardgasse
+                                6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Es tut mir wirklich leid, dass Sie auf mich ernst<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich böse sind, obwohl ich bei der Herstellung des Notenpapieres
+                    in der <lb/>
+                    <orgName key="org.1">U.E.</orgName> alles getan habe, um ein bestmögliches Resultat im Rahmen der mir
+                    <lb/>gegebenen Vorschriften bzw. Preisgrenzen herauszubekommen. Dass ich mir
+                    <lb/>damals tatsächlich grösste Mühe gegeben habe, brauche ich wohl nicht zu
+                        ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichern. Ein eigentliches
+                    Büttenpapier, wie es für diesen Zweck am ehesten <lb/>entsprochen hätte, ist
+                    nicht zu bekommen und ein anderes Papier in sehr <lb/>guter Qualität hätte die
+                        <orgName key="org.1">U.E.</orgName> erst in der Fabrik anfertigen lassen
+                    müssen. <lb/>Eine solche Anfertigung wird unter 1000 kg nicht gemacht und
+                    bedeutet eine <lb/>Ausgabe von 12–15 Millionen Kronen. Von demselben hätte
+                    man in absehbarer <lb/>Zeit höchstens 100 kg absetzen können und daher konnte
+                    sich Direktor <lb/>
+                    <persName key="pers.1538">Hertzka</persName> zur Anfertigung nicht entschliessen.</p>
+                <p>Wenn Sie mich mit der Herstellung des Notenpapieres <lb/>betrauen wollen, so
+                    werde ich mich sehr anstrengen, um Ihnen das zu
+                    bieten, <lb/>was man nur irgendwie unter den heutigen Verhältnissen erreichen
+                    kann, <lb/>vorausgesetzt, dass Ihnen von den Papiermustern, die mir von
+                    lagernden Sor<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten zugänglich sind, eines
+                    zusagt. Ich bitte daher, mir eine Vorlage für den
+                    <lb/>Raster und für das Papier zu senden und ich werde nichts unversucht lassen, <lb/>auch bezüglich des
+                    kürzesten Termines.</p>
+                <closer>
+                    <salute>Mit ergebensten Empfehlungen </salute>
+                    <lb/>
+                    <stamp sameAs="stamp.137" rendition="#r">
+                        <orgName key="org.131">„WIENER PHILHARMONISCHER
+                            VERLAG“ A. G.</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">Dr <persName key="pers.1750">Alfred Kalmus</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>NB. Der <orgName key="org.131">Wiener Philharmonische <lb/>Verlag</orgName> hat wohl eine eigene
+                        <lb/>Stecherei aber keine Druckerei.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

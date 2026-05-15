@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2307"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 19. Juli 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2307</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2307</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4.3.1">Paris, 192 rue de Rivoli</placeName>
+                    <date when="1933-07-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17610"/>
+                    <ref type="answered-by" target="letter.19893"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2307_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2307_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>Schoenberg, <placeName key="place.4.4.3.1">Hotel
+                                Régina</placeName>, 2 Place des Pyramides <hi rendition="#g">Paris</hi>
+                        </addrLine>
+                    </address>
+                    <stamp sameAs="stamp.157">
+                        <persName key="pers.3297">G. S.</persName>
+                    </stamp>
+                    <add place="intralinear" hand="#addressee">20/VII/33
+                            <gap reason="illegible" unit="words" quantity="1"/>
+                    </add>
+                    <lb/>
+                    <address>
+                        <addrLine>
+                            PT
+                            <orgName key="org.1">UE</orgName> Wien I. <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>ich verstehe nicht, dass Sie mich hier in <lb/>der grössten Verlegenheit sitzen
+                    lassen! Ich muss Ihnen <lb/>sagen, dass dieses Vorgehen <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> mein Vertrauen in
+                    einem <lb/>Mass erschüttert, welches ich vorläufig nicht ausdrücken
+                    <lb/>mag.</p>
+                <p>Sie werden inzwischen erfahren haben, dass  <lb/>ich durch einen hiesigen Freund <!-- nicht identifiziert -->bei dem <orgName key="org.27">Bankhaus
+                        <lb/>Friedenstein</orgName>, <placeName key="place.9.11.6.3">Börsengasse 12</placeName> habe anfragen lassen und dass <lb/>dieses im
+                    höchsten Grad erstaunt war, dass Sie mir diesen  <lb/>kleinen Betrag nicht
+                    schicken zu können vorgeben; es hat  <lb/>versprochen bei Ihnen anzurufen und
+                    Sie werden daraus  <lb/>sehen, dass man doch nicht ganz so wehrlos ist, als Sie
+                    <lb/>glauben; aber dass ich immerhin jetzt weiss, welcher Art  <lb/>Ihre
+                    Freundschaft für mich ist, wessen ich mich von Ihnen  <lb/>zu versehen habe.</p>
+                <p>Schon aus Achtung für mich hätten Sie mich <lb/>nicht in einer Notlage lassen
+                    dürfen. Und ich muss Ihnen <lb/>sagen: was immer man gegen <persName key="pers.1538">Herzka</persName> sagen mochte, so hat er <lb/>einen nie in
+                    Not gelassen! Das sollten Sie am allermeisten <lb/>berücksichtigen! Es hat noch
+                        <hi rendition="#g">keinem</hi> Segen gebracht, <lb/>der sich schlecht gegen
+                    mich benommen hat; <hi rendition="#g">Segen</hi> n<choice>
+                        <sic>c</sic>
+                        <corr type="deleted"/>
+                    </choice>icht, <lb/>das können Sie mir glauben!</p>
+                <p>Ich bin wirklich aufs tiefste enttäuscht, denn  <lb/>ich habe geglaubt, bei Ihnen
+                    Verständnis für meine Person <lb/>und Mitgefühl für das Unrecht zu finden, das
+                    mir durch <persName key="pers.1538">Herz<g ref="#typoHyphen"/>
+                        <lb break="no"/>ka</persName> geschehen war.</p>
+                <p>Ich rechne nun damit, dass ich in längstens <lb/>36 Stunden auf telegrafischem
+                    Weg das Geld erhalte: denn <lb/>ich bin schon zwei Hotelrechnungen hier
+                    schuldig.</p>
+                <p>Augenblicklich kann ich Sie nich<supplied cert="high">t</supplied> herzlich,
+                    <lb/>sondern nur hochachtungsvoll grüssen. Geben Sie sich Mühe, <lb/>die andere
+                    Art wieder zu verdienen.</p>
+                <closer>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schoenberg</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#author">par avion</note>
+            </div>
+        </body>
+    </text>
+</TEI>

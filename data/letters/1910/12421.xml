@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12421"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 11. November 1910</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12421</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12421</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.2">Berlin-Wilmersdorf, Halberstädterstraße
+                        6</placeName>
+                    <date when="1910-11-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.172"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12421_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12421_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>Halensee. <date when="1910-11-11">11.Nov.10</date>
+                    </dateline>
+                    <address>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.4.1.2">Halberstädterstr. 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>.</salute>
+                <p>Anbei schicke ich Ihnen an <seg type="comment">
+                        <orig>Kritiken</orig>
+                    <note xml:id="neny_kbk_pzb" resp="#KBleier"><p><ref target="event.8"/></p><p>Anzahl und Titel unbekannt; Rezensionen: <rs type="bibl"
+                                key="zotero-4528359-EEZ54NM2">Schmidt 1910</rs>; <rs type="bibl"
+                                key="zotero-4528359-GYPV3NGI">Norddeutsche Allgemeine Zeitung
+                                1910</rs>; <rs type="bibl" key="zotero-4528359-GCMZ6YZN"
+                                >Schwäbischer Merkur 1910</rs></p></note>
+                    </seg> das, was ich
+                    habe. – Mit <persName key="pers.2367">Messner</persName>
+                    <lb/>hatte ich wegen Ihrer symphonischen Dichtung „<bibl sameAs="werke.5"
+                        >Pelleas und Melisan<g ref="#typoHyphen"/>
+                        <lb break="no"/>de</bibl>“ korrespondiert. D. h.: ich hatte ihm geschrieben,
+                    aber keinerlei <lb/>Antwort von ihm erlangen können. Ich bin immer noch dafür
+                    sie unter <lb/>den Bedingungen zu nehmen, unter denen Sie sie uns angeboten
+                    hatten. <lb/>Aber Sie werden ja inzwischen mit der<orgName key="org.1">
+                        U.-E.</orgName> abgeschlossen haben!? <lb/>Ich hatte mit <persName
+                        key="pers.1538">Hertzka</persName> verabredet, dass ich ihm, falls wir auf
+                    das Werk <lb/>reflektierten, bis zu einem bestimmten Termine Nachricht geben
+                    würde. <lb/>Der Termin ist nun schon vorbei… Hoffentlich sind Sie nicht mit ei<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nem allzu grossen Katzenjammer von <placeName key="place.2.3"
+                        >Berlin</placeName>
+                    <seg type="comment">
+                        <orig>abgefahren</orig>
+                        <note xml:id="navn_jwd_ddc" resp="#KBleier"><placeName key="place.2.3"
+                                >Berlin</placeName>-Aufenthalt von <date when="1910-10-28">28.
+                                Oktober </date>bis <date when="1910-11-01">1. November 1910</date>
+                            (Anton Webern an Arnold Schönberg, 25. Oktober 1910; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B218364">ASCC
+                                21831</ref>; Carl Bernhard Philipsen an Arnold Schönberg, 9.
+                            November 1910; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B215385">ASCC
+                                21539</ref>)</note>
+                    </seg>?
+                    Schreiben Sie <lb/>mir bitte, wie die Sachen stehn.</p>
+                <closer rendition="#c">
+                    <salute>Mit besten Grüssen an Sie und Ihre <rs type="person" key="pers.3290">Frau</rs>
+                        <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

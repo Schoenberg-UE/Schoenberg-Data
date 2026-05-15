@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19924"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 30. Juni 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19924</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19924</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-06-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1348"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19924_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19924_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <rs type="person" key="pers.1750">Dr. K</rs>/<persName key="pers.4374">L.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1927-06-30">
+                            <subst>
+                                <del rendition="#ow">23</del>
+                                <add place="across">30</add>
+                            </subst>. Juni 1927</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Charlottenburg 2</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine rendition="#r">Pension Bavaria</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Unser grösstes Bestreben muss <lb/>für die Zukunft darin bestehen, die
+                    Reibungsflächen für die noch <lb/>laufende Vertragszeit, wenn irgendmöglich,
+                    auszuschalten. Nach <lb/>reiflicher Ueberlegung und Beratung sind wir zur
+                    Erkenntnis ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>langt, dass die einzige
+                    Möglichkeit darin besteht, dass wir die <lb/>beiden Konti und zwar das Konto für
+                    neue Werke und das Konto für <lb/>alte Werke vereinigen und in unserem Vertrag
+                    eine diesbezügliche <lb/>einverständliche Aenderung vornehmen. Dadurch wird die
+                        Vorschuss<g ref="#typoHyphen"/>
+                    <lb break="no"/>angelegenheit, die ja
+                    hauptsächlich zu Divergenzen geführt hat, <lb/>stark erleichtert. Wenn Sie
+                    grundsätzlich eine derartige Zusammen<g ref="#typoHyphen"/>
+                    <lb break="no"/>legung der beiden Kontis akzeptieren würden, glauben wir <add place="superlinear">Ihnen</add> auch ma<g ref="#typoHyphen"/>
+                    <lb break="no"/>teriell gewisse Vorteile bieten zu können, die auf Basis der jetzi<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen Zweiteilung nicht möglich wären.</p>
+                <p>Wir schicken Ihnen beigeschlos<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen eine
+                    Aufstellung <!-- nicht nachweisbar -->Ihres Kontos bis Ende <date when="1927-06">Juni</date> und zwar sowohl <lb/>für neue als auch für alte Werke. In
+                    dieser Aufstellung ist auch <lb/>die Verrechnung für das erste Halbjahr 1927 mit inbegriffen, die <lb/>zu unserem
+                    Bedauern recht ungünstig ist. Abgesehen von den allge<g ref="#typoHyphen"/>
+                    <lb break="no"/>meinen wirtschaftlichen Schwierigkeiten, die den Gesamtumsatz
+                        her<g ref="#typoHyphen"/>
+                    <lb break="no"/>abgesetzt haben, ist das Erträgnis
+                    in diesem Halbjahr im Vergleich <lb/>
+                    <choice>
+                        <sic>zu</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <pb n="2" xml:id="p.2"/>zu den früheren Abrechnungen gering, weil wir bei der
+                    letzten <ref target="document.23444">Ab<g ref="#typoHyphen"/>
+                        <lb break="no"/>rechnung</ref> alle in Kommission gelieferten Exemplare, ohne Rücksicht
+                    <lb/>darauf, ob sie verkauft oder eventuell noch remittiert werden, in <lb/>die
+                    Abrechnung als verkaufte Exemplare mit einbezogen haben. Die <lb/>Sache steht
+                    nun so, dass, wenn Sie unseren Standpunkt akzeptieren, <lb/>die Streitfrage, ob
+                    die letzten S. 1.000.– Vorschuss auf das alte <lb/>oder neue Konto kommen, entf<choice>
+                        <sic>ä</sic>
+                        <corr cert="high">a</corr>
+                    </choice>llen würde. Ebenso würde die Meinungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>verschiedenheit darüber entfallen, ob Sie pro <date when="1927-07-01">1. Juli</date> und pro <date when="1927-08-01">1. Au<g ref="#typoHyphen"/>
+                        <lb break="no"/>gust</date> auf Konto „neue
+                    Werke“ je Mk. 500.– zu bekommen haben, da wir <lb/>uns für den Fall,
+                    dass Sie der Zusammenlegung der beiden Konti zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmen, bereit erklären, ab <date when="1927-07-01">1.
+                        Juli</date> Ihnen nicht allein die für die <lb/>zwei Monate sonst nicht
+                    fälligen Zahlungen von je Mk. 500.– zu lei<g ref="#typoHyphen"/>
+                    <lb break="no"/>sten, sondern die Monatsraten bis zum Vertragsschluss erhöhen
+                    und <lb/>zwar in der Weise, dass Sie anstatt Mk. 500.– nunmehr monatlich
+                    <lb/>Mk. 600.– auf das Gesamtkonto Vorschuss erhalten<choice>
+                        <sic>.</sic>
+                        <corr type="deleted"/>
+                    </choice> würden. Nachdem <lb/>Ihr Konto für alte Werke bereits so stark
+                    belastet ist, dass für <lb/>die nächsten Jahre eine Tilgung dieser Beträge kaum
+                    in Aussicht <lb/>genommen werden kann, so ist unser Vorschlag für Sie unbedingt
+                        gün<g ref="#typoHyphen"/>
+                    <lb break="no"/>stig. Sie bekämen auf Grund dieses
+                    Vorschlages im Rahmen des bis<g ref="#typoHyphen"/>
+                    <lb break="no"/>her
+                    bestehenden Vertrages weit höhere Beträge als Sie sie auf der <lb/>bisherigen
+                    Basis regulär zu bekommen hätten. Das ist doch wohl <lb/>dasjenige, was Sie in
+                    erster Linie anstreben.</p>
+                <p>Die Berechnungen, deren Zusammenstellung <lb/>Sie gewünscht haben, ergeben leider
+                    ein sehr ungünstiges Resultat. <lb/>Auf Grund der Jahresdurchschnitte ist für
+                    alte Werke monatlich <pb n="3" xml:id="p.3"/>ca. S. 500.– und für neue
+                    Werke monatlich ca. S. 80.– bisher als <lb/>Tantièmenertrag zu verzeichnen
+                    gewesen, d. s. also nicht ganz <lb/>S. 600.– pro Monat. Wenn wir Ihnen Mk.
+                    600.– monatlich Tantièmen<g ref="#typoHyphen"/>
+                    <lb break="no"/>vorschuss
+                    vorschlagen, so sind das über S. 1.000.–, also beinahe <lb/>das Doppelte<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> dessen, was wir nach den bisherigen Durchschnitts<g ref="#typoHyphen"/>
+                    <lb break="no"/>zahlen erwarten können. Sie selbst dachten bei der
+                    Aufstellung <lb/>von dieser Durchschnittsziffer wohl daran, dass man jenen
+                    Betrag, <lb/>der sich als Durchschnitt ergibt, garantieren müsste. Das was
+                    <lb/>wir tun ist noch viel günstiger für Sie, da wir, unabhängig von <lb/>dem
+                    Vorschuss, Ihnen für die Vertragszeit noch bedeutend höhere <lb/>Erträgnisse
+                    auszahlen wollen.</p>
+                <p>Wir sehen jedenfalls Ihrer baldigen Rückäusserung <lb/>in dieser Sache entgegen
+                    und wären glücklich, wenn sie finden wür<g ref="#typoHyphen"/>
+                    <lb break="no"/>den, dass dieser von uns vorgeschlagene Weg ein wirklicher Ausweg <lb/>ist.
+                    Bei der ausserordentlichen Verehrung, die wir Ihnen entgegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>bringen, sind uns Divergenzen mit Ihnen, die in den
+                    letzten Monaten <lb/>immer wieder auftauchten, überaus peinlich und die ewigen
+                        Meinungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>verschiedenheiten darüber, ob
+                    ein Vorschuss auf das Konto neue <lb/>oder alte Werke zu buchen ist, eigentlich
+                    für uns beide recht un<g ref="#typoHyphen"/>
+                    <lb break="no"/>erquicklich. Wir
+                    glauben, dass in besonderen Fällen, wenn ein ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>heitliches Konto vorhanden sein wird, auch massvolle
+                        aussert<supplied cert="high">o</supplied>urli<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Wünsche viel leichter werden
+                    berücksichtigt werden können.</p>
+                <closer rendition="#r">
+                    <salute>In vorzüglicher Hochschätzung <lb/>ergebenst</salute>
+                    <signed>
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

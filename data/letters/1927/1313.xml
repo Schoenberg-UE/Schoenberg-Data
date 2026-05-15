@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1313"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Erwin Stein, 13. Mai 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1313</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1313</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1927-05-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.19916"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1313_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1313_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1927-05-13">13.V.1927</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber <persName key="pers.3612">Stein</persName>,</salute>
+                <p rendition="#inline">das <seg type="comment">
+                        <orig>Heft</orig>
+                    <note sameAs="letter.16808/#nafr_hbq_dzb"/></seg> ist ausgezeichnet. Ich bin wirklich <choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>nun stolz darauf, dass sich endlich nun doch soviele finden, <lb/>die nicht
+                    bloss durch Begeisterung für mich zu wirken im<g ref="#typoHyphen"/>
+                    <lb break="no"/>stand sind, sondern dadurch, dass das was sie schreiben an
+                    <lb/>sich beachtenswert ist als geistige Leistung. Vor Allem <lb/>Sie selbst:
+                    das ist wieder ein ausgezeichneter <bibl sameAs="schriften.121">Artikel</bibl>,
+                    <lb/>voll Klarheit, Klugheit und Verständnis. Es muss unbedingt <lb/>jedem schon
+                    das Niveau auf welchem alles sich bewegt, impo<choice>
+                        <sic>ni</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>nieren. Das ist kein Herumgerede mehr; hier wird mit ganz
+                    <lb/>neuen und doch so alten ästhetischen Begriffen in einer <lb/>eleganten und
+                    sicheren Weise operiert, dass man sieht, es <lb/>sind alle i<choice>
+                        <sic>m</sic>
+                        <corr cert="high">n</corr>
+                    </choice> einer so exakten Denkweise wirklich zuh<choice>
+                        <sic>ä</sic>
+                        <corr cert="high">a</corr>
+                    </choice>use. <lb/>Wie wohltuend ist der Unterschied einer solchen Schreib<g ref="#typoHyphen"/>
+                    <lb break="no"/>weise gegen die der Schriftsteller des Impressionismus. <lb/>
+                    <subst>
+                        <del rendition="#s">Hier</del>
+                        <add place="superlinear">Da</add>
+                    </subst> ist doch überall der Wille zu einer wirklichen Er<g ref="#typoHyphen"/>
+                    <lb break="no"/>kenntnis ästhetischer Werte vorhanden: hier wird nirgends
+                    <lb/>mehr auf die Mitgerissenheit des Lesers gerechnet. Dass <lb/>2 mal 2 vier
+                    ist, muss und kann man ohne Gemütsbewegung <lb/>glauben! Es stimmt ohne
+                    Stimmung.</p>
+                <p>Da es mir wirklich an Zeit fehlt allen <subst>
+                        <del rendition="#s">Teolnehmern</del>
+                        <add place="superlinear">Mitarbeitern</add>
+                    </subst> an die<g ref="#typoHyphen"/>
+                    <lb break="no"/>sem Heft selbst zu schreiben, bitte ich Sie irgend einen
+                    <lb/>Rahmenbrief, etwa unter Citierung des Anfangs und anderer <lb/>Teile dieses
+                    Briefes im Bureau in sieben Exemplaren her<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellen zu lassen, einiges verbindendes selbst hinzuzufügen
+                    <lb/>und die beiliegende Kopie dieses Briefes<!-- nicht nachweisbar --> in
+                    entsprechend <lb/>viele Teile zer<choice>
+                        <sic>s</sic>
+                        <corr type="deleted"/>
+                    </choice>schneiden zu lassen und jedem das auf ihn <lb/>bezügliche Stück mit dem
+                    Rahmenbrief zusammen zuzusenden. <pb n="2" xml:id="p.2"/>Ich bin aber nun doch
+                    von dieser Sache mit dem Rahmenbrief wie<g ref="#typoHyphen"/>
+                    <lb break="no"/>der abgekommen. Das ist zu umständlich. Ich glaube es ist am
+                        bes<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, wenn Sie den einzelnen meine Grüsse sagen und dass ich alle
+                    <lb/>sehr gut gefunden habe und mich sehr g<supplied cert="high">e</supplied>freut habe. Insbesondere <lb/>über das Niveau des Ganzen.</p>
+                <p>Insbesondere bitte ich Sie dem <persName key="pers.1055">Felber</persName> der,
+                    in der letzten Zeit <lb/>einige sehr schöne <seg type="comment">
+                        <orig>Aufsätze</orig>
+                        <note xml:id="nif3_lzy_gzb" resp="#pkehrer">Neben dem hier gemeinten Text
+                                <bibl sameAs="schriften.123">Pelleas und Melisande</bibl> z. B. <rs type="bibl" key="zotero-4528359-EBU5XZW9">Felber 1927</rs>
+                        </note>
+                    </seg> über mich geschrieben hat von mir <lb/>zu grüssen. Dann hat sich der
+                        <persName key="pers.76">Wiesengrund</persName> sehr gebessert. Der <lb/>
+                    <seg type="comment">
+                        <orig>schreibt</orig>
+                        <note xml:id="noh5_v1z_gzb" resp="#pkehrer">
+                            <bibl sameAs="schriften.124">Theodor W. Adorno, Orchesterstücke op. 16</bibl>
+                        </note>
+                    </seg> ja jetzt ganz anders, als anfangs. Und die Anal<choice>
+                        <sic>^</sic>
+                        <corr cert="high">y</corr>
+                    </choice>se ist <lb/>ausgezeichnet. Das wird Schule machen. Auch <seg type="comment">
+                        <orig>
+                            <persName key="pers.1702">Jalowetz</persName>
+                        </orig>
+                        <note xml:id="nh3s_dbz_gzb" resp="#pkehrer">
+                            <bibl sameAs="schriften.125">Heinrich Jalowetz, Die Gurrelieder</bibl>
+                        </note>
+                    </seg> ist sehr <lb/>hübsch und warm. Nur kommt er leider nicht über seinen
+                    Fehler <lb/>langer Einleitungen hinaus und es fehlt ihm dann der Raum zu
+                    <lb/>den Tatsachen. Er hätte en<supplied cert="high">t</supplied>schieden
+                    schriftstellerische Begabung <lb/>schreibt aber zu selten, um diese
+                    Anfängerschwierigkeiten zu <lb/>überwinden. Sehr hübsch finde ich auch die
+                    beiden <seg type="comment">
+                        <orig>Aufsätz<supplied cert="high">e</supplied>
+                        </orig>
+                        <note xml:id="nkdh_1cz_gzb" resp="#pkehrer"> <bibl sameAs="schriften.122">Hans Ferdinand Redlich, Schönbergs
+                                    Tonalität</bibl>; <bibl sameAs="schriften.126">Hans Ferdinand Redlich, Zu Schönbergs
+                                    Instrumentierung zweier Bachscher Choralvorspiele</bibl> </note>
+                    </seg> von <lb/>
+                    <persName key="pers.2900">Redlich</persName>. Aus dem kann was werden, wenn Sie
+                    ihn so in die Arbeit <lb/>nehmen wie ich es seinerzeit mit Ihnen getan habe: was
+                    ein aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gezeichnetes Resultat ergeben hat; denn Sie schreiben heute
+                    <lb/>schon besser als ich! Es sind in dem <persName key="pers.2900">Redlich'schen</persName> Aufsatz ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>schieden hübsche Gedanken drin. Nur gefällt er sich ein bischen
+                    <lb/>zu sehr darin ungewöhnliche Termini zu erdenken die er nicht <lb/>genügend
+                    erklärt, so dass man nur eine vage Vorstellung davon hat <lb/>was er meint.
+                    Sagen Sie ihm: Beispiele! Und gerade solche Ausdrück<supplied cert="high">e</supplied>
+                    <lb/>wie „radiale Polytonalität“ „der geometrische Ort“ (wessen?) u. <lb/>dgl
+                    muss man eng umschreiben. Auch was <seg type="comment">
+                        <orig>
+                            <persName key="pers.2075">Kunwald</persName>
+                        </orig>
+                        <note xml:id="ngmd_qdz_gzb" resp="#pkehrer">
+                            <bibl sameAs="schriften.127">Ernst Kunwald, Die Kammersymphonie</bibl>
+                        </note>
+                    </seg> und <seg type="comment">
+                        <orig>
+                            <persName key="pers.4309">Zemlinsky</persName>
+                        </orig>
+                        <note xml:id="nln4_5dz_gzb" resp="#pkehrer">
+                            <bibl sameAs="schriften.128">Alexander Zemlinsky, Einige Worte über das
+                                Studium von Schönbergs „Erwartung“</bibl>
+                        </note>
+                    </seg>
+                    <lb/>schreiben, ist sehr interessant und auch für mich günstig, weil <lb/>es
+                    Dirigenten sind, die doch vom Praktischen sprechen. <seg type="comment">
+                        <orig>
+                            <persName key="pers.1623">Horenstein</persName>
+                        </orig>
+                        <note xml:id="nufc_h2z_gzb" resp="#pkehrer">
+                            <bibl sameAs="schriften.129">Jascha Horenstein, Verklärte Nacht</bibl>
+                        </note>
+                    </seg>
+                    <lb/>trifft sich mit <persName key="pers.1702">Jalowetz</persName> in dem Urteil
+                    über meinen ersten Stil. <lb/>Das ist beides sehr hübsch und ich glaube auch
+                    richtig.</p>
+                <p>Also nun habe ich doch alles besprochen: Ihnen brauche ich nicht <lb/>zu danken:
+                    Sie haben sich selbst gedankt durch den grossen Fort<g ref="#typoHyphen"/>
+                    <lb break="no"/>schritt, den Sie in Ihrer Schriftstellerei gemacht haben, der
+                        Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen sicher bald eine sehr beachtete
+                    Position verschaffen wird. <lb/>Nochmals also: ich habe mich sehr gefreut.</p>
+                <p>Viele herzlichste Grüsse an Sie und Ihre <rs type="person" key="pers.3627">Frau</rs>, auch seitens <lb/>meiner <rs type="person" key="pers.3297">Frau</rs>. Wir kommen in circa 3 Wochen nach <placeName key="place.9.11">Wien</placeName>. Am <date when="1927-05-20">20</date> gebe <lb/>ich in der
+                        <orgName key="org.197">Akademie</orgName> ein <seg type="comment">
+                        <orig>Kompositionskonzert</orig>
+                        <note xml:id="nfzc_55k_3gc" resp="#KBleier">
+                            <ref target="event.230"/>
+                        </note>
+                    </seg> meiner Schüler: Könn<g ref="#typoHyphen"/>
+                    <lb break="no"/>te die <orgName key="org.1">UE</orgName> Sie nicht zu diesem als
+                    Referenten hersenden und um <lb/>eventuell den einen oder anderen Autor zu
+                    „erwerben“? Billig, <lb/>den <persName key="pers.4332">Zillig</persName>!</p>
+                <closer rendition="#inline">
+                    <salute>Ihr</salute>
+                </closer>
+                <postscript>
+                    <p>PS. Bitte sagen Sie in der <orgName key="org.1">UE</orgName>, ich bitte mir 2
+                        Exemplare meiner <lb/>
+                        <seg type="comment">
+                            <orig>Choralpartituren</orig>
+                            <note sameAs="letter.17625/#nyb3_hj1_dwb"/>
+                        </seg> zu senden. Ich habe von
+                        einem Stück überhaupt <lb/>keines. Und möchte doch den Aufsatz prüfen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

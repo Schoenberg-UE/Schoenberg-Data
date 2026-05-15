@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.6696"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 16. Mai 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6696</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC 6696</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1911-05-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Antwort auf <ref target="document.21348">Konzertdirektion Leonard an Universal-Edition, 9.
+                        Mai 1911</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6696_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6696_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.4">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>WIEN, XIII. <lb/>
+                        <placeName key="place.9.11.5.3">HIETZINGER
+                            HAUPTSTRASSE 113</placeName>
+                    </stamp>
+                    <dateline>
+                        <date when="1911-05-16">16/5.1911</date>
+                    </dateline>
+                </opener>
+                <salute>P. T. <orgName key="org.1">Univ. Edition.</orgName>
+                </salute>
+                <p>Antwort auf <ref target="document.21348">Brief</ref>
+                    <orgName key="org.102">Leonards</orgName>.</p>
+                <p>I. Theilweise <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nmsg_xrk_bgc" resp="#KBleier">
+                            <persName key="pers.3263">Arnold
+                                Schönberg</persName> war bereits <date when="1910">1910</date> an
+                                <persName key="pers.1112">Oskar Fried</persName> bezüglich einer
+                                <placeName key="place.2.3">Berliner</placeName> Aufführung der <bibl sameAs="werke.16">Gurre-Lieder</bibl> herangetreten. Dieser
+                            priorisierte unmittelbar die Aufführung von <bibl sameAs="werke.5">Pelleas und Melisande op. 5</bibl>. Anfang <date when="1911">1911</date> wurde die Planung im Hinblick auf die nächste Saison
+                            wieder aufgegriffen, die Organisation oblag der <orgName key="org.102">Konzertdirektion Leonard</orgName>. Da aus Kostengründen eine
+                            Gesamtaufführung nicht realisierbar schien und <persName key="pers.3263">Schönberg</persName> eine Teilaufführung ablehnte, kam kein Konzert
+                            zustande (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B
+                                16/3</rs>, S. 39; Oskar Fried an Arnold Schönberg, 24. Jänner 1911;
+                                <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B208782">ASCC 20878</ref>; Konzertdirektion Leonard an Arnold Schönberg, 18.
+                            Mai 1911; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B213494">ASCC
+                                21349</ref>)</note>
+                    </seg> der <bibl sameAs="werke.16">Gurre
+                        <lb/>Lieder</bibl> ist abzulehnen.</p>
+                <p>II. Notenmaterial unentgeltlich: <lb/>befürworte ich unter der Voraussetzung
+                    dass <lb/>als Entgelt <hi rendition="#u">der halbe Reingewinn zu</hi>
+                    <lb/>
+                    <hi rendition="#u">beanspruchen wäre.</hi>
+                </p>
+                <p>Das Uebrige habe ich selbst beant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wortet<!-- nicht ASCC -->.</p>
+                <p>Korrektur der <bibl sameAs="werke.5">Pelleas</bibl>-Partitur erfolgt <lb/>in
+                    8&#8211;10 Tagen.</p>
+                <p>In den nächsten Tagen schicke ich Fortsetzung <lb/>der <bibl sameAs="schriften.1">Harmonielehre</bibl>.</p>
+                <closer>
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

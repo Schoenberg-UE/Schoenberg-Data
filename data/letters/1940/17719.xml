@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17719"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 4. Mai 1940</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17719</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17719</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-I6XZLIU9">ASGA B 9</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1940-05-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.3404"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17719_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17719_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.71">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>TELEGR.-ADR.: MUSIKEDITION WIEN</stamp>
+                    <lb/>
+                    <seg rendition="#c">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.3067">R</persName>/<persName key="pers.4357">Bau</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1940-05-04">4. Mai
+                            1940</date>
+                    </dateline>
+                    <address>
+                        <addrLine rendition="#c">Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold
+                                Schoenberg</persName>
+                        </addrLine>
+                        <addrLine rendition="#c">
+                            <placeName key="place.15.7.3.1">116 North Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine rendition="#c">Brentwood Park</addrLine>
+                        <addrLine rendition="#c">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Los Angeles</hi>, Calif.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Wir danken Ihnen für Ihr <ref target="letter.3404">Schreiben</ref>
+                    <lb/>vom <date when="1940-02-14">14. II. d. J.</date>, das wir vor einigen Tagen
+                    erhielten. Wir begrüssen vor <lb/>allem, dass Sie uns über den Plan, eine
+                    Neuausgabe der Orchesterfassung <lb/>der „<bibl sameAs="werke.15">Verklärten Nacht</bibl>“ zu veranstalten, informiert haben.</p>
+                <p>Zunächst möchten wir einem Irrtum <lb/>entgegentreten. Die „<bibl sameAs="werke.13">Verklärte Nacht</bibl>“ ist seinerzeit im <orgName key="org.180">Dreililien-Verlag</orgName>
+                    <lb/>erschienen, der das Copyright des Werkes hätte anmelden müssen. Wir haben
+                    <lb/>sofort nach Erhalt Ihres Briefes uns mit dem jetzigen Inhaber<!-- nicht identifiziert --> des
+                        <lb/>
+                    <orgName key="org.180">Dreililien-Verlages</orgName> in Verbindung
+                    gesetzt, konnten jedoch auch von ihm keine <lb/>endgültige Mitteilung erhalten
+                    ob das Werk zum Copyright angemeldet wurde <lb/>oder nicht.</p>
+                <p>Richtig ist, dass die Orchesterausgabe <lb/>des Werkes von der <orgName key="org.1">U.E.</orgName> nicht zum Copyright angemeldet wurde. Wir haben
+                    <lb/>Herrn <persName key="pers.4190">Winter</persName>
+                    <seg type="comment">
+                        <orig>beauftragt</orig>
+                        <note xml:id="nuvv_znn_41c" resp="#pkehrer">Associated Music Publishers, Inc. an Arnold
+                        Schönberg, 23. Mai 1940 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B119337">ASCC 11833</ref>)</note>
+                    </seg> in
+                        <placeName key="place.15.12">Washington</placeName> festzustellen, ob die
+                    Erstausgabe <lb/>der „<bibl sameAs="werke.13">Verklärten Nacht</bibl>“ zum
+                    Copyright angemeldet worden ist. Wenn dies der <lb/>Fall ist, so ist eine
+                    Neuausgabe ohne Bewilligung des Eigentümers des <lb/>Copyrights, in diesem Falle
+                    des <orgName key="org.33">Verlags Birnbach</orgName>, <placeName key="place.2.3">Berlin</placeName>, nicht möglich. Der <lb/>
+                    <orgName key="org.33">Verlag Birnbach</orgName> kann diese Bewilligung
+                    allerdings wieder nicht ohne <lb/>unsere Zustimmung erteilen.</p>
+                <p>Auf jeden Fall wird es daher ratsam <lb/>sein, wenn der Verlag, der die Neuausgabe veranstaltet,
+                    sich <del rendition="#s">früher</del> mit uns <lb/>ins Einvernehmen setzt. Wir
+                    werden dann unsererseits mit dem <orgName key="org.33">Verlag Birnbach</orgName>
+                    <lb/>in Verbindung treten.</p>
+                <p>Mit Rücksicht auf die bei uns bereits <lb/>erschienene <bibl sameAs="werke.14">Orchester-Ausgabe</bibl> würden wir es allerdings sehr begrüssen, <lb/>wenn
+                    es möglich wäre, dass die Neufassung nicht in einem fremden Verlag, <lb/>sondern
+                    nach Möglichkeit bei der <orgName key="org.23">A.M.P.</orgName> erscheinen
+                    würde, mit der wir leicht <lb/>eine entsprechende Vereinbarung treffen könnten.
+                    Wesentlich für die Beurteilung <lb/>der Rechtslage wäre auch die Frage inwieweit
+                    die Neuausgabe von der bei <lb/>uns erschienenen Fassung abweicht.</p>
+                <closer>
+                    <salute rendition="#r">Hochachtungsvoll</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.73" rendition="#r">
+                        <orgName key="org.1">Universal-Edition
+                            Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

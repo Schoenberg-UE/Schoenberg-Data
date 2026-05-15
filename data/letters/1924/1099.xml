@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1099"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 2. Oktober 1924</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1099</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1099</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1924-10-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.24330"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1099_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1099_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>MÖDLING, <date when="1924-10-02">
+                            <seg hand="#author">2.X. </seg>192<seg hand="#author">4</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">anbei mit bestem Dank <lb/>die Abschrift des Briefes an
+                        <!-- nicht nachgewiesen --><persName key="pers.2177">Lipsky</persName>. Ich
+                    <lb/>war von vornherein überzeugt, dass sich <lb/>die Sache so auf diese Art
+                    aufklären <lb/>wird. Das ist allerdings ziemlich krass <lb/>und es zeigt sich
+                    wieder, dass es mit <lb/>der gerühmten <placeName key="place.2">deutschen</placeName> Solidität nicht <lb/>so weit her ist.</p>
+                <p>Besten Dank für Ihre Bemühung, <subst>
+                        <del rendition="#ow">in</del>
+                        <add place="across">mir</add>
+                    </subst> die <lb/>
+                    <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.3.6.6">Adresse</placeName>
+                            <persName key="pers.940">Einsteins</persName>
+                        </orig>
+                        <note xml:id="nqtd_rkj_hgc" resp="#pkehrer">Adressbucheintrag (<ref
+                                target="https://archive.schoenberg.at/resources/?r=3881">ASCI
+                                A3881</ref>)</note>
+                    </seg> zu verschaffen. Wäre es <lb/>Ihnen möglich, eine <seg type="comment">
+                        <orig>Verbindung</orig>
+                        <note xml:id="nhs4_2lj_hgc" resp="#pkehrer">Erster erhaltener Brief von
+                            Arnold Schönberg an Albert Einstein, 1. Jänner 1925 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B009903">ASCC
+                                990</ref>). In der Korrespondenz beklagt <persName key="pers.3263"
+                                >Schönberg</persName>, dass seine Bedeutung als Musiker in
+                                <placeName key="place.2">Deutschland</placeName> aus
+                            (kultur-)politischen und antisemitischen Gründen ignoriert werde, obwohl
+                            er im Ausland als führende Figur gelte. Er äußert sich kritisch zur Idee
+                            einer spezifisch jüdischen Kunstmusik und betont den umfassenden, aber
+                            schwer zu trennenden Einfluss jüdischen Geistes auf die gesamte
+                            abendländische Musik. Ferner regt er ein persönliches Gespräch über die
+                            Gründung eines jüdischen Staates an, wobei er sich differenziert vom
+                            offiziellen Zionismus abgrenzt (<rs type="bibl"
+                                key="zotero-4528359-D2DNBKHN">Schoenberg 1987</rs>)</note>
+                    </seg> zwischen <lb/>
+                    <persName key="pers.940">E.</persName> und mir herzustellen? Ich möchte gerne
+                    <lb/>mit ihm über einiges sprechen.</p>
+                <closer rendition="#inline">
+                    <salute>Herzlich<g ref="#typoHyphen"/>
+                        <lb break="no"/>st<choice>
+                            <sic>t</sic>
+                            <corr type="deleted"/>
+                        </choice>en Dank im Voraus und allerbeste Grüsse, <lb/>Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

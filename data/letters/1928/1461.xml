@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1461"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Pult und Taktstock, 6. Mai 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1461</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1461</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1928-05-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.191">Pult und Taktstock</orgName>
+                </correspAction>
+                <note>= <bibl sameAs="schriften.59">Studierziffern</bibl>; Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1461_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1461_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <p>
+                    <note place="left">nachprüfen <lb/>ob es stimmt</note>Liebes Pult, <lb/>Es wäre
+                    auch an eine Bezeichnung jedes Taktes durch <lb/>Buchstaben allein, oder
+                    Buchstaben und Ziffern zu denken. <lb/>
+                    <subst>
+                        <del rendition="#s">Bei</del>
+                        <add place="superlinear">Mit</add>
+                    </subst>
+                    <add place="superlinear">bloss zwei</add> Buchstaben <del rendition="#s">allein</del> kann man <del rendition="#s">mit bloss zwei Buch</del> schon
+                    <lb/>625 Takte bezeichnen A – Z, dann: AA AB <del rendition="#s">
+                        <gap reason="illegible" quantity="5" unit="chars"/>
+                    </del> –AZ; AC usw. <lb/>mit drei Buchstaben aber über 15000! Und drei
+                    Buchstaben <lb/>nennt man rascher, als eine dreistellige Zahl (Man könnte
+                    <lb/>allerdings die dreistellige<supplied cert="high">n</supplied> Zahlen auch
+                    bloss durch <lb/>Nennung der Ziffern aus<supplied cert="high">s</supplied>prechen; z. B. statt dreihundert<g ref="#typoHyphen"/>
+                    <lb break="no"/>fünfundsechzig: drei-sechs-fünf). Aber auch eine Kombination
+                    <lb/>von Buchstaben und Zahlen ergäbe Vorteile. Wenn man z<del rendition="#s">um</del> B. <lb/>bei Takt „O -drei -sieben“ oder bei „M-einundvierzig“. Mit
+                    <lb/>dieser Methode könnte man unter benützung von nur drei <choice>
+                        <sic>Zei</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>Zeichen ungefähr 2500 Takte bezeichnen, während man bei <lb/>Ziffern allein
+                    nur <add place="superlinear">auf</add> 999 kommt. Nimmt man aber bei besonders
+                    <lb/>langen Werken, z. B Opern eine vierte Stelle dazu, so gelangt <lb/>man bei
+                    einem Buchstaben und drei Ziffern zu 25000, <del rendition="#s">Takten,</del>
+                    <lb/>bei zwei Buchstaben und zwei Ziffern aber zu 62000 Takten. <lb/>Ein Akt
+                        <persName key="pers.3946">Wagner</persName> dürfte kaum viel mehr als 5000
+                    Takte (500 <lb/>Seiten zu etwa 10 Takten) haben. Man sieht also, dass man
+                    <lb/>sehr gut auskommen könnte. <lb/>
+                    <seg rendition="#r">
+                        <rs type="person" key="pers.3263">Jens Quer</rs>
+                    </seg>
+                </p>
+                <p>Lieber Taktstock, <lb/>bitte notfalls etwas besser formulieren und ohne jede Na<g ref="#typoHyphen"/>
+                    <lb break="no"/>mensnennung zu bringen.</p>
+                <closer rendition="#inline">
+                    <salute>Beste Grüsse, ich habe keine Zeit</salute>
+                    <lb/>
+                    <seg rendition="#r">Ihr <signed>
+                            <persName key="pers.3263">Arnold
+                                Schönberg</persName>
+                        </signed>
+                    </seg>
+                    <dateline rendition="#c">
+                        <date when="1928-05-06">6/V.1928</date>
+                    </dateline>
+                </closer>
+                <postscript>
+                    <p>dabei <lb/>würde schon etwas <lb/>brauchbares herausschauen <lb/>Man müsste
+                        allerdings <lb/>für die Buchstabenaufeinander<g ref="#typoHyphen"/>
+                        <lb break="no"/>folge eine Vorlage <lb/>
+                        <gap reason="illegible" unit="words" quantity="2"/>
+                        <lb/>„Numerirtem“ <lb/>haben </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

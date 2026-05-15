@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2611"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 17. Jänner 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2611</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2611</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.15.1">Brookline, 1284 Beacon Street</placeName>
+                    <date when="1934-01-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.20229"/>
+                    <ref type="answered-by" target="letter.17612"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2611_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2611_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.32">
+                        <persName key="pers.3263">ARNOLD
+                        SCHOENBERG</persName>
+                        <lb/>PELHAM HALL<lb/>
+                        <placeName key="place.15.15.1">1284 BEACON STREET</placeName>
+                        <lb/>BROOKLINE – MASS.<lb/>TEL. BEACON
+                            2430</stamp>
+                    <dateline>
+                        <lb/>
+                        <date when="1934-01-17">17.I.1934</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn Dr. <persName key="pers.1750">Kalmus</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I. <placeName key="place.9.11.6.12">Karlsplatz
+                            6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr Dr. <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p>ich habe eine Bitte an Sie: ich muss mein En<g ref="#typoHyphen"/>
+                    <lb break="no"/>glisch möglichst rasch ve<supplied cert="high">r</supplied>vollkommnen. Es geht schon <lb/>verhältnismässig gut; das meiste
+                    Schwierige kann ich <lb/>schon ganz gut sagen, aber fast alles Leichte geht noch
+                    <lb/>fast so schlecht, wie im Deutschen. Immerhin kann ich <lb/>schon, wenns
+                    nötig ist, einen Brief ohne Konzept schrei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben. Aber ich muss unbedingt in gewissen grammatikali<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen Dingen sicherer werden. Dazu brauche ich eine <lb/>gute
+                    Grammatik oder vielleicht sogar besser 2. Und <lb/>zwar eine für Mittelschulen,
+                    wo man alles von Grund auf <lb/>lernen und (insbesondere!) nachschlagen kann.
+                    Dann aber <lb/>vielleicht eine für die höhere Ausbildung. Es gibt doch
+                    <lb/>sicherlich so etwas für Hochschüler? Ich überlasse die <lb/>Auswahl der
+                    Bücher schon aus Zeitmangel ganz Ihrer Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht. Sie sind doch genug <placeName key="place.15">Amerikaner</placeName> um zu wissen, was <lb/>ich brauche. Die Hauptsache
+                    aber ist: <hi rendition="#g">rasch</hi>!</p>
+                <p>Nun brauche ich aber noch ein Buch. Nämlich: Tous<g ref="#typoHyphen"/>
+                    <lb break="no"/>saint-Langenscheidts:</p>
+                <p>
+                    <seg type="comment">
+                        <orig>Phraseologie der englischen Sprache</orig>
+                        <note xml:id="nuk5_1qn_m5b">
+                            <rs type="bibl" key="zotero-4528359-PSKK5KKK">Loewe 1926</rs> (Exemplar aus dem Schönberg-Nachlass; <ref target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=5399&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19">BOOK L32</ref>)</note>
+                    </seg>.</p>
+                <p>Ich bin zwar ganz ueberzeugt davon, dass es sehr <lb/>veraltet ist und nur in
+                    einer so gemeinen und unzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>länglichen Weise
+                    modernisiert ist, wie alle diese Schund<g ref="#typoHyphen"/>
+                    <lb break="no"/>sachen. Aber es dürfte doch für mich nichts anderes übrig<g ref="#typoHyphen"/>
+                    <lb break="no"/>bleiben und ich werde es in Kauf nehmen müssen, dass zwar
+                    <lb/>ein paar flotte Worte über das Automobilfahren („Geben <lb/>Sie doch
+                    Ihrer alten Karre etwas mehr Gas!“) eingefügt <lb/>wurden, aber dass
+                    daneben im Kapitel „Im Gasthofe“ der <lb/>„Reisende“
+                    sagt: „Hausknecht, haben Sie vorhin nicht ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>hört, wie ich die Glocke gezogen habe? Ich kann den Stie<g ref="#typoHyphen"/>
+                    <lb break="no"/>felknecht nicht finden, weil es finster
+                    in dem Zimmer <lb/>ist. Bringen Sie mir allsogleich eine Kerze!“ Aber
+                        immer<g ref="#typoHyphen"/>
+                    <lb break="no"/>hin wird das Englisch Englisch
+                    sein und das brauche ich.</p>
+                <p>Wenn Sie es wuenschen, kann ich Ihnen den Kosten<g ref="#typoHyphen"/>
+                    <lb break="no"/>betrag in einem Check schicken. Aber vielleicht ist es <lb/>doch
+                    richtiger, ihn von meinem Konto abzuschreiben.</p>
+                <p>Noch eine kleine Bitte: möchten Sie nicht Herrn <lb/>
+                    <persName key="pers.3612">Stein</persName> fragen, was mit meinen <seg type="comment">
+                        <orig>Bibliotheken</orig>
+                        <note xml:id="nuym_3gy_31c" resp="#pkehrer">Bibliothek des <orgName key="org.178">Vereins für musikalische Privataufführungen</orgName>
+                            sowie der Grundstock der im <ref target="document.24393">Protokoll, 19.
+                                November 1924</ref> geplanten „Arnold Schönberg-Bibliothek“ 
+                                (<rs type="bibl" key="zotero-4528359-E4YVWCWG">Krones
+                            2013</rs>)</note>
+                    </seg> ist. Ich brau<g ref="#typoHyphen"/>
+                    <lb break="no"/>che die sehr dringend hier.<pb n="2" xml:id="p.2"/>
+                </p>
+                <p>Von mir muss ich leider etwas Unerfreuliches be<g ref="#typoHyphen"/>
+                    <lb break="no"/>richten: seit den ersten <date when="1933-12">Decembertagen</date> hatte ich wieder <lb/>eine Grippe mit fürchterlichem
+                    Husten und wiederhol<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Rückfällen, deren letzter dazu geführt hat, dass <lb/>ich
+                    auf der Fahrt zu meinem <placeName key="place.15.1">Bostoner</placeName> ersten
+                    Konzert <lb/>(nachdem ich schon tags vorher in <placeName key="place.15.2">Cambridge</placeName> bei <placeName key="place.15.1">Boston</placeName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>dasselbe Programm</orig>
+                        <note xml:id="nbyl_msy_wcc" resp="#pkehrer">
+                            <ref target="event.57"/>
+                        </note>
+                    </seg> dirigiert hatte) einen so heftigen <lb/>plötzlichen
+                    Hustenanfall bekam, dass mir irgendetwas <lb/>dabei
+                    gerissen ist, vermutlich ein Muskel, und ich sol<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Schmerzen bekam, dass ich beide <seg type="comment">
+                        <orig>Konzerte</orig>
+                        <note xml:id="nnm1_j2z_wcc" resp="#pkehrer"><ref target="event.89"/>; <ref target="event.90"/>
+                        </note>
+                    </seg> (<date when="1934-01-12">12</date> u. <date when="1934-01-13">13.</date>) <lb/>und
+                    einen <seg type="comment">
+                        <orig>Vortrag</orig>
+                        <note xml:id="nfld_fgz_wcc" resp="#pkehrer">
+                            <ref target="event.91"/>
+                        </note>
+                    </seg> an der <orgName key="org.138">Princeton University</orgName>
+                    <add place="right">
+                        <date when="1934-01-15">15.I.</date>
+                    </add> (<bibl sameAs="schriften.53">Ueber <lb/>die 12-Ton-Komposition</bibl>)
+                    absagen musste. Ich werde wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich die Konzerte <seg type="comment">
+                        <orig>nachtragen</orig>
+                        <note xml:id="nd5z_qkz_wcc" resp="#pkehrer"><ref target="event.92"/>; <ref target="event.93"/>
+                        </note>
+                    </seg> können,
+                    aber den <lb/>Vortrag kaum. Wahrscheinlich werde ich ihn in <placeName key="place.15.5">Chicago</placeName>
+                    <lb/>halten, wo ich am <date when="1934-02-08">8.</date> u. <date when="1934-02-09">9. II.</date>
+                    <seg type="comment">
+                        <orig>dirigieren soll</orig>
+                        <note xml:id="nedb_5mz_wcc" resp="#pkehrer"><ref target="event.52"/>; <ref target="event.53"/>
+                        </note>
+                    </seg> und an einem <lb/>vom „<orgName key="org.21">Arts
+                        Club</orgName>“ mir zu Ehren veranstalteten <seg type="comment">
+                        <orig>Empfang</orig>
+                        <note xml:id="ns2d_3pz_wcc" resp="#pkehrer">
+                            <ref target="event.95"/>
+                        </note>
+                    </seg>
+                    <lb/>teilnehmen soll. Hoffentlich bin ich bis dorthin wie<g ref="#typoHyphen"/>
+                    <lb break="no"/>derhergestellt. Jetzt geht es mir schon besser, <choice>
+                        <sic>am</sic>
+                        <corr type="deleted"/>
+                    </choice> beim<note place="right" hand="#author">Ich habe <supplied cert="high">v</supplied>ergessen den Papierschalter zu fixieren</note>
+                    <lb/>Husten, der ja einer meiner Hauptberufe ist, tut es <lb/>mir noch immer
+                    mörderisch weh.</p>
+                <p>Grüssen Sie bitte alle meine Freunde und erzählen Sie <lb/>ihnen, was sie
+                    interessiert.</p>
+                <closer>Ich danke Ihnen im Voraus herzlichst für die freundliche <lb/>Erfüllung
+                    meiner Bitten und grüsse Sie, sowie meine <lb/>Freunde im Hause aufs
+                    herzlichste, Ihr <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                            Schoenberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>NB: Wer hat bei Ihnen das <bibl sameAs="werke.16">Gurrelieder</bibl>-Material
+                        <lb/>bestellt. Ich habe hier auch etwas davon gehört, <lb/>kann mich aber
+                        beim besten Willen nicht <lb/>erinnern wer mir es gesagt hat. Wahrscheinlich
+                        <lb/>bei einem dieser Empfänge, wo ich ja <lb/>in Narkose gewesen bin.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

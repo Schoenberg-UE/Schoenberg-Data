@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19997"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 9. November 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19997</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19997</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-11-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.2">Berlin, Kantstraße 4</placeName>
+                </correspAction>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19997_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19997_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.3067">R</persName>/<persName key="pers.4362">M.</persName>
+                    <dateline>, <date when="1927-11-09">9. November 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">BERLIN-CHARLOTTENBURG 2,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.2">Kantstr. 4</placeName>/IV r.</addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Als ich mich von Ihnen am <date when="1927-11-04">Freitag</date> Abend
+                    verabschiedet <lb/>habe, hat meine Erkältung noch immer zu gewissen Hoffnungen
+                        be<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechtigt. Am <date when="1927-11-05">Samstag</date> aber musste
+                    ich alle Hoffnung fallen lassen <lb/>und blieb zu Bette. Es wurde mir dann zwar
+                    etwas besser, aber <lb/>einerseits mein Gesundheitszustand und andererseits
+                    einige wich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tige <placeName key="place.9.11">Wiener</placeName>
+                    Angelegenheiten veranlassten mich, <date when="1927-11-07">Montag</date> alles
+                    liegen <lb/>und stehen zu lassen und nach <placeName key="place.9.11">Wien</placeName> zurückzukehren. Ich bitte Sie <lb/>also, vielmals zu
+                    entschuldigen, dass ich mich, wie zugesagt, nicht <lb/>mehr melden konnte. Ich
+                    habe am <date when="1927-11-07">Montag</date> früh noch mit Dr. <persName key="pers.1962">Kopsch</persName> in <lb/>der <orgName key="org.73">G. d.
+                        T.</orgName> eine lange Besprechung gehabt. Es hat sich herausgestellt,
+                    <lb/>dass der <orgName key="org.180">DREI-LILIEN-VERLAG</orgName> Mitglied der
+                        <orgName key="org.73">G. d. T.</orgName> ist und dass Sie <lb/>für die
+                    Werke, die im <orgName key="org.180">Drei-Lilien-Verlag</orgName> erschienen
+                    sind, daher die <lb/>Tantiemen erhalten. Ich bin absichtlich der Sache nicht
+                    weiter nach<g ref="#typoHyphen"/>
+                    <lb break="no"/>gegangen, ob und wie weit der <orgName key="org.180">Drei-Lilien-Verlag</orgName> berechtigt ist, <lb/>für „<bibl sameAs="werke.14">Verklärte Nacht</bibl>“, Streichorchester-Bearbeitung,
+                    Tantiemen für <lb/>sich in Anspruch zu nehmen,
+                    nachdem meine eingehenden wichti<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen Besprechungen mit Dr. <persName key="pers.1962">Kopsch</persName> möglicherweise ein Resultat zeigen <lb/>werden, das Ihren
+                    Wünschen und Interessen ausserordentlich entgegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommt. Ich kann vorläufig noch nichts Bestimmtes sagen, da ich
+                    mich <pb n="2" xml:id="p.2"/>hier mit der Materie erst weiter beschäftigen muss.
+                    Infolge meiner <lb/>plötzlichen Rückreise ist auch die Ihnen zugesagte
+                    Intervention <lb/>bei <persName key="pers.2283">Marschalk</persName> vorerst
+                    unterblieben.</p>
+                <closer>Indem ich Ihnen und Ihrer verehrten <rs type="person" key="pers.3297">Frau</rs> noch herzlich <lb/>für Ihre liebe Gastfreundschaft danke,
+                    verbleibe ich mit besten <lb/>Grüssen <lb/>
+                    <salute rendition="#r">Ihr, in warmer Verehrung sehr ergebener</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

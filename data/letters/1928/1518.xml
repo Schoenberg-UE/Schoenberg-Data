@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1518"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 31. Oktober 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1518</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1518</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                    <date when="1928-10-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.16815"/>
+                    <ref type="answered-by" target="letter.16816"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1518_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1518_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Roquebrune Cap Martin</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.6.1">Pavillon Sévigné</placeName>
+                        </addrLine>
+                        <addrLine>Frankreich</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1928-10-31">31/X.1928</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3612">Erwin Stein</persName>
+                        </addrLine>
+                        <addrLine>Wien, Iv. <placeName key="place.9.11.12.6">Mommsenstrasse
+                     13</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber <persName key="pers.3612">Stein</persName>,</salute>
+                <p rendition="#inline">ich danke Ihnen für Ihren <ref target="letter.16815">Brief</ref>,
+               für <lb/>die Zusendung und Ausfüllung der Aufführungslisten <lb/>des vergangenen und
+               dieses Jahres und ma<supplied cert="high">n</supplied>ches andere. <lb/>Dagegen
+                  habe<supplied cert="high">n</supplied> Sie aber fast alle Fragen meines letzten <lb/>
+                    <ref target="letter.1505">Briefes</ref> nicht beantwortet.
+               Insbesondere nicht die Hono<g ref="#typoHyphen"/>
+                    <lb break="no"/>rarfrage. Auch wegen
+               der <placeName key="place.22.1">Buenos Ayeres</placeName>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note sameAs="letter.1505/#ncc2_ww3_pzb"/>
+                    </seg> der <lb/>
+                    <bibl sameAs="werke.16">Gurrelieder</bibl> u. s. w. –
+               Ferner: was ist mit Ihren Fragen zum <lb/>
+                    <bibl sameAs="schriften.45">Interwieuv</bibl>; wann erscheint es etc?</p>
+                <p>Die Zahl meiner Aufführungen in diesem Jahre ist nicht <lb/>überwältigend, aber
+               insgesammt doch besser, als ich ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>glaubt
+               hatte.</p>
+                <p>Was die <persName key="pers.252">Bach</persName>-<bibl sameAs="werke.32">Bearbeitung</bibl> anbelangt, so kann ich eine <lb/>„zweite
+                        Fassung<supplied cert="high">“</supplied> hier nicht zugeben, da meine
+                    Leistung <lb/>ja hier nur in der „Fassung überh<choice>
+                        <sic>“</sic>
+                        <corr cert="high">a</corr>
+                    </choice>upt“ besteht. Aber <lb/>ich habe nichts dagegen, wenn Sie etwa 2–3
+                    Materiale <lb/>für kleinere Städte extra herrichten lassen, in welchem <lb/>die
+                    Einziehung (nur um eine solche darf es sich hier <lb/>handeln) systematisch
+                    durchgeführt wird. Ich habe <lb/>dann auch nichts dagegen, wenn man solche
+                    Exemplare <lb/>di<supplied cert="high">e</supplied>sen betreffenden Städten
+                    direkt anträgt. Abe<choice>
+                        <sic>t</sic>
+                        <corr cert="high">r</corr>
+                    </choice> ich <lb/>m<supplied cert="high">uss dan</supplied>n ganz sicher sein,
+                    dass <hi rendition="#g">nie</hi> eine Stad<choice>
+                        <sic>d</sic>
+                        <corr type="deleted"/>
+                    </choice>t, <lb/>welche die Originalausgabe aufführen kann, auch nur von
+                    <lb/>der Existenz offizieller Ei<supplied cert="high">n</supplied>ziehungen
+                    erfährt!!!</p>
+                <p>Sie schreiben mir auch nicht, worum ich Sie bat, ob <add place="sublinear">
+                        <persName key="pers.1167">Furtwängler</persName>
+                    </add>
+                    <pb n="2" xml:id="p.2"/>meinen <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nybs_3cj_pzb" resp="#pkehrer">Arnold Schönberg an Wilhelm
+                            Furtwängler, 21. September 1928 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B012402">ASCC
+                                1240</ref>)</note>
+                    </seg> von beiläufig dem <date when="1928-09-15">15.IX.</date> erhalten hat.
+                    <lb/>Ich schrieb ihm darin auch, er möge die <bibl sameAs="werke.64">Variationen</bibl>
+                    <lb/>längere Zeit vorher mit dem Orchester einmal durchlesen, <lb/>weil dann die
+                    Leute die Stimmen ein bischen üben werden, <lb/>wenn sie sehen, wie exponiert
+                    alles ist und das<supplied cert="high">s</supplied> man nicht <lb/>schwindeln
+                    kann.</p>
+                <p>Ich bleibe hier noch einige Wochen, wenn ich, <lb/>was ich hoffe, weiter gut
+               arbeite.</p>
+                <p>Habe ich Ihnen gesagt, dass ich einen Text zu <lb/>einem Oratorium „<bibl sameAs="schriften.13">Moses und Aron</bibl>“ im ersten Entwurf fertig <lb/>gemacht habe? Ob ich das bald werde komponieren können, <lb/>weiss ich
+               allerdings nicht.</p>
+                <p>Lassen Sie bald von sich hören! Viele herzlich<g ref="#typoHyphen"/>
+                    <lb break="no"/>ste Grüsse von meiner <rs type="person" key="pers.3297">Frau</rs> und mir an <subst>
+                        <del rendition="#ow">Sie und Ihre Frau</del>
+                        <add place="across">Ihre <persName key="pers.3627">Frau</persName> und Sie</add>
+                    </subst>
+                </p>
+                <closer>
+                    <salute>Ihr</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

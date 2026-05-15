@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20247"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 9. März 1935</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20247</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20247</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1935-03-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1">Los Angeles, Hollywood</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.7247"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.24059">Abrechnung, 31. Dezember 1934</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20247_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20247_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.41">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>TELEGRAMM-ADRESSE:
+                        MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN 57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1953-03-09">9.
+                            März 1935</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3263">Arnold </persName>
+                            <hi rendition="#g">
+                                <persName key="pers.3263">Schönberg</persName>,</hi>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">
+                                    <placeName key="place.15.7.1">Hollywood</placeName>,</hi>
+                                California</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Besten Dank für Ihre lieben <ref target="letter.7247">Zeilen</ref> vom <date when="1935-02-19">19. Februar</date> mit der <lb/>Weisung, Ihrem Sohn
+                        <persName key="pers.3281">Georg</persName> bis auf weiteres monatlich $
+                    50.– aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>zubezahlen. Wir würden, wie
+                    Sie sich denken können, Ihrem Wunsche <lb/>mit grösstem Vergnügen nachkommen,
+                    doch ist der Stand der Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnung ihrer
+                    Werke leider kein solcher, dass wir durch mehrere <lb/>Monate in der angegebenen
+                    Weise disponieren können.</p>
+                <p>Ihre <ref target="document.24061">Abrechnung</ref> für das 1. Semester <date when="1934">1934</date> haben Sie <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> voll<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen ausbezahlt erhalten, die <ref target="document.24059">Abrechnung</ref> für das 2. Semester <lb/>
+                    <date when="1934">1934</date> folgt anbei. Daraus ersehen Sie, dass wir noch um
+                    S 209.28 <lb/>mehr als die Abrechnung ergibt, an <persName key="pers.3281">Georg
+                        Schönberg</persName> bisher ausbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>zahlt haben. Um Ihrem Sohn zu helfen, erklären wir uns bereit,
+                    ihm <lb/>trotz der Ueberschreitung Ihres Saldos noch einen Betrag von $ 50.–
+                    <lb/>das sind S 265.–, zu bezahlen, darüber hinaus können wir aber zu
+                    <lb/>unserem Bedauern Zahlungen nicht an ihn leisten. Die allgemeinen
+                    <lb/>wirtschaftlichen Verhältnisse, besonders aber die durch alle mögli<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen <seg type="comment">
+                        <orig>Devisenbeschränkungen</orig>
+                        <note xml:id="non2_w3m_ngc" resp="#TMuxeneder">Bereits ab <date when="1931-10">Oktober
+                                1931</date> wurde die Devisenbewirtschaftung in <placeName key="place.9">Österreich</placeName> eingeführt, um die
+                            Währungsreserven zu schützen und Kapitalflucht zu verhindern.
+                            Insbesondere für Unternehmen wie Buch- und Musikverlage bedeuteten die
+                            Devisenkontingente eine erhebliche Einschränkung ihrer internationalen
+                            Geschäftsmöglichkeiten (<rs type="bibl" key="zotero-4528359-V7CQTLTN">Hall 1985</rs>)</note>
+                    </seg>
+                    gedrosselten Geldeingänge sind derart <lb/>schlecht, dass wir nur auf das
+                    knappste mit den Mitteln, die uns <lb/>oft für die längst fälligen Schulden
+                    bezahlt werden, disponieren <lb/>können. Wir bitten Sie daher freundlichst, für
+                    den nächsten Monat <lb/>irgend eine andere Gelddisposition für Ihren Sohn
+                        <persName key="pers.3281">Georg</persName> zu treffen.</p>
+                <p>Wir hören mit Interesse, dass Sie sehr beschäftigt sind, hof<g ref="#typoHyphen"/>
+                    <lb break="no"/>fen, dass Sie recht guten Erfolg haben und erwarten gerne
+                    Ihre  <lb/>weiteren Nachrichten.</p>
+                <closer>
+                    <salute rendition="#r">In vorzüglicher Hochschätzung</salute>
+                    <lb/>
+                    <seg rendition="#r">
+                        <orgName key="org.1">UNIVERSAL–EDITION A.
+                        G.</orgName>
+                    </seg>
+                    <signed rendition="#r">
+                        <lb/>
+                        <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">
+                        <ref target="document.24059">Beilage</ref>
+                    </hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

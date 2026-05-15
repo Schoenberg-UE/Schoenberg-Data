@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17704"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 21. September 1949</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17704</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17704</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-W3J64FR7">ASGA B 23/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1949-09-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.5152"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17704_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17704_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">WIEN</hi>, I.,</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</addrLine>
+                    </address>
+                    <seg rendition="#c">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.416">Be</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1949-09-21">21.
+                            Sept. 1949</date>.</dateline>
+                    <address>
+                        <addrLine>Mr.</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">Los Angeles 24, Cal.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Ihren <ref target="letter.5152">Brief</ref> vom <date when="1949-08-27">27.
+                        August</date> habe ich mit sehr grosser Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>spätung erhalten, weil er an mich persönlich adressiert <lb/>war
+                    und hier während einer Zeit erstmalig ankam, als ich <lb/>nicht anwesend war.
+                    Die Post hat ihn, wie Sie aus dem <lb/>Rückschein ersehen werden, mir erst jetzt
+                    ausgehändigt. <lb/>Es trifft sich sehr gut, dass im Augenblick gerade Herr
+                    <lb/>Dr. <persName key="pers.1750">Kalmus</persName> in <placeName
+                        key="place.9.11">Wien</placeName> anwesend ist, so dass ich mit ihm gemein<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>sam den im Jahre <date when="1932">1932</date> zwischen Ihnen
+                    und der <orgName key="org.1">UE</orgName> geschlosse<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen neuen <seg type="comment">
+                        <orig>Generalvertrag</orig>
+                        <note xml:id="nogk_t3n_q1c" resp="#pkehrer">
+                            <ref target="document.7359_cn">Vertrag, 11. September 1932</ref>
+                        </note>
+                    </seg> durchsehen konnte. Es tut mir un<g ref="#typoHyphen"/>
+                    <lb break="no"/>endlich leid, dass es so schwierig und kompliziert ist,
+                    <lb/>diese Dinge aufzuklären. Ich musste aber feststellen, dass <lb/>der
+                    Generalvertrag, der sich ja mit vielen Punkten ausführ<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich befasst, keinerlei Hinweis über eine Aenderung des
+                    <lb/>Eigentumsverhältnisses an den Manuskripten enthält. Ob<g ref="#typoHyphen"/>
+                    <lb break="no"/>wohl ich alle Verträge nun genau durchgesehen habe, muss
+                    <lb/>ich allerdings feststellen, dass die in diesem Abkommen <lb/>vom <date
+                        when="1932-09">September 1932</date> erwähnten <seg type="comment">
+                        <orig>neuen Verträge</orig>
+                        <note xml:id="np3h_cjr_pcc" resp="#pkehrer">
+                            <persName key="pers.3204">Alfred Schlee</persName> bezieht sich auf den
+                            fünften Paragraphen, der die Neuausfertigung aller
+                            Urheberrechtsabtretungsverträge vorsieht; die Eigentumsverhältnisse im
+                            Hinblick auf Manuskripte werden dort allerdings nicht thematisiert. <ref
+                                target="letter.17375">Universal-Edition an Arnold Schönberg, 1. März
+                                1933</ref> lag ein Muster für einen solchen Vertrag bei, und in <ref
+                                target="letter.2305">Arnold Schönberg an Universal-Edition, 18. Mai
+                                1934</ref> bat <persName key="pers.3263">Schönberg</persName>,
+                            „diese Sache jetzt durchführen zu lassen, wie sie damals vereinbart
+                            war“. Mit <ref target="letter.20232">Universal-Edition an Arnold
+                                Schönberg, 28. Mai 1934</ref> wurden ihm drei Urheberrechtsformulare
+                            zugeschickt</note>
+                    </seg> nirgendwo auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinen. Herr Dr. <persName key="pers.1750">Kalmus</persName>
+                    meint, dass diese neuen Verträge <lb/>nicht ausgefertigt worden seien. Frl.
+                        <persName key="pers.3067">Rothe</persName>, die mir hierüber <lb/>vielleicht
+                    Auskunft geben könnte, ist leider seit einigen <lb/>Wochen schwer erkrankt und
+                    ruhebedürftig. Sie befindet sich <lb/>auf dem Lande und ich hoffe, sie in der
+                    nächsten Woche wie<g ref="#typoHyphen"/>
+                    <lb break="no"/>der einmal besuchen zu können und eventuell dann auch die<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>se Auskünfte von ihr zu erlangen. Jedenfalls ist mir darum
+                    <lb/>zu tun, absolute Klarheit zu schaffen. Da bei uns im all<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>gemeinen eine peinliche Ordnung in allen
+                        Vertragsangelegen<supplied cert="high">
+                        <g ref="#typoHyphen"/>
+                    </supplied>
+                    <lb break="no"/>heiten besteht und Frl. <persName key="pers.3067"
+                        >Rothe</persName>, die die Verträge verwaltet <lb/>hat, immer aufs genaueste
+                    darauf achtete, dass alle Unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>lagen vorhanden sind, kann ich mir nicht erklären, wieso
+                    <lb/>die Originale der neu angefertigten Verträge, falls diese <lb/>wirklich
+                    ausgefertigt wurden, fehlen sollten. Da Sie mir <lb/>aber schreiben, dass Sie im
+                    Besitz solcher Verträge und so<g ref="#typoHyphen"/>
+                    <lb break="no"/>gar von Photokopien davon sind, wäre ich Ihnen äusserst dank<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>bar, wenn Sie mir zunächst einmal ein einzelnes Exemplar
+                    <lb/>eines solchen Vertrages zusenden würden.</p>
+                <p>Ich möchte Ihnen ganz unabhängig von dieser Frage ausdrück<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich erklären, dass die <orgName key="org.1">UE</orgName>
+                    bisher kein einziges Manuskript <lb/>von Ihnen verkauft hat und dass sie zur
+                    Zeit auch nicht daran <lb/>denkt, eine solche Veräusserung vorzunehmen.</p>
+                <p>Die Klagen über die Lieferbarkeit Ihrer Werke beruhen viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>fach auf der Tatsache, dass die Musikalienhandlungen nicht
+                    <lb/>genügend Interesse haben, sich um die Durchführung von Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellungen zu kümmern und die damit
+                    verbundenen Mühen scheuen.  <lb/>Allerdings haben sich in den letzten Monaten
+                    vielfach die Han<g ref="#typoHyphen"/>
+                    <lb break="no"/>delsbeziehungen gebessert,
+                    so dass gewisse Erleichterungen in  <lb/>der Abwicklung der Lieferungen
+                    entstanden sind. Dass noch  <lb/>immer gewisse Dinge fehlen, ist zwar vier Jahre
+                    nach dem  <lb/>Kriegsende gewiss ausserordentlich bedauerlich, doch dürften <pb n="2" xml:id="p.2"/>Sie nicht vergessen, dass sich die
+                    Herstellungsverhältnisse  <lb/>bei uns erst in den letzten Monaten normalisiert
+                    haben. Ich  <lb/>gebe Ihnen die ausdrückliche Versicherung, dass wir unseren
+                    <lb/>Produktionsplan bereits so aufgestellt haben, dass innerhalb  <lb/>einer
+                    absehbaren Zeit alle Ihre Werke wieder lieferbar sein  <lb/>werden.</p>
+                <closer rendition="#r">
+                    <salute>Mit ergebensten Grüssen</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.859"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 30. Mai 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.859</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 859</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1923-05-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.21772"/>
+                    <ref type="answered-by" target="letter.21777"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/859_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.859_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>MÖDLING, <date when="1923-05-30">
+                            <seg hand="#author">30.
+                        Mai</seg> 192<seg hand="#author">3</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                <p rendition="#inline">ich kann Ihnen gewiss bis zu Ihrer <lb/>Abreise nichts
+                    Entscheidendes sagen. Denn leider haben Sie doch <lb/>wieder den Weg des
+                    Feilschens betreten <del rendition="#s">haben</del>. Auf diesen werde <choice>
+                        <sic>ich</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>ich Ihnen aber <del rendition="#s">leider</del> nicht folgen können, denn
+                    ich habe keine <lb/>Zeit.</p>
+                <p>Um gleich zu sagen um was es sich handelt:</p>
+                <p>I. Es schien mir <del rendition="#s">als</del> eine Einigung erst von diesem
+               Augenblick an <lb/>denkbar, wo Sie es aus<supplied cert="high">s</supplied>prachen, dass ich mich nur mit einem Teil <choice>
+                        <sic>mei</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>meines Schaffens verpflichten müsste. Diese wichtigste Bedin<del rendition="#s">gu</del>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>gung haben Sie in Ihrem Vorschlag
+               überhaupt nicht mehr erwähnt: <lb/>wie soll man da vorwärts kommen???</p>
+                <p>II. Am <date when="1923-05-22">22. Mai</date> habe ich
+                    Ihnen <ref target="letter.851">geschrieben</ref> in welcher Weise erst <lb/>in der Frage der Auflagen-Höhe eine
+                    verbindliche Erklärung <lb/>Ihrerseits vorliegen müsste. Auch verlangte ich
+                    mündlich längst <lb/>eine Proberechnung über den beiläufigen jetzt
+                    auszuzahlenden <lb/>Betrag. <hi rendition="#g">Auch diesen Punkt ignorieren
+                        Sie</hi>
+                    <lb/>vol<supplied cert="high">l</supplied>kommen!!</p>
+                <p>Ich werde Ihnen in einigen Tagen ganz präzise Vorschläge machen, <lb/>diese in 2
+               Exemplaren an die <orgName key="org.1">U.E.</orgName> senden und sie bitten sich
+               <lb/>diese nach <placeName key="place.2.3">Berlin</placeName> nach senden zu lassen,
+               um mir von dort aus <lb/>Ihre endgültige Entscheidung zu geben.</p>
+                <p>Ich habe die Absicht, nur im Notfall Konsequenzen zu ziehen aus <lb/>der Tatsache,
+               das derzeit kein Vertrag zwischen uns besteht; <choice>
+                        <sic>aber</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>aber: wie beim Schachspiel wird dieser Notfall auch durch Zeit<g ref="#typoHyphen"/>
+                    <lb break="no"/>überschreitung eint<supplied cert="high">r</supplied>eten können.</p>
+                <p>Ich will nicht verhehlen, dass die schriftlichen und mündlichen <lb/>Vorschläge, die
+               Sie bisher gemacht haben, manches enthal<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten,
+               was mir die Aussicht auf Einigungsmöglichkeit eröffnet. <pb n="2" xml:id="p.2"/>Aber es
+                  <add place="superlinear">ist</add> nötig, dass ich das Vertrauen finden kann, dass
+               Sie mir <lb/>aus meinen Werken wirklich ein angemessenes Einkommen zuflie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ssen lassen wollen. Ich will nichts anderes
+               mehr tun, als meine <lb/>Werke schreiben. Und davon <hi rendition="#g">muss</hi> ich
+               leben können: das ist <lb/>mein einziger und wichtigster Vertragspunkt.</p>
+                <p>
+                    <hi rendition="#u">Bitte senden Sie mir Ihre Vorschläge stets in <hi rendition="#uu">zwei</hi> Exemplaren<supplied cert="high">.</supplied>
+                        <lb/>Ich schreibe dann auf eines gleich meine
+                  Antwort.</hi>
+                </p>
+                <p>Ich wünsche Ihnen angenehme Reise <supplied cert="high">u</supplied>nd gute
+               Unterhaltung in <lb/>
+                    <placeName key="place.2.3">Berlin</placeName>.</p>
+                <closer rendition="#inline">
+                    <salute>Mit vielen herzlichen Grüs<supplied cert="high">s</supplied>en und dem ebenso herzlichen <lb/>Wunsch nach einem baldigen
+                  Friedensschluss, bi<supplied cert="high">n</supplied> ich Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+               Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

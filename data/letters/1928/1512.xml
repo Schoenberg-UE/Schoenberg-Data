@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1512"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 21. Oktober 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1512</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1512</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-X6IY3HMV">ASGA B 8/2</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-QMQDSHYD">Brand 1991</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.6.1">Roquebrune-Cap-Martin, Pavillon Sévigné</placeName>
+                    <date when="1928-10-21" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <note>Vermutlich nicht abgeschickt. Vgl. <ref target="letter.1523">Arnold Schönberg
+                        an Universal-Edition, 15. November 1928</ref> mit sehr ähnlichem Inhalt, den
+                        <persName key="pers.1538">Emil Hertzka</persName> in <ref target="letter.17788">Universal-Edition an Arnold Schönberg, 19. November
+                        1928</ref> bestätigt. Das Datum des erwähnten Telegramms (<ref target="letter.1426">Arnold Schönberg an Universal-Edition, 22. Oktober
+                        1928</ref>) spricht dafür, dass der Brief nicht am 21. Oktober abgeschlossen
+                    wurde.</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1512_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1512_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        </addrLine>
+                        <addrLine>ROQUEBRUNE – CAP MARTIN</addrLine>
+                        <addrLine>
+                            <placeName key="place.4.6.1">PAVILLON SÉVIGNÉ</placeName>
+                        </addrLine>
+                        <addrLine>FRANKREICH</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1928-10-21">21<supplied cert="high">.</supplied>X.1928</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Herzka</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                            <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>, ich habe in der
+                    letzten Zeit den <lb/>
+                    <bibl sameAs="schriften.13">Text</bibl> zu einem abendfüllenden <bibl
+                        sameAs="werke.79">Oratorium</bibl> vollendet und <lb/>beabsichtigt, ihn nach ein<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>igen Verbesserungen sofort <lb/>zu komponieren; eine Arbeit, die im
+                    günstigsten Falle <lb/>mehrere Monate und dann noch doppelt so lang für die
+                    <lb/>Partitur erfordert hätte. Nun aber ist eine Wendung ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>getreten: es sind mir einige Textbücher angeboten worden, <lb/>
+                    von denen mich <seg type="comment">
+                        <orig>ein einaktiges</orig>
+                        <note xml:id="nahh_ytx_5wb">
+                            <bibl sameAs="schriften.110">Max Blonda, Von heute auf morgen. Oper in
+                                einem Akt op. 32</bibl>
+                        </note>
+                    </seg>
+                    <add place="superlinear">so</add> sehr interessiert, <del rendition="#s"
+                        >so</del> dass <lb/>ich Lust habe es zu machen. Die <seg type="comment">
+                        <orig>Komposition</orig>
+                        <note xml:id="ngy4_g1l_32c" resp="#pkehrer">Skizzen (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1479&amp;werke_id=477&amp;herkunft=allewerke"
+                                >ASGA B 7/2, ohne Quellensiegel</ref>) sind auf den <date
+                                when="1928-10-21">21. Oktober 1928</date> datiert, die Erste
+                            Niederschrift als Particell (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1477&amp;werke_id=477&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 7/2, Quelle A</ref>) begann <persName key="pers.3263"
+                                >Schönberg</persName> am <date when="1928-10-25">25. Oktober
+                                1928</date>
+                        </note>
+                    </seg> dieses Stückes, <lb/>das den Vorteil hätte, sich auch textlich gut mit
+                        <seg type="comment">
+                        <orig>meinen <lb/>beiden anderen Einaktern</orig>
+                            <note xml:id="nrms_k5x_5wb"><bibl sameAs="werke.7">Erwartung op. 17</bibl>; <bibl
+                                sameAs="werke.50">Die glückliche Hand op. 18</bibl></note>
+                    </seg> zu einem vollen Abend zu ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>binden, würde vielleicht in 8–10 Wochen, die Partitur dann
+                    <lb/>in ebensolanger Zeit (hier ist kein Chor) fertig sein <lb/>können: mutma<choice>
+                        <sic>a</sic>
+                        <corr type="deleted"/>
+                    </choice>sslich würde somit dieses <hi rendition="#u">innerhalb</hi> unserer <lb/>
+                    <seg type="comment">
+                        <orig>Vertragszeit</orig>
+                        <note sameAs="letter.17667/#ny15_crt_gdc"/>
+                    </seg>
+                    <subst>
+                        <del rendition="#s">fallende</del>
+                        <add place="superlinear">begonnene</add>
+                    </subst> Werk <hi rendition="#u">ausserhalb</hi> derselben fertig <lb/>werden.
+                    Und nun habe ich schon vor ein<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>iger Zeit bemerkt, <lb/>dass hier ein Problem liegt, das wir bei
+                    Abschluss unse<g ref="#typoHyphen"/>
+                    <lb break="no"/>res Vertrages nicht bedacht haben. Nämlich: wenn ich auch
+                    <lb/>absolut der Meinung bin, dass das Datum der Fertigstellung <lb/>das
+                    alleinig massgebende ist, so wäre mir ein hässlicher <lb/>Streit an sich
+                    ziemlich unangenehm<choice>
+                        <sic>,</sic>
+                        <corr cert="high">.</corr>
+                    </choice> Hier aber, bei diesem <lb/>Bühnenwerk schiene er mir vermeidbar, da
+                    ich aufrichtig <lb/>gestanden selbst ein gewisses Interesse daran (kein le<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>benswichtiges zwar), das Werk im selben Verlag zu haben,
+                    <lb/>wie die beiden anderen Opern.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Ich <supplied cert="high">h</supplied>abe Ihnen damit gesagt, dass ich also
+                    bereit wäre, even<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuell ausserhalb unseres eben ablaufenden Vertrages in
+                    <lb/>irgendeiner noc<supplied cert="high">h</supplied> zu findenden Form, auch
+                    dieses Werk noch <lb/>der <orgName key="org.1">UE</orgName> zu überlassen. Nur
+                    muss ich gleich von vornherein <lb/>einige Einschränkungen machen: <add place="superlinear">I</add> Ich sehe ein, dass Ihnen <lb/>daran liegen wird,
+                    das starkbelastete Konto „Neue Werke“ <lb/>mittelst dieses Werkes eventuell
+                    einwenig zu senken; aber <lb/>ich muss gleich von vornherein erklären, dass ich
+                    es nicht <lb/>akzeptieren könnte, wenn dieses Werk mehr als einen noch <lb/>zu
+                    vereinbarenden Teil der Gesammtla<supplied cert="high">s</supplied>t sollte
+                    innerhalb <lb/>einer gewissen Frist müssen tilgen helfen; II. Es müsste
+                    <lb/>ausdrücklich festgestellt werden, dass mit <date when="1928-12-31">31.
+                        Dezember <lb/>1928</date> meine Verpflichtung zur Lieferung von Werken er<g ref="#typoHyphen"/>
+                    <lb break="no"/>lischt und die <orgName key="org.1">UE</orgName> keine Ansprüche
+                    erhebt auf Werke, die <lb/>zu dieser Zeit nicht fertig waren.</p>
+                <p>Ich will aber gleich bei dieser Gelegenheit unter mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nem Ehrenwort erklären, dass es solche Werke voraussicht<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich nicht geben wird, mit Ausnahme eben dieser Oper, de<g ref="#typoHyphen"/>
+                    <lb break="no"/>retwegen ich ja eben dieses Problem aufrolle. Und mein
+                    <lb/>einziger Grund ist der, dass ich spätere Streitigkeiten <lb/>vermeiden
+                    will. Deshalb würde ich wahrscheinlich, falls <lb/>Sie mir nicht einen sofort
+                    akzeptierbaren Vorschlag <lb/>machen können (ich brenne darauf zu arbeiten; gar
+                    nicht <lb/>aber auf eine lange Korrespondenz), lieber darauf einst<g ref="#typoHyphen"/>
+                    <lb break="no"/>weilen verzichten müssen das Stück zu komponieren. <lb/>Wenn Sie
+                    es wünschen, kann ich Ihnen ein Exemplar des <lb/>Buches zusende<supplied cert="high">n</supplied> lassen. Doch bitte ich Sie um beschleu<g ref="#typoHyphen"/>
+                    <lb break="no"/>nigte Erledigung, da ich gerne arbeiten möchte.</p>
+                <p>Wenn Sie mich fragen würden, in welcher Art Ihr Vorschlag <pb n="3" xml:id="p.3"/>denn ungefähr sein könnte, so möchte ich sagen: etwa eine <lb/>Variation des
+                    zwischen uns bestehenden eben ablaufenden <lb/>Vertrages. Aber: wie? das müssen
+                    Sie eben finden.</p>
+                <p>Schreiben Sie bitte noch weiter hieher. Ich weiss noch <lb/>immer nicht, wann wir
+                    hier weggehen werden.</p>
+                <p>He<choice>
+                        <sic>i</sic>
+                        <corr cert="high">u</corr>
+                    </choice>te habe ich Ihnen <ref target="letter.1426">telegrafiert</ref>: die
+                        <orgName key="org.1">UE</orgName> hat meine <lb/>sämtlichen letzten Briefe
+                    und Sendungen unerwidert <lb/>gelassen. <add place="superlinear">1.</add>
+                    <seg type="comment">
+                        <orig>Was ist mit der Photographie der <bibl sameAs="werke.64"
+                                >Variationen</bibl>-<lb break="no"/>Partitur? 2. Hat sie <persName
+                                key="pers.1167">Furtwängler</persName> schon? 3. Warum retour<g
+                                ref="#typoHyphen"/>
+                            <lb break="no"/>niert man mir die Partitur nicht?</orig>
+                        <note xml:id="njw1_jt4_jdc" resp="#pkehrer">Die autographe
+                            Partiturreinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=634&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle C</ref>) und die Negativkopie der
+                            Partiturreinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=635&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle Ca</ref>) befanden sich zwecks Herstellung des
+                            Orchestermaterials für die Uraufführung bei <persName key="pers.1339"
+                                >Felix Greissle</persName> bzw. den von ihm unterwiesenen Kopisten;
+                            eine (Positiv-)Photokopie der Partiturreinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=636&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle Cb</ref>) in der Stecherei, eine weitere, nicht
+                            erhaltene bei <persName key="pers.1167">Wilhelm Furtwängler</persName>
+                            (Felix Greissle an Arnold Schönberg, Oktober 1928; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B116590">ASCC
+                                11659</ref>)</note>
+                    </seg> – 4. <seg type="comment">
+                        <orig>Haben Sie die <lb/>Stichanweisungen erhalten? Und die
+                            Vorbemerkungen?</orig>
+                        <note xml:id="ntqv_1cg_jdc" resp="#pkehrer">Bei den der Ersten Niederschrift
+                                (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=633&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 13, Quelle B</ref>) beiliegenden Entwürfen handelt es sich
+                            vermutlich um bei <persName key="pers.3263">Schönberg</persName>
+                            verbliebene Kopien der an die <orgName key="org.1">UE</orgName>
+                            gesendeten Schriftstücke; vgl. <ref target="letter.1614">Arnold
+                                Schönberg an Universal-Edition, 5. Dezember 1928</ref>
+                        </note>
+                    </seg>
+                    <lb/>5. Haben Sie die <persName key="pers.252">Bach</persName>
+                    <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.32">Instrumentierungen</bibl>
+                        </orig>
+                        <note xml:id="nojc_wc2_ndc" resp="#pkehrer">Partiturautograph (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1310&amp;werke_id=445&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 25/26, Quelle B</ref>)</note>
+                    </seg> erhalten? <lb/>6. Meinen diesbezüglichen <ref target="letter.1509"
+                        >Brief</ref>? 7<supplied cert="high">.</supplied> Haben Sie die dort
+                    <lb/>erbetenen Zahlungen geleistet? 8. Warum schreibt mir <lb/>Herr <persName
+                        key="pers.3612">Stein</persName> nicht und <seg type="comment">
+                        <orig>warum nach <placeName key="place.2.3">Berlin</placeName>????</orig>
+                        <note xml:id="nqlw_xzx_5wb">
+                            <ref target="letter.20090">Universal-Edition an Arnold Schönberg, 12.
+                                Oktober 1928</ref>
+                        </note>
+                    </seg>
+                </p>
+                <p>Bitte all das und was ich eventuell sonst noch gefragt <lb/>habe zu beantworten.
+                    Ich hoffe, soweit stehe ich der <orgName key="org.1">UE</orgName>
+                    <lb/>doch noch dafür? Trotz dieser alten Sache mit dieser <lb/>neuen
+                    Sachlichkeit! Die ich <seg type="comment">
+                        <orig>(wie <persName key="pers.2031">K. Kraus</persName> sagen würde)
+                            <lb/>schon gekannt habe, als sie noch ganz alt war</orig>
+                        <note xml:id="nqzw_zl5_4zb" resp="#pkehrer">Anspielung auf die Formulierung:
+                            „In dieser großen Zeit[,] die ich noch gekannt habe, wie sie so klein
+                            war“ (<rs type="bibl" key="zotero-4528359-QNRHBSYQ">Die Fackel
+                            1914</rs>; Exemplar aus dem Schönberg-Nachlass; <ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12740&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >BOOK F9</ref>)</note>
+                    </seg>.</p>
+                <closer>Viele herzliche Grüsse: Was machen Sie übrigens? Sie <lb/>schreiben niemals
+                    etwas von sich, obwohl ich mic<supplied cert="high">h</supplied> danach
+                    <lb/>x-male schon ve<supplied cert="high">r</supplied>geblich erkundigt habe.
+                        <salute>Ihr</salute>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="11" unit="chars"/>
+                    </del>
+                    <lb/>(ich bin wirklich ein zerstreuter Professor!)</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

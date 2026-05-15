@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.6700"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 28. Juli 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6700</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6700</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.3">Wien, Hietzinger Hauptstraße 113</placeName>
+                    <date when="1911-07-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.23512"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6700_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6700_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.4">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>WIEN, XIII.<lb/>
+                        <placeName key="place.9.11.5.3">HIETZINGER HAUPTSTRASSE 113</placeName>
+                    </stamp>
+                    <dateline>
+                        <date when="1911-07-28">28/7. 1911</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich danke Ihnen sehr <lb/>für Ihren herzlichen <ref target="letter.23512">Brief</ref> und das warme Entgegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen. Am liebsten, wenn das nur irgend <lb/>a<supplied cert="high">ng</supplied>ienge, möchte ich Ihren Antrag ohne Ueberlegung
+                    <lb/>annehmen um Ihnen zu zeigen, wie ich Ihn schätze. <lb/>Ja ich habe sogar
+                    schon daran gedacht, ob ich mir <lb/>die Rest-Summe die mir fehlt nicht anders
+                    wo <lb/>verschaffen kann, um nur Ihren Antrag anzunehmen. <lb/>Aber es geht
+                    nicht; ich weiß nichts. Und so werde <lb/>ich also von Ihrer Erlaubnis Gebrauch
+                    machen und <lb/>noch ein paar Tage auf <persName key="pers.702">Cassierers</persName> Antwort, die <lb/>mir <persName key="pers.1112">Fried</persName> in Aussicht stellte <!-- ASCC 20882? -->warten. Ich muss
+                    das <lb/>t<supplied cert="high">u</supplied>n, denn ich gienge doch gar zu gerne
+                    ein bischen <lb/>fort von hier. Es ist wirklich heiß jetzt, kaum <lb/>zu
+                    ertragen!</p>
+                <p>Sollte ich bis zum <date when="1911-08-01">1.</date> von <persName key="pers.702">Cassierers</persName> keine <lb/>Antwort haben, dann gehe ich in Ihr Bureau
+                    <lb/>unterschreibe den Vertrag und hole das Geld. <pb n="2" xml:id="p.2"/>Aber
+                    falls <persName key="pers.702">Cassierers</persName> mir nur wenig mehr
+                    <lb/>bietet als Sie, werde ich Ihnen telegrafieren. <lb/>Vielleicht können Sie
+                    die Differenz in diesem <lb/>Fall doch drauf geben, da Sie ja auch die Option
+                    <lb/>auf die anderen Werke haben. <hi rendition="#u">Ich bliebe am</hi>
+                    <hi rendition="#u">
+                        <lb/>Liebsten bei Ihnen!</hi>
+                </p>
+                <p>Deshalb wende ich mich auch <hi rendition="#u">nicht</hi>
+                    <lb/>an <orgName key="org.152">
+                        <hi rendition="#u">Schuster und Löffler</hi>
+                    </orgName>. Ich will es aufs
+                    <lb/>Schicksal ankommen lassen. Bietet <persName key="pers.702">Cassierer</persName>
+                    <lb/>soviel, dass es <add place="superlinear">mir</add> nicht nötig ist auf die
+                    Differenz <lb/>zu verzichten, dann schließe ich mit ihm <lb/>ab. Und beinahe –
+                    so dringend ich <add place="superlinear">eben</add> diese <lb/>möglichst große
+                    Differenz brauche – aber <lb/>ich will nichts sagen, denn ich darf mir <lb/>doch
+                    nicht noch Pech wünschen. Das habe <lb/>ich ja ohnehin.</p>
+                <closer>
+                    <salute>Also nochmals herzlichen Dank und viele <lb/>Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

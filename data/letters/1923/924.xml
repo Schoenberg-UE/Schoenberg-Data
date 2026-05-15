@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.924"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. August 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.924</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 924</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-IEUTQ7MD">ASGA B 17/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.10">Traunkirchen</placeName>
+                    <date when="1923-08-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.21777"/>
+                    <ref type="response-to" target="letter.21781"/>
+                    <ref type="answered-by" target="letter.21782"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/924_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.924_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.12">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                        <lb/>
+                        <placeName key="place.9.10.2">Traunkirchen N<hi rendition="#sup #uu">o</hi>
+                            3</placeName>
+                        <lb/>Villa Spaun<lb/>Oberoesterr.</stamp>
+                    <lb/>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>
+                        <subst>
+                            <add place="superlinear">
+                                <seg hand="#author">Traunkirchen</seg>
+                            </add>
+                            <del rendition="#s">MÖDLING</del>
+                        </subst>, <seg hand="#author">18.8</seg> 192<seg hand="#author">3</seg>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">nehmen Sie es, bitte als keine Phrase, wenn ich <lb/>sage,
+                    dass ich schon aus persönlichen Gründen, d. i. aus Sympathie <add place="superlinear">für Sie</add> und <lb/>persönlicher Hochschätzung, ja
+                    Bewunderung Ihrer Leistungen gerne meinen <lb/>Frieden mit der <orgName key="org.1">UE</orgName> gemacht hätte. Ebenso ist es wirklich aufrichtig
+                        ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>meint, wenn ich sage, dass mich auch Dankbarkeit an die <orgName key="org.1">UE</orgName> und an Sie bin<g ref="#typoHyphen"/>
+                    <lb break="no"/>det. Und trotzdem sehe ich keinen Ausweg, solange Sie Ihr mir
+                        rätselhaf<g ref="#typoHyphen"/>
+                    <lb break="no"/>tes Verhalten mir gegenüber nicht ändern: Sie wissen, was ich an
+                    Not, Sor<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, Plagen und Entbehrungen, Zurücksetzungen und Kränkungen mitgema<choice>
+                        <sic>h</sic>
+                        <corr type="deleted"/>
+                    </choice>cht <lb/>habe; Sie wissen, wie ich meine schönste Zeit und meine beste
+                    Kraft dem <lb/>Broterwerb widmen musste und am Schaffen verhindert war; Sie
+                    sehen, dass <lb/>ich jetzt in der Lage wäre, unabhängig und ohne Sorgen zu
+                    leben, wenn ich <lb/>einen nennenswerten Teil der Früchte meiner Arbeit selbst
+                        einheim<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen dürfte; ich habe Ihnen die Mindestsumme genannt, die ich zur
+                    Führung <lb/>eines solchen Lebens nötig habe; Sie wissen, dass ich mir <del rendition="#s">sie</del> von andern <lb/>Verlegern mit Leichtigkeit eine
+                    viel höhere verschaffen könnte ––––– <lb/>und <lb/>
+                    <hi rendition="#g">Sie bieten mir die Hälfte</hi>; und <lb/>
+                    <seg rendition="#c">
+                        <hi rendition="#g">OHNE GARANTIE!</hi>
+                    </seg>
+                    <lb/>das heisst aber, dass ich wieder nur für den Brot<g ref="#typoHyphen"/>
+                    <lb break="no"/>erwerb arbeiten und nicht komponieren soll<supplied cert="high">.</supplied>
+                    <lb/>Bei aller Bewunderung und Sympathie: das ist unmenschlich!</p>
+                <p>Eine Kleinigkeit, die aber sehr bezeichnend ist, möchte ich doch noch
+                    <lb/>erwähnen: Sie möchten gerne <seg type="comment">
+                        <orig>die <bibl sameAs="werke.78">Jakobsleiter</bibl> bekommen</orig>
+                        <note sameAs="letter.7064/#ntvk_vb4_xfc"/>
+                    </seg>; aber, trotzdem ich
+                    <lb/>selbst die Kosten tragen wollte, habe<supplied cert="high">n</supplied> Sie
+                    mir <seg type="comment">
+                        <orig>kein Papier anfertigen <lb/>lassen</orig>
+                        <note xml:id="nrfx_3h4_xfc" resp="#KBleier">Vgl. <ref target="letter.715">Arnold Schönberg an Universal-Edition, 1. September 1922</ref>
+                        </note>
+                    </seg> wollen auf das ich sie schreiben könnte! Glauben, Sie dass ich
+                    das <lb/>je vergessen kann?</p>
+                <p>Ich glaube, Sie machen da einen grossen Fehler: Sie rechnen gar nicht <choice>
+                        <sic>meh</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>mehr mit Menschen, nur mehr mit Verlagsnummern! Aber auch Menschen haben
+                    <lb/>einen gewissen Wert! Und vor allem das Bestreben, sich irgendwie zu er<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten! Es ist mir sehr schmerzlich, Ihnen das sagen zu müssen;
+                    dass ich <lb/>dem Himmel danke, der mir meine Handlungsfreiheit wiedergegeben
+                    hat; und <lb/>dass ich <add place="superlinear">dar</add>auf, diese zu benützen
+                    nur verzichten würde, wenn ein bequemer u <lb/>meinen reichlichen Leistungen ange<subst>
+                        <del rendition="#s">nehmer</del>
+                        <add place="superlinear">messen</add>
+                    </subst> reichlicher Lebensunterhalt <lb/>mir gesichert wäre. Gerne würde ich
+                    mit Ihnen anders als in der Sprache <pb n="2" xml:id="p.2"/>kriegführender
+                    Diplomaten reden. Aber ich sehe keinen Ausweg und sie wol<g ref="#typoHyphen"/>
+                    <lb break="no"/>len diesen einzigmöglichen, den Sie sehen nicht betreten. Ich
+                    verlange <choice>
+                        <sic>ja</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>ja von Ihnen kein Opfer; aber ich bin auch durchaus nicht gesonnen eines
+                    <lb/>zu bringen: ich habe lange genug geopfert!</p>
+                <p>Ich wäre gerne für eine mündliche Auseinandersetzung; aber leider haben <lb/>Sie
+                    in der letzten Zeit die Uebung gehabt<subst>
+                        <del rendition="#s">, die</del>
+                        <add place="superlinear"> bei der</add>
+                    </subst> schriftliche<supplied cert="high">n</supplied> Formulierung <lb/>immer
+                    wieder alles zurückzuziehen um was man sich stundenlang gerauft <lb/>hat. Ich
+                    bin dieser Kämpfe auch wirklich mü<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>de. Nicht nur um meine Zeit <choice>
+                        <sic>ist</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>ist es schade, sondern auch um die Ihre, der Sie ja wirklich in dersel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben Zeit etwas wertvolleres zu leisten imstande wären!</p>
+                <p>Sie sehen, dass ich <supplied cert="high">Sie</supplied> sehr schätze und Ihnen
+                    persönlich wirklich freund<lb break="no"/>schaftlich<choice>
+                        <sic>tlich</sic>
+                        <corr type="deleted"/>
+                    </choice> gesinnt bin; aber ich muss es sagen: Seit dem Krieg las<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen Sie es vollkommen an Menschlichkeit fehlen!</p>
+                <p>Wenn Sie ei<supplied cert="high">n</supplied>en Ausweg wissen, sollen Sie mich
+                    gerne zum Frieden bereit <lb/>finden; aber: <lb/>
+                    <hi rendition="#g">ich opfere
+                        nichts mehr!</hi>
+                </p>
+                <closer rendition="#r">
+                    <salute>Viele herzliche Grüsse Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

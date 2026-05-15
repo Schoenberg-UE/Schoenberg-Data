@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17712"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 5. Juni 1950</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17712</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17712</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1950-06-05" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-10-31+02:00" who="KBleier">Korrektur Kommentar</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17712_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17712_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.47">
+                        <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        <lb/>WIEN I·<placeName key="place.9.11.6.12">KARLSPLATZ
+                        6</placeName>·MUSIKVEREINSGEBÄUDE·TELEFON U 47-5-85<lb/>TELEGRAMME:
+                        MUSIKEDITION WIEN</stamp>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1950-06-05">5.
+                            Juni 1950</date>
+                    </dateline>
+                    <seg rendition="#r">
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.4373">La</persName>
+                    </seg>
+                    <address>
+                        <addrLine>Mr.</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Los Angeles</hi> 49</hi>
+                        </addrLine>
+                        <addrLine>California</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>,</salute>
+                <p>wie Ihnen mein Büro bereits <ref target="letter.17764">mitgeteilt</ref> hat, ist
+                    Ihr vom <date when="1950-05-12">12. Mai</date>
+                    <lb/>datierter <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="ncfq_vzn_q1c" resp="#pkehrer">
+                            <ref target="letter.24446_tlf">Arnold Schönberg an
+                                Universal-Edition, 12. Mai 1950 [erschlossen]</ref>
+                        </note>
+                    </seg>,
+                    den Sie an die <orgName key="org.1">Universal-Edition</orgName> und an mich
+                    <lb/>persönlich gerichtet haben, während meiner Abwesenheit eingetroffen
+                    <lb/>und ich bitte Sie zu entschuldigen, dass deshalb die Beantwortung <lb/>erst
+                    heute nach Rückkehr von meiner Reise erfolgen kann. Ich <lb/>darf festhalten,
+                    dass das eine deutsche Exemplar Ihres Briefes <lb/>laut Eingangsstempel des
+                    Büros erst am <date when="1950-05-25">25. Mai</date> hier eingelangt <lb/>ist,
+                    das andere Exemplar samt dem englischen Original sogar <lb/>erst am <date when="1950-05-30">30. Mai</date>.</p>
+                <p>Erlauben Sie uns, uns zunächst einmal auf den reinen Rechts<g ref="#typoHyphen"/>
+                    <lb break="no"/>standpunkt zu stellen und entsprechend dem Urheberrechtsgesetz
+                    <lb/>laut § 29, 4 die von Ihnen abgegebene Erklärung, das Vertrags<g ref="#typoHyphen"/>
+                    <lb break="no"/>verhältnis aufzulösen, innerhalb der vorgesehenen Frist von
+                    <lb/>14 Tagen nach ihrem Empfang zurückzuweisen, und somit die Wirk<g ref="#typoHyphen"/>
+                    <lb break="no"/>samkeit dieser von Ihnen abgegebenen Erklärung zu bestreiten.
+                    <lb/>In diesem Sinne sandten wir Ihnen heute folgendes <ref target="letter.17714">Telegramm</ref>:</p>
+                <p>„Erklären hiermit fristgerecht dass wir unberechtigte <lb/>Kündigung nicht
+                    akzeptieren können stop Brief <lb/>unterwegs“.</p>
+                <p>Wir beziehen uns hiebei insbesondere auf den Absatz 2 des <lb/>erwähnten <seg
+                        type="comment"><orig>Paragraphen</orig><note xml:id="ne4w_xxm_ngc"
+                            resp="#KBleier"><rs type="bibl" key="zotero-4528359-MNXUHMUD"
+                                >Urheberrecht 1936</rs>
+                        </note></seg>, wonach die Auflösung des Vertragsver<g ref="#typoHyphen"/>
+                    <lb break="no"/>hältnisses „erst nach fruchtlosem Ablauf einer vom Urheber
+                    <lb/>dem Werknutzungsberechtigten gesetzten angemessenen Nachfrist <lb/>erklärt
+                    werden kann“. In dem Kommentar zu diesem Gesetzesparagra<g ref="#typoHyphen"/>
+                    <lb break="no"/>phen heisst es sogar ausdrücklich unter Bezugnahme auf solche
+                    <lb/>Fälle, dass die Auflösung des Vertragsverhältnisses seitens des
+                    <lb/>Urhebers nur dann ohne Setzung einer Nachfrist möglich ist, <lb/>wenn der
+                    Verleger die Veranstaltung einer Neuauflage eines <lb/>vergriffenen Werkes
+                    ablehnt.</p>
+                <p>Eine solche Ablehnung ist in unseren Korrespondenzen, soweit <lb/>sie sich auf
+                    den Neudruck fehlender Werke beziehen, Ihnen gegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>über niemals erfolgt. Im Gegenteil: aus allen unseren
+                    Äusserungen <lb/>geht deutlich hervor, wie sehr wir uns der Wichtigkeit dieser
+                    <lb/>Aufgabe bewusst sind, auch wenn es aus dem einen oder anderen <lb/>Grund in
+                    den letzten Jahren noch nicht möglich war, diese <lb/>Aufgabe zu erfüllen. Ich
+                    darf hier gleich hinzufügen, dass als <lb/>Wichtigstes Ihre gesamten in der
+                        <orgName key="org.1">Universal-Edition</orgName> erschienenen <lb/><seg
+                        type="comment"><orig>Klavierwerke</orig><note xml:id="ntct_1zm_ngc"
+                            resp="#KBleier"><bibl sameAs="werke.9">Drei Klavierstücke op. 11</bibl>; <bibl
+                                sameAs="werke.52">Sechs kleine Klavierstücke op. 19</bibl>; <bibl
+                                sameAs="werke.58">Suite für Klavier op. 25</bibl>; <bibl
+                                sameAs="werke.66">Klavierstück op. 33a</bibl></note></seg> bereits
+                    zum Druck aufgegeben worden sind und in <lb/>wenigen Wochen in reichlicher
+                    Anzahl wieder lieferbar sein werden. <lb/>Dies zur Rechtslage.</p>
+                <p>Erlauben Sie mir, sehr geehrter Herr Professor, darüber hinaus <lb/>folgendes
+                    anzuführen: ohne noch die juristische Seite dieser <lb/>Angelegenheit geprüft zu
+                    haben, habe ich mich schon beim ersten <lb/>Lesen Ihres Briefes gefragt, ob es
+                    denn wirklich möglich ist, <lb/>dass Sie, der Sie seit Jahrzehnten mit der
+                        <orgName key="org.1">Universal-Edition</orgName>
+                    <lb/>verbunden sind und ihr schon zu einer Zeit, als es wohl eine Ehre,
+                    <lb/>aber doch nicht leicht war, sich für <persName key="pers.3263">Arnold
+                        Schönberg</persName> einzusetzen, <pb n="2" xml:id="p.2"/>Ihre Werke
+                    anvertraut hatten, nun so kurzer Hand eine generelle <lb/>Vertragsauflösung
+                    aussprechen, ohne uns auch nur versuchsweise <lb/>eine letzte Chance zu geben,
+                    Ihre Wünsche zu erfüllen. Hat die <lb/>Gesamtleistung der <orgName key="org.1">Universal-Edition</orgName> für den Grossteil Ihres <lb/>Schaffens eine so
+                    radikale und plötzliche Wendung verdient? <lb/>Sie werfen uns vor, sehr geehrter
+                    Herr Professor, dass wir seit <lb/>Kriegsende wohl andere Werke herausgegeben
+                    haben, ohne Ihre <lb/>fehlenden Werke neu aufzulegen. Hiezu darf ich einerseits
+                    <lb/>bemerken, dass es Ihnen nicht bekannt sein kann, welcher Teil <lb/>dieser
+                    „anderen Werke“ mit finanzieller Unterstützung oder <lb/>Subvention von aussen
+                    hergestellt wurde, dass wir andererseits <lb/>nach der langen Absperrung von der
+                    grossen Welt natürlich <lb/>gezwungen waren, aus verschiedenen Gründen auch
+                    einige „andere <lb/>Werke“ herauszubringen. Die richtige „Dosierung“, besonders
+                    <lb/>bei unseren immensen Verpflichtungen der klassischen- und
+                    <lb/>Unterrichtsmusik gegenüber, ist in so überaus schweren Jahren, <lb/>wie den
+                    letzten, nicht leicht gewesen und wir sind heute noch <lb/>weit davon entfernt,
+                    so disponieren zu können, wie wir möchten <lb/>und sollten. Ersparen Sie uns
+                    bitte Details zu dieser Frage, wenn <lb/>Sie auch vielleicht, von Kalifornien
+                    aus gesehen, die Situation <lb/>jetzt ungeduldiger beurteilen, als sie es
+                    verträgt. Im Jahre <date when="1948">1948</date>
+                    <lb/>hatten Sie selbst noch mit einer längeren Dauer unserer Wieder<g ref="#typoHyphen"/>
+                    <lb break="no"/>aufbauarbeit gerechnet, in dem Sie wörtlich schrieben: „ich
+                    fürchte, <lb/>es wir eine Reihe von Jahren dauern, bevor dieser Übelstand
+                    <lb/>beseitigt ist.“ Seien Sie jedenfalls versichert, sehr geehrter <lb/>Herr
+                    Professor, dass von einer leichtfertigen Einstellung Ihnen <lb/>gegenüber nicht
+                    die leiseste Rede sein kann – andernfalls wären <lb/>alle unsere Briefe aus den
+                    letzten Jahren nichts als leeres Gerede <lb/>gewesen. Ich darf Sie gerade in
+                    diesem Zusammenhang an meinen <lb/>
+                    <ref target="letter.17704">Brief</ref> vom
+                        <date when="1949-09-21">
+                        <date when="1949-09-21">21. September 1949</date>
+                    </date> erinnern, der, unwidersprochen, <lb/>zweifellos Ihr Verständnis gefunden
+                    hat.</p>
+                <p>Im übrigen darf ich, unabhängig von der Frage der „Befriedigung <lb/>des
+                    Marktes“, die Behauptung aufstellen, dass nach dem Krieg <lb/>keine <persName key="pers.3263">Schönberg</persName>-Aufführung wegen Nichtlieferung des
+                        Aufführungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>materials unterblieben sein kann. Auch in <placeName key="place.15">Amerika</placeName> selbst wurde <lb/>alles getan, um
+                    beabsichtigte Aufführungen zu ermöglichen, <lb/>wobei unter Umständen auch auf
+                    fotografischem Weg nachgeholfen <lb/>wurde, um nur ja keine Aufführung zu
+                    verhindern. Wollen Sie <lb/>bitte nicht übersehen, dass es immer wieder
+                    vorkommt, dass <lb/>Dirigenten wegen irgend eines Missverständnisses oder einer
+                    <lb/>Ungeschicklichkeit die Behauptung aufstellen, dass dieses oder <lb/>jenes
+                    Aufführungsmaterial nicht zu beschaffen war. Ich darf Sie <lb/>hiezu z. B. an
+                    meinen <ref target="letter.17759">Brief</ref> vom <date when="1949-06-30">30.
+                        Juni 1949</date> erinnern, der sich <lb/>auf eine „<bibl sameAs="werke.54">Pierrot</bibl>“-<seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note sameAs="letter.4974/#nx4b_nvd_gfc"/>
+                    </seg> in <placeName key="place.15.18">Albuquerque</placeName> bezogen hat. <lb/>Wir haben
+                    jedenfalls keinen Beweis in Händen, dass wir an dem <lb/>Unterbleiben irgend
+                    einer <persName key="pers.3263">Schönberg</persName>-Aufführung schuld sind.</p>
+                <p>Lassen Sie mich hoffen, sehr geehrter Herr Professor, dass die <lb/>Ausführungen
+                    und Hinweise dieses Briefes Ihr Schreiben vom <date when="1949-05-12">12.
+                        Mai</date>
+                    <lb/>gegenstandslos gemacht haben.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen<lb/>
+                        <seg rendition="#r">in vorzüglicher Hochachtung <lb/>ergebenst </seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">Luftpost/Rekommandiert.</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

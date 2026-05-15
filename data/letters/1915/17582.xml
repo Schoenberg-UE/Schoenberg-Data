@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.17582"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. Oktober 1915</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17582</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17582</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="120" to="121"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                            <biblScope unit="page" from="277" to="277"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1915-10-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.461"/>
+                    <ref type="answered-by" target="letter.460"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-01-09+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17582_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.17582_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.49">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.10">Seeburgstr. 14–20</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegramm-Adresse: Musikedition,
+                        Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228, 4533·Bank-Konto:
+                            <orgName key="org.199">k-k·priv·öst·<lb/>Länderbank.
+                        Wien</orgName>·Postsparkassen·Konto 57557.<lb/>Wien <seg hand="#author">
+                            <date when="1915-10-25">25. Oktober 1915</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi
+                                    rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.9.11">Wien</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ihren <ref target="letter.461">Klagebrief</ref>, der sich „um so Wichtiges und
+                    auch <lb/>um viel Geld“ dreht<del rendition="#s">“</del>, habe ich erhalten und
+                    ich sehe Sie keines<g ref="#typoHyphen"/>
+                    <lb break="no"/>wegs als Querulanten an, sondern behandle alle die von Ihnen
+                    <lb/>aufgeworfenen Fragen mit derselben Freundschaftlichkeit, die <lb/>ja stets
+                    bei uns zum Ziele führt:</p>
+                <p>
+                    <add place="left">I</add> Als wir im <date when="1914-01">Jänner 1914</date>
+                    unsere <ref target="document.376">Abmachung</ref> getroffen <lb/>haben, war es
+                    uns nicht bekannt, dass im <date when="1914-08">August</date> ein Weltkrieg
+                    <lb/>ausbrechen wird und ich erachte mich daher <hi rendition="#uu">derzeit</hi>
+                    weder in <lb/>der Lage noch <hi rendition="#u" hand="#addressee"
+                        >verpflichtet</hi>, die für das Kriegsjahr <date when="1915">1915</date>
+                        vor<g ref="#typoHyphen"/>
+                    <note place="right" hand="#addressee">!</note>
+                    <lb break="no"/>gesehenen <seg type="comment">
+                        <orig>Herausgaben</orig>
+                        <note xml:id="nxrf_cfw_v2c" resp="#KBleier">
+                            <bibl sameAs="werke.43">2 Balladen op. 12;</bibl>
+                            <bibl sameAs="werke.50">Die glückliche Hand op. 18</bibl>; <bibl
+                                sameAs="werke.55">Vier Lieder für Gesang und Orchester op.
+                            22</bibl>: Seraphita op. 22/1. Zu den im Vertrag genannten 5 Liedern
+                            gehören <bibl sameAs="werke.45">Zwei Lieder für Gesang und Klavier op.
+                                14</bibl>; <bibl sameAs="werke.46">Am Strande</bibl></note></seg>
+                    <subst>
+                        <del rendition="#s">zu leisten</del>
+                        <add place="superlinear">vorzunehmen</add>
+                    </subst>.</p>
+                <p>
+                    <add place="left">II</add> Ihre Beschwerden über Ihre Abrechnungen habe ich un<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>serer Buchhaltung übergeben, die Ihnen in einem separaten <ref
+                        target="letter.17581">Schrei<g ref="#typoHyphen"/>
+                        <lb break="no"/>ben</ref> die darin enthaltenen Punkte 1, 2, 3, beantworten
+                    wird.</p>
+                <p>Was Punkt 4 betrifft, so beruht es auf einem Irrtume, <lb/>dass im letzten <seg
+                        type="comment">
+                        <orig>Excelsior-Album<del rendition="#s">s</del>
+                        </orig>
+                        <note xml:id="njvy_mjy_mdc" resp="#pkehrer">Excelsior: 100 musikalische
+                            Erfolge, Bd. 3, Wien 1915, U. E. 3800 (Exemplar aus dem
+                            Schönberg-Nachlass; SCO E2)</note>
+                    </seg> zwei Stücke von Ihnen aufgenom<g ref="#typoHyphen"/>
+                    <note place="right" hand="#addressee">!! Siehe §</note>
+                    <lb break="no"/>men worden sind. In das Excelsior-Album, das <add
+                        place="superlinear">nachdem es schon im Frieden vorbereitet,</add> zu Beginn
+                    des Jah<g ref="#typoHyphen"/>
+                    <lb break="no"/>res <date when="1915">1915</date> erschien, ist vielmehr nur ein
+                    einziges <bibl sameAs="werke.18">Lied</bibl> aus den <lb/>
+                    <bibl sameAs="werke.16">Gurre-Liedern</bibl> aufgenommen worden, das 3 Platten
+                    umfasst. Zu die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Aufnahme erachtete ich mich nach den Präzedenzfällen voll<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="left" hand="#addressee">!!</note>kommen <hi rendition="#u"
+                        hand="#addressee">berechtigt</hi>. Erstens haben Sie mir für das Album <seg
+                        type="comment">
+                        <orig>„Das moderne <pb n="2" xml:id="p.2"/>Lied“</orig>
+                        <note sameAs="letter.17552/#npqd_y3c_fdc"/>
+                    </seg>
+                    <seg type="comment">
+                        <orig>zwei Lieder</orig>
+                        <note xml:id="nevm_43m_jyb" resp="#KBleier">
+                            <bibl sameAs="werke.24">Fünfzehn Gedichte aus „Das Buch der hängenden
+                                Gärten“ von Stefan George op. 15</bibl>: Das schöne Beet betracht
+                            ich mir im Harren op. 15/10, Als wir hinter dem beblümten Tore
+                            op.15/11</note>
+                    </seg> ohne Tantième zur <hi rendition="#u" hand="#addressee">Verfügung
+                        gestellt</hi>,<note place="superlinear" hand="#addressee">!!!</note>
+                    zweitens <lb/>waren Sie sehr <hi rendition="#u" hand="#addressee">froh</hi>
+                    darüber, dass ich in das <seg type="comment">
+                        <orig>II. Excelsior-Album</orig>
+                        <note xml:id="nmkk_sky_mdc" resp="#pkehrer">Excelsior: 100 musikalische
+                            Erfolge, Bd. 2, Wien 1912, U. E. 3700 (Exemplar aus dem
+                            Schönberg-Nachlass; SCO E2)</note>
+                    </seg>
+                    <note place="right" hand="#addressee">!</note>
+                    <lb/>seinerzeit Ihr Lied <seg type="comment">
+                        <orig>„Waldsonne“</orig>
+                        <note xml:id="ne2g_zmj_gyb" resp="#pkehrer">
+                            <bibl sameAs="werke.1">Arnold Schönberg, Vier Lieder für eine Singstimme
+                                und Klavier op. 2</bibl>: Waldsonne op. 2/4</note>
+                    </seg> aufgenommen habe. Ueberdies hat <lb/>es sich aus jahrelangen Erfahrungen
+                    erwiesen, dass derartige Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>nahmen in Sammelalbums, für die eine <hi rendition="#u"
+                        hand="#addressee">ausserordentlich grosse</hi> Pro<g ref="#typoHyphen"/>
+                    <note place="right" hand="#addressee">!</note>
+                    <lb break="no"/>paganda geleistet wird, dem Absatz der Werke förderlich sind,
+                    dass <lb/>eine <hi rendition="#u">Schädigung</hi> der Einzelausgaben durch die
+                    Sammelalbums nie <note place="right" hand="#addressee">!</note>
+                    <lb/>und nimmer erwächst und ich bin in der Lage Ihnen zu beweisen, dass
+                    <lb/>Komponisten <hi rendition="#u" hand="#addressee">erfolgreicher Werke</hi>
+                    ernster Richtung den grössten Wert <note place="right" hand="#addressee"
+                        >!</note>
+                    <lb/>darauf legen, dass sie in derartige Sammelalbums aufgenommen wer<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>den, weil sie dadurch gerade in die Hände jenes Publikums
+                    kommen, <lb/>das sich sonst bei blosser Nennung eines modernen Komponisten be<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>kreuzigt. Ich hätte übrigens, wenn das Album nicht inmitten der
+                        <note place="right" hand="#addressee">§ !!</note>
+                    <lb/>Kriegszeit erschienen wäre, Ihnen vorher von der Absicht der Auf<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nahme Mitteilung gemacht. Ich konnte ja, immer von dem Gedanken
+                    <lb/>ausgehend, Ihnen und der Verbreitung <hi rendition="#u" hand="#addressee"
+                        >Ihrer Werke zu nützen</hi>, nicht <note place="right" hand="#addressee"
+                        >!</note>
+                    <lb/>daran zweifeln, dass Sie meinen verlagsmässigen Erfahrungen auf <lb/>diesem
+                    Gebiete etwas Glauben schenken werden. Bezüglich der Ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>schädigung für die Ueberlassung einer Nummer war von mir der
+                        Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>trag erteilt, Ihnen denselben Betrag gutzubringen, dem wir dem <lb/>
+                    <orgName key="org.180">Drei Lilienverlag</orgName> für das Lied „Waldsonne“ als
+                    Entschädigung be<g ref="#typoHyphen"/>
+                    <lb break="no"/>zahlten und zwar <hi rendition="#u" hand="#addressee">M
+                        150.–</hi>
+                    <add place="superlinear">
+                        <metamark/>
+                    </add>
+                    <note place="mBottom" hand="#author">
+                        <metamark/> obwohl wir in diesem Falle als Verleger berechtigt wären
+                        <lb/>einen geringeren Entschädigungsbetrag anzunehmen</note> Die <hi
+                        rendition="#u" hand="#addressee">Buchhaltung hatte auch die Verpflich<g
+                            ref="#typoHyphen"/>
+                        <note place="right" hand="#addressee">!</note>
+                        <lb break="no"/>tung</hi>, diesen <hi rendition="#u" hand="#addressee"
+                        >Betrag Ihrem Konto gutzubringen</hi>. Wenn das in der letz<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ten Ihnen zugegangenen Abrechnung noch nicht geschehen ist, so
+                    <lb/>liegt dies wohl ausschließlich daran, weil das Excelsior-Konto <lb/>noch
+                    nicht abgeschlossen war, denn es sind zahlreiche Angestellte <lb/>der
+                    Buchhaltung eingerückt und wir können die Arbeiten mit dem <lb/>bestehenden
+                    Personal nur mit grösserer Schwierigkeit und manchen <pb n="3" xml:id="p.3"
+                    />Verspätungen vollführen. Ich bitte Sie also zur Kenntnis zu neh<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>men, dass Ihnen als Entschädigung der Betrag von M 150.– für
+                    <lb/>diese Nummer gutgebracht wurde, wodurch wohl hoffentlich Ihre <lb/>Wünsche
+                    entsprechend berücksichtigt erscheinen. – Wenn Sie von <lb/>diesem
+                    Excelsior-Album bisher kein Exemplar erhalten haben, so <lb/>ist daran ebenfalls
+                    nur der Krieg und die damit in Verbindung <lb/>stehenden immensen
+                    Schwierigkeiten schuld. Ich beehre mich, Ihnen <lb/>ein solches gleichzeitig als
+                    Beleg-Exemplar zu dedizieren. So <lb/>viel ich mich erinnere, haben Sie Band I
+                    und Band II seinerzeit <lb/>erhalten. Sollte dies jedoch nicht der Fall sein, so
+                    stehen Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen diese ebenfalls zur Verfügung. (In Band I ist allerdings
+                    <lb/>kein Werk von Ihnen aufgenommen.)</p>
+                <p>Ich möchte nur noch zu dem Ihnen wohl wichtigsten <lb/>Punkt 1 Ihrer Beschwerden,
+                    die vertragsmässige Herausgabefrist <lb/>betreffend, Einiges bemerken:</p>
+                <p>Während des Krieges moderne Werke komplizierterer Art <lb/>herauszugeben, hat
+                    sich, wie es die allgemeinen Erfahrungen lehren, <lb/>als ein grosser Fehler
+                    erwiesen. Ich bin überzeugt, dass wir mit <lb/>den <bibl sameAs="werke.24"
+                        >George-Liedern</bibl> und dem <bibl sameAs="werke.54">Pierrot
+                        lunaire</bibl> weit grössere Erfolge <lb/>erzielt hätten, wenn wir diese
+                    Werke erst nach dem Kriege heraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gebracht hätten. Sie wissen, dass eine grosse Zahl von
+                        Interessen<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten sich im Felde befindet, Sie wissen, dass der Verkehr mit dem
+                    <lb/>Auslande, nicht nur mit dem feindlichen, sondern selbst mit dem
+                    <lb/>neutralen, unsagbare Schwierigkeiten verursacht, Sie wissen, dass
+                    <lb/>Aufführungen komplizierterer Art derzeit überhaupt nicht möglich
+                    <lb/>gemacht werden, wenn es sich nicht um einen, von den Wogen der <add
+                        place="right">Mode,</add>
+                    <lb/>Popularität und Sensationslust getragenen Autor handelt, wie <lb/>
+                    <persName key="pers.3750">Richard Strauss</persName>. Eben weil Sie all diese
+                    Dinge gewusst haben, <lb/>wollten Sie mich während des Krieges an den Buchstaben
+                    des Ver<g ref="#typoHyphen"/>
+                    <pb n="4" xml:id="p.4" break="no"/>trages nicht erinnern. Sie wissen übrigens,
+                    dass ich dort, wo <lb/>dies nur irgendwie möglich ist, auch über die Buchstaben
+                    des Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>trages hinaus Ihnen entgegenkomme. – Ihren Entschluss, nun keine
+                    <lb/>Rücksicht auf den Krieg zu nehmen motivieren Sie damit, dass wir <lb/>alles
+                    mögliche Andere und sogar grössere Unternehmungen während des <lb/>Krieges voll
+                    betreiben. – Es würde mich nun sehr interessieren, <lb/>worauf Sie mit diesen,
+                    mir rätselhaften Bemerkungen anspielen, <lb/>da mir von all diesen Dingen nichts
+                    bekannt ist.</p>
+                <p>Ich möchte – mehr als Kuriosum – noch erwähnen, dass <lb/>ich von Ihnen nicht ein
+                    einziges der Werke zu deren Herausgabe <lb/>im Laufe des Jahres <date
+                        when="1915">1915</date> Sie mich verpflichten wollen, im Manus<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>kript von Ihnen erhalten habe und ich würde also bisher, von
+                    allen <lb/>anderen Gründen abgesehen, nicht in der Lage gewesen sein, die
+                    <lb/>betreffenden Werke zu drucken.</p>
+                <p>Ich hoffe und wünsche, dass Sie auf Grund meines Heutigen <lb/>die von Ihnen
+                    gerügten Uebersehen, Rückstände und Missgriffe in <lb/>etwas anderem Lichte
+                    sehen werden und ich würde mich sehr freuen, <lb/>mit Ihnen die eventuell noch
+                    nicht ganz geklärten Punkte im per<g ref="#typoHyphen"/>
+                    <lb break="no"/>sönlichen Verkehr einer definitiven Klärung zuzuführen. Nachdem
+                    <lb/>Sie in <placeName key="place.9.11">Wien</placeName> wohnen, erscheint es
+                    mir zweckmässiger wenn wir dort, <lb/>wo es überhaupt möglich ist, den
+                    Korrespondenzweg vermeiden.</p>
+                <closer>
+                    <salute>Mit vielen herzlichen Grüssen <lb/>
+                        <seg rendition="#r">Ihr Ihnen stets aufrichtig <lb/>ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

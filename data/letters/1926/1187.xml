@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1187"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 2. März 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1187</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1187</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-DIYJCNLL">ASGA B 18/2</rs>
+                            <biblScope unit="page" from="23" to="23">XXIII</biblScope>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1926-03-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1926-03-04" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17655"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1187_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1187_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1926-03-02">2.III.1926</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil
+                            Hertzka</persName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">mein <rs type="person" key="pers.3281">Sohn</rs> schrieb mir
+                    schon
+                    <!-- ASCC 16141? -->das
+                        vori<g ref="#typoHyphen"/>
+                    <lb break="no"/>gemal, dass man ihn bei Ihnen, als er sein Monatsgeld holen
+                    <lb/>kam, sehr barsch behandelt habe und e<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>r ausserdem mehrere<g ref="#typoHyphen"/>
+                    <lb break="no"/>male kommen musste. Diesmal aber scheint man ihn für beson<g ref="#typoHyphen"/>
+                    <lb break="no"/>ders sträflich gehalten zu haben und hat ihn in scheinbar
+                    <lb/>sehr grober Weise abgewiesen. Da ich somit diese kleine Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>fälligkeit von der <orgName key="org.1">UE</orgName> nicht haben
+                    kann, so verzichte ich hie<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit darauf und werde meine Geldsendungen nunmehr direkt be<g ref="#typoHyphen"/>
+                    <lb break="no"/>sorgen. Aber ich muss sagen, ich staune darüber und muss er<g ref="#typoHyphen"/>
+                    <lb break="no"/>wähnen, dass ich geglaubt hätte, es würde bei Ihnen ein Bote
+                    <lb/>von mir so aufgenommen, wie ich einen Boten von Ihnen aufnehme. <lb/>Ich
+                    weiss nicht wer der betreffende Herr war, der sich meinem <lb/>Sohne gegenüber
+                    so grossartig vorkommt: aber <del rendition="#s">
+                        <gap reason="illegible" quantity="15" unit="chars"/>
+                    </del>, <lb/>wenn ich vielleicht auch berechtigt wäre, ihm gegenüber <del rendition="#s">
+                        <gap reason="illegible" quantity="3" unit="chars"/>
+                    </del>
+                    <lb/>mich annähernd ebensogrossartig zu fühlen, so habe ich es ihn <lb/>doch
+                    sicher <del rendition="#s">des</del> bisher nicht kosten lassen. Soll ich das
+                    nun <lb/>ebenso machen; oder soll ich weiter mein Prinzip aufrecht hal<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten: freundlich zu sein, so lange es irgend möglich ist.</p>
+                <p>Ich muss mich auch darüber beschweren, dass man mir noch immer <lb/>nicht die <hi rendition="#u">letzten Hefte des <orgName key="org.7">Anbruch</orgName>
+                    </hi> geschickt hat, obwohl <choice>
+                        <sic>ihj</sic>
+                        <corr>ich</corr>
+                    </choice>
+                    <lb/>mehreremale darum gebeten habe. Dann hat man mir vom <hi rendition="#u">
+                        <seg type="comment">
+                            <orig>Jahrbuch</orig>
+                            <note sameAs="letter.21789/#ncdh_l15_qwb"/>
+                        </seg>
+                    </hi>
+                    <lb/>nur ein Exemplar geschickt, wo ich doch als Mitarbeiter auf meh<g ref="#typoHyphen"/>
+                    <lb break="no"/>rere Anspruch machen kann. Bitte also wenigstens noch 2 Exem<choice>
+                        <sic>pl</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>plare zu senden oder ein paar Separatabdrucke meines
+                        <bibl sameAs="schriften.41">Artikels</bibl>, <lb/>da ich die für meine
+                    Mappen benötige.</p>
+                <p>Bitte teilen Sie mir mit, ob <hi rendition="#u">meine <seg type="comment">
+                            <orig>Chöre</orig>
+                            <note sameAs="letter.17652/#nfvr_2ps_zyb"/>
+                        </seg>
+                        schon im Stich</hi> sind.<pb n="2" xml:id="p.2"/>
+                    <lb/>Bis jetzt hat man mir noch nicht ein Wort gesagt über For<g ref="#typoHyphen"/>
+                    <lb break="no"/>mat und Stichanordnung. Sonst war das
+                    doch Usus.</p>
+                <p>Hat man bei der <seg type="comment">
+                        <orig>Kantate</orig>
+                        <note xml:id="noj3_cj2_3gc" resp="#TMuxeneder">
+                            <bibl sameAs="werke.61">Arnold
+                                Schönberg, Drei Satiren für gemischten Chor op. 28</bibl>: Der neue
+                            Klassizismus op. 28/3</note>
+                    </seg> bedacht, dass, da sie mit Klavierbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleitung ist, die Partitur so gross sein muss, dass man daraus
+                    <lb/>spielen kann? <del rendition="#s">
+                        <gap reason="illegible" quantity="7" unit="chars"/>
+                    </del> Der Stich muss aber doch nicht übermässig <lb/>gross sein, da man sich ja
+                    jetzt daran gewöhnt hat, aus klei<g ref="#typoHyphen"/>
+                    <lb break="no"/>neren Noten zu spielen.</p>
+                <p>Mir geht es im ganzen (bis auf meine Gesundheit) hier sehr <lb/>gut. Wie geht es
+                    Ihnen? Ich habe gedacht, Sie Ende <date when="1926-02">Februar</date> hier
+                    <lb/>zu sehen!</p>
+                <closer rendition="#inline">
+                    <salute>Herzlichste Grüsse; Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17684"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 17. Februar 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17684</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17684</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-02-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1281"/>
+                </correspContext>
+                <note>Beilagen: <ref target="document.23445">Kontoauszug, 11. Jänner 1927</ref>, <ref target="document.23444">Abrechnung, 12. Jänner 1927</ref> und <ref target="document.23446">Kontoauszug, 15. Februar 1927</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17684_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17684_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.24">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.15">209 West 57<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <lb/>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.1740">Ks.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1927-02-17">17.
+                            Februar 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold
+                                Schönberg</persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.2.3">Berlin</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir gestatten uns Ihnen inliegend die <seg type="comment">
+                        <orig>Abrechnung</orig>
+                        <note xml:id="nsp1_lsp_dzb" resp="#pkehrer">
+                            <ref target="document.23445">Kontoauszug, 11. Jänner 1927</ref>, <ref target="document.23444">Abrechnung, 12. Jänner 1927</ref>, <ref target="document.23446">Kontoauszug, 15. Februar 1927</ref>
+                        </note>
+                    </seg> per <lb/>II. Halbjahr <date when="1926">1926</date> zu überreichen. Neben
+                    dem Verrechnungskonto „neue <lb/>Werke“ und dem Verrechnungskonto „alte Werke“
+                    haben wir diesmal, so <lb/>wie Sie es wünschten, ein Generalverrechnungskonto
+                    angelegt.</p>
+                <p>Zu Ihrem <ref target="letter.1281">Schreiben</ref> vom <date when="1927-01-23">23.I.</date> erlauben wir uns zu be<g ref="#typoHyphen"/>
+                    <lb break="no"/>merken, dass wir bezüglich der Verrechnung der von Ihnen im
+                    vergangenen <lb/>Jahre über die M 500.– Zahlungen behobenen Beträge die
+                    Vormerkungen <lb/>ganz genau auf Grund der Besprechungen, die wir mit Ihnen
+                    hatten, <del rendition="#s">vorge<g ref="#typoHyphen"/>
+                        <lb break="no"/>nommen hatten,</del> vorgenommen haben. Wir wollen Ihnen,
+                    verehrter Meister <lb/>
+                    <persName key="pers.3263">Schönberg</persName>, nur in Erinnerung bringen, dass
+                    nicht davon die Rede war, <lb/>dass <hi rendition="#u">alle</hi> Beträge, die im
+                    Jahre <date when="1926">1926</date> von Ihnen behoben wurden, auf das <lb/>Konto
+                    „alte Werke“ zu belasten sind, sondern <hi rendition="#u">nur</hi>
+                    <hi rendition="#u">jene</hi> Beträge, die <hi rendition="#u">bis <lb/>30. Juni
+                        1926</hi> an Sie gezahlt wurden, während von diesem Zeitpunkt an <hi rendition="#u">Sie <lb/>selbst</hi> nur die normalen Zahlungen im Sinne
+                    unseres Vertrages verlangten. <lb/>Sie gaben damals der Meinung Ausdruck, dass
+                    die monatlichen Bezüge <lb/>von M 500.– ohne Rücksicht auf die Mehrbehebungen
+                    unverändert bis Som<g ref="#typoHyphen"/>
+                    <lb break="no"/>mer ausbezahlt werden sollen, während wir Ihnen vorschlugen,
+                    dass der <lb/>Vorschuss von je M 500.– von uns bis <date when="1927-04-01">1.
+                        April 1927</date> geleistet wird und <pb n="2" xml:id="p.2"/>die weiteren
+                    monatlichen Zahlungen erst nach Amortisierung der Mehr<g ref="#typoHyphen"/>
+                    <lb break="no"/>beträge erfolgen.</p>
+                <p>Auf Ihren Wunsch sind wir aber gerne bereit mit <lb/>der Amortisierung der
+                    Mehrbeträge erst ab <date when="1927-06-30">30. Juni</date> zu beginnen.</p>
+                <closer>
+                    <salute rendition="#r">Mit vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">pp <persName key="pers.4190">Winter</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

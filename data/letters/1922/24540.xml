@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.24540"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 11. April 1922</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.24540</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Christie's collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 24540</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4">Mödling</placeName>
+                    <date when="1922-04-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/24540_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.24540_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>An den Herrn Setzer-Faktor,</salute>
+                <p>Der ungewöhnliche Zustand, in welchem ich <lb/>diese Korrektur zurückschicke,
+                    macht es erforderlich, <lb/>dass ich an Sie und die Herren Setzer ein Wort
+                    richte.</p>
+                <p>Nämlich:</p>
+                <p>Ich bitte Sie und die Herren Setzer nicht die Geduld <lb/>zu verlieren, beim
+                    Anblick dieser Korrektur. <lb/>Ja: es ist soviel <subst>
+                        <del rendition="#ow">n</del>
+                        <add place="across">N</add>
+                    </subst>eues, <subst>
+                        <del rendition="#ow">g</del>
+                        <add place="across">G</add>
+                    </subst>eändertes, Umge<g ref="#typoHyphen"/>
+                    <lb break="no"/>stoßenes, da, dass
+                    ich begreife, wenn die lästige <lb/>Verbesserungsarbeit Ärger hervorruft.</p>
+                <p>Aber ich bitte Sie zu bedenken, dass ich nicht <lb/>weniger Mühe damit gehabt
+                    habe. Und wenn <lb/>ich nun schon während ca zwei Jahren viele viele <lb/>Monate
+                    an diesem <bibl sameAs="schriften.1">Buch</bibl> herumbessere, und dadurch
+                    <lb/>den großen Schaden erlitten habe, dass es über 2 <lb/>Jahre vergriffen war,
+                    so werden Sie begreifen, dass <lb/>es sich mir nur um ideale Zwecke gehandelt
+                    <lb/>hat und in deren Namen, darf ich <add place="superlinear">Sie</add> wohl um
+                    <lb/>Ihre Geduld und Ihr Wohlwollen mit meiner Arbeit <lb/>ansprechen und Sie
+                    bitten, diesen Verbesserungen <lb/>auch dort, wo sie durch Undeutlichkeit (ich
+                    <lb/>habe mir alle Mühe gegeben deutlich zu sein) <lb/>Ärger hervorruft, mit
+                    Einsicht und Freundlich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit zu
+                    beachten.</p>
+                <p rendition="#c">
+                    <hi rendition="#uu">Für die nächste Korrektur erbitte ich</hi>
+                </p>
+                <list>
+                    <item>1) Richtige Seiteneinteilung (Umbruch)</item>
+                    <item>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Richtige</supplied>
+                        </ellipsis> Einstellung aller auch der neuen
+                        <lb/>und geänderten Klischees</item>
+                    <item>3) Vor dem Umbruch möchte ich persönliche Rück<g ref="#typoHyphen"/>
+                        <lb break="no"/>sprache wegen Klischee-Einsetzung nehmen. <lb/>Bitte daher
+                        um rechtzeitige Verständigung</item>
+                    <item>4) Im ganzen Werk soll<del rendition="#s">en</del> jede Seite (für sich)
+                        <lb/>mit fortlaufen<supplied cert="high">der</supplied> Zeilennummerierung
+                            (marginalien<lb break="no"/>artig<del rendition="#s">)</del>
+                        <hi rendition="#u">5</hi>... <hi rendition="#u">1<subst>
+                                <del rendition="#ow">5</del>
+                                <add place="across">0</add>
+                            </subst>
+                        </hi>... <hi rendition="#u">
+                            <subst>
+                                <del rendition="#ow">15</del>
+                                <add place="across">20</add>
+                            </subst>
+                        </hi>. 30 etc) versehen<supplied cert="high"> werden</supplied>.
+                        <lb/>Kann das mit dem Umbruch gleichzeitig <lb/>
+                        <seg rendition="#r">geschehen?</seg>
+                        <pb n="2" facs="2"/>
+                    </item>
+                    <item>5) Bezüglich der richtigen Schriftgrößen <lb/>der Kapitel und
+                        Abschnittstitel etc <lb/>siehe die Anmerkung auf Seite 1. <lb/>
+                        <seg rendition="#c">
+                            <hi rendition="#u">Erbitte hiezu
+                            Schriftmuster!</hi>
+                        </seg>
+                    </item>
+                    <item>6) Bitte aus der Schrift <del rendition="#s">
+                            <gap reason="illegible" quantity="1" unit="chars"/>
+                        </del> die viel Zerquetschtes
+                        <lb/>enthält, Schlechtes zu ersetzen! <lb/>
+                        <seg rendition="#c">
+                            <hi rendition="#u">Insbesondere viele kleine n</hi>
+                        </seg>
+                    </item>
+                    <item>7) Bitte <del rendition="#s">auch</del> das <hi rendition="#u">Namens u
+                            <lb/>Sachregister</hi>
+                        <add place="superlinear">zu setzen und</add> in 3. Exemplaren
+                        <lb/>abzuziehen. Die Seitenzahlen können <lb/>
+                        <hi rendition="#u">einstweilen
+                            wegbleiben!!</hi>
+                    </item>
+                </list>
+                <closer>
+                    <salute>Ich empfehle mich mit vorzüglicher <lb/>Hochachtung
+                        ergebenst</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold
+                            Schönberg</persName>
+                    </signed>
+                    <dateline>
+                        <placeName key="place.9.4">Mödling</placeName>
+                        <date when="1922-04-11">1<subst>
+                                <del rendition="#ow">0</del>
+                                <add place="across">1</add>
+                            </subst>/IV.1922</date>
+                    </dateline>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#u">NB</hi> von der
+                <add place="superlinear">ganzen</add> II. Korrektur <lb/>erbitte <lb/>3
+                Abzüge (drei) <lb/>
+                        <signed>
+                            <persName key="pers.3263">Sch</persName>
+                        </signed>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

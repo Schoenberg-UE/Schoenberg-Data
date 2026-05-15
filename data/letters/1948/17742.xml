@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17742"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 26. Jänner 1948</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17742</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17742</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1948-01-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17742_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17742_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>WIEN, I.,</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>.</addrLine>
+                    </address>
+                    <seg rendition="#c">
+                        <persName key="pers.416">Be</persName>
+                    </seg>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1948-01-26">26.
+                            Jänner 1948</date>.</dateline>
+                    <address>
+                        <addrLine>Mr.</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Ave.</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Los Angeles</hi> 24.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Im Rahmen der <orgName key="org.93">IGNM</orgName> fanden folgende Aufführungen
+                    Ihrer Werke <lb/>statt, die zum Teil auch schon in dem von mir geschickten
+                        <lb/>
+                    <ref target="document.17741">Verzeichnis</ref> enthalten
+                    <!-- fismoll nicht, op. 15 nicht, vkl nacht JA aber fälschlich "november", pierrot kein datum passt, op. 29 nicht, op. 11 nicht-->sind:</p>
+                <list>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.26">Fis-moll-Quartett</bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1945-06-28">28. Juni
+                                1945</date>
+                            </orig>
+                            <note xml:id="njb1_wxj_rcc" resp="#pkehrer">
+                                <ref target="event.82"/>
+                            </note>
+                        </seg>
+                    </item>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.24">15 Gedichte op. 15</bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1945-09-26">26. September
+                                1945</date>
+                            </orig>
+                            <note xml:id="nsyn_tdj_rcc" resp="#pkehrer">
+                                <ref target="event.83"/>
+                            </note>
+                        </seg>
+                    </item>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.13">Verklärte Nacht</bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1946-10-26">26. Oktober
+                                1946</date>
+                            </orig>
+                            <note xml:id="nkdz_nhc_rcc" resp="#pkehrer">
+                                <ref target="event.78"/>
+                            </note>
+                        </seg>
+                    </item>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.54">Pierrot lunaire</bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1946-10-26">26. Oktober
+                                1946</date>
+                            </orig>
+                            <note xml:id="ng1p_phc_rcc" resp="#pkehrer">
+                                <ref target="event.78"/>
+                            </note>
+                        </seg>
+                    </item>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.62">Suite op. 29</bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1947-03-17">17. März
+                                1947</date>
+                            </orig>
+                            <note xml:id="nekj_qj3_rcc" resp="#pkehrer">
+                                <ref target="event.80"/>
+                            </note>
+                        </seg>
+                    </item>
+                    <item>
+                        <hi rendition="#u">
+                            <bibl sameAs="werke.9">3 Klavierstücke op. 1<choice>
+                                    <sic>0</sic>
+                                    <corr cert="high">1</corr>
+                                </choice>
+                            </bibl>
+                        </hi>
+                        <seg type="comment">
+                            <orig>
+                                <date when="1947-06-18">18. Juni
+                                1947</date>
+                            </orig>
+                            <note xml:id="nskq_cwc_rcc" resp="#pkehrer">
+                                <ref target="event.79"/>
+                            </note>
+                        </seg>.</item>
+                </list>
+                <closer>
+                    <salute rendition="#c">Mit ergebensten Grüssen</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

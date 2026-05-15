@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7411"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Musikblätter des Anbruch, 13. März 1923</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7411</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7411</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <date when="1923-03-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.7">Musikblätter des Anbruch</orgName>
+                </correspAction>
+                <note>= <bibl sameAs="schriften.66">[Erklärung]</bibl> (in <rs type="bibl" key="zotero-4528359-XYWAN8II">Bungardt et al. 2011</rs> datiert auf <date when="1924">1924</date>); anstelle dieses Entwurfs wurde <ref target="letter.801">Arnold Schönberg an Universal-Edition, 13. März
+                        1923</ref> abgeschickt, das Datum stimmt mit der angeklebten Beilage (<rs type="bibl" key="zotero-4528359-LPPJSDL5">Neues Wiener Journal 1923</rs>)
+                    überein; Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7411_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7411_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>P. T. Red. d. <orgName key="org.7">Anbruch</orgName>,</salute>
+                <p rendition="#inline">darf ich Sie um Ab<supplied cert="high">d</supplied>ruck der
+                        fol<g ref="#typoHyphen"/>
+                    <lb break="no"/>genden Erklärung höflichst
+                    bitten?</p>
+                <p>Da <add place="sublinear">es</add> sich in der letzten Zeit mehrmals ereignet
+                    <lb/>hat, dass Nachrichten über meine künstlerische <lb/>Tätigkeit durch die
+                    Blätter gegangen sind, se<g ref="#typoHyphen"/>
+                    <lb break="no"/>he ich mich
+                    gezwungen, zu erklären, dass <lb/>1. ich allensolchen Mitteilungen
+                        vollständig<note place="right" hand="#author">
+                        <signed>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </signed>
+                    </note>
+                    <lb/>fern stehe, <lb/>2. die <subst>
+                        <del rendition="#s">mitgeteilten</del>
+                        <add place="superlinear">vermeintlichen</add>
+                    </subst> Tatsachen fast ausnahmslos <lb/>falsch oder bis zur Sinnlosigkeit
+                    verdreht dar<g ref="#typoHyphen"/>
+                    <lb break="no"/>gestellt sind; <lb/>3. dass,
+                    wie immer ich mich entwickeln sollte, ich <lb/>doch nie aufhören werde, allen
+                    äusseren Dingen <lb/>dieselbe auf Teilnahmslosigkeit und Mangel an <lb/>Ehrgeiz
+                    beruhende Noblesse entgegenzusetzen, <lb/>die vielleicht dem einen oder andern
+                    der ein <lb/>Gefühl für derlei hat, als Richtschnur für die <lb/>Beurteilung
+                    meiner Anlagen dienen durfte.</p>
+                <p>Ich bin ausserstande zu ermitteln, welcher mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <seg rendition="#c">ner Bekannten</seg>
+                    <lb/>
+                    <note place="left" hand="#author">
+                        <hi rendition="#u">Bio</hi>
+                    </note>es sein
+                    kann, der, was ich ihm sage, nicht für <lb/>sich behalten kann: er weiss wohl
+                    nichts anderes <lb/>damit anzufangen, <del rendition="#s">gie</del> darum wohl
+                    giebt er es <lb/>rasch weiter.</p>
+            </div>
+            <div type="appendix">
+                <p>
+                    <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                    </persName>, der Führer der Expressionisten in <lb/>der Musik, arbeitet zur Zeit
+                    an einem <bibl sameAs="werke.213">Violinkonzert</bibl>. Bemerkens<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>wert ist, daß <persName key="pers.3263">Schönberg</persName>,
+                    der jahrelang nichts „Neues“<note place="right" hand="#author">Ich habe in
+                        dieser <lb/>Zeit offenbar <lb/>nur „Altes“ <lb/>
+                        <hi rendition="#u">geschaffen</hi>!</note> geschaffen <lb/>hat, in diesem
+                    Werk seine gewohnten Bahnen verlassen hat und <lb/>sich einem etwas gemäßigteren
+                    Stil <seg type="comment">
+                        <orig>anschließen will</orig>
+                        <note xml:id="neqt_x33_hgc" resp="#KBleier"><rs type="bibl"
+                                key="zotero-4528359-LPPJSDL5">Neues Wiener Journal 1923</rs></note>
+                    </seg>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

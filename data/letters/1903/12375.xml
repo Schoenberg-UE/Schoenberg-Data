@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12375"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 16. September 1903</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12375</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12375</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1903-09-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24154"/>
+                    <ref type="response-to" target="letter.24155"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12375_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12375_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.52">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1903-09-16">
+                            <seg hand="#author">16. 9. </seg>190<seg hand="#author">3</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>.</salute>
+                <p>Also <seg type="comment">
+                        <orig>Sie sind wieder <lb/>in <placeName key="place.9.11">Wien</placeName>
+                        </orig>
+                        <note xml:id="nmbt_lxy_bvb">Plan Rückkehr nach <placeName key="place.9.11"
+                                >Wien</placeName>: <date when="1903-06-23">23. Juni 1903</date>
+                            (Alexander Zemlinsky an Arnold Schönberg, 23. Juni 1903; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B186665">ASCC
+                                18666</ref>); Brief vom <date when="1903-09-10">10. September
+                                1903</date> aus Payerbach an <persName key="pers.3750">Richard
+                                Strauss</persName>, <persName key="pers.3263">Schönberg</persName>
+                            habe ihn am <date when="1903-07-02">2.</date> oder <date
+                                when="1903-07-03">3. Juli</date> zum Abschied in <placeName
+                                key="place.2.3">Berlin</placeName> nicht mehr angetroffen; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B065803">ASCC
+                                6580</ref>); erster Brief aus <placeName key="place.9.11"
+                                >Wien</placeName>: <date when="1903-09-15">15. September 1903</date>
+                            (Arnold Schönberg an Heinrich Schenker, 15. September 1903; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B066100">ASCC
+                                6610</ref>)</note>
+                    </seg> – träumen Sie noch <lb/>manchmal schwer von <placeName key="place.2.3">Ber<g ref="#typoHyphen"/>
+                        <lb break="no"/>lin</placeName>? Was macht die Arbeit? <lb/>Wollen wir nicht
+                        <bibl sameAs="werke.5">P. u. Mel.</bibl>
+                    <lb/>vervielfältigen? Es muss doch <lb/>etwas damit geschehen! <lb/>Könnte man
+                    nicht den <lb/>Versuch machen die Tondich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung auf der nächsten <seg type="comment">
+                        <orig>Ton<g ref="#typoHyphen"/>
+                            <lb break="no"/>künstlerversammlung zur <lb/>Aufführung</orig>
+                        <note xml:id="nszg_dlm_15b"><date when="1904-05-27">27. Mai</date>–<date when="1904-06-01">1.
+                                    Juni 1904</date>, <placeName key="place.2.13">Frankfurt am Main</placeName>, 40. Tonkünstler-Fest des <orgName
+                                    key="org.195">Allgemeinen Deutschen Musikvereins </orgName>zu
+                                    <placeName key="place.2.13">Frankfurt am Main</placeName>; keine Aufführung eines <persName key="pers.3263"
+                                >Schönberg</persName>-Werks (<rs type="bibl"
+                                    key="zotero-4528359-D8Q9R4LE">Die Musik 1904</rs>, S.
+                                227ff.)</note>
+                    </seg> zu bringen? </p>
+                <p>Sind Sie <seg type="comment">
+                        <orig>Mitglied</orig>
+                        <note xml:id="nvll_2lm_15b">Mitgliedschaft ab <date when="1902-11">November
+                                1902</date> (Allgemeiner Deutscher Musikverein an Arnold
+                            Schönberg, November 1902; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B226666">ASCC
+                                22666</ref>)</note>
+                    </seg> des Vereins? <lb/>(<orgName key="org.195">Allgemeiner Deutscher Musik<g ref="#typoHyphen"/>
+                        <lb break="no"/>verein</orgName>, <placeName key="place.2.20">Leipzig</placeName>). <lb/>Sie scheinen mit uns <lb/>nicht zufrieden zu
+                    sein? <lb/>Aber wir können Ihnen <lb/>wirklich einstweilen keine <lb/>besseren
+                    Bedingungen <lb/>machen. Sorgen Sie nur <lb/>dafür, dass wir bald
+                    <lb/>ausreichenden Grund ha<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>ben werden mit Ihnen <lb/>zufrieden zu sein –
+                    alles <lb/>Andere wird sich dann <lb/>schon nach Wunsch regeln. </p>
+                <p>Ich habe sehr viel zu <lb/>thun, war auch inzwischen <lb/>wieder verreist, so kam
+                    <lb/>es, dass ich die Beantwor<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung Ihrer beiden <seg type="comment">
+                        <orig>Briefe</orig>
+                        <note xml:id="nbsg_jk3_bvb">
+                            <ref target="letter.24154">Arnold Schönberg an Verlag Dreililien,
+                                zwischen 27. Juni und 16. September 1903 [erschlossen]</ref>; <ref target="letter.24155">Arnold Schönberg an Verlag Dreililien,
+                                zwischen 27. Juni und 16. September 1903 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <lb/>immer aufschob.</p>
+                <closer rendition="#c">
+                    <salute>Beste Grüsse <lb/>Ihres</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

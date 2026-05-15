@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7001"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 9. August 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7001</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7001</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.7">Carlshagen</placeName>
+                    <date when="1912-08-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                </correspAction>
+                <note>Datierung und Sendeadresse laut Poststempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Ansichtskarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-21+02:00" who="KBleier">Ergänzung Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7001_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7001_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>, Berlin-Zehlendorf-Wannseebahn
+                     <lb/>
+                        Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Herzka</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I.</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.18">Reichsratsstr. 9</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>:</salute>
+                <p rendition="#inline">ich wollte Ihnen schon lange <lb/>schreiben, dass auf meinem
+                        <bibl sameAs="werke.13">Sextett</bibl>, auf Partitur <lb/>und Stimmen und
+                    auf einigen der <seg type="comment">
+                        <orig>Lieder</orig>
+                        <note xml:id="nrkl_z2l_syb" resp="#KBleier"><bibl sameAs="werke.131">Arnold
+                                Schönberg, Zwei Gesänge für eine Baritonstimme und Klavier op.
+                                1</bibl>; <bibl sameAs="werke.1">Arnold Schönberg, Vier Lieder für
+                                eine Singstimme und Klavier op. 2</bibl>; <bibl sameAs="werke.41"
+                                >Arnold Schönberg, Sechs Lieder für eine mittlere Singstimme und
+                                Klavier op. 3</bibl></note>
+                    </seg>, noch <lb/>von <persName key="pers.2283">Marschalk</persName> her der
+                    Satz steht: <hi rendition="#u">Aufführungs<g ref="#typoHyphen"/>
+                        <lb break="no"/>recht vorbehalten</hi>! Kann das nicht aufgeklebt
+                    <lb/>werden? Bitte veranlassen Sie das. In Ihrer <lb/>Musikztg finde ich eine
+                        <seg type="comment">
+                        <orig>Kritik</orig>
+                        <note xml:id="nd2m_l4j_3bc" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-CIDYX9YK">Wagner 1912</rs>
+                        </note>
+                    </seg> des „Prof“ <persName key="pers.3945">Wagner</persName> über <lb/>
+                    <persName key="pers.543">Brahms</persName> und die <bibl sameAs="werke.108">IX
+                        Mahler</bibl>. Ich finde das unerhört! <lb/>Müssen Sie das zulassen. <seg
+                        type="comment"><orig>„Wer ist der Mensch?“</orig><note xml:id="nytq_gfv_z3c"
+                            resp="#KBleier">Die Frage &#8222;Quis est homo&#8220; stammt aus dem
+                            mittelalterlichen Gedicht Stabat Mater</note></seg> Es <lb/>gefällt mir
+                    schon seit langem nicht. Wofür hat da über<g ref="#typoHyphen"/>
+                    <lb break="no"/>haupt Kritik drinzustehen? Wir sind alle empört!</p>
+                <closer rendition="#c">
+                    <salute>Herzl Gruß</salute>
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+            <pb n="2" xml:id="p.2"/>
+            <div>
+                <figure>
+                    <p>28 Ostseebad <placeName key="place.2.7">Carlshagen</placeName> – Blick auf
+                  Sommerheim Athmer Scheeffer</p>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

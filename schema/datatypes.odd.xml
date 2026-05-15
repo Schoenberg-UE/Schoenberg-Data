@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
+<div xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:mei="http://www.music-encoding.org/ns/mei"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0" 
+    xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" 
+    xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+    xmlns:s="http://www.ascc.net/xml/schematron" >
+        
+    <specGrp xml:id="asue-datatypes">
+        
+        <!--<dataSpec ident="wega.persons.pointer" mode="add" module="wega.core.module">
+            <desc xml:lang="de" versionDate="2017-08-29">definiert das Muster für Personen-IDs innerhalb der WeGA</desc>
+            <desc xml:lang="en" versionDate="2017-08-29">defines the possible attribute values for person IDs within the WeGA</desc>
+            <content>
+                <dataRef name="string" restriction="A00[0-9A-F]{4}"/>
+            </content>
+        </dataSpec>-->
+
+        <dataSpec ident="empty">
+            <content>
+                <dataRef name="string" restriction=""/>
+            </content>
+        </dataSpec>
+        
+        <!-- ################################################################### -->
+        <!--                        Identifier for objects                       -->
+        <!-- ################################################################### -->
+        
+        <!-- IDs for letters or documents -->
+        <dataSpec ident="asue.textId">
+            <content>
+                <alternate>
+                    <dataRef key="asue.letterId"/>
+                    <dataRef key="asue.docId"/>
+                </alternate>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for letters -->
+        <dataSpec ident="asue.letterId">
+            <content>
+                <dataRef name="string" restriction="letter\.\d{1,5}(_[a-z]{1,4})?"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for documents -->
+        <dataSpec ident="asue.docId">
+            <content>
+                <dataRef name="string" restriction="document\.\d{1,5}(_[a-z]{1,4})?"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for persons -->
+        <dataSpec ident="asue.persId">
+            <content>
+                <dataRef name="ID" restriction="pers\.\d{1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for organisations -->
+        <dataSpec ident="asue.orgId">
+            <content>
+                <dataRef name="ID" restriction="org\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for places -->
+        <dataSpec ident="asue.placeId">
+            <content>
+                <dataRef name="ID" restriction="place(\.\d{1,2}){1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for works (musical and literary) -->
+        <dataSpec ident="asue.workId">
+            <content>
+                <dataRef name="ID" restriction="(werke|schriften)\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for stamps -->
+        <dataSpec ident="asue.stampId">
+            <content>
+                <dataRef name="ID" restriction="stamp\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for events -->
+        <dataSpec ident="asue.eventId">
+            <content>
+                <dataRef name="ID" restriction="event\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for terms -->
+        <dataSpec ident="asue.itemId">
+            <content>
+                <dataRef name="ID" restriction="item\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- IDs for notes -->
+        <dataSpec ident="asue.noteId">
+            <content>
+                <dataRef name="ID" restriction="\w{4}_\w{3}_\w{3}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- ################################################################### -->
+        <!--                          Object References                          -->
+        <!-- ################################################################### -->
+        
+        <dataSpec ident="asue.letterRef">
+            <content>
+                <dataRef name="string" restriction="letter\.\d{1,5}(_[a-z]{1,4})?"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.docRef">
+            <content>
+                <dataRef name="string" restriction="document\.\d{1,5}(_[a-z]{1,4})?"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.persRef">
+            <content>
+                <dataRef name="string" restriction="pers\.\d{1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.orgRef">
+            <content>
+                <dataRef name="string" restriction="org\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.placeRef">
+            <content>
+                <dataRef name="string" restriction="place(\.\d{1,2}){1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.workRef">
+            <content>
+                <dataRef name="string" restriction="(werke|schriften)\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.stampRef">
+            <content>
+                <dataRef name="string" restriction="stamp\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.eventRef">
+            <content>
+                <dataRef name="string" restriction="event\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.itemRef">
+            <content>
+                <dataRef name="string" restriction="item\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.zoteroRef">
+            <content>
+                <dataRef name="string" restriction="zotero-4528359-[A-Z0-9]{8}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.noteRef">
+            <content>
+                <dataRef name="string" restriction="letter\.\d{1,5}(_[a-z]{1,4})?/#\w{4}_\w{3}_\w{3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.keyRef">
+            <content>
+                <alternate>
+                    <dataRef key="asue.persRef"/>
+                    <dataRef key="asue.orgRef"/>
+                    <dataRef key="asue.placeRef"/>
+                    <dataRef key="asue.itemRef"/>
+                    <dataRef key="asue.zoteroRef"/>
+                </alternate>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.sameAsRef">
+            <content>
+                <alternate>
+                    <dataRef key="asue.workRef"/>
+                    <dataRef key="asue.stampRef"/>
+                    <dataRef key="asue.zoteroRef"/>
+                </alternate>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="wikidataId">
+            <content>
+                <dataRef name="string" restriction="https?://www.wikidata.org/(entity|wiki)/Q\d{1,9}"/>
+            </content>
+        </dataSpec>
+        
+        <!-- ASCC Signatures -->
+        <dataSpec ident="asue.asccNum">
+            <content>
+                <dataRef name="string" restriction="^ASCC \d{1,5}$"/>
+            </content>
+        </dataSpec>
+        
+        <!-- other patterns -->
+        <dataSpec ident="asue.geoCoords">
+            <content>
+                <dataRef name="string" restriction="-?\d{1,3}(\.\d{1,17})?, -?\d{1,3}(\.\d{1,17})?"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asue.handValues">
+            <content>
+                <alternate>
+                    <dataRef name="string" restriction="#author"/>
+                    <dataRef name="string" restriction="#addressee"/>
+                    <dataRef name="string" restriction="#unknown"/>
+                    <dataRef name="string" restriction="#pers\.\d{1,4}"/>
+                </alternate>
+            </content>
+        </dataSpec>
+        
+        <!-- ############################## -->
+        <!-- Base-URI of the Online edition -->
+        <!-- ############################## -->
+        
+        <dataSpec ident="asueOnline.baseUri">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/"/>
+            </content>
+        </dataSpec>
+        
+        <!-- URLs to register entries in the Webapp -->
+        <dataSpec ident="asueOnline.persEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/persons/pers\.\d{1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.orgEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/organisations/org\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.placeEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/places/place(\.\d{1,2}){1,4}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.compositionEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/works/werke\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.writingEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/bibliography/schriften\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.workEntry">
+            <content>
+                <alternate>
+                    <dataRef key="asueOnline.compositionEntry"/>
+                    <dataRef key="asueOnline.writingEntry"/>
+                </alternate>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.stampEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/stamps#stamp\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        <dataSpec ident="asueOnline.eventEntry">
+            <content>
+                <dataRef name="string" restriction="http://10.10.10.244:8080/exist/apps/Schoenberg.web/events/event\.\d{1,3}"/>
+            </content>
+        </dataSpec>
+        
+        
+    </specGrp>
+        <!-- Pattern für GND, VIAF, geonames, andere... -->
+        <!-- Schönberg Werkverzeichnis Pattern -->
+        <!-- Pattern für Note-Ids -->
+        <!-- Mitarbeiter-Kürzel in note@refs -->
+        <!--  SPEC for Lists -->
+        <!-- liste von keywords -->
+        
+        <!-- SPEC for attributes -->
+        <!-- org type, place level, ... -->
+        
+        <!-- rendition attributes -->
+        <!--<specGrp xml:id="rendition">
+            
+        </specGrp>-->
+        <!-- Constraints mit <constraintSpec> und Schematron rules -->
+        
+    
+</div>

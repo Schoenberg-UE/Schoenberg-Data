@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.652"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 19. Juli 1922</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.652</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 652</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.10.2">Traunkirchen, Traunkirchen 3 (Villa
+                        Spaun)</placeName>
+                    <date when="1922-07-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.24318"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-03+02:00" who="KBleier">Korrektur Transkription</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/652_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.652_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.12">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                        <lb/>
+                        <placeName key="place.9.10.2">Traunkirchen N<hi rendition="#sup #uu">o</hi>
+                     3</placeName>
+                        <lb/>Villa Spaun<lb/>Oberoesterr.</stamp>
+                    <dateline>
+                        <date when="1922-07-19">19.VII.1922</date>
+                    </dateline>
+                </opener>
+                <salute>P. T. <orgName key="org.1">Universal Edition</orgName>,</salute>
+                <p rendition="#inline">ich habe eine Bitte; nicht an <lb/>den Verlag, sondern an
+               irgenwelche Freunde, <lb/>die mir eine Gefälligkeit erweisen wollen. <lb/>Ich habe
+               aus Versehen einige Schreibrequisiten nicht <lb/>hieher mitgenommen und kann hier
+               manches <lb/>gar nicht, oder meist nur in unbrauchbaren <lb/>Qualitäten bekommen.</p>
+                <p>Wäre nur einer der Herrn (<add place="superlinear">mit</add> Sachverständnis)
+                    <lb/>so freundlich mir diese Gegenstände zu be<g ref="#typoHyphen"/>
+                    <lb break="no"/>sorgen und <hi rendition="#uu">unter Nachnahme</hi> hieher zu
+                    senden? – <lb/>bitte: unter Nachnahme, damit keine Verrech<g ref="#typoHyphen"/>
+                    <lb break="no"/>nung nötig ist.<note place="right" hand="#unknown"><!-- steno -->
+                        <hi rendition="#st">1 hart 1 weich</hi>
+                    </note>
+                </p>
+                <list>
+                    <item>
+                        <supplied cert="high">1.</supplied>) 6 <orgName key="org.303">Fabersche Castell</orgName>
+                        <hi rendition="#u">Tintenstifte</hi>, u zw. <note place="right" hand="#unknown"><!-- steno -->
+                            <hi rendition="#st">Mittel und hart</hi>
+                        </note>
+                        <lb/>3 „HB“ und 3 „F“</item>
+                    <item>2.) <metamark function="done" hand="#addressee" spanTo="#pkk_h42_g2c"/>
+                        <hi rendition="#u">100</hi>
+                        <anchor type="done" xml:id="pkk_h42_g2c"/> Bogen
+                        billiges Konzeptpapier</item>
+                    <item>3<metamark function="done" hand="#addressee">✓</metamark>.) <metamark function="done" hand="#addressee" spanTo="#vcc_342_g2c"/>
+                        <hi rendition="#u">10</hi><anchor type="done" xml:id="vcc_342_g2c"/> <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Bogen</supplied>
+                        </ellipsis>
+                        <hi rendition="#u">gutes</hi>, bestes Durch<hi rendition="#uu">schreib</hi>papier <lb/>für Handschrift <del rendition="#s">mit</del> gut
+                            lesbar<add place="sublinear">
+                            <del rendition="#s">er</del>
+                        </add> und
+                            dauer<g ref="#typoHyphen"/>
+                        <lb break="no"/>hafte Durchschrift!</item>
+                    <item>4<metamark function="done" hand="#addressee">✓</metamark>.) <metamark function="done" hand="#addressee" spanTo="#znq_342_g2c"/>3<anchor type="done" xml:id="znq_342_g2c"/> Blatt (<add place="superlinear">ca</add> 70 x 100) allerbesten Lösch-<hi rendition="#u">Carton</hi>!</item>
+                    <item>5.) 10 Bogen (70 x 100) des <del rendition="#s">Noten</del>
+                        <subst>
+                            <del rendition="#ow">p</del>
+                            <add place="across">P</add>
+                        </subst>apieres, welches für <lb/>mein Notenpapier verwendet wurde, aber:
+                        ohne <lb/>Raster; unliniert, als Vorsatz und Umschlag für <lb/>Notenheft und
+                            Bücher.<note place="right" hand="#unknown">
+                            <hi rendition="#circle">47</hi>
+                            <lb/>
+                            <!-- steno -->
+                            <hi rendition="#st">
+                                <gap reason="illegible" unit="lines" quantity="3"/>
+                                <lb/>5 Bögen</hi>
+                        </note>
+                    </item>
+                </list>
+                <closer>
+                    <salute>Im Voraus dem freundlichen Helfer bestens <lb/>dankend<subst>
+                            <add place="sublinear">; bin</add>
+                            <del rendition="#s"> und grüß</del>
+                        </subst>
+                        ich mit <unclear reason="illegible" cert="high">schönstem</unclear> Gruß</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                     Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

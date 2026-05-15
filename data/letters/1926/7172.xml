@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7172"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 20. September 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7172</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7172</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.6.1">Pörtschach, Werzer Promenade 8</placeName>
+                    <date when="1926-09-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7172_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7172_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>Pörtschach</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.6.1">Hotel Werzer</placeName>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1926-09-20">20/IX.1926</date>
+                    </dateline>
+                    <note place="right" hand="#addressee">telegr. <date when="1926-09-20">20/IX.26</date> X</note>
+                </opener>
+                <salute>P. T. <orgName key="org.1">U. E</orgName>,</salute>
+                <p rendition="#inline">bitte senden Sie mir freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichst von meiner September-Gage 600 Sch <note hand="#addressee" place="mBottom">
+                        <del rendition="#s">
+                            <!-- steno -->
+                            <hi rendition="#st">
+                                <hi rendition="#u">Schönberg</hi>
+                                schreibt immer „<hi rendition="#u">Kitsch</hi>“.
+                                <lb/>Man muss Stücke festlegen, dass die kein <lb/>
+                                <hi rendition="#u">Kitsch</hi> sind</hi>
+                        </del>
+                    </note>
+                    <lb/>(sechshundert) so rasch als möglich mittels <lb/>telegrafischer
+                    Postanweisung.</p>
+                <p>Gestern sandte ich eine Anweisung auf <lb/>250 Sch an Herrn <persName key="pers.1947">Kolisch</persName>, der einige Einkaufe <lb/>für mich
+                    besorgt.</p>
+                <p>Den <ref target="letter.17660">Brief</ref> des Herr Direktor <persName key="pers.1538">Herzka</persName> und des <lb/>Herrn D<hi rendition="#sup #u">r</hi>
+                    <persName key="pers.1750">Kalmus</persName> beantworte ich dieser Tage.</p>
+                <closer>
+                    <salute>Einstweilen besten Dank u schönste <lb/>Grüße. Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <pb n="2" xml:id="p.2"/>
+            </div>
+            <div type="letter" hand="#unknown">
+                <table rows="5" cols="3">
+                    <row>
+                        <cell>Soll –</cell>
+                        <cell>S 22.541.85</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Haben –</cell>
+                        <cell>
+                            <hi rendition="#u">6.839.06</hi>
+                        </cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 15.702.79</cell>
+                        <cell>S<hi rendition="#sup #uu">o</hi> per <date when="1926-09-20">20/IX
+                                26</date>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell><!-- steno -->
+                            <hi rendition="#st">
+                                <gap reason="illegible" unit="chars" quantity="3"/>
+                            </hi>
+                            <note place="mBottom">
+                                <table rows="6" cols="3">
+                                    <row>
+                                        <cell>
+                                            <metamark/> M 224.84</cell>
+                                        <cell>Rest f <date when="1926-05">Mai</date>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>500.–</cell>
+                                        <cell>f <date when="1926-06">VI.</date>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>500.–</cell>
+                                        <cell>f <date when="1926-07">VII.</date>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>500.–</cell>
+                                        <cell>f <date when="1926-08">VIII.</date>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>500.–</cell>
+                                        <cell>f <date when="1926-09">IX</date>
+                                        </cell>
+                                        <cell/>
+                                    </row>
+                                    <row>
+                                        <cell>M 2224.84 x 1.69</cell>
+                                        <cell>= S 3.759.98</cell>
+                                        <cell/>
+                                    </row>
+                                </table>
+                            </note>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">3.759.98</hi>
+                        </cell>
+                        <cell>zu bekommen hätte er <lb/>v <date when="1926-05">Mai</date> bis <date when="1926-09">Sept.</date> monatl.
+                            <!-- steno --><hi rendition="#st">Zahlungen</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 11.942.81</cell>
+                        <cell>S<hi rendition="#sup #uu">o</hi> per <date when="1926-09-20">20/IX.26</date>. <lb/>auf General
+                            <!-- steno --><hi rendition="#st">Verrechnungskonto</hi>
+                        </cell>
+                    </row>
+                </table>
+                <lb/>
+                <table rows="6" cols="2">
+                    <row>
+                        <cell>S<hi rendition="#sup #uu">o</hi> per <date when="1926-01-16">16/I.1926</date> =</cell>
+                        <cell>S 9.975.74 <metamark function="done" hand="#unknown">✓</metamark>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>S<hi rendition="#sup #uu">o</hi>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>per</supplied>
+                            </ellipsis>
+                            <date when="1926-09-20">20/IX.</date>
+                            <metamark function="done" hand="#unknown">✓</metamark> – </cell>
+                        <cell>
+                            <hi rendition="#u">11.942.81</hi>
+                            <metamark function="done" hand="#unknown">✓</metamark>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 1.967.07</cell>
+                    </row>
+                    <row>
+                        <cell>ab f. <bibl sameAs="schriften.41">artikel</bibl>
+                            <unclear reason="illegible" cert="low">f</unclear>
+                            <seg type="comment">
+                                <orig>Jahrb</orig>
+                                <note sameAs="letter.21789/#ncdh_l15_qwb"/>
+                            </seg>.</cell>
+                        <cell>
+                            <hi rendition="#u">422.50.–</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S 1.544.57</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rendition="#u">
+                                <gap reason="illegible" unit="chars" quantity="2"/>
+                                I–IX mehr ausbezahlt</hi>
+                        </cell>
+                    </row>
+                </table>
+                <lb/>
+                <table rows="4" cols="2">
+                    <row>
+                        <cell>S<hi rendition="#sup #uu">o</hi> auf Gold Mark Kto.</cell>
+                        <cell>S. 22.263.76</cell>
+                    </row>
+                    <row>
+                        <cell>+ Zahlgen <add place="superlinear">welche</add> bis <date when="1926-09">Sept</date> zu </cell>
+                        <cell>
+                            <hi rendition="#u">3.759.98.</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>leisten wären.</cell>
+                        <cell>S <hi rendition="#u">26.023.74.</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>S<hi rendition="#sup #uu">o</hi> auf Gold <supplied cert="high">Mark</supplied> Kto</cell>
+                    </row>
+                </table>
+                <lb/>
+                <table rows="3" cols="1" rendition="#r">
+                    <row>
+                        <cell>S 3.759.98</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rendition="#u">1.966.37</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>S 5.726.35.</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20232"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 28. Mai 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20232</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20232</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1934-05-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.8.14">New York, Broadway 73rd Street</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2305"/>
+                </correspContext>
+                <note>Beilagen: <ref target="document.20232_cod">Vereinbarung über die englische
+                        Ausgabe der „Harmonielehre“ von Arnold Schönberg, 28. Mai
+                        1934 (Kopie)</ref> und <ref target="document.20232_cn">Vereinbarung über die
+                        englische Ausgabe der „Harmonielehre“ von Arnold Schönberg, 28.
+                        Mai 1934</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20232_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20232_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.40">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG·<placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                        <lb/>TELEGRAMM-ADRESSSE: MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN
+                        57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1934-05-28">28.
+                            Mai 1934</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">Hotel Ansonia,</addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.15.8.14">Broadway, 73 rd
+                            Street</placeName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <hi rendition="#g">New York</hi>, City.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ihr <ref target="letter.2305">Brief</ref> aus <placeName key="place.15.8">New
+                        York</placeName> (ohne Datum) hat uns sehr interessiert. <lb/>Eine
+                    Entscheidung der von Ihnen gestellten Fragen ist nicht nur prin<g ref="#typoHyphen"/>
+                    <lb break="no"/>zipiell schwer zu treffen, sondern erfordert auch eine Reihe von
+                        Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>arbeiten, die wir durchführen lassen. Sie erhalten <add place="superlinear">daher nicht sogleich, aber</add> jedenfalls inner<g ref="#typoHyphen"/>
+                    <lb break="no"/>halb einer Woche Nachricht.</p>
+                <p>Die übrigen Punkte erledigen wir sofort und zwar:</p>
+                <p>ad 1) Senden wir Ihnen Kopie des letzten Generalvertrags vom <date when="1932-09"
+                        >September <lb/>1932</date>
+                    <seg type="comment">
+                        <orig>(Beilage 1).</orig>
+                        <note xml:id="nqzr_lxf_j1c" resp="#pkehrer">Erhalten sind <ref
+                                target="document.7359_cof">Vertrag, 11. September 1932 (Kopie
+                                1)</ref> und <ref target="document.7359_ccf">Vertrag, 11. September
+                                1932 (Kopie 2)</ref>, aber keine von beiden Quellen ist – wie die
+                            anderen Beilagen zu diesem Brief – mit rotem Farbstift
+                            beschriftet</note>
+                    </seg>
+                </p>
+                <p>ad 2) Die Spezialurheberrechtsabtretungen senden wir Ihnen nochmals <lb/>in
+                    Abschrift <!-- nicht nachweisbar -->und zwar für <del rendition="#s">die</del>
+                    a) <bibl sameAs="werke.64">Variationen op. 31</bibl>, b) <bibl sameAs="werke.32"
+                        >Präludium und <lb/>Fuge</bibl> von <persName key="pers.252"
+                    >Bach</persName>, c) das <bibl sameAs="werke.63">Streichquartett op. 30</bibl>.
+                    Wir haben Ihnen diesel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben 3–4 Wochen nach unserem letzten Generalvertrag <ref
+                        target="letter.17366">übermittelt</ref> und <lb/>um unterfertigte
+                    Rücksendung gebeten, die <seg type="comment">
+                        <orig>Exemplare</orig>
+                        <note xml:id="nf2n_2hg_j1c" resp="#pkehrer">
+                            <ref target="document.24087_cosd">Urheberrechtsabtretung:
+                                Streichquartett Nr. 3 op. 30, August 1932 (Kopie)</ref>; <ref
+                                target="document.24101">Urheberrechtsabtretung: Präludium und Fuge
+                                in Es-Dur für Orgel BWV 552, August 1932</ref>; <ref
+                                target="document.24102_cn">Urheberrechtsabtretung: Variationen für
+                                Orchester op. 31, August 1932</ref>
+                        </note>
+                    </seg> jedoch niemals <lb/>zurückerhalten. Die Spezialurheberrechtsabtretungen
+                    über die übrigen <lb/>Werke sollten dann nach dem gleichen Muster ausgefertigt
+                    werden.</p>
+                <p>Wir senden Ihnen <seg type="comment">
+                        <orig>von den 3 Werken je 2 Exemplare</orig>
+                        <note xml:id="nrdw_5ch_22c" resp="#pkehrer">Die <ref
+                                target="document.24087_phc">Urheberrechtsabtretung: Streichquartett
+                                Nr. 3 op. 30, Juni 1934 (Kopie)</ref> gehört in diesen Zusammenhang;
+                            vermutlich handelt es sich um eines der an <persName key="pers.3263"
+                                >Schönberg</persName> zurückgeschickten Gegenexemplare</note>
+                    </seg>,
+                    davon eines <lb/>von uns unterfertigt für Ihren eigenen Gebrauch, während wir
+                    das zweite <lb/>Exemplar für unser Archiv von Ihnen unterschrieben
+                    zurückerbitten (Bei<g ref="#typoHyphen"/>
+                    <lb break="no"/>lage 2–7). Es hat sich nur mittlerweile insofern eine
+                    Veränderung er<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben, als Sie nicht mehr Mitglied der <orgName key="org.73">G.
+                        D. T.</orgName> sein
+                    dürften,
+                    sodass wir <pb n="2" xml:id="p.2"/>eventuell im zweiten Absatz die Worte „Die
+                    Aufführungs-, Rundfunk- und <lb/>mechanischen Rechte sind …….. letzterer
+                    übertragen haben“ zu streichen <lb/>bitten.</p>
+                <p>ad 3) Ebenso erhalten Sie gleichzeitig eine englische
+                    Liste der im Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>lag der <orgName key="org.1">U. E.</orgName> original und zum
+                    Mitvertrieb enthaltenen Ausgaben Ihrer <lb/>Werke mit Angabe der
+                    Copyright-Eintragungen bei jedem Werk. Soweit die <lb/>Copyright-Eintragungen
+                    fehlen, ist eine Durchführung der Copyright-Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>tragung wegen des damaligen Kriegszustandes zwischen <placeName key="place.9">Oesterreich</placeName> und <lb/>
+                    <placeName key="place.15">Amerika</placeName> bezw. wegen des Fehlens von
+                    Staatsverträgen zwischen beiden <lb/>Ländern in der ersten Nachkriegszeit nicht
+                    möglich gewesen. <add place="intralinear">(Beilage 8)</add>
+                </p>
+                <p>ad 4) Liegt ein Vertrags-Schema vor, welches wir Ihnen Ende <date when="1932">1932</date> einge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schickt haben und wir senden Ihnen von demselben Kopie (<ref target="document.20232_cod">Beilage 9</ref>). Wir <lb/>haben jedoch nochmals
+                    ein Vertrags-Schema ausgearbeitet, das noch etwas <lb/>genauer ist, und glauben,
+                    dass dieses zu verwenden wäre (<ref target="document.20232_cn">Beilage
+                    10</ref>). <lb/>Die Frage wegen der Abtretung der Rechte für den amerikanischen
+                        Konti<g ref="#typoHyphen"/>
+                    <lb break="no"/>nent (es ist nicht klar, ob nur <placeName key="place.15">U.S.A.</placeName> oder <placeName key="place.15">U.S.A.</placeName>,
+                        <placeName key="place.18">Canada</placeName> und <placeName key="place.19">Mexico</placeName>
+                    <lb/>oder Nord- und Südamerika) bezw. für die ganze Welt, wird in Kürze beant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wortet werden.</p>
+                <p>Die <orgName key="org.73">G. D. T.</orgName> hat im allgemeinen ihre Komponisten
+                        freigege<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, wenn nicht eine
+                        <seg type="comment">
+                        <orig>Erklärung</orig>
+                        <note xml:id="nnsn_dng_j1c" resp="#pkehrer">Eine derartige Erklärung
+                                <persName key="pers.3263">Schönbergs</persName> ist nicht erhalten,
+                            aber die „Vorbehalte“, unter denen er sie abgegeben hat (Arnold
+                            Schönberg an Genossenschaft deutscher Tonsetzer, 26. September 1933;
+                                <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B024386"
+                                >ASCC 2438</ref>)</note>
+                    </seg> bezüglich Beitritt zur <orgName key="org.163">STAGMA</orgName> seitens
+                    <lb/>des Komponisten erfolgt ist. Sie verlangt jedoch die Zahlung von Vor<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>schüssen vom Komponisten bezw. von der Gesellschaft, in welche
+                    er ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>tritt, zurück. Es ist uns auch ein Fall (Dr. <persName
+                        key="pers.3879">Toch</persName>) bekannt, in welchem <lb/>eine Freigabe bis
+                    jetzt angeblich nicht erfolgt ist. Wenn Sie der <orgName key="org.163"
+                        >STAGMA</orgName>
+                    <lb/>Ihre Rechte übertragen haben, so ist der Wortlaut Ihrer diesbezüglichen
+                    <lb/>Erklärung massgebend, den Sie uns mitteilen müssten. In den Statuten der <lb/>
+                    <orgName key="org.163">STAGMA</orgName> ist überhaupt von der Einteilung in
+                    arische und nicht-arische <lb/>Mitglieder oder von minderberechtigten Autoren
+                    nicht die Rede, sondern <lb/>es werden nach den Statuten alle gleichmässig
+                    behandelt. Ob die Behand<g ref="#typoHyphen"/>
+                    <lb break="no"/>lung bei der Einschätzung des Komponisten für die Auszahlung für
+                        nicht-<pb n="3" xml:id="p.3" break="no"/>arische Mitglieder dieselbe ist wie
+                    für arische, wissen wir nicht. <lb/>Für die Ausschüttung <del rendition="#s"
+                        >für</del>aus deutschen Aufführungen kommt die Ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>schätzung nicht sehr in Frage, da Ihre Werke im abgelaufenen
+                    Jahr <lb/>entweder gar nicht oder nur in seltenen Fällen aufgeführt werden
+                    <lb/>konnten (in der letzten Zeit können Aufführungen im Rahmen der ein<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>zelnen Sektionen des <orgName key="org.201">jüdischen
+                        Kulturbundes</orgName> stattfinden) und für das <lb/>Ausland sollte die
+                    Abrechnung, die aus dem betreffenden Ausland kommt, <lb/>
+                    <add place="intralinear">und nicht eine Schätzung </add>massgebend sein. Die
+                    Kündigungsbestimmungen bei der <orgName key="org.73">G. D. T.</orgName> sind uns
+                    <lb/>nicht genau bekannt, wir werden aber diesbezüglich Erkundigungen ein<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ziehen. Es ist daher schwer zu sagen, ob Sie frei sind, weil Sie
+                    <lb/>darüber allein nicht einfach entscheiden können, sondern die einzelnen
+                    <lb/>Gesellschaften im Ausland (z. B. die französische oder englische Ge<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>sellschaft) sich an die Anweisungen bei der <orgName
+                        key="org.163">STAGMA</orgName> halten dürften. Es wäre <lb/>daher am besten,
+                    wenn Sie nochmals bei der <orgName key="org.163">STAGMA</orgName> und der
+                        <orgName key="org.73">G. D. T.</orgName> an<g ref="#typoHyphen"/>
+                    <lb break="no"/>fragen würden und wir wollen inzwischen privat Erkundigungen
+                    einziehen, <lb/>ob Sie noch als Mitglied geführt werden. Wir bitten eventuell
+                    auch um <lb/>Ermächtigung zu einer offiziellen Anfrage unsererseits, obwohl wir
+                    <lb/>nicht sicher sind, dass wir als Mitglied der österreichischen <orgName
+                        key="org.5">A. K. M.</orgName>
+                    <lb/>ohne weiters eine authentische Auskunft erhalten werden. Sie könnten
+                    <lb/>eventuell auch bei der <orgName key="org.5">A. K. M.</orgName> anfragen, ob
+                    man Sie bei dieser Gesell<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaft als Mitglied aufnehmen würde, da Sie doch Oesterreicher
+                    sind <lb/>oder waren. In diesem Falle würde die <orgName key="org.5">A. K.
+                        M.</orgName> ohne weiters eine authen<g ref="#typoHyphen"/>
+                    <lb break="no"/>tische Auskunft von der <orgName key="org.163">STAGMA</orgName>
+                    und <orgName key="org.73">G. D. T.</orgName> bekommen.</p>
+                <p>Es ist schade, dass Sie uns bisher für die „<persName key="pers.3263">Schönberg</persName>-Bulletins“ <lb/>fast gar <del rendition="#s">nichts</del> kein Material zur Verfügung gestellt haben. Es
+                    würde <lb/>uns und alle Ihre Freunde sehr interessieren, Näheres über Ihre
+                        Tätig<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit und Ihr persönliches Befinden in <placeName key="place.15">U.S.A.</placeName> zu hören. Wir wollen je<g ref="#typoHyphen"/>
+                    <lb break="no"/>denfalls annehmen, dass Ihr diesbezügliches Stillschweigen mit
+                        zufrie<g ref="#typoHyphen"/>
+                    <lb break="no"/>denstellendem Erfolg und bester Gesundheit auszulegen ist.
+                    Vielleicht <lb/>haben Sie aber doch einmal Zeit, etwas darüber mitzuteilen.</p>
+                <closer>
+                    <salute>Mit besten Wünschen und ergebensten Empfehlungen</salute>
+                    <lb/>
+                    <stamp xml:id="stamp.44" rendition="#r">
+                        <orgName key="org.1">„Universal-Edition“
+                        Aktiengesellschaft</orgName>
+                    </stamp>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">10 <seg type="comment">
+                            <orig>Beilagen.</orig>
+                            <note xml:id="nmst_h4g_j1c" resp="#pkehrer">Davon erhalten: <ref target="document.20232_cod">Vereinbarung über die englische
+                                    Ausgabe der „Harmonielehre“ von Arnold Schönberg,
+                                    28. Mai 1934 (Kopie)</ref>; <ref target="document.20232_cn">Vereinbarung über die englische Ausgabe der
+                                    „Harmonielehre“ von Arnold Schönberg, 28. Mai
+                                    1934</ref>
+                            </note>
+                        </seg>
+                    </hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16826"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 14. Juli 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16826</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16826</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <date when="1932-07-14" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16826_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16826_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1932-07-14">14.VII.1932</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p rendition="#inline">Ich schreibe Ihnen in großer Besorgnis. Nach Ihrem letzten
+                        <ref target="letter.2254">Brief</ref>
+                    <lb/>war die Situation in der <orgName key="org.1">U.E.</orgName> so, daß man
+                    mit einem Prozeß rechnete und die weiteren <lb/>Verhandlungen aufgeben wollte.
+                    Ich habe dann Dr <persName key="pers.1750">Kalmus</persName> nochmals Ihren
+                    Standpunkt klar <lb/>gemacht. <persName key="pers.4190">Winter</persName>, der
+                    der einsichtigere und entgegenkommendere von den beiden ist, ist seit Montag
+                        <add place="right">
+                        <date when="1932-07-11">11/VII</date>
+                    </add>
+                    <lb/>auf Urlaub, ebenso <persName key="pers.1520">Heinsheimer</persName>, der
+                    auch im Rat mitzusprechen pflegte. Ich habe erreicht, <lb/>daß <del rendition="#s">
+                        Kalmus
+                    </del> die <hi rendition="#u">Direktion</hi> sich noch zu einigen Verbesserungen
+                    der letzten Vorschläge bereit erklären <lb/>würde, z. B. in Punkt <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> 1 Ihrer Forderungen sogar zu etwas mehr, als Sie verlangten, im Punkt
+                    <lb/>3 u. 4 zu mehr als d. <orgName key="org.1">U.E</orgName> im letzten <ref target="letter.20693">Brief</ref> geboten hat, wenn auch in diesen Punkten
+                        <add place="superlinear">doch</add> noch zu <lb/>viel weniger als Sie
+                    verlangen. Morgen<add place="superlinear">
+                        <date when="1932-07-15">15. VII</date>
+                    </add> kommt die Angelegenheit wieder vor den Verwaltungsrat <lb/>und da wird
+                    Ihrer Sache <persName key="pers.4190">Winter</persName> leider sehr fehlen.
+                    Schon bei der 1. Sitzung hat der Verwaltungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>rat weniger bewilligt als die Direktion Ihnen anbieten wollte.
+                    Ich werde versuchen, morgen zur <lb/>Sitzung eingeladen zu werden. Meine
+                    Besorgnis ist 1. daß die Angelegenheit bis zum <date when="1932-07-19">19. d.
+                        M</date>
+                    <lb/>nicht in günstigem Sinne zu erledigen sein wird; 2. daß der nächste Brief
+                    der <orgName key="org.1">U.E.</orgName> so <lb/>ausschauen könnte, daß Sie die
+                    Verhandlungen abbrechen. Dazu kommt, daß die vergangene <lb/>Saison für Ihre <subst>
+                        <del rendition="#s">Abschlüsse</del>
+                        <add place="sublinear">Aufführungen</add>
+                    </subst> nicht günstig war. Allem Anschein nach wird die nächste Saison
+                    <lb/>viel besser werden – die <bibl sameAs="werke.16">Gurrelieder</bibl> z. B.
+                    sollen außer in <placeName key="place.9.11">Wien</placeName> bestimmt auch in
+                    der <placeName key="place.13.1">Prager</placeName>
+                    <lb/>
+                    <orgName key="org.229">czechischen Philharmonie</orgName> aufgeführt werden.
+                    Auch in <placeName key="place.15">Amerika</placeName> spricht man von einer
+                        Wieder<g ref="#typoHyphen"/>
+                    <lb break="no"/>holung – <hi rendition="#u">wie soll ich mich dazu stellen</hi>?
+                    Nun sagte mir <persName key="pers.4190">Winter</persName> vor seiner Abreise,
+                    daß er gerne <lb/>im <date when="1932-08">August</date> oder später zu Ihnen
+                    nach <placeName key="place.2.3">Berlin</placeName> fahren würde, um den ganzen
+                    Fragenkomplex mit <lb/>Ihnen durchzusprechen. Wenn also morgen der
+                    Verwaltungsrat nicht <subst>
+                        <del rendition="#ow">in</del>
+                        <add place="across">zu</add>
+                    </subst> einem günstigeren <lb/>Resultat kommt, würde – so glaube ich – eine
+                    Vertagung doch besser sein als ein Bruch mit <lb/>seinen Folgen. Eine Vertagung
+                    für so lange meine ich, daß Sie in Ihrer Arbeit nicht gestört <lb/>sind. –
+                    Sollte aber der Verwaltungsrat im rein Ziffernmäßigen Ihrer Forderungen das
+                    Anbot der <lb/>
+                    <orgName key="org.1">U.E.</orgName> so verbessern, daß Sie glauben, die Ziffern
+                    wenigstens akzeptieren zu können, so könnte <lb/>man vielleicht einstweilen
+                    wenigstens eine teilweise Einigung erzielen. Vorläufig sträubt sich Dr <lb/>
+                    <persName key="pers.1750">Kalmus</persName> allerdings noch gegen diesen
+                    Vorschlag, den ich der Direktion gemacht habe. Wenn Sie aber <lb/>die teils bar
+                    zu zahlenden, teils gutzuschreibenden Beträge als „Entschädigung für Ihren
+                    <unclear reason="illegible" cert="high">Gewinn<g ref="#typoHyphen"/>
+                    </unclear>
+                    <pb n="2" xml:id="p.2" break="no"/>
+                    entgang“ annehmen würden,
+                    könnte man die vertragstechnische Seite <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="chars"/>
+                    </del> vielleicht wirklich <lb/>auf später lassen. Dazu wäre es sicher für Sie
+                    besser, wenn <persName key="pers.4190">Winter</persName> bei den Verhandlungen
+                    <lb/>beteiligt ist.</p>
+                <p>Hoffentlich geht die Sache doch nocht friedlich aus. Ich wäre sehr stolz darauf,
+                    wenn das <lb/>meiner Vermittlertätigkeit gelingen würde.</p>
+                <p>Dafür, was die Überlassung der <bibl sameAs="werke.65">Oper</bibl> auch moralisch
+                    für den Verlag bedeuten würde, hat der <lb/>Verwaltungsrat keine Spur
+                    Verständnis. Er sieht nur den Betrag, den er zahlen müßte, <lb/>
+                    <del rendition="#s">und</del> der bei der heutigen furchtbar knappen Budgetierung
+                    doch sehr ins Gewicht fällt. <lb/>Ob Sie den nächsten Brief der <orgName key="org.1">U.E.</orgName> abwarten wollen oder mir auf diesen Privatbrief
+                    <lb/>antworten wollen – wenn Sie glauben, daß eine Einigung möglich ist,
+                    kann vielleicht noch <lb/>ein Privatbrief an mich, <hi rendition="#u">den ich
+                        zeigen könnte</hi>, die Sache fördern.</p>
+                <closer>
+                    <salute rendition="#c">Mit den herzlichsten Grüßen <lb/>Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

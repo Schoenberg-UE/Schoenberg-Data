@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2223"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 27. Februar 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2223</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2223</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.12.1.1">Barcelona, Bajada de Briz 14</placeName>
+                    <date when="1932-02-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.20692"/>
+                </correspContext>
+                <note>Zur Kenntnisnahme sendete Schönberg diese Kopie an seinen Rechtsanwalt Gerhard Jacoby, vgl. <ref target="document.2236">Arnold Schönberg an Gerhard Jacoby
+                    23. März 1932</ref></note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2223_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2223_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <hi rendition="#circle">5</hi>
+                    <lb/>
+                    <stamp sameAs="stamp.29">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>BARCELONA<lb/>
+                        <placeName key="place.12.1.1">BAJADA DE BRIZ 14</placeName>
+                    </stamp>
+                    <dateline rendition="#c">
+                        <hi rendition="#g">Barcelona</hi>
+                    </dateline>
+                    <dateline rendition="#c">
+                        <placeName key="place.12.1.1">Bajada de Briz 14</placeName>
+                        <date when="1932-02-27">27.II.1932</date>
+                    </dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien 1. <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Die unbewiesene Behauptung, dass ein Engagement <lb/>nach <placeName key="place.15">Amerika</placeName> zur Leitung der dortigen <seg type="comment">
+                        <orig>Erstaufführung</orig>
+                        <note xml:id="nprk_xq5_lgc" resp="#KBleier"><ref target="event.100"/>; <ref target="event.101"/>; <ref target="event.102"/>; <ref target="event.104"/>
+                        </note>
+                    </seg>
+                    <lb/>der <bibl sameAs="werke.16">Gurrelieder</bibl> für mich in absehbarer Zeit
+                    nicht zu <lb/>erreichen gewesen wäre, kann Sie nicht berechtigen, sich <lb/>über
+                    meine <seg type="comment">
+                        <orig>schriftlich <choice>
+                                <sic>h</sic>
+                                <corr cert="high">f</corr>
+                            </choice>estgelegten Ansprüche</orig>
+                        <note sameAs="letter.20692/#ni2g_s2c_ddc"/>
+                    </seg> hinweg<g ref="#typoHyphen"/>
+                    <lb break="no"/>zusetzen. Noch dazu ohne den leisesten Versuch, sich da<g ref="#typoHyphen"/>
+                    <lb break="no"/>rüber mit mir ins Benehmen zu setzen.</p>
+                <p>Sie wissen, dass wir den Wert dieses Rechtes seiner<g ref="#typoHyphen"/>
+                    <lb break="no"/>zeit durch den von uns gemeinsam erhobenen Anspruch auf <lb/>
+                    <seg type="comment">
+                        <orig>fünftausend Dollar</orig>
+                        <note xml:id="nnd3_h15_zcc" resp="#pkehrer">Diese Summe wird in <ref target="document.7827">Arnold Schönberg an unbekannt, 1917</ref>
+                            genannt. Adressat dieses Schreibens ist mit Sicherheit nicht <persName key="pers.1538">Emil Hertzka</persName>, seine Zustimmung zu dieser
+                            Forderung somit nicht dokumentiert. Vgl. zudem <ref target="document.2180">Arnold Schönberg an Gerhard Jacoby, zwischen
+                                15. und 30. April 1932</ref>
+                        </note>
+                    </seg> festgelegt hatten; eine heute recht <lb/>geringe, aber der Kriegszeit
+                    entsprechende Summe.</p>
+                <p>Ich kann infolgedessen nicht daran glauben, dass Sie <lb/>so unvorsichtig gewesen
+                    sein sollten, sich für diesen <lb/>Anspruch in <placeName key="place.15">Amerika</placeName> Sicherheiten nicht verschafft zu <lb/>haben und bitte
+                    Sie mir hierüber gefälligst umgehend <lb/>Nachricht zukommen zu lassen. </p>
+                <closer rendition="#inline">
+                    <salute>Hochachtungsvoll</salute>
+                </closer>
+                <lb/>
+                <note place="mBottom" hand="#author">
+                    <hi rendition="#g">Einschreiben</hi>
+                </note>
+                <lb/>
+                <note place="mBottom" hand="#author">der Brief ist bis heute unbeantwortet</note>
+            </div>
+        </body>
+    </text>
+</TEI>

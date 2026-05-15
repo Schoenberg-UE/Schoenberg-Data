@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7164"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 28. Mai 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7164</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7164</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-DIYJCNLL">ASGA B 18/2</rs>
+                            <biblScope unit="page" from="26" to="26">XXVI</biblScope>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                    <date when="1926-05-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17664"/>
+                    <ref type="answered-by" target="letter.17677"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7164_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7164_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.2.3">Berlin</placeName>, <date when="1926-05-28">28.5.26.</date>
+                    </dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                    <note place="right" hand="#unknown">Bln. Ch. 2 <lb/>
+                        <!-- steno -->
+                        <hi rendition="#st">Stein Platz</hi> 2 <placeName key="place.2.3.1.5">Pens. Bavaria</placeName>
+                    </note>
+                </opener>
+                <note place="left" hand="#unknown">
+                    <metamark/>Durchfg <lb/>lt BB. <unclear reason="illegible" cert="low">5zrf</unclear> v <date when="1926-05-31">31/V
+                        26</date>
+                </note>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p>
+                    <note place="left" hand="#pers.4190">
+                        <hi rendition="#u">S. 3.89</hi>
+                        <lb/>
+                        <supplied cert="high">er</supplied>l. <date when="1926-06-01">1/<subst>
+                                <del rendition="#ow">7</del>
+                                <add place="across">6</add>
+                            </subst> 26</date>
+                        <lb/>
+                        <persName key="pers.4190">W</persName>
+                    </note> Anbei die mir gesandten Rechnungen. <lb/>Die Rechnung des Spediteurs
+                        <persName key="pers.2869">Ranz</persName>
+                    <del rendition="#s">l</del> gehört
+                    zweifellos nicht <lb/>für mich; sie ist mir gänzlich unbekannt; und da auch klar
+                    <lb/>hervorgeht dass es sich um 8 <hi rendition="#u" hand="#author">Fuhren
+                        Kohlen</hi> handelt, so <lb/>bitte ich Sie diese S. 112.– von meinem Konto
+                    zu streichen <lb/>und mir hierüber Mitteilung<del rendition="#s">en</del> zu
+                    machen. Ebenso ist mir das <lb/>
+                    <add place="intralinear">„</add>Telefongespräch aus <placeName key="place.9.11">Wien</placeName> nach <del rendition="#s">„</del>
+                    <placeName key="place.2.3">Berlin</placeName>“ vollkommen unbekannt <lb/>und ich bitte Sie, dieses
+                    auch zu streichen.</p>
+                <p>Ich bitte Sie mir umgehend M. 130.– für die <hi rendition="#u" hand="#author">Kopiatur der <bibl sameAs="werke.62">Suite</bibl>
+                    </hi>
+                    <lb/>zu überweisen, da diese am <date when="1926-06-01">1.6.</date> geliefert
+                    wird.</p>
+                <p>Bitte teilen Sie mir mit ob Sie in letzter Zeit von der <orgName key="org.5"
+                            >Autoren<g ref="#typoHyphen"/>
+                        <lb break="no"/>gesellschaft</orgName>
+                    <seg type="comment">
+                        <orig>Tantiemen</orig>
+                        <note xml:id="nfcl_jrr_bzb" resp="#pkehrer">Nach einer schriftlichen
+                            Beschwerde über das Ausbleiben von Abrechnungen und Tantiemenbeträgen in
+                            Arnold Schönberg an Staatlich genehmigte Gesellschaft der Autoren,
+                            Komponisten und Musikverleger, 20. Mai 1926 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B012199">ASCC
+                                1219</ref>), war <persName key="pers.3263">Schönberg</persName> in
+                            Staatlich genehmigte Gesellschaft der Autoren, Komponisten und
+                            Musikverleger an Arnold Schönberg, 25. Mai 1926 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B126154">ASCC
+                                12615</ref>), darauf hingewiesen worden, dass er dort nach seinem
+                            Austritt <date when="1912">1912</date> bzw. dem Ablauf einer
+                            zehnjährigen Frist <date when="1922">1922</date> keinerlei Ansprüche auf
+                            Tantiemen mehr hatte</note>
+                    </seg> meiner Werke bezogen haben.</p>
+                <p>Nun eine unangenehme Nachricht: In dem <seg type="comment">
+                        <orig>Anhang</orig>
+                        <note xml:id="nw4b_f5x_bzb" resp="#pkehrer">
+                            <bibl sameAs="werke.61">Arnold Schönberg, Drei Satiren für gemischten Chor op. 28</bibl>: I.
+                            [Anhang] Ein Spruch und zwei Variationen über ihn</note>
+                    </seg> ist ein schwerer <lb/>Fehler geschehn. Auf der Stichplatte wurde für die
+                    Worte die <lb/>laut meiner Vorlage als
+                    Einleitung dienen sollten kein Platz <lb/>gelassen<subst>
+                        <del rendition="#ow">, d</del>
+                        <add place="across">. D</add>
+                    </subst>iese Platte wird jedenfalls unbrauchbar sein. Nun <lb/>habe ich <subst>
+                        <del rendition="#ow">O</del>
+                        <add place="across">o</add>
+                    </subst>hnedies diese drei Kanons gänzlich umgearbeitet, <lb/>sodass also die
+                    zweite Platte, die ja vielleicht auch <add place="superlinear">so</add> nicht
+                    <lb/>brauchbar gewesen wäre, nun unbedingt entfallen muss. Das neue <lb/>
+                    <seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note sameAs="letter.17656/#nu1p_2gq_hfc"/>
+                    </seg> geht <date when="1926-05-31">Montag</date> an Sie ab.</p>
+                <p>Es tut mir leid dass da neue Kosten entstehen; aber das Unglück <lb/>ist nicht so
+                    gross und die Verbesserung sehr wichtig. Ich war <lb/>vielleicht anfangs,
+                    überrascht davon, dass diese Wunder überhaupt <lb/>möglich sind, mit den
+                        Spiegelkanon<supplied cert="high">s</supplied> etwas zu rasch zufrieden.
+                    <lb/>Als ich sie jetzt sah, befriedigten sie mich nicht mehr. Und <lb/>da sie ja
+                    einen bestimmten Beweis liefern sollten, habe ich <lb/>sie mit vieler Mühe
+                    überarbeitet. Jetzt bin ich zufrieden da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit.</p>
+                <p>Kommen Sie bald wieder nach <placeName key="place.2.3">Berlin</placeName>?</p>
+                <closer>
+                    <salute>Viele herzliche Grüsse <lb/>
+                        <seg rendition="#r">Ihr</seg>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

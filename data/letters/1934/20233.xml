@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20233"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 9. Juni 1934</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20233</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20233</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1934-06-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.8">New York</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2305"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20233_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20233_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.40">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/>LEIPZIG·<placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                        <lb/>TELEGRAMM-ADRESSE: MUSIKEDITION, WIEN·POSTSPARKASSEN-KONTO WIEN
+                        57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1934-06-09">9.
+                            Juni 1934</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.8">
+                                <hi rendition="#u">
+                                    <hi rendition="#g">New York</hi>
+                                </hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Mit den in Ihrem letzten <ref target="letter.2305">Brief</ref> gestellten Fragen
+                    haben wir <lb/>uns sehr intensiv beschäftigt und möchten zunächst <del rendition="#s">zu</del> Ihre<del rendition="#s">r</del> zwei<g ref="#typoHyphen"/>
+                    <lb break="no"/>te<del rendition="#s">n</del> Frage, zu welchem Preis die
+                        <orgName key="org.1">Universal-Edition</orgName> alle Ihre Werke <lb/>in
+                    allen Ländern und Kontinenten abtreten würde, behandeln.</p>
+                <p>Wir haben niemals daran gedacht, uns von dem Gesamtwerk <lb/>
+                    <persName key="pers.3263">Schönberg</persName>, für welches wir jahrelang mit
+                    Freude und Eifer gear<g ref="#typoHyphen"/>
+                    <lb break="no"/>beitet und gekämpft haben, zu trennen und wenn dies dennoch der
+                    <lb/>Fall sein sollte, so könnte dies nur unter dem in der heutigen
+                    <lb/>allgemeinen Weltwirtschaftslage immerhin verständlichen Gesichts<g ref="#typoHyphen"/>
+                    <lb break="no"/>punkt aus geschehen, dass für einen hohen Preis auch wertvolle
+                    <lb/>Objekte hergegeben werden. Ueber die Höhe des Preises selbst ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>mögen wir leider ein Angebot nicht zu stellen, sondern möchten
+                    <lb/>Sie sehr bitten, dass Sie den betreffenden Interessenten veranlas<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen, uns ein Anbot zu stellen, zumal Sie ja selbst eine
+                    persönliche <lb/>Schätzung des Wertes der Verlagsrechte, Vorräte und Platten
+                    Ihres <lb/>in der <orgName key="org.1">Universal-Edition</orgName> vereinigten
+                    Schaffens gewiss in eine Ziffer <lb/>zusammen<add place="superlinear">zu</add>fassen in der Lage sein werden. Es ist dabei zu bedenken, <lb/>dass
+                    auch die Ausnützung der Rechte während der ganzen gesetzlichen <lb/>Dauer der
+                    urheberrechtlichen Schutzfrist in Betracht gezogen werden <lb/>muss.</p>
+                <p>Eine Abtretung aller Verlagsrechte, Platten und Vorräte für <placeName key="place.15">
+                        <lb/>U.S.A.</placeName> allein würden wir für einen Pauschalbetrag von $
+                    50.000.– <lb/>vornehmen. Hiebei ist zu berücksichtigen, dass <del rendition="#s">die</del> das gesamte <lb/>Objekt, wenn die wichtigen
+                        <placeName key="place.15">amerikanischen</placeName> Rechte für uns
+                    wegfallen, <lb/>wesentlich mehr entwertet ist, als dem normalen Absatzverhältnis
+                    <lb/>zwischen <placeName key="place.15">U.S.A.</placeName> und der übrigen Welt
+                    entspricht.</p>
+                <p>Die ganze Sache ist, wie Sie begreifen werden, für uns eine <lb/>sehr schwierige
+                    und wir treten ihr nur mit grossem inneren Wider<g ref="#typoHyphen"/>
+                    <lb break="no"/>streben näher. Wenn unser heutiger Brief <del rendition="#s">ein pr</del>
+                    in diesem grossen <lb/>und komplizierten Komplex nur diese knappen Angaben
+                    beinhaltet, so <lb/>deshalb, weil wir zunächst eine prinzipielle Rückäusserung
+                    erbitten, <lb/>worauf dann alle Detailfragen <del rendition="#s">in</del> mit
+                    der entsprechenden Ausführlich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit zu behandeln sein werden.</p>
+                <closer>Mit besten Empfehlungen ergebenst <lb/>
+                    <stamp sameAs="stamp.156" rendition="#r">
+                        <orgName key="org.1">UNIVERSAL-EDITION<lb/> AKTIENGESELLSCHAFT</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

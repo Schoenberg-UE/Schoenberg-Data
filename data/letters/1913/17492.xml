@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17492"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 30. August 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17492</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17492</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                    <date when="1913-08-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2"/>
+                    <ref type="response-to" target="letter.6860"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17492_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17492_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.18">Reichsratsstrasse 9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition,
+                  Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank,
+                  Wien</orgName>·Postsparkassen-Konto: 57557.
+                        <lb/>Wien
+               <seg hand="#author">
+                            <date when="1913-08-30">30. August 1913.</date>
+                        </seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Hochwohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">
+                                    <placeName key="place.2.3">Berlin</placeName>
+                                </hi>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Soeben wieder für einige Zeit nach <placeName key="place.9.11">Wien</placeName>
+               zurückgekehrt, <lb/>finde ich einige <seg type="comment">
+                        <orig>Briefe</orig>
+                        <note xml:id="nb2r_w2s_2yb" resp="#pkehrer">
+                            <ref target="letter.2">Arnold Schönberg an Universal-Edition, 11. August 1913</ref>; <ref target="letter.6860">Arnold Schönberg an Universal-Edition, 20. August 1913</ref>
+                        </note>
+                    </seg> aus der letzten Zeit
+               von Ihnen vor. <lb/>Der buchhalterische Teil derselben wird nach Rückkehr unseres
+               <lb/>Buchhalters sofort erledigt werden und bitte ich Sie, sich <add place="intralinear">diesbezüglich</add>
+                    <lb/>einige kurze Zeit zu gedulden. In der prinzipiellen Frage die <lb/>Sie
+               aufwerfen, dass Ihnen Gewinnanteile von Materialien oder <lb/>sonstigen Verkäufen
+               unbeschadet dessen gebühren, ob die betref<g ref="#typoHyphen"/>
+                    <lb break="no"/>fenden Zahlungen eingegangen sind oder nicht, bedaure ich, Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren Standpunkt nicht teilen zu können. Wir können alle Anteile
+               <lb/>an Komponisten nur dann verrechnen, wenn tatsächlich die Eingänge <lb/>erfolgt
+               sind. Dieser Standpunkt ist übrigens ein derart korrekter <lb/>und
+               selbstverständlicher, dass Sie bei reiflicher Erwägung der <lb/>Sache keinen Anstand
+               nehmen können, ihn gutzuheissen.</p>
+                <p>Sehr erstaunt war ich, aus einigen Ihrer <ref target="letter.2">Schreiben</ref>
+                    zu ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>nehmen, dass Sie es aufs Entschiedenste ablehnen, eine zwischen
+                    <lb/>uns klar getroffene Abmachung einzuhalten. Es handelt sich hier um <lb/>die
+                    Hälfte Ihrer <placeName key="place.9.11">Wiener</placeName> Reisespesen in der
+                        <bibl sameAs="werke.16">Gurrelieder</bibl>-<seg type="comment">
+                        <orig>Angelegenheit</orig>
+                        <note sameAs="letter.6839/#nyyg_ptr_bgc"/>
+                    </seg>. <lb/>Sie wissen ganz gut, dass Sie hauptsächlich deswegen nach
+                        <placeName key="place.9.11">Wien</placeName>
+                    <lb/>gebeten wurden, weil Ihre eigene Orchesterpartitur von <seg type="comment">
+                        <orig>Unklarhei<g ref="#typoHyphen"/>
+                            <lb break="no"/>
+                            <pb n="2" xml:id="p.2"/>ten, Fehlern</orig>
+                        <note xml:id="npkt_1xr_kgc" resp="#KBleier">Dem entgegen steht <persName
+                                key="pers.385">Alban Bergs </persName>Aussage, dass weniger Fehler
+                            in der Partitur zu berichtigen als vielmehr interpretatorische Fragen zu
+                            klären waren und eine Absage nicht in Erwägung gezogen wurde (Alban
+                            Berg an Arnold Schönberg, 1. Februar 1913; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B198215">ASCC
+                                19821</ref>)</note>
+                    </seg> u. dergl. wimmelte. Es wäre ohne Ihre persönliche Anwesen<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>heit wahrscheinlich zur Aufführung überhaupt nicht gekommen.
+                    Unsere <lb/>Abmachung in <placeName key="place.2.3">Berlin</placeName> war ganz
+                    klar. Ich habe mich bereit erklärt, die <lb/>Hälfte des bewussten Betrages zu
+                    bezahlen und nicht mehr; die andere <lb/>Hälfte sollte entweder der <orgName
+                        key="org.133">Philharmonische Chor</orgName> tragen oder Sie selbst.
+                    <lb/>Ich habe beim <orgName key="org.133">Philh. Chor</orgName>, das wird Ihnen
+                        <persName key="pers.3301">Schreker</persName> und der Schriftführer,
+                    <lb/>Herr Dr. <persName key="pers.2223">Löwy</persName> bestätigen, wiederholt
+                    in energischster Weise interve<g ref="#typoHyphen"/>
+                    <lb break="no"/>niert, damit die Hälfte der Reisespesen übernommen werde. Ich
+                    wurde <lb/>jedoch immer wieder vertröstet, dass eine Entschliessung diesbezgl.
+                    <lb/>erst getroffen werden kann, sobald das finanzielle Endergebnis des
+                    <lb/>Konzertes vorliegt. Später hiess es, dass das Konzert mit einem der<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>artigen Defizit geschlossen hat, dass weitere Zahlungen derzeit
+                    nicht <lb/>gemacht werden können.</p>
+                <p>Dies ist der <hi rendition="#u">Rechts</hi>standpunkt in dieser Frage. Etwas anderes <lb/>wäre
+               vielleicht der <hi rendition="#u">Gefühls</hi>standpunkt und da ich mich von diesem
+               sehr <lb/>häufig leiten lasse, so scheint es mir immerhin möglich, dass ich mich
+               <lb/>bei entsprechender Veranlassung bereit finden werde, Ihren Wünschen in
+               <lb/>dieser Angelegenheit Rechnung zu tragen.</p>
+                <p>In Ihrem <ref target="letter.9">Werten</ref> vom <date when="1913-08-19">19.
+                        ds.</date> avisierten Sie in Angelegenheit <lb/>
+                    <persName key="pers.2435">Monn</persName> eine ausführliche Antwort. Ich wäre
+                    Ihnen für dieselbe nun sehr <lb/>dankbar, denn ich muss endlich wissen, ob Sie
+                    bis Ende <date when="1913-09">September</date> mir <lb/>das <bibl sameAs="werke.37">Arrangement</bibl> für Cello und Klavier zu den von Ihnen
+                    akzeptierten <lb/>Plattenpreis liefern können. Die Frage der Kontinuo- u.
+                    Orchesterausgabe <lb/>ist von der Frage der Ausgabe des Klavier-Arrangements
+                    vollkommen ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>trennt zu behandeln, wie ich Ihnen vor vielen Wochen
+                    ausdrücklich <pb n="3" xml:id="p.3"/>
+                    <seg type="comment">
+                        <orig>schrieb</orig>
+                        <note xml:id="ndyz_vlg_4bc" resp="#pkehrer">
+                            <ref target="letter.24244">Universal-Edition an Arnold Schönberg,
+                                zwischen 13. und 16. August 1913 [erschlossen]</ref>
+                        </note>
+                    </seg>, kann das vorgesehene Honorar von 200.– nur zur <lb/>Zahlung
+                    gelangen, wenn von unserer Seite eine Veröffentlichung <lb/>oder eine Benützung
+                    Ihrer Kontinuo-Bearbeitung erfolgt.</p>
+                <p>Schliesslich teile ich Ihnen mit, dass sich Ihre sechs <bibl sameAs="werke.52">Kla<g ref="#typoHyphen"/>
+                        <lb break="no"/>vierstücke</bibl> im Stich befinden und dass Sie in wenigen
+                    Tagen <seg type="comment">
+                        <orig>Kor<g ref="#typoHyphen"/>
+                            <lb break="no"/>rekturabzüge</orig>
+                        <note xml:id="nob2_kzq_y2c" resp="#KBleier">Korrekturabzüge der 1. Korrektur, verschollen (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=518&amp;werke_id=191&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 4, Quelle C*</ref>)</note>
+                    </seg> derselben erhalten
+                    werden.</p>
+                <closer>
+                    <salute>Mit herzlichen Grüßen <lb/>
+                        <seg rendition="#r">Ihr ganz
+                  ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

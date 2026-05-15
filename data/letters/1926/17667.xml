@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17667"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 31. Juli 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17667</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17667</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-07-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <note>Beilage: <ref target="document.23440">Abrechnung, 30. Juni 1926</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17667_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17667_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.65">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.16">40 West 34<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <lb/>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.1740">Ks.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1926-07-31">31.
+                            Juli 1926</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <placeName key="place.9.11">Wien</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir beehren uns Ihnen inliegend die <ref target="document.23440">Abrechungen</ref> per <lb/>I. Halbjahr <date when="1926">1926</date> zu
+                    überreichen.</p>
+                <p>Bei Berücksichtigung der Tantiemengutschriften für <lb/>die abgesetzten
+                    Exemplare, und zwar 1725.18 für Werke laut altem <lb/>Vertrag und S 514.21 für
+                    neue Werke, weist <lb/>
+                    <table rows="3" cols="2">
+                        <row>
+                            <cell>Ihr Konto alte Werke einen Saldo von .....</cell>
+                            <cell>
+                                <hi rendition="#uda">S 12.783.13</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>u. Ihr Konto neue Werke <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>einen</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Saldo</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>von</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <hi rendition="#uda">S 22.263.76</hi> zu unseren</cell>
+                        </row>
+                        <row>
+                            <cell>Gunsten auf.</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>Laut unserem <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note xml:id="ny15_crt_gdc" resp="#pkehrer">Der Vertrag vom <date when="1924-07-07">7. Juli
+                                1924</date> liegt nicht vor, das <ref target="document.24405">Konzept, zwischen 12. Oktober 1922 und 7. Juli 1924</ref> stellt
+                            vermutlich einen Entwurf dar. Die Abmachung garantierte <persName key="pers.3263">Schönberg</persName> u. a. einen monatlichen
+                            Vorschuss von 500 Reichsmark (bzw. zunächst Schweizer Franken),
+                            rückwirkend vom <date when="1924-01-01">1. Jänner 1924</date> bis zum
+                                <date when="1928-12-31">31. Dezember
+                            1928</date></note>
+                    </seg>
+                    vom <date when="1924-07-07">7.VII.1924</date> habe wir Ihnen <lb/>auf das Konto
+                    „Neue Werke“ einen monatlichen Tantiemenvorschuss von <lb/>M 500.– zu leisten.
+                    Die letzte Monatszahlung von M 500.– ist von uns <lb/>per <date when="1926-01">Jänner 1926</date> erfolgt. Die am <date when="1925-10-07">7.X.1925</date>
+                    an Sie für Vorschusszahlun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen ab <date when="1926-01">Jänner</date> geleistete Zahlung von
+                    S 3000.– = M 1775.16 käme daher <lb/>auf die Monate <date when="1926-02">Februar</date>, <date when="1926-03">März</date>, <date when="1926-04">April</date> mit je M 500.– = M 1500.– <lb/>
+                    <table rows="3" cols="2">
+                        <row>
+                            <cell>und a conto <date when="1926-05">Mai</date>
+                                ….….….….….….…....</cell>
+                            <cell>
+                                <hi rendition="#uda">
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>M</supplied>
+                                    </ellipsis> 275.16</hi>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>zusammen</cell>
+                            <cell>M 1775.16</cell>
+                        </row>
+                        <row>
+                            <cell>in Anrechnung.</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>Auf Ihrem Konto „Werke laut altem Vertrag“ war der <pb n="2" xml:id="p.2"/>Saldo
+                    laut Abrechnung <!-- nicht nachweisbar -->vom <date when="1926-01-16">16.I.1926</date> …. S 9975.74 zu Ihren Lasten. <lb/>Per <date when="1926-06-30">30. Juni 1926</date> hat sich dieser Saldo schon bei
+                    Berücksichtigung <lb/>der Tantiemengutschriften auf …. S 12.783.13 erhöht. Mit
+                    Rücksicht <lb/>darauf, dass Sie uns <seg type="comment">
+                        <orig>am <date when="1925-10-07">7.X.1925</date> erklärten</orig>
+                        <note xml:id="nt5v_x15_gdc" resp="#pkehrer">Eine entsprechende Erklärung ist
+                            nicht
+                    erhalten</note>
+                    </seg> dass weitere monatli<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Zahlungen an Sie insolange nicht zu leisten sind, als der
+                    auf <lb/>Ihrem Konto offene Vorschuss nicht getilgt ist, haben wir die Mehr<g ref="#typoHyphen"/>
+                    <lb break="no"/>schuld gegenüber <date when="1926-01">Jänner 1926</date> von S
+                    2807.39 = M 1660.– als weitere <lb/>Tantiemenvorschusszahlungen auf Ihr Konto
+                    „Neue Werke“ übertragen <lb/>und zwar: <table cols="4">
+                        <row>
+                            <cell/>
+                            <cell>M 224.84</cell>
+                            <cell>für Restzahlung</cell>
+                            <cell>
+                                <date when="1926-05">Mai</date>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>M</supplied>
+                                </ellipsis> 500.– </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>für</supplied>
+                                </ellipsis> Zahlung</cell>
+                            <cell>
+                                <date when="1926-06">Juni</date>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>M</supplied>
+                                </ellipsis> 500.–</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>für</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Zahlung</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <date when="1926-07">Juli</date>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>M</supplied>
+                                </ellipsis> 435.16</cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>für</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Zahlung</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <date when="1926-08">August</date>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell>----------</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>zus.</cell>
+                            <cell>M 1600.–.</cell>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                </p>
+                <p>Wir haben Ihnen demnach per <date when="1926-08">August</date> noch den
+                    Restbetrag von M 64.84 <lb/>und ab <date when="1926-09">September</date> die
+                    Monatszahlungen à M 500.– zu leisten. Auf Ihrem <lb/>Konto „Werke laut altem
+                    Vertrag“ ist nach Durchführung der obigen <lb/>Posten der selbe Saldo offen, wie
+                    in der Abrechung per <date when="1926-01-16">16.I.1926</date>.</p>
+                <closer>
+                    <salute>Wir empfehlen uns mit <lb/>
+                        <seg rendition="#r">vorzüglicher Hochachtung</seg>
+                    </salute>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <signed rendition="#r">pp <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <lb/>2 <ref target="document.23440">Beilagen</ref>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

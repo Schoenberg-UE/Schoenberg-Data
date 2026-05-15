@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7165"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 19. Juni 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7165</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7165</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2 (Pension
+                        Bavaria)</placeName>
+                    <date when="1926-06-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17639"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-01-05+02:00" who="KBleier">Korrektur Transkription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7165_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7165_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <note place="mTop" hand="#pers.1485">erl. <date when="1926-06-23">23.VI.26</date>
+                    <lb/>
+                    <persName key="pers.1485">ELH</persName>
+                </note>
+                <salute>
+                    <supplied cert="high">L</supplied>ieber Herr Dr. <persName key="pers.1750">Kalmus</persName>,</salute>
+                <p rendition="#inline">ich bitte Sie Herrn <persName key="pers.2870">Ratz</persName>
+                    zu sagen, <lb/>dass die Korrektur spätestens am <date when="1926-06-22">22.</date> erledigt sein muss. <lb/>– Bitte die 2. <seg type="comment">
+                        <orig>Korrektur</orig>
+                        <note xml:id="nvyj_yg2_czb" resp="#pkehrer">
+                            <bibl sameAs="werke.60">Arnold
+                                Schönberg, Vier Stücke für gemischten Chor op. 27</bibl>; <bibl sameAs="werke.61">Drei Satiren für gemischen Chor op. 28</bibl>. Die
+                            Korrekturabzüge von <bibl sameAs="werke.60">op. 27</bibl> befanden sich
+                            bei noch <persName key="pers.3263">Schönberg</persName> und ergingen
+                            laut <orgName key="org.1">UE</orgName>-Herstellungskartei am <date when="1926-06-29">29. Juni 1926</date> an <orgName key="org.186">Waldheim-Eberle</orgName>. Über eine Korrektur des gesamten <bibl sameAs="werke.61">op. 28</bibl> durch <persName key="pers.3263">Schönberg</persName> findet sich in der Herstellungskartei keine
+                            Angabe, lediglich jene von <persName key="pers.3612">Erwin
+                                Stein</persName> und <persName key="pers.2870">Erwin Ratz</persName>
+                            sind vermerkt</note>
+                    </seg>
+                    <hi rendition="#u">als Ganzes</hi> auf einmal <lb/>(nicht in Teilen) zu senden!
+                    Ich kann nicht so oft Briefe <lb/>schreiben! Uebrigens bin ich ja bis dahin <seg type="comment">
+                        <orig>schon in <placeName key="place.9.11">Wien</placeName>
+                        </orig>
+                        <note xml:id="noj4_fkf_3gc" resp="#KBleier">Zwischen <date when="1926-07-01">1. Juli</date> und <date when="1926-08-01">2. August 1926</date> hielt sich <persName key="pers.3263">Schönberg</persName> in <placeName key="place.9.11">Wien</placeName> auf, um sich einer längeren Zahnbehandlung zu
+                            unterziehen (Arnold Schönberg an die Anstalt für Mechanisch-Musikalische
+                            Rechte, 26. Juni 1926; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064293">ASCC
+                                6429</ref>; Kalendereinträge <ref target="https://archive.schoenberg.at/resources/?r=12508">ASCI DC12508</ref>; <ref target="https://archive.schoenberg.at/resources/?r=12504">ASCI
+                                DC12504</ref>)</note>
+                    </seg>. <lb/>Am besten wäre es
+                    diese Korrektur erst zu Hause <lb/>a<supplied cert="high">uf</supplied>
+                    <hi rendition="#u">Manuskript-Treue</hi> lesen zu lassen und dann erst <lb/>
+                    <supplied cert="high">mi</supplied>r zu senden.</p>
+                <closer rendition="#inline">
+                    <salute>Herzl. Gruß</salute>
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                    <del rendition="#s">2</del>
+                    <date when="1926-06-19">19/VI.26</date>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

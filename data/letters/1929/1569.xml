@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1569"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 12. Juli 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1569</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1569</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-07-12" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1929-07-15" cert="high"/>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-30+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc></teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1569_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1569_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.112">
+                        <persName key="pers.3263">ARNOLD
+                  SCHÖNBERG</persName>
+                        <lb/> CHARLOTTENBURG 9<lb/>
+                        <placeName key="place.2.3.1.8">NUSSBAUM-ALLEE 17</placeName>
+                        <lb/>TEL: WESTEND 2266</stamp>
+                    <dateline>
+                        <date when="1929-07-12">12.VII.1929</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>
+                </salute>
+                <p rendition="#inline">da uns zu Verhandlungen keine Zeit mehr blie<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>be wenn Sie mir einen Antrag stellten, den ich nicht akzeptieren
+                    <lb/>kann, so möchte ich Ihnen<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice> noch rechtzeitig in Erinnerun<choice>
+                        <sic>h</sic>
+                        <corr cert="high">g</corr>
+                    </choice> bringen, <lb/>aus welchen Gründen ich bereit bin, die Beziehungen zur
+                        <orgName key="org.1">UE</orgName> wieder <lb/>aufzunehmen. Ich verzichte
+                    darauf, <subst>
+                        <del rendition="#s">eine</del>
+                        <add place="superlinear">die</add>
+                    </subst> mir angebote<choice>
+                        <sic>t</sic>
+                        <corr type="deleted"/>
+                    </choice>ne<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice> Summe in <lb/>kurzer Frist und unabhängig vom Tageserfolg ausgezahlt
+                    zu bekommen, <lb/>unter der Vorauss<supplied cert="high">e</supplied>tzung, dass
+                    mein Konto alte Werke und alles was <lb/>damit zusammenhängt, im besprochenen
+                    Sinn und im Sinn des Ihnen <lb/>von mir schriftlich überreichten <seg
+                        type="comment">
+                        <orig>Vorschlages</orig>
+                        <note xml:id="nen1_mwk_k2c" resp="#pkehrer">Ein solches Dokument liegt nicht
+                            vor, es muss u. a. <persName key="pers.3263">Schönbergs</persName>
+                            Forderung eines Honorars von 30.000 RM für die Überlassung der Oper
+                                <bibl sameAs="werke.65">Von heute auf morgen op. 32</bibl> enthalten
+                            haben (<ref target="letter.1571">Arnold Schönberg an Universal-Edition,
+                                15. Juli 1929</ref>). Vermutlich wurde es bei einem persönlichen
+                            Treffen mit <persName key="pers.1538">Emil Hertzka</persName> in
+                                <placeName key="place.2.3">Berlin</placeName> übergeben</note>
+                    </seg> geregelt wird. Ich bin <lb/>von den <seg type="comment">
+                        <orig>Schwierigkeiten der Materialherstellung</orig>
+                        <note xml:id="nghs_v5w_42c" resp="#pkehrer">Im Juni wurde <persName
+                                key="pers.1339">Felix Greissle</persName> in die Herstellung
+                            einbezogen, die <persName key="pers.3263">Schönberg</persName> aber erst
+                            beginnen wollte, wenn er „einen Vertrag mit einer Bühne in der Hand
+                            habe“ (Arnold Schönberg an Felix Greissle, 15. Juni 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B015269">ASCC
+                                1526</ref>). Der Vertrag über die Uraufführung in <placeName
+                                key="place.2.13">Frankfurt</placeName> (<ref
+                                target="https://archive.schoenberg.at/resources/pages/view.php?ref=6006"
+                                >ASCI D007</ref>) enthielt die Verpflichtung, das gesamte Material
+                            bis Mitte <date when="1929-09">September</date> zu liefern, weshalb
+                            unter großem Zeitdruck Kopisten gefunden werden mussten</note>
+                    </seg> ermüdet und will <lb/>Frieden und meine Nerven für meine Arbeit ruhig
+                    haben und ziehe <lb/>das einem gewissen Vorteil vor o<choice>
+                        <sic>g</sic>
+                        <corr cert="high">b</corr>
+                    </choice>wohl man mich fachmännischerseits <lb/>über den Ausgang eines
+                    eventuellen <seg type="comment">
+                        <orig>Prozesses</orig>
+                        <note xml:id="nhsd_21f_s2c" resp="#pkehrer">
+                            <persName key="pers.3263">Schönberg</persName> bezieht sich vermutlich
+                            auf den „Verlags-Konkurrenz-Vertrag“ (<ref target="letter.1713">Arnold
+                                Schönberg an Universal-Edition, 17. Mai 1929</ref>)</note>
+                    </seg> sehr beruhigt hat.</p>
+                <p>Ich hoffe, dass Sie eine gerechte Lösung vorschlagen, wenn<choice>
+                        <sic>l</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb break="no"/>gleich Sie Edelmut ja ablehnen. Aber bedenken Sie selbst
+               auch, ob  <lb/>meine nicht nur juristisch, sondern auch moralisch sehr starke Po<g ref="#typoHyphen"/>
+                    <lb break="no"/>sition und der grosse Widerhall, den ein
+               solcher Process in der Oef<g ref="#typoHyphen"/>
+                    <lb break="no"/>fentlichkeit finden
+               würde, in unserem Alter, wo wir alle bereits eine  <lb/>gewisse Abklärung zeigen,
+               Ihnen sehr erwü<supplied cert="high">n</supplied>scht sein kann. Vielleicht
+               <lb/>wäre ein Prozess mir noch unerwü<supplied cert="high">n</supplied>schter, als
+               Ihnen. Aber notfalls muss  <lb/>ich eben wieder meine Jugendenergie aufbringen!</p>
+                <p>Hoffentlich sind diese meine B<supplied cert="high">e</supplied>denken bereits
+                  gegenstands<g ref="#typoHyphen"/>
+                    <lb break="no"/>los! Niemand würde <supplied cert="high">d</supplied>as herzlicher wünschen, wie ich, denn Sie wissen <lb/>dass
+               ich bei aller Gegensätzlichkeit, für Ihre Person und Leistung <choice>
+                        <sic>gr</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>grösste Hochschätzung habe.</p>
+                <closer rendition="#inline">
+                    <salute>Mit vielen herzlichen Grüssen bin ich <lb/>Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

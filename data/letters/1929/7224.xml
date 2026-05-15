@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7224"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 6. April 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7224</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7224</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-04-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17598"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7224_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7224_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.25">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>
+                  CHARLOTTENBURG 9<lb/>
+                        <placeName key="place.2.3.1.8">NUSSBAUM-ALLEE 17</placeName>
+                        <lb/>TEL.: WESTEND 2266</stamp>
+                    <address>
+                        <addrLine>An die</addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>P. T. <orgName key="org.1">UE.</orgName>
+                </salute>
+                <p rendition="#inline">bitte mir freundlichst zu Lasten meines <lb/>Kontos und unter
+               Anrechnung meines Rabatts folgende <lb/>Musikalien <hi rendition="#u">recht bald</hi>
+               zu senden:</p>
+                <table rows="6" cols="5">
+                    <row>
+                        <cell>
+                            <hi rendition="#u">Nr</hi>
+                        </cell>
+                        <cell>
+                            <metamark function="done" hand="#addressee" spanTo="#p1s_mvq_pbc"/>2977<anchor type="done" xml:id="p1s_mvq_pbc"/>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <persName key="pers.2369">Meyerbeer</persName>
+                            </hi>:</cell>
+                        <cell>
+                            <bibl sameAs="werke.176">Afrikanerin</bibl>
+                            <!-- Exemplar im Nachlass nicht UE, sondern Bote & Bock -->
+                        </cell>
+                        <cell>Klav. A. m. T.</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Nr</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <metamark function="done" hand="#addressee" spanTo="#uns_4vq_pbc"/>3178<anchor type="done" xml:id="uns_4vq_pbc"/>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>
+                                    <persName key="pers.2369">Meyerbeer</persName>
+                                </supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.177">Robert d.
+                                        Teufel</bibl>
+                                </orig>
+                                <note xml:id="ntwk_ktj_ddc" resp="#pkehrer">Exemplar aus dem Schönberg-Nachlass (MSCO
+                                    M46)</note>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klav.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>A.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>m.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>T.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>
+                            <hi rendition="#circle">5141</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <persName key="pers.220">Auber</persName>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.185">Fra Diavolo</bibl>
+                                </orig>
+                                <note xml:id="nwvp_d5j_ddc" resp="#pkehrer">Der Auszug U. E. 5141
+                                    war vergriffen; <persName key="pers.3263">Schönberg</persName>
+                                    erhielt stattdessen die im Nachlass (MSCO A2) befindliche
+                                    Ausgabe von C. F. Peters (<ref target="letter.20128"
+                                        >Universal-Edition an Arnold Schönberg, 10. April
+                                    1929</ref>)</note>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klav.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>A.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>m.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>T.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Nr</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <metamark function="done" hand="#addressee" spanTo="#q5y_qvq_pbc"/>3157<anchor type="done" xml:id="q5y_qvq_pbc"/>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <persName key="pers.726">Cherubini</persName>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.179">Wasserträger</bibl>
+                                </orig>
+                                <note xml:id="nhjz_55j_ddc" resp="#pkehrer">Exemplar aus dem Schönberg-Nachlass (SCO
+                                    C2)</note>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klav.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>A.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>m.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>T.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Nr</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <metamark function="done" hand="#addressee" spanTo="#wlg_rvq_pbc"/>7555<anchor type="done" xml:id="wlg_rvq_pbc"/>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <persName key="pers.1289">Gounod</persName>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <bibl sameAs="werke.180">Faust</bibl>
+                            <!-- Exemplar im Nachlass nicht UE, sondern Bote & Bock -->
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klav.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>A.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>m.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>T.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Nr</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <metamark function="done" hand="#addressee" spanTo="#qxn_rvq_pbc"/>723<anchor type="done" xml:id="qxn_rvq_pbc"/>
+                        </cell>
+                        <cell>
+                            <hi rendition="#u">
+                                <persName key="pers.1432">Halevy</persName>
+                            </hi>
+                        </cell>
+                        <cell>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.181">Jüdin</bibl>
+                                </orig>
+                                <note xml:id="ni2z_3vj_ddc" resp="#pkehrer">Exemplar aus dem Schönberg-Nachlass (SCO H3)</note>
+                            </seg>
+                        </cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klav.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>A.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>m.</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>T.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                </table>
+                <note place="right" hand="#addressee">
+                    <choice>
+                        <abbr>Fakt</abbr>
+                        <expan>Faktura</expan>
+                    </choice> an Hr. Dr. <persName key="pers.4190">Winter</persName>
+                    <lb/>Best. ausführen</note>
+                <closer>
+                    <salute>Mit bestem Dank im Voraus empfehle ich mich <lb/>
+                        <seg rendition="#r">hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                  Schönberg</persName>
+                    </signed>
+                    <dateline rendition="#l">
+                        <date when="1929-04-06">6/IV.1929</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

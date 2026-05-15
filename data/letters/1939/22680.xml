@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.22680"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 18. November 1939</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.22680</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/5299670-0">Universität für Musik und
+                            darstellende Kunst Wien</institution>
+                        <repository>Wissenschaftszentrum Arnold Schönberg und die Wiener
+                            Schule</repository>
+                        <collection>Archiv der Universal Edition, Depositum</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 22680</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                    <date when="1939-11-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/22680_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.22680_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.125">
+                        <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        <lb/>
+                        <placeName key="place.15.7.3.1">116 N. ROCKINGHAM AVE.</placeName>
+                        <lb/>BRENTWOOD PARK<lb/>LOS ANGELES, CALIF.<lb/>TEL. W. L. A. 35077</stamp>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition, A. G.</orgName>
+                        </addrLine>
+                        <addrLine>Musikverlag</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.12">I. Karlsplatz 6</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#g">WIEN,</hi> Ostmark</addrLine>
+                        <addrLine>
+                            <hi rendition="#g">GERMANY</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <pb n="2" xml:id="p.2"/>
+                <salute>
+                   PT <orgName key="org.1">Universal Edition</orgName>,</salute>
+                <p rendition="#inline"> bitte senden Sie an <lb/>
+                    <hi rendition="#u" hand="#addressee">
+                        <orgName key="org.224">University of California at Los
+                            Angeles</orgName>, <lb/>Education Building, Room 310, <placeName key="place.15.7.2">Westwood</placeName>, <lb/>Los Angeles, California:
+                            <add place="intralinear">U.S.A.</add>
+                    </hi>
+                </p>
+                <p>
+                    <table rows="6" cols="5">
+                        <row>
+                            <cell>UE</cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">3662</hi>
+                            </cell>
+                            <cell>
+                                <bibl sameAs="werke.13">Verkl. Nacht</bibl>
+                            </cell>
+                            <cell>Partitur</cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">5</hi> Exemplare</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>UE</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">3663</hi>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃 〃</metamark>
+                                    <supplied>Verkl. Nacht</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>Stimmen</cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">1</hi>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Exemplar</supplied>
+                                </ellipsis>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>UE</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <note hand="#author" place="left">
+                                    <bibl sameAs="werke.59">op. 26</bibl>
+                                </note>7669</cell>
+                            <cell>
+                                <unclear reason="illegible" cert="low">St.</unclear>/ <bibl sameAs="werke.62">
+                                    <hi rendition="#u" hand="#addressee">opus 29</hi>
+                                </bibl>
+                            </cell>
+                            <cell>
+                                <add place="intralinear">
+                                    <hi rendition="#u">3/<metamark function="done" hand="#addressee" spanTo="#kbk_t4j_wxb"/>UE 8685<anchor type="done" xml:id="kbk_t4j_wxb"/>
+                                    </hi>
+                                </add>
+                            </cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">5</hi>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Exemplare</supplied>
+                                </ellipsis>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>UE</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <note hand="#author" place="left">gebrauchte</note>36<subst>
+                                    <del rendition="#ow">60</del>
+                                    <add place="across">96</add>
+                                </subst>
+                            </cell>
+                            <cell>
+                                <bibl sameAs="werke.16">Gurre</bibl> /</cell>
+                            <cell>Klavier Auszug</cell>
+                            <cell>
+                                <metamark function="done" hand="#addressee" spanTo="#zhn_w4j_wxb"/>5<anchor type="done" xml:id="zhn_w4j_wxb"/>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Exemplare</supplied>
+                                </ellipsis>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>UE</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <note hand="#author" place="left">6300</note>
+                                <hi rendition="#circle">2679</hi>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Gurre</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>Orchester Partitur</cell>
+                            <cell>
+                                <hi rendition="#circle" hand="#addressee">2</hi>
+                                <subst>
+                                    <del rendition="#ow">2</del>
+                                    <add place="across">〃</add>
+                                </subst>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Exemplare</supplied>
+                                </ellipsis>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>UE</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <metamark function="done" hand="#addressee" spanTo="#hvt_t4j_wxb"/>3697<anchor type="done" xml:id="hvt_t4j_wxb"/>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Gurre</supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>Facsimile Partitur</cell>
+                            <cell>
+                                <metamark function="done" hand="#addressee" spanTo="#qzv_w4j_wxb"/>3<anchor type="done" xml:id="qzv_w4j_wxb"/>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>Exemplare</supplied>
+                                </ellipsis>
+                            </cell>
+                        </row>
+                    </table>
+                    <lb/>
+                    <note hand="#addressee" place="left">3</note>
+                    <metamark function="done" hand="#addressee" spanTo="#fyl_54j_wxb"/>Ferner 2
+                        bis drei Exemplare aller Lieder
+                    und <lb/>Gesänge, für w<supplied cert="high">e</supplied>lche sich die Stud<choice>
+                        <sic>3</sic>
+                        <corr cert="high">e</corr>
+                    </choice>nten augen<g ref="#typoHyphen"/>
+                    <lb break="no"/>blicklich sehr interessiern.<anchor type="done" xml:id="fyl_54j_wxb"/>
+                </p>
+                <closer>
+                    <salute>
+                        <seg rendition="#c">Mit bestem Dank</seg>
+                        <lb/>
+                        <seg rendition="#r">Hochachtungsvoll</seg>
+                    </salute>
+                    <note hand="#addressee" place="right">
+                        <seg type="comment">
+                            <orig>L 196–200
+                                <lb/>120–122</orig>
+                            <note xml:id="nhrw_nlp_wxb" resp="#pkehrer"><ref target="letter.24145">Rechnungen, 22. Februar
+                            1940</ref></note>
+                        </seg>
+                    </note>
+                    <dateline rendition="#l">
+                        <date when="1939-09-18">18.XI.1939</date>
+                    </dateline>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                        Schönberg</persName>
+                    </signed>
+                </closer>
+                <note hand="#addressee" place="mBottom">gegenwärtiges Guthaben
+                            <lb/>
+                    <hi rendition="#uu">M63.37</hi>
+                </note>
+                <lb/>
+                <postscript>
+                    <p>Wie gehts <persName key="pers.3281">Görgi</persName>?</p>
+                </postscript>
+                <note hand="#unknown" place="mBottom">1/2 <orgName key="org.45">Carisch</orgName>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

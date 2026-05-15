@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.6512"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 19. August 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6512</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6512</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit><witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-8A2YXVHK">Danuser 1979</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-IZR4TUDQ">Hilmar 1974</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-THVFD6XK">Nono-Schoenberg 1998</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-Z3MINRB6">Hilmar 1977</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-6S7MGFUR">Stuckenschmidt 1974</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-BGZYAVN6">Stuckenschmidt 1977</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-I2NCUFBV">Stuckenschmidt 1993</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-VCKGET6V">Hilmar 1975</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1912-08-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24224"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-10-22+02:00" who="KBleier">Korrektur Kommentar "4 Werke"</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6512_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6512_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline>
+                        <date when="1912-08-19">19./8. 1912</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>:</salute>
+                <p rendition="#inline">Die Fragen Ihres <seg type="comment">
+                        <orig>Briefes</orig>
+                        <note xml:id="ncnj_rz5_mwb">
+                            <ref target="letter.24224">Universal-Edition an Arnold Schönberg, 12.
+                                August 1912 [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1912-08-12">12./8.</date>
+                    <lb/>beantwortend. Vor Allem die <bibl sameAs="werke.16">Gurrelieder</bibl>-Textfrage:</p>
+                <p>Ich habe bei der Composition (vor 10 Jahren) eine <bibl sameAs="schriften.137">Uebersetzung</bibl>
+                    <lb/>von Prof. <persName key="pers.186">Arnold</persName> benützt (das
+                    betreffende <seg type="comment">
+                        <orig>Buch</orig>
+                        <note xml:id="nmtv_x2m_bgc" resp="#TMuxeneder">
+                            <rs type="bibl" key="zotero-4528359-LBXCXL9S">Jacobsen 1897</rs>
+                        </note>
+                    </seg> ist mir seither <lb/>abhanden
+                    „gestohlen“ worden) die in mancher Hinsicht von <lb/>der bei <seg type="comment">
+                        <orig>
+                            <orgName key="org.148">Fischer</orgName>
+                        </orig>
+                        <note xml:id="nhhm_4cm_bgc" resp="#TMuxeneder">Korrekt: <orgName key="org.313">Eugen Diederichs Verlag; <rs type="bibl" key="zotero-4528359-6TYQEA9H">Jacobsen 1899</rs>
+                            </orgName>
+                        </note>
+                    </seg> erschienen<supplied cert="high">en</supplied> verbesserten
+                    ebenfalls <persName key="pers.186">Arnold</persName>-schen <lb/>abweicht. <del rendition="#s">Als</del> Diese Uebersetzung fand ich in einem dünnen
+                    <lb/>Büchlein, dessen <orgName key="org.314">Verlag</orgName> ich nicht kenne.
+                    Als nun vor cirka 3 <lb/>Jahren der erste Theil der <bibl sameAs="werke.16">Gurre Lieder</bibl> vorgeführt wurde, <seg type="comment">
+                        <orig>schrieb</orig>
+                        <note xml:id="nj5x_5qj_3bc" resp="#pkehrer">Robert Franz Arnold an Arnold
+                            Schönberg, 15. Jänner 1910 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B100626">ASCC
+                                10062</ref>)</note>
+                    </seg>
+                    <lb/>mir nach dem <seg type="comment">
+                        <orig>Concert</orig>
+                        <note xml:id="ncvj_wcw_jgc" resp="#KBleier">
+                            <ref target="event.85"/>
+                        </note>
+                    </seg> Herr Prof. <persName key="pers.186">Arnold</persName>, ich
+                    möge doch seinen <lb/>Uebersetzer-Namen erwähnen und die Verbesserungen
+                    <lb/>berücksichtigen,
+                    die in der Neuauflage stehen. Ersteres <lb/>sagte ich natürlich
+                    zu. Dagegen musste ich das
+                    zweite <lb/>ablehnen. Denn vor Allem schienen mir die <lb/>Verbesserungen
+                    absolut genommen, keine Verbesserungen <lb/>sondern eher das Gegenteil.
+                    Größtenteils ist die erste <lb/>Fassung natürlicher, einfacher. Dann aber, und
+                    das ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheidet: es ergaben sich <hi rendition="#u">rhytmische
+                        Änderungen</hi>, die <lb/>wenn ich meine Melodie demnach zurechtschneidern
+                    wollte, <lb/>absolut die Einheit<add place="sublinear">lichkeit</add> des
+                    dortstehenden musikalischen <lb/>Gedankens stören würde. Wer meine Art der
+                        Text<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <pb n="2" xml:id="p.2"/>behandlung
+                    kennt, weiß, dass es für de<supplied cert="high">n</supplied> Bau meiner
+                    <lb/>Melodie absolut nicht gleichgültig ist, ob eine Silbe <lb/>mehr oder
+                    weniger da ist und ob ein starkbetontes <lb/>Hauptwort an der oder jener Stelle
+                    steht. Und da ja <lb/>jede Uebersetzung unvollkommen bleibt, könnte ich mich
+                    <lb/>wegen der kleinen Verbesserungen <add place="superlinear">unbedingt</add>
+                    nicht entschließen, <lb/>meine Melodien (solche gab es nämlich damals bei
+                    <lb/>mir) zu verschlechtern. <seg type="comment">
+                        <orig>Meiner Arbeit</orig>
+                        <note xml:id="nwgw_nhm_bgc" resp="#KBleier">Vgl. Zur Textvorlage und Synopsis
+                            der Textquellen  (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B
+                                16/3</rs>, S. 366–393)</note>
+                    </seg> liegt also die <lb/>erste
+                    Fassung zugrunde. Welches nun das Verhältnis <lb/>zum <seg type="comment">
+                        <orig>Verlag <orgName key="org.148">Fischer</orgName>
+                        </orig>
+                        <note sameAs="letter.6512/#nhhm_4cm_bgc"/>
+                    </seg> ist, vermag ich nicht zu
+                    beurteilen <lb/>und überlasse das ganz Ihnen. Meines Wissens habe <lb/>ich
+                    diesen ersten Text ohne jede Änderung (höchstens <lb/>Flüchtigkeitsfehler)
+                    benützt. Bitte setzen Sie sich also <lb/>mit Herrn Prof <persName key="pers.186">Arnold</persName> und mit dem betreffenden Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>leger ins Einvernehmen. Ich kanns nicht tun und habe <lb/>weder
+                    Zeit noch Geschick dazu.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Was „<bibl sameAs="werke.54">Pierrot lunaire</bibl>“ anbelangt, so lautet
+                    der<lb/>für Sie wichtige <seg type="comment">
+                        <orig>Paragraph</orig>
+                        <note sameAs="letter.6987/#nmm4_fs5_xfc"/>
+                    </seg> folgendermaßen:</p>
+                <p>
+                    <seg rendition="#c">II.</seg>
+                    <lb/>Herr <persName key="pers.3263">A. S.</persName> räumt Frau <persName key="pers.4302">A. Z.</persName> das alleinige Aufführungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>recht dieser Komposition bis zum <date when="1915-04-30">30/4.
+                        1915</date> für alle Länder <lb/>ein, soferne sie bis zu diesem Zeitpunkt
+                    Manuskript <lb/>bleiben, andernfalls wird Herr <persName key="pers.3263">S.</persName> (das bin ich) diese <pb n="3" xml:id="p.3"/>Schutzfrist
+                        du<supplied cert="high">rch</supplied> Vereinbarung mit dem betreffenden
+                        Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>leger bis zu diesem Zeitpunkt zu wahren bemüht sein.</p>
+                <p>Dann unter IV. <lb/>Fr. <persName key="pers.4302">Z</persName> verpflichtet sich
+                    innerhalb der Schutzfrist an mindestens <lb/>30 Abenden …. aufzuführen</p>
+                <p>
+                    <seg rendition="#c">VI.</seg>
+                    <lb/>Sämtliche Verlagsrechte bleiben ausschließlich <lb/>Eigentum des Herrn
+                        <persName key="pers.3263">Sch.</persName>
+                </p>
+                <p>Wie Sie sehen habe ich Ihre <hi rendition="#u">Rechte in keiner <lb/>Weise
+                        tangiert!</hi> Die Schutzfrist möchte ich <lb/>Frau <persName key="pers.4302">Zehme</persName> unbedingt wahren wollen. Das heißt:
+                    <lb/>solange Sie die Aufführungen auf der entsprechenden <lb/>Künstlerischen
+                    Höhe hält. Und ich finde, dass wir da<g ref="#typoHyphen"/>
+                    <lb break="no"/>bei auch keinen Schaden haben. Denn mehr als <lb/>30 <seg type="comment">
+                        <orig>Aufführungen</orig>
+                        <note sameAs="letter.6828/#nhy2_23v_xfc"/>
+                    </seg> in 3 Jahren, wird es ja doch
+                    nicht <lb/>geben. – <hi rendition="#u">Bitte schreiben Sie mir Ihre Meinung
+                        darüber.</hi>
+                </p>
+                <p>Sie schreiben, dass die Vervielfältigung und das
+                    <lb/>Stimmenausschreiben der <bibl sameAs="werke.16">Gurre-Lieder</bibl> langsam geht. <hi rendition="#u">
+                        <lb/>Bitte teilen Sie mir mit, wie weit Sie halten.</hi>
+                    <lb/>Dann muss ich Sie dringend bitten: Lassen Sie die <lb/>Partitur der <bibl sameAs="werke.16">Gurre-Lieder</bibl> drucken. Eventuell so <lb/>wie Sie
+                    wollten: <seg type="comment">
+                        <orig>fotografisch</orig>
+                        <note sameAs="letter.6981/#nsww_54v_jgc"/>
+                    </seg>. Es ist eine zu große
+                    <lb/>Sorge für mich, dass diese Partitur verlorengehen <pb n="4" xml:id="p.4"/>könnte und ich weiß wirklich nicht, wie Sie mir <lb/>einen solchen Schaden
+                    ersetzen könnten. Ich kann die <lb/>Sache <hi rendition="#u">keinesfalls
+                        wiederherstellen!</hi> Und der Schaden <lb/>ist nicht nur ein materieller,
+                    den könnten Sie ersetzen. <lb/>Obwohl er sich nur schwer bemessen ließe. Denn
+                    <lb/>noch größer als der Schaden, den ich durch die Ausblei<g ref="#typoHyphen"/>
+                    <lb break="no"/>benden Aufführungen und Verkäufe erlitte, ist der, <lb/>den der
+                    Verlust eines so großen Erfolges, wie ich ihn <lb/>für die <bibl sameAs="werke.16">Gurrelieder</bibl> erwarte, für meine anderen Werke
+                    <lb/>bedeutet. Ich bin sicher, dass dieser Erfolg <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> der <lb/>Verbreitung meiner anderen Werke sehr nützen wird. <lb/>Das
+                    lässt sich gar nicht ermessen. Und wie wollten <lb/>Sie mich da schadlos halten.
+                    Aber wie gesagt: größer <lb/>noch ist der geistige Verlust. Dieses Werk ist der
+                    <lb/>Schlüssel zu meiner ganzen Entwicklung. Es zeigt <lb/>mich von Seiten, von
+                    denen ich mich später nicht mehr <lb/>zeige oder doch auf einer anderen Basis.
+                    Es erklärt, <lb/>wie alles später so kommen musste und das ist für mein
+                    <lb/>Werk enorm wichtig: dass man den Menschen <lb/>und seine Entwicklung von
+                    hier ab verfolgen kann! <lb/>– Aber nun sehen Sie doch wohl an der <bibl sameAs="werke.5">Pelleas</bibl>-<lb break="no"/>Partitur, von der Sie
+                        tro<supplied cert="high">t</supplied>z des enorm hohen Preises, <lb/>doch
+                    schon eine über Erwartung große Zahl verkauft <lb/>haben, dass diese Partitur,
+                    wenn Sie einen <lb/>halbwegs annehmbaren Preis hat, sehr gekauft werden<pb n="5" xml:id="p.5"/> würde. Viel<supplied cert="high">lei</supplied>cht greifen
+                    auch Sie diese Idee <lb/>auf und machen von denselben Platten (<seg type="comment">
+                        <orig>so wie <lb/>
+                            <orgName key="org.43">Peters</orgName> bei den <bibl sameAs="werke.47">Orchesterstücken</bibl>
+                        </orig>
+                        <note sameAs="letter.6914/#nqqm_sdg_q2c"/>
+                    </seg>) eine kleiner
+                    <lb/>zugeschnittene <seg type="comment">
+                        <orig>Studienausgabe</orig>
+                        <note xml:id="nid4_cvc_dgc" resp="#KBleier">Eine Studienausgabe der
+                            autographierten Partitur wurde nicht realisiert</note>
+                    </seg>. Oder aber,
+                    da <lb/>ja der Unterschied nur ein formaler ist: Sie <lb/>machen nur eine
+                    einzige <hi rendition="#u">billige</hi> Ausgabe <lb/>(etwa 25 Mark). Die
+                    Partitur wird allge<g ref="#typoHyphen"/>
+                    <lb break="no"/>mein verkauft, aber das Aufführungsrecht <lb/>ist damit nicht
+                    erworben. Das muss besonders <lb/>vom Verlag erworben werden und da schlagen
+                    <lb/>Sie eben dann beim Aufführungsrecht das <lb/>zu, was Sie sonst für die „<hi rendition="#u">große</hi>“ Partitur mehr <lb/>verlangen. Da ist doch dann
+                    diese teure <lb/>2. Ausgabe überflüssig und die Musikfreunde <lb/>und jungen
+                    Künstler bekommen für billiges <lb/>Geld eine anständig lesbare große Par<g ref="#typoHyphen"/>
+                    <lb break="no"/>titur. Das ist für die Verbreitung unbedingt <lb/>nötig. Und ich
+                    bin sicher, Sie würden nicht schlecht <lb/>dabei fahren.</p>
+                <p>Und damit komme ich zu etwas, wozu mir <lb/>der Rechnungs-Auszug
+                    <!-- keine UE Abrechnung von 1912 erhalten --> Anlass giebt, den ich letzt<g ref="#typoHyphen"/>
+                    <lb break="no"/>hin erhielt. Dem entnehme ich nämlich, dass <pb n="6" xml:id="p.6"/>Alles was von mir bis jetzt gedruc<supplied cert="high">kt</supplied> ist über <lb/>Erwarten gut geht. Ja sogar die <bibl sameAs="werke.11">Orchesterlieder</bibl>, <lb/>die ja sicher weniger
+                    Hoffnung erwecken und <lb/>die noch unaufgeführt sind, deren Partitur nicht
+                    <lb/>veröffentlicht ist, sogar die gehen ein bischen! <lb/>Das bestätigt, dass
+                    meine Behauptung richtig <lb/>war: meine Sachen müssten nur gedruckt <lb/>werden
+                    um zu gehen. Ich bin sicher, dass meine <lb/>Noten mir bereits Erträgnisse
+                    liefern würden, <lb/>wenn alles da wäre. Das können Sie doch nicht
+                    <lb/>bezweifeln, wenn Sie sich vorstellen, dass <lb/>
+                    <seg rendition="#c">
+                        <seg type="comment">
+                            <orig>4 Werke die gedruckt
+                                sind</orig>
+                            <note xml:id="nzlz_jvc_dgc" resp="#KBleier">
+                                <bibl sameAs="werke.5">Pelleas und Melisande op.
+                                        5</bibl>;<!--<bibl sameAs="werke.2">Kammersymphonie für 15
+                                        Soloinstrumente op. 9;</bibl>--> <bibl sameAs="werke.26">Streichquartett Nr. 2 op.
+                                        10</bibl>; <bibl sameAs="werke.9">Drei Klavierstücke op. 11</bibl>
+                            </note>
+                        </seg>, <hi rendition="#u">in einem halben</hi>
+                    </seg>
+                    <lb/>
+                    <hi rendition="#u">Jahr</hi> fast 1400 Mark eingebracht haben.</p>
+                <p>Da Sie noch <hi rendition="#u">7 ungedruckte</hi> (aber bei weitem <lb/>größere
+                    Werke) von mir besitzen müsste man <lb/>nach diesem Schlüssel annehmen, dass
+                    dafür im <lb/>Halbjahr durchschnittlich 2000–3000 Mark mindestens <lb/>eingehen
+                    (wohl aber mehr, da es sich um größere und <lb/>dankbarere Werke handelt) so
+                    dass mein Anteil dann <lb/>cirka 500 Mark halb, resp 1000 Mark jährlich
+                    <lb/>wäre, wodurch meine Konto in kürzester Zeit <lb/>schuldenfrei und Ihre
+                    Druckausgaben amorti<g ref="#typoHyphen"/>
+                    <lb break="no"/>siert sein müssten. Sie sind doch ein groß <pb n="7" xml:id="p.7"/>zügiger M<supplied cert="high">e</supplied>nsch und haben
+                    etwas hervorgebracht, <lb/>was in <placeName key="place.9">Oes<supplied cert="high">te</supplied>rreich</placeName> eine Seltenheit ist. Warum
+                    <lb/>verschließen Sie sich dem und nehmen die <lb/>ganze Angelegenheit nicht
+                    energisch in die <lb/>Hand?</p>
+                <p>Ich wollte ich erführe endlich darüber <lb/>Beruhigendes. Ich glaube, wenn Sie
+                    wollten, <lb/>könnte ich bald von meinen Kompositionen, <lb/>wenn schon nicht
+                    leben, so doch einen <lb/>sehr nennenswerten Zuschuss haben.</p>
+                <p>Sie sind Ende <date when="1912-08">August</date> in <placeName key="place.2.3">Berlin</placeName>. Dann <lb/>werden wir uns wohl sehen und darüber
+                    <lb/>sprechen.</p>
+                <p>Heute noch bitte ich Sie <persName key="pers.3301">Schreker</persName> meinen
+                    <lb/>herzlichen Glückwunsch zu seinem <seg type="comment">
+                        <orig>Erfolg</orig>
+                        <note xml:id="nmrw_pcr_m2c" resp="#KBleier">
+                            <ref target="event.146"/>
+                        </note>
+                    </seg> zu <lb/>übermitteln. Ich las im
+                    Berl. Tagbl.</p>
+                <closer>
+                    <salute>Herzl Grüße auch Ihnen Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17503"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 19. November 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17503</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17503</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                    <date when="1913-11-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1">Mariendorf, Südende</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17503_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17503_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                            9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                        57557. <lb/>Wien <seg hand="#author">
+                            <date when="1913-11-19">19. November 1913</date>
+                        </seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4381">GP</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <placeName key="place.2.23.1">Berlin-Südende</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir bitten um freundliche Mitteilung, ob sie für die <lb/>
+                    <placeName key="place.2.20">Leipziger</placeName> Proben und für die <seg
+                        type="comment">
+                        <orig>Aufführungen</orig>
+                        <note xml:id="nys4_vhk_fgc" resp="#KBleier">
+                            <ref target="event.103"/>
+                        </note>
+                    </seg> die bei Ihnen <lb/>befindliche fotographierte Partitur der „<bibl
+                        sameAs="werke.16">Gurre-Lieder</bibl>“, <lb/>welche sämtliche nachträglich
+                    vorgenommenen Retouchen ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>hält, benützen werden, weil wir nur eine kopierte Parti<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>tur haben, welche Generalmusikdirektor <persName key="pers.3972"
+                        >Bruno Walter</persName>
+                    <seg type="comment">
+                        <orig>für <lb/>
+                            <placeName key="place.2.24">München</placeName>
+                        </orig>
+                        <note xml:id="nmrm_zhk_fgc" resp="#TMuxeneder">Die für <date
+                                when="1914-02-16">16. Februar 1914</date> angesetzte <placeName
+                                key="place.2.24">Münchener</placeName> Erstaufführung der <bibl
+                                sameAs="werke.16">Gurre-Lieder</bibl>
+                            musste auf die kommende Saison verschoben werden, da <persName
+                                key="pers.3972">Bruno Walter </persName>parallel mit der
+                            Einstudierung von <bibl sameAs="werke.113">Franz Schreker, Der ferne
+                                Klang</bibl> befasst war (Bruno Walter an Arnold Schönberg, 12.
+                            Dezember 1913; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B180416">ASCC
+                                18041</ref>; <rs type="bibl" key="zotero-4528359-ZBT7MFKX">
+                                Allgemeine Zeitung
+                                1914</rs>). Wegen kriegsbedingtem Mangel an Chorsängern kam es <date
+                                when="1915-01">Anfang 1915</date> zu einer weiteren Verschiebung.
+                            Die Aufführung kam schließlich nicht zustande (Bruno Walter an Arnold
+                            Schönberg, 3. Jänner 1915; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B180409">ASCC
+                                18040</ref>)</note>
+                    </seg> braucht. Sollten Sie jedoch aus Ihrer fotographier<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Partitur nicht dirigieren können, dann müsste Ihr <seg
+                        type="comment">
+                        <orig>Ori<g ref="#typoHyphen"/>
+                            <lb break="no"/>ginal</orig>
+                        <note sameAs="letter.7255/#nf53_4tp_jgc"/>
+                    </seg> vom III. Teil Seite 123 bis Schluss, dass bis jetzt <lb/>noch nicht mit
+                    den neuen Retouchen versehen ist, so einge<g ref="#typoHyphen"/>
+                    <lb break="no"/>richtet werden, wie dies bei den übrigen Teilen des Wer<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>kes bereits der Fall ist.</p>
+                <closer>Wir erbitten uns hierüber Ihre umgehende Mitteilung <lb/>und zeichnen <lb/>
+                    <salute rendition="#r">hochachtungsvoll</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.86" rendition="#r">
+                        <orgName key="org.1">„Universal-Edition“ Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                    <lb/>
+                    <signed> D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">K</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

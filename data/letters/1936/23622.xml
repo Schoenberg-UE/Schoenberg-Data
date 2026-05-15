@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.23622"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 16. März 1936</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.23622</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 23622</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1936-03-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1">Los Angeles, Hollywood</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2808"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/23622_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.23622_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.121">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>
+                            WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/> LEIPZIG·<placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                        <lb/>TELEGRAMM-ADRESSE:
+                        MUSIKEDITION WIEN POSTSPARKASSEN-KONTO WIEN 57557</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1936-03-16">16.
+                            März 1936</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.1">
+                                <hi rendition="#u">
+                                    <hi rendition="#g">Hollywood</hi>
+                                </hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter, lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir haben uns sehr gefreut, nach langer Zeit wieder <lb/>mit Ihren <ref target="letter.2808">Zeilen</ref> vom <date when="1936-03-02">2. März</date>
+                    eine persönliche Nachricht von Ihnen <lb/>zu empfangen. Es hat uns sehr leid
+                    getan, aus diesem Schreiben und <lb/>schon früher aus einem <seg type="comment">
+                        <orig>Telegramm</orig>
+                        <note xml:id="novd_c4y_k1c" resp="#pkehrer">Vermutlich <ref target="letter.2809">Arnold Schönberg an
+                                Universal-Edition, 3. März 1936</ref>
+                        </note>
+                    </seg> zu ersehen, dass
+                    das Vorlagemate<g ref="#typoHyphen"/>
+                    <lb break="no"/>rial noch nicht in Ihren Händen ist, denn wir haben dasselbe von <lb/>
+                    <placeName key="place.15.8">New York</placeName> per Luftpost an Sie
+                    weiterleiten lassen uns sind sicher, <lb/>dass Sie es wenige Tage nach Ihrer
+                    telegraphischen Urgenz erhalten <lb/>haben. Wir haben hier mit der grössten
+                    Beschleunigung die Photographien <lb/>der Partitur und des Particells anfertigen
+                    lassen, sodass auf unserer <lb/>Seite keine Zeit verloren gegangen ist.</p>
+                <p>Dass die Arbeit eine so grosse ist und Sie dadurch <lb/>so viel Zeit verwenden
+                    werden müssen, bedauern wir ausserordentlich, <lb/>und wir werden daher den von
+                    Ihnen vorgeschlagenen Vorgang, dass Sie <lb/>die Instrumentation in das
+                    Particell eintragen und Ihr <rs type="person" key="pers.3281">Sohn</rs> dann
+                    <lb/>die Partitur hier unter Kontrolle von <persName key="pers.3612">Stein</persName> und <persName key="pers.4001">Webern</persName>
+                    fertigschreibt, <lb/>durchführen. Was Sie über die Art der Arbeit schreiben,
+                    dass Sie <lb/>nicht etwa <persName key="pers.385">Berg’s</persName>
+                    Orchesterstil imitieren, sondern so verfahren, wie <lb/>Sie es bei der
+                    nachträglichen Instrumentierung der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>tan
+                    haben, nehmen wir selbstverständlich zur Kenntnis, da die Art <lb/>der
+                    Ausführung selbstverständlich von Ihnen als oberste Instanz in <lb/>dieser Sache
+                    bestimmt werden muss, wenn Sie die Instrumentation voll<g ref="#typoHyphen"/>
+                    <lb break="no"/>enden.</p>
+                <p>Was die Zahlungen für Ihren Sohn anbelangt, so haben<pb n="2" xml:id="p.2"/>wir
+                    in der Zwischenzeit Ihr <ref target="letter.2809">Telegramm</ref> erhalten und
+                    50 $ für <date when="1936-03">März</date> a conto <lb/>Ihres Guthabens
+                    ausbezahlt, weitere 50 $ werden am <date when="1936-04-01">1. April</date>
+                    bezahlt wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den. Sie können natürlich
+                    unserem <rs type="org" key="org.23">Vertreter</rs> in <placeName key="place.15.8">New York</placeName> jeweils Geld <lb/>einzahlen, nur
+                    müssten wir, wenn telegraphische Spesen vermieden werden <lb/>sollen, brieflich
+                    über eine Auszahlung an Ihren Sohn so rechtzeitig <lb/>verständigt werden, dass
+                    wir ihm das Geld zeitgerecht übermitteln können. <lb/>Solange <del rendition="#s">über</del> ein Guthaben für Tantiemenabrechnungen, die an Sie
+                    gehen <lb/>sollen, hier vorhanden ist, besteht für die Auszahlung keine
+                        Schwierig<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit, wenn ein solches
+                    Guthaben aber nicht vorhanden ist, dann müsste <lb/>von Ihnen jeweils Geld bei
+                    unserer <placeName key="place.15.8">New Yorker</placeName> Vertretung so
+                    rechtzeitig <lb/>erlegt oder avisiert werden, dass wir hier termingerecht Ihrem
+                    Sohne <lb/>das Geld überweisen.</p>
+                <p>Wir hoffen also, dass die Arbeit an der Partitur in der von Ihnen
+                    <lb/>geschilderten Weise zeitgerecht vorwärts gehen kann und freuen uns im
+                    <lb/>Interesse aller Beteiligten, dass das unvollendete Werk <persName key="pers.385">Alban Berg’s</persName>
+                    <lb/>durch Ihr freundliches Entgegenkommen Ihnen anvertraut werden konnte.</p>
+                <p>Sie schreiben gar nichts darüber, wie es Ihnen persönlich geht <lb/>und wie sich
+                    Ihre normale Arbeit gestaltet. Es würde uns natürlich sehr <lb/>interessieren,
+                    auch darüber einmal etwas Authentisches zu erfahren, denn <lb/>dadurch, dass Sie
+                    schon so lange weg sind und der schöne Flecken Erde, <lb/>in welchem Sie sich
+                    aufhalten, gerade diametral auf der anderen Hälfte <lb/>der Weltkugel liegt,
+                    können wir uns von Ihrem täglichen Leben so gar <lb/>kein Bild machen und Sie
+                    wissen, dass dies viele Ihrer Freunde interes<g ref="#typoHyphen"/>
+                    <lb break="no"/>sieren würde.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen auch an Ihre verehrte Frau <rs type="person" key="pers.3297">Gemahlin</rs> von <lb/>uns allen <lb/>
+                        <seg rendition="#r">Ihr sehr ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750"> Kalmus</persName>
+                    </signed>
+                </closer>
+                <lb/>
+                <postscript>
+                    <p>P. S. Eben trifft Ihr <ref target="letter.24374">Telegramm</ref> ein, dass
+                        <lb/>Sie die Instrumentation des letzten Teiles <lb/>„<bibl sameAs="werke.91">Lulu</bibl>“ nicht durchführen können, worüber
+                        wir, <lb/>wie Sie sich denken können, sehr erschrocken sind. Wir haben aus
+                        Ihrem <lb/>Telegramm auch ersehen, dass Sie uns gleich die ganzen
+                        fotografischen <lb/>Kopien zurückgeschickt haben, sodass Ihr Entschluss, die
+                        Arbeit nicht vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>zunehmen, ein
+                        definitiver ist. Wir erwarten also den von Ihnen in dieser <lb/>Sache
+                        avisierten Brief und müssen inzwischen hier die erforderlichen
+                        <lb/>Massnahmen treffen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

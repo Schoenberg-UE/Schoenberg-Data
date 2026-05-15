@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7189"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 29. November 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7189</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7189</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.2">Berlin, Kantstraße 4</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-11-29" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.20010"/>
+                    <ref type="answered-by" target="letter.20014"/>
+                </correspContext>
+                <note>Datierung laut Eingangsstempel; Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7189_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7189_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>P. T. <orgName key="org.1">UE.</orgName>
+                </salute>
+                <p rendition="#inline">Sie können doch nicht glauben, dass ich <add place="superlinear">darauf verzichten soll</add> die Waldtaube <del rendition="#s">nicht</del>
+                    <lb/>in der reducirten <del rendition="#s">Aufführung</del>
+                    <bibl sameAs="werke.146">Bearbeitung</bibl>
+                    <seg type="comment">
+                        <orig>aufzuführen</orig>
+                        <note xml:id="nqcs_cyl_3gc" resp="#KBleier">
+                            <ref target="event.72"/>
+                        </note>
+                    </seg>!</p>
+                <p>Warum haben Sie, da das seit Wochen hin und her geht, <lb/>nicht sofort dieses
+                    kleine Material (ca 160 Seiten!!) herstellen <lb/>lassen?</p>
+                <p>Es muss unbedingt sein, bitte also keine Zeit zu verlieren.</p>
+                <p>Es sind meiner Schätzung nach ca 50 Stimmen à 2–4 Seiten.</p>
+                <p>Wenn man die Partitur halbiert <lb/>und lässt aus jeder Hälfte <lb/>erst die
+                    Streicher einmal von einem Kopisten <lb/>(der dann sofort dubliert <lb/>ev. mit
+                    Hilfe) <lb/>dann die Bläser ausziehen, <lb/>so kann jeder in 2–3 Tagen fertig
+                    sein.</p>
+                <p>Die Klavier und Harmoniumstimme <del rendition="#s">kann</del> darf allerdings
+                    <lb/>nicht vergessen werden.</p>
+                <p>Jeder fängt auf einem äußeren B<supplied cert="high">l</supplied>att (Seite 1
+                    oder Seite 3 <unclear reason="illegible" cert="low">resp</unclear> 5) <lb/>an
+                    und macht immer auf Seite 1, 3 oder 5 eine Wende<g ref="#typoHyphen"/>
+                    <lb break="no"/>stelle. Dann kann man 2 u 3, 4 u 5 zusammen fügen.</p>
+                <p>Bitte mich nicht im Stich zu lassen – Ich wäre sehr bös.</p>
+                <p>Ich bins ohnedies schon!<note hand="#unknown" place="inline">
+                        <persName key="pers.3263">Schönberg</persName>
+                    </note>
+                </p>
+                <closer>
+                    <salute>Mit besten Grüßen</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Ich reise <lb/>
+                        <date when="1927-11-29">Dienstag</date> abend. <lb/>wohne ab <date when="1927-11-30">Mittwoch</date> morgens <lb/>
+                        <hi rendition="#u">Hotel Majestic</hi>
+                        <lb/>
+                        <hi rendition="#u">Paris</hi>
+                        <lb/>
+                        <hi rendition="#u">
+                            <placeName key="place.4.4.7.3">Avenue Kléber</placeName>
+                        </hi>
+                    </p>
+                </postscript>
+                <postscript>
+                    <p>Am <date when="1927-12-02">2.</date> muss alles (jede Stimme <del rendition="#s">ich</del> in <lb/>
+                        <hi rendition="#uu">einem Brief</hi>) abgesendet werden. Nicht <lb/>als
+                        Pakett, sonst ist es zur Probe nicht <lb/>da, weil die Zollabfertigung 2
+                        Tage <lb/>kostet!!</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

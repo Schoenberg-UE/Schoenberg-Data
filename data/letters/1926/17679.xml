@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17679"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 29. Dezember 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17679</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17679</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-12-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17679_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17679_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.24">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.15">209 West 57<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <lb/>
+                    <persName key="pers.4352">K</persName>/<persName key="pers.4374">L.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1926-12-29">29. Deze<choice>
+                                <sic>n</sic>
+                                <corr cert="high">m</corr>
+                            </choice>ber 1926</date>
+                    </dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold
+                                Schönberg</persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin–Charlottenburg</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Die Firma <orgName key="org.38">Breitkopf &amp; Härtel</orgName> beabsichtigt die
+                        Pu<g ref="#typoHyphen"/>
+                    <lb break="no"/>blikation eines Werkes unter dem Titel <lb/>
+                    <hi rendition="#c">„<bibl sameAs="schriften.120">
+                            <hi rendition="#u">Studien zur Technik der neueren Musik</hi>
+                        </bibl>“ von Dr. <persName key="pers.1021">Hermann <hi rendition="#g">ERPF</hi>
+                        </persName>
+                    </hi>
+                    <lb/>und bittet uns um Bewilligung, in demselben ausser Stellen aus Werken
+                    <lb/>anderer unserem Verlage angehörenden Komponisten, auch folgende Stel<g ref="#typoHyphen"/>
+                    <lb break="no"/>len <list>
+                        <item>
+                            <seg type="comment">
+                                <orig>Lied <bibl sameAs="werke.1">op. II</bibl>
+                                    Nr. 1, Takt 1</orig>
+                                <note xml:id="nmpp_ph3_1fc" resp="#KBleier">
+                                    <bibl sameAs="schriften.120">Erpf 1927</bibl>, S.
+                                    164</note>
+                            </seg>
+                        </item>
+                        <item>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.2">Kammersymphonie op.
+                                        IX</bibl>, Takt 1–10</orig>
+                                <note xml:id="nxxx_wh3_1fc" resp="#KBleier">
+                                    <bibl sameAs="schriften.120">Erpf 1927</bibl>, S.
+                                            173</note>
+                            </seg>
+                        </item>
+                        <item>
+                            <bibl sameAs="werke.26">Streichquartett op. X</bibl>, <seg type="comment">
+                                <orig>1. Satz</orig>
+                                <note xml:id="nl1h_lkj_rcc" resp="#KBleier">Abgedruckt T. 40–43 (<bibl sameAs="schriften.120">Erpf 1927</bibl>, S. 165), 66–70 (S.
+                                    165), 88–90 (S. 94)</note></seg>, Takt 68–70
+                            und 40–43</item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Streichquartett</supplied>
+                            </ellipsis> op. X, 1. Satz, Takt 88–90</item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Streichquartett</supplied>
+                            </ellipsis> op. X, <seg type="comment">
+                                <orig>4. Satz</orig>
+                                <note xml:id="nwjw_l33_1fc" resp="#KBleier">T. 1–2 (<bibl sameAs="schriften.120">Erpf 1927</bibl>, S. 150), 52–66 (S.
+                                    184)</note>
+                            </seg>, Takt 1/2</item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Streichquartett</supplied>
+                            </ellipsis> op. X, 4. Satz, Takt 52/66</item>
+                        <item>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.24">Lieder op. 15</bibl>
+                                </orig>
+                                <note xml:id="nkcg_zlj_rcc" resp="#KBleier">
+                                    <bibl sameAs="werke.24">Fünfzehn Gedichte aus „Das Buch der
+                                        hängenden Gärten“ von Stefan George op. 15</bibl>: Das
+                                    schöne Beet betracht ich mir im Harren op. 15/10 (<bibl
+                                        sameAs="schriften.120">Erpf 1927</bibl>, S. 139)</note>
+                            </seg>, Takt 1–3</item>
+                        <item>
+                            <del rendition="#s">
+                                <bibl sameAs="werke.47">Orchesterstücke op. 16</bibl>, 2., 3. – 7.
+                                Takt nach 6</del>
+                            <seg type="comment">
+                                <orig/>
+                                <note xml:id="nzcy_1nj_rcc" resp="#KBleier">Abgedruckt <bibl
+                                        sameAs="werke.47">Fünf Orchesterstücke op. 16</bibl>: Nr. 2,
+                                    T. 3–7 nach Ziffer 6 (<bibl sameAs="schriften.120">Erpf
+                                        1927</bibl>, S. 196f.)</note>
+                            </seg>
+                        </item>
+                        <item>
+                            <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.52">Klavierstücke op. 19</bibl> Nr.
+                                    2</orig>
+                                <note xml:id="nxff_frj_rcc" resp="#KBleier">Abgedruckt
+                                    jeweils eine Zeile aus  T. 1–2, 3, 5–6, 7–9  (<bibl sameAs="schriften.120">Erpf 1927</bibl>, S.
+                                188)</note>
+                            </seg>
+                        </item>
+                        <item>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Klavierstücke</supplied>
+                            </ellipsis>
+                            <seg type="comment">
+                                <orig>op. 19 Nr. 6</orig>
+                                <note xml:id="nh11_nsj_rcc" resp="#KBleier">T. 1–2 (<bibl sameAs="schriften.120">Erpf
+                                        1927</bibl>, S. 198)</note>
+                            </seg>
+                        </item>
+                    </list> aus Ihren Werken wiedergeben zu können. Wir haben der Firma <orgName key="org.38">Breit<g ref="#typoHyphen"/>
+                        <lb break="no"/>kopf &amp; Härtel</orgName> bezüglich anderer Werke die
+                    Zustimmung erteilt und bit<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Sie um Mitteilung, ob Sie mit dem Abdruck der obangeführten
+                        Stel<g ref="#typoHyphen"/>
+                    <lb break="no"/>len einverstanden sind.</p>
+                <closer>Ihren gesch. Nachrichten mit Interesse entgegensehend, <lb/>zeichnen wir
+                        <salute>in vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal-Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17632"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 20. November 1922</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17632</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17632</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1922-11-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17632_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17632_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.116">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition Wien, A. B. C. Code 5<hi rendition="#sup">th</hi> Ed.<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228,
+                  4533·Bank-Konto: <orgName key="org.199">Oesterr. Länder-<lb/>bank. Wien</orgName>.
+                  Postsparkassen Konto: 57557.</stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/Ei<dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am
+                     <date when="1922-11-20">20. November 1922</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Mödling</hi> bei
+                        Wien</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.4.1">Bernhardgasse
+                     6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Eben erhielt ich das mitfolgende <lb/>Schreiben von <persName key="pers.3120">Scheinpflug</persName>. Ich bitte Sie, mir dasselbe <lb/>morgen durch Herrn
+                  <persName key="pers.1339">Greissle</persName> wieder zurückzusenden und <lb/>mir Ihre
+               Ansicht dazu-zuschreiben. Nachdem <persName key="pers.3120">Scheinpflug</persName>
+                    <lb/>auch wie Sie sehen, telegraphisch eine Antwort verlangt, <lb/>möchte ich doch
+               wissen, wie Sie über die Sache denken. </p>
+                <closer>
+                    <salute>Mit herzlichen Grüssen  <lb/>
+                        <seg rendition="#r">Ihr in Verehrung ergebener</seg>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <pb n="2" xml:id="p.2"/>
+                <postscript>
+                    <p>P. S. Von Frau <persName key="pers.4302">Zehme</persName> erhalte ich ein
+                        Schreiben<!-- nicht in ASCC -->, von welchem ich <lb/>Ihnen jenen Teil, der
+                        sich auf die <persName key="pers.1465">Hartleben</persName>-Angelegenheit
+                            be<g ref="#typoHyphen"/>
+                        <lb break="no"/>zieht, einsende mit der Bitte, ihn mir wieder zu
+                        retournieren. Vom <lb/>
+                        <orgName key="org.148">S. Fischer Verlag</orgName> erhielt ich auf meinen
+                            <ref target="document.17635">Brief</ref> vom <date when="1922-10-26">26.
+                            Oktober</date>
+                        <lb/>in welchem ich schrieb, dass die Benützung laut § 20 des Ur<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>heberrechtes gestattet erscheint, keine Antwort. Ich weiss
+                        <lb/>nicht in welchen Verhältnissen Frau <persName key="pers.1480"
+                            >Hartleben</persName> lebt, wäre aber <lb/>ebenso wie Sie, für den Fall,
+                        dass sie in Not wäre, bereit, von <lb/>den <bibl sameAs="werke.54"
+                            >Pierrot</bibl>-Erträgnissen etwas <seg type="comment">
+                            <orig>abzugeben</orig>
+                            <note sameAs="letter.739/#nip5_jpk_yfc"/>
+                        </seg>. Soll ich in diesem <lb/>Sinne an <orgName key="org.148"
+                            >Fischer-Verlag</orgName> schreiben? <note place="inline"
+                            hand="#addressee">bitte ja, ich habe ähnliches <lb/>
+                            <seg type="comment">
+                                <orig>geschrieben</orig>
+                                <note xml:id="nrqb_vsq_3yb" resp="#pkehrer"> Arnold Schönberg an S.
+                                    Fischer, 31. Oktober 1922 (<ref
+                                        target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B007509"
+                                        >ASCC 750</ref>)</note>
+                            </seg>
+                        </note>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

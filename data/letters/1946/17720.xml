@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17720"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 9. Jänner 1946</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17720</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17720</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1946-01-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.4303"/>
+                    <ref type="answered-by" target="letter.4304"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17720_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17720_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1" hand="#pers.3204">
+                    <pb n="1" xml:id="p.1"/>
+                    <opener>
+                        <stamp sameAs="stamp.72">
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                            <lb/>DR· <persName key="pers.2760">JOHANNES PETSCHULL</persName>
+                            <lb/>WIEN UND LEIPZIG<lb/>WIEN I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>·MUSIKVEREINSGEBÄUDE·TELEFON U 4 75 85·U 4
+                            75 86<lb/>TELEGRAMME: MUSIKEDITION WIEN</stamp>
+                        <lb/>
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.416">Be</persName>
+                        <dateline>
+                            <placeName key="place.9.11">Wien</placeName>, <date when="1946-01-09">9.
+                                Jänner 1946</date>
+                        </dateline>
+                        <address>
+                            <addrLine>Mr.</addrLine>
+                            <addrLine>
+                                <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                            <addrLine>
+                                <placeName key="place.15.7.3.1">116 N. Rockingham
+                                Avenue</placeName>,</addrLine>
+                            <addrLine>
+                                <hi rendition="#u">
+                                    <hi rendition="#g">Los Angeles</hi>, 24</hi>
+                            </addrLine>
+                            <addrLine>California.</addrLine>
+                        </address>
+                    </opener>
+                    <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                    <p>Ich möchte die erste Gelegenheit, einen normalen Brief in die <placeName key="place.15">USA</placeName>
+                        <lb/>zu schicken, dazu benutzen, Ihnen mitzuteilen, dass die <orgName key="org.1">U.E.</orgName> noch <lb/>oder soll ich sagen, wieder
+                        existiert.</p>
+                    <p>Einige Male hatte ich die grosse Freude Sie mit <persName key="pers.3772">Stuckenschmidt</persName> in <lb/>
+                        <placeName key="place.2.3">Berlin</placeName> besuchen zu dürfen. Die
+                        Angelegenheiten, die ich damals als <lb/>Vertreter der <orgName key="org.1">U.E.</orgName> mit Ihnen zu bereden hatte, waren so geringfügi<g ref="#typoHyphen"/>
+                        <lb break="no"/>ger Natur, dass Sie sich meiner kaum erinnern werden.</p>
+                    <p>Nach Beendigung der Kampfhandlungen in <placeName key="place.9.11">Wien</placeName> hat mich der <placeName key="place.9">österrei<g ref="#typoHyphen"/>
+                            <lb break="no"/>chische</placeName> Staat zum öffentlichen Verwalter der
+                            <orgName key="org.1">U.E.</orgName> eingesetzt und <lb/>es ist mein
+                        Bestreben, dieses Unternehmen wieder zu dem zu machen, <lb/>was es einmal
+                        gewesen ist: Vorkämpfer der Neuen Musik.</p>
+                    <p>Die starke Aktivität, die ich in dem Verlag auf Grund einer Anzahl
+                        <lb/>wertvoller Mitarbeiter, zu denen auch in lockererem Verhältnis
+                            <persName key="pers.2870">
+                            <lb/>Erwin Ratz</persName>, <persName key="pers.165">Hans Erich
+                            Apostel</persName>, <persName key="pers.2817">Josef Polnauer</persName>
+                        und <persName key="pers.2631">Olga Novakovic</persName>
+                        <lb/>gehören, zu entfalten versuche, ist zwar noch durch unzählige
+                        <lb/>Schwierigkeiten des täglichen Lebens behindert, doch lassen wir
+                        <lb/>uns von unserem Weg nicht abbringen.</p>
+                    <p>Wenn wir bisher auch nicht so viel publizieren konnten, da ausser <lb/>den
+                        technischen Schwierigkeiten in den Druckereien auch noch der <lb/>Umstand
+                        dazu kommt, dass fast das gesamte klassische und Unterrichts<g ref="#typoHyphen"/>
+                        <lb break="no"/>material neu hergestellt werden muss, haben wir doch schon
+                            weitge<g ref="#typoHyphen"/>
+                        <lb break="no"/>hend in das öffentliche künstlerische Leben eingreifen
+                        können.</p>
+                    <p>Die <orgName key="org.93">IGNM</orgName> wurde in unseren Räumen wieder
+                        gegründet. Ausser ihren <lb/>Konzerten, in denen bisher unter anderem Ihr
+                            <bibl sameAs="werke.26">2. Streichquartett</bibl>
+                        <lb/>und die „<bibl sameAs="werke.24">Hängenden Gärten</bibl>“ <seg type="comment">
+                            <orig>aufgeführt</orig>
+                            <note xml:id="nqzs_22r_rcc" resp="#KBleier"><ref target="event.82"/>; <ref target="event.83"/>
+                            </note>
+                        </seg> wurden, veranstalten
+                        wir fast <lb/>jedem Samstag vor einem nicht sehr grossen, aber sehr
+                            interessier<g ref="#typoHyphen"/>
+                        <lb break="no"/>te<choice>
+                            <sic>m</sic>
+                            <corr cert="high">n</corr>
+                        </choice> Kreis geladener Gäste Hauskonzerte, in denen wir zunächst einmal
+                        <lb/>vor allem nachholen, was wir in den letzten Jahren versäumt haben. <pb n="2" xml:id="p.2"/>
+                    </p>
+                    <p>Vielleicht bereitet es Ihnen Freude, dass bei den Musikwochen, <lb/>die für
+                        Ende <date when="1946-05">Mai</date> geplant sind, die <bibl sameAs="werke.16">Gurrelieder</bibl> <add place="intralinear" hand="#pers.3204">
+                            <metamark/>
+                        </add>
+                        <note place="mBottom" hand="#pers.3204">
+                            <metamark/> und, wenn das Studium <lb/>bis dahin fertig ist <seg type="comment">
+                                <orig>
+                                    <bibl sameAs="werke.54">Pierrot
+                                    lunaire</bibl>
+                                </orig>
+                                <note xml:id="nfxc_h2r_yfc" resp="#KBleier">
+                                    <ref target="event.78"/>
+                                </note>
+                            </seg>
+                        </note> im Programm stehen. <lb/>Besonders aber hoffen wir bald in den
+                        Besitz der Partituren Ihrer <lb/>neuen Werke zu gelangen, um diese bald in
+                            <placeName key="place.9.11">Wien</placeName> erklingen zu lassen.</p>
+                    <p>Im Verlag ist es unmöglich gewesen, die Werke vor einer Beschlag<g ref="#typoHyphen"/>
+                        <lb break="no"/>nahme während der Nazizeit zu schützen. Verluste haben wir
+                        durch <lb/>Kriegsschaden teilweise nur in Ausweichlagern gehabt, wohin wir
+                        <lb/>diejenigen Vorräte gebracht hatten, die wir besonders gut sichern
+                        <lb/>wollten und in besonders gutem Schutz glaubten.</p>
+                    <p>Verschiedene Werke sollen jetzt neu aufgelegt werden. Vor allem <lb/>auch die
+                            <bibl sameAs="schriften.1">Harmonielehre</bibl>, nach der die grösste
+                        Nachfrage besteht. <lb/>Ich lege auch ein Verzeichnis derjenigen Werke bei,
+                        die zunächst <lb/>zum Nachdruck kommen sollen und bitte Sie möglichst
+                        umgehend Mit<g ref="#typoHyphen"/>
+                        <lb break="no"/>teilung zu machen, ob Sie vor dem Neudruck irgendwelche
+                        Korrekturen <lb/>vornehmen wollen.</p>
+                    <p>Nun aber möchte ich die wichtigste Bitte an Sie richten. Nach dem
+                        <lb/>Gesagten muss ich wohl nicht weiter ausführen, welches Glück es für
+                        <lb/>uns bedeuten würde, wenn Sie mit Ihrem Schaffen zu der <orgName key="org.1">U.E.</orgName> zurück<g ref="#typoHyphen"/>
+                        <lb break="no"/>kehren würden. Allerdings dürften die allgemeinen
+                        wirtschaftlichen <lb/>Verhältnisse noch für einige Zeit für uns ein schweres
+                        Handicap be<g ref="#typoHyphen"/>
+                        <lb break="no"/>deuten. Ich weiss noch nicht, ob wir in der Lage sein
+                        werden, Ihnen <lb/>bei Uebernahme neuer Werke Honorare anzubieten, wie sie
+                        die Verleger <lb/>der Länder guter Valuta geben können. Diesen Mangel wollen
+                        wir aber <lb/>mit umsomehr Sorgfalt bei der Herausgabe und Liebe bei der
+                            Verbrei<g ref="#typoHyphen"/>
+                        <lb break="no"/>tung des Werkes zu ersetzen versuchen.</p>
+                    <p>Bei dieser Gelegenheit möchte ich noch eine andere Frage anschneiden,
+                        <lb/>die mit dieser vorhergehenden nicht unbedingt in Zusammenhang stehen
+                        <lb/>muss, aber kann. Haben Sie schon darüber nachgedacht, ob Sie sich
+                        <lb/>dazu entschliessen könnten, Ihren Wohnsitz nach <placeName key="place.9.11">Wien</placeName> zu verlegen? <lb/>Wir haben die
+                        Hoffnung, <placeName key="place.9.11">Wien</placeName> wieder zu einem
+                        Mittelpunkt des modernen <lb/>Musiklebens zu machen. Die Aussichten sind
+                        jetzt nach den Jahren er<g ref="#typoHyphen"/>
+                        <lb break="no"/>zwungener Enthaltsamkeit mehr gegeben als jemals. Ich möchte
+                        von Ihnen <lb/>nur die grundsätzliche Antwort haben, ob Sie im Falle einer
+                        Berufung <lb/>durch eine öffentliche Stelle grundsätzlich bereit wären, in
+                            Verhand<g ref="#typoHyphen"/>
+                        <lb break="no"/>lungen zu treten.</p>
+                    <p>Darf ich hoffen von Ihnen bald eine Nachricht zu erhalten? Sollten <lb/>Sie
+                        über mich Erkundigungen einziehen wollen, so bitte ich Sie, sich <lb/>an
+                        Herrn <persName key="pers.4190">Winter</persName>, <orgName key="org.23">AMP</orgName> zu wenden.</p>
+                    <closer>
+                        <salute rendition="#c">In Verehrung Ihr aufrichtig ergebener </salute>
+                        <lb/>
+                        <signed rendition="#r">
+                            <persName key="pers.3204">Schlee</persName>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2" hand="#pers.3067">
+                    <p>Ich war sehr glücklich von Ihnen <lb/>durch Ihren <rs type="person" key="pers.3281">Sohn</rs> zu <seg type="comment">
+                            <orig>hören</orig>
+                            <note xml:id="ncfh_thw_41c" resp="#pkehrer">Arnold Schönberg an
+                                Georg Schönberg, 9. Oktober 1945 (<ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B075090"
+                                    >ASCC 7509</ref>)</note>
+                        </seg></p>
+                    <closer rendition="#inline"><salute>und grüße <lb/><seg rendition="#c"
+                                >herzlichst</seg></salute>
+                        <lb/>
+                        <signed rendition="#c">
+                            <persName key="pers.3067">B
+                        Rothe</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

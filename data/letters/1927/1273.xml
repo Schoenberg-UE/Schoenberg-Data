@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1273"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 9. September 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1273</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1273</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.6.1">Pörtschach, Werzer Promenade 8</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-09-09" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.19965"/>
+                    <ref type="response-to" target="letter.19971"/>
+                    <ref type="answered-by" target="letter.19974"/>
+                </correspContext>
+                <note>Datierung laut Eingangsstempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1273_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1273_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Pörtschach a/See</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.6.1">Hotel Werzer</placeName>
+                        </addrLine>
+                        <addrLine rendition="#c">ab <date when="1927-09-11">Sonntag</date> wieder in <placeName key="place.9.11">Wien</placeName>,
+                            per </addrLine>
+                        <addrLine rendition="#c">Adr. <persName key="pers.1947">Kolisch</persName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>An die <orgName key="org.1">UE</orgName>.</salute>
+                <p>Die in Ihrem <ref target="letter.19971">Brief</ref> vom <date when="1927-09-05">5. d. M.</date> erwähnte 660 Sch.-Sache <lb/>ist in Ordnung. Ich habe mir,
+                    diesmal auf <hi rendition="#u">Ihre</hi> Kosten, ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Brief abgespart. Sonst ist mir manchmal mein Risiko <lb/>zu
+                    gross dazu und da muss ich doch den einen oder den <lb/>andern Ihrer Irrtümer
+                    richtigstellen. Wollte ich mich <lb/>mit allen befassen, müsste ich mir einen
+                    Sekretär eigens <lb/>für diesen Zweck halten. Die 660 Sch. werde ich bar zurück
+                    <lb/>senden. Ich will der Tradition ihr Recht lassen, will, wie <lb/>bisher, aus
+                    Ihren Irrtümern keinen Vorteil ziehen.</p>
+                <p>wegen der <placeName key="place.2.36">Wiesbadener</placeName>
+                    <hi rendition="#g">
+                        <bibl sameAs="werke.7">Erwartung</bibl>
+                    </hi>- <lb/>
+                    <seg type="comment">
+                        <orig>aufführung</orig>
+                        <note xml:id="nzcp_k3l_d2c" resp="#KBleier">
+                            <ref target="event.133"/>
+                        </note>
+                    </seg>:</p>
+                <p>Dem <orgName key="org.51">Verband Deutscher Bühnenschriftsteller und
+                            Komponiste<supplied cert="high">n</supplied>
+                    </orgName>
+                    <lb/>würde ich notfalls, wenn ich d<supplied cert="high">a</supplied>zu
+                    gezwungen bin, beitreten. <lb/>Soviel mir jedoch bekannt ist, dürfte dieser
+                    Verband kein <lb/>Recht haben, sich gegen die Aufführung meiner Bühnenwerke
+                    <lb/>zu wehren. Denn da er (wenn ich nicht irre) nur Autoren auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>nimmt, die <hi rendition="#u">abendfüllende</hi> Werke geschrieben haben, befasst <lb/>er sich nur mit
+                    solchen Autoren, ist nur zu dere<choice>
+                        <sic>e</sic>
+                        <corr type="deleted"/>
+                    </choice>n Vertre<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung befugt und es fallen
+                    andere somit ausserhalb seiner <lb/>Interessensphäre, ausserhalb somit seiner Kompetenz.</p>
+                <p>Diesen Standpunkt bitte ich zunächst in meinem Namen, ehe <lb/>ich, trotz
+                    ehrenvoller Nichteinladung mich dort eindränge,
+                    <lb/>diesem geschätzten Verbande gegenüber zu vertreten.</p>
+                <p>Notfalls, wie gesagt, bitte ich <add place="superlinear">in</add> meinem Namen
+                    meine Beitritt<lb break="no"/>sanmeldung schmerzlos zu vollziehen.</p>
+                <p>Vorgester<supplied cert="high">n</supplied> sandte ich Ihnen die <choice>
+                        <sic>k</sic>
+                        <corr cert="high">K</corr>
+                    </choice>orrekturen, deren Empfang <lb/>Sie mir noch <hi rendition="#g">nicht</hi> bestättigt haben.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Auch eine <seg type="comment">
+                        <orig>Photographie</orig>
+                        <note xml:id="nrsy_t2t_nfc" resp="#KBleier">Portrait, 1927 (<ref target="https://archive.schoenberg.at/resources/?r=1482">ASCI PH1482</ref>)</note>
+                    </seg> lag bei.</p>
+                <p>Richtig: <seg type="comment"><orig>Frau <persName key="pers.765"
+                                >Coolidge</persName> bittet</orig><note xml:id="nmfn_dnz_djc"
+                            resp="#KBleier">Elizabeth Sprague Coolidge an Arnold Schönberg, 1927
+                            (ASCC 20663)</note></seg> mich um die
+                    Erlaubnis <add place="superlinear">zum Herausschreiben der</add> ,<del
+                        rendition="#s">die</del>
+                    <lb/>Stimmen des <bibl sameAs="werke.63">3. Quartetts</bibl> für die Ihr
+                    zugestandenen <placeName key="place.15">amerika<g ref="#typoHyphen"/>
+                        <lb break="no"/>nischen</placeName> Aufführungen. Bitte erteilen Sie ihr sie
+                        ausdrück<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich und <hi rendition="#g">genau abgegrenzt</hi> (wegen mei<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>ner <add place="superlinear">früheren</add>
+                    <seg type="comment">
+                        <orig>Zusage</orig>
+                        <note xml:id="nim3_wwm_nfc" resp="#KBleier">Arnold Schönberg an Hans
+                            Kindler, 22. Juni 1927 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B013292">ASCC
+                                20633</ref>)</note>
+                    </seg> an das <orgName key="org.3">Kolischquartett</orgName>!)</p>
+                <p>Ende dieser Woche, <date when="1927-09-10">Samstag</date>, wahrscheinlich, gehe ich <lb/>wieder nach <placeName key="place.9.11">Wien</placeName>: es wird mir ein Vergnügen sein.</p>
+                <closer>
+                    <salute>Mit den besten Grüssen, hochachtungsvoll</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

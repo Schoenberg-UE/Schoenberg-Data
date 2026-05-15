@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.20913"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 2. Juni 1915</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20913</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20913</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1915-06-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24269"/>
+                    <ref type="response-to" target="letter.24270"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20913_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20913_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.49">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.10">Seeburgstr. 14–20</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegramm-Adresse: Musikedition,
+                        Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 3228, 4533·Bank-Konto:
+                            <orgName key="org.199">k-k·priv·öst·<lb/>Länderbank.
+                        Wien</orgName>·Postsparkassen·Konto 57557.<lb/>Wien <seg hand="#author">
+                            <date when="1915-06-02">2. Juni 1915</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.2.3">Berlin</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ihre <seg type="comment">
+                        <orig>Briefe</orig>
+                        <note xml:id="ngks_s1f_qxb" resp="#jfranz">
+                            <ref target="letter.24269">Arnold Schönberg an
+                        Universal-Edition, 28. Mai 1915 [erschlossen]</ref>; <ref target="letter.24270">Arnold Schönberg an Universal-Edition, 28. Mai 1915
+                        [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1915-05-28">28.
+                  pto.</date> habe ich erhalten und ich <lb/>bin betrübt, aus denselben die
+               unerfreuliche Situation in der <lb/>Sie sich befinden, zu ersehen. Ihr Schreiben an
+               den <orgName key="org.137">Wiener <lb/>Tonkünstler-Verein</orgName> habe ich
+               weitergegeben. Die Erledigung <lb/>wird <add place="superlinear">baldigst</add> in
+               der Weise erfolgen, dass Sie ein monatliches Darlehen <lb/>erhalten werden; dieses
+               Darlehen kann aber <hi rendition="#u">nicht</hi>
+                    <hi rendition="#u">annähernd</hi> den <lb/>Betrag von M 400.– <hi rendition="#u">monatlich</hi> erreichen und es ist ein grosses
+               <lb/>Missverständnis Ihrerseits, wenn Sie meinen, dass ich von einem <lb/>derartigen
+               monatlichen Darlehen jemals gesprochen habe. Die <lb/>Mittel des <orgName key="org.137">Tonkünstler-Vereins</orgName> und die derzeitigen Spenden sind
+               <lb/>nicht so, dass derartige monatliche Ausszahlungen für einzelne <lb/>Künstler
+               überhaupt in Kombination kommen können. Sie können sich <lb/>denken<del rendition="#s">d</del>, dass das was ich in dieser Angelegenheit für Sie zu tun
+               <lb/>vermochte, reichlich getan habe. Es ist sehr, sehr bedauerlich, <lb/>dass Sie
+               sich anlässlich Ihres Hierseins so gar nicht die Zeit <lb/>nehmen konnten, mit mir
+               über wichtige Sie berührende materielle <lb/>Fragen der nächsten Zukunft zu sprechen.
+               Wir hätten im gemein<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaftlichen Gespräche
+               zweifellos Auswege und Möglichkeiten ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>funden,
+               die für Sie vielleicht von grösserer Wichtigkeit gewe<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen wären, als manches andere, was Sie hier unternommen haben.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Es gibt zahllose Dinge, die einer mündlichen Verständigung <lb/>sehr leicht,
+                    einer schriftlichen sehr schwer zugängig sind. <lb/>Dass ich Ihnen in dieser für
+                    Sie kritischen Situation helfen <lb/>will, ist keine Frage; ob ich Ihnen aber
+                    helfen kann, erscheint <lb/>mir nicht ganz sicher. Sie können sich denken, dass
+                    weder für <lb/>die <orgName key="org.1">Universal-Edition</orgName> noch für
+                    mich persönlich es jetzt leicht <lb/>ist, durchzuhalten. Die Verpflichtungen die
+                    wir haben, sind <lb/>weit grösser, als in Friedenszeiten und die Mittel zur
+                        Befrie<g ref="#typoHyphen"/>
+                    <lb break="no"/>digung derselben nur mit den grössten Schwierigkeiten aufzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>bringen. Ich kann Ihnen namens der <orgName key="org.1">Universal-Edition</orgName> weitere <lb/>Vorschüsse vorerst nicht in
+                    Aussicht stellen. Anlässlich der <lb/>anfangs <date when="1915-07">Juli</date>
+                    zu machenden Halbjahres-Rechnung Ihres Kontos <lb/>wird es sich ergeben, wie
+                    sich die Eingänge auf demselben im <lb/>Verhältnis zu den Ausgaben gestaltet
+                    haben und dann können wir <lb/>in dieser Sache weitere Entschliessungen
+                    treffen.</p>
+                <p>Einen Ausweg aus dieser schweren Situation, den ich <lb/>Ihnen gleich sagen
+                    möchte, könnte die „offizielle“ Musiker-Für<g ref="#typoHyphen"/>
+                    <lb break="no"/>sorge bilden, an deren Spitze Präsident <persName key="pers.4134">Wiener</persName> steht. Diese mit <lb/>den Bestrebungen des
+                        <orgName key="org.137">Wiener Tonkünstler-Vereines</orgName> para<choice>
+                        <sic>lell</sic>
+                        <corr cert="high">llel</corr>
+                    </choice>e <lb/>aber in gar keinem Zusammenhang stehende Aktion verfügt über
+                        be<g ref="#typoHyphen"/>
+                    <lb break="no"/>deutend grössere Mittel, als der <orgName key="org.137">Wiener
+                        Tonkünstler-Verein</orgName>, hat <lb/>trotzdem bisher weniger an
+                    Unterstützungen ausgegeben und die<g ref="#typoHyphen"/>
+                    <lb break="no"/>se wäre in der Lage, sich für Sie viel erfolgreicher
+                    einzusetzen, <lb/>als der <orgName key="org.137">Wiener
+                        Tonkünstler-Verein</orgName> oder die <orgName key="org.1">Universal-Edition</orgName>
+                    <lb/>kann. Nachdem Frau <persName key="pers.2244">Mahler</persName> mit dem
+                    Präsident <persName key="pers.4134">Wiener</persName> sehr befreun<g ref="#typoHyphen"/>
+                    <lb break="no"/>det ist, so wird es nicht die geringste<choice>
+                        <sic>ns</sic>
+                        <corr type="deleted"/>
+                    </choice> Schwierigkeit machen, <pb n="3" xml:id="p.3"/>dass Ihnen aus diesem
+                    Fonde für die nächsten Monate entweder <lb/>in Form eines Darlehens oder eines
+                    Zuschusses Beträge bezahlt <lb/>werden. Ich würde es für sehr wünschenswert
+                    halten, wenn Sie <lb/>entweder direkt, oder durch eine Ihnen geeignet scheinende
+                    <lb/>Persönlichkeit an Frau <persName key="pers.2244">Mahler</persName> oder an
+                    Herrn Präsidenten <persName key="pers.4134">Wiener</persName>
+                    <lb/>in dieser Angelegenheit herantreten würden. Die grossen Spen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den, die diese Aktion erhalten hat, sind ausdrücklich für die
+                    <lb/>durch den Krieg in Not geratenen Musiker bestimmt und Ihr Fall <lb/>ist ja
+                    doch ein Schulfall für diese ganze Sache. Es kann sich <lb/>also nur darum
+                    handeln, dass die Anmeldung in zweckentsprechen<g ref="#typoHyphen"/>
+                    <lb break="no"/>der Weise erfolge und dass eine möglichst weitherzige Berück<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichtigung befürwortet werde. Vielleicht teilen Sie mir über
+                    <lb/>diese Sache Ihre Meinung mit.</p>
+                <p>Wegen des <bibl sameAs="schriften.10">Gedichtes</bibl> für den III. und IV. Satz
+               Ihrer <lb/>Symphonie kann ich Ihnen leider nichts Besonderes sagen. Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>suchen Sie es mit den zwei neuen Zeitungen
+                  „<orgName key="org.279">Der neue Merkur</orgName>“ <lb/>Verlag
+                  <orgName key="org.76">Georg Müller</orgName>, <placeName key="place.2.24">München</placeName> und <placeName key="place.2.3">Berlin</placeName> und
+                  „<orgName key="org.280">Die weissen Blätter</orgName>“
+               <lb/>herausgegeben von <persName key="pers.1128">Efraim Frisch</persName>, <placeName key="place.2.3">Berlin</placeName>. Es ist aber auch mög<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich, dass sich <orgName key="org.148">Fischer</orgName> in <placeName key="place.2.3">Berlin</placeName> für die „<orgName key="org.281">Neue
+                  Rundschau</orgName>“ da<g ref="#typoHyphen"/>
+                    <lb break="no"/>für
+               interessieren würde. Jedenfalls ist ja <placeName key="place.2.3">Berlin</placeName>
+               mit seinen <lb/>hunderten Zeitschriften der geeignete Ort, um derartige künst<g ref="#typoHyphen"/>
+                    <lb break="no"/>lerische Erscheinungen herauszubringen.</p>
+                <closer>
+                    <salute>Ich hoffe bald von Ihnen zu hören und bleibe mit <lb/>herzlichen Grüssen
+                     <lb/>
+                        <seg rendition="#r">Ihr Ihnen warm ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

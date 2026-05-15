@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.21762"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 5. Juli 1909</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.21762</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/35626-8">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">Wien</placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21762</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.24">Wien, Wipplingerstraße 32</placeName>
+                    <date when="1909-07-05" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.8.1">Steinakirchen am Forst, Hedwighof</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24039"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21762_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21762_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.5">
+                        <orgName key="org.1">„Universal-Edition“ A.-G.</orgName>
+                        <lb/>(<orgName key="org.96">Jos. Aibl Verlag, G. m. b. H.</orgName>)<lb/>Leipzig<lb/>
+                        <placeName key="place.2.20.9">Sternwartestrasse
+                        15-20</placeName>.<lb/>Wien<lb/> I., <placeName key="place.9.11.6.24">Wipplingerstrasse 32</placeName>.<lb/>
+                        Telegramm-Adresse:<lb/>·MUSIKEDITION WIEN·<lb/>Telephon N<hi rendition="#sup">r</hi>. 22.877.<lb/>Wien, <seg hand="#author">
+                            <date when="1909-07-05">5. Juli 1909</date>.</seg>
+                        <lb/>Bank-Konto: <orgName key="org.199">Kais. kön. privilegierte
+                            Oesterreichische Länderbank Wien</orgName>. – Postspark.-Konto.
+                        57.557.</stamp>
+                    <lb/>
+                    <persName key="pers.4352">K</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">
+                            <persName key="pers.3263">
+                                <hi rendition="#g">Arnold Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#c">derzeit</addrLine>
+                        <addrLine rendition="#r">Steinakirchen am Forst,</addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.8.1">Hedwighof</placeName>; N.-Oest.</addrLine>
+                    </address>
+                </opener>
+                <salute rendition="#c">Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p> Auf Ihre geschätzte <seg type="comment">
+                        <orig>Zuschrift</orig>
+                        <note xml:id="nchj_ky2_hvb">
+                            <ref target="letter.24039">Arnold Schönberg an Universal-Edition, 2.
+                                Juli 1909 [erschlossen]</ref></note>
+                    </seg> vom <date when="1909-07-02">2. ds.</date> teile ich Ih<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>nen höflichst mit, daß ich gehofft habe, Sie vor Ihrer <seg
+                        type="comment">
+                        <orig>Abreise</orig>
+                        <note xml:id="nx5q_531_hdc" resp="#KBleier">Plan Abreise nach <placeName
+                                key="place.9.8">Steinakirchen</placeName>: <date when="1909-06-28"
+                                >28. Juni 1909</date> (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064965">Arnold
+                                Schönberg an Mathilde Schönberg, 23. Juni 1909; ASCC 6496)</ref>;
+                            letzter Brief nach <placeName key="place.9.8">Steinakirchen</placeName>:
+                                <date when="1909-09-28">28. September 1909</date> (<ref
+                                target="letter.12415">Verlag Dreililien an Arnold Schönberg, 28.
+                                September 1909</ref>); erster Brief aus <placeName key="place.9.11"
+                                >Wien</placeName>: <date when="1909-09-30">30. September 1909</date>
+                            (Arnold Schönberg an Alban Berg, 30. September 1909; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B059571">ASCC
+                                5957</ref>)</note>
+                    </seg>
+                    <lb/>noch bei mir begrüßen zu können und daß ich aus diesem Grunde von
+                    <lb/>einer schriftlichen Mitteilung abgesehen habe. Da Sie nun bereits <lb/>auf
+                    Sommererholung sind, muß ich Ihnen schriftlich mitteilen, daß <lb/>ich bei aller
+                    Genialität Ihrer <seg type="comment">
+                        <orig>Erfindung</orig>
+                        <note xml:id="nrc5_tj1_hdc" resp="#KBleier">
+                            <persName key="pers.3263">Schönbergs</persName> Notenschreibmaschine,
+                            die jedoch nicht realisiert wurde. Beschreibung: <bibl
+                                sameAs="schriften.135">Meine Notenschreibmaschine</bibl>. <date when="1909-04-08">8. April 1909</date>: Österreichische
+                            Patentanmeldung im Namen <persName key="pers.3263">Schönbergs</persName>
+                            durch die Patentanwälte Ing. <persName key="pers.2926">Hugo
+                                Reik</persName> und Ing. <persName key="pers.3908">Adolf
+                                Urbantschitsch</persName>, <date when="1909-04-22">22. April
+                                1909</date>; Konstruktionszeichnung (Blaupause) durch den
+                            Elektrotechniker Ing. <persName key="pers.2682">Josef
+                                Ondracek</persName>, 20. Dezember 1909: Amtlicher Bescheid mit
+                            Entgegenhaltung einer ähnlich lautenden amerikanischen Patentschrift
+                            (No. 500793); <date when="1910-03-30">30. März 1910</date>: Fristablauf
+                            der Erledigung des Bescheides vom <date when="1909-12-20">20. Dezember
+                                1909;</date>
+                            <date when="1911">1911</date>: „<persName key="pers.3263">Schönberg
+                                Arnold</persName>, Tonkünstler in <placeName key="place.9.11"
+                                >Wien</placeName>. – Notenschreib-, bezw. Stechmaschine: Ein
+                            Aufspanntisch ist durch verschiebbare Anordnung mit allen Punkten der
+                            Schreibebene an die Andruckstelle einstellbar und wird an dieser Stelle
+                            die Zeile und jedes Notenzeichen aus seinen einzelnen Bestandteilen
+                            durch Abdruck und Zusammenfügung entsprechender Typen zusammengestellt,
+                            welcher Abdruck durch Verschiebung, bezw. Verdrehung des Tisches unter
+                            der angedruckten Type in jeder Richtung des Tischebene verlängert werden
+                            kann. In weiteren zehn Ansprüchen Ausführungsformen. – Ang. 8. 4. 1909
+                            [A3112–09]. Vertr. <persName key="pers.2926">H. Reik</persName> und
+                                <persName key="pers.3908">A. Urbantschitsch</persName>, <placeName
+                                key="place.9.11">Wien</placeName>.“ (Österreichisches Patentblatt
+                            1911, Nr. 1, S. 20; <rs type="bibl" key="zotero-4528359-A3ZBGLI4"
+                                >Nono-Schoenberg 1988</rs>, S. 67)</note>
+                    </seg> nicht glaube, daß im ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>genwärtigen Stadium unsere <seg type="comment">
+                        <orig>Herren</orig>
+                        <note sameAs="letter.21763/#npm4_dhv_cdc"/>
+                    </seg> sich für dieselbe materiell wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den engagieren wollen. </p>
+                <p>Ganz anders würde die Sache liegen, wenn auf Grund ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nes Modelles die praktische Durchführbarkeit Ihrer Ideen
+                    erwiesen <lb/>werden könnte. – Vielleicht wird sich in einem späteren Zeitpunkt
+                    <lb/>die Möglichkeit ergeben, auf diese hochinteressante Sache zurück<g ref="#typoHyphen"/>
+                    <lb break="no"/>zukommen. Immerhin war es mir eine große Freude, bei dieser
+                        Gele<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2"/>genheit Ihre persönliche Bekanntschaft gemacht zu haben
+                    und wol<g ref="#typoHyphen"/>
+                    <lb break="no"/>len wir hoffen, daß ich als Verleger und Sie als Erfinder auf
+                    <lb/>nicht maschinellem Gebiete noch oft zusammenkommen. </p>
+                <closer rendition="#r">
+                    <salute>Hochachtungsvoll ergeben</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

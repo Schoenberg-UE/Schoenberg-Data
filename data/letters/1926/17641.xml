@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17641"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 22. Mai 1926</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17641</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17641</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1926-05-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+                <note>Beilage: <ref target="document.23447">Viktor Unzeitig an Universal-Edition, 7.
+                        Mai 1926</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17641_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17641_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.65">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.16">40 West 34<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/>I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <stamp>Ab <date when="1926-05-05">5. Mai 1926</date> neue
+                        Telefonnummer:<lb/>Serie 57-5-85</stamp>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1926-05-22">22.
+                            Mai 1926</date>.</dateline>
+                    <lb/>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.4349">Hb</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn Prof. <persName key="pers.3263">Arnold
+                                Schönberg</persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">Berlin-Charlottenburg</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName> Pens.
+                            Bavaria</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr Prof. <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Auf Ihr w. <ref target="letter.1220">Schreiben</ref> vom <date when="1926-05-20">20. ds.</date> das uns soeben zuge<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen ist erlauben wir uns höfl. Zu erwidern, dass der <ref target="letter.17619">Brief</ref> vom <date when="1926-04-30">
+                        <lb/>30. v. M.</date> von Herrn Direktor <persName key="pers.1538">Hertzka</persName> nicht unterschrieben werden <lb/>konnte, da er zu dieser
+                    Zeit nicht in <placeName key="place.9.11">Wien</placeName> war.</p>
+                <p>Im Nachstehenden geben wir Ihnen die näheren  <lb/>Angaben zu den Posten die
+                    Ihnen unklar sind:</p>
+                <table cols="2">
+                    <row>
+                        <cell>S. 3.89</cell>
+                        <cell>betrifft ein Gespräch mit <placeName key="place.2.3">Berlin</placeName>, das am <date when="1926-01-13">13.I.1926</date>
+                            von der <lb/>Wohnung des Herrn <persName key="pers.1947">R.
+                                Kolisch</persName> unter Nr. 7454 geführt wurde. Die <lb/>Zahlung
+                            erfolgte laut der uns übergebenen Telefon-Rechnung <lb/>am <date when="1926-01-20">20. Jänner 1926</date>.</cell>
+                    </row>
+                    <row>
+                        <cell>S. 20.05</cell>
+                        <cell>Zahlung einer Rechnung des Fuhrwerkers <persName key="pers.3593">Karl
+                                Stangl</persName> laut <lb/>beiliegender
+                            Originalfaktura.<!-- nicht nachweisbar --></cell>
+                    </row>
+                    <row>
+                        <cell>S. 112.–</cell>
+                        <cell>Zahlung einer Rechnung des Spediteurs <persName key="pers.2869">Ranz</persName> laut beiliegen<g ref="#typoHyphen"/>
+                            <lb break="no"/>der Originalfaktura.<!-- wohl nicht erhalten --></cell>
+                    </row>
+                </table>
+                <p>Die Zahlungsbestätigungen an <orgName key="org.130">Horovitz</orgName>, <orgName key="org.309">Gas-Gesell<g ref="#typoHyphen"/>
+                        <lb break="no"/>schaft, Mödling</orgName> und Steueramt, <placeName key="place.9.4">Mödling</placeName>, können wir Ihnen wenigstens
+                    <lb/>momentan nicht einsenden, da diese Ueberweisungen durch die <orgName key="org.199">Länder<g ref="#typoHyphen"/>
+                        <lb break="no"/>bank</orgName> erfolgt sind und wir nur den Belastungsbrief
+                    der <orgName key="org.199">Länderbank</orgName>
+                    <lb/>in Händen haben, den wir Ihnen beiliegend im Original übersenden.<pb n="2" xml:id="p.p.2"/>Falls Sie die Original-Zahlungsbestätigungen der Empfänger
+                        unbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>dingt benötigen, werden wir uns diesbezüglich an die <orgName key="org.199">Länderbank</orgName>
+                    <lb/>wenden.</p>
+                <p>Ueber die Zahlung an Herrn <persName key="pers.3907">Viktor Unzeitig</persName>
+                    können <lb/>wir Ihnen keinen Beleg einsenden, da sie von uns per Postspar<g ref="#typoHyphen"/>
+                    <lb break="no"/>kassa im Clearing auf das Konto Nr. 45096
+                    der <orgName key="org.259">Mödlinger Sparkassa</orgName>
+                    <lb/>für Rechnung des Herrn <persName key="pers.3907">Unzeitig</persName>
+                    vorgenommen wurde, <del rendition="#s">aber</del> Herr <lb/>
+                    <persName key="pers.3907">Unzeitig</persName> hat uns den Empfang aber bereits <add place="superlinear">auch durch <ref target="document.23447">Postkarte</ref>
+                    </add> bestätigt und legen <lb/>wir diese Bestätigung
+                    bei.</p>
+                <p>Wir bitten Sie, falls Sie die Ihnen heute einge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sandten Original-Belege nicht mehr benötigen, uns diese wieder
+                    <lb/>gefl. einzusenden.</p>
+                <closer>
+                    <salute rendition="#r">Mit vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.46" rendition="#r">
+                        <orgName key="org.1">Universal Edition Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">pp <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <lb/>4 Original-Belege! <lb/>Rekomandirt! </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

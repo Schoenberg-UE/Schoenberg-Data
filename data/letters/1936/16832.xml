@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16832"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 17. Jänner 1936</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16832</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16832</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <date when="1936-01-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.6564"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-10-31+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16832_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16832_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1936-01-17">17.I.1936</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p rendition="#inline">
+                    <persName key="pers.386">Helene Berg</persName> hat, soviel ich weiß, es nicht
+                    über sich gebracht, Ihnen <lb/>Genaues über das Ende unseres <rs type="person" key="pers.385">Freundes</rs> zu <seg type="comment">
+                        <orig>schreiben</orig>
+                        <note xml:id="nyxy_4dy_k1c" resp="#pkehrer">
+                            <persName key="pers.3263">Schönberg</persName> bat darum in Arnold Schönberg an Helene Berg,
+                            1. Jänner 1936 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B028000">ASCC
+                                2800</ref>)</note>
+                    </seg>: die Todesursache war Blutvergiftung als
+                    <lb/>Folge einer Furunkulose, der Tod selbst erfolgte aus Herzschwäche. Er
+                    hatte, wie Sie vielleicht <lb/>wissen, öfters im Leben an Furunkulose gelitten.
+                    Diesen Sommer hatte er zweimal eine Karbun<g ref="#typoHyphen"/>
+                    <lb break="no"/>kel, die angeblich beide ganz geheilt waren. Hier in <placeName key="place.9.11">Wien</placeName>, wo er Mitte <date when="1935-11">November</date> ankam, bekam er <lb/>eine <del rendition="#s">drtt</del>
+                    dritte Karbunkel. Er hat sich dann allerdings nicht geschont, war bei den Proben
+                    und der <lb/>Aufführung (<date when="1935-12-11">11. Dezember</date>) seiner
+                        <bibl sameAs="werke.90">Lulu-Stücke</bibl>. Paar Tage später bekam er
+                    plötzlich hohes Fieber; <lb/>sein <rs type="person" key="pers.1115">Arzt</rs>
+                    hielt es für Grippe und leugnete den Zusammenhang mit der Furunkel. An diesem <lb/>
+                    <date when="1935-12-16">Montag (16.)</date> geschah sicher ein Versäumnis. Der
+                    Arzt hat sich dumm und auch später noch <lb/>skandalös benommen. Das Furunkel
+                    könne er sich ambulatorisch im Spital schneiden lassen, das <lb/>habe aber keine
+                    Eile. Als <persName key="pers.385">Berg</persName> dann <date when="1935-12-17">Dienstag</date> früh ins <orgName key="org.230">
+                        <add place="superlinear">Rudolfs-</add>Spital</orgName> kam, mit furchtbaren
+                    Schmerzen <lb/>und 40<unclear reason="illegible" cert="high">°</unclear> Fieber,
+                    wurde er sofort operiert (von Prof <persName key="pers.850">Demel</persName>).
+                    Aber der Eiterherd wurde nicht gefunden. <lb/>Man machte dann eine
+                    Bluttransfusion (die Ärzte hielten das wegen <subst>
+                        <del rendition="#s">des</del>
+                        <add place="superlinear">seines</add>
+                    </subst> großen Blutverlustes für nötig) <lb/>und eine zweite Operation, die
+                    auch ohne Resultat war. Am Sonntag sagte <persName key="pers.850">Demel</persName> zu <persName key="pers.386">Helene</persName>, daß er
+                    <lb/>nur mehr wenig Hoffnung habe, da das Herz zu versagen begann. Nun wurde ein
+                    Internist zugezogen. <lb/>Er bekam alle Arten von herzstärkenden Mitteln,
+                    Prozeduren, die eine fürchterliche Qual für den Kranken <lb/>waren. Es gelang
+                    aber nur, das Ende um ein paar Stunden hinauszuschieben. <del rendition="#s">Der
+                        Tote</del> Sein Sterben <lb/>soll sehr schwer gewesen sein. <persName key="pers.386">Helene</persName> und ihre <seg type="comment">
+                        <orig>Schwester</orig>
+                        <note xml:id="nzlh_qvf_1yb" resp="#pkehrer">
+                            <persName key="pers.3448">Carola Heuduck</persName> oder <persName key="pers.2107">Anna Lebert</persName>
+                        </note>
+                    </seg> waren bei ihm. Der Körper war in schrecklicher <lb/>Unruhe. <persName key="pers.386">Helene</persName> sagt, daß er sich den Verband
+                    heruntergerissen, sich aufgebäumt, dann die Arme <lb/>ausgebreitet und immer
+                    wieder „es ist genug“ gesagt hat. Arme <persName key="pers.386">Helene</persName>, das anzusehn! „Das war <lb/>der letzte Mord der Lulu“
+                    behauptet sie.</p>
+                <p>Ob ihm zu helfen gewesen wäre? In den letzten Wochen glaube ich nicht mehr. Mitte
+                        <date when="1935-11">November</date>, als <lb/>er aus Kärnten kam, waren bei
+                    unserer Begrüßung seine ersten Worte: das Arbeiten geht so gut wie <lb/>noch
+                    nie, aber der Körper will nicht mehr. Und dann klagte er, was ihm alles fehlte:
+                    Reißen in <lb/>den ganzen Beinen bis ins Kreuz, Zahnfleischschwund, daß die
+                    Hälfte der Zähne auszufallen droht.<pb n="2" xml:id="p.2"/>Er behauptete damals,
+                    einen ausgezeichneten Arzt zu haben – das war der, der dann so versagt hat.
+                    <lb/>Ich mache mir Vorwürfe, daß ich ihn nicht damals schon bewogen habe, einen
+                    anderen Arzt zu nehmen, <lb/>aber da war er doch mit ihm zufrieden war... Ein
+                    andrer Arzt hätte es vielleicht nicht besser gemacht. <lb/>Ich war das letzte
+                    Mal <date when="1935-12-22">Sonntag</date>, 1 1/2 Tage vor seinem Tod bei ihm im
+                    Zimmer. Da war er <lb/>geistig unglaublich frisch und für alles interessiert.
+                    Man mußte ihn immer wieder vom Sprechen ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten Er klagte, wie ihn die Ärzte maltraitieren. Dann aber
+                    fragte er z. B., was mit der <seg type="comment">
+                        <orig>Heirat</orig>
+                        <note xml:id="np4d_wwf_ngc" resp="#KBleier"><persName key="pers.1704">Trude
+                                Jalowetz</persName> und <persName key="pers.3066">Walter Rössler
+                            </persName>verlobten sich <date when="1932">Ende 1932</date>. Infolge
+                            der im <date when="1935-09">September 1935</date> von der NSDAP
+                            erlassenen Nürnberger Gesetze waren Eheschließungen zwischen Juden und
+                            Deutschen verboten, sodass <persName key="pers.3066">Rössler</persName>
+                            sich durch die Beziehung mit seiner in die <placeName key="place.8"
+                                >Niederlande</placeName> ausgewanderten Verlobten strafbar machte.
+                            Da für <persName key="pers.3066">Rössler</persName> die Gründung einer
+                            Existenz im Ausland in mehreren Versuchen aussichtslos blieb, wurde die
+                            Verlobung im <date when="1936-09">September 1936</date> gelöst (<rs
+                                type="bibl" key="zotero-4528359-5VYDQXRJ">Pohlmann 2003</rs>, S.
+                            103ff.). <persName key="pers.1704">Trude Jalowetz</persName> heiratete
+                            am <date when="1939-04-01">1. April 1939</date> Paul Guermonprez (<rs
+                                type="bibl" key="zotero-4528359-IVJPQYMM">Schönberg-Jalowetz
+                                2024</rs>, S. 332)</note>
+                    </seg>
+                    <lb/>von <persName key="pers.1704">Trude Jalowetz</persName> ist (sie ist von
+                    früher her mit einem deutschen „arischen“ <rs type="person" key="pers.3066"
+                        >Bildhauer</rs> befreundet und <lb/>der junge Mann will ins Ausland, um sie
+                    heiraten zu können). <persName key="pers.386">Helene</persName> behauptet zwar,
+                    er habe seinen <lb/>Zustand gewußt und das nur vor ihr verborgen. Am <date
+                        when="1935-12-22">Sonntag</date> kann er sich aber noch nicht im <lb/>Klaren
+                    gewesen sein. Denn als ich ihn über irgend eine Folgeerscheinung der Operation,
+                    die ich ähnlich <lb/>erlebt hatte (ich lag diesen Sommer an Blinddarm-Durchbruch
+                    und Bauchfellentzündung 6 Wochen im <lb/>Spital), beruhigen wollte, meinte er,
+                    das sei bei mir doch viel ärger gewesen. Da hat’s mir einen <lb/>Riß gegeben,
+                    denn ich konnte ihm doch nicht widersprechen. Und wir wußten doch eigentlich
+                    schon, daß <lb/>große Gefahr für ihn besteht. <persName key="pers.4001"
+                        >Webern</persName> hat ihn dann noch am <date when="1935-12-23"
+                        >Montag</date> einen Augenblick gesprochen.</p>
+                <p>
+                    <persName key="pers.386">Helenes</persName> Zustand ist natürlich traurig. Ich
+                    bin oft bei ihr, ebenso meine <persName key="pers.3627">Frau</persName>,
+                    überhaupt nehmen <lb/>sich viele Leute ihrer an. Sie nimmt sich sehr zusammen
+                    und man kann ganz vernünftig mit ihr <lb/>sprechen (ich bemühe mich, sie auch
+                    für die geschäftlichen Agenden <persName key="pers.385">Albans</persName> zu
+                    interessieren). Aber körperlich <lb/>ist sie sehr elend und will dabei nichts
+                    für sich tun. Es ist davon die Rede, daß sie zu Freunden <lb/>nach <placeName key="place.9.16">Gastein</placeName> gehen soll. Vorläufig sträubt sie sich
+                    noch dagegen. – Ihre materielle Situation ist schlecht. <lb/>Das Waldhaus, das
+                    sie gerne behalten möchte, ist belastet. Verlagserträgnisse sind, solange die
+                    Opern nicht <lb/>gegeben werden, gering; außerdem ist <persName key="pers.385">Bergs</persName> Konto bei der <orgName key="org.1">U. E.</orgName> mit cca
+                    14.000 Schilling belastet. Ich bin <lb/>aber sicher, daß sich der Verlag
+                    anständig benehmen wird und wenn sie jetzt etwas braucht, stellt er es <lb/>ihr
+                    zur Verfügung. <persName key="pers.4190">Winter</persName> und ihr Anwalt Dr
+                        <persName key="pers.2164">Liftschitz</persName> bemühen sich, sie auch auf
+                    die Dauer sicher<g ref="#typoHyphen"/>
+                    <lb break="no"/>zustellen. Die Spitalskosten hat die <orgName key="org.5">AKM</orgName> (das sind Schweine!) gezahlt, das Grab hat die Gemeinde <lb/>
+                    <placeName key="place.9.11">Wien</placeName> am <placeName key="place.9.11.5.8">Hietzinger Friedhof</placeName> „ehrenhalber“ (nicht als „Ehrengrab“!)
+                    beigestellt. <persName key="pers.4190">Winter</persName> nimmt <add place="sublinear">sich</add>
+                    <persName key="pers.386">Helenes</persName>
+                    <lb/>in sehr menschlicher Weise an und ist oft bei ihr. (Er hat voriges Jahr
+                    seine <rs type="person" key="pers.4191">Frau</rs> verloren, das macht ihn <lb/>
+                    <seg rendition="#r">besonders mitfühlend.)</seg>
+                </p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Ihr hochherziger Entschluß, <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.91">Lulu</bibl> zu vollenden</orig>
+                        <note xml:id="ndjr_lxl_ngc" resp="#TMuxeneder">
+                            <persName key="pers.3612">Stein</persName> bezieht sich auf den
+                            Kondolenzbrief <persName key="pers.3263">Schönbergs</persName> an die
+                                <rs type="person" key="pers.386">Witwe</rs>
+                            <persName key="pers.385">Alban Bergs</persName>: „Als ich in einem
+                                <placeName key="place.15.8">New Yorker</placeName>
+                            Zeitungsausschnitt las, dass die <bibl sameAs="werke.91">Lulu</bibl>
+                            nicht fertig instrumentiert ist und dass <persName key="pers.2053"
+                                >Krenek</persName> oder ein Anderer das machen sollte, hatte ich die
+                            spontane Idee, dich zu fragen, ob ich es nicht soll. Aber meine <rs
+                                type="person" key="pers.3297">Frau</rs> machte mich darauf
+                            aufmerksam, dass bei den jetzigen Verhältnissen in <placeName
+                                key="place.2">Deutschland</placeName>, das dem Werk sicher schaden
+                            würde. Nun aber, falls <persName key="pers.385">Alban</persName> den
+                            Wunsch geäussert haben sollte, dass ich den Rest instrumentiere, so
+                            stehe ich, falls Du es auch für richtig findest, selbstverständlich ganz
+                            und unentgeltlich zur Verfügung.“ (Arnold Schönberg an Helene Berg, 1.
+                            Jänner 1936; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B028000">ASCC
+                                2800</ref>)</note>
+                    </seg>, war für uns alle eine Erlösung. <persName key="pers.386"
+                        >Helene</persName> ist das <lb/>eine große Stütze und Ermutigung. Wir hatten
+                    schon <del rendition="#s">frühe</del> vorher, vor Ihrem Brief an sie, davon
+                    <lb/>gesprochen, daß <unclear reason="illegible" cert="high">nur</unclear> Sie
+                    die Partitur vollenden können. <persName key="pers.386">Helene</persName> sagte
+                    noch naiv, wie glücklich das <lb/>
+                    <persName key="pers.385">Alban</persName> machen würde, wenn er es wüßte. Denn
+                    eine andere Hand über seinem Werk wäre ihm un<g ref="#typoHyphen"/>
+                    <lb break="no"/>erträglich. Wie diese dummen <seg type="comment">
+                        <orig>Zeitungsnotizen</orig>
+                        <note xml:id="nysd_jkt_jvb">z. B. <rs type="bibl"
+                                key="zotero-4528359-FMXPS5R6">Der Morgen 1935</rs>
+                        </note>
+                    </seg> mit andern Namen entstanden sind, ist nicht zu eruieren – <lb/>ich habe
+                    mich darum bemüht. Im Verlag behauptet jeder, nichts gesprochen zu haben. Die
+                    Freunde, <lb/>
+                    <persName key="pers.1702">Jalowetz</persName> an der Spitze, und <persName
+                        key="pers.385">Bergs</persName> Schüler sind glücklich – wenn das Wort heute
+                    am Platz ist –, daß <lb/>Sie die Oper fertig machen. Ich glaube, lieber Herr
+                        <persName key="pers.3263">Schönberg</persName>, Sie wissen gar nicht mehr,
+                    was Sie <lb/>für uns sind, heute wie seit jeher. Aber Sie können uns mit Recht
+                    den Vorwurf machen, daß wir es <lb/>
+                    <add place="left">Ihnen</add> zu selten zeigen. – Im Verlag hatte ich die
+                    Genugtuung, die Herren <persName key="pers.4190">Winter</persName>, <persName
+                        key="pers.1750">Kalmus</persName>, <add place="superlinear">Frl.</add>
+                    <persName key="pers.3067">Rothe</persName>, <persName key="pers.1520">Heins<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>heimer</persName> und <persName key="pers.3065"
+                        >Roth</persName> zusammenzuberufen und Ihr Anerbieten an Frau <persName
+                        key="pers.386">Berg</persName> mitzuteilen. Alle waren <lb/>begeistert. Das
+                    Bedenken, das Sie wegen <placeName key="place.2">Deutschland</placeName>
+                    äußerten, wurde von keinem geteilt<subst>
+                        <del rendition="#ow">.</del>
+                        <add place="across">,</add>
+                    </subst>
+                    <del rendition="#s">Da</del> weil <lb/>alle glauben, daß Sie und <persName
+                        key="pers.385">Berg</persName>
+                    <persName key="pers.1598">Hitler</persName> überdauern werden. Ich habe die
+                    Herren gleich darauf <lb/>aufmerksam gemacht, daß Ihre Hochherzigkeit <del
+                        rendition="#s">den Verlag nicht vo</del>
+                    <persName key="pers.386">Bergs Witwe</persName> gegenüber nicht den Verlag
+                    <lb/>betrifft und daß dieser die Pflicht hat, Ihnen eine Ehrengabe zu widmen.
+                    Auch das fand Zustimmung. <lb/>Wollen Sie mir sagen, wie Sie darüber denken? –
+                    Der Verlag läßt jetzt die ganze Partitur, soweit <lb/>sie vorliegt (außer den
+                    ohnedies gedruckten <bibl sameAs="werke.90">symphonischen
+                    Stücken</bibl>) und das Particell des 3. Aktes <lb/>photografieren, um Ihnen das Ganze zu
+                    schicken. D. h. zuerst wird das Particell und die Partitur <lb/>vom 3. Akt
+                    fertig sein, was Sie ja vor allem brauchen. Diese Sendung geht schon früher an
+                    Sie ab. <lb/>Gewiß werden Sie aber auch die ersten beiden Akte sehen wollen; die
+                    folgen dann bald nach. Zugleich <lb/>mit der <add place="superlinear">1.</add>
+                    Sendung erhalten Sie eine Aufstellung von mir, die Ihnen das Nachschlagen
+                    erleichtern kann. <lb/>Ich kenne die Partitur sehr gut, weil ich am <bibl
+                        sameAs="werke.150">Klavierauszug</bibl> arbeite; ich halte ungefähr <del
+                        rendition="#s">b</del> in der Mitte <lb/>des 2. Aktes. Ein Vergleich mit dem
+                    Particell zeigt, daß <persName key="pers.385">Berg</persName> in diesen ersten
+                    beiden Akten beim <lb/>Instrumentieren nicht viel Wesentliches mehr geändert
+                    hat, mitunter aber natürlich doch. Instrumentations<g ref="#typoHyphen"/>
+                    <lb break="no"/>hinweise fehlen im Particell fast ganz. Ich taxiere, daß noch
+                    cca 100 Partiturseiten <subst>
+                        <del rendition="#ow">fehlen</del>
+                        <add place="across">zu schreiben</add>
+                    </subst> sind.<pb n="4" xml:id="p.4"/>Bitte schreiben Sie mir oder <persName
+                        key="pers.386">Helene</persName>, ob Sie für Ihre Arbeit irgendwelche
+                    technische Anhaltspunkte <lb/>wünschen. <persName key="pers.2923"
+                        >Reich</persName> hat z. B. von <persName key="pers.385">Berg</persName>
+                    verschiedene schriftliche Aufschlüsse über die Reihe, die der <lb/>Komposition
+                    zugrundeliegt, und die in Beziehung auf bestimmte Personen verschiedene Formen
+                    <lb/>annimmt. Außerdem müßen die Transpositionstabellen der Reihe vorhanden
+                    sein. Ich weiß nicht, ob <lb/>Sie diese Reihen, die Sie ja gelegentlich, wenn
+                    Sie den Satz voller als im Particell machen wollen, <lb/>brauchen werden, lieber
+                    selbst aus der Komposition ersehen wollen oder ob es Ihnen eine angenehme
+                    <lb/>Erleichterung ist, <persName key="pers.385">Bergs</persName> Behelfe an der
+                    Hand zu haben. Wenn wir in der Sache nichts von Ihnen <lb/>hören, lasse ich
+                    Ihnen die Behelfe schicken, in separat geschlossenen Küvert, <subst>
+                        <del rendition="#s">das</del>
+                        <add place="sublinear">damit</add>
+                    </subst> Sie <add place="sublinear">es</add> öffnen <lb/>können, wenn Sie
+                    wollen, aber nicht irritiert sind.</p>
+                <p>13 Tage vor seinem Tod hat <persName key="pers.385">Berg</persName> noch die
+                        <bibl sameAs="werke.90">Lulu Stücke</bibl> gehört. Die <placeName key="place.9.11">Wiener</placeName>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="ngzg_dgg_ngc" resp="#KBleier">
+                            <ref target="event.254"/>
+                        </note>
+                    </seg> durch <lb/>
+                    <persName key="pers.1737">Kabasta</persName> (gemeinsame Veranstaltung <orgName key="org.78">Ges. d. Musikfreunde</orgName> und <orgName key="org.231">Ravag</orgName>) war nicht eigentlich gut. <lb/>Dazu hatte der Dirigent
+                    doch zu wenig Beziehung zu dieser Musik. Immerhin hat er 8 Proben <lb/>gehalten
+                    und sich große Mühe gegeben. So kam doch schließlich Manches heraus. Der Erfolg
+                    war <lb/>„umstritten“, aber weit mehr Klatschen als Zischen.</p>
+                <p>Hat Ihnen <persName key="pers.385">Berg</persName> noch von seinem letzten Werk,
+                    dem <bibl sameAs="werke.149">Violinkonzert</bibl> berichtet? Das ist
+                    wunderschöne <lb/>Musik. Die Partitur wird jetzt gedruckt und dürfte in 2
+                    Monaten fertig sein. Sie werden dann <lb/>gleich ein Exemplar
+                    <!-- kein Exemplar im Nachlass -->erhalten. In diesem Sommer, wie ich krank war,
+                    schickte mir <persName key="pers.385">Berg</persName> mit einem lieben
+                        <lb/>Brief<del rendition="#s">,</del> die ersten Skizzen zum letzten Satz,
+                    einer Choralbearbeitung. Darüber hatte er groß die Textworte <lb/>geschrieben:
+                    „Es ist genug! So nimm Herr meinen Geist!“</p>
+                <p>Ich hoffe, daß ich Ihnen nicht zu viel geschrieben habe. Denn ich glaube, daß Sie
+                    alles interessiert, was <lb/>dieser Brief enthält. Wenn Sie noch mehr wissen
+                    wollen (auch über Verlag, Politik und ev. Persönliches), <lb/>werde ich es gerne
+                    nachholen. Diesmal bin ich eigens auf den <placeName key="place.9.18">Semmering</placeName> gefahren, um Ihnen in Ruhe <lb/>zu schreiben, und
+                    auch weil ich Erholung brauche.</p>
+                <closer rendition="#r">
+                    <salute>Mit herzlichsten Grüßen, auch an Ihre liebe <rs type="person" key="pers.3297">Frau</rs>
+                        <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.213"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 17. November 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.213</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                                Center</institution>
+                            <idno type="signature">ASCC 213</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1911-11-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/213_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.213_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                        Berlin-Zehlendorf-Wannseebahn <lb/> Machnower Chaussee, <placeName
+                            key="place.2.38.2">Villa Lepcke</placeName>. </stamp>
+                    <address>
+                        <addrLine>Telefon: Zehlendorf 249</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1911-11-17">17/11.1911</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich warte noch immer vergebens auf die <bibl
+                        sameAs="schriften.1">Harmonielehre</bibl>. <lb/>Ich habe bestimmt gehofft,
+                    dass sie wenigstens vor dem <date when="1911-11-20">20. November</date>
+                    erscheint. <lb/>Denn da beginnt mein Vortrags-Cyklus im <orgName key="org.165"
+                        >Sternschen Konservatorium</orgName> (Ueber: <lb/>„<bibl
+                        sameAs="schriften.49">Aesthetik und Kompositionslehre</bibl>“). Aber bitte,
+                    könnten Sie nicht durchsetzen, dass Sie <lb/>doch wenigstens in den nächsten
+                    Tagen herauskommt. Damit sie wenigstens vor <lb/>Weihnachten da ist. Das ist
+                    doch eine sehr große Verspätung!! Nicht wahr, Sie <lb/>schicken mir sofort 5–6
+                    Exemplare (einige gebundene!) sobald sie erscheint! <lb/>Bitte den Einband um
+                    Gotteswillen nur recht einfach. Gar keine Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>zierungen und Würmer. Nur
+                    Titel, Name und Verlag!!</p>
+                <p>
+                    <hi rendition="#uu">Jetzt was sehr Wichtiges</hi>. <persName key="pers.3301"
+                        >Schrecker</persName> fragt wegen der <seg type="comment">
+                        <orig>Begleitungsstimmen</orig>
+                        <note xml:id="nfkx_cqn_xcc" resp="#KBleier">Stimmen der Orchesterbegleitung,
+                            von fremder Hand (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=883&amp;werke_id=244&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 18/1, Quelle I*</ref>); Fertigstellung <date
+                                when="1911-12-09">4. Dezember 1911 </date>(<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=881&amp;werke_id=244&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 18/1, Quelle G</ref>)</note>
+                    </seg>
+                    <lb/>für meinen <bibl sameAs="werke.44">Chor</bibl>! Sind die schon fertig?
+                        <persName key="pers.385">Berg</persName>, <persName key="pers.2817"
+                        >Polnauer</persName> und <persName key="pers.2172">Linke</persName> werden
+                    <lb/>sie korrigieren. Bitte, das ist <hi rendition="#u">höchst dringend</hi>!!
+                        <persName key="pers.3301">Schreker</persName> braucht sie doch wenigstens
+                    <lb/>8–10 Tage vor der <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nmmv_xpz_wcc" resp="#KBleier">
+                            <ref target="event.51"/>
+                        </note>
+                    </seg>, und ebenso lange braucht man zum Korrekturlesen!</p>
+                <p>Die <bibl sameAs="werke.5">Pelleas</bibl>-Stimmen (das Quartett) werde ich selbst
+                    lesen! Aber die <lb/>anderen Stimmen, müssen Sie lesen lassen. Ich kann nicht.
+                    Ich habe keine Zeit <lb/>dazu. <persName key="pers.2817">Polnauer</persName> und
+                    <persName key="pers.1196">Galizenstein</persName> empfehle ich dazu.</p>
+                <p>Die <bibl sameAs="werke.16">Gurrelieder</bibl> sind seit mehr als einer Woche
+                        <seg type="comment">
+                        <orig>fertig</orig>
+                        <note xml:id="nikr_khp_jgc" resp="#KBleier">Nach mehrjähriger Unterbrechung
+                            der Arbeit an den <bibl sameAs="werke.16">Gurre-Liedern</bibl> hatte
+                                <persName key="pers.3263">Schönberg</persName> im Sommer <date
+                                when="1910">1910</date> zunächst die Instrumentation des III. Teils
+                            in Angriff genommen und vollendete im Herbst <date when="1911"
+                                >1911</date> Komposition und Instrumentation des Schlusschores (<rs
+                                type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>, S.
+                            25f.)</note>
+                    </seg>
+                    <!--</orig> Reinschrift oder Partitur? <note xml:id="nknz_s5f_bgc"
+                            resp="#KBleier">Partiturreinschrift (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1531&amp;werke_id=480&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 16/1, Quelle C</ref>)</note></seg>-->.
+                        <persName key="pers.385">Berg</persName> hat sie und <seg type="comment">
+                        <orig>
+                            <lb/>macht den <bibl sameAs="werke.17">Auszug</bibl>
+                        </orig>
+                        <note xml:id="nw5w_pvf_bgc" resp="#KBleier">Arnold Schönberg an Alban Berg
+                            8. November 1911 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B061474">ASCC
+                                6147</ref>)</note>
+                    </seg> davon. Dann bekommen Sie sie. Bitte beschleunigen Sie den <lb/>Druck,
+                    denn ich habe Hoffnung hier eine Aufführung zu erzielen.</p>
+                <p>Meine Aufführungen muss ich Ihnen noch sagen. Außer <placeName key="place.13.1"
+                        >Prag</placeName> (<seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.5">Pelleas</bibl>-Konzert</orig>
+                        <note xml:id="ndff_fvt_2dc" resp="#KBleier">
+                            <ref target="event.15"/>
+                        </note>
+                    </seg>) <lb/>
+                    <placeName key="place.9.11">Wien</placeName> (<seg type="comment">
+                        <orig>
+                            <persName key="pers.3301">Schreker</persName> Chor</orig>
+                        <note xml:id="nt5p_nhc_kgc" resp="#KBleier">
+                            <ref target="event.51"/>
+                        </note>
+                    </seg>) und <placeName key="place.2.3">Berlin</placeName> (<seg type="comment">
+                        <orig>
+                            <persName key="pers.3045">Rosé</persName>
+                            <bibl sameAs="werke.26">II. Quartett</bibl>
+                        </orig>
+                        <note xml:id="nhm1_fqg_qcc" resp="#KBleier">
+                            <ref target="event.29"/>
+                        </note>
+                    </seg>) habe ich noch <placeName key="place.14.1">Budapest</placeName>
+                    <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.26">II. Quartett</bibl>
+                            <lb/>und Lieder</orig>
+                        <note xml:id="nrqp_wwg_qcc" resp="#KBleier">
+                            <ref target="event.75"/>
+                        </note>
+                    </seg> (<orgName key="org.174">Ungar. Tonkünstler Verein</orgName>) und <bibl
+                        sameAs="werke.13">Sextett</bibl><!-- nicht
+                            nachweisbar  --> (<orgName key="org.190"
+                        >Waldbauer-Quartett</orgName>) <placeName key="place.13.1">Prag</placeName>
+                    <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.26">II. Quartett</bibl>
+                        </orig>
+                        <note xml:id="nnt5_1yg_qcc" resp="#KBleier">
+                            <ref target="event.76"/>
+                        </note>
+                    </seg>
+                    <lb/>(<persName key="pers.3045">Rosé</persName>), <placeName key="place.4.4"
+                        >Paris</placeName> Sextett, <bibl sameAs="werke.26">II. Quartett</bibl>,
+                        <bibl sameAs="werke.24">George-Lieder</bibl> (ein <seg type="comment">
+                        <orig>ganzer Abend</orig>
+                        <note xml:id="nqkw_kxj_syb" resp="#KBleier">
+                            <ref target="event.10"/>
+                        </note>
+                    </seg>) <placeName key="place.2.24">München</placeName>
+                    <seg type="comment">
+                        <orig>Sextett</orig>
+                        <note xml:id="nwvk_rj2_syb" resp="#KBleier"><ref target="event.11"/>;
+                                <persName key="pers.3263">Schönberg</persName> vermerkt in seinem
+                            Kalender am <date when="1912-03-14">14. März 1912</date> „München:
+                            Sextett“ (<ref
+                                target="https://archive.schoenberg.at/resources/pages/view.php?ref=12023"
+                                >ASCI DC12023</ref>)</note>
+                    </seg> <lb/>(Wiederholung). Das ist ja gar nicht so schlecht.</p>
+                <p>Nun noch etwas: Haben Sie vom „<orgName key="org.127">Pan</orgName>“ ein Honorar
+                    für mich verlangt? <lb/>Ich schicke Ihnen dieses <seg type="comment">
+                        <orig>Lied</orig>
+                        <note xml:id="nwdf_wb5_hwb"><bibl sameAs="werke.45">Arnold Schönberg, Zwei
+                                Lieder für Gesang und Klavier op. 14</bibl>: Ich darf nicht dankend
+                            op. 14/1; Vorabdruck in <rs type="bibl" key="zotero-4528359-W4Y6GA6M"
+                                >Pan 1911</rs>; Exemplar aus dem Schönberg-Nachlass (<ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=2628&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >P14</ref>)</note></seg> mit diesem Brief mit.</p>
+                <closer>
+                    <salute>Herzl Gruß Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2391"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Erwin Stein, 30. Juli 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2391</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2391</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.1.1">Arcachon, Avenue Rapp</placeName>
+                    <date when="1933-07-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17611"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2391_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2391_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <hi rendition="#u">Arcachon</hi>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">Avenue
+                                Rapp</hi>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <placeName key="place.4.1.1">Villa Strésa</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1933-07-30">30/VII.1933</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber <persName key="pers.3612">Stein</persName>,</salute>
+                <p rendition="#inline">am <date when="1933-07-25">25.</date> sind wir hier ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen, nachdem uns die liebe <orgName key="org.1">Universal
+                        <lb/>Edition</orgName> mit der Bezahlung meines Guthabens <lb/>über 8 Tage
+                    hat mutwillig warten lassen, in wirk<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich grosser Verlegenheit. Ich habe wieder alle Lust <lb/>zu
+                    einem besseren Verhältnis verloren. Aber diesmal <lb/>glaube ich, dass die
+                        <orgName key="org.1">Universal Ed.</orgName> den Schaden <lb/>davon haben
+                    wird. – Ich danke Ihnen sehr für <lb/>Ihre Bemühungen. Ich habe Ihren <add place="superlinear">vorigen</add>
+                    <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nedv_4xd_zcc" resp="#pkehrer">
+                            <ref target="letter.24453">Erwin Stein an Arnold Schönberg, zwischen
+                                23. Mai und 28. Juni 1933 [erschlossen]</ref>
+                        </note>
+                    </seg> nicht vor
+                    mir <lb/>und kann daher nur <ref target="letter.17611">den vom <date when="1933-07-25">25. Juli</date>
+                    </ref> beantworten.</p>
+                <p>Also kurz:</p>
+                <p>I. 2 Proben zu diesem Programm ist unmöglich. <lb/>Ich brauche wohl gewiss zu
+                        <bibl sameAs="werke.54">Pierrot</bibl> allein 2 Proben. <lb/>Das mindeste
+                    wäre 3–4 Proben und das nur, <lb/>wenn <lb/>a) jeder Musiker seine Stimme
+                    perfekt kann, <lb/>d. h. geübt hat; <lb/>b) ein paar Ensemble-Proben waren
+                    <lb/>c) der <bibl sameAs="werke.54">Pierrot</bibl> von Frau <persName key="pers.3689">Stiedry-Wagner</persName>
+                    <lb/>(oder eventuell <ellipsis>
+                        <metamark function="ellipsis">〃</metamark>
+                        <supplied>Frau</supplied>
+                    </ellipsis>
+                    <persName key="pers.1105">Marya Freund</persName>) <lb/>gesprochen wird. (Ich halte
+                    es für ausgeschlossen, es mit <lb/>einer neuen in wenig Proben zu machen)</p>
+                <p>II. Wäre es nicht möglich, für beides das <seg type="comment">
+                        <orig>
+                            <placeName key="place.9.11">Wiener</placeName>
+                            <lb/>Ensemble</orig>
+                        <note xml:id="nsvc_p5d_zcc" resp="#pkehrer">Bestehend aus <persName key="pers.3689">Erika
+                            Stiedry-Wagner</persName>, <persName key="pers.3662">Eduard
+                                Steuermann</persName>, <persName key="pers.1947">Rudolf
+                                    Kolisch</persName>, <persName key="pers.1516">Benar Heifetz</persName>, <persName key="pers.3960">Franz Wangler</persName> und <persName key="pers.2813">Viktor Polatschek</persName></note>
+                    </seg> zu
+                    nehmen?</p>
+                <p>III. Wäre es nicht besser, <hi rendition="#u">statt <bibl sameAs="werke.54">Pierrot</bibl>
+                    </hi>, die „<bibl sameAs="werke.62">Suite <lb/>für 3 Bl., 3 Str und
+                        Klavier</bibl>“ zu machen. Da käme ich <lb/>bei gutem Vorstudium mit 3
+                    Proben aus.</p>
+                <p>oder:</p>
+                <p>IV. <bibl sameAs="werke.2">Kammersymphonie</bibl> und <bibl sameAs="werke.22">Lied der Wald<g ref="#typoHyphen"/>
+                        <lb break="no"/>taube (mit Kammerorchester)</bibl>? Eventuell ein <lb/>paar
+                    alte Klavierlieder dazu. Beides mit <pb n="2" xml:id="p.2"/>
+                    <persName key="pers.1105">Marya Freund</persName> oder eventuell <persName key="pers.1595">Hinnenberg-<lb break="no"/>Stuckenschmid</persName> oder
+                    eine dortige Sängerin, z. B. Frau <lb/>
+                    <persName key="pers.410">Bernheim</persName> aus <placeName key="place.11.8">Villeneuve <add place="superlinear">(?)</add> am Genfer See</placeName>. – <lb/>Das <add place="superlinear">Programm </add>wäre mir in jeder Hinsicht am
+                    liebsten.</p>
+                <p>V. <hi rendition="#u">Honorar</hi>. Ich anerkenne den Standpunkt des <orgName
+                        key="org.139">
+                        <lb/>Genfer Radios</orgName>, wenn auch der Musiker <persName
+                        key="pers.3263">A Sch.</persName> schon <lb/>1–2 Jahrzehnte früher eine
+                    Sympathiebezeugung ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechtfertigt hätte. <seg type="comment"><orig>Dem Juden kommt
+                            sie eben rechtzeitig.</orig><note xml:id="nchs_rbs_yhc" resp="#KBleier"
+                            >Es ist nicht bekannt, ob <persName key="pers.3263">Schönberg</persName>
+                            zu diesem Zeitpunkt bereits üer die antisemitischen Gesinnung <persName
+                                key="pers.137">Ernest Ansermets</persName> Bescheid
+                        wusste</note></seg></p>
+                <p>Ich bin bereit mich mit einem Ueberschuss von <lb/>250–300 Schweizer
+                    Franken zu begnügen. D. h.  <lb/>also, dass man mir ausserdem reichlich
+                    Aufenthalts-  <lb/>und Reisekosten vergütet.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>So!</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Bitte sagen Sie <persName key="pers.1750">Kalmus</persName>, er soll nichts <hi rendition="#u">für</hi>
+                    <lb/>mich in <placeName key="place.15">Amerika</placeName> unternehmen, denn was
+                    er <lb/>vorhat wäre <hi rendition="#u">gegen</hi> mich. Es sind andere
+                    <lb/>Dinge im Gang und hiebei werden nicht die <lb/>Verkleinerungsmethoden der
+                        <orgName key="org.1">U.E</orgName> angewendet, <lb/>sondern meiner
+                    Gesammtleistung angemessene. <lb/>Er soll mich um Gotteswillen nicht prote<g ref="#typoHyphen"/>
+                    <lb break="no"/>gieren. Meine schlimmsten Feinde (z. B.
+                        <persName key="pers.3600">Stefan</persName>) <lb/>können mir nicht mehr
+                    schaden, als solche <lb/>Protektoren.</p>
+                <closer>
+                    <salute>Herzlichste Grüße, Ihrer <rs type="person" key="pers.3627">Frau</rs> und
+                        Ihnen, <lb/>Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <lb/>
+                    <salute>Auch von meiner <rs type="person" key="pers.3297">Frau</rs> Grüße</salute>
+                </closer>
+                <postscript>
+                    <p>Meine Lateinschrift ist noch <lb/>so
+                    ungewandt!</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

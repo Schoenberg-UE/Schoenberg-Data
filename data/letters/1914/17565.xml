@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.17565"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 18. September 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17565</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17565</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1914-09-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.23847"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-26+02:00" who="KBleier">Korrektur Transkription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17565_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.17565_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.114">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                            9</placeName>
+                        <add place="sublinear">NB <stamp>
+                                <hi rendition="#u">I. Karlsplatz Nr. 6
+                                    <lb/>(Musikvereinsgebäude.)</hi>
+                            </stamp>
+                        </add>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi
+                            rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199"
+                            >k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                        57557.<lb/>Wien <seg hand="#author">
+                            <date when="1914-09-18">18. September 1914</date>.</seg>
+                        <lb/>Bank-Konto: <orgName key="org.199">Kais. kön. privilegierte
+                            Oesterreichische Länderbank Wien</orgName>.– Postspark.-Konto 57.557. </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi
+                                    rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3">
+                                <hi rendition="#g #uda">Berlin</hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ihr <seg type="comment">
+                        <orig>Schreiben</orig>
+                        <note xml:id="nsjf_grh_yxb" resp="#pkehrer">
+                            <ref target="letter.23847">Arnold Schönberg an Universal-Edition, 9.
+                                September 1914 [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1914-09-09">9. ds.</date> kam vorgestern in meinen
+                    Besitz, es <lb/>dauert also noch immer viele Tage, bis Briefe aus <placeName
+                        key="place.2.3">Berlin</placeName> uns er<g ref="#typoHyphen"/>
+                    <lb break="no"/>reichen. Schon lange bevor Ihr Brief kam, sind Ihnen von meinem <lb/>
+                    <placeName key="place.2.20">Leipziger</placeName>
+                    <rs type="org" key="org.92">Vertreter</rs> 100 Mark überwiesen worden. Die
+                    restlichen <lb/>100 Mark werden Sie in den allerersten <date when="1914-10"
+                        >Oktober</date>-Tagen erhalten.</p>
+                <p>Ich sehe es natürlich vollständig ein, dass Sie Geld dringendst <lb/>benötigen.
+                    Sie teilen diese Situation mit beinahe sämtlichen andern <lb/>Menschen und ich
+                    hoffe, dass Sie deswegen weil Ihnen dieser Betrag <lb/>nicht auf die Minute, wie
+                    Sie dies wünschten, zugehen konnte, nicht <lb/>an meiner Freundschaft für Sie
+                    zweifeln werden.</p>
+                <p>Die von Ihnen gewünschten je 5 Exemplare von <bibl sameAs="werke.24"
+                        >George-Lieder</bibl> und <lb/>
+                    <bibl sameAs="werke.54">Pierrot</bibl>, kleine Partitur gehen Ihnen gleichzeitig
+                    zu. Von der grossen <lb/>Partitur „<bibl sameAs="werke.54">Pierrot</bibl>“ ist
+                    unsere <seg type="comment">
+                        <orig>Auflage</orig>
+                        <note sameAs="letter.6848/#ners_hkw_cfc"/>
+                    </seg> nicht sehr gross und da Sie <lb/>schon 1 Exemplar erhalten haben, so
+                    glaube ich, dass Sie zunächst <lb/>mit den beiden gesandten Exemplaren Ihr
+                    Auslangen finden werden.</p>
+                <p>Was die <bibl sameAs="werke.7">Monodram</bibl>-Korrektur betrifft, so glaube ich,
+                    dass es <lb/>doch das Beste wäre, wenn Sie dieselbe weiterlesen, denn nachdem
+                    <lb/>Sie jetzt weder Stunden noch Konzerte haben, so kann diese Arbeit <lb/>Sie
+                    nicht in anderen, wichtigeren Sachen stören. Korrigiert muss <lb/>die Partitur
+                    doch unbedingt werden, selbst wenn die Fertigstellung <lb/>derselben auch erst
+                    nach Monaten erfolgen würde. </p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Die Zustände in <placeName key="place.9">Oesterreich</placeName> sind ruhig, auf
+                    allen Gebieten <lb/>von Kunst und Geschäft vollkommen stagnierend, aber sonst
+                        zuver<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichtlich voll Vertrauen auf eine schöne Zukunft. Es herrschen
+                        <lb/>üb<supplied cert="high">e</supplied>rall grösste Ordnung und Eintracht
+                    und wenn bei uns auch nicht <lb/>alles so am Schnürl geht wie draussen und
+                    mancherlei Organisation, <lb/>(insbesondere die <orgName key="org.288"
+                        >Roten-Kreuz</orgName>-Angelegenheiten) noch nicht ganz klappt, <lb/>so kann
+                    man doch im grossen Ganzen mit dem was <placeName key="place.9"
+                        >Oesterreich</placeName> in den <lb/>letzten 7 Wochen geleistet hat,
+                    zufrieden sein. Seit etwa 10 Tagen <lb/>macht sich die <seg type="comment"
+                            ><orig>Invasion aus Galizien und der Bukowina</orig><note
+                            xml:id="nefl_h5x_fgc" resp="#TMuxeneder">Ab dem <date when="1914-08-23"
+                                >23. August 1914</date> fanden schwere Kämpfe zwischen der k. k.
+                            Armee und der russischen Armee statt. Am <date when="1914-09-02">2.
+                                September</date> wurde die galizische Hauptstadt Lemberg von den
+                            Russen eingenommen. Auch große Teile der Bukowina, einschließlich
+                            Czernowitz, wurden von den russischen Truppen besetzt. Besetzung und
+                            Gewalt führten dazu, dass hunderttausende Menschen, darunter viele
+                            Juden, Polen, Ruthenen und andere Minderheiten, auf der Flucht vor
+                            Kampfhandlungen, Plünderungen und Übergriffen nach Westen, insbesondere
+                            nach <placeName key="place.9.11">Wien</placeName>, strömten (<rs
+                                type="bibl" key="zotero-4528359-D47WNAA6">Maderthaner-Hochedlinger
+                                2013</rs>)</note>
+                    </seg> bemerkbar. <lb/>Aus den vom Feinde besetzten Gegenden strömt Reich und
+                    Arm zu. Alles, <lb/>auch das Schwerste wird aber ruhig hingenommen,
+                    verhältnismässig <lb/>leicht ertragen und man hat die Empfindung einer absoluten
+                        Kräfti<g ref="#typoHyphen"/>
+                    <lb break="no"/>gung und Stärkung von Körper, Geist und Gemüt. Zimperlichkeit,
+                        Weh<g ref="#typoHyphen"/>
+                    <lb break="no"/>leidigkeit oder hysterisches Mitleidsgefühl ist überall
+                    verschwunden. <lb/>Schmerz und Leid werden als Selbstverständliches, ohne
+                    Jammern und viel <lb/>Trostbedürfnis ertragen. Die Verwundeten sind alle in
+                    freudigster <lb/>Stimmung. Die übergrosse Mehrzahl der in <placeName
+                        key="place.9.11">Wien</placeName> befindlichen Verwun<g ref="#typoHyphen"/>
+                    <lb break="no"/>deten sind leichte Fälle, die rasch heilen. Beinahe alle wollen
+                    sie <lb/>wieder so bald als möglich in die Front. Das sind gewiss gute Zeichen
+                    <lb/>für die Moral der Truppen. Mit politischen Prophezeihungen wollen wir
+                    <lb/>uns lieber nicht beschäftigen. Einen Sieg haben wir errungen, der wich<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>tiger ist als Vieles, was noch kommen kann: <placeName
+                        key="place.9">Oesterreich</placeName> hat gezeigt, <lb/>dass es zwar ein
+                    Konglomerat-Staat ist, aber trotzdem nicht zusammen<g ref="#typoHyphen"/>
+                    <lb break="no"/>bröckelt und <add place="superlinear">der</add> unerhört
+                    gewaltigen Uebermacht kräftig standhält. Eben <lb/>weil <placeName
+                        key="place.10">Russland</placeName> geglaubt hat, unser morsches Vaterland
+                    mit einem hefti<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen Anprall niederrennen zu können, und seine ganze Kraft in
+                    einem <pb n="3" xml:id="p.3"/>wuchtigen Stoss konzentriert hatte, muss der
+                    Umstand, dass dieser <lb/>Stoss uns kaum merklich geschwächt hat, Hoffnung
+                    geben, dass der <lb/>weitere Verlauf für uns noch günstiger wird. Wie haben hier
+                    alle <lb/>felsenfestes Vertrauen, denn wir müssen siegen und wir werden
+                    <lb/>siegen!</p>
+                <closer>
+                    <salute>Mit vielen herzlichen Grüssen<lb/>
+                        <seg rendition="#r">Ihr Ihnen warm ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#u">N. S.</hi>
+                    </p>
+                    <p>Sie werden von nun ab, von Zeit zu Zeit <lb/>
+                        <placeName key="place.9.11">Wiener</placeName> Zeitungen von mir zugeschickt
+                        <lb/>erhalten.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

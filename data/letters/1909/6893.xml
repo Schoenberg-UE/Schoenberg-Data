@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.6893"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 8. Dezember 1909</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6893</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">Wien</placeName>
+                            <institution ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6893</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl/>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.1.2">Wien, Liechtensteinstrasse 68/70</placeName>
+                    <date when="1909-12-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6893_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.6893_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.3">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>– – – WIEN – – –
+                        <lb/>IX. <placeName key="place.9.11.1.2">LIECHTENSTEINSTRASSE 68/70</placeName>
+                    </stamp>
+                    <dateline>
+                        <date when="1909-12-08">8/12.1909</date>
+                    </dateline>
+                </opener>
+                <salute>Verehrter Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline"> ich möchte <lb/>sehr gerne wissen,
+                    <seg type="comment">
+                        <orig>was <persName key="pers.2283">Marschalk</persName>
+                            <lb/>
+                            <supplied cert="high">ge</supplied>antwortet hat</orig>
+                        <note xml:id="nr1k_z5x_bvb">Vgl. <ref target="letter.114#start_t3y_bvx_bvb">Arnold Schönberg an
+                                Verlag Dreililien, 30. Dezember 1909</ref></note>
+                    </seg>. </p>
+                <p> 2. Ich muss wegen des <bibl sameAs="werke.7">Monodrams</bibl>
+                    <lb/>und wegen meiner sonstigen Angelegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heiten mit <persName key="pers.2283">Marschalk</persName> ins
+                    Reine <lb/>kommen. Ich muss ihm ja doch nach <lb/>unserem <ref
+                        target="document.12433">Vertrage</ref> meine Werke anbieten. <lb/>Das
+                    Monodram möchte ich zur <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="new1_45w_4dc" resp="#KBleier">
+                            <persName key="pers.3263">Schönberg</persName> stand mit <persName
+                                key="pers.3">Anna Bahr-Mildenburg</persName> und <persName
+                                key="pers.498">Artur Bodanzky</persName> bzgl. einer möglichen
+                            Aufführung in <placeName key="place.2.22">Mannheim</placeName> in
+                            Verbindung (Artur Bodanzky an Arnold Schönberg, 10. November 1909; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B202502">ASCC
+                                20250</ref>; Anna Bahr-Mildenburg an Arnold Schönberg, 1909; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B100929">ASCC
+                                10092</ref>)</note>
+                    </seg>
+                    <lb/>gedruckt haben. Was soll ich da thun? </p>
+                <p> 3. Bitte schicken Sie mir, was ich Ihnen <lb/>von meiner <seg type="comment">
+                        <orig>Korrespondenz</orig>
+                        <note xml:id="nsrb_xx2_1vb">
+                            <ref target="letter.13031">Verlag Dreililien an Arnold Schönberg, 15.
+                                Juni 1905</ref>; <ref target="letter.12389">Verlag Dreililien an
+                                Arnold Schönberg, 16. Juni 1906</ref>; <ref target="letter.12416">Verlag Dreililien an Arnold Schönberg, 9. November 1909</ref>; <ref target="letter.13037">Verlag Dreililien an Arnold Schönberg, 1.
+                                Oktober 1909</ref></note>
+                    </seg> mit <persName key="pers.2283">Marschalk</persName>
+                    <lb/>übergeben habe. Alles, auch den Vertrag.
+                    <lb/>Ich will die Angelegenheit mit einem <lb/>befreundeten Advokaten
+                    besprechen, denn <lb/>mir macht da manches Kopfzerbrechen.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>
+                    4. Was ist mit den <persName key="pers.543">Brahms</persName> Noten.
+                    <lb/>Die wollten Sie mir doch <hi rendition="#u">schicken?</hi>
+                </p>
+                <p> 5. Ich höre Sie wollen für meinen <lb/>
+                    <seg type="comment">
+                        <orig>Abend</orig>
+                        <note xml:id="nik1_511_hdc" resp="#KBleier">
+                            <ref target="event.85"/></note>
+                    </seg>
+                     im <orgName key="org.20">Ansorge Verein</orgName> gar nichts <lb/>hergeben. Und
+                    wenn der nun dadurch <lb/>in Frage gestellt würde? So ganz sicher <lb/>ist die
+                    Sache dann doch nicht. Ich hoffe <lb/>zwar, aber beim Publikum weiß <lb/>man
+                    doch nie etwas. </p>
+                <closer>
+                    Bitte baldige Antwort
+                    <salute>Ergebene <lb/>Grüße</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

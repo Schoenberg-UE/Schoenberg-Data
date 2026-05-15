@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19876"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 28. Jänner 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19876</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19876</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-01-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1281"/>
+                    <ref type="answered-by" target="letter.7182"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19876_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19876_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1485">LH</persName>/<persName key="pers.4383">Hü.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1927-01-28">28.
+                            Januar 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Charlottenburg 2,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>.</addrLine>
+                    </address>
+                    <hi rendition="#u">Verlagsabteilung.</hi>
+                </opener>
+                <salute>Sehr geehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>In Angelegenheit der Herstellung Ihrer <bibl sameAs="werke.62">Suite op.
+                        29</bibl>
+                    <lb/>erlaubt sich die Verlagsabteilung, Ihnen folgende Daten anzugeben:</p>
+                <p>Nachdem die Probestichseiten von Ihnen am <date when="1926-09-16">16. September
+                        <lb/>v. J.</date>
+                    <seg type="comment">
+                        <orig>gutgeheissen</orig>
+                        <note sameAs="letter.17660/#nu3q_1gn_lfc"/>
+                    </seg> wurden, ist der Stich in
+                    Angriff genommen worden. <lb/>Am <date when="1926-09-30">30. September</date>
+                    bereits ist der Klavierpart sowie die Streicher an <lb/>Herrn <persName key="pers.1339">Greissle</persName> zur Korrektur gegangen. <seg type="comment">
+                        <orig>Mitte <date when="1926-10">Oktober</date>
+                        </orig>
+                        <note xml:id="nqrm_jnn_lfc" resp="#KBleier">Laut <orgName key="org.1">UE</orgName>-Herstellungskartei am <date when="1926-10-19">19.
+                                Oktober 1926</date>
+                        </note>
+                    </seg> hat Herr <lb/>
+                    <persName key="pers.1339">Greissle</persName> auch noch die 3 Klarinettenstimmen
+                    bekommen. Wie Ihnen <lb/>bekannt, war deswegen bei den Klarinetten eine kleine
+                    Verzögerung <lb/>eingetreten, weil eine <ref target="letter.17659">Anfrage</ref>
+                    über die Stimmung erfolgt ist. <lb/>Immerhin war das Werk Mitte <date when="1926-10">Oktober</date> stichfertig und zu dieser Zeit <lb/>auch schon
+                    der Klavierpart von Herrn <persName key="pers.1339">Greissle</persName>
+                    korrigiert worden. <lb/>Am <date when="1926-10-26">29. Oktober</date> ist ein 2.
+                    Abzug der 6 Stimmen an Herrn <persName key="pers.1339">Greissle</persName> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>gangen und diese 6 Stimmen haben wir, trotzdem wiederholt
+                    urgiert <lb/>wurde, bis heute, den <date when="1927-01-28">28. Januar</date>,
+                    also während dreier Monate, von <lb/>Herrn <persName key="pers.1339">Greissle</persName> nicht zurückerhalten können. Nachdem Sie offiziell
+                    <lb/>Herrn <persName key="pers.1339">Greissle</persName> mit den Korrekturen
+                    betraut haben, sind wir natür<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich durch diese unverständliche Verzögerung in einer sehr
+                        unan<g ref="#typoHyphen"/>
+                    <lb break="no"/>genehmen Lage und wir dürfen wohl annehmen, dass Sie auf Grund
+                    <lb/>dieser nachweisbaren Tatsachen die Angelegenheit in einem anderen
+                    <lb/>Lichte sehen werden und die uns gemachten Vorwürfe wegen der Fertig<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>stellung revidieren <subst>
+                        <del rendition="#s">dürften</del>
+                        <add place="superlinear">werden</add>
+                    </subst>. Wir bitten Sie, uns gütigst mitteilen <lb/>zu wollen, wie wir uns
+                    künftighin in ähnlichen Fällen verhalten <lb/>sollen und was wir tun sollen,
+                    wenn Herr <persName key="pers.1339">Greissle</persName> auch weiterhin <lb/>die
+                    Schlusskorrektur der Stimmen nicht abliefert.</p>
+                <p>Der weitere Inhalt Ihres sehr geschätzten <ref target="letter.1281">Schreibens</ref>
+                    <lb/>wird von den betreffenden Abteilungen unseres Büros erledigt
+                        werden<supplied cert="high">.</supplied>
+                </p>
+                <closer>
+                    <salute>Wir zeichnen, mit den besten Empfehlungen, <lb/>
+                        <seg rendition="#r">hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                    <signed rendition="#r">
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

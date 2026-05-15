@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17526"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 28. März 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17526</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17526</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                            <biblScope unit="page" from="294" to="294"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                            <biblScope unit="page" from="97" to="97"/>
+                            <biblScope unit="page" from="214" to="214"/>
+                            <biblScope unit="page" from="220" to="220"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                            <biblScope unit="page" from="102" to="102"/>
+                            <biblScope unit="page" from="106" to="106"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1914-03-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.394"/>
+                    <ref type="response-to" target="letter.371"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17526_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17526_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/>
+                  I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                     9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199">k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                  57557.<lb/>Wien <seg hand="#author">
+                            <date when="1914-03-28">28. März 1914</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.2.3">Berlin</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Vor allem freue ich mich herzlich, Ihnen mitteilen zu <lb/>können, dass die
+                    gestrige <bibl sameAs="werke.16">Gurrelieder</bibl>-<seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nlbd_kdr_fgc" resp="#KBleier">
+                            <ref target="event.205"/>
+                        </note>
+                    </seg> einen glänzen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Erfolg hatte. Ich war nach der vorgestrigen Generalprobe
+                    <lb/>schrecklich deprimiert, denn es hatte sich Alles verschworen, <lb/>um die
+                    Sache so stimmungslos und schlecht als nur möglich zu <lb/>gestalten. Herr
+                        <persName key="pers.2497">Nachod</persName> traf, wie Ihnen ja bekannt, erst
+                    um <lb/>3/4 10 Uhr, unmittelbar vor Beginn des III. Teiles ein und war
+                    <lb/>nicht sehr disponiert. Vorher hatte Herr <persName key="pers.520">Boruttau</persName> die Partie <lb/>des Waldemar beinahe vom Blatt
+                    gesungen, selbstverständlich, <lb/>ohne irgend welche Wirkung aus der Sache
+                    herauszuholen. Frau <lb/>
+                    <persName key="pers.3">Mildenburg</persName> war schlecht disponiert und die
+                    übrigen Mitwirkenden <lb/>standen ebenfalls nicht ganz auf der Höhe. Das
+                    Orchester war <lb/>zu laut und Vieles sehr verwischt. Ich bin also mit den
+                    grössten <lb/>Befürchtungen in die gestrige Aufführung gegangen und es freut
+                    <lb/>mich, gestehen zu müssen, dass das Bild gestern ein vollkommen <lb/>anderes
+                    war und dass bis auf einige unwichtige Kleinigkeiten, <lb/>die Aufführung
+                    gerechten Ansprüchen vollkommen entsprochen hat. <lb/>Allerdings kann trotzdem
+                    nicht geleugnet werden, dass Frau <persName key="pers.1105">Maria <pb n="2" xml:id="p.2"/>Freund</persName> die Waldtaube viel besser singt als Frau
+                        <persName key="pers.3">Mildenburg</persName>, <lb/>deren hohe Töne entweder
+                    falsch oder aber so scharf klingen, <lb/>dass sie einem weh tun. In der
+                    Mittellage und im Ausdruck <lb/>ist Frau <persName key="pers.3">Mildenburg</persName> allerdings prächtig. Die <persName key="pers.1086">Förstel</persName> bietet <lb/>zwar eine prachtvolle Leistung, insbesonders
+                    dort, wo sie mit <lb/>ihrer silberhellen Höhe glänzen kann aber im Grossen und
+                    Ganzen <lb/>ist ihr die Partie doch entschieden zu tief und das Meiste für
+                    <lb/>die Stimme der <persName key="pers.4195">Winternitz</persName> besser
+                    geeignet. Dass <persName key="pers.2497">Nachod</persName> kein <lb/>idealer
+                    Waldemar ist, wissen wir ja. Er war auch hier anfangs <lb/>zaghaft, später
+                    mutiger, ohne auch nur annähernd den Inhalt <lb/>der Partie auszuschöpfen.
+                        <persName key="pers.1310">Gregori</persName> stand in seiner Leistung
+                    <lb/>weit hinter der von Frau <persName key="pers.4302">Zehme</persName> zurück.
+                    Ich glaube, wenn wir nicht <lb/>einen so musikalischen männlichen <hi rendition="#u">Sprecher</hi> finden wie es Frau <lb/>
+                    <persName key="pers.4302">Zehme</persName> als Sprecherin ist, dann müsste der
+                    Sprecher <hi rendition="#u">von</hi>
+                    <hi rendition="#u">einem</hi>
+                    <lb/>
+                    <hi rendition="#u">Sänger</hi> gesprochen werden, der bei Beibehaltung des
+                    Sprechtones <lb/>die erforderliche melodische und rhythmische Wirkung
+                    hervorbringt.</p>
+                <p>Das Orchester war gestern ganz ausgezeichnet. <persName key="pers.3301">Schreker</persName> hatte <lb/>es vollständig in der Hand und er hat mit
+                    der gestrigen Aufführung <lb/>mehr geboten, als ich mit Hinblick auf die geringe
+                    Anzahl von <lb/>Proben und manches Missgeschick (Einspringen <persName key="pers.2497">Nachods</persName>, etc.) für <lb/>möglich gehalten hätte.
+                    Er hat dem Orchester, sowie jedem Sänger <lb/>jeden einzelnen Einsatz gegeben
+                    und war seiner Aufgabe besser ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>wachsen, als im Vorjahre bei der <seg type="comment">
+                        <orig>Erstaufführung</orig>
+                        <note xml:id="nlx5_rgr_fgc" resp="#KBleier">
+                            <ref target="event.47"/>
+                        </note>
+                    </seg>.</p>
+                <p>Die Aufnahme beim Publikum war schon nach dem ersten Teil <lb/>eine
+                    enthusiastische und die 12–15 Minuten dauernde Pause <lb/>zum II. Teil wurde zum
+                    grossen Teil durch-applaudiert. Auch nach <lb/>dem Schluss wollte der Applaus an
+                    dem sich ein grosser Teil des <lb/>Publikums beteiligte, nicht früher ein Ende
+                    nehmen, als bis die <pb n="3" xml:id="p.3"/>Lichter im Saale successive langsam
+                    abgelöscht wurden. Die <lb/>Journallie war vollständig vertreten und wird
+                    wahrscheinlich <lb/>wieder Tiefsinniges ausbrüten.</p>
+                <p>
+                    <date when="1914-03-30">Montag</date> hoffe ich, Ihnen die Partitur zugehen lassen zu
+               <lb/>können, damit Sie sie vor Stich noch gründlich durchsehen können. <lb/>
+                    <persName key="pers.3301">Schreker</persName> behauptet, dass in den Stimmen, trotzdem sie in
+                  <placeName key="place.2.20">Leipzig</placeName>
+                    <lb/>gespielt wurden, noch zahlreiche Fehler enthalten waren, die er <lb/>alle
+               auskorrigieren liess. Ich bitte Sie, die Aenderungen die <lb/>Sie in der Partitur nun
+               noch nachträglich vornehmen, in derart <lb/>auffälliger Weise zu machen (grüner oder
+               gelber Stift oder <add place="superlinear">solche</add> Tinte), <lb/>damit man sie
+               leicht in die Stimmen übertragen kann, denn sonst <lb/>gibt es wieder unendliche
+               Schwierigkeiten und grosse neue Spesen.</p>
+                <p>Ich hatte sowohl bei Ihrer <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nczl_vgr_fgc" resp="#KBleier">
+                            <ref target="event.103"/>
+                        </note>
+                    </seg> in <placeName key="place.2.20">Leipzig</placeName>, als auch <lb/>gestern bei der hiesigen
+                    Aufführung, eigentlich nicht mehr die <lb/>Empfindung grosser Ueberladenheit.
+                    Vorgestern allerdings hat das <lb/>Orchester die Sänger stark gedeckt und ich
+                    habe das <persName key="pers.3301">Schreker</persName> in <lb/>eindringlichster
+                    Weise dargelegt. Er meinte hierauf, dass die <lb/>Instrumentation schuld daran
+                    sei, d. h., die stellenweise starke <lb/>Besetzung, wodurch ein Pianissimo oder
+                    Piano in vielen Fällen gar <lb/>nicht möglich erscheine, insbesonders nicht bei
+                    der kolossalen <lb/>Schar von Aushilfsmusikern, die ja auch bei der
+                    sorgfältigsten <lb/>Auslese nicht erstklassig sind. Als ich ihm hierauf
+                    entgegnete, <lb/>dass es in <placeName key="place.2.20">Leipzig</placeName> doch
+                    ging, schien ihm das doch nicht ganz <lb/>einzuleuchten. Gestern Abend jedoch
+                    war erfreulicherweise das <lb/>Orchester viel gedämpfter und er zeigte mir auch
+                    abends stolz <lb/>einen Zettel, den er in mehr als 100 Exemplaren noch gestern
+                    an <pb n="4" xml:id="p.4"/>das Orchester verteilen liess, und in welchem er <subst>
+                        <del rendition="#ow">in dringendster <lb/>Weise um leises Begleiten und
+                            dergl. mehr, das Orchester</del>
+                        <add place="across"> das Orchester in dringendster <lb/>Weise um leises
+                            Begleiten und dergl. mehr, </add>
+                    </subst>ersucht. <lb/>Diese Aufforderung hat zweifellos ihre Wirkung getan und
+                    ich er<g ref="#typoHyphen"/>
+                    <lb break="no"/>wähne Ihnen diesen Umstand deswegen, weil ich glaube, dass
+                    gerade <lb/>auf dem Gebiete der Vortragszeichen noch vielleicht Manches bei
+                    <lb/>Ihrer letzten Retouche berücksichtigt werden könnte.</p>
+                <p>Wenn ich Ihre Aufführung der gestrigen in Bezug auf <hi rendition="#u">Orchester</hi>- <lb/>
+                    <hi rendition="#u">und</hi>
+                    <hi rendition="#u">Chorleistung</hi> vergleichen soll, so muss ich die Ihrige als
+               viel <lb/>subtiler und sauberer bezeichnen, während die gestrige im Klang und <lb/>in
+               der Farbe <add place="superlinear">sowie stellenweise im Tempo</add> lebhafter und
+               Manches effektvoller war. <hi rendition="#u">Die Solisten</hi>
+                    <lb/>waren in <placeName key="place.2.20">Leipzig</placeName> durchwegs besser, sogar
+               die Beiden, (<persName key="pers.2497">Nachod</persName> und <lb/>
+                    <persName key="pers.520">Boruttau</persName>), die beide Aufführungen mitmachten.</p>
+                <p>Was nun die <bibl sameAs="werke.2">Kammersymphonie</bibl> betrifft, so lasse ich
+                    zunächst <lb/>die Partitur-Korrekturen auf den Platten vornehmen und hoffe, dass
+                    <lb/>wir bald Korrektur-Exemplar erhalten werden. Ihre Idee, dass die
+                    <lb/>Stimmen handschriftlich korrigiert werden sollen, bedeutet viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht eine sehr gute Lösung und verbilligt die Angelegenheit.
+                    <lb/>Sobald die Stich-Korrekturen in der Partitur gemacht sein werden, <lb/>
+                    <hi rendition="#lll" hand="#addressee">werde ich Sie bitten, dem jungen
+                            <rs type="person" key="pers.751">Menschen</rs>, der für M 2.50 bis M 3.– <lb/>
+                        <note place="left" hand="#addressee">
+                            <hi rendition="#u">schicken</hi>
+                        </note>Tagesverdienst diese Arbeit übernehmen könnte, <hi rendition="#u">eine</hi>
+                        <hi rendition="#u">einzelne</hi>
+                        <hi rendition="#u">Stimme</hi>
+                        <lb/>zu übersenden, die er ja dann <hi rendition="#u">etwa 20 mal</hi>
+                        auszubessern hätte. Wir <lb/>würden dann feststellen, wie lange die
+                        Korrektur einer solchen Stimme</hi>
+                    <lb/>dauert und ob die Arbeit auf diesem Wege gemacht werden soll.</p>
+                <p>Ihre Mitteilungen, betreffend die <add place="superlinear">
+                        <bibl sameAs="werke.2">Kammer Symphonie</bibl>
+                    </add> Ausgabe<del rendition="#s">n</del> für Orchester habe <lb/>ich bestens zur Kenntnis
+                    genommen. Die <bibl sameAs="werke.54">Pier<del rendition="#s">t</del>ot</bibl>-Korrekturen, sowie <lb/>das <bibl sameAs="werke.24">Georgelieder</bibl>-<seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note sameAs="letter.17523/#nx4w_npb_fdc"/>
+                    </seg>, erwarte ich. Das
+                    Aufführungsrecht von <pb n="5" xml:id="p.5"/>„<bibl sameAs="werke.54">Pierrot
+                        lunaire</bibl>“ macht mir auf Grund ihrer Aufklärung keine <lb/>weiteren
+                    Sorgen und ich werde, sobald wir die Partitur vollständig <lb/>fertig haben, an
+                    die Vervielfältigung der Stimmen gehen.</p>
+                <p>Was die englische Uebersetzung von <persName key="pers.4261">Wood</persName> betrifft, so werde <lb/>ich, sobald eine definitive
+               Annahme von ihm vorliegt, diesbzgl. <lb/>an ihn herantreten, und von ihm <hi rendition="#u">möglichst wörtliche</hi> Uebersetzung <lb/>verlangen. Selbstredend
+               sollen Sie dieselbe erst prüfen, bevor sie <lb/>gedruckt wird.</p>
+                <p>Wegen des achthändigen <bibl sameAs="werke.229">Arrangements</bibl>-<seg
+                        type="comment"><orig>Manuskriptes</orig><note
+                            sameAs="letter.371/#nxcs_xpw_jgc"/></seg> lasse ich <lb/>zunächst bei
+                        <persName key="pers.4001">Webern</persName>, <persName key="pers.385"
+                        >Berg</persName> oder <persName key="pers.3612">Stein</persName>
+                    <seg type="comment"><orig>anfragen</orig><note xml:id="nvxw_1rw_jgc"
+                            resp="#KBleier"><persName key="pers.4001">Anton Webern</persName>
+                            antwortete auf eine entsprechende Anfrage der <orgName key="org.1"
+                                >UE</orgName>, dass der Auszug sich &#8222;im Besitze <persName
+                                key="pers.3263">Schönbergs</persName>&#8220; befinde (Anton Webern
+                            an Universal-Edition, 2. April 1914; <rs type="bibl"
+                                key="zotero-4528359-HVUQ8Z9K">Webern 2020</rs>, S. 87)</note></seg>.
+                    An Herrn <persName key="pers.1287">Dornay</persName>, <lb/>
+                    <placeName key="place.2.3">Berlin</placeName>, liess ich den Klavierauszug der
+                        <bibl sameAs="werke.17">Gurre-Lieder</bibl> abgehen.</p>
+                <p>Ich glaube, damit Ihr gestriges <ref target="letter.371">Schreiben</ref>
+                    vollständig beant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wortet zu haben. Was aber den <ref target="letter.394">Brief</ref> vom <date when="1914-02-24">24. Februar</date> betrifft, den <lb/>
+                    <hi rendition="#ll" hand="#addressee">Sie erst jetzt vorgefunden haben, so
+                        verstehe ich, offen gestanden, <lb/>
+                        <hi rendition="#u" hand="#addressee">Ihre Einwendungen bzgl. der <bibl sameAs="schriften.1">Harmonielehre</bibl> nicht</hi>. Ich kann mir
+                        nämlich <lb/>gar nicht denken, dass man die Verrechnungsfrage anders lösen
+                        könnte, <lb/>als ich es Ihnen vorgeschlagen und auch im Vertrage zum
+                        Ausdruck <lb/>gebracht habe. Ich weiss insbesonders nicht, ob Sie bei der
+                            Verrech<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>nungsart bzgl. der <bibl sameAs="schriften.1">Harmonielehre</bibl>, d. i. die Hälfte des Reingewinnes <lb/>bleiben wollen
+                    oder ob Sie die Verrechnungsart ändern wollen. <lb/>Wenn Sie bei der
+                    Verrechnungsart bleiben wollen, dann kann man ja <lb/>absolut nichts anderes
+                    tun, als die Eingänge für die <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                    <pb n="6" xml:id="p.6"/>zur Tilgung der bisherigen Ausgaben zu verwenden, denn
+                    wenn nicht <lb/>in dieser Weise vorgegangen wird, können wir ja niemals eine
+                    Basis <lb/>für einen Reingewinn haben. Sobald nun ein Reingewinn da sein wird,
+                    <lb/>so kommt er auf Ihr Konto und zwar auf das einzig zu führende
+                    <lb/>Gesamt-Verrechnungs-Konto. Sie verwechseln da die Detail-Konti, <lb/>die ja
+                    über jedes einzelne Werk geführt werden müssen, mit dem
+                    <lb/>Haupt-Verrechnungs-Konto. – Ich glaube, ich habe Ihnen das aber <lb/>alles
+                    schon geschrieben und wenn Sie sich trotzdem mit meiner <lb/>seinerzeitigen <ref target="letter.17520">Antwort</ref> nicht einverstanden erklären, so weiss
+                    ich <lb/>wirklich nicht, welche Verrechnungsart Sie eigentlich wünschen.
+                    <lb/>Vielleicht geben Sie mir diesbzgl. Aufklärungen, damit ich mich
+                    <lb/>darüber äussern kann.</p>
+                <p>Für Ihre <persName key="pers.3284">Tochter</persName> lasse ich gleichzeitig einen
+               gebundenen <lb/>Klavierauszug der „<bibl sameAs="werke.17">Gurre-Lieder</bibl>“ von <placeName key="place.2.20">Leipzig</placeName> aus
+               abgehen.</p>
+                <closer>
+                    <salute>Mit vielen herzlichen Grüssen <lb/>
+                        <seg rendition="#c">Ihr in Verehrung
+                     ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

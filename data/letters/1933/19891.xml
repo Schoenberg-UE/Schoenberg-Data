@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19891"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 4. April 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19891</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19891</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1933-04-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.7230"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19891_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19891_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <hi rendition="#uda">Herrn Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schoenberg</hi>
+                                </persName>, <placeName key="place.2.3">Berlin</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Wir danken Ihnen sehr für Ihre <ref target="letter.7230">Nachricht</ref>, wonach
+                    <lb/>Sie mit der Bearbeitung des Herrn <persName key="pers.1536">Heller</persName> grundsätzlich <lb/>einverstanden sind. Wir haben ihm den
+                    Inhalt Ihrer <lb/>Karte mitgeteilt.</p>
+                <p>Mit grossem Interesse haben wir Ihre Mitteilungen <lb/>zur Kenntnis genommen,
+                    wonach dort alles ruhig ist <lb/>und wonach Sie sich in so scharfer Weise gegen
+                    die <lb/>
+                    <seg type="comment">
+                        <orig>Greuelpropaganda</orig>
+                        <note xml:id="nijw_hky_mgc" resp="#KBleier">Die Spitze der deutschen
+                            Reichsregierung ließ in der Weltpresse verbreiten, dass die täglich
+                            gegen Juden und politisch anders denkende Personen verübten Greueltaten
+                            in Nazi-<placeName key="place.2">Deutschland</placeName> als
+                            „Greuelpropaganda“ bzw. „internationale jüdische
+                            Greuelpropaganda“ zu bewerten seien (<rs type="bibl" key="zotero-4528359-5Y4B8R9D">Die Rote Fahne 1933</rs>). Unter der
+                            Leitung von <persName key="pers.3765">Julius Streicher</persName> wurde im <date when="1933-03">März
+                                1933</date> ein „Aktionskomitee zur Bekämpfung der jüdischen
+                            Greuelpropaganda“ etabliert (<rs type="bibl" key="zotero-4528359-6KYWWH5S">Wiener Allgemeine Zeitung
+                            1933</rs>)</note>
+                    </seg> im Auslande
+                    wenden. Wir
+                    werden <lb/>selbstverständlich alles tun, um Ihre gewichtigen <lb/>Worte überall
+                    bekanntzumachen und dafür zu sorgen, <lb/>dass Ihre Meinung und Ihre
+                    Mitteilungen, die sich <lb/>gegen Verleumdungen und Ausstreuungen unverant<g ref="#typoHyphen"/>
+                    <lb break="no"/>wortlicher Kreise im Auslande so scharf richten, <lb/>bekannt
+                    werden.</p>
+                <closer>
+                    <salute rendition="#r">Mit ergebensten Empfehlungen</salute>
+                    <lb/>
+                    <persName key="pers.1520">Hei</persName>/<persName key="pers.4351">Fi.</persName>
+                    <dateline rendition="#l">
+                        <placeName key="place.9.11">Wien</placeName>, am <date when="1933-04-04">4.
+                            April 1933</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17609"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 16. Juli 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17609</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17609</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1929-07-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1571"/>
+                    <ref type="answered-by" target="letter.578"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17609_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17609_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                  <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code 5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85 Serie.
+                  Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank
+                     Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, am
+                        <date when="1929-07-16">16. Juli 1929</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4362">M</persName>/<persName key="pers.4341">BO.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#g #uda">
+                                <placeName key="place.2.3">Berlin</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter lieber Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ihre soeben in meine Hände gelangte <ref target="letter.1571">Zu<g ref="#typoHyphen"/>
+                        <lb break="no"/>schrift</ref> vom <date when="1929-07-15">15. Juli</date>
+                    bedeutet für mich eine schwere Enttäu<g ref="#typoHyphen"/>
+                    <lb break="no"/>schung. Ich wage gar nicht Ihnen auf die mir bekanntge<supplied cert="high">ge</supplied>be<choice>
+                        <sic>ne</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Bedingungen ein Gegenanbot zu machen. Die Voraussetzun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, von denen Sie in Ihren ganzen Berechnungen ausgehen,
+                    <lb/>sind leider ein Phantasieprodukt und Ihre Annahme, dass man <lb/>zusammen
+                    100 Aufführungen der „<bibl sameAs="werke.64">Variationen</bibl>“ und der <bibl sameAs="werke.32">Bach-<lb break="no"/>Bearbeitung</bibl> à 200 Mark
+                    Materialgebühr erreichen kann, beweist, <lb/>dass die tatsächlichen Verhältnisse
+                    Ihnen nicht gegenwärtig <lb/>sind. Nebenbei will ich nur erwähnen, dass die
+                    plötzliche Fi<g ref="#typoHyphen"/>
+                    <lb break="no"/>xierung von Brutto-Materialgebühren ohne jedwede Rücksicht
+                    <lb/>auf die Herstellungskosten der Materiale in eine Verrechnung, <lb/>die sich
+                    ja eigentlich nur auf die Tantiemen-Amortisierung be<g ref="#typoHyphen"/>
+                    <lb break="no"/>zieht, einen schweren Trugschluss bedeutet. Wir sind vollstän<g ref="#typoHyphen"/>
+                    <lb break="no"/>dig ausserstande, Ihnen das Verlagsrecht Ihrer <bibl sameAs="werke.65">Oper</bibl> für 18.000 M <lb/>fix abzukaufen. Die Ihnen
+                    bekanntgegebenen Bedingungen waren <lb/>keineswegs nur der „Weg zur Einigung“
+                    und alles, was ich tun <lb/>kann, ist, dass ich Ihnen in Punkt 2 eine Barprämie
+                    von M 3000.– <lb/>bei Vertragsabschluss, <hi rendition="#u">ferner am Tage bei
+                        Abschluss des 10. Büh<g ref="#typoHyphen"/>
+                        <lb break="no"/>nenaufführungsvertrages eine Nachzahlung von weiteren M
+                        3000.–</hi>
+                    <pb n="2" xml:id="p.2"/>und ausserdem eine Erhöhung der Prämiengutschrift auf
+                        Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schusskonto (von M 3000.–) auf M 4000.– zugestehe, sodass
+                    <lb/>von uns unabhängig von den Ihnen in Punkt 1 zugesicherten
+                    <lb/>Verlagsanteilen eine Prämie von 10.000 Mark geleistet wird, <lb/>von denen
+                        <hi rendition="#u">sofort</hi> M 3000.– <hi rendition="#u">bar</hi> und M
+                    4000.– <hi rendition="#u">auf Vorschuss<g ref="#typoHyphen"/>
+                        <lb break="no"/>konto</hi> geleistet werden, während die anderen M 3000.–
+                    wie <lb/>erwähnt, bei Abschluss mit der 10. Bühne fällig werden. <lb/>Punkt 3
+                    unseres <ref target="letter.17606">Schreibens</ref> vom <date when="1929-07-12">12. Juli</date> bleibt unverändert. <lb/>Ausdrücklich zugesichert wird
+                    Ihnen, dass Ihnen im Falle der <lb/>neuen Einigung sämtliche Bühnentantiemen bar
+                    ausbezahlt wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den. Ihre Ansicht, dass Sie trotz der Ihnen auf Ihr Gesamt<g ref="#typoHyphen"/>
+                    <lb break="no"/>konto geleisteten Vorschüsse berechtigt sind, die Bühnentan<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiemen für die beiden dramatischen Werke separat zu verlan<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen, können wir nicht teilen.</p>
+                <p>Auch ich wünsche sehnlichst Frieden zwischen <lb/>uns, es darf aber kein
+               Diktatfrieden sein.</p>
+                <p>In Ihrem geschätzten <ref target="letter.1569">Schreiben</ref> vom <date when="1929-07-12">12. Juli</date>, <lb/>das ich schon gestern erhielt,
+                    führen Sie mir für den Fall <lb/>eines Prozesses nicht nur Ihre juristisch
+                    sondern auch mora<g ref="#typoHyphen"/>
+                    <lb break="no"/>lisch sehr starke Position und den grossen Widerhall, den
+                    <lb/>ein solcher Prozess in der Öffentlichkeit finden würde, vor <lb/>Augen. Ich
+                    weiss nun wirklich nicht, auf welchen Prozess Sie <lb/>anspielen, denn ich sehe
+                    überhaupt keine Möglichkeit für einen <lb/>Prozess. Wenn unverantwortliche
+                    „Fachmänner“ Sie über den Aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gang eines eventuellen Prozesses sehr beruhigt haben, dann <pb n="3" xml:id="p.3"/>sollen diese Kiebitze, denen kein Spiel hoch genug ist,
+                        Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen gegenüber ruhig die Verantwortung für die Konsequenzen
+                    <lb/>eines solchen „Prozesses“ übernehmen u. z. eine Verantwortung, <lb/>die
+                    sich nicht allein auf die Prozesskosten beziehen dürf<g ref="#typoHyphen"/>
+                    <lb break="no"/>te. Aber wir wollen doch dieses Thema verlassen.</p>
+                <p>Niemand wird behaupten können, dass mein <lb/>nunmehriger Vorschlag, mit welchem ich
+               Ihnen <hi rendition="#u">ausser</hi> der Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>lagstantieme, die Sie bisher bekommen haben, eine Prämie <lb/>von 10.000 Mark (also
+               keinen rückzahlbaren Vorschuss) zahle, <lb/>Ihnen die gesamten Bühnentantiemen aller
+               drei Werke freigebe <lb/>und Ihnen schliesslich noch ein sehr weitgehendes Entgegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen in der Tilgung des Gesamtvorschusses
+               bewillige, ein <lb/>ungünstiger und unangemessener ist und die <orgName key="org.1">Universal Edition</orgName>
+                    <lb/>würde, falls wir uns nun einigen und auch späterhin beisammen <lb/>bleiben, <hi rendition="#u">die grössten Anstrengungen machen, um auch hinsicht<g ref="#typoHyphen"/>
+                        <lb break="no"/>lich der Propaganda und der Absatzerhöhung
+                  Ihre Zufriedenheit <lb/>zu erlangen.</hi>
+                </p>
+                <p>Die „verlagstechnischen Bedingungen“ dürften <lb/>kaum Schwierigkeiten bei der
+                    Abmachung hervorrufen. Sie basie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren auf das zwischen uns in <placeName key="place.2.3">Berlin</placeName> stattgehabte Gespräch (Über<g ref="#typoHyphen"/>
+                    <lb break="no"/>lassung der hergestellten Partituren, Klavierauszüge und des <pb n="4" xml:id="p.4"/>Uraufführungs-Materiales) gegen Bezahlung jener M 2500.–
+                    <lb/>die das Theater vertragsmässig zu zahlen hat. Die Bühnen<g ref="#typoHyphen"/>
+                    <lb break="no"/>vertriebsprovision müsste, nachdem Sie die Fixierung einer
+                    <lb/>Materialtantieme den Bühnen gegenüber nicht akzeptieren, <lb/>mit 20 %, im
+                    fremdsprachigen Ausland mit 25 % angenommen wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den. <hi rendition="#u">Wir haben sonst durchwegs diesen Satz
+                        und überdies auch <lb/>noch die Berechtigung, eine Materialtantieme geltend
+                        zu ma<g ref="#typoHyphen"/>
+                        <lb break="no"/>chen!</hi> Das Bühnenvertriebsgeschäft ist ein schwieriges
+                    und <lb/>kostspieliges und eine 10 %ige Provision ist heute ein Ding <lb/>der
+                    Unmöglichkeit. – Ausserdem ist noch eine genaue Präzi<g ref="#typoHyphen"/>
+                    <lb break="no"/>sierung in der Tonfilm-Angelegenheit und der Verleger-Anteile
+                    <lb/>bei der <orgName key="org.73">G. d. T.</orgName> notwendig.</p>
+                <p>In allen übrigen Dingen sehe ich augenblick<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich
+               keinerlei Abweichungen gegenüber den bisher üblichen Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmungen.</p>
+                <closer>
+                    <salute>In der angenehmen Erwartung Ihrer hoffentlich <lb/>zustimmenden
+                  Rückäusserung, verbleibe ich mit herzlichen Grüßen <lb/>
+                        <seg rendition="#r">Ihr
+                     warm ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil
+               Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

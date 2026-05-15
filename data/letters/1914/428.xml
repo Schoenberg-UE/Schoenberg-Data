@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.428"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 11. Juli 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.428</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 428</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.25">Murnau</placeName>
+                    <date when="1914-07-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17552"/>
+                    <ref type="answered-by" target="letter.17554"/>
+                </correspContext>
+                <note>Der Abdruck am linken oberen Rand lässt vermuten, dass <persName key="pers.3263">Schönberg</persName> seinen <placeName key="place.2.23.1.1">Berliner</placeName> Adressstempel verwendete. Den Sommer 1914 verbrachte
+                    er jedoch in <placeName key="place.2.25">Murnau</placeName>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/428_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.428_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-07-11">11/<subst>
+                                <del rendition="#ow">6</del>
+                                <add place="across">7</add>
+                            </subst>.1914</date>
+                    </dateline>
+                    <supplied cert="high">
+                        <stamp sameAs="stamp.1">
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                            <lb/>Berlin-Südende<lb/>
+                            <placeName key="place.2.23.1.1">Berlinerstr. 17a</placeName>, <hi rendition="#sup">I.</hi>
+                            <lb/>Tel.: Tempelhof 174.</stamp>
+                    </supplied>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">obwol sehr beschäftigt, <lb/>beantworte ich doch sofort Ihren
+                        <ref target="letter.17552">Brief</ref>.</p>
+                <p>Ich sehe den großen Propagandawert <del rendition="#s">Ihres</del> des
+                    <lb/>geplanten Sammelwerkes ein. Aber ich bin – durch <lb/>meine Eindrücke von
+                    solchen Ausgaben – ein so <lb/>angesagter Feind solcher Zusammenstellungen,
+                    <lb/>dass ich mich nicht ohneweiteres entschließen <lb/>kann, Ihnen meine Zusage
+                    zu geben. 1–2 solcher <lb/>Lieder machen da stets einen so uncharakteristischen
+                    <lb/>Eindruck – im besten Fall; meist aber wirken <lb/>sie direkt unsympathisch:
+                    wie einer der fühlt, <lb/>dass er „beliebt“ ist und sich „beliebt“ benimmt.
+                    <lb/>Das hasse ich!</p>
+                <p>Aber da ich einerseits weiß, dass Sie meine Zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmung (abgesehen von der Tantièmenfrage) nicht <lb/>nötig
+                    haben und ich Ihnen unbedingt den Gefallen <lb/>nicht abschlagen will, mache ich
+                    Ihnen den <lb/>Vorschlag, mich wenigstens durch Werke <lb/>zu verbreiten, die
+                    für mich charakteristisch <lb/>sind und erkläre mich bereit den Ab<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>druck von</p>
+                <p>2 Liedern aus den <hi rendition="#u">
+                        <bibl sameAs="werke.24">George-Liedern</bibl>
+                    </hi>
+                </p>
+                <p>unter den von Ihnen geforderten Bedingungen zu ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>statten, wenn Sie mir dafür zusagen, von diesem <lb/>
+                    <seg type="comment">
+                        <orig>Heft</orig>
+                        <note sameAs="letter.17552/#npqd_y3c_fdc"/>
+                    </seg> (wo es ohnedies kaum Sinn hat) keine wei<g ref="#typoHyphen"/>
+                    <lb break="no"/>teren Einzelausgaben zu veranstalten.</p>
+                <p>Damit wären 2 Fragen befriedigend gelöst:</p>
+                <p>1. haben die <bibl sameAs="werke.24">George-Lieder</bibl> eine solche Propa<g ref="#typoHyphen"/>
+                    <lb break="no"/>ganda <hi rendition="#u">eher nötig</hi>, als die <bibl sameAs="werke.11">Orchesterlieder</bibl>, denen <lb/>sie weniger nützt, weil
+                    ja <hi rendition="#u">das Original für <lb/>Orchester</hi> ist!!!</p>
+                <p>2. Ist auch mein Schade dabei weit gerin<g ref="#typoHyphen"/>
+                    <lb break="no"/>ger, als wenn ich <add place="superlinear">auf die
+                        Ertragsmöglichkeit</add>
+                    <del rendition="#s">auf</del>
+                    <hi rendition="#u">ein<add place="intralinear">es</add> Drittel<add place="intralinear">s</add> eines opus <lb/>ganz verzichte</hi>, was <subst>
+                        <del rendition="#s">ich</del>
+                        <add place="superlinear">Sie</add>
+                    </subst> wohl <add place="superlinear">bei</add> Ihr<add place="intralinear">em</add> freundschaftlich<subst>
+                        <del rendition="#ow">es</del>
+                        <add place="across">en</add>
+                    </subst>
+                    <lb/>Interesse für mich auch einsehen <subst>
+                        <del rendition="#ow">wird</del>
+                        <add place="across">werden</add>
+                    </subst>.</p>
+                <p>Ich lege eine diesbezügliche Erklärung <!-- nicht nachgewiesen -->bei.</p>
+                <p>Die <seg type="comment">
+                        <orig>Korrekturen</orig>
+                        <note sameAs="letter.17553/#nafq_gdx_fgc"/>
+                    </seg>, die ich jetzt in den <bibl sameAs="werke.16">Gurreliedern</bibl>
+                    <lb/>vorgenommen habe, sind so geringfügig, dass sie wohl <lb/>kaum aufhalten
+                    werden. Sollte das aber <lb/>dennoch der Fall sein, so bitte ich, sie
+                    einstweilen <lb/>nicht zu berücksichtigen und mir die betreffen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Blätter zurückzuschicken. Ich werde sie <pb n="3" xml:id="p.3"/>zur rechten Zeit selbst eintragen <lb/>lassen. Vielleicht aber
+                    geht es <lb/>doch von Ihnen aus. – Bitte um Nachricht <lb/>darüber.</p>
+                <closer rendition="#inline">
+                    <salute>Viele herzlichste Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Kommen Sie nicht an <placeName key="place.2.24">München</placeName>
+                        <lb/>vorbei? Ich bin <seg type="comment">
+                            <orig>dort ganz in <lb/>der
+                                Nähe</orig>
+                            <note xml:id="nr4d_fq1_lgc" resp="#KBleier">
+                                <persName key="pers.3263">Schönberg</persName> verbrachte den Sommer in
+                                    <placeName key="place.2.25">Murnau</placeName>
+                            </note>
+                        </seg>, und
+                        würde sehr gerne <lb/>mit Ihnen wieder plaudern</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

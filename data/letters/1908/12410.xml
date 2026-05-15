@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12410"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 29. Juni 1908</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12410</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12410</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1908-06-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24192"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12410_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12410_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.52">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1908-06-29">
+                            <seg hand="#author">29. Juni08</seg>
+                            190</date>
+                    </stamp>
+                    <address>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <placeName key="place.9.11">Wien</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute rendition="#c">Lieber Herr <persName key="pers.3263">
+                        <hi rendition="#g">Schönberg</hi>
+                    </persName>.</salute>
+                <p>Endlich komme ich dazu Ihren <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="ncxw_22x_ywb">
+                            <ref target="letter.24192">Arnold Schönberg an Verlag Dreililien,
+                                zwischen 7. April und 11. Juni 1908 [erschlossen]</ref>
+                        </note>
+                    </seg> zu beantworten. Eine Lösung des <lb/>Vertrages beabsichtigen wir also
+                    nicht; ich glaube auch nicht, dass <lb/>das nötig ist. Ihre <bibl sameAs="werke.11">Orchesterlieder</bibl> und Ihre <bibl sameAs="werke.2">Kammersymphonie</bibl> haben <lb/>wir abgelehnt, Sie haben also vollkommen
+                    freie Hand sie anderen Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>legern anzubieten. Was Ihre neuen Arbeiten anbelangt, so
+                    schicken Sie <lb/>sie uns bitte ein. Wir werden uns jedesmal längstens innerhalb
+                    von <lb/>vier Wochen entscheiden, ob wir sie annehmen und drucken oder sie
+                    <lb/>ablehnen. – Dass die <bibl sameAs="werke.5">Pelleas und
+                    Melisande</bibl>-Partitur nicht schon lan<g ref="#typoHyphen"/>
+                    <lb break="no"/>ge autographiert vorliegt, ist lediglich Ihre Schuld; wir hatten
+                        da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mals begonnen sie autographieren zu lassen und Ihnen die
+                    fertigen <lb/>
+                    <seg type="comment">
+                        <orig>Bogen zur Korrektur</orig>
+                        <note sameAs="letter.13042/#ncrs_ggv_d5b"/>
+                    </seg> geschickt. Sie liegen noch bei Ihnen und sind <lb/>inzwischen wertlos
+                    geworden. Die <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.12379/#neg4_pby_b5b"/>
+                    </seg> liegt, wie Sie ja wissen, <lb/>bei <persName key="pers.1112">Fried</persName>, der unentwegt behauptet das <bibl sameAs="werke.5">Werk</bibl>
+                    <seg type="comment">
+                        <orig>aufführen</orig>
+                        <note xml:id="nxsk_3cd_nzb" resp="#KBleier">
+                            <ref target="event.8"/>
+                        </note>
+                    </seg> zu wollen. <lb/>Wenn Sie sie zu anderen Zwecken benötigen, so müssen Sie
+                    sie sich <lb/>von <persName key="pers.1112">Fried</persName> erbitten. Sie
+                    müssen nicht irgendwelches Heil davon erwar<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, dass die Sachen gedruckt vorliegen. Ihr <bibl sameAs="werke.13">Sextett</bibl> und Ihr <bibl sameAs="werke.42">Quartett</bibl>
+                    <lb/>sind erschienen und kein Mensch – leider! – kümmert sich darum.</p>
+                <closer rendition="#r">
+                    <salute>Mit besten Grüssen auch an Ihre <rs type="person" key="pers.3290">Frau</rs>
+                        <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

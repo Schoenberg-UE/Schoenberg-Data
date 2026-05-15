@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1077"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 29. Juli 1924</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1077</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1077</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1924-07-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3067">Rothe, Barbara Maria Agnes</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24328"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1077_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1077_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.15">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>MÖDLING BEI WIEN<lb/>
+                        <placeName key="place.9.4.1">BERNHARDGASSE 6</placeName>
+                        <lb/>TELEPHON NR. 118<lb/>MÖDLING, <date when="1924-07-29">
+                            <seg hand="#author">29.7. </seg>192<seg hand="#author">4</seg>
+                        </date>
+                    </stamp>
+                    <address>
+                        <addrLine>PT <orgName key="org.1">U.E.</orgName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Liebes Fräulein <persName key="pers.3067">Rothe</persName>,</salute>
+                <p rendition="#inline">ich war verreist und kann <lb/>darum erst heute Ihre <seg type="comment">
+                        <orig>Karte</orig>
+                        <note xml:id="njnv_p1l_swb">
+                            <ref target="letter.24328">Universal-Edition an Arnold Schönberg, 21. Juli 1924
+                     [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1924-07-21">21.</date>
+               beantworten </p>
+                <p>Die <seg type="comment">
+                        <orig>Stimmen</orig>
+                        <note xml:id="nffw_bnq_ddc" resp="#pkehrer">In den handschriftlichen Stimmen
+                                (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1221&amp;werke_id=421&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 22, Quelle C</ref>) und in der Erstausgabe der Stimmen (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1227&amp;werke_id=421&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 22, Quelle E</ref>) stehen, wie von Schönberg gefordert,
+                            alle fünf Instrumente in C; alle späteren Auflagen hingegen enthalten
+                            transponierte Klarinetten- und Hornstimmen (<rs type="bibl"
+                                key="zotero-4528359-XMZ5USZY">ASGA B 22</rs>)</note>
+                    </seg> meines <bibl sameAs="werke.59">Bläserquintetts</bibl>: Klarinette
+                    <lb/>und Horn sollen <hi rendition="#g">nicht</hi> transponiert <lb/>sondern so
+                    geschrieben werden, wie sie bei mir <lb/>stehen. Und zwar aus folgenden
+                    Gründen:</p>
+                <p>1. hoffe ich durchzusetzen, dass die Musiker C-<lb break="no"/>Stimmung blasen
+               lernen.</p>
+                <p>2. Wäre es aber im Notfall leichter und verläss<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher, die Transposition nach der bereits aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>geschriebenen und korrigierten Stimme vo<supplied cert="high">r</supplied>nehmen
+               <lb/>zu lassen; und das</p>
+                <p>3. am besten durch den Bläser, der die <seg type="comment">
+                        <orig>Urauf<g ref="#typoHyphen"/>
+                            <lb break="no"/>führung</orig>
+                        <note xml:id="novp_s2r_ddc" resp="#pkehrer">
+                            <ref target="event.117"/>
+                        </note>
+                    </seg> bläst.</p>
+                <p>Ich hoffe aber, wie gesagt, dass sich das in <lb/>kürzester Zeit durchsetzen wird und
+               damit wä<g ref="#typoHyphen"/>
+                    <lb break="no"/>re sehr viel gewonnen.</p>
+                <closer>
+                    <salute>Mit herzlichen Grüssen bin ich Ihr ergebenster</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

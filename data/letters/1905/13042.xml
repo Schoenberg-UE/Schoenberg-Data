@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.13042"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 2. August 1905</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.13042</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 13042</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1">Berlin-Wilmersdorf, Halensee</placeName>
+                    <date when="1905-08-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24170"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-14+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/13042_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.13042_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.2.4.1">Halensee</placeName>, <date when="1905-08-02"
+                            >2. Aug 05</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>
+                </salute>
+                <p>Hier haben Sie Ihre <seg type="comment">
+                        <orig>Par<g ref="#typoHyphen"/>
+                            <lb break="no"/>titur</orig>
+                        <note xml:id="na5c_1kp_xfc" resp="#KBleier">
+                            <p><bibl sameAs="werke.5">Arnold Schönberg, Pelleas und Melisande op.
+                                    5</bibl></p>
+                            <p>Nachgewiesene Quellen: Partiturreinschrift, autograph (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=571&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                    >ASGA B 10, Quelle C</ref>); Partiturabschrift, möglicherweise
+                                autograph; zugleich Autographiervorlage für den Erstdruck,
+                                verschollen (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=575&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                    >ASGA B 10, Quelle G*</ref>). Die Existenz einer
+                                Partiturabschrift geht aus <ref target="letter.11566">Verlag
+                                    Dreililien an Arnold Schönberg, 15. Oktober 1908</ref> hervor;
+                                Herstellungszeitpunkt nicht ermittelt</p>
+                        </note>
+                    </seg>; seien Sie um des Him<g ref="#typoHyphen"/>
+                    <lb break="no"/>mels willen nicht wehleidig <lb/>und streichen Sie, was sich
+                        ir<g ref="#typoHyphen"/>
+                    <lb break="no"/>gend streichen lässt. Und dann <lb/>– die Sache ist <seg
+                        type="comment">
+                        <orig>Programmmusik</orig>
+                        <note xml:id="neng_nkp_xfc" resp="#TMuxeneder">Nach negativen Erfahrungen
+                            mit Reaktionen auf den dem Streichsextett <bibl sameAs="werke.13"
+                                >Verklärte Nacht op. 4</bibl> zugrunde liegenden Text von <persName
+                                key="pers.842">Richard Dehmel</persName> verzichtete <persName
+                                key="pers.3263">Schönberg</persName> auf die Mitteilung des
+                            Programms zu <bibl sameAs="werke.5">Pelleas und Melisande op. 5</bibl>
+                            nach einem Text von <persName key="pers.2230">Maurice Maeterlinck</persName> und hielt später Programme
+                            seiner Kompositionen gänzlich geheim (<rs type="bibl"
+                                key="zotero-4528359-XMZ5USZY">ASGA B 22</rs>, S. 82)</note>
+                    </seg>
+                    <lb/>und wenn man schon einmal <lb/>einen poëtischen Gedanken – und <pb n="2"
+                        xml:id="p.2"/>Vorstellungsgange folgt, so soll <lb/>man nachher nicht
+                    fordern, dass <lb/>der Hörer als absolute Musik neh<g ref="#typoHyphen"/>
+                    <lb break="no"/>me, was eben nicht als absolute <lb/>Musik gewachsen ist. Ich
+                    bin <lb/>nebenbei der Meinung, dass das <lb/>Publikum williger folgen wird!
+                    <lb/>Also – raus mit dem Programm. <lb/>Schicken Sie mir die Partitur <lb/>dann
+                    bald zurück. Wir wollen <lb/>sie doch lieber erst <unclear reason="illegible"
+                        cert="high">nur</unclear>
+                    <seg type="comment">
+                        <orig>auto<g ref="#typoHyphen"/>
+                            <pb n="3" xml:id="p.3" break="no"/>graphieren lassen</orig>
+                        <note xml:id="ncrs_ggv_d5b">Unvollständige, im Auftrag der <orgName
+                            key="org.180">Verlags Dreililien Berlin</orgName> hergestellte
+                            autographische Partiturabschrift, bestehend aus 15 Bögen, verschollen
+                                (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=574&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA A 10, Quelle F*</ref>)</note>
+                    </seg>; das Stechen <lb/>bleibt ja immer noch, und <lb/>wenn ein Werk nicht
+                    aufgeführt <lb/>wird, und <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> wenn es nicht <lb/>mit Erfolg aufgeführt wird, so <lb/>kauft kein Mensch
+                    eine Partitur <lb/>und wenn sie noch so klein und <lb/>noch so billig ist.</p>
+                <p>So – und nun seien Sie <lb/>nicht so faul; uns Geld ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>locken unter dem Vorwande <pb n="4" xml:id="p.4"/>an eine grosse
+                    Arbeit gehen zu <lb/>wollen und nachher auf der <lb/>Bärenhaut liegen – das ist
+                    <lb/>zum Mindesten niederträchtig. <lb/>Können Sie eine Melodie mit <lb/>einer
+                    einfachen Begleitung schreiben? <lb/>Wissen Sie, dass Modulationen <lb/>nur im
+                    Gegensatz zur Tonalität <lb/>wirken, und dass Polyphonie, sollen <lb/>wir sie
+                    als blühend empfinden, in <lb/>Gegensatz zur Homophonie ge<g ref="#typoHyphen"/><pb n="5" xml:id="p.5" break="no"/>bracht werden muss? Und <lb/>dass ein unentwegt
+                    polyphones <lb/>Stück genau so monoton wirken <lb/>kann wie ein <subst>
+                        <del rendition="#ow">
+                            <gap reason="illegible" quantity="1" unit="words"/>
+                        </del>
+                        <add place="across">dito</add>
+                    </subst> homophones? <lb/>Wollen Sie mir versprechen diese <lb/>weisen Lehren zu
+                    beherzigen?</p>
+                <closer>
+                    <salute>Indessen – ich will nichts <lb/>gesagt haben – und ich begrüsse <lb/>Sie
+                        als Ihr erg. </salute>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <seg type="comment">
+                            <orig>Schicken Sie mir die <orgName key="org.143">Rh. Ztg</orgName>
+                                wieder!</orig>
+                            <note xml:id="nhqy_bgg_1vb"><p><bibl sameAs="werke.131">Arnold Schönberg, Zwei Gesänge für eine Baritonstimme und Klavier op.
+                                        1</bibl>; <bibl sameAs="werke.1">Vier Lieder für eine
+                                        Singstimme und Klavier op. 2</bibl>; <bibl sameAs="werke.41"
+                                        >Sechs Lieder für eine mittlere Singstimme und Klavier op.
+                                        3</bibl>; <bibl sameAs="werke.13">Verklärte Nacht op.
+                                        4</bibl></p><p>Rezensionen: <rs type="bibl" key="zotero-4528359-X55WTKHT">Rheinische Musik- und Theaterzeitung
+                                        1905</rs>; <rs type="bibl" key="zotero-4528359-MAM8YAVW"
+                                        >Rheinische Musik- und Theaterzeitung 1905a</rs></p></note>
+                        </seg>
+                        <lb/>Für unser Archiv.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

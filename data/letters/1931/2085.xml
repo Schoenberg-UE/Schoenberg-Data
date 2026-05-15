@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2085"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 16. September 1931</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2085</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2085</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.11.3.1">Montreux-Territet, Villa Maria</placeName>
+                    <date when="1931-09-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.20186"/>
+                    <ref type="answered-by" target="letter.17355"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2085_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2085_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.20">
+                        <persName key="pers.3263">ARNOLD SCHÖNBERG</persName>
+                        <lb/>PROFESSOR AN DER
+                            <orgName key="org.197">AKADEMIE DER KÜNSTE ZU
+                            BERLIN</orgName>
+                    </stamp>
+                    <dateline>
+                        <date when="1931-09-16">16.IX.1931</date>
+                    </dateline>
+                    <lb/>
+                    <address>
+                        <addrLine>
+                            <hi rendition="#u" hand="#author">TERRITET-MONTREUX</hi>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.11.3.1">
+                                <hi rendition="#u" hand="#author">VILLA
+                                MARIA</hi>
+                            </placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u" hand="#author">SCHWEIZ</hi>
+                        </addrLine>
+                    </address>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien, I. <placeName key="place.9.11.6.12">Karlsplatz
+                            6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>ich habe allerdings den <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note sameAs="letter.17667/#ny15_crt_gdc"/>
+                    </seg> vom <date when="1924-07-07">7. <lb/>Juli 1924</date> nicht hieher mitgenommen. Das ist aber auch
+                    <lb/>nicht nötig. Denn ich habe bereits vor zwei Jahren un<g ref="#typoHyphen"/>
+                    <lb break="no"/>ter rechtskundigem Beistand
+                    <!-- Anwaltskorrespondenz 1928 – 1930 enthält keinen Hinweis -->festgestellt,
+                    dass sich <lb/>eine diesbezügliche Bestimmung aus dem Vertrag nicht
+                    <lb/>herauslesen lässt. Wenigstens in meinem Exemplar, wel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ches doch ein mechanischer Durchschlag des von mir
+                    <lb/>unterzeichneten Exemplares ist, findet sich ein ganz <lb/>anderer Passus,
+                    der auch mir unbekannt war und ich ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>be bereits damals eine Vermutung gehabt, wieso es <lb/>zu einer
+                    solchen Formulierung gekommen sein konnte. <lb/>Jedenfalls berechtigt Sie dieser
+                    Passus nicht zu einem <lb/>andern Vorgehen gegen mich, als zu dem, das mündlich
+                    <lb/>nur vereinbart sein konnte.</p>
+                <p>Ich erlaube mir deshalb, Sie nochmals  <lb/>höflichst zu ersuchen, den mir zustehenden Betrag <!-- vgl. document.24069 -->auf  <lb/>mein Postscheckkonto einzuzahlen
+                    und bitte das gefäl<g ref="#typoHyphen"/>
+                    <lb break="no"/>ligst umgehend zu
+                    veranlassen. </p>
+                <closer>
+                    <seg rendition="#c">Mit vorzüglicher Hochachtung</seg>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold
+                            Schönberg</persName>
+                    </signed>
+                    <stamp sameAs="stamp.91">
+                        <persName key="pers.3263">ARNOLD
+                        SCHÖNBERG</persName>
+                        <lb/>BERLIN W 50<lb/>
+                        <placeName key="place.2.3.9.1">NÜRNBERGER PLATZ 3</placeName>
+                        <lb/>TEL. B4 BAVARIA 44 66</stamp>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.23512"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. Juli 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.23512</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 23512</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.9.1">Tobelbad, Wildbad Sanatorium</placeName>
+                    <date when="1911-07-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.6698"/>
+                    <ref type="response-to" target="letter.6699"/>
+                    <ref type="answered-by" target="letter.6700"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-17+02:00" who="KBleier">Korrektur Transkription</change><change when="2026-04-17+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/23512_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.23512_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.126">
+                        <orgName key="org.300">Wildbad Sanatorium Tobelbad</orgName>
+                        <lb/>Ärztliche Leitung:<lb/>Dr. <persName key="pers.4359">E. v.
+                            DÜRING</persName>, ehem. PROFESSOR a. d. <orgName key="org.301"
+                            >Universität Kiel</orgName>, früherer Leiter des <orgName key="org.302"
+                            >Sanatoriums Dr. Lahmann</orgName>.<lb/>Telegramm-Adresse:
+                        KURDIREKTION.<lb/>Telephon Nr. 1.<lb/>
+                        <placeName key="place.9.9">Tobelbad bei Graz</placeName>, am <seg
+                            hand="#author">
+                            <date when="1911-07-25">25. Juli 1911</date>
+                        </seg>
+                        <lb/>Steiermark.</stamp>
+                    <note place="inline" hand="#author">
+                        <hi rendition="#u">In aller Eile!</hi>
+                    </note>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>.</salute>
+                <p rendition="#inline">Soeben treffen Ihre <seg type="comment">
+                        <orig>beiden <lb/>Schreiben</orig>
+                        <note xml:id="nhhs_hg5_vvb">
+                            <ref target="letter.6698">Arnold Schönberg an Universal-Edition, 23.
+                                Juli 1911</ref>; <ref target="letter.6699">Arnold Schönberg an
+                                Universal-Edition, 24. Juli 1911</ref>
+                        </note>
+                    </seg> vom <date when="1911-07-23">23.</date> + <date when="1911-07-24">24.
+                        ds.</date> ein. Es ist von <persName key="pers.702">Cassirer</persName> sehr
+                    <lb/>unfreundlich, Sie nachdem er ja die <seg type="comment">
+                        <orig>Verhältnisse</orig>
+                        <note xml:id="nsql_zj5_bgc" resp="#TMuxeneder">Nach überstürzter Flucht aus
+                                <placeName key="place.9.11">Wien</placeName> im Sommer <date
+                                when="1911">1911</date> war <persName key="pers.3263"
+                                >Schönbergs</persName> finanzielle Lage äußerst angespannt. Sein
+                            Schüler <persName key="pers.385">Alban Berg</persName> versuchte über
+                                <persName key="pers.282">Hermann Bahr</persName> eine Sammlung zu
+                                <persName key="pers.3263">Schönbergs</persName> Gunsten zu
+                            initiieren; an einige wohlhabende Mäzene sollte der <ref
+                                target="document.6956">Aufruf</ref> ergehen, ein jährliches
+                            Stipendium auszusetzen. Der von <persName key="pers.385">Berg</persName>
+                            eingerichtete „<persName key="pers.3263">Schönberg</persName>-Fonds“
+                            enthielt lediglich einmalige Spenden (Alban Berg an Arnold Schönberg, 3.
+                            November 1911; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B197316">ASCC
+                                19731</ref>)</note>
+                    </seg> genau <lb/>kennt, so herum zu ziehen und <seg type="comment">
+                        <orig>hin zu halten</orig>
+                        <note sameAs="letter.6698/#nwjm_bj5_bgc"/>
+                    </seg>. –</p>
+                <p>Ich gebe Ihnen in Allem was Sie schreiben recht und <lb/>habe selbst die
+                    Empfindung, dass Sie wie kein <lb/>Anderer einen Mäcen verdienen – aber diese
+                    <lb/>Species – ist leider im Aussterben. – –</p>
+                <p>Sehen Sie das sind die grossen Mängel einer Actien-Gesellsch-<lb break="no"
+                    />Construction, dass die betreffenden Verwaltungsräte <lb/>dort wo sie im
+                    Geringsten ein Mäcenatentum <lb/>meinerseits wittern – sehr sehr unangenehm
+                    werden, <lb/>und mir ganz deutlich zu verstehen geben, dass <lb/>sie schon im
+                    eigenen Wirkungskreise genügend den <lb/>Förderer und Mäcen spielen und dass wir
+                        <hi rendition="#u">heute</hi>
+                    <lb/>wo wir <hi rendition="#u">für einen Theil unserer Actien noch keinen</hi>
+                    <lb/>
+                    <hi rendition="#u">Heller an Zinsen zalen können,</hi> nicht das Recht
+                    <lb/>haben Mäcenaten-Politik zu treiben. – Dieses <lb/>Wort ist bei manchen
+                    unserer Sitzungen in <lb/>einer für mich wenig angenehmen Weise gefallen.
+                    <lb/>Ich bestreite natürlich bei allen diesen Anlässen, <lb/>dass es sich um
+                    einen derartigen altruistischen Luxus <pb n="2" xml:id="p.2"/>handelt und habe
+                    bisher mit Erfolg noch <lb/>immer die Schlagworte vom „Weiten Blick“
+                    <lb/>„Voraussicht“ „Sicherung geschäftlicher Chancen“ etc <lb/>zur Geltung
+                    gebracht. – Dabei wird mir aber <lb/>bei diesen Transactionen sehr scharf auf
+                    die Finger <lb/>gesehen und ich riskire bei der leisesten Unvor<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>sichtigkeit eine drakonische Massregelung seitens <lb/>des
+                    Verwaltungsrates. Das würde <add place="superlinear">mir</add> gewisse
+                    <lb/>Machtbefugnisse völlig nehmen und der Schaden <lb/>für Einige zu deren
+                    Gunsten ich sie ausübe, <lb/>wäre ein schwerer. –</p>
+                <p>Sie sehen also unter dem Titel eines Mäcens darf <lb/>ich nichts für Sie weiter
+                    tun. – Aber Ihr Vorschlag <lb/>auf <subst>
+                        <del rendition="#s">uns die <hi rendition="#u">Priorität</hi> auf die</del>
+                        <add place="superlinear">Erwerbung</add>
+                    </subst> nachfolgende<choice>
+                        <sic>n</sic>
+                        <corr cert="high">r</corr>
+                    </choice>
+                    <lb/>Musiktheoretische<choice>
+                        <sic>n</sic>
+                        <corr cert="high">r</corr>
+                    </choice> Schriften:</p>
+                <list>
+                    <item>A. Kontrapunkt</item>
+                    <item>B. Instrumentationslehre</item>
+                    <item>C. Vorstudie zur Formenlehre, <add place="superlinear">Ca)</add> Form
+                        Analysen, Gesetze <add place="sublinear">daraus</add>
+                    </item>
+                    <item>D. Formenlehre</item>
+                </list>
+                <p>unter den Bedingungen der <bibl sameAs="schriften.1">Harmonielehre</bibl> d.
+                    <lb/>i 1/2 des Reingewinnes ermöglicht es mir Ihnen <lb/>einen weiteren Gesamt
+                    Vorschuss von K 1000.– <lb/>i W. tausend Kronen zur Verfügung zu stellen.
+                    <lb/>Sie hätten hierbei die Verpflichtung zu übernehmen <lb/>vor Beendigung
+                    dieser Schriften ohne unsere <lb/>Zustimmung <hi rendition="#u">kein</hi>
+                    <hi rendition="#u">anderes</hi> musikteoretisches Werk zu <lb/>veröffentlichen.
+                    – Falls Sie einverstanden sind bitte mit <lb/>dem mitfolgenden Briefe <del rendition="#s">samt unterfertigter Beilage</del>
+                    <lb/>ins Büro zu gehen und die K 1000.– einzucassiren. – <add place="sublinear"
+                        >und dort die Abmachung bei Frl <persName key="pers.3067">Rothe</persName>
+                        unterschreiben.</add>
+                </p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Vielleicht versuchen Sie aber bevor Sie <lb/>diese Bindung eingehen, (die zwar
+                    keine <lb/>ungünstige für Sie ist, denn Sie erhalten <lb/>ja von jedem Ihrer
+                    Werke die Hälfte des <lb/>Reingewinnes; was mit Rücksicht darauf
+                        <lb/>das<supplied cert="high">s</supplied> unsere Abrechnungen <hi
+                        rendition="#uu">rein</hi> sind (wie dies <lb/>nicht sehr häufig anderenortes
+                    der Fall ist) <lb/>für Sie sehr grosse Chancen bedeutet!) – <lb/>noch mit
+                        <orgName key="org.152">Schuster + Löffler</orgName> bezügl des Kontra<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>punktes allein. In diesem Falle rate ich Ihnen <lb/>aber ja
+                    nicht billig zu sein! –</p>
+                <p>Am Liebsten wäre mir allerdings Sie <lb/>könnten meinen Vorschlag mit dem ich
+                    Ihnen <lb/>so lange Sie wollen im Worte bleibe, annehmen, <lb/>denn es hat für
+                    Sie sicher einen ungeheuren <lb/>Wert alle Ihre Werke in einer Hand zu haben.
+                    <lb/>Ich hoffe ja doch mein Plan Ihre Werke vom <lb/>
+                    <orgName key="org.180">Dreililien Verlag</orgName> zu übernehmen wird sich bald
+                    realisiren <lb/>lassen. –</p>
+                <closer rendition="#r">
+                    <salute>
+                        <seg rendition="#c">Ich grüsse Sie herzlich und bleibe</seg>
+                        <lb/>Ihr Sie aufrichtig hochschätzender</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.1538">Emil Herzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

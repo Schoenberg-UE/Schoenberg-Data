@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.12386"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 27. Februar 1905</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12386</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12386</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1905-02-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12386_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.12386_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.51">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1905-02-27">
+                            <seg hand="#author">27. II. </seg>190<seg hand="#author">5</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>
+                </salute>
+                <p>Ich gratuliere! Das sind ja <seg type="comment">
+                        <orig>glänzende <lb/>Kritiken</orig>
+                        <note xml:id="nzdk_wm5_d5b">
+                            <ref target="event.5"/>
+                            <p>Anzahl und Titel unbekannt; Rezensionen aus dem Schönberg-Nachlass:
+                                    <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12441&amp;action=view&amp;sortieren=&amp;vonBis=0-999"
+                                    >Komorzynski 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12430&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Illustriertes Wiener Extrablatt 26. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12341&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Neue Freie Presse, 27. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12343&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Das Vaterland, 29. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12353&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Karpath 30. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12350&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Montags-Revue, 30. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12358&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Kauders, 1. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12357&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Deutsches Volksblatt, 1. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12361&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Wiener Zeitung, 1. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12363&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Wochenschrift für Kunst und Musik, 1. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12365&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Wiener Allgemeine Zeitung, 2. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12368&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Korngold, 3. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12367&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Leipziger Tageblatt, 3. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12371&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Neue musikalische Presse, 4. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12377&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Österreichische Volks-Zeitung, 7. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12382&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Graf, 8. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12383&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Helm, 8. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12392&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Neue Musikzeitung, 15. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12394&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Bach, 17. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12395&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Geisler, 17. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12397&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Wiener Sonn- und Montags-Zeitung, 20. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12398&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Politik, 21. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12349&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Stauber, 30. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12354&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Die Zeit, 31. Jänner 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12399&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Grube, 22. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12403&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Marschalk, 23. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12402&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Musikalisches Wochenblatt, 23. Februar 1905</ref>; <ref
+                                    target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=12420&amp;action=view&amp;sortieren=&amp;vonBis=0-9998"
+                                    >Wochenschrift für Kunst und Musik, 1. April 1905</ref></p>
+                        </note>
+                    </seg>! <seg type="comment">
+                        <orig>Hat sich <persName key="pers.647">Busoni</persName> bei Ihnen
+                            gemeldet?</orig>
+                        <note xml:id="ncyr_wm5_d5b">
+                            <date when="1904">1904</date>/<date when="1905">1905</date> keine
+                            Korrespondenz mit <persName key="pers.647">Ferruccio Busoni
+                            </persName>erhalten</note>
+                    </seg>
+                    <lb/>Hoffentlich entschliesst er sich Ihre <bibl sameAs="werke.5">symph. Dich<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>tung</bibl> im nächsten Winter zu machen. Wir wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den dann die saftigsten Stellen aus den Kritiken
+                    <lb/>herausziehen, drucken lassen und an die <placeName key="place.2.3"
+                        >Berliner</placeName>
+                    <lb/>Kritik versenden! Vielleicht glückt es uns ihren <lb/>Widerspruchsgeist zu
+                    erregen. Fatal ist ja die wohl<g ref="#typoHyphen"/>
+                    <lb break="no"/>wollende, fast mitleidige Schätzung, die <persName
+                        key="pers.4309">Zemlinsky</persName>
+                    <lb/>erfahren hat! Haben Sie nun noch etwas an der <pb n="2" xml:id="p.2"/>
+                    Partitur geändert? Die Länge – die Länge – ! <persName key="pers.2225"
+                        >Mahlers</persName>
+                    <lb/>„<bibl sameAs="werke.126">Fünfte</bibl>“ spielt 1 1/2 Stdn – es ist nicht
+                    auszuhalten – <lb/>unter uns: ein sehr schwaches Werk! Uebrigens: <lb/>Sie <hi
+                        rendition="#u">müssen</hi> die letzte <seg type="comment">
+                        <orig>Korrektur der <bibl sameAs="werke.13">Sextett</bibl>-Parti<g
+                                ref="#typoHyphen"/>
+                            <lb break="no"/>tur</orig>
+                        <note sameAs="letter.12381/#niy5_2s1_myb"/>
+                    </seg> haben! Sehen Sie doch mal zu. Wann kommen <lb/>endlich die Stimmen? Und
+                    dann: ich habe Ihnen, <lb/>als Sie noch in <placeName key="place.2.3"
+                        >Berlin</placeName> waren, die <seg type="comment">
+                        <orig>Gedichte von <persName key="pers.1832">Keller</persName>
+                            <lb/>und <persName key="pers.2370">Meyer</persName> geborgt</orig>
+                        <note xml:id="nzzp_grh_hzb" resp="#KBleier">Exemplare mit Namensvermerk
+                                „<persName key="pers.2283">Marschalk</persName>“ im
+                            Schönberg-Nachlass: <rs type="bibl" key="zotero-4528359-C6YEMDUL">Keller
+                                1884</rs> (<ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=5103&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >BOOK K22</ref>); <rs type="bibl" key="zotero-4528359-FACZBFDS"
+                                >Meyer 1892</rs> (<ref
+                                target="https://archive.schoenberg.at/library/eintrag.php?id_eintrag=5579&amp;action=view&amp;sortieren=lastChanged%20DESC&amp;vonBis=0-19"
+                                >BOOK M44</ref>)</note></seg>! Wo sind sie? Die beiden Cou<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>plets möchte ich auch
+                    zurückhaben! Schrieb ich <lb/>Ihnen schon, dass <persName key="pers.1037"
+                        >Eyken</persName> von Ihrer <bibl sameAs="werke.125">Instrumen<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>tation</bibl> sehr entzückt ist? Die <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.12379/#neg4_pby_b5b"/>
+                    </seg> zu <lb/>„<bibl sameAs="werke.5">Pelléas und Mélisande</bibl>“ möchte ich
+                    gern demnächst haben <lb/>– !</p>
+                <closer rendition="#inline">
+                    <salute>Mit besten Grüssen auch an Ihre <lb/>Frau <rs type="person"
+                            key="pers.3290">Gemahlin</rs> Ihr</salute>
+                    <signed>
+                        <persName key="pers.2283">Max Marschalk</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

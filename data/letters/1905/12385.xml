@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12385"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 9. Jänner 1905</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12385</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12385</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1905-01-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24167"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12385_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12385_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.51">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1905-01-09">
+                            <seg hand="#author">9. I. </seg>190<seg hand="#author">5</seg>
+                        </date>
+                    </stamp>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>.</salute>
+                <p>Wir wollen das <bibl sameAs="werke.13">Sextett</bibl> doch lieber nicht
+                    <lb/>drucken lassen, bevor Sie die letzten Korrekturen der <lb/>Stimmen gelesen
+                    haben werden. Sie sehen ja – es <lb/>finden sich immer noch Fehler. Wenn mir
+                    also <lb/>nicht noch etwas ganz besonderes in den Weg laufen <lb/>wird, werde
+                    ich zur <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nstf_cng_hzb" resp="#KBleier">
+                            <ref target="event.5"/>
+                        </note>
+                    </seg> Ihrer <bibl sameAs="werke.5">symph. Dich<g ref="#typoHyphen"/>
+                        <lb break="no"/>tung</bibl> nach <placeName key="place.9.11">Wien</placeName> kommen. Es ist doch sehr wich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tig, dass ich die Sache höre.</p>
+                <p>Nun möchte ich Sie fragen, ob Sie Zeit <lb/>und Lust hätten die beiden Gesänge
+                        <persName key="pers.1037">H. van <lb/>Eykens</persName> „<bibl sameAs="werke.133">Walkürenlied</bibl>“ und „<bibl sameAs="werke.134">Ikarus</bibl>“ zu <seg type="comment">
+                        <orig>instrumen<g ref="#typoHyphen"/>
+                            <lb break="no"/>tieren</orig>
+                        <note xml:id="nypl_2jw_hdc" resp="#KBleier">
+                            <bibl sameAs="werke.125">Heinrich van Eyken/Arnold Schönberg, Lied
+                                der Walküre op. 16/2</bibl>
+                        </note>
+                    </seg> und zu welchem menschlichen
+                    Preise Sie <lb/>diese Prozedur vornehmen würden. Sodann schicke <lb/>ich Ihnen
+                    zwei
+                    Schmarren. Meinen Sie, dass mit <lb/>ihnen / im <orgName key="org.194">Verlage
+                        Helianthus</orgName> natürlich / was anzufan<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen wäre? Es müssten wohl gleich die üblichen Aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gaben vorbereitet werden, <seg type="comment">
+                        <orig>Pariser-Besetzung</orig>
+                        <note xml:id="nzwf_34g_hzb" resp="#KBleier">Salonorchester Pariser
+                            Besetzung: Klavier, Violine, Violoncello (Kontrabass), Flöte (Kornett)
+                            und Schlagzeug (<rs type="bibl" key="zotero-4528359-FLNIXAQ5">Saary
+                                2005</rs>)</note>
+                    </seg> etc. Haben <lb/>Sie darin einige Erfahrung?</p>
+                <p>Wo könnte man in <placeName key="place.9.11">Wien</placeName> angenehm
+                    <lb/>wohnen, ohne gerade seine Haut einzubüssen <pb n="2" xml:id="p.2"/>oder von
+                    den Wanzen aufgefressen zu werden? <lb/>Vor Jahren habe ich mal im <placeName key="place.9.11.14.1">Hotel Kronprinz</placeName>
+                    <lb/>ganz passabel gewohnt.</p>
+                <p>Also machen Sie, dass Sie die Stim<g ref="#typoHyphen"/>
+                    <lb break="no"/>men fertig korrigieren, damit wir das Sex<g ref="#typoHyphen"/>
+                    <lb break="no"/>tett nun endlich herausbringen.</p>
+                <closer rendition="#c">
+                    <salute>Mit besten Grüssen <lb/>Ihr</salute>
+                    <signed>
+                        <persName key="pers.2283">
+                            <lb/>Max Marschalk</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Wenn es sich einrichten lassen wird, <lb/>werde ich natürlich schon zur
+                        Generalprobe <lb/>da sein. Um wie viel Uhr? Und wo?</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

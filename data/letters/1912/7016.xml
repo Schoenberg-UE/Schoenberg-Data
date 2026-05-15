@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7016"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 16. November 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7016</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7016</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1912-11-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Beilage zu <ref target="document.24389">Heinrich Schönberg an
+                        Universal-Edition, 16. November 1912</ref>; Beilage: <ref target="document.7016">Notiz, 16. November 1912</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-03-24+02:00" who="KBleier">Korrektur Harausgeberstreichung</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7016_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7016_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1" hand="#pers.3295">
+                    <pb n="1" xml:id="p.1"/>
+                    <opener>
+                        <stamp sameAs="stamp.6">
+                            <persName key="pers.3263">Arnold Schönberg</persName>, Berlin-Z<supplied cert="high">ehlend</supplied>orf-Wannseebahn <lb/> Machnower
+                            Chaussee, <placeName key="place.2.38.2">Villa
+                            Lepcke</placeName>.</stamp>
+                        <dateline>
+                            <placeName key="place.2.38">Zehlendorf</placeName> am <date when="1912-11-16">16. November 1912</date>
+                        </dateline>
+                    </opener>
+                    <salute hand="#pers.3263">Lieber Herr Direktor <persName key="pers.1538">Herzka</persName>,</salute>
+                    <p>Ich schicke Ihnen heute die <lb/>korrigierten Stimmen von „<bibl sameAs="werke.5">Pelleas und Melisande</bibl>“ <lb/>und das <seg type="comment">
+                            <orig>Fehlerverzeichnis</orig>
+                            <note xml:id="nvs1_5g5_2gc" resp="#KBleier">Nachgewiesene Quellen: Fehlerliste zum Erstdruck,
+                                autograph (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=581&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 10, Quelle J1</ref>); Fehlerliste zum Erstdruck
+                                (Durchschläge einer autographen Fehlerliste) und zu den
+                                Orchesterstimmen (von fremder Hand); insgesamt 45 Blätter (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=582&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 10, Quelle J2</ref>)</note>
+                        </seg>! Da die Ausbesserung
+                        <lb/>in den Materialen für <seg type="comment">
+                            <orig>
+                                <placeName key="place.8.1">Amsterdam</placeName>
+                            </orig>
+                            <note xml:id="npgj_bh5_2gc" resp="#KBleier">
+                                <ref target="event.197"/>
+                            </note>
+                        </seg> und<seg type="comment">
+                            <orig>
+                                <placeName key="place.2.22">Mann<g ref="#typoHyphen"/>
+                                    <lb break="no"/>heim</placeName>
+                            </orig>
+                            <note xml:id="nbzb_2h5_2gc" resp="#KBleier">
+                                <ref target="event.198"/>
+                            </note>
+                        </seg> sehr dringend ist und es zu spät <lb/>werden würde,
+                        wenn das erst über Sie gienge, <lb/>habe ich von meinem <rs type="person" key="pers.3295">Bruder</rs> das Fehlerver<g ref="#typoHyphen"/>
+                        <lb break="no"/>zeichnis mit zwei Durchschriften copieren <lb/>lassen. Eines
+                        davon sende ich nach <placeName key="place.2.22">Mann<g ref="#typoHyphen"/>
+                            <lb break="no"/>heim</placeName>, das andere nach <placeName key="place.8.1">Amsterdam</placeName> mit <lb/>dem Auftrag die Fehler
+                        darnach zu ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>bessern. Das Original dieser Copie lege <lb/>ich den
+                        korrigierten Stimmen bei, sodass Sie <lb/>2 Fehlerverzeichnisse haben, die
+                        Sie eventuell <pb n="2" xml:id="p.2"/>für <hi rendition="#rectangle" hand="#unknown">
+                            <placeName key="place.2.13">Frankfurt</placeName>
+                            <!-- nicht nachgewiesen -->
+                        </hi>, <seg type="comment">
+                            <orig>
+                                <placeName key="place.9.11">Wien</placeName>
+                            </orig>
+                            <note sameAs="letter.7010/#nkt4_5g2_zzb"/>
+                        </seg> und <seg type="comment">
+                            <orig>
+                                <hi rendition="#rectangle" hand="#unknown">
+                                    <placeName key="place.10.2">Petersburg</placeName>
+                                </hi>
+                            </orig>
+                            <note xml:id="nbyc_qh5_2gc" resp="#KBleier">
+                                <ref target="event.194"/>
+                            </note>
+                        </seg> be<g ref="#typoHyphen"/>
+                        <lb break="no"/>nutzen können. Selbstverständlich bitte ich <lb/>Sie, die
+                        anderen Fehlerverzeichnisse von <lb/>
+                        <placeName key="place.8.1">Amsterdam</placeName> und <placeName key="place.2.22">Mannheim</placeName> einzufordern.</p>
+                    <p>Gleichzeitig sende ich Ihnen noch ein <lb/>von mir angefertigtes Verzeichnis
+                        der <lb/>Fehler in der Partitur, die zum Teil <lb/>bei der Gelegenheit
+                        gefunden wurden. <lb/>Wollen Sie das auch copieren lassen <lb/>und
+                        gleichfalls an die betreffenden Städte <lb/>senden. Nach <placeName key="place.8.1">Amsterdam</placeName> und <placeName key="place.2.22">Mannheim</placeName>
+                        <lb/>habe ich Durchschriften selbst gesendet.</p>
+                    <p>An der Herstellung der Kopien des <lb/>Fehlerverzeichnisses hat mein Bruder
+                        <lb/>nahezu 12 Stunden gearbeitet. Es ist <lb/>also nötig, dass Sie ihm
+                        dafür ein <lb/>Extrahonorar geben, das ich Sie selbst zu <lb/>bemessen
+                        bitte.</p>
+                    <p>Wollen Sie nun so freundlich <pb n="3" xml:id="p.3"/>sein, das Honorar für
+                        meinen Bruder <lb/>
+                        <hi rendition="#u">umgehend</hi> an mich zu senden. – <lb/>Ihren gestrigen
+                            <seg type="comment">
+                            <orig>Brief</orig>
+                            <note xml:id="nnct_kf4_4wb">
+                                <ref target="letter.24227">Universal-Edition an Arnold Schönberg,
+                                    15. November 1912 [erschlossen]</ref>
+                            </note>
+                        </seg> werde ich <lb/>Nachmittag separat beantworten.</p>
+                    <closer>
+                        <salute>Mit herzlichen Grüßen </salute>
+                        <lb/>
+                        <signed>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2" hand="#pers.3263">
+                    <p>Ps. Das Fehlerverzeichnis hat sich <hi rendition="#u">rentiert</hi>! <lb/>Es
+                        sind über 350 Fehler! Davon <hi rendition="#u">60 schwere</hi>!!
+                        <lb/>Notenfehler! Das ist reichlich eine Probe!</p>
+                    <p>Mir wird eben eine Stunde abgesagt, also <lb/>kann ich Ihnen gleich
+                        antworten.</p>
+                    <p>Leider kann ich hier in <placeName key="place.2.3">Berlin</placeName> die
+                            <bibl sameAs="werke.16">Gurre-Lieder</bibl>
+                        <lb/>Partitur in so kurzer Zeit nicht <seg type="comment">
+                            <orig>kopieren
+                            lassen</orig>
+                            <note xml:id="neg3_f2d_kgc" resp="#KBleier">
+                                <p>Die nach der Partiturreinschrift (<ref
+                                        target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1531&amp;werke_id=480&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                        >ASGA B 16/1, Quelle C</ref>) faksimilierte Partitur hatte
+                                    sich als zu kleindimensioniert für Dirigierzwecke
+                                    herausgestellt. Die Herstellung der Orchesterstimmen war im
+                                    Hinblick auf die Uraufführung <ref target="event.47"/> ebenfalls
+                                    höchst dringend</p></note>
+                        </seg>.
+                        Ich <lb/>selbst kenne keinen einzigen Kopisten. Dagegen habe <lb/>ich einmal
+                        einen gesucht (resp. Frau <persName key="pers.4302">Zehme</persName>) und da
+                        <lb/>hat einer endlich die Arbeit übernommen, hat <lb/>uns <hi rendition="#u">3 Wochen</hi> hingehalten und sie dann un<g ref="#typoHyphen"/>
+                        <lb break="no"/>berührt zurückgegeben! Dieses Risiko kann ich <pb n="4" xml:id="p.4"/> natürlich nicht übernehmen.</p>
+                    <p>Die Arbeit ist kolossal umfa<supplied cert="high">ng</supplied>reich Ich
+                        <lb/>schätze cirka 1000–1500 Seiten (wenigstens) <lb/>Dazu brauch man gering
+                        3–4 sehr flinke Copisten! <lb/>Mein Bruder ist <hi rendition="#u">vorläufig</hi> für schnelle Sachen <lb/>nicht zu verwenden. Er arbeitet
+                        sehr gewissenhaft, <lb/>aber ebenso langsam! Er ist eher für Kalligrafie
+                        <lb/>geeignet, als für Schnellschrift. Ich glaube er <lb/>würde in der
+                        verfügbaren Zeit keine 200 <lb/>Seiten schreiben. Und das genügt doch nicht!
+                        <lb/>Ich habe jedenfalls alles mögliche sofort per <lb/>Telefon versucht.
+                        Eine Auskunft die ich er<g ref="#typoHyphen"/>
+                        <lb break="no"/>hielt muss ich Ihnen mitteilen. Von <orgName key="org.155">Simrock</orgName>, <lb/>an den ich mich unter <hi rendition="#u">Berufung auf Sie</hi>
+                        wandte:
+                        <lb/>er suche selbst seit 8 Tagen Copisten<!-- nicht erhalten -->. Obwohl er
+                        <lb/>viele (die überbeschäftigt sind<supplied cert="high">)</supplied>, habe<choice>
+                            <sic>)</sic>
+                            <corr type="deleted"/>
+                        </choice> sei es ihm <lb/>bis jetzt noch nicht gelungen einen zu bekommen.
+                        <lb/>Nach dieser Auskunft habe ich Ihnen <ref target="letter.7014">telegrafiert</ref>!</p>
+                    <p>– Nun habe ich aber eine andere Idee. <lb/>Trachten Sie in <placeName key="place.9.11">Wien</placeName> noch ein bis zwei <lb/>Copisten zu
+                        bekommen. Eventuell vom <orgName key="org.172">Ton<g ref="#typoHyphen"/>
+                            <lb break="no"/>
+                            <pb n="5" xml:id="p.5"/>künstlerorchester</orgName>, oder von der <lb/>
+                        <orgName key="org.184">Volksoper</orgName> (<orgName key="org.91">Hofoper</orgName>??) oder <orgName key="org.104">Konzertverein</orgName> und <lb/>tun Sie außerdem folgendes.</p>
+                    <p>Lassen Sie <persName key="pers.385">Berg</persName> zu sich kommen und
+                        <lb/>sagen Sie ihm, die <seg type="comment">
+                            <orig>Aufführung</orig>
+                            <note xml:id="nhlz_zln_bgc" resp="#KBleier">
+                                <p>
+                                    <ref target="event.47"/>
+                                </p>
+                                <p>Die späte Materialherstellung hatte zwar nicht die Absage, jedoch eine Verschiebung des zu diesem
+                                    Zeitpunkt geplanten Konzerttermins am <date when="1913-01-18">18. Jänner 1913</date> zufolge (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>, S. 41)</p>
+                            </note>
+                        </seg> der <bibl sameAs="werke.16">Gurre-<lb break="no"/>Lieder</bibl> sei in Frage gestellt. Ob <hi rendition="#u">er</hi> und <lb/>folgende <add place="superlinear">
+                            <metamark/>
+                        </add> meiner Schüler und Freunde (vielleicht <lb/>weiß jeder noch einen
+                        dazu!!) jeder einen <lb/>Theil (cirka 150–200 Seiten Stimmen)
+                        <lb/>übernehmen will. Versprechen Sie ihm <lb/>und einigen anderen ein
+                        Frei-Exemplar der <lb/>Partitur oder des Auszuges und ein gutes
+                        <lb/>Honorar. Wenn man jedem ein paar <lb/>Seiten der Partitur (10–20)
+                        giebt, müsste <lb/>
+                        <supplied cert="high">es</supplied> möglich sein. Vielleicht macht es auch
+                        <lb/>der eine oder andere aus der Studien<lb break="no"/>partitur. Man muss
+                        eben jedem <lb/>nur <hi rendition="#u">einen möglichst kleinen</hi> Theil
+                            zu<g ref="#typoHyphen"/>
+                        <lb break="no"/>muten, womöglich <add place="superlinear">sogar</add> nur
+                        100–150 Seiten. <lb/>Das sind 10 Seiten täglich. Vielleicht <lb/>gehts so.
+                        Die Namen der Betreffenden <pb n="6" xml:id="p.6"/> sind: (außer <add place="superlinear">1)</add>
+                        <persName key="pers.385">Berg</persName>)</p>
+                    <table>
+                        <row>
+                            <cell>2) <persName key="pers.1958">Paul Königer</persName> (XIII
+                                    <placeName key="place.9.11.5.6">Kuppelwiesergasse 27</placeName>)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>3) <persName key="pers.2172">Karl Linke</persName> (XV <placeName key="place.9.11.4.2">Sechshauserstraße 36/38</placeName>)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>4) <persName key="pers.2817">Josef Polnauer</persName> (VX.
+                                    <placeName key="place.9.11.4.1">Sechshauserstraße
+                                10</placeName>)</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>5) <hi rendition="#uu">
+                                    <persName key="pers.3206">Schmidt</persName>
+                                </hi> (ein Schüler von <persName key="pers.385">Berg</persName>, der
+                                    ka<supplied cert="high">nn</supplied>
+                                <lb/>sehr viel machen, da er Zeit hat <lb/>und sicher sehr geschickt
+                                und ver<g ref="#typoHyphen"/>
+                                <lb break="no"/>lässlich ist!!) <note place="left" hand="#author">VIII. <placeName key="place.9.11.7.3">Lammg. 7</placeName>
+                                </note>
+                            </cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>6) <hi rendition="#u">
+                                    <persName key="pers.1537">Heller</persName> und</hi>
+                            </cell>
+                            <cell rows="2">die Sie ja kennen (<persName key="pers.385">Berg</persName> weiß Adressen)</cell>
+                        </row>
+                        <row>
+                            <cell>7) <persName key="pers.1196">Galizenstein</persName>
+                            </cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>8. Vielleicht ist auch <hi rendition="#u">D<hi rendition="#sup #u">r</hi>
+                                    <persName key="pers.2966">Rudolf Rèti</persName>
+                                </hi>
+                                <lb/>dafür zu haben. (das weiß ich aber nicht!)</cell>
+                            <cell/>
+                        </row>
+                    </table>
+                    <p>Am meisten wird <persName key="pers.3206">Schmidt</persName> machen
+                        <lb/>können. Ich hoffe, dass der 25–30 <lb/>Seiten täglich zustande
+                        bringt.</p>
+                    <list>
+                        <item>
+                            <persName key="pers.385">Berg</persName> vielleicht (15–20)</item>
+                        <item>
+                            <persName key="pers.1958">Koniger</persName> ebenso <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>15–20</supplied>
+                            </ellipsis>
+                        </item>
+                        <item>
+                            <persName key="pers.2817">Polnauer</persName> etwas weniger, weil er
+                            sehr <pb n="7" xml:id="p.7"/>kurzsichtig ist.</item>
+                        <item>
+                            <persName key="pers.1537">Heller</persName> und <persName key="pers.1196">Galizenstein</persName> sind vielleicht weniger
+                            <lb/>fleißig aber 10 Seiten kann jeder leisten.</item>
+                        <item>
+                            <persName key="pers.2172">Linke</persName> hat wenig Zeit kann aber
+                            <lb/>auch etwas tun!</item>
+                    </list>
+                    <p>So dass man auf cirka 60–80 <lb/>Seiten mindestens täglich rechnen kann
+                        <lb/>(vielleicht sogar bis 90). Das macht <lb/>nach cirka 14 Tagen cirka
+                        800–1000 <lb/>Seiten. Wenn Sie dann für den <lb/>Rest Kopisten finden, gehts
+                        vielleicht doch.</p>
+                    <p>Es wäre sehr traurig, wenn die <lb/>
+                        <supplied cert="high">A</supplied>ufführung der <bibl sameAs="werke.16">Gurrelieder</bibl> daran <lb/>scheitern sollte!! Sie haben die
+                        vollständige <lb/>Partitur <seg type="comment">
+                            <orig>seit einem vollen Jahr
+                                bei sich</orig>
+                            <note xml:id="nu45_3gd_kgc" resp="#KBleier">Vgl. <ref target="letter.6989">Arnold Schönberg an Universal-Edition, 1.
+                                    Juli 1912</ref>
+                            </note>
+                        </seg>!!</p>
+                    <p>Ich werde hier in <placeName key="place.2.3">Berlin</placeName> noch trachten
+                        <lb/>Kopisten zu bekommen. Geht es dann <lb/>lasse ich einen Theil hier
+                        machen. Aber <pb n="8" xml:id="p.8"/>rechnen könne Sie darauf nicht.</p>
+                    <p>Und nun: damit nicht das<g ref="#typoHyphen"/>
+                        <lb break="no"/>selbe mit den Stimmen der <lb/>
+                        <bibl sameAs="werke.2">Kammersynphonie</bibl> passiert, die ja <lb/>für
+                            <placeName key="place.9.11">Wien</placeName> (<date when="1913-02-13">23. Februar</date>) gebraucht werden, <lb/>
+                        <hi rendition="#u">bitte ich Sie mir den Auftrag für <lb/>meinen Bruder für
+                            die Stimmen <lb/>des Quartetts der <bibl sameAs="werke.2">Kammersinfonie</bibl>
+                            <lb/>und vielleicht auch gleich für das <lb/>Material der <rs type="bibl">
+                                <bibl sameAs="werke.11">Orchesterlieder</bibl>
+                            </rs> zu
+                            geben.</hi>
+                        <lb/>Nicht wahr: das darf doch nicht mehr <lb/>vorkommen!!!</p>
+                    <p>Hoffentlich scheitert die Sache nicht. <lb/>Bitte um umgehenden Bericht.</p>
+                    <closer>
+                        <salute>Herzl Gruß</salute>
+                        <signed>
+                            <persName key="pers.3263">Schönberg</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

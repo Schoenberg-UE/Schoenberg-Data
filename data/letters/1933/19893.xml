@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19893"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 20. Juli 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19893</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19893</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1933-07-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4">Paris</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2307"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19893_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19893_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.1740">Ks.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1933-07-20">20. Juli 1933</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold
+                                Schönberg</persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <placeName key="place.4.4">Paris</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir empfingen Ihr Flugpost <ref target="letter.2307">Schreiben</ref> mit
+                        Poststem<g ref="#typoHyphen"/>
+                    <lb break="no"/>pel <date when="1933-07-19">19. ds.</date> und müssen Ihnen mitteilen, dass Sie vollkommen im
+                    <lb/>Unrecht sind, wenn Sie annehmen, dass wir nicht in jeder Beziehung <lb/>zu
+                    Ihnen halten. Wenn es uns möglich gewesen wäre, hätten wir Ihrem <lb/>uns <ref target="letter.2380">telegrafisch</ref> ausgesprochenen Wunsche im vollen
+                    Umfang Rechnung <lb/>getragen. In guten Zeiten ist es leicht ein guter Mensch zu
+                    sein, aber <lb/>jetzt hat man überall mit grössten Schwierigkeiten zu
+                    kämpfen.</p>
+                <p>Es ist uns gelungen Frs. 3000.– freizubekommen und <lb/>haben wir Ihnen diesen
+                    Betrag sofort <add place="superlinear">telegrafisch durch die <orgName key="org.199">Länderbank</orgName>
+                    </add> zugehen lassen. Das <orgName key="org.27">Bankhaus <lb/>Friedenstein</orgName> hat gestern bei uns
+                    angerufen, aber mit keinem unserer <lb/>Herren sondern mit der Buchhaltung
+                    gesprochen. Heute habe ich zwei<g ref="#typoHyphen"/>
+                    <lb break="no"/>mal versucht das Bankhaus anzurufen, ohne eine Verbindung zu
+                    erhalten. <lb/>Ich werde dies am späteren Nachmittag nochmals versuchen.
+                    Jedenfalls <lb/>können Sie zu uns mindestens ebensoviel Vertrauen haben als zu
+                    irgend <lb/>jemand anderem. Wenn wir Ihnen behilflich sein können, werden wir
+                    dies <lb/>gewiss tun. Wir müssen aber die behördlichen Vorschriften genau ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten und sind leider durch den überaus schlechten
+                    Zahlungseingang <lb/>gezwungen, grösste Vorsicht in unseren Ausgaben walten zu
+                    lassen.</p>
+                <p>Wie immer Sie unser Verhalten auffassen, erlauben <lb/>wir uns Sie nach wie vor
+                    auf das herzlichste zu begrüssen.</p>
+                <closer>
+                    <salute rendition="#r">In vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#uda">per Flugpost</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

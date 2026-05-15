@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude"
+     xmlns:telota="http://www.telota.de"
+     xmlns:rng="http://relaxng.org/ns/structure/1.0"
+     xmlns:mei="http://www.music-encoding.org/ns/mei"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>ODD für ediarum.ASUE</title>
+        <editor>Jannik Franz</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+        <pubPlace key="place.9.11">Wien</pubPlace>
+        <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA) 4.0)</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Das ediarum zugrundeliegende TEI-XML-Schema basiert weitgehend auf dem Basisformat des Deutschen Textarchivs.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="asue" prefix="tei_" start="TEI" source="https://raw.githubusercontent.com/ediarum/ediarum.BASE.data-model/dev/dist/ediarum.compiled.odd">
+        <!-- ediarum -->
+        <moduleRef key="core" except="cb cit email foreign l lg listBibl measure name q"/> <!-- includes abbr, add, addrLine, address, author, bibl, biblScope choice corr quote date del editor expan gap head hi item lb list milestone note orig p pb pubPlace publisher ref reg resp respStmt sic title unclear -->
+        <moduleRef key="header" except="biblFull classCode edition editionStmt editorialDecl extent handNote langUsage language notesStmt rendition tagsDecl"/> <!-- includes abstract, availability, encodingDesc, fileDesc, idno, licence, profileDesc, publicationStmt, seriesStmt, sourceDesc, teiHeader, textClass, titleStmt -->
+        <moduleRef key="tei"/> <!-- this module has no elements defined -->
+        <moduleRef key="textstructure" except="argument back byline docAuthor docTitle epigraph floatingText front titlePage titlePart trailer"/> <!-- includes TEI, body, closer, dateline, div, opener, postscript, salute, signed, text -->
+        <moduleRef key="figures" except="formula"/> <!-- includes cell, figure, row, table -->
+        <moduleRef key="linking"/> <!-- empty, only attributes from this class are selected -->
+        <moduleRef key="msdescription" except="physDesc handDesc"/> <!-- includes msDesc, msIdentifier, repository -->
+        <moduleRef key="namesdates" except="addName country genName nameLink roleName"/> <!-- includes forename, orgName, persName, placeName, surname -->
+        <moduleRef key="textcrit"/> <!-- includes listWit, witness -->
+        <moduleRef key="transcr" except="fw space"/> <!-- includes metamark, subst, supplied -->
+        <moduleRef key="gaiji"/> <!-- includes g -->
+        
+        <!--<specGrpRef target="#extension.mei"/>-->
+        <specGrpRef target="datatypes.odd.xml#asue-datatypes"/>
+        <!--<specGrpRef target="datatypes.odd.xml#rendition"/>-->
+        
+        <!-- ################################################################## -->
+        <!-- ###################### HEADER AND FACSIMILE ###################### -->
+        <!-- ################################################################## -->
+        
+        <!-- include element <term> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="term" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <keywords> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="keywords" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <settlement> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="settlement" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <altIdentifier> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="altIdentifier" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <ellipsis> which is excluded from DTABf (we use it as ditto mark) -->
+        <elementRef key="ellipsis" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <funder> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="funder" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <revisionDesc> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="revisionDesc" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <change> which is excluded from DTABf (we use it in the teiHeader) -->
+        <elementRef key="change" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- include model.resource class for <facsimile> element -->
+        <classRef key="model.resource" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <facsimile> which is excluded from DTABf -->
+        <elementRef key="facsimile" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- include three attribute classes to get access to the atributes @mimeType and @url that are used on <graphic> -->
+        <classRef key="att.media" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <classRef key="att.internetMedia" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <classRef key="att.resourced" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        <!-- include element <graphic> which is excluded from DTABf (we use it as child of <facsimile>) -->
+        <elementRef key="graphic" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- make attribute @type on <title> optional -->
+        <elementSpec ident="title" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="replace" usage="opt">
+              <datatype>
+                <dataRef key="teidata.enumerated"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow @key on <pubPlace> (in ediarum.BASE only @ref is allowed) -->
+        <elementSpec ident="pubPlace" module="core" mode="change">
+          <attList>
+            <attRef name="key" class="att.canonical"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow @ref on <institution> which is excluded from DTABf and added in ediarum.BASE, but without any attributes -->
+        <elementSpec ident="institution" module="msdescription" mode="change">
+          <attList>
+            <attRef name="ref" class="att.canonical"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow <orgName> as child of <creation> which is excluded from DTABf and added in ediarum.BASE with content <persName>, <placeName> and <date> -->
+        <elementSpec ident="creation" module="header" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <elementRef key="persName"/>
+              <elementRef key="orgName"/>
+              <elementRef key="placeName"/>
+            </alternate>
+            <elementRef key="date" minOccurs="0" maxOccurs="1"/>
+          </content>
+        </elementSpec>
+        
+        <!-- change content of root element
+             The class "model.resource" is included above to use the <facsimile> element
+             The class "model.resourceLike" is created by ediarum.BASE and contains only the <text> element
+             Include attribute @type (we use it to mark letters that are lost and which existence is deduced from the correspondence)
+        -->
+        <elementSpec ident="TEI" module="textstructure" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="teiHeader" minOccurs="1" maxOccurs="1"/>
+              <classRef key="model.resource" minOccurs="0" maxOccurs="1"/>
+              <classRef key="model.resourceLike" minOccurs="1" maxOccurs="1"/>
+            </sequence>
+          </content>
+          <attList>
+            <attDef ident="xml:id" mode="change">
+              <datatype>
+                <dataRef key="asue.textId"/>
+              </datatype>
+            </attDef>
+            <attRef name="type" class="att.typed"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- include "bibl" as value of @type on <rs> (needed for references to the zotero collection in <witness>) -->
+        <elementSpec ident="rs" module="core" mode="change">
+          <attList>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="bibl" mode="add"/>
+              </valList>
+            </attDef>
+            <attRef name="key" class="att.canonical"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- include attributes @from and @to to <biblScope> that were deleted from the element in DTABf and replace DTABfs list of values for @unit -->
+        <elementSpec ident="biblScope" module="core" mode="change">
+          <attList>
+            <attRef name="from" class="att.citing"/>
+            <attRef name="to" class="att.citing"/>
+            <attDef ident="unit" mode="change" usage="req">
+              <valList type="closed" mode="replace">
+                <valItem ident="page"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- ################################################################## -->
+        <!-- ############################## TEXT ############################## -->
+        <!-- ################################################################## -->
+        
+        <!-- include element <stamp> which is excluded from DTABf (we use it for stamped and preprinted text in the <body>) -->
+        <elementRef key="stamp" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- include element <notatedMusic> which is excluded from DTABf -->
+        <elementRef key="notatedMusic" source="https://www.tei-c.org/release/xml/tei/odd/p5subset.xml"/>
+        
+        <!-- extend elementSpec of <seg>, which is excluded from DTABf but added in ediarum.BASE
+             <seg> is used in our project not only for editorial comments but also to mark the positioning of arbitrary text segments (with @rendition) or to encode handwritten text inside stamps and preprinted text (with @hand) -->
+        <elementSpec ident="seg" module="linking" mode="change">
+          <content>
+            <macroRef key="macro.paraContent"/>
+            <elementRef key="signed" minOccurs="0" maxOccurs="unbounded"/>
+          </content>
+          <attList>
+            <attRef name="rendition" class="att.global.rendition"/>
+            <attRef name="hand" class="att.written"/>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="row" mode="add"/>
+                <valItem ident="column" mode="add"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- include attribute @rendition to <addrLine> that was deleted from the element in DTABf (we use it for positioning)-->
+        <elementSpec ident="addrLine" module="core" mode="change">
+          <attList>
+            <attRef name="rendition" class="att.global.rendition"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- expect values of @key on <persName> to conform with the ASUE-Datatype for person-IDs -->
+        <elementSpec ident="persName" module="namesdates" mode="change">
+          <attList>
+            <attDef ident="key" mode="change">
+              <datatype>
+                <rng:ref name="asue.persRef"/>                
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- add to @rendition values "#uda" for dashed underlines, "#o" for overlines, "#r" and "#l" for text on the right or left margin, "#inline" and "#inline-block" for general layout, "#circle" and "#rectangle" for shaped borders, "#ll", "#lr", "#lll" and "#llr" for single or multiple vertical lines at the margins, "#blockquote" for block-level quotes and "#small" for smaller table-layout -->
+        <classSpec type="atts" ident="att.global.rendition" module="tei" mode="change">
+          <attList>
+            <attDef ident="rendition" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="#uda" mode="add"><desc>strichlierte Unterstreichung</desc></valItem>
+                <valItem ident="#o" mode="add"><desc>Überstrich</desc></valItem>
+                <valItem ident="#r" mode="add"><desc>rechtsbündig</desc></valItem>
+                <valItem ident="#l" mode="add"><desc>linksbündig</desc></valItem>
+                <valItem ident="#inline" mode="add"><desc>innerhalb der Zeile</desc></valItem>
+                <valItem ident="#inline-block" mode="add"><desc>beginnt innerhalb der Zeile, endet mit Zeilenumbruch</desc></valItem>
+                <valItem ident="#circle" mode="add"><desc>umkreist</desc></valItem>
+                <valItem ident="#rectangle" mode="add"><desc>umrahmt</desc></valItem>
+                <valItem ident="#lr" mode="add"><desc>Anstreichung am rechten Rand</desc></valItem>
+                <valItem ident="#ll" mode="add"><desc>Anstreichung am linken Rand</desc></valItem>
+                <valItem ident="#llr" mode="add"><desc>mehrfache Anstreichung am rechten Rand</desc></valItem>
+                <valItem ident="#lll" mode="add"><desc>mehrfache Anstreichung am linken Rand</desc></valItem>
+                <valItem ident="#blockquote" mode="add"><desc>graphisch vom Rest des Textes abgehobenes Zitat</desc></valItem>
+                <valItem ident="#small" mode="add"><desc>nimmt nicht die gesamte Seitenbreite ein (für Tabellen)</desc></valItem>
+                <valItem ident="#indent" mode="add"><desc>eingezogen</desc></valItem>
+                <valItem ident="#m" mode="add"><desc>vertikal zentriert</desc></valItem>
+                <valItem ident="#st" mode="add"><desc>Stenographie</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        <!-- allow attribute @hand on <div> that was deleted from the element in DTABf (e. g. for letters written by UE staff but signed by director) -->
+        <!-- change allowed values on @type -->
+        <elementSpec ident="div" module="textstructure" mode="change">
+          <attList>
+            <attRef name="hand" class="att.written"/>
+            <attDef ident="type" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="document" mode="add"><desc>Dokument</desc></valItem>
+                <valItem ident="chapter" mode="delete"/>
+                <valItem ident="contents" mode="delete"/>
+                <valItem ident="diaryEntry" mode="delete"/>
+                <valItem ident="index" mode="delete"/>
+                <valItem ident="poem" mode="delete"/>
+                <valItem ident="recipe" mode="delete"/>
+                <valItem ident="session" mode="delete"/>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow attribute @break on <pb> that was deleted from the element in DTABf with a single accepted value "no" (like <lb>) -->
+        <!-- allow attribute @sameAs on <pb> that was deleted from the element in DTABf (we use it for postcards if one side includes both the address and the end of the text) -->
+        <elementSpec ident="pb" module="core" mode="change">
+          <attList>
+            <attDef ident="break" mode="add">
+              <valList type="closed">
+                <valItem ident="no"/>
+              </valList>
+            </attDef>
+            <attRef name="sameAs" class="att.global.linking"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- add values "ellipsis" and "done" to @function on <metamark>, which are used for dito-signs and deletions that indicate the completion of a task -->
+        <!-- allow attribute @hand on <metamark> which is not possible in TEI-all -->
+        
+        <elementSpec ident="metamark" module="transcr" mode="change">
+          <attList>
+            <attDef ident="function" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="ellipsis" mode="add"/>
+                <valItem ident="done" mode="add"/>
+              </valList>
+            </attDef>
+            <attRef name="target" class="att.pointing"/>
+            <attRef name="hand" class="att.written"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow attribute @hand on <salute> that was deleted from the element in DTABf -->
+        <elementSpec ident="salute" module="textstructure" mode="change">
+          <attList>
+            <attRef name="hand" class="att.written"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow attribute @type on <list> that was deleted from the element in DTABf -->
+        <elementSpec ident="list" module="core" mode="change">
+          <attList>
+            <attRef name="type" class="att.typed"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- add value "across" to @place on <note>, which is used for notes that are written across the existing text and values "superlinear" and "sublinear" for notes above or blow a line of text -->
+        <!-- broaden content model so that it can include letter-specific elements <salute>, <closer> and <signed> as well as several paragraphs -->
+        <elementSpec ident="note" module="core" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <macroRef key="macro.specialPara"/>
+              <elementRef key="salute"/>
+              <elementRef key="closer"/>
+              <elementRef key="signed"/>
+              <elementRef key="p"/>
+            </alternate>
+          </content>
+          <attList>
+            <attDef ident="xml:id" mode="change">
+              <datatype>
+                <dataRef key="asue.noteId"/>
+              </datatype>
+            </attDef>
+            <attDef ident="sameAs" mode="change">
+              <datatype>
+                <dataRef key="asue.noteRef"/>
+              </datatype>
+            </attDef>
+            <attDef ident="place" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="across" mode="add"><desc>Über den bestehenden Text geschrieben</desc></valItem>
+                <valItem ident="superlinear" mode="add"><desc>Über die Zeile geschrieben</desc></valItem>
+                <valItem ident="sublinear" mode="add"><desc>Unter die Zeile geschrieben</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- make <stamp> a member of the model class "global", so it can appear anywhere in the document, not just in <opener> and <closer> -->
+        <elementSpec ident="stamp" module="msdescription" mode="change">
+          <classes mode="change">
+            <memberOf key="model.global" mode="add"/>
+          </classes>
+          <attList>
+            <attDef ident="sameAs" mode="change">
+              <datatype>
+                <dataRef key="asue.stampRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- allow attribute @rendition on <gap> that was deleted from the element in DTABf -->
+        <elementSpec ident="gap" module="core" mode="change">
+          <attList>
+            <attRef name="rendition" class="att.global.rendition"/>
+            <attDef ident="reason" mode="change">
+              <valList type="closed" mode="change">
+                <valItem ident="steno" mode="add"><desc>Stenographie</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- make <bibl> a member of the model class "phrase" (like <persName>, <orgName> etc.), so it can appear e. g. in <closer>
+        during this step some attributes are removed from the element, so @sameAs has to be included again -->
+        <elementSpec ident="bibl" module="core" mode="change">
+          <classes mode="change">
+            <memberOf key="model.phrase" mode="add"/>
+          </classes>
+          <attList>
+            <attDef ident="sameAs" mode="replace">
+              <datatype>
+                <dataRef key="asue.workRef"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- replace definition of @place in class "att.placement" with our own values (see letter.23853) -->
+        <classSpec type="atts" ident="att.placement" mode="replace">
+          <attList>
+            <attDef ident="place" mode="add">
+              <valList type="closed" mode="add">
+                <valItem ident="across"><desc>Hinzufügung durch Überschreibung des zu korrigierenden Textes.</desc></valItem>
+                <valItem ident="intralinear"><desc>Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.</desc></valItem>
+                <valItem ident="superlinear"><desc>Einfügung über der Zeile.</desc></valItem>
+                <valItem ident="sublinear"><desc>Einfügung unter der Zeile.</desc></valItem>
+                <valItem ident="left"><desc>Einfügung am linken Rand.</desc></valItem>
+                <valItem ident="right"><desc>Einfügung am rechten Rand.</desc></valItem>
+                <valItem ident="mTop"><desc>Einfügung am oberen Rand.</desc></valItem>
+                <valItem ident="mBottom"><desc>Einfügung am unteren Rand.</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        <!-- add values "mTop" and "mBottom" to @place on <add> to encode syntactic additions on the page margins (see letter.21591 and letter.7233) -->
+        <elementSpec ident="add" ns="http://www.tei-c.org/ns/1.0" module="core" mode="change">
+          <attList>
+            <attDef ident="place" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="across"><desc>Hinzufügung durch Überschreibung des zu korrigierenden Textes.</desc></valItem>
+                <valItem ident="intralinear"><desc>Einfügung innerhalb der Textzeile, jedoch ohne bestehenden Text zu überschreiben.</desc></valItem>
+                <valItem ident="superlinear"><desc>Einfügung über der Zeile.</desc></valItem>
+                <valItem ident="sublinear"><desc>Einfügung unter der Zeile.</desc></valItem>
+                <valItem ident="left"><desc>Einfügung am linken Rand.</desc></valItem>
+                <valItem ident="right"><desc>Einfügung am rechten Rand.</desc></valItem>
+                <valItem ident="mTop"><desc>Einfügung am oberen Rand.</desc></valItem>
+                <valItem ident="mBottom"><desc>Einfügung am unteren Rand.</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- add element <salute> to content-model of <quote> -->
+        <elementSpec ident="quote" module="core" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <macroRef key="macro.specialPara"/>
+              <elementRef key="salute"/>       
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- add class "listLike" to the content model of <closer> to be able to encode e. g. a list of attachments at the end of a letter -->
+        <elementSpec ident="closer" module="textstructure" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="unbounded">
+              <textNode/>
+              <classRef key="model.gLike"/>
+              <elementRef key="signed"/>
+              <elementRef key="dateline"/>
+              <elementRef key="salute"/>
+              <classRef key="model.phrase"/>
+              <classRef key="model.global"/>
+              <classRef key="model.listLike"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- make <signed> a member of model class "inter" so that it can appear inside of <add> or other phrase-level elements -->
+        <elementSpec ident="signed" module="textstructure" mode="change">
+          <classes mode="change">
+            <memberOf key="model.inter" mode="add"/>
+          </classes>
+        </elementSpec>
+        
+        <!-- add @place to <postscript> to encode postscripts at the left or right margins -->
+        <elementSpec ident="postscript" module="textstructure" mode="change">
+          <attList>
+            <attRef name="place" class="att.placement"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- add element <salute> to content-model of <cell> (cf. leter.947 and letter.7083) -->
+        <elementSpec ident="cell" module="figures" mode="change">
+          <content>
+            <alternate minOccurs="1" maxOccurs="1">
+              <macroRef key="macro.specialPara"/>
+              <elementRef key="salute"/>       
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- ################################################################################################################### -->
+        <!-- ##################################### EINGRENZUNGEN DES SCHEMAS ################################################### -->
+        <!-- ################################################################################################################### -->
+        
+        <!-- require @target on <ref> -->
+        <elementSpec ident="ref" module="core" mode="change">
+          <attList>
+            <attDef ident="target" mode="change" usage="req">
+              <datatype minOccurs="1" maxOccurs="1">
+                <dataRef key="teidata.pointer"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- define content of <altIdentifier> -->
+        <elementSpec ident="altIdentifier" module="msdescription" mode="change">
+          <content>
+            <sequence>
+              <elementRef key="placeName"/>
+              <elementRef key="institution"/>
+              <elementRef key="idno"/>
+            </sequence>
+          </content>
+        </elementSpec>
+        
+        <classSpec type="atts" ident="att.written" mode="change">
+          <attList>
+            <attDef ident="hand" mode="change">
+              <datatype>
+                <dataRef key="asue.handValues"/>
+              </datatype>
+            </attDef>
+          </attList>
+        </classSpec>
+        
+        
+        <!-- ################################################################################################################### -->
+        <!-- ###################################### CHANGES FOR COMPILED ODD ################################################### -->
+        <!-- ################################################################################################################### -->
+        
+        <!-- delete class "att.datable" because its attribute list is empty (its attribute @evidence and @instant were deleted in DTABf) and it has no child classes -->
+        <classSpec type="atts" ident="att.editLike" mode="delete"/>
+        
+        
+        <!-- ################################################################################################################### -->
+        <!-- ########################################### ENCODING OF MUSIC NOTATION ############################################ -->
+        <!-- ################################################################################################################### -->
+        
+        <!-- change content model of <notatedMusic> so that it may include the MEI-elements <mdiv>, <section> or <layer> -->
+        <elementSpec ident="notatedMusic" module="figures" mode="change">
+          <content>
+            <alternate minOccurs="0" maxOccurs="unbounded">
+              <elementRef key="mei_mdiv"/>
+              <elementRef key="mei_section"/>
+              <elementRef key="mei_layer"/>
+            </alternate>
+            <!-- Original Content model of "notatedMusic" => not needed, we only use MEI-Encoding inside the element -->
+            <!--<alternate minOccurs="0" maxOccurs="unbounded">
+              <classRef key="model.labelLike"/>
+              <classRef key="model.ptrLike"/>
+              <elementRef key="graphic"/>
+              <elementRef key="binaryObject"/>
+              <elementRef key="seg"/>
+            </alternate>-->
+          </content>
+          <!-- the style attribute can be used to convey information about the scaling fot the web presentation -->
+          <attList>
+            <attDef ident="style" module="att.global.rendition" mode="add">
+              <datatype>
+                <dataRef key="teidata.text"/>
+              </datatype>
+            </attDef>
+            <attDef ident="place" module="att.placement" mode="change" usage="opt">
+              <valList type="closed" mode="replace">
+                <valItem ident="inline" mode="add"><desc>Notenbeispiel folgt dem Text innerhalb der Zeile</desc></valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        <!-- Include module classes from MEI -->
+        <moduleRef key="MEI" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/> <!-- no elements defined, only datatypes and one attribute class -->
+        <moduleRef key="MEI.shared" include="artic chord clef dir label layer lb mdiv note rend rest sb score scoreDef section space staff staffDef staffGrp syl tempo" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.cmn" include="beam bracketSpan hairpin mSpace measure slur tie tuplet" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.analytical" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/> <!-- defines attribute classes -->
+        <moduleRef key="MEI.cmnOrnaments" include="trill" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.edittrans" include="add del subst" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.gestural" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/> <!-- defines attribute classes -->
+        <moduleRef key="MEI.lyrics" include="verse" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.usersymbols" include="line" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/>
+        <moduleRef key="MEI.visual" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/> <!-- defines attribute classes -->
+        <moduleRef key="MEI.externalsymbols" source="/C:/Users/franz-j/Documents/Schoenberg-UE/schema/ODD/mei-source.xml"/> <!-- defines attribute classes -->
+        
+        
+        <!-- In MEI 4.0 Attribute class "extSym" (from module "externalsymbols") contains four attributes, in MEI 5.0 it contains two attribute classes: "extSym.auth" and "extSym.names" -->
+        <elementSpec ident="rend" ns="http://www.music-encoding.org/ns/mei" module="MEI.shared" mode="change">
+          <attList>
+            <attRef class="mei_att.extSym" name="glyph.auth"/>
+          </attList>
+        </elementSpec>
+        
+        <!-- set MEI namespace on schematron rules -->
+        <constraintSpec ident="set_ns" scheme="schematron" mode="add">
+          <constraint>
+            <sch:ns xmlns:sch="http://purl.oclc.org/dsdl/schematron" prefix="mei" uri="http://www.music-encoding.org/ns/mei"/>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- delete constraint: "Only analog, class, label, mm, mm.dots, mm.unit, n, translit, type, xml:base, xml:id, and xml:lang attributes are allowed when tempo is not a descendant of a score or part." -->        
+        <elementSpec ident="tempo" ns="http://www.music-encoding.org/ns/mei" module="MEI.shared" mode="change">
+          <constraintSpec ident="tempo_in_header_disallow_most_attrs" scheme="schematron" mode="delete"/>
+        </elementSpec>
+        
+        <!-- add class "noteModifierLike" to content model of <del> in order to encode deleted articulation marks -->
+        <elementSpec ident="del" ns="http://www.music-encoding.org/ns/mei" module="MEI.edittrans" mode="change">
+          <content>
+            <alternate minOccurs="0" maxOccurs="unbounded">
+              <textNode/>
+              <classRef key="mei_model.editLike"/>
+              <classRef key="mei_model.editTransPart"/>
+              <classRef key="mei_model.keyAccidLike"/>
+              <classRef key="mei_model.layerPart"/>
+              <classRef key="mei_model.milestoneLike.music"/>
+              <classRef key="mei_model.sectionPart"/>
+              <classRef key="mei_model.staffGrpLike"/>
+              <classRef key="mei_model.transcriptionLike"/>
+              <classRef key="mei_model.noteModifierLike"/>
+            </alternate>
+          </content>
+        </elementSpec>
+        
+        <!-- add class "noteModifierLike" to content model of <add> in order to encode added articulation marks -->
+        <elementSpec ident="add" ns="http://www.music-encoding.org/ns/mei" module="MEI.edittrans" mode="change">
+          <content>
+            <alternate minOccurs="0" maxOccurs="unbounded">
+              <textNode/>
+              <classRef key="mei_model.editLike"/>
+              <classRef key="mei_model.editTransPart"/>
+              <classRef key="mei_model.graphicPrimitiveLike"/>
+              <classRef key="mei_model.keyAccidLike"/>
+              <classRef key="mei_model.layerPart"/>
+              <classRef key="mei_model.milestoneLike.music"/>
+              <classRef key="mei_model.sectionPart"/>
+              <classRef key="mei_model.staffGrpLike"/>
+              <classRef key="mei_model.transcriptionLike"/>
+              <classRef key="mei_model.noteModifierLike"/>
+            </alternate>
+          </content>
+          <!-- Führt zu Fehler: Datentyp "mei_data.PLACEMENT" kann nicht gefunden werden -->
+          <!--<attList>
+            <attDef ident="place" usage="opt">
+              <desc xml:lang="en">Location of the addition.</desc>
+              <datatype maxOccurs="unbounded">
+                <dataRef name="mei_data.PLACEMENT"/>
+              </datatype>
+            </attDef>
+          </attList>-->
+        </elementSpec>
+        
+        <!-- ##############################################################################-->
+        <!-- ############################## SCHEMATRON RULES ############################## -->
+        <!-- ############################################################################## -->
+        
+        <!-- Not necessary because a XSLT template kills these spaces -->
+        <!--<elementSpec ident="g" module="gaiji" mode="change">
+          <constraintSpec ident="type" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:g[@ref eq '#typoHyphen']">
+                <sch:assert test="following-sibling::node()[1][self::tei:lb[@break eq 'no']]">An element "<sch:name/>" of type hyphen must be immediately followed by an "&lt;lb&gt;" element without spaces between them.</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>-->
+        
+        <elementSpec ident="idno" module="header" mode="change">
+          <constraintSpec ident="type" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:idno[parent::tei:altIdentifier]">
+                <sch:assert test="@type eq 'signature'">If it is a child of "altIdentifier" the element "<sch:name/>" must have an attribute @type = "signature"</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="ascc-number" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:idno[@type eq 'signature']">
+                <sch:assert test="matches(text(), '^ASCC \d{1,5}$')">The content of element "<sch:name/>" with @type="signature" must be a string matching the regular expression "^ASCC \d{1,5}$"</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <constraintSpec ident="compare-to-xml-id" scheme="schematron" mode="add">
+            <constraint>
+              <sch:rule context="tei:idno[@type eq 'signature']">
+                <sch:assert test="substring-after(., ' ') eq analyze-string(ancestor::tei:TEI/@xml:id/data(), '\d+')/*:match/text()">The ASCC number in the "<sch:name/>" element (<sch:value-of select="substring-after(., ' ')"/>)  must be equivalent to the number in the @xml:id of the document (<sch:value-of select="analyze-string(ancestor::tei:TEI/@xml:id/data(), '\d+')/*:match/text()"/>)</sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+        </elementSpec>
+        
+        <constraintSpec ident="check-id-type" scheme="schematron" mode="add">
+          <constraint>
+            <sch:ns uri="http://www.telota.de" prefix="telota"/>
+            <sch:rule context="tei:TEI">
+              <sch:assert test="@telota:doctype eq substring-before(@xml:id, '.')">The classification in the attribute @telota:doctype as "letter" or "document" must match the @xml:id of the file</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <constraintSpec ident="prevent-comments-inside-entities" scheme="schematron" mode="add">
+          <constraint>
+            <sch:rule context="tei:*[self::tei:bibl or self::tei:persName or self::tei:orgName or self::tei:placeName]">
+              <sch:assert test="not(descendant::tei:seg[@type eq 'comment'])">Named entities should not have an editorial comment as a descendant element. Instead encode the entity inside the "orig" element of the comment.</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <constraintSpec ident="lost-letters-title" scheme="schematron" mode="add">
+          <constraint>
+            <sch:rule context="tei:TEI[@type eq 'lost']">
+              <sch:assert test="ends-with(descendant::tei:titleStmt/tei:title[1]/text(), '[erschlossen]')">Letters with @type = "lost" must have a title which ends with "[erschlossen]"</sch:assert>
+            </sch:rule>
+            <sch:rule context="tei:titleStmt/tei:title[ends-with(text(), '[erschlossen]')]">
+              <sch:assert test="ancestor::tei:TEI/@type eq 'lost'">Letters that are designated as "[erschlossen]" in the "<sch:name/>" element must have an attribute @type = "lost" on the TEI root element</sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <constraintSpec ident="lost-letters-deduced-by" scheme="schematron" mode="add">
+          <constraint>
+            <sch:rule context="tei:TEI[@type eq 'lost']">
+              <sch:assert test="descendant::tei:correspDesc/tei:note[starts-with(text()[1], 'Erschlossen aus: ')][tei:ref]">Lost letters must have a "note" element in the "correspDesc" which contains the text "Erschlossen aus: " and a "ref" element which references another document</sch:assert>
+            </sch:rule>
+            <!-- the Attribute @target can also contain external links -->
+            <!--<sch:rule context="tei:TEI[@type eq 'lost']//tei:correspDesc/tei:note/tei:ref/@target">
+              <sch:assert test="matches(., '^letter\.\d{1,5}(_[a-z]{1,4})?$') or matches(., '^document\.\d{1,5}(_[a-z]{1,4})?$')">The attribute @target in "ref" must contain one of the datatypes asue.letterId or asue.docId</sch:assert>
+            </sch:rule>-->
+          </constraint>
+        </constraintSpec>
+        
+        
+        <!-- 
+          
+          Schematron-Regeln für Attribute mit Verweisen. Sowas wäre praktisch, in unserem Projekt zu verwenden, um IDs 
+          und Verweise auf andere Briefe/Dokumente zu checken und Fehlermeldungen beim Hochladen zu verhindern!
+        
+        <sch:rule context="mei:sb/@corresp">
+                        <sch:assert test="not(normalize-space(.) = '')">@corresp must not be empty.</sch:assert>
+                        <sch:assert test="normalize-space(.) = .">@corresp should be written with normalized space.</sch:assert>
+                        <sch:assert test="starts-with(., '../')">@corresp should use a relative link.</sch:assert>
+                        <sch:assert test="contains(., '#')">@dcorresp should have an ID pointing somewhere in the target file.</sch:assert>
+                        <sch:let name="relativeLink" value="substring-before(., '#')"/>
+                        <sch:let name="targetId" value="substring-after(., '#')"/>
+                        <sch:let name="base" value="base-uri()"/>
+                        <sch:let name="targetFileUri" value="resolve-uri($relativeLink, $base)"/>
+                        <sch:let name="docThere" value="doc-available($targetFileUri)"/>
+                        <sch:assert test="$docThere">There is no file available at <sch:value-of select="$targetFileUri"/>.</sch:assert>
+                        <sch:let name="targetFile" value="document($targetFileUri)"/>
+                        <sch:let name="targetFileClasses" value="tokenize($targetFile//mei:encodingDesc/@class, '\s+')"/>
+                        <sch:let name="correctFileClass" value="'#bw_diplomatic_transcript' = $targetFileClasses"/>
+                        <sch:assert test="not($docThere) or $correctFileClass">The target file must be a diplomatic transcription.</sch:assert>
+                        <sch:let name="target" value="$targetFile/id($targetId)"/>
+                        <sch:assert test="(not($docThere) or not($correctFileClass)) or exists($target)">An element with ID <sch:value-of select="$targetId"/> cannot be found in <sch:value-of select="$targetFileUri"/>.</sch:assert>
+                        <sch:let name="name" value="local-name($target)"/>
+                        <sch:assert test="$name = 'system'"><sch:value-of select="$targetId"/> points to a <sch:value-of select="$name"/> element, must be a 'bw:system' instead.</sch:assert>
+                     </sch:rule>   
+        
+        -->
+          
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

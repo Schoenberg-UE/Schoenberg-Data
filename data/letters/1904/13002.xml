@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.13002"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Helianthus an Arnold Schönberg, 1. August 1904</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.13002</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 13002</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.194">Verlag Helianthus</orgName>
+                    <placeName key="place.2.4.1">Berlin-Wilmersdorf, Halensee</placeName>
+                    <date when="1904-08-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.2">Mödling, Brühlerstraße 104</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24165"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change><change when="2026-04-14+02:00" who="KBleier">Korrektur Tag</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/13002_po.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.13002_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.83">
+                        <orgName key="org.194">Verlag Helianthus</orgName>, Berlin <lb/>
+                        <placeName key="place.2.4.1">Berlin, Halensee</placeName>.</stamp>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Mödling-Wien</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.4.2">Brühlerstr 104</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <pb n="2" xml:id="p.2"/>
+                <salute>L. H. <persName key="pers.3263">Sch.</persName>
+                </salute>
+                <p rendition="#inline"> An den pp. <seg type="comment">
+                        <orig>
+                            <persName key="pers.3906">Uher</persName>
+                        </orig>
+                        <note xml:id="nvgb_qfz_z5b"><p>Herstellung <bibl sameAs="werke.5">Arnold
+                                Schönberg, Pelleas und Melisande op. 5</bibl></p><p>Partiturabschrift,
+                            möglicherweise autograph; zugleich Autographiervorlage für den
+                            Erstdruck, verschollen (<ref
+                                target="http://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=575&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 10, Quelle G*</ref>). Die Existenz einer Partiturabschrift
+                            geht aus <ref target="letter.11566">Verlag Dreililien an Arnold
+                                Schönberg, 15. Oktober 1908</ref>, hervor; Herstellungszeitpunkt
+                            nicht ermittelt. Handschriftliches Stimmenmaterial der Uraufführung,
+                            teilweise autograph, verschollen (<ref
+                                target="http://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=573&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 10, Quelle E*</ref>)</p></note>
+                    </seg>
+                    <lb/>sind 50 Kronen rechtzeitig ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schickt worden. Wegen der Instru<g ref="#typoHyphen"/>
+                    <lb break="no"/>mentations-Arbeiten nächste Tage.</p>
+                <closer rendition="#r">
+                    <salute>In Eile <lb/>bestens <lb/>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.2283">M. M.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Wäre es nicht besser <lb/>die <seg type="comment">
+                            <orig>
+                                <orgName key="org.144">Rosé’schen</orgName> Stimmen</orig>
+                            <note xml:id="nins_fhb_myb" resp="#KBleier">
+                                <bibl sameAs="werke.13">Arnold Schönberg, Verklärte Nacht op.
+                                    4</bibl>. Handschriftliche Stimmen, verschollen (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1210&amp;werke_id=420&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                    >ASGA B 22, Quelle C*</ref>)</note>
+                        </seg> in Stich <lb/>zu geben – da doch schon aus ihnen <lb/>
+                        <seg type="comment">
+                            <orig>gespielt</orig>
+                            <note xml:id="ndsl_jfp_xfc" resp="#KBleier">
+                                <ref target="event.181"/></note>
+                        </seg> ist? Auf alle Fälle muss <hi rendition="#u">erst</hi>
+                        <lb/>die <seg type="comment">
+                            <orig>Part. korrigiert</orig>
+                            <note sameAs="letter.12381/#niy5_2s1_myb"/>
+                        </seg> sein, bevor <lb/>wir die Stim. <seg type="comment">
+                            <orig>nach <placeName key="place.2.20">Lpz</placeName> schicken</orig>
+                            <note xml:id="nwbs_1tm_c5b">Stich und Druck erfolgten bei <orgName
+                                    key="org.211">C. G. Röder </orgName>in <placeName
+                                    key="place.2.20">Leipzig</placeName>
+                            </note>
+                        </seg>.</p>
+                </postscript>
+                <stamp sameAs="stamp.109">
+                    <placeName key="place.2.4.1">Berlin-Halensee</placeName>, den <date
+                        when="1904-08-01">
+                        <seg hand="#author">1. Aug. </seg>190<seg hand="#author">4</seg>
+                    </date>
+                </stamp>
+            </div>
+        </body>
+    </text>
+</TEI>

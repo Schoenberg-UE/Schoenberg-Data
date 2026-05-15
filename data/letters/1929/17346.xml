@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17346"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 26. August 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17346</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17346</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1929-08-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1">Berlin, Charlottenburg</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1579"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17346_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17346_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                    <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code 5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85 Serie.
+                    Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische Länderbank
+                        Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, am <date when="1929-08-26">26. August 1929</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.3067">R</persName>/<persName key="pers.4363">No.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">
+                                <placeName key="place.2.3.1">Charlottenburg</placeName>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Nach einem anstrengenden Kuraufenthalt aus <placeName key="place.13.4">Marienbad</placeName> zurück<g ref="#typoHyphen"/>
+                    <lb break="no"/>gekehrt, möchte ich den Empfang Ihres <ref target="letter.1579">Schreibens</ref> vom <date when="1929-08-12">12. ds.</date> bestätigen.
+                    <lb/>Es ist nicht leicht auf diesen Brief zu antworten und ich glaube, dass
+                    <lb/>Sie eigentlich gar keine Antwort auf denselben erwarten. Welche Nutz<g ref="#typoHyphen"/>
+                    <lb break="no"/>anwendung soll ich daraus ziehen, dass Sie es als bewiesen
+                    erachten, <lb/>dass eine noch so angestrengte Propaganda-Tätigkeit für Ihre
+                    Werke er<g ref="#typoHyphen"/>
+                    <lb break="no"/>folglos bleiben muss, weil die <orgName key="org.1">U.E.</orgName> den Markt mit Werken überschwemmt, <lb/>welche leicht
+                    aufzuführen sind. Halten Sie es wirklich für möglich, dass <lb/>wir, um Ihren
+                    Werken keine Konkurrenz zu machen, nur ebenso schwere oder <lb/>noch schwerere
+                    herausbringen müssen, leichte Werke aber nicht verlegen <lb/>sollen? Meinen Sie
+                    wirklich, dass unser Verlag auch nur einen Monat lang <lb/>weiterbestehen
+                    könnte, wenn er die Politik in Ihrem Sinne <add place="superlinear">be</add>treiben würde?</p>
+                <p>Ganz unverständlich ist mir Ihre Frage, warum die <orgName key="org.1">U.E.</orgName> Sie <lb/>zwingen will, ihr Ihre Werke zum Verlag zu
+                    übergeben. Ich habe keine <lb/>Ahnung woraus Sie schliessen, dass wir Sie
+                    zwingen wollen, uns Ihre Wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>ke zu überlassen und sogar unhaltbare Repressalien anwenden
+                    sollen. <lb/>Ihre Mitteilung, dass Ihnen von einer anderen Seite das Fünffache
+                    des <lb/>Betrages angeboten war, den wir zahlen wollten, ist doch für Sie so
+                        er<g ref="#typoHyphen"/>
+                    <lb break="no"/>freulich, dass ich es mir doch gar nicht denken kann, dass Sie
+                    ein der<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>artiges Anbot, das in der heutigen Zeit nur
+                    ein Mäzenatenverleger <lb/>sich leisten kann, nicht angenommen haben. Da unser
+                        <ref target="letter.17609">Anbot</ref> abgesehen <lb/>von einer recht hohen
+                    Tantiemenbeteiligung noch M 10.000.– betragen <lb/>hat, so wäre das Fünffache
+                    eben M 50.000.– und überdies die erwähnte <lb/>Tantiemenbeteiligung. Hiezu kommt
+                    noch, dass wir Ihnen im Falle der <lb/>Ueberlassung der <bibl sameAs="werke.65">Oper</bibl> auch noch in einer anderen Weise über die alten <lb/>Verträge
+                    hinausgehende Vorteile angeboten haben. Ich würde Ihren Brief <lb/>wohl
+                    verstehen, <hi rendition="#u">wenn Sie</hi> auf Grund des früheren <seg type="comment">
+                        <orig>Vertrages</orig>
+                        <note sameAs="letter.17667/#ny15_crt_gdc"/>
+                    </seg> für Ihr in <lb/>Rede
+                    stehendes Werk an die <orgName key="org.1">U.E.</orgName>
+                    <hi rendition="#u">gebunden wären</hi> und wir Sie trotz eines <lb/>5 mal so
+                    hohen anderweitigen Anbotes nicht freigegeben hätten. Ich ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>stehe aber nicht, dass Sie mir schreiben konnten, wie Sie es
+                    getan ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, <hi rendition="#u">nachdem Sie</hi> vollkommen <hi rendition="#u">frei waren</hi> und daher in der Lage gewesen sind, <lb/>ein
+                    5 mal so hohes Angebot glattweg anzunehmen. Ich verstehe ebenso we<g ref="#typoHyphen"/>
+                    <lb break="no"/>nig, dass Sie aus meinem Verhalten einen bösen Willen ersehen
+                    können <lb/>und ich bin sehr traurig über die Verständnislosigkeit, die Sie der
+                        Si<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuation entgegenbringen.</p>
+                <p>Wiewohl ich bei der von Ihnen bekundeten Einstellung mir <lb/>nicht
+                    allzuviel davon versprechen kann, stelle ich mich zwecks Ausspra<g ref="#typoHyphen"/>
+                    <lb break="no"/>che, sobald Sie nach <placeName key="place.2.3">Berlin</placeName> zurückkehren, mit grösster Bereitwilligkeit <lb/>zur
+                    Verfügung und empfehle mich inzwischen <add place="intralinear">mit besten
+                        Erholungswünschen</add>
+                </p>
+                <closer>
+                    <salute rendition="#r">Ihr stets in warmer Verehrung
+                        <lb/>ergebener</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

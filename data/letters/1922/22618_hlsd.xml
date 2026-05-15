@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.22618_hlsd"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, nach 11. April 1922</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.22618_hlsd</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 22618</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date notBefore="1922-04-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24373_tl"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/22618_hlsd.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.22618_hlsd"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">Ihr <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nkq4_mcq_3xb" resp="#pkehrer">
+                            <ref target="letter.24373_tl">Universal-Edition an Arnold Schönberg, 11.
+                                April 1922 [erschlossen]</ref>
+                        </note>
+                    </seg> vom <date when="1922-04-11">11/IV.</date> enttäuscht mich: <lb/>
+                    <del rendition="#s">1. Ich habe</del>
+                    <add place="superlinear">Ich habe</add> angenommen <add place="superlinear">Sie
+                        sähen,</add> dass <add place="superlinear">ich <del rendition="#s">Ihnen
+                            alles vieles</del>
+                    </add>
+                    <del rendition="#s">mehr von dem worüber</del>
+                    <add place="superlinear">
+                        <del rendition="#s">mit</del> bei <del rendition="#s">bei</del> vielem
+                        worüber</add> wir verhandelt <del rendition="#s">haben</del>
+                    <add place="superlinear">haben</add>, <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/> den <lb/>Charakter eines
+                        Definitivums habe trage, und insbesondere so <gap reason="illegible" quantity="3" unit="words"/> Ihnen klar <lb/>war, dass ich</del>
+                    unbefriedigt <add place="superlinear">geblieben</add> bin
+                        <!-- Anm. jfranz: evtl. "und" --><gap reason="illegible" unit="words" quantity="1"/>
+                    <!-- Anm. jfranz: evtl. "dass" -->
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <add place="superlinear">habe erwartet, dass</add> Sie mir bessere Vorschläge
+                    machen werden. <lb/>Vielleicht haben wir zu lange „als-ob“ gesprochen – mein
+                    Wunsch wars nicht. <lb/>
+                    <del rendition="#s">2.) aber abgesehen davon</del>
+                    <add place="superlinear">Aber zudem</add> fehlt in Ihrem Brief <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> nicht nur <lb/>
+                    <del rendition="#s">a) <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> manches was wir am <date when="1922-04-09">9/IV</date> besprochen haben,
+                    sowie <lb/>
+                    <note place="left" hand="#author">Materiale –––</note>
+                    <del rendition="#s">b)</del> manches <del rendition="#s">was schon vorher einer
+                        Regelung ziemlich nahe war</del>
+                    <add place="superlinear">worüber Sie sogar schon früher Vorschläge gemacht
+                        hatten, <del rendition="#s">und</del> sondern auch</add>
+                    <lb/>
+                    <note place="left" hand="#author">
+                        <persName key="pers.2283">Marschalk</persName> ––– <lb/>
+                        <orgName key="org.5">Autorengesellsch</orgName> ––</note>
+                    <del rendition="#s">c)</del> die Regelung gewisser Punkte meines <ref target="letter.623">Briefes</ref>
+                    <add place="sublinear">vom <date when="1921-12">Dec 1921</date>
+                    </add> die bisher
+                        <gap reason="illegible" unit="words" quantity="1"/> waren</p>
+                <p>Vor Allem finde <add place="superlinear">jedoch</add> ich, dass ich für die
+                    Verluste nicht entschädigt wurde, <lb/>welche mir dadurch entstanden sind, dass
+                    Sie die Bestimmungen unseres Vertrages <lb/>nicht eingehalten haben, indem Sie
+                        <del rendition="#s">mir d</del> meine Anteile nicht, wie unser <lb/>Vertrag
+                    es festsetzt vom Ladenpreis <add place="superlinear">berechneten</add>, sondern
+                    von <add place="superlinear">irgend</add>einem anderen, <del rendition="#s">(</del>im Verhältnis zu <lb/>unsern präcisen Abmachungen <del rendition="#s">als</del>
+                    <hi rendition="#u">willkürlich</hi> zu nennenden Preis.</p>
+                <p>Da ich keine Aussicht habe auf diese Weise zu einem Resultat <lb/>zu kommen, ja,
+                    da (wie Sie selber sagen:) auch die <add place="superlinear">letzt</add>
+                    <date when="1921">1921</date>
+                    <hi rendition="#sup #u">er</hi>
+                    Ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnung noch auf
+                    dieser unsere Abmachungen brechenden Methode<lb/>beruht, habe ich mich
+                    entschlossen, <add place="superlinear">eine Lösung zu suchen, indem ich</add>
+                    Ihnen <del rendition="#s">
+                        <unclear reason="covered" cert="low">zwar</unclear>
+                    </del> in folgender Weise <lb/>entgegen <del rendition="#s">zu</del>
+                        komme<del rendition="#s">n</del>:</p>
+                <p>1. Ich <subst>
+                        <del rendition="#s">verlange</del>
+                        <add place="superlinear">begnüge</add>
+                    </subst> als Schadensgutmachung eine relativ ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ringe Summe (nach meiner Schätzung <add place="sublinear"><subst>
+                            <del rendition="#ow">mindestens</del>
+                        <add place="superlinear">höchstens</add>
+                        </subst></add> ungefähr den 6.–10 Teil <del
+                        rendition="#s">des</del> meines <lb/>wirklichen Schadens)</p>
+                <p>2. Verlange ich dagegen volle Garantien für die Zukunft <lb/>und bemerke dass nur
+                    im Falle <add place="sublinear">und solange</add> Sie diese so leisten, wie ich
+                    sie fordere <lb/>ich mich mit der <add place="superlinear">ad I) genannten</add>
+                    Schadensgutmachung zufrieden gebe.</p>
+                <p>Sie finden meine diesbezüglichen „als-ob“-Vorschläge in
+                    <lb/>beiliegendem „als-ob“-Entwurf.</p>
+                <p>Eines nur: über die Stilisierung manches Details kann gesprochen werden.
+                        <supplied cert="high">Nicht</supplied>
+                    <lb/>aber über irgendetwas anderes
+                    mehr. Wir müssen einmal mit dieser Sache fer<g ref="#typoHyphen"/>
+                    <lb break="no"/>tig werden.</p>
+                <note place="left" hand="#author">Verhandlungen zwischen uns können nur auf der
+                    <lb/>Frage basieren: <lb/>1) Welche Entschädigung bieten Sie für die Verluste
+                    durch Nicht Einhaltung des <lb/>Vertrags <lb/>2) Welche Garantien für die
+                    Zukunft<lb/>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

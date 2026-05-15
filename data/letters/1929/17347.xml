@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.17347"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 20. September 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17347</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17347</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1929-09-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.8.4.1">Katwijk aan Zee, Pension Christina</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1768"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17347_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17347_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.31">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th.</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.<lb/>Wien<seg hand="#author">, <date when="1929-09-20">20. September
+                            1929</date>.</seg>
+                    </stamp>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4362">M.</persName>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Katwijk aan
+                            Zee,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.8.4.1">Pension Christina</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Ich möchte ganz ausserhalb unserer verlagsmässigen <lb/>Beziehungen Ihnen eine
+                    Mitteilung machen, die mir soeben zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>gekommen ist. Der Pächter und Geschäftsführer der <rs type="org" key="org.89">Stecherei</rs>, <lb/>Herr <persName key="pers.1596">Hirsch</persName>, liess mir heute mitteilen, dass er mit Hinblick <lb/>auf
+                    die notwendig gewordene sehr einschneidende Verkürzung <lb/>der Arbeitszeit und
+                    des trotzdem noch zu grossen Personal<g ref="#typoHyphen"/>
+                    <lb break="no"/>standes gezwungen ist, zu den nun schon seit einiger Zeit
+                    <lb/>vorgenommenen Kündigungen auch noch weitere Kündigungen vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>zunehmen und dass er daher zu seinem Bedauern nun auch Ihren
+                    <lb/>Sohn <persName key="pers.3281">Georg</persName> kündigen
+                    müsste.
+                    Ich war über diese Mitteilung <lb/>sehr betroffen und habe alles versucht, um
+                    diesen Beschluss <lb/>rückgängig zu machen. Man teilte mir nun aber mit, dass
+                    Ihr <lb/>Sohn <persName key="pers.3281">Georg</persName>, dem andere Arbeiten
+                    und Hantierungen nicht zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>zusagen scheinen, sich ausschliesslich mit Korrekturarbeiten
+                    <lb/>der Abzüge beschäftigt und es ganz unmöglich ist, ihn bei <lb/>dieser fixen
+                    Beschäftigung zu belassen, weil die Anzahl der <lb/>Sticharbeiten derart
+                    abgenommen hat und angeblich für Kor<g ref="#typoHyphen"/>
+                    <lb break="no"/>rekturarbeiten höchstens 100 Seiten <add place="superlinear">per
+                        Woche</add> in Betracht kommen – <lb/>eine Arbeit, für die etwa 16 Stunden
+                    angenommen werden können, <pb n="2" xml:id="p.2"/>also eigentlich etwa 2 volle
+                    Tage, für die selbstredend seitens <lb/>
+                    <orgName key="org.89">Hirsch</orgName>
+                    nicht der Lohn einer ganzen Woche bezahlt werden kann. <lb/>Auf meine Bemerkung,
+                    ob man nicht Herrn <persName key="pers.3281">G. Sch.</persName> auch andere Ar<g ref="#typoHyphen"/>
+                    <lb break="no"/>beiten noch übertragen könnte, wurde mir bedeutet, dass er
+                    <lb/>solche Arbeiten nicht gerne leistet und dass sie ihm begreif<g ref="#typoHyphen"/>
+                    <lb break="no"/>licherweise mit Hinblick auf seine Bildung und Vorbildung nicht
+                    <lb/>sehr angenehm sein können. Es wurde mir gesagt, dass man Herrn <lb/>
+                    <persName key="pers.3281">Schönberg</persName> gewiss sehr gerne für
+                    Korrektur-Lesearbeiten weiter <lb/>beschäftigen könnte, dass aber für diese
+                    Arbeiten nicht mehr <lb/>als ein Betrag von 20 Groschen pro Abzug (das ist der
+                    übliche <lb/>Satz seit vielen Jahren) bezahlt werden könnte. Mir war diese
+                    <lb/>Mitteilung im hohen Grade unangenehm und ich habe nun durchge<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzt, dass die Kündigung vorerst nicht erfolgt und dass man
+                    <lb/>noch 14 Tage zuwartet in der Annahme, dass sich vielleicht doch
+                    <lb/>günstigere Arbeitsmöglichkeiten für die Stecherei in dieser <lb/>Zeit
+                    ergeben könnten. Ich halte mich für verpflichtet, Ihnen <lb/>von dieser Sachlage
+                    Kenntnis zu geben. Ich muss Ihnen ja zwar <lb/>offen sagen, dass die Aussichten,
+                    dass die Stecherei in den <lb/>nächsten 14 Tagen stärker beschäftigt wird,
+                    leider sehr gering <lb/>sind und dass ich kaum glaube, dass wir die Macht und
+                    die Mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>tel haben werden, die Stecherei <orgName key="org.89">Hirsch</orgName> zu veranlassen, dass Sie <lb/>Ihren Sohn nach 14 Tagen
+                    nicht kündigt. Ich möchte Sie bitten <lb/>mir mitzuteilen, ob und in welcher
+                    Weise ich Ihnen beziehungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>weise Ihrem Sohne <persName key="pers.3281">Georg</persName> für
+                    sein weiteres Fortkommen behilflich <lb/>sein kann. Ich will bestimmt mein
+                    Möglichstes tun. Wären die <pb n="3" xml:id="p.3"/>Zeiten nicht so
+                    ausserordentlich schwierig und nicht auch wir <lb/>gezwungen, einen grossen
+                    Abbau in unserem Personal vorzunehmen, <lb/>dann hätten wir ja alles daran
+                    gesetzt, um für Ihren Sohn <lb/>
+                    <persName key="pers.3281">Georg</persName> eine feste Beschäftigung im Rahmen
+                    unseres Unternehmens <lb/>zu finden. So aber ist augenblicklich nicht daran zu
+                    denken. <lb/>Das, was ich hoffe ist, dass, wenn er die Korrekturen von <orgName key="org.89">Hirsch</orgName>
+                    <lb/>erhält und diese pro Seite bezahlt werden, wir vielleicht im<g ref="#typoHyphen"/>
+                    <lb break="no"/>stande sein werden, ihm noch einige Korrekturarbeiten zu über<g ref="#typoHyphen"/>
+                    <lb break="no"/>lassen.</p>
+                <p>Ich erwarte jedenfalls Ihre freundliche Rück<g ref="#typoHyphen"/>
+                    <lb break="no"/>äusserung und verbleibe mit den ergebensten Grüssen, auch
+                    <lb/>an Ihre verehrte <rs type="person" key="pers.3297">Frau</rs>,</p>
+                <closer>
+                    <salute rendition="#r">in steter Verehrung</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Emil Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

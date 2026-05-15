@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19926"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 30. Juni 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19926</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19926</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-BMMSDYLW">Dolenko
+                            2004</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-06-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.6.1">Pörtschach, Werzer Promenade 8</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19926_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19926_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.925">Dz</persName>/<persName key="pers.4377">Ma.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, den <date when="1927-06-30">30. Juni 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">POERTSCHACH.</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.9.6.1">Pension Werzer</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Das <orgName key="org.114">Moskauer Konservatorium</orgName> gibt unter dem Titel
+                    <lb/>„Musikalische Wissenschaft“ eine Zeitschrift heraus. Das erste
+                    <lb/>Buch derselben, ein <seg type="comment">
+                        <orig>Doppelheft</orig>
+                        <note xml:id="nj3d_zdh_hzb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-U5USET64">Muzykalnoye Ohrazovanie
+                            1927</rs>
+                        </note>
+                    </seg> Nr. 1 und 2, enthält den Abdruck <lb/>eines Skizzenheftes <persName key="pers.331">Beethovens</persName>, das unlängst im <placeName key="place.10.1">Moskauer</placeName> Archiv <lb/>aufgefunden wurde. Ueberdies beinhaltet es
+                    eine Reihe musik<g ref="#typoHyphen"/>
+                    <lb break="no"/>wissenschaftlicher
+                    Aufsätze, deren deutsche Uebersetzung gleich <lb/>beigegeben ist. – Ein
+                    Mitglied des Redaktions-Kollegiums, ein <lb/>junger moderner Komponist namens
+                        <persName key="pers.4113">Alexander Weprik</persName>, wendet sich <lb/>nun an
+                    mich mit dem Ersuchen, ihm die Erlaubnis zur Aufnahme <lb/>einiger Kapiteln aus
+                    Ihrer <bibl sameAs="schriften.1">Harmonielehre</bibl> in die erwähnte Zeit<g ref="#typoHyphen"/>
+                    <lb break="no"/>schrift zu erwirken, um dadurch,
+                    besonders der musikalischen <lb/>Jugend, das moderne Schaffen und insbesondere
+                    die <persName key="pers.3263">Schönberg’sche</persName>
+                    <lb/>Richtung näher zu
+                    bringen. Ich wollte schon anlässlich Ihres <lb/>
+                    <placeName key="place.9.11">Wiener</placeName> Aufenthaltes mit Ihnen hierüber sprechen, mich jedoch
+                    <lb/>vorerst noch mit Herrn Direktor <persName key="pers.1538">Hertzka</persName>
+                    ins Einvernehmen setzen. <lb/>Ich habe nun vor einigen Tagen mit ihm Rücksprache
+                    gepflogen, <lb/>während welcher er mir mitteilte, dass er als Verleger gegen
+                    <lb/>die beabsichtigte Veröffentlichung nichts einzuwenden hätte, so<g ref="#typoHyphen"/>
+                    <lb break="no"/>ferne auch Sie Ihr Einverständnis hiezu
+                    erteilen. Ich möchte be<g ref="#typoHyphen"/>
+                    <lb break="no"/>tonen, dass für Ihr
+                    Buch für <placeName key="place.10">Russland</placeName> kein Schutzrecht
+                    existiert, <lb/>und lediglich aus ethischen Gründen und aus Liebe zu Ihrem <pb n="2" xml:id="p.2"/>Schaffen für die Veröffentlichung <subst>
+                        <del rendition="#ow">eine</del>
+                        <add place="across">Ihre</add>
+                    </subst> Bewilligung eingeholt <lb/>wird. Eine materi<choice>
+                        <sic>a</sic>
+                        <corr cert="high">e</corr>
+                    </choice>lle Beteiligung käme nicht in Frage, da die <lb/>Zeitschrift von den
+                    Professoren des Konservatoriums herausge<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben wird und ein sich ergebendes Defizit zu Lasten der Profes<g ref="#typoHyphen"/>
+                    <lb break="no"/>soren und Schüler geht.</p>
+                <p>Ich wäre Ihnen sehr verbunden, wenn sie mir bald<g ref="#typoHyphen"/>
+                    <lb break="no"/>möglichst Ihre freundliche Rückäusserung zukommen liessen und
+                    <lb/>empfehle mich inzwischen als</p>
+                <closer rendition="#r">
+                    <salute>Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                    <signed>
+                        <persName key="pers.4392">H</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

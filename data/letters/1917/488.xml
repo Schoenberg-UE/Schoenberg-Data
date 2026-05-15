@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.488"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 12. August 1917</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.488</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 488</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-IEUTQ7MD">ASGA B 17/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.1">Wien, Gloriettegasse 43</placeName>
+                    <date when="1917-08-12" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17695"/>
+                </correspContext>
+                <note>Ort erschlossen; Beilage: <ref target="letter.24516">Universal-Edition an
+                        Arnold Schönberg, vor 12. August 1917 [erschlossen]</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/488_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.488_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1917-08-12">12.VIII.1917</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">anbei schicke ich Ihnen die unterzeichneten
+                    Briefe. <lb/>In dem 1. <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="ndmn_3vp_1cc" resp="#pkehrer">
+                            <ref target="letter.24516">Universal-Edition an Arnold Schönberg,
+                                vor 12. August 1917 [erschlossen]</ref>
+                        </note>
+                    </seg> habe ich noch
+                    die vergessene Abmachung über die weiteren <lb/>Aufführungen die <orgName key="org.38">Br u H.</orgName> anbieten nachgetragen. Ich hoffe, dass Sie
+                    mit meiner <lb/>Fassung zufrieden sind. – In der Urheberrechts Abmachung über
+                    die „<unclear reason="illegible" cert="low">Vorlagen</unclear>
+                    <lb/>etc..“ bitte ich Sie dieselben Sätze zu streichen, wie in denen <seg type="comment">
+                        <orig>
+                            <lb/>der „<bibl sameAs="schriften.12">Jakobsleiter</bibl>“</orig>
+                        <note xml:id="nhdj_ym4_xfc" resp="#KBleier">Vertragsdatum <date when="1917-06-01">1. Juni
+                                1917</date> (<rs type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon 2015</rs>, Bd. 5, S. 661). Die Urheberrechtsabtretung ist
+                            nicht erhalten, zu den genannten Streichungen vgl. z. B. <ref target="document.24086">Urheberrechtsabtretung: Vier Stücke für gemischten Chor op. 27 etc.
+                                        3. April 1926</ref>
+                        </note>
+                    </seg>(sachgemäße Zusätze etc...)</p>
+                <p>An Ihrer Darstellung im ersten Brief: „Sie knüpfen nun an Ihr <lb/>Einverständnis
+                    die Bedingung.....“, schmerzt mich der Hohn, <lb/>mit dem Sie die Sache so
+                    darstellen, als ob ich Sie gezwungen <lb/>hätte, von mir 2000 $ anzunehmen,
+                    während im Gegenteil <lb/>ich Ihnen ja nur 1000 geben wollte und solcher Edelmut
+                    mir <lb/>zwar zuzutrauen wäre; aber da ich nicht edelmütiger scheinen will
+                    <lb/>als ich bin, sollte ich eigentlich Gewicht darauf legen festzustellen,
+                    <lb/>dass Sie diese Bedingung geknüpft haben (mit fester Hand, <lb/>wie stets),
+                    mein Edelmut somit um rund 1000 $ geringer ist, als <lb/>selbst der
+                    wohlmeinendste Freund mir zumuten dürfte. Aber nobel, wie <lb/>ich nun einmal
+                    bin, lasse ich den unverdienten Edelmutsverdacht <lb/>auf mir sitzen und erwähne
+                    gar nichts davon, dass ich eine an<g ref="#typoHyphen"/>
+                    <lb break="no"/>dere Auffassung habe. –</p>
+                <p>Ich habe Ihnen gestern einen <seg type="comment">
+                        <orig>Titelblatt-Entwurf</orig>
+                        <note xml:id="nc1y_jwm_xfc" resp="#KBleier">Zwischen <date when="1917-06-12"
+                                >12</date>. und <date when="1917-06-19">19. Juni 1917</date> traten
+                            zunächst <persName key="pers.1538">Emil Hertzka</persName> auf <persName
+                                key="pers.3263">Schönbergs</persName> Anregung hin, dann <persName
+                                key="pers.3263">Schönberg</persName> selbst an <persName
+                                key="pers.2192">Adolf Loos</persName> heran, um diesen für die
+                            graphische Gestaltung des Textbuchs zu gewinnen. Die Initiative blieb
+                            erfolglos und <persName key="pers.3263">Schönberg</persName> gestaltete
+                            den Umschlag selbst (vgl. den kalligraphischen Titel auf dem
+                            Typoskriptdurchschlag; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-T007496"
+                                >T08.01</ref>; Arnold Schönberg an Alma Mahler, 12. Juni 1917; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B067490">ASCC
+                                6749</ref>; Arnold Schönberg an Adolf Loos, 19. Juni 1917; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B071918">ASCC
+                                7191</ref>; <rs type="bibl" key="zotero-4528359-IEUTQ7MD">ASGA B
+                                17/2</rs>, S. 186f.)</note>
+                    </seg> zur <bibl sameAs="schriften.12">Jakobsleiter</bibl> ge<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>schickt. Gefällt Ihnen der? Mit dem Format bin ich
+                    einverstanden. <lb/>Bitte vielmals: Beschleunigen Sie die <seg type="comment">
+                        <orig>Drucklegung</orig>
+                        <note xml:id="nlqh_xj4_xfc" resp="#KBleier">Lieferdatum: <date
+                                when="1917-09-22">22. September 1917</date>, Auflage: 245 (<rs
+                                type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon 2015</rs>, Bd. 5,
+                            S. 661)</note>
+                    </seg>.</p>
+                <closer rendition="#inline">
+                    <salute>Herzliche Grüße</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3263">Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

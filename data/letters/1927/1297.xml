@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1297"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 18. März 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1297</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1297</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                    <date when="1927-03-18" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <date when="1927-03-21" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17687"/>
+                    <ref type="answered-by" target="letter.19882"/>
+                    <ref type="answered-by" target="letter.17691"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1297_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1297_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Charlottenburg 2</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>
+                        </addrLine>
+                        <addrLine>Pension Bavaria</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1927-03-18">18.III.1927</date>
+                    </dateline>
+                </opener>
+                <salute>PT <orgName key="org.1">UE</orgName>
+                </salute>
+                <p rendition="#inline">zunächt muss ich Ihnen <add place="superlinear">die</add>
+                    Mitteilung machen, <lb/>dass ich die Zurückziehung Ihres <ref target="document.23464">Vorschlages</ref> nicht
+                    <lb/>zur Kenntnis nehmen kann. Vor allem war der Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag nicht befristet. Die Zurücknahme <subst>
+                        <del rendition="#ow">war aber</del>
+                        <add place="intralinear">aber war</add>
+                    </subst>
+                    <lb/>
+                    <add place="superlinear">jedenfalls</add> keine faktische Zurücknahme, d.
+                    h. Sie sind nicht <lb/>von Ihrem Antrag zurückgetreten, sondern es war <lb/>eine
+                    konditionelle Zurücknahme: da ich mich nämlich <lb/>über den Vorschlag beleidigt
+                    und von ihm unbefrie<g ref="#typoHyphen"/>
+                    <lb break="no"/>digt zeigte, stellten
+                    Sie es mir anheim, den Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag als
+                    ungeschehen anzusehen (eine Redewen<g ref="#typoHyphen"/>
+                    <lb break="no"/>dung,
+                    die fast nur im Zusammenhang mit kränken<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Vorgängen Sprachgebrauch ist). Nun war ich <lb/>aber nicht in einer
+                    solchen Weise beleidigt, <lb/>dass ich durch die Zurückziehung des Vorschlages
+                    <lb/>zu versöhnen gewesen wäre, sondern in einer andern: <lb/>in einer solchen,
+                    welche nur gutgemacht wird, in<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem man die
+                    Konsequenzen eben aus dem Vorschlag <lb/>selbst zieht. Ich hatte also keinen
+                    Anlass, von <lb/>Ihrem Versöhnungsvorschlag Gebrauch zu machen. <lb/>Ich möchte
+                    also doch Gewicht darauf legen, nun<g ref="#typoHyphen"/>
+                    <lb break="no"/>mehr
+                    auf Grund der von Ihnen im Prinzip bereits <lb/>zugestandenen „Freigabe
+                    für einen gewissen Zeit<g ref="#typoHyphen"/>
+                    <lb break="no"/>raum“ zu
+                    verhandeln.</p>
+                <p>Meine Beweggründe kennen Sie: die Entwicklung zum <lb/>„Babylonischen
+                    Turm“, die die <orgName key="org.1">UE</orgName> seit ca 8 Jahren
+                    <lb/>durchgemacht hat, gegen welche ich stets Beden<g ref="#typoHyphen"/>
+                    <lb break="no"/>ken (berechtigte, wie sich zeigt) geäussert habe, <pb n="2" xml:id="p.2"/>hat dazu geführt, dass ich im Riesenkomplex der Interessen der
+                        <orgName key="org.1">UE</orgName>
+                    <lb/>nur mehr einen kleinen Raum einnehme, dass ich höchstens noch ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ne relative Grösse dort bin und dass sich
+                    demgemäss auch die <lb/>Leistungen der <orgName key="org.1">UE</orgName>, was die Durchsetzung meines Werkes anbelangt,
+                    <lb/>nur mehr innerhalb des derzeit auf mich perzentuell entfallen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Spielraumes bewegen. Ich habe diesen
+                    Umstand schon auf so man<g ref="#typoHyphen"/>
+                    <lb break="no"/>nigfaltige Art
+                    dargestellt, dass es sich wohl erübrigt, heute <lb/>mehr darüber zu sagen. Wie
+                    immer das also ist, Eines steht fest: <lb/>Die <orgName key="org.1">UE</orgName>
+                    die fast mein ganzes <add place="superlinear">bisheriges</add> Lebenswerk zur
+                    Verwaltung hat, ver<lb break="no"/>schafft mir
+                    darauf ein Jahreserträgnis von circa 7000 Schilling. <lb/>Das ist natürlich ein
+                    unhaltbarer Zustand. Abgesehen davon, dass <lb/>die <orgName key="org.1">UE</orgName> seit dem Abschluss unseres letzten Vertrages soviel neue
+                    <lb/>Werke von mir bekommen hat, dass die Zahl der Werke die eineinhalb<g ref="#typoHyphen"/>
+                    <lb break="no"/>fache Höhe erreicht hat, dass dagegen
+                    aber die Einnahmen statt <lb/>wenigstens <add place="superlinear">ebenfalls</add> auf das eineinhalbfache zu steigen, wesentlich gesunken
+                    <lb/>sind; abgesehen davon also, dass die <orgName key="org.1">UE</orgName>
+                    wegen der Mehrleistungen <lb/>für Ihren Babylonischen Turmbau in ihren
+                    Bemühungen und Leistungen <lb/>für mich nachgelassen hat, abgesehen davon habe
+                    ich noch den Scha<g ref="#typoHyphen"/>
+                    <lb break="no"/>den zu tragen, der sich
+                    aus der Lächerlichkeit ergiebt, dass ich <lb/>mit meinen Gegnern zusammen in
+                    eine Interessengemeinschaft ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>zwungen bin,
+                    die meinen Interessen zuwiderläuft: ja das Interesse <lb/>dieser Gegner
+                    erfordert sogar die Bekämpfung meiner Bestrebungen, <lb/>und mein Verleger, der
+                    meine Interessen fördern soll<add place="intralinear">te,</add> ist genö<lb break="no"/>tigt seinen Babylonischen Turm zu
+                    pölzen, indem er mir eine Haxen <lb/>nach der andern ausreisst.</p>
+                <p>Dieser Zustand ist unhaltbar.</p>
+                <p>Ich bin soweit, dass ich von den Erträgnissen meines Komponierens <lb/>leben
+                    könnte; und zwar nicht wie ein Ziegelschupfer beim Babylo<g ref="#typoHyphen"/>
+                    <lb break="no"/>nischen Turmbau, sondern wie ein Mensch von heute, dessen
+                        Höchst<g ref="#typoHyphen"/>
+                    <lb break="no"/>leistungen nur von der <orgName key="org.1">UE</orgName>, <subst>
+                        <del rendition="#ow">I</del>
+                        <add place="across">i</add>
+                    </subst>hren Autoren und deren journalisti<g ref="#typoHyphen"/>
+                    <lb break="no"/>schem Anhang bestritten oder wenigstens bekämpft werden.</p>
+                <pb n="3" xml:id="p.3"/>
+                <p>Zur Lösung dieses Problems sehe ich rein theoretisch nur folgende
+                    <lb/>Möglichkeiten:</p>
+                <p>I. Erhöhung und Sicherung meiner Einnahmen z. B. in der Form, die <lb/>ich <del rendition="#s">zu</del> Dr.
+                        <persName key="pers.1520">Heinsheimer</persName> vorgeschlagen habe: dass
+                    nämlich mir pro <lb/>Werk eine fixe Summe zugesprochen wird, welche eventuell in
+                        jähr<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Abzahlungen an mich
+                    geleistet würde und die als Garantie <lb/>einer Mindesteinnahme in der Weise zu
+                    gelten hätte, dass sie in <lb/>einem festgesetzten Zeitraum (z. B. 10 oder 15
+                    Jahre), gleichviel ob <lb/>sie bis dahin durch Tantiemenanteile amortisiert ist
+                    oder nicht, <lb/>als verfallen anzusehen wäre, mein Conto also nicht mehr belas<choice>
+                        <sic>te</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>tete, sodass alle von da an
+                    gutzuschreibenden Tantièmen mir bar <lb/>auszubezahlen wären. Ich habe eine
+                    Berechnung gemacht und dabei <lb/>herausbekommen, dass mir die <orgName key="org.1">UE</orgName> wenn man Zinseszinsen rechnet, in <lb/>Wirklichkeit
+                    dabei ungefähr die Hälfte von dem geben würde, was <lb/>mir heute von anderen
+                    Verlegern angetragen wird: Dabei ist ja <lb/>noch mit einer Steigerung meines
+                    Marktwertes zu rechnen!</p>
+                <p>II. Eine eventuelle Lockerung meiner Bindung an die <orgName key="org.1">UE</orgName>, welcher <lb/>zufolge ich eventuell der <orgName key="org.1">UE</orgName> meine Werke <add place="superlinear">
+                        <hi rendition="#u">von Fall zu Fall</hi>
+                    </add> auf Grund der Angebote
+                    <lb/>anderer Verleger aber zu günstigeren Bedingungen überlassen könn<g ref="#typoHyphen"/>
+                    <lb break="no"/>te, wobei allerdi<choice>
+                        <sic>m</sic>
+                        <corr cert="high">n</corr>
+                    </choice>gs die in I) genannten Garantien geleistet wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den müssen. In diesem Falle könnte die gegenseitige Bindung, da
+                    <lb/>ja eine Gegenleistung der <orgName key="org.1">UE</orgName> nicht
+                    erforderlich wäre, nur (wie <lb/>sagt man da?) „moralisch“
+                    bestehen.</p>
+                <p>Rein theoretisch sehe ich zunächst keine <add place="superlinear">
+                        <hi rendition="#u">andere</hi>
+                    </add> gerechte Lösung. <lb/>Vielleicht entnehmen Sie den <add place="superlinear">
+                        <hi rendition="#u">beiden</hi>
+                    </add> Vorschlägen, dass sie keine Lösung <lb/>meiner Beziehung zur <orgName key="org.1">UE</orgName> bezwecken, sondern eine gerechte Einigung. <lb/>In
+                    unserem gegenwärtigen Verhältnis bin ich im <subst>
+                        <del rendition="#s">Verhältnis</del>
+                        <add place="superlinear">Vergleich</add>
+                    </subst>
+                    <choice>
+                        <sic>zur</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <add place="superlinear">mit der</add>
+                    <lb/>
+                    <orgName key="org.1">UE</orgName> darum so ungünstig daran, weil die <orgName key="org.1">UE</orgName>, in der Gewissheit, dass <lb/>die auf mich
+                    aufgewendeten Summen <subst>
+                        <del rendition="#ow">,</del>
+                        <add place="across">(</add>
+                    </subst>da sie ja nur Vorschüsse und <lb/>keine Garantien sind<subst>
+                        <del rendition="#ow">,</del>
+                        <add place="across">)</add>
+                    </subst> einmal hereinkommen werden, jede Konjunktur <pb n="4" xml:id="p.4"/>ausnützen kann, auch wenn sie mir schadet: die <orgName key="org.1">UE</orgName> weiss, dass sie <lb/>an mir kein Risiko hat, sie hat mich
+                    billig in der Hand und lässt <lb/>sich darum Zeit: sehr schmeichelhaft, aber ich
+                    wünsche zur Ehre die <lb/>materiellen Korrelate. Ehre habe ich schon, selbst;
+                    aber Geld brau<g ref="#typoHyphen"/>
+                    <lb break="no"/>che ich! Vielleicht tauschen wir: vielleicht behält einmal die
+                        <orgName key="org.1">UE</orgName>
+                    <lb/>die Ehre und lässt mir auch etwas Geld zukommen!</p>
+                <p>Ich möchte bitten, diese Verhandlungen aber ein bischen zu be<g ref="#typoHyphen"/>
+                    <lb break="no"/>schleunigen.</p>
+                <p>Bitte Herrn Direktor <persName key="pers.1538">Herzka</persName> meine besten Grüsse
+                    und Wünsche für <lb/>seine Gesundheit zu senden.</p>
+                <closer rendition="#inline">
+                    <salute>Hochachtungsvoll</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

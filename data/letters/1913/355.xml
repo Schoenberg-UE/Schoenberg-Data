@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.355"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 26. November 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.355</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 355</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1.1">Mariendorf, Berliner Straße 17a</placeName>
+                    <date when="1913-11-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17507"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/355_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.355_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <supplied cert="low">
+                        <stamp sameAs="stamp.1">
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                            <lb/>Berlin-Südende<lb/>
+                            <placeName key="place.2.23.1.1">Berlinerstr. 17a</placeName>, <hi rendition="#sup">I.</hi>
+                            <lb/>Tel.:
+                        Tempelhof 174.</stamp>
+                    </supplied>
+                    <dateline>
+                        <date when="1913-11-26">26/XI. 1913</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich habe mich geirrt, die <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.16">Gurre Lieder</bibl>
+                        </orig>
+                        <note xml:id="npxn_slk_fgc" resp="#KBleier">
+                            <ref target="event.103"/>
+                        </note>
+                    </seg>
+                    <seg type="comment">
+                        <orig>Probe</orig>
+                        <note sameAs="letter.17506/#nmkx_y4s_kgc"/>
+                    </seg> ist allerdings erst <lb/>am <date when="1913-12-16">16/XII.</date>
+                    (ich habe mich verschaut) aber ich brauche die <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.7255/#nf53_4tp_jgc"/>
+                    </seg>
+                    doch wenigstens 8–10 <lb/>Tage früher, um mich gut vorzubereiten. Und außerdem
+                    auch, um mir meine Sachen <lb/>einzutragen. Ich bitte Sie aber dringendst, die
+                    Partitur vorher <hi rendition="#u">einbinden</hi> zu lassen. <lb/>Den 3<hi rendition="#sup">
+                        <hi rendition="#uu">ten</hi>
+                    </hi> Teil haben Sie mir in einem Zustand geschickt, der wirklich entsetzlich
+                    ist. <lb/>Man sollte doch nicht so schlecht mit etwas umgehen, mit dem ein
+                    andrer sich so <lb/>geplagt hat. In diesen 60 Seiten steckt sehr viel Arbeit
+                    drin und das könnte <lb/>sogar ein Kopist berücksichtigen! Jedenfalls, da sie
+                    jetzt aus lauter ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>zelnen Blättern besteht, muss ich sie mir von einem Buchbinder
+                    erst <lb/>zusammenbinden lassen. Sie sind wohl so freundlich mir die Kosten
+                    <lb/>zu vergüten!</p>
+                <p>Zu den geplanten Einzelausgaben aus den <bibl sameAs="werke.16">Gurreliedern</bibl>:
+               <lb/>Was Sie vorhaben finde ich nicht für praktisch.</p>
+                <p>Ich glaube Sie müssten die stärksten Stücke einzeln herausgeben, <lb/>oder was noch
+               praktischer wäre, da es sich auch mit den Bedürfnissen <lb/>der Konzertunternehmer
+               deckt folgende Ausgaben machen:</p>
+                <list>
+                    <item>a) alle Stücke des Waldemar</item>
+                    <item>b) <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>alle</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Stücke</supplied>
+                        </ellipsis> der Tove </item>
+                    <item>c) eventuell noch einzeln: Narr, Waldtaube,
+                  (eventuell <lb/>auch Bauer??)</item>
+                </list>
+                <p>Das braucht man ja ohnedies so für die Solisten!!! <lb/>Sollten Sie aber einstweilen
+               nicht alle diese Stücke <add place="superlinear">auch</add> in <lb/>
+                    <del rendition="#s">Part</del> Einzelausgaben bringen wollen, dann kommt meines
+               <lb/>Erachtens in Betracht (jedes <hi rendition="#u">einzeln</hi>, damit es für
+               <lb/>den betreffenden Sänger passt!)</p>
+                <list>
+                    <item>I. „<bibl sameAs="werke.19">Nun sag ich dir zum ersten Mal</bibl>
+                        <supplied cert="high">“</supplied> 4 Takte vor <hi rendition="#rectangle">30</hi>
+                        bis <hi rendition="#rectangle">55</hi>
+                    </item>
+                    <item>II. „<bibl sameAs="werke.21">Lied der Waldtaube</bibl>“ <subst>
+                            <del rendition="#ow">3</del>
+                            <add place="across">4</add>
+                        </subst>
+                        <!-- was war zuerst, 3 oder 4?--> Takte vor 96 bis Schluss</item>
+                    <item>III. „Du sendest mir einen Liebesblick“ 2 Takte vor 64 – ca 2 Takte vor
+                            <hi rendition="#rectangle">71</hi>
+                    </item>
+                    <pb n="2" xml:id="p.2"/>
+                    <item>IV. „<bibl sameAs="werke.18">So tanzen die Engel</bibl>“ von 6 Takte vor
+                        44 bis 4 vor 50 </item>
+                    <item>V. „<bibl sameAs="werke.20">Du wunderliche Tove</bibl>“ von 8 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Takte</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 73 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>bis</supplied>
+                        </ellipsis> 2 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 82</item>
+                    <item>VI. „Es ist Mitternachtszeit“ <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>von</supplied>
+                        </ellipsis> 7 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Takte</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 56 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>bis</supplied>
+                        </ellipsis> ca 4 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 65</item>
+                    <item>
+                        <note place="left" hand="#author">
+                            <hi rendition="#u">III. Theil</hi>
+                        </note>VII.
+                  „Mit Toves Stimme“ <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>von</supplied>
+                        </ellipsis> 6 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Takte</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 31 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>bis</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>ca</supplied>
+                        </ellipsis> 7 <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>vor</supplied>
+                        </ellipsis> 37</item>
+                    <item>VIII. Lied des Narren <add place="superlinear">
+                            <del rendition="#s">entweder</del>
+                        </add> von 38 bis <lb/>entweder 3 Takte <metamark function="ellipsis"> nach</metamark>
+                  58
+                  <lb/>oder besser 4 vor <hi rendition="#rectangle">61</hi>
+                    </item>
+                </list>
+                <p>Ich habe die Stücke in der Reihenfolge genannt, <lb/>in der ich sie für geeignet
+               halte. Die stärksten zuerst. <lb/>Ich bin sicher, dass Sie aber ruhig alle genannten
+               schon <lb/>jetzt herausgeben könnten!</p>
+                <p>Die Abschriften der einzelnen Lieder und die Auszüge <lb/>soll <hi rendition="#uu">
+                        <persName key="pers.385">Berg</persName>
+                    </hi> machen! Ich kann <hi rendition="#u">das nicht!</hi> Ich bringe so was <lb/>nicht zusammen. Eventuell <hi rendition="#u">
+                        <persName key="pers.4273">Wöss</persName>.</hi> Aber mir wäre <lb/>es
+               lieb, dem <persName key="pers.385">Berg</persName> eine Arbeit zuzuwenden.</p>
+                <p>Nun noch etwas: habe ich oder haben Sie ein Recht <lb/>und die Macht, einer
+                    Quartettgenossenschaft, die die <lb/>Stimmen meines <bibl sameAs="werke.26">II.
+                        Quartetts</bibl> erworben hat, die <lb/>Aufführung zu untersagen? Mir wäre
+                    das <hi rendition="#u">höchst wichtig.</hi>
+                    <lb/>Es handelt sich um das hiesige <orgName key="org.109">„Löwensohn“
+                        Quartett</orgName>, <lb/>welches in schlechter Gesangsbesetzung und mit zu
+                    wenig <lb/>Proben das <bibl sameAs="werke.26">II. Q.</bibl> spielen will.<!-- nicht in dt Zeitungsportal--> Noch
+                    dazu in <placeName key="place.2.3">Berlin</placeName>! <lb/>Ich glaube, das
+                    würde mir <hi rendition="#uu">sehr schaden!!!</hi> Außerdem <lb/>will
+                        das<orgName key="org.175"> Ungarische Quartett,</orgName> welches
+                    erstklassig und <lb/>sehr fleissig ist, das Quartett hier spielen.<!-- nicht in dt Zeitungsportal--> Das wäre
+                    günstiger <lb/>und <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> auch künstlerisch gut! Was kann man da <lb/>machen.
+                    Bitte dringend um Nachricht!</p>
+                <closer>
+                    <salute>Viele herzl. Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

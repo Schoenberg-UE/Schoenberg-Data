@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17691"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Universal-Edition an Arnold Schönberg, 9. April 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17691</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17691</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3067">Rothe, Barbara Maria Agnes</persName>
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1927-04-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.5">Berlin, Steinplatz 2</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.1297"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17691_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17691_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.24">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>
+                        <placeName key="place.15.8.15">209 West 57<hi rendition="#sup">th</hi>
+                            Street</placeName>
+                        <lb/>New York<lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude</stamp>
+                    <lb/>
+                    <persName key="pers.1538">D</persName>/<persName key="pers.4377">Ma.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, den <date when="1927-04-09">9.
+                            April 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Charlottenburg 2.</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.5">Steinplatz 2</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Wir kommen erst heute in die Lage, auf Ihre sehr ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schätzte <ref target="letter.1297">Zuschrift</ref> vom <date when="1927-03-18">18. März</date> zu antworten, nachdem unser Herr
+                    <lb/>Direktor <persName key="pers.1538">Hertzka</persName> erst in der
+                    vergangenen Woche von seiner Erholungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>reise zurückgekehrt ist und seine geschäftliche Tätigkeit in
+                    einem <lb/>allerdings recht eingeschränktem Umfange wieder aufgenommen hat.
+                    <lb/>Wir ersehen aus ihrem Geschätzten, dass Ihnen die Zurückziehung un<g ref="#typoHyphen"/>
+                    <lb break="no"/>seres seinerzeitigen <ref target="document.23464">Vorschlages</ref> (<date when="1926-12-06">6. Dezember 1926</date>) nicht
+                    erwünscht <lb/>ist und wir wollen daher den Vorschlag aufrechthalten. Wir
+                    möchten <lb/>nur nebenbei erwähnen, dass Ihre Ausführungen, die sich auf die
+                        Zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>rücknahme beziehen, irrig sind. Sie haben uns auf unser <ref target="letter.17636">Schreiben</ref>
+                    <lb/>vom <date when="1926-12-06">6. Dezember</date> samt den betreffenden
+                    Vorschlag am <date when="1926-12-27">27. Dezember</date> nicht <lb/>im
+                    geringsten beleidigt geantwortet. Sie <ref target="letter.7179">schrieben</ref>
+                    in sachlicher <lb/>und freundlicher Weise, dass Sie sich über den Vorschlag noch
+                    nicht <lb/>äussern können, da Sie sich mit demselben noch nicht befassen konn<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten, dass er Ihnen jedoch in dieser Form nicht abschlussreif
+                    erscheint. <lb/>Sie ersuchten, Sie in nächster Zeit, in welcher Sie hofften eine
+                    <lb/>neue Wohnung zu finden, an die Sache zu erinnern und schrieben dann
+                    <lb/>wörtlich: „Vielleicht können Sie bis dahin auch einen besseren Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>schlag machen: einen gerechteren.“ Wir <ref target="letter.17681">antworteten</ref> Ihnen hierauf, dass <lb/>wir von
+                    Ihren Mitteilungen Kenntnis genommen haben und Ihrem Wunsche <pb n="2" xml:id="p.2"/>entsprechend versuchen werden, Ihnen einen, wie Sie schreiben,
+                        ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechteren Vorschlag zu machen, und Sie gebeten, zunächst unseren
+                    <lb/>Vorschlag als nicht geschehen zu betrachten. Daraufhin kam nun am <lb/>
+                    <date when="1927-01-23">23. Januar</date> ein <ref target="letter.1281">Schreiben</ref>, aus dem wir zu unserem Bedauern eine Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>ärgerung oder ein Beleidigtsein entnehmen mussten. Sie hatten
+                    uns <lb/>dies mit einigen uns kränkenden Worten bekanntgegeben. Wir waren
+                    <lb/>uns aber bewusst, diese Kränkung in keiner Weise verdient zu haben,
+                    <lb/>weshalb wir, um diese Sache leichter ausklingen zu lassen, Ihre weite<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren Mitteilungen abwarteten. Diese sind dann sowohl mündlich an
+                        un<g ref="#typoHyphen"/>
+                    <lb break="no"/>seren Herrn Dr. <persName key="pers.1520">Heinsheimer</persName>
+                    als auch schriftlich durch Ihren letzten <lb/>Brief erfolgt, und somit steht die
+                    Situation heute so wie sie mit <lb/>unserem Schreiben und Vorschlag vom <date when="1926-12-06">6. Dezember</date> stand. – Nun möchten <lb/>wir uns
+                    erlauben, Ihnen einige ziffernmässige Daten zu geben, deren <lb/>Kontrolle Ihnen
+                    ja auf Grund der Ihnen gemachten Abrechnungen leicht <lb/>möglich ist: Wir haben
+                    mit Ihnen vor ca 3 Jahren, mit Zahlungsver<g ref="#typoHyphen"/>
+                    <lb break="no"/>pflichtung ab <date when="1924-01-01">1. Januar 1924</date>
+                    einen 5jährigen Vertrag geschlossen und <lb/>haben Ihnen seit dieser Vertrag abgeschlossen wurde
+                        <add place="superlinear">à conto <hi rendition="#u">neuer</hi> Werke</add>
+                    bisher M 21.000.– <lb/>ausbezahlt. Sie haben uns während der Zeit des neuen
+                    Vertrages fol<g ref="#typoHyphen"/>
+                    <lb break="no"/>gende neue Werke zum Verlag gegeben:</p>
+                <list>
+                    <item>Opus 25 „<hi rendition="#uda">
+                            <bibl sameAs="werke.58">Suite für
+                                Klavier</bibl>
+                        </hi>“,</item>
+                    <item>Opus 26 „<hi rendition="#uda">
+                            <bibl sameAs="werke.59">Bläserquintett</bibl>
+                        </hi>“,</item>
+                    <item>Opus 27 „<hi rendition="#uda">
+                            <bibl sameAs="werke.60">4 Chöre</bibl>
+                        </hi>“, <note place="right" hand="#addressee">Choräle</note>
+                    </item>
+                    <item>Opus 28 „<hi rendition="#uda">
+                            <bibl sameAs="werke.61">3
+                            Chöre</bibl>
+                        </hi>“,</item>
+                    <item>Opus 29 „<hi rendition="#uda">
+                            <bibl sameAs="werke.62">Suite für Klavier und 6 Instrumente</bibl>
+                        </hi>“. <add place="sublinear">auch die <bibl sameAs="schriften.7">Texte</bibl>: Totentanz +
+                            Requiem.</add>
+                    </item>
+                </list>
+                <p>Auf diese Werke sind bisher insgesamt M 1.454.53 einge<g ref="#typoHyphen"/>
+                    <lb break="no"/>gangen, sodass das Konto neuer Werke einen Saldo von M 19.545.47
+                    <lb/>aufweist. Wir möchten noch hinzufügen, dass Ihr Konto für alte Werke <pb n="3" xml:id="p.3"/>am <date when="1924-04-01">1. April 1924</date>
+                    vollständig geebnet war, nachdem wir einen Saldo <lb/>von <add place="superlinear">cca</add> 14,000.000.– <add place="superlinear">Kronen</add> zu Ihren Lasten von diesem Konto glatt gestrichen <lb/>
+                    <note place="left" hand="#addressee">zu <gap reason="illegible" unit="words" quantity="1"/> schlechter <lb/>Valuta!\Verrechnungen</note>haben. Dieses
+                    alte Konto ist nun seit dieser Zeit durch Zahlungen, <lb/>die Ihre Guthabungen
+                    überschritten haben, auf 11.500.– Schilling an<g ref="#typoHyphen"/>
+                    <lb break="no"/>gewachsen. Diese <hi rendition="#circle" hand="#unknown">28.</hi>000.– S betragen in Mark umgerechnet rund <lb/>7.000.–
+                    Mark. Wenn Sie den Saldo auf neue Werke hinzurechnen, so <lb/>erweist sich, dass
+                    sie seit <date when="1924-04-01">1. April 1924</date>
+                    <subst>
+                        <del rendition="#ow">3</del>
+                        <add place="across">2</add>
+                    </subst>6.500 Mark <hi rendition="#u">über die Ihnen <lb/>aus den
+                        Tantiemenverrechnungen gebührenden Zahlungen</hi> erhalten haben. <lb/>Wenn
+                    Sie nun bedenken, dass in Bezug auf die neuen Werke die Ihnen <lb/>ausbezahlten
+                    Beträge nur einen Vorschuss auf dieselben bedeuten <note place="inline" hand="#unknown">le<gap reason="illegible" unit="chars" quantity="5"/>
+                    </note>und <lb/>dass Sie viele, viele Jahrzehnte hindurch die Früchte dieser
+                    neuen <lb/>Werke geniessen, so werden Sie vielleicht die zwischen uns bestehen<g ref="#typoHyphen"/>
+                    <lb break="no"/>de Abmachung in einem etwas milderen Lichte betrachten und auch
+                    zur <lb/>Erkenntnis gelangen, dass Sie doch „im Vergleich mit der <orgName key="org.1">Universal <lb/>Edition</orgName> nicht gar so ungünstig daran
+                    sind“ und „dass die <orgName key="org.1">U.E.</orgName> Sie <lb/>vielleicht gar
+                    nicht so billig in der Hand hat“ als das von Ihnen <lb/>angenommen wird.</p>
+                <p>Mit aufrichtiger Genugtuung haben wir aus Ihrem letzten <lb/>Schreiben ersehen,
+                    dass Sie im Grunde genommen trotz einem gewissen <lb/>Unmut über gewisse
+                    Zustände, an denen wir ja leider vollkommen un<g ref="#typoHyphen"/>
+                    <lb break="no"/>schuldig sind und deren Wirkung wir ebenso unangenehm empfinden
+                    wie <lb/>Sie, keine Lösung Ihrer Beziehung zur <orgName key="org.1">U.E.</orgName> wünschen und dass Sie <lb/>auch zwei Möglichkeiten zur
+                    Regelung des ja nicht ganz leichten <lb/>Problemes zur Diskussion stellen.</p>
+                <pb n="4" xml:id="p.4"/>
+                <p>Was nun die erste „Möglichkeit“ betrifft, so scheint <lb/>diese zu
+                    bezwecken, dass neben der Tantiemenbeteiligung ein garan<g ref="#typoHyphen"/>
+                    <lb break="no"/>tierter Betrag fixiert wird, der in jährlichen Zahlungen
+                    innerhalb <lb/>10 bis 15 Jahren getilgt werden soll. Sie würden also, wenn Sie
+                    für <lb/>ein Werk 4 bis 5.000 Mark <add place="superlinear">als
+                        Vorschussgarantie</add> (die Ziffern sind natürlich nur ganz akade<g ref="#typoHyphen"/>
+                    <lb break="no"/>misch) zu erhalten hätten, für dieses
+                    Werk 10 oder 15 Jahre hin<g ref="#typoHyphen"/>
+                    <lb break="no"/>durch jährlich
+                    den 10. respektive 15. Teil erhalten. Nach Ablauf die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser 10 oder 15 Jahre sollen die von dann ab gutzuschreibenden
+                        Tan<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiemen bar ausbezahlt werden. Der
+                    springende Punkt bei dieser neuen <lb/>„Möglichkeit“ ist ja die
+                    Festsetzung der Tantiemengarantie. Wenn <lb/>über die Höhe einer solchen
+                    Tantiemengarantie bei jedem Werk auf <lb/>Grund eines vorher genau zu
+                    fixierenden Schlüssels leicht eine Eini<g ref="#typoHyphen"/>
+                    <lb break="no"/>gung erzielbar wäre, dann erscheint diese „Möglichkeit“ sicherlich
+                    <lb/>diskussionsfähig. Es ist klar, dass eine Tantiemengarantie, die in
+                    <lb/>einer bestimmten Zeit, ob nun Eingänge während dieser Zeit für das
+                    <lb/>Werk erfolgen oder nicht, automatisch verfällt, sodass der Verlag <lb/>aus
+                    der Tantiemengarantie, die unter Umständen nur zu einem geringen <lb/>Teil wird
+                    amortisiert werden können, <add place="superlinear">später</add> noch die
+                    regulären Tantiemen zu <lb/>zahlen hat, nur einen Bruchteil dessen ausmachen
+                    kann, als es der <lb/>effektive Verkaufswert des Werkes in toto wäre. Nach
+                    unserer verle<g ref="#typoHyphen"/>
+                    <lb break="no"/>gerischen Schätzung würde,
+                    wenn ein solcher Verkaufswert einwandfrei <lb/>festgestellt werden könnte, die
+                    in der von Ihnen erwähnten Art be<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechnete
+                    Tantiemengarantie mit etwa 33 1/3 % dieses Betrages fixiert <lb/>werden können.
+                    Sollten irgendwelche andere Sachverständige annehmen, <lb/>dass ein solcher
+                    garantierter Tantiemenanteil höher einzuschätzen wäre, <lb/>so würden wir uns
+                    vielleicht eines Besseren belehren lassen. Sie selbst <pb n="5" xml:id="p.5"/>schreiben, dass Sie eine Berechnung gemacht haben und dabei heraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>bekamen, dass Ihnen die <orgName key="org.1">U.E.</orgName>, wenn man Zinseszinsen hinzurechnet, un<g ref="#typoHyphen"/>
+                    <lb break="no"/>gefähr die Hälfte (wohl als
+                    Tantiemengarantie?) geben würde von dem, <lb/>was Ihnen von anderen Verlegern
+                    angetragen wird. Der Vergleich ist <lb/>allerdings nicht sehr zutreffend,
+                    nachdem in einem Falle Tantiemen<g ref="#typoHyphen"/>
+                    <lb break="no"/>garantie
+                    plus Tantiemen, im anderen Fall einmalige Abfertigung ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>glichen wird. Nun ersehen wir aber aus Ihrer Bemerkung,
+                    dass Ihnen <lb/>tatsächlich von anderen Verlegern bereits Beträge angetragen
+                    werden, <lb/>und da wäre es doch, um zu einem positiven Ergebnis zu kommen,
+                        wün<g ref="#typoHyphen"/>
+                    <lb break="no"/>schenswert, wenn Sie die Güte
+                    hätten, uns diesbezüglich konkrete Mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>teilungen zu machen, sowie uns die Berechnung, die Sie selbst, wie <lb/>Sie
+                    schreiben, nach dieser Richtung hin gemacht haben, bekanntzugeben.</p>
+                <p>Jedenfalls kann die im vorhergehenden ausführlich be<g ref="#typoHyphen"/>
+                    <lb break="no"/>handelte „Möglichkeit“ ernstlich in Betracht kommen
+                    und wir würden <lb/>uns freuen, wenn <hi rendition="#u">Ihr</hi> Vorschlag zur
+                    Grundlage einer Neuregelung ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>macht werden
+                    könnte an Stelle <hi rendition="#u">unseres</hi>
+                    <ref target="document.23464">Vorschlages</ref> (vom <date when="1926-12-06">6. Dezember
+                    1926</date>).</p>
+                <p>Die von Ihnen unter Punkt II angeführte „Möglichkeit“ <lb/>würde, wie
+                    Sie selbst schreiben, eine Lockerung Ihrer Bindung an die <lb/>
+                    <orgName key="org.1">U.E.</orgName> bedeuten und wir glauben nicht, dass diese 2.
+                    „Möglichkeit“ zu <lb/>einer weiteren Behandlung irgendwelche
+                    Veranlassung geben kann. <lb/>Wir würden uns herzlich freuen, wenn Ihre
+                    Verstimmung uns gegenüber <lb/>bald schwinden würde und so rasch als möglich
+                    eine gerechte Einigung, <lb/>die allerdings von beiden Teilen als solche
+                    empfunden werden müsste, <lb/>zustandekommen könnte.</p>
+                <p> Herr Direktor <persName key="pers.1538">Hertzka</persName>, der Ihnen für Ihre
+                    gütigen <pb n="6" xml:id="p.6"/>Grüsse und Wünsche herzlich danken lässt,
+                    befindet sich schon be<g ref="#typoHyphen"/>
+                    <lb break="no"/>deutend besser und
+                    nimmt auch an den geschäftlichen Geschehnissen<g ref="#typoHyphen"/>
+                    <lb break="no"/>wieder weitaus regeren Anteil als dies in den letzten 6 Monaten
+                    der <lb/>Fall sein konnte.</p>
+                <closer>
+                    <salute>Mit den verbindlichsten Empfehlungen <lb/>
+                        <seg rendition="#r">in
+                            aufrichtiger Hochschätzung <lb/>ergebenst</seg>
+                    </salute>
+                    <lb/>
+                    <stamp sameAs="stamp.108" rendition="#r">„<orgName key="org.1">Universal-Edition
+                            Actiengesellschaft</orgName>“</stamp>
+                    <lb/>
+                    <signed rendition="#r">pp <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <signed rendition="#r">pp <persName key="pers.3067">Rothe</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

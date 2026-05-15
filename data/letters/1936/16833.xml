@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.16833"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Erwin Stein an Arnold Schönberg, 30. April 1936</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.16833</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 16833</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3612">Stein, Erwin</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1936-04-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.6564"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2025-12-12+02:00" who="KBleier">Ergänzung Schreibort</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/16833_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.16833_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1936-04-30">30.IV. 1936</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>,</salute>
+                <p rendition="#inline">Ich danke Ihnen herzlich für Ihren <lb/>
+                    <ref target="letter.6564">Brief</ref> vom <date when="1936-03-09">9.</date> und
+                        <date when="1936-03-11">11. März</date>. Die Gründe, die Sie veranlasst
+                    haben, <lb/>die Vollendung der <bibl sameAs="werke.91">Lulu</bibl> aufzugeben
+                    verstehe ich vollkommen, <lb/>und sie verstehen auch die wenigen Leute, denen
+                    ich den wirk<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Sachverhalt mitgeteilt
+                        <add place="superlinear">und Ihren Brief gezeigt</add> habe; das sind ausser
+                    meiner <lb/>
+                    <rs type="person" key="pers.3627">Frau</rs>: <persName key="pers.4190">Winter</persName> und <persName key="pers.1702">Jalow<supplied cert="high">e</supplied>tz</persName>. <persName key="pers.3662">Steuermann</persName>
+                    habe ich auch einige <lb/>Andeutungen gemacht. Ich bin nicht dafür, dass sonst
+                    noch <lb/>jemand davon erfährt, auch <persName key="pers.4001">Webern</persName>
+                    nicht. Höchstens werde <lb/>ich den Brief noch <persName key="pers.1750">Kalmus</persName> zeigen, der jetzt in <placeName key="place.15.8">New
+                        York</placeName> ist <lb/>und Ende <date when="1936-05">Mai</date>
+                    zurückkommt; aber auch nur dann, wenn ihm die <lb/>offiziellen Gründe der Ablehnung nicht stichhältig genug scheinen.
+                    <lb/>Ich glaube aber absolut, dass es von <persName key="pers.385">Berg</persName>
+                    nur Gedankenlosig<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit war – wenn Sie
+                    auch das „nur“ nicht werden gelten lassen. <lb/>Er hat das Textbuch
+                    immerhin in vorhitlerischen Zeiten bear<g ref="#typoHyphen"/>
+                    <lb break="no"/>beitet. Dass Sie die Skizze mit der Bemerkung „Gemauschel“ <lb/>in
+                    die Hand bekommen, eine härtere Strafe hätte es für ihn <lb/>nicht geben können,
+                    glaube ich. Wie gedankenlos auch andere <lb/>sind – ich kann mich dabei
+                    nicht ausschliessen, obwohl ich <lb/>mich nachträglich erinnere, dass mich das
+                    „Gott der Gerechte“ <lb/>in der fertigen Partitur chockiert hat
+                    – geht daraus hervor, <lb/>dass niemand am Textbuch Anstoss genommen hat
+                    und <persName key="pers.1520">Heinshei<g ref="#typoHyphen"/>
+                        <lb break="no"/>mer</persName> in einem Gespräch unlängst die Figur des jüdelnden Bankier
+                    <lb/>erwähnte, als müsste es in einer Oper eben so sein.</p>
+                <p>Nach dem derzeitigen Stand der Angelegenheit wird die <lb/>
+                    <bibl sameAs="werke.91">Lulu</bibl> unvollendet bleiben. Wir haben <persName key="pers.4001">Webern</persName> und <persName key="pers.4309">Zemlinsky</persName> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>fragt, ob sie die Instrumentation machen wollen. <persName key="pers.4001">Webern</persName> hat<pb n="2" xml:id="p.2"/>noch nicht
+                    abgelehnt. Er wird sich noch mit dem Particell befassen. <lb/>Aber ich <del rendition="#s">gl ich</del> kann mir nicht vorstellen, dass daraus etwas
+                    wird. <lb/>
+                    <persName key="pers.4309">Zemlinsky</persName> schien als Theaterpraktiker
+                    anfangs grosse Lust zu haben. <lb/>Nach zwei Tagen Studium sagte er ab und gab
+                    den Rat, nur das aufzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>führen, was von <persName key="pers.385">Berg</persName> fertig
+                    vorliegt. Das wird wahrscheinlich auch <lb/>geschehen. Wir haben dem <placeName key="place.11.6">Züricher</placeName>
+                    <rs type="person" key="pers.3207">Direktor</rs> vorgeschlagen, nur <add place="superlinear">die</add> zwei <lb/>fertigen Akte <seg type="comment">
+                        <orig>zu bringen</orig>
+                        <note xml:id="nnjk_wgh_qfc" resp="#KBleier">
+                            <ref target="event.177"/>
+                        </note>
+                    </seg> und als Epilog rein symphonisch das <lb/>Adagio aus den „<bibl sameAs="werke.90">Symphonische<supplied cert="high">n</supplied>
+                        Stücken</bibl>“ aufzuführen.</p>
+                <p>Endlich hat man in <placeName key="place.9.11">Wien</placeName> Ihre <bibl sameAs="werke.64">Variationen</bibl> gehört: in einem <lb/>
+                    <seg type="comment">
+                        <orig>Gastkonzert</orig>
+                        <note xml:id="ndwq_rqy_5cc" resp="#pkehrer">
+                            <ref target="event.86"/>
+                        </note>
+                    </seg> des <orgName key="org.234">B.B.C.-Orchesters</orgName> unter <persName key="pers.540">Boult</persName>, und zwar ausdrück<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich als <add place="superlinear">ein</add> für <placeName key="place.9">Oesterreich</placeName> repräsentatives Werk. Das Konzert war
+                    <lb/>hochoffiziell, der <rs type="person" key="pers.2389">Bundespräsident</rs>,
+                    der <placeName key="place.3">englische</placeName>
+                    <rs type="person" key="pers.3443">Gesandte</rs> usw. <lb/>waren da. Es waren
+                    wohl eher Perlen für die guten <placeName key="place.9.11">Wiener</placeName>.
+                    Der Applaus <lb/>war aber sehr gross und unwidersprochen. Die Aufführung war
+                    sauber, <lb/>aber nicht sehr charakteristisch. Ich hab die <bibl sameAs="werke.64">Variationen</bibl> zum <lb/>erstenmal richtig gehört
+                    (vorher nur bei Radioübertragungen), es <lb/>ist ein grossartiges Werk.
+                    Jammerschade, dass die Leute so blöd <lb/>sind, so dass man es nicht öfter hören
+                    kann. Es ist melodisch so <lb/>reich, in den Farben so bunt und in den
+                    Charakteren eigentlich so <lb/>deutlich und einleuchtend, dass es ein dankbares
+                    Bravourstück sein <lb/>müsste, wenn die Leute hören könnten.</p>
+                <p>Die <orgName key="org.1">U. E.</orgName> hat jetzt von <orgName key="org.70">Schirmer</orgName> für Europa den Vertrieb <lb/>Ihrer <bibl sameAs="werke.145">Streicher-Suite</bibl> und des <bibl sameAs="werke.39">Cellokonzerts</bibl> übernommen. Ich glaube <lb/>bestimmt dass dadurch
+                    wesentlich mehr Aufführungen hier zustande<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen werden. Ich habe im Verlag die Sache propagandistisch in
+                    <lb/>die Hand genommen. Der <rs type="person" key="pers.1541">Solocellist</rs>
+                    vom <rs type="org" key="org.202">Prager Radio</rs>, ein vorzüg<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher Musiker (ich habe ihn u. a. <seg type="comment">
+                        <orig>im
+                                <bibl sameAs="werke.54">Pierrot</bibl> gehört</orig>
+                        <note xml:id="nqfl_wqc_y2c" resp="#pkehrer">
+                            <ref target="event.162"/>
+                        </note>
+                    </seg>) studiert <lb/>jetzt das
+                        <bibl sameAs="werke.39">Cellokonzert</bibl>. Wahrscheinlich werden dort 2
+                        Aufführungen<pb n="3" xml:id="p.3"/>sein, eine öffentlich und eine im Radio. <subst>
+                        <del rendition="#s">Man muss den Leuten</del>
+                        <add place="superlinear">Die Leute fragen</add>
+                    </subst>
+                    <lb/>immer, warum die <bibl sameAs="werke.145">Suite</bibl> tonal ist. Ich
+                    stelle es als ein Beispiel <lb/>hin, wie Sie sich heute eine tonale Komposition
+                    vorstellen; Sie <lb/>wollten zeigen, wie so etwas aussehen darf. Ist diese
+                        Interpreta<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion richtig? Ich bitte Sie, mir ein paar Worte darüber zu
+                        schrei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben, um den <del rendition="#s">Leuten</del> Fragern (es waren
+                    z. B. <persName key="pers.121">Volmar Andreae</persName> aus <placeName key="place.11.6">Zürich</placeName>, <lb/>
+                    <persName key="pers.1737">Kabasta</persName>, <persName key="pers.4098">Wellesz</persName>) richtig antworten zu können.</p>
+                <p>Der <orgName key="org.1">U.E.</orgName> geht es jetzt materiell ganz gut,
+                    jedenfalls viel <lb/>besser als in den letzten Jahren. Der geniale <persName key="pers.1538">Hertzka</persName> hat den <lb/>Verlag in recht schlechter
+                    Situation hinterlassen. Es ist haupt<g ref="#typoHyphen"/>
+                    <lb break="no"/>sächlich das Verdienst von <persName key="pers.4190">Winter</persName>, dass er
+                    sich seitdem konsoli<g ref="#typoHyphen"/>
+                    <lb break="no"/>diert hat. – Von
+                    mir selbst ist nicht viel zu erzählen. Ich küm<g ref="#typoHyphen"/>
+                    <lb break="no"/>mere mich um die <orgName key="org.1">U.E.</orgName> mehr als
+                    früher und verwende mehr Zeit da<g ref="#typoHyphen"/>
+                    <lb break="no"/>rauf. Seit
+                    dem Tod meines <rs type="person" key="pers.3614">Vaters</rs> hat der <rs type="person" key="pers.3634">Sohn</rs> meines <rs type="person" key="pers.3633">Bruders</rs>
+                    <orgName key="org.235">Manz</orgName>
+                    <lb/>übernommen, wie das mein Bruder seinerzeit vertraglich abgemacht
+                    <lb/>hatte. Ich und meine <seg type="comment">
+                        <orig>Geschwister</orig>
+                        <note xml:id="nvm2_xqr_lvb">
+                            <persName key="pers.3635">Paula
+                            Kemperling</persName>, <persName key="pers.3636">Emma von Sax</persName>
+                            und <persName key="pers.3637">Helene Winger</persName>
+                        </note>
+                    </seg> sollen
+                    ausgezahlt werden. Na<g ref="#typoHyphen"/>
+                    <lb break="no"/>türlich ist <orgName key="org.235">Manz</orgName> nicht mehr, was er war. – Von unseren
+                    alten <lb/>Freunden bin ich am meisten mit <persName key="pers.1702">Jalowetz</persName> beisammen. Der hat wie <lb/>Sie wohl wissen grosse
+                    Sorgen. Wenn man nur eine Stellung für <lb/>ihn finden könnte! – Seit
+                    meiner Operation geht es mir gesundheit<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich viel besser. Ich bin durch sie ein viele Jahre altes Magen<g ref="#typoHyphen"/>
+                    <lb break="no"/>leiden, das die Aerzte nie
+                    diagnostizieren konnten, los geworden. <lb/>Jetzt plötzlich wissen aber alle,
+                    dass Magenleiden öfters vom <lb/>Blinddarm her kommen. – <persName key="pers.3632">Marion</persName> kommt im Herbst ins Realgymnasium, sie
+                    <lb/>entwickelt sich sehr gut und ist auch nicht unmusikalisch. Vor <lb/>kurzem
+                        hat<del rendition="#s">te</del> sie eine leichte Diphteritis überstanden.
+                    Die Krank<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit der Kleinen, <subst>
+                        <del rendition="#s">die mir</del>
+                        <add place="superlinear">(sie wird mir</add>
+                    </subst> allerdings <del rendition="#s">in</del> sehr bald über den Kopf
+                    <lb/>gewachsen sein<subst>
+                        <del rendition="#s"> dürfte</del>
+                        <add place="superlinear">)</add>
+                    </subst>, war die Ursache, weshalb ich auf Ihren<pb n="4" xml:id="p.4"/>Brief
+                    nicht früher geantwortet habe. Ich wollte vorsichtshalber <lb/>einige Zeit
+                    verstreichen lassen, <del rendition="#s">bevor</del> obwohl ich nicht glaube,
+                    <lb/>dass <subst>
+                        <del rendition="#s">über</del>
+                        <add place="superlinear">durch</add>
+                    </subst> einen Brief und auf so lange Strecken hin eine Ueber<g ref="#typoHyphen"/>
+                    <lb break="no"/>tragung stattfinden kann.<lb/>
+                </p>
+                <p>Ganz abgesehen davon, dass ich während der Krankheit <lb/>von <persName key="pers.3632">Marion</persName> getrennt war. Gott sei Dank ist sie <add place="superlinear">längst</add> wieder vollständig <lb/>erholt.</p>
+                <p>Leider weiss ich von Ihnen selbst nur sehr wenig authen<g ref="#typoHyphen"/>
+                    <lb break="no"/>tisches, weder von Ihrer Arbeit, noch von Ihrem persönlichen
+                        Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>finden. Schreiben Sie mir doch davon, bitte! Sie können mir ja
+                    <lb/>sagen, was ich weitererzählen soll und was nicht. Die Teilnahme <lb/>an
+                    Ihrer Person ist ja keine Neugierde. Wenn man auch nicht mehr <lb/>so mit
+                    einander leben darf wie früher einmal, will man doch wissen, <lb/>wie es Ihnen
+                    geht. Sie sind für <add place="superlinear">die</add> Leute, und beinahe auch
+                    für uns <lb/>eine mythische Person geworden, die irgendwo im fernen Westen
+                    lebt.</p>
+                <closer>Bitte schreiben Sie mir bald! <salute>Ihnen, Ihrer lieben <rs type="person" key="pers.3297">Frau</rs> und <lb/>
+                        <persName key="pers.3299">Nuria</persName>
+                        – wann werde ich sie einmal sehen? – die herzlichsten Grüsse<choice>
+                            <sic>.</sic>
+                            <corr type="deleted"/>
+                        </choice>
+                        <lb/>von uns Dreien. Alles Liebe und Gute! <lb/>
+                        <seg rendition="#r">Ihr getreuer</seg>
+                    </salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3612">Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

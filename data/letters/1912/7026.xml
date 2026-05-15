@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.7026"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 30. November 1912</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7026</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7026</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.8.1">Amsterdam</placeName>
+                    <date when="1912-11-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.18">Wien, Reichsratsstraße 9</placeName>
+                </correspAction>
+                <note>Sendeadresse laut Poststempel</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Ansichtskarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-03-30+02:00" who="KBleier">Änderung Werktitel</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7026_po.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7026_po"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>Herrn Direktor <persName key="pers.1538">Emil Herzka</persName>
+                        </addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal-Edition</orgName>
+                        </addrLine>
+                        <addrLine>Wien I.</addrLine>
+                        <addrLine>
+                            <placeName key="place.9.11.6.18">Reichsratsstr 9</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <dateline>
+                    <date when="1912-11-30">30/11. <lb/>1912</date>
+                </dateline>
+                <p>Herzl Gruß nach der 2. <placeName key="place.8">holländischen</placeName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="ni5c_w45_2gc" resp="#KBleier">
+                            <ref target="event.195"/>
+                        </note>
+                    </seg> (<placeName key="place.8.2">Haag</placeName>). Es war wohl ein <lb/>
+                    <seg type="comment">
+                        <orig>Erfolg</orig>
+                        <note xml:id="npxb_x45_2gc" resp="#KBleier">Rezensionen: <rs type="bibl"
+                                key="zotero-4528359-JW8S6397">De nieuwe courant 1912</rs>; <rs
+                                type="bibl" key="zotero-4528359-B3W9ZKSM">Haagsche courant
+                            1912</rs>; <rs type="bibl" key="zotero-4528359-MNNWKHMA">Rutters
+                                1912</rs>
+                        </note>
+                    </seg>. <persName key="pers.2334">Mengelberg</persName> will jetzt immer <lb/>
+                    <del rendition="#s">
+                        <unclear reason="illegible" cert="low">M</unclear>
+                    </del> etwas von mir machen. Senden Sie <lb/>ih<supplied cert="high"
+                        >m</supplied> meine <seg type="comment">
+                        <orig>Noten</orig>
+                        <note xml:id="nvs3_np5_2gc" resp="#TMuxeneder">Werke (mit Orchester) im
+                            Katalog der <orgName key="org.1">UE</orgName>, die zu diesem Zeitpunkt
+                            noch nicht in <placeName key="place.8.1">Amsterdam</placeName>
+                            aufgeführt worden waren: <bibl sameAs="werke.132">Sechs Lieder für
+                                Gesang und Orchester op. 8</bibl>; <bibl sameAs="werke.2"
+                                >Kammersymphonie für 15 Soloinstrumente op. 9</bibl>; <bibl
+                                sameAs="werke.16">Gurre-Lieder</bibl>
+                        </note>
+                    </seg>.</p>
+                <closer rendition="#inline">
+                    <salute>Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                        <lb/>
+                    </signed>
+                    <salute hand="#pers.3290">Beste Grüße</salute>
+                    <signed>
+                        <persName key="pers.3290">Mathilde Schönberg</persName>
+                        <lb/>
+                    </signed>
+                    <salute hand="#pers.3612">Ergebenst</salute>
+                    <signed>
+                        <persName key="pers.3612">Erwin Stein</persName>
+                    </signed>
+                </closer>
+            </div>
+            <pb n="2" xml:id="p.2"/>
+            <div>
+                <figure>
+                    <p>
+                        <placeName key="place.8.1">Amsterdam</placeName> Dam met Paleis.</p>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

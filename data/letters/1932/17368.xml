@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17368"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 8. September 1932</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17368</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17368</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <!-- Durchschlag in der Sammlung Alfred Kalmus / Wienbibliothek -->
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1932-09-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3">Berlin</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2267"/>
+                    <ref type="answered-by" target="letter.2269"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.7359_cn">Vertrag, 11. September 1932</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17368_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17368_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.84">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1932-09-08">8.
+                            September 1932</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold </persName>
+                            <hi rendition="#g">
+                                <persName key="pers.3263">Schönberg</persName>,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3">
+                                <hi rendition="#u">
+                                    <hi rendition="#g">Berlin</hi>
+                                </hi>
+                            </placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Vielen Dank für Ihren <ref target="letter.2267">Brief</ref> vom <date when="1932-09-05">5. 9.</date> Auch wir würden es <lb/>herzlichst begrüssen,
+                    wenn unsere schon lange dauernden Verhandlun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen raschest zu einem Ende geführt werden könnten. Wenn dieses
+                    <lb/>Ziel mit Ihrem <ref target="document.7359_cotd">Vertragsbrief</ref> vom
+                        <date when="1932-09-05">5. 9.</date> noch nicht erreicht ist, <lb/>so liegt
+                    dies daran, dass Sie leider eine Reihe von Punkten abge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ändert haben, welche uns viel Kopfzerbrechen bereiteten, da wir
+                    <lb/>das ehrliche Bestreben haben, Ihre Wünsche und neuen Formulierun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen nach Möglichkeit zu akzeptieren.</p>
+                <p>Demzufolge erklären uns wir mit der neuen Fassung von <lb/>Punkt 9)
+                    einverstanden, ebenso mit der neuen Fassung von Punkt 4), <lb/>obwohl sie
+                    weitergehend ist, als wir sie gemeinsam vereinbart ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben. Wir sind ferner damit einverstanden, dass alle Verträge
+                        in<g ref="#typoHyphen"/>
+                    <lb break="no"/>nerhalb von 3–4 Monaten auf Grund unserer letzten Abmachungen
+                    <lb/>neu gefasst werden, sodass aus jedem einzelnen Blatt alles zu
+                    <lb/>entnehmen ist, was sich auf das betreffende Werk bezieht.</p>
+                <p>Zu Punkt 5), den wir in Ihrer Fassung annehmen wollen, <lb/>müsste noch ein
+                    Zusatz kommen, mit dem Sie zweifellos einverstan<g ref="#typoHyphen"/>
+                    <lb break="no"/>den sind: „Die neu formulierten Verträge werden eine Fortsetzung
+                    <lb/>der derzeit in Kraft stehenden Verträge darstellen.“ Dies <lb/>ist
+                    juristisch notwendig, da kein Vertragsvakuum entstehen darf. Auch <pb n="2" xml:id="p.2"/>kann sich das Wort „einheitlich“ in der 2. und 3. Zeile von
+                    Punkt <lb/>5) auf die allgemeinen Klauseln beziehen, nicht aber auf die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>dingungen für jedes einzelne Werk, da dieselben ja verschieden
+                    <lb/>sind. Wir zweifeln aber nicht, dass die ganze Neufassung ohne <lb/>jede
+                    Schwierigkeit durchgeführt werden kann.</p>
+                <p>Wenn wir bei den vorangeführten Punkten Ihren Wün<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen weitgehendst Rechnung getragen haben, so ist dies bei der
+                    <lb/>Neufassung von Punkt 3) leider unmöglich. Dieser Punkt
+                    wäre in <lb/>der neuen Fassung ein <placeName key="place.4.12">St.
+                        Germain</placeName> oder <placeName key="place.4.13">Versailles</placeName>
+                    für die <orgName key="org.1">U.E.</orgName>, <lb/>was weder beabsichtigt, noch
+                    berechtigt ist. Ich möchte nochmals <lb/>klar den Gedankengang festlegen, der
+                    bei unserer gemeinsamen Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>sprechung bezüglich der mechanischen Rechte leitend gewesen ist.
+                    <lb/>Sie stehen auf dem Standpunkt, dass Sie durch die <placeName key="place.15">amerikanische</placeName>
+                    <lb/>
+                    <seg type="comment">
+                        <orig>Aufnahme</orig>
+                        <note sameAs="letter.2253/#nipl_lvb_mgc"/>
+                    </seg> der „<bibl sameAs="werke.16">Gurrelieder</bibl>“ geschädigt wurden, ein Standpunkt, der <lb/>von uns
+                    nicht geteilt wird, da wir von den „<bibl sameAs="werke.16">Gurreliedern</bibl>“
+                    die <lb/>mechanischen Rechte besitzen und darüber nach bestem Wissen und
+                    <lb/>Gewissen verfügt haben. Sie wollten nun eine Sicherung, dass in
+                    <lb/>Zukunft eine solche Verfügung nicht möglich ist und diese Siche<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung haben wir Ihnen dadurch gegeben, dass Erstaufnahmen und,
+                    falls <lb/>das Gesetz dazu die Möglichkeit gibt, auch weitere Aufnahmen nur
+                    <lb/>mit Ihrer Zustimmung erfolgen können. Dadurch wird es Ihnen mög<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich sein, jede Erstaufnahme nach Ihren Wünschen vornehmen zu
+                    <lb/>lassen. Wir haben zu Ihrer weiteren Sicherung auch eine Erklä<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung von der <orgName key="org.73">G.D.T.</orgName> und von der
+                        <orgName key="org.18">Ammre</orgName> verlangt, dass sie Ihr Zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmungsrecht bezw. Ihr Verbotsrecht respektieren. Welche Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>nahmen existieren, ist Ihnen bekannt und soweit wir, bezw. die <lb/>
+                    <orgName key="org.18">Ammre</orgName>
+                    <del rendition="#s">verlangt</del>und <orgName key="org.73">G.D.T.</orgName>
+                    davon Kenntnis haben, sind alle Auf<g ref="#typoHyphen"/>
+                    <pb n="3" xml:id="p.3" break="no"/>nahmen auf unserer Kartothek verzeichnet. <hi rendition="#u" hand="#addressee">Diese Kartothek habe</hi>
+                    <lb/>
+                    <note place="left" hand="#addressee">X</note>
+                    <hi rendition="#uu" hand="#addressee">ich Ihnen gezeigt.</hi>
+                </p>
+                <p>Es bleibt nunmehr noch die Frage der Verwaltung dieser <lb/>Rechte übrig, bei
+                    welcher es im beiderseitigen Interesse ist, dass <lb/>dieselben einheitlich
+                    verwaltet werden. Wir werden unsere mechani<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen Rechte sicherlich nur bei jener Gesellschaft verwalten
+                        las<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen, die dies am besten durchführt und da unsere Interessen
+                        voll<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommen parallel gehen, Sie ausserdem die Sicherung Ihres
+                        Zustim<g ref="#typoHyphen"/>
+                    <lb break="no"/>mungsrechtes haben, so liegt kein Grund vor, dass jene Werke,
+                    deren <lb/>mechanische Rechte Sie der <orgName key="org.73">G.D.T.</orgName>
+                    übertragen haben, bei einem even<g ref="#typoHyphen"/>
+                    <lb break="no"/>tuellen <add place="superlinear">Erlöschen</add> Ihrer
+                    Mitgliedschaft bei der <orgName key="org.73">G.D.T.</orgName> durch eine andere
+                        Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sellschaft verwaltet werden als durch jene, bei welcher wir
+                    unsere <lb/>
+                    <note place="left" hand="#addressee">Valuta?</note>Werke verwalten lassen.
+                    Praktisch existiert ja auch gar keine an<g ref="#typoHyphen"/>
+                    <lb break="no"/>dere Gesellschaft, welche die mechanischen Rechte verwalten
+                        könn<g ref="#typoHyphen"/>
+                    <lb break="no"/>te, und eine Selbstverwaltung ist derart kompliziert, dass sie
+                    <lb/>praktisch, ebenso wie wenn man die konzertmässigen Aufführungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>rechte selbst verwalten wollte, zu keinem Resultat führt.
+                        Nichts<g ref="#typoHyphen"/>
+                    <lb break="no"/>destoweniger haben wir auch hier eine Formulierung versucht, die
+                    <lb/>Ihren diesbezüglichen Wünschen Rechnung trägt und die Sie zweifel<g ref="#typoHyphen"/>
+                    <lb break="no"/>los annehmen werden. Wir schlagen Ihnen für den Punkt 3) unter
+                        mög<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichster Berücksichtigung des von Ihnen gewählten Wortlauts jene
+                    <lb/>Fassung vor, die Sie im beiliegenden <ref target="document.7359_cn">Vertrag</ref> finden.</p>
+                <p>Wir haben nun nochmals den Vertrag neu ausgefertigt und <pb n="4" xml:id="p.4" break="no"/>hoffen, dass jetzt alles in Ordnung ist, worüber wir uns beson<g ref="#typoHyphen"/>
+                    <lb break="no"/>ders freuen würden.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen <lb/>
+                        <seg rendition="#r">Ihr sehr ergebener</seg>
+                        <lb/>
+                    </salute>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750"> Kalmus</persName>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#u">
+                        <ref target="document.7359_cn">1 Beilage</ref>
+                    </hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

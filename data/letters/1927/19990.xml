@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.19990"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 24. Oktober 1927</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.19990</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 19990</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1927-10-24" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.2">Berlin, Kantstraße 4</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.1389"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/19990_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.19990_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.3612">S</persName>/<persName key="pers.4348">P.</persName>
+                    <dateline>, <date when="1927-10-24">24. Oktober 1927</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u #g">Charlottenburg 2,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.2">Kantstr. 4</placeName>, IVr.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Soeben erhalten wir einen Brief von Frau <persName key="pers.1105">Freund</persName>, in dem <lb/>sie uns von Ihrer Einladung nach <placeName key="place.4.4">Paris</placeName> Mitteilung macht, von einer <seg type="comment">
+                        <orig>
+                            <lb/>
+                            <persName key="pers.3263">Schönberg</persName> Feier der <orgName key="org.150">S. M. I.</orgName>
+                        </orig>
+                        <note xml:id="nunc_hkq_pcc" resp="#KBleier">Das Festival Arnold Schoenberg von <date when="1927-12-08">8.</date> bis <date when="1927-12-15">15. Dezember
+                                1927 </date>bot <persName key="pers.3263">Schönberg</persName>
+                            die Gelegenheit für ein erstes Auftreten in <placeName key="place.4.4">Paris</placeName>. Nach
+                            mehreren gescheiterten Versuchen gelang insbesondere durch das
+                            Engagement von <persName key="pers.1105">Marya Freund</persName> die
+                            Organisation von Konzerten, Vorträgen und gesellschaftlichen
+                            Zusammenkünften (<rs type="bibl" key="zotero-4528359-SVD48GPT">Keathley
+                                2016</rs>, S. 209)</note>
+                    </seg> am <date when="1927-12-15">15.
+                        Dezember</date>, bei der Sie die <seg type="comment">
+                        <orig>Choral<g ref="#typoHyphen"/>
+                            <lb break="no"/>vorspiele</orig>
+                        <note sameAs="letter.17625/#nyb3_hj1_dwb"/>
+                    </seg>, <bibl sameAs="werke.5">Pelleas</bibl>, das <seg type="comment">
+                        <orig>Lied der Waldtaube</orig>
+                        <note xml:id="nfj1_mpl_3gc" resp="#TMuxeneder">
+                            <bibl sameAs="werke.146">Arnold Schönberg/Erwin Stein, Gurre-Lieder</bibl>: Lied der Waldtaube</note>
+                    </seg> und <bibl sameAs="werke.54">Pierrot</bibl>
+                    <seg type="comment">
+                        <orig>dirigieren</orig>
+                        <note xml:id="na1x_s4q_pcc" resp="#KBleier">
+                            <ref target="event.72"/>
+                        </note>
+                    </seg>
+                    <lb/>sollen, ferner von Vorträgen in der <seg type="comment">
+                        <orig>
+                            <orgName key="org.159">Sorbonne</orgName>
+                        </orig>
+                        <note xml:id="nbj3_fsq_pcc" resp="#KBleier">Vortrag an der <orgName key="org.159">Sorbonne</orgName> geplant für <date when="1927-12-06">6. Dezember 1927 </date>(<rs type="bibl" key="zotero-4528359-SVD48GPT">Keathley 2016</rs>, S. 209). Aus
+                            Arnold Schönberg an Marya Freund, 21. November 1927 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B013970">ASCC
+                                1397</ref>), geht eine mögliche Absage des Vortrags seitens der
+                            Universität hervor; nicht nachweisbar</note>
+                    </seg> und der <seg type="comment">
+                        <orig>
+                            <orgName key="org.297">Ecole normale</orgName>
+                        </orig>
+                        <note xml:id="nncj_zxq_pcc" resp="#KBleier">
+                            <ref target="event.74"/>
+                        </note>
+                    </seg>
+                    <lb/>und voraussichtlich weiteren <seg type="comment">
+                        <orig>Privatengagements</orig>
+                        <note xml:id="nhm4_fyq_pcc" resp="#KBleier">
+                            <ref target="event.73"/>
+                        </note>
+                    </seg>. Wir freuen uns
+                        ausser<g ref="#typoHyphen"/>
+                    <lb break="no"/>ordentlich über diese Einladung und hoffen, dass es Ihnen
+                    möglich sein <lb/>wird, ihr Folge zu leisten.</p>
+                <p>Frau <persName key="pers.1105">Freund</persName> ersucht uns, das Material zu
+                        <bibl sameAs="werke.54">Pierrot</bibl> und zur <lb/>„Waldtaube“ sofort zu senden. Die Materiale gehen heute noch an sie
+                    <lb/>ab.</p>
+                <p>Wir haben Ihnen vor einigen Tagen wegen der <seg type="comment">
+                        <orig>Uraufführung</orig>
+                        <note sameAs="letter.19986/#nq1p_ncb_mfc"/>
+                    </seg>
+                    <lb/>Ihrer „<bibl sameAs="werke.62">Suite</bibl>“ durch die <orgName key="org.296">Novembergruppe</orgName>
+                    <ref target="letter.19986">geschrieben</ref> und bitten Sie nunmehr
+                    <lb/>nochmals freundlich um Nachricht, ob wir das Material dorthin senden
+                    <lb/>können. Auch würden wir gerne wissen, ob Ihr <seg type="comment">
+                        <orig>
+                            <placeName key="place.2.54">Chemnitzer</placeName>
+                            Engagement</orig>
+                        <note xml:id="njbb_xpc_mfc" resp="#KBleier">
+                            <ref target="event.173"/>
+                        </note>
+                    </seg>
+                    <lb/>definitiv ist.</p>
+                <p>Vor einigen Tagen war Herr <persName key="pers.1914">Klitsch</persName> bei uns,
+                    um wegen der <note place="mBottom" hand="#unknown">
+                        <persName key="pers.4392">H</persName>
+                    </note>
+                    <pb n="2" xml:id="p.2"/>
+                    <bibl sameAs="werke.16">Gurre-Lieder</bibl>
+                    <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nfhl_1pl_3gc" resp="#KBleier">
+                            <ref target="event.231"/>
+                        </note>
+                    </seg> in <placeName key="place.3.1">London</placeName>
+                    Auskunft zu erhalten. Wir <lb/>haben aus <placeName key="place.3.1">London</placeName> noch keine Nachricht, ob er engagiert wird. <lb/>Da wir
+                    wissen, dass Ihnen sein Engagement sehr erwünscht wäre, <lb/>möchten wir bei
+                    Ihnen anregen, in der Sache eventuell selbst <lb/>nach <placeName key="place.3.1">London</placeName> zu schreiben, um Ihren Einfluss geltend
+                    zu machen.</p>
+                <p>Indem wir Sie noch bitten, um möglichst umgehend <lb/>Ihre Stellungnahme zur
+                        <placeName key="place.4.4">Pariser</placeName> Einladung und allfällige
+                        dies<g ref="#typoHyphen"/>
+                    <lb break="no"/>bezügliche Wünsche uns mitzuteilen, begrüssen wir Sie</p>
+                <closer rendition="#r">
+                    <salute>mit vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1750">DK</persName>
+                    </signed>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

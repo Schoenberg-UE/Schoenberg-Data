@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.20044"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 27. Februar 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20044</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20044</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1928-02-27" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.2">Berlin, Kantstraße 4</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.7211"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20044_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20044_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.1520">Hei</persName>/<persName key="pers.4342">Wi.
+                        </persName>
+                    <dateline>, <date when="1928-02-27">27. Februar
+                        1928</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">Berlin-Charlottenburg 2,</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.1.2">Kantstrasse 4</placeName>,
+                            IVr.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Anlässlich des bevorstehenden <hi rendition="#u">50. Geburtstages <lb/>
+                        <persName key="pers.3301">Franz <hi rendition="#g">Schreker’s</hi>
+                        </persName>
+                    </hi> soll eine kleine Publikation <lb/>erscheinen, in der ein kleiner Kreis
+                    hervorragender <lb/>Fachleute, Freunde und Schüler des Meisters sich über <lb/>
+                    <persName key="pers.3301">Schreker</persName> äussern.</p>
+                <p>Wir treten auch an Sie mit der Bitte heran, uns <lb/>zu diesem <seg
+                        type="comment">
+                        <orig>Heft einen <bibl sameAs="schriften.64">Beitrag</bibl>
+                        </orig>
+                        <note xml:id="nphr_fnm_3gc" resp="#TMuxeneder">Beiträge von <persName
+                                key="pers.3263">Arnold Schönberg</persName>, <persName
+                                key="pers.422">Oscar Bie</persName>, <persName key="pers.452">Julius
+                                Bittner</persName>, <persName key="pers.1515">Robert
+                                Heger</persName>, <persName key="pers.460">Leo Blech</persName>,
+                                <persName key="pers.2296">Joseph Marx</persName>, <persName
+                                key="pers.368">Paul Bekker</persName>, <persName key="pers.385"
+                                >Alban Berg</persName>, <persName key="pers.3810">Karol
+                                Szymanowski</persName>, <persName key="pers.1087">Gregor
+                                Fittelberg</persName>, <persName key="pers.2280">Alfred
+                                Maril</persName>, <persName key="pers.1634">Franz Ludwig
+                                Hörth</persName>, <persName key="pers.1016">Otto Erhardt</persName>,
+                                <persName key="pers.1606">Rudolf Stephan Hoffmann</persName>,
+                            <persName key="pers.1238">Walter Gmeindl, </persName><persName key="pers.3262">Georg
+                                Schönemann</persName>, <persName key="pers.2053">Ernst
+                                Krenek</persName>, <persName key="pers.2761">Felix
+                                Petyrek</persName>, <persName key="pers.3064">Josef
+                                Rosenstock</persName>, <persName key="pers.2875">Karol
+                                Rathaus</persName>, <persName key="pers.1350">Wilhelm
+                                Grosz</persName> und <persName key="pers.1778">Ernst
+                                Kanitz</persName> (<rs type="bibl" key="zotero-4528359-3BVJVASZ"
+                                >Anbruch 1928</rs>)</note>
+                    </seg> zur Verfügung zu stellen <lb/>und wären Ihnen verbunden, wenn Sie uns
+                    Ihre prinzipielle <lb/>Stellungnahme baldgefälligst bekanntgeben wollten. Die
+                    <lb/>Einsendung des <seg type="comment">
+                        <orig>Manuskriptes</orig>
+                        <note xml:id="nmqx_5mm_3gc" resp="#KBleier">Arnold Schönberg, Schreker zum
+                            50. Geburtstag, <date when="1928-03-07">7. März 1928 </date>(<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-T010240"
+                                >T20.03</ref>)</note>
+                    </seg> wäre bis spätestens
+                        <date when="1928-03-10">10. März</date>
+                    <lb/>notwendig.</p>
+                <closer> In Erwartung Ihrer liebenswürdigen Mitteilungen, <lb/>zeichnen wir <lb/>
+                    <salute rendition="#r">mit vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">W</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

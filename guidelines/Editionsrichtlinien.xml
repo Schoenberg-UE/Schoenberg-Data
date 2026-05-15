@@ -1,0 +1,1380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="guidelines">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editionsrichtlinien</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                  Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="https://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <title>The Correspondence between Arnold Schönberg and his Publishers Universal-Edition
+               and Verlag Dreililien. A Critical Hybrid Edition</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>Editionsrichtlinien</head>
+            <div>
+                <div>
+                    <p>Die Editionsrichtlinien erläutern editorische Prinzipien der historisch-kritischen
+                  Ausgabe der Korrespondenz Arnold Schönbergs mit den Verlagen Universal-Edition und
+                  Dreililien aus den Jahren 1902 bis 1951. Die vorliegende Website samt aufgeführter
+                  Richtlinien repräsentiert den digitalen Part der hybrid konzipierten Edition.
+                  Dieser erfüllt schwerpunktmäßig die Funktion der vollständigen Verfügbarmachung
+                  sowie der mehrdimensionalen Vernetzung der edierten Korrespondenz innerhalb der
+                  Ausgabe und mit darüber hinausweisenden kommentarrelevanten Quellen.</p>
+                </div>
+                <div n="1">
+                    <head>Edierte Textsorten</head>
+                    <p>Die heterogenen Dokumente werden in ein primäres Korpus von Quellen direkten
+                  Austauschs (Briefe, Postkarten, Ansichtskarten, Kartenbriefe, Telegramme,
+                  Visitenkarten etc.) und ein sekundäres Korpus von anderen Quellen (Beilagen,
+                  Rechnungen, Verträge, Werbebroschüren, Notizen, Drittbriefe etc.) gegliedert. Die
+                  digitale Edition des primären Korpus bietet Digitalisate, eine kritische Fassung,
+                  eine Lesefassung und Metadaten handschriftlicher Briefe und Typoskripte; das
+                  sekundäre Korpus wird in Form von Digitalisaten, Metadaten und emendierten
+                  Versionen einzelner handschriftlicher Texte zur leichteren Lesbarkeit zur
+                  Verfügung gestellt. XML-Dokumente der edierten Quellen werden zum Download
+                  angeboten.</p>
+                    <p>Angeklebte oder auf den Senderbrief geschriebene Antworten bzw. Nachrichten von
+                  Dritten, die Form und Status eines eigenständigen Schreibens aufweisen, werden als
+                  eigene Briefe gewertet und behandelt.</p>
+                    <p>Briefe und Dokumente existieren häufig in mehreren Überlieferungsformen: in
+                  unterschiedlichen Entwurfsstadien, originalen Manuskripten und/oder Typoskripten,
+                  Kopien unterschiedlicher Herstellungsverfahren, Abschriften. Der Edition liegt in
+                  erster Instanz das tatsächlich verschickte Korrespondenzstück zu Grunde, wobei auf
+                  weitere Exemplare nur dann verwiesen wird, wenn selbige inhaltlich hiervon
+                  abweichen. Ist das Original verschollen, werden Kopien oder Entwürfe in die
+                  Edition aufgenommen. Diese werden in den Metadaten als solche deklariert,
+                  inhaltlich jedoch stellvertretend für das Original gleichwertig in die digitale
+                  Infrastruktur integriert.</p>
+                    <p>In die Edition werden auch Daten erschlossener Briefe aufgenommen. Als Kriterium
+                  für die Erschließung gelten jedenfalls Erwähnungen von gegenwärtig nicht
+                  verfügbaren Schreiben (z. B. "Ihr Geschätztes vom"). Darüber hinaus werden auch
+                  erschlossene Briefe angelegt, wenn die Thematik und Formulierung eine konkrete
+                  Bezugnahme auf eine im verschollenen Gegenbrief getätigte Aussage nahelegt (z. B.
+                  "Sie haben ganz recht"). Erwähnte Sendungen von Notenmaterialien, Korrekturfahnen,
+                  Büchern und dergleichen werden nicht als Teil des Briefwechsels behandelt.</p>
+                </div>
+                <div n="2">
+                    <head>Digitale Methodik</head>
+                    <p>Bei der Datenaufnahme sowie der Programmierung der Webanwendung kam die digitale
+                  Arbeitsumgebung ediarum zum Einsatz, die zusammen mit dem Editor Oxygen XML-Author
+                  und der freien XML-Datenbank existdb verwendet wurde. ediarum setzt sich aus
+                  mehreren Komponenten zusammen, die verschiedene Bereiche innerhalb des
+                  Entstehungsprozesses einer digitalen Edition erleichtern. Die Module ediarum.BASE
+                  und ediarum.DB unterstützen die Auszeichnung der Daten im Oxygen XML-Author und
+                  die Verknüpfung von Entitäten mit Registereinträgen. Das Modul ediarum.WEB stellt
+                  eine XQuery-Bibliothek zur Verfügung, welche als Basis für die App-Entwicklung
+                  dient.</p>
+                    <p>Die Codierung von Metadaten, Texten, Kommentaren und Registern basiert auf den
+                  Richtlinien der <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">Text
+                     Encoding Initiative (TEI)</ref>. Sie richtet sich nach dem Schema von
+                  ediarum.BASE.edit, welches auf dem <ref target="https://www.deutschestextarchiv.de/doku/basisformat/">Basisformat des
+                     Deutschen Textarchivs (DTA)</ref> basiert und im <ref target="https://www.ediarum.org/docs/ediarum.BASE.manual/">ediarum.BASE.manual</ref> dokumentiert ist. Spezifika der gegenständlichen
+                  Korrespondenz erforderten gelegentlich Adaptionen und Erweiterungen des
+                  Schemas.</p>
+                    <div n="2.a">
+                        <head>Schema</head>
+                        <p>Das projektspezifische Schema liegt als TEI-ODD-Datei und einer daraus
+                     generierten Datei im RelaxNG-Format vor. Es basiert auf einer Reihe mittels
+                     ODD-Chaining verknüpfter TEI-konformer Schemata, angefangen bei dem des <ref target="https://www.deutschestextarchiv.de/doku/basisformat/">DTABf</ref>
+                     und dessen Spezifikation für Manuskripte (siehe <ref target="https://www.deutschestextarchiv.de/doku/basisformat/schema.html">https://www.deutschestextarchiv.de/doku/basisformat/schema.html</ref>), von
+                     welcher das <ref target="https://github.com/ediarum/ediarum.BASE.data-model/tree/dev">ediarum.BASE.data-model</ref> abgeleitet ist. Dieses bildet die Grundlage
+                     für das projektspezifische Schema, welches daraus nur die nötigen Elemente
+                     übernimmt und darüber hinaus einige TEI-Elemente und Attribute wiedereinführt,
+                     sowie die nötigen Module aus dem Schema der <ref target="https://music-encoding.org/">Music Encoding Initiative</ref> für die
+                     Codierung von Musiknotation
+                     ergänzt. Das Schema ist sowohl als TEI-ODD als auch RNG-Datei auf <ref target="https://github.com/Schoenberg-UE/Schoenberg-Data/tree/main">Github</ref> veröffentlicht.</p>
+                    </div>
+                    <div n="2.b">
+                        <head>Software und Technologien</head>
+                        <p>Die Daten werden in der freien XML-Datenbank <ref target="https://exist-db.org/exist/apps/homepage/index.html">exist-db</ref>
+                     gespeichert und verwaltet. Das Modul ediarum.DB wird hier verwendet, um vom
+                     Oxygen-Author über REST-Schnittstellen auf die Register der Datenbank
+                     zuzugreifen und das Tagging der Entitäten zu erleichtern. Exist-db dient nicht
+                     nur als Ablageort für die XML-Daten, sondern bietet auch einen Webserver und
+                     ein Framework für die Entwicklung von Applikationen. Die Webanwendung basiert
+                     auf diesen Technologien und macht Gebrauch von dem datenbankeigenen
+                     Templating-Framework und der eingebauten Lucene Engine für Volltextsuche.
+                     Außerdem basiert die Anwendung auf der XQuery-Bibliothek ediarum.web, welche
+                     Funktionen etwa zum Routing und zum Aufbau und der Abfrage einer internen API
+                     bereitstellt.</p>
+                        <p>Die Anzeige der Faksimiles erfolgt durch den <ref target="https://projectmirador.org/">Mirador-Viewer</ref>, welcher auch von
+                     der <ref target="https://schoenberg.at/index.php/de/archiv/briefe">Arnold
+                        Schönberg Center Correspondence Database (ASCC)</ref> zur Anzeige der
+                     Digitalisate verwendet wird. Die von dort nach den Definitionen der <ref target="https://iiif.io/api/presentation/3.0/">Presentation API</ref> des
+                        <ref target="https://iiif.io/">International Image Interoperability
+                        Framework</ref> vorgehaltenen Manifest-Dateien werden von der Anwendung
+                     abgerufen und an den Viewer zur Anzeige übergeben.</p>
+                    </div>
+                    <div n="2.c">
+                        <head>Datenbereitstellung &amp; APIs</head>
+                        <p>Über die Schnittstelle <ref target="https://www.schoenberg-ue.at/ue/correspDesc.xml">https://www.schoenberg-ue.at/ue/correspDesc.xml</ref> können die
+                     Korrespondenzmetadaten aller in der Edition vorhandenen Briefdokumente im <ref target="https://correspsearch.net/de/dokumentation.html">Correspondence
+                        Metadata Interchange Format (CMIF)</ref> abgerufen werden. Dadurch werden
+                     die edierten Briefe in <ref target="https://correspsearch.net/de/start.html">correspSearch</ref> nachgewiesen.</p>
+                        <p>Die im Datenbestand vorhandenen und mit der GND-URI ausgezeichneten Personen
+                     und Organisationen können via <ref target="https://www.schoenberg-ue.at/ue/persons_beacon.txt">https://www.schoenberg-ue.at/ue/persons_beacon.txt</ref> für Personen und <ref target="https://www.schoenberg-ue.at/ue/organisations_beacon.txt">https://www.schoenberg-ue.at/ue/organisations_beacon.txt</ref> für
+                     Organisationen als Liste im BEACON-Format abgerufen und darüber in externen
+                     digitalen Angeboten automatisch verlinkt werden.</p>
+                        <p>TEI-Dateien der Briefe, Dokumente und Register sind auf <ref target="https://github.com/Schoenberg-UE/Schoenberg-Data/tree/main">GitHub</ref> veröffentlicht.</p>
+                    </div>
+                </div>
+                <div n="3">
+                    <head>Metadaten</head>
+                    <p>Im TEI-Header festgeschriebene Daten enthalten allgemeine Metadaten, die für alle
+                  Briefe und Dokumente weitgehend gleich lauten, sowie Korrespondenz-spezifische
+                  Metadaten, welche der Beschreibung der konkreten Quelle dienen.</p>
+                    <table>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex001"/>
+                            </cell>
+                            <cell>Header-Segment zur bibliographischen Beschreibung der elektronischen
+                        Datei</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex002"/>
+                            </cell>
+                            <cell>Die Titelzeile des XML-Dokuments enthält Absender:in, Empfänger:in und
+                        Schreibdatum in standardisierter Form. Ist das Schreibdatum ganz oder
+                        teilweise unbekannt, wird ein erschlossenes Datum angegeben; fehlende oder
+                        unsichere Datumsbestandteile werden durch "?" ergänzt, ist kein Datum
+                        eruierbar, lautet die Angabe "ohne
+                        Datum"; bei
+                        substanzieller Mehrfachautorschaft werden bis zu zwei
+                        Autor:innen/Empfänger:innen im Titel genannt, weitere Personen unter "et
+                        al." zusammengefasst. Bei Firmen und Institutionen wird unabhängig vom/von
+                        der Verfasser:in die Institution im Titel angegeben.</cell>
+                            <cell>Der Titel bildet die Überschrift in der Detailansicht des Briefs sowie
+                        die Repräsentation des Korrespondenzstücks in der Listenansicht aller
+                        Briefe.</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex003"/>
+                            </cell>
+                            <cell>Namen und Position/Zuständigkeit der Projektmitarbeiter:innen</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex004"/>
+                            </cell>
+                            <cell>Informationen zur Gesamtpublikation: Projektträgerorganisationen, Ort,
+                        Lizenzierung, Publikationstitel</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex005"/>
+                            </cell>
+                            <cell>Überlieferung des Texts: Bestandshaltende Institution der edierten Quelle
+                        und Signatur laut Briefverzeichnis des Arnold Schönberg Center; die
+                        ASCC-Signatur wird als Identifikator in die digitale Edition
+                        übernommen</cell>
+                            <cell>Der Quellenstandort wird in der Metadatenansicht mitgeteilt, der
+                        ASCC-Identifikator referenziert ebendort auf den entsprechenden Eintrag in
+                        der Arnold Schönberg Center Correspondence Database</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex006"/>
+                            </cell>
+                            <cell>Drucknachweise bereits publizierter Briefe erfolgen durch Kurztitel und
+                        Referenzierung auf die <ref target="https://www.zotero.org/groups/4528359/schoenberg-ue/library">Zotero-Projektbibliographie</ref>
+                            </cell>
+                            <cell>In der Metadatenansicht erscheint der bibliographische Kurztitel mit Link
+                        zur Zotero-Bibliographie</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex007"/>
+                            </cell>
+                            <cell>Enthält Korrespondenz-spezifische Metadaten</cell>
+                            <cell/>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex008"/>
+                            </cell>
+                            <cell>Absender:in Name, Ort und Datum; Empfänger:in Name, Ort und
+                        Datum<!-- das Empfangsdatum wird i.d.R. nicht aufgenommen -->; es werden
+                        sämtliche substanziell für das Schreiben relevante Personen und
+                        Institutionen codiert. Datierungen erfolgen nach internationalem Standard
+                        ISO 8601; Sende- bzw. Empfangsort werden so genau wie aus dem Brief selbst
+                        ersichtlich angegeben, Sendeorte ggf. durch
+                        recherchierte Aufenthaltsorte ergänzt.</cell>
+                            <cell>Darstellung in der Metadatenansicht entsprechend</cell>
+                        </row>
+                        <row xml:id="date">
+                            <cell>
+                                <graphic url="codeExamples/ex009"/>
+                            </cell>
+                            <cell>genaues Datum</cell>
+                            <cell>TT.MM.JJJJ</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex010"/>
+                            </cell>
+                            <cell>genaue Zeitspanne</cell>
+                            <cell>von TT.MM.JJJJ bis TT.MM.JJJJ</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex011"/>
+                            </cell>
+                            <cell>ungefährer Zeitraum</cell>
+                            <cell>zwischen TT.MM.JJJJ und TT.MM.JJJJ</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex012"/>
+                            </cell>
+                            <cell>Anmerkungen zum Brief; Angaben zu erschlossenen Datierungen, Beilagen,
+                        Briefumschlägen,<!--in der Quelle enthaltenen Entwürfen oder angeklebten
+                        Antwortbriefen,--> längere Passagen betreffende
+                        textkritische Befunde (z. B. Durchstreichung des gesamten
+                        Brieftextes)</cell>
+                            <cell>Darstellung als Text in der Metadatenansicht</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex013"/>
+                            </cell>
+                            <cell>Korrespondenzkontext; weist Bezugnahmen im Sinne der Beantwortung von
+                        vorangegangenen Schreiben bzw. durch nachfolgende aus</cell>
+                            <cell>In der Metadatenansicht erscheinen Briefe mit vollständigem Titel als
+                        "Antwort auf" bzw. "Beantwortet durch" und können per Link aufgerufen
+                        werden</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex014"/>
+                            </cell>
+                            <cell> Kategorisierung des Korrespondenzstücks als Brief, Telegramm, Karte,
+                        Kartenbrief, Ansichtskarte, Postkarte, Visitenkarte etc; Wenn keine
+                        originale Quelle erhalten ist, wird anstattdessen eine Abschrift, ein
+                        Durchschlag oder eine andere Reproduktion (unter dem Sammelbegriff "Kopie")
+                        oder ein Entwurf ediert. Bei der Edition von Telegrammen wird das auf
+                        Empfänger:innenseite eingegangene Schriftstück als Original aufgefasst,
+                        während das von Sender:innen aufgegebene und in der Regel dort verbliebene
+                        Schriftstück als Entwurf gilt.</cell>
+                            <cell>Darstellung als Text in der Metadatenansicht</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex015"/>
+                            </cell>
+                            <cell>Dokumentation von Änderungen nach Veröffentlichung</cell>
+                            <cell/>
+                        </row>
+                    </table>
+                </div>
+                <div n="4">
+                    <head>Digitalisate</head>
+                    <table>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex016"/>
+                            </cell>
+                            <cell>Einbindung von Digitalisaten; die Digitalisate werden aus dem
+                        Repositorium des Arnold Schönberg Center, in einzelnen Fällen auch anderer
+                        bestandshaltender Institutionen abgerufen. Die Systematik der zu Konvoluten
+                        zusammengefassten Scans kann – insbesondere bei angeklebten Briefen und
+                        ähnlichen Sonderfällen – von der Systematik der Briefedition abweichen.
+                        Vakatseiten werden nicht berücksichtigt.</cell>
+                            <cell>Synoptische Ansicht von Digitalisat und Transkription</cell>
+                        </row>
+                    </table>
+                </div>
+                <div n="5">
+                    <head>Textübertragung, Codierung und Textdarstellung</head>
+                    <p>Die Transkription der edierten Quellen basiert prinzipiell auf digitalen
+                  Faksimiles, in unsicheren Fällen wurden die Originale eingesehen.</p>
+                    <p>Die Transkription umfasst:</p>
+                    <list>
+                        <item>das Manuskript bzw. Typoskript der Verfasser:innen, Telegrammnachricht inkl.
+                     Sonderzeichen</item>
+                        <item>Korrekturen und Annotationen von Verfasser:in, Empfänger:in sowie in die
+                     Korrespondenz involvierten Dritten</item>
+                        <item>Vordrucke von Briefköpfen und korrespondenzspezifischen Formularen sowie
+                     Stempel/Vordrucke beim ersten Auftreten in der Quelle</item>
+                        <item>Bildunterschriften auf Ansichtskarten</item>
+                    </list>
+                    <p>Nicht berücksichtigt werden:</p>
+                    <list>
+                        <item>autographe und vorgedruckte Seitenzahlen </item>
+                        <item>Post- sowie Eingangs-/Beantwortet-Stempel</item>
+                        <item>allgemeine postalische Postkarten- und Telegrammvordrucke, Werbeanzeigen,
+                     Werbemarken, Briefmarken</item>
+                        <item>archivarische Zusätze</item>
+                    </list>
+                    <p>Die mitgeteilte kritische Fassung zielt auf eine originalnahe Wiedergabe des
+                  Brieftextes hinsichtlich Orthographie, Zeichensetzung und Anordnung. Dialektale
+                  Wörter, idiomatische Schreibweisen und Formulierungen sowie Grammatikfehler bzw.
+                  Schreibungen von Personen- und Ortsnamen und falsche Schreibung von Fremdwörtern
+                  werden in der Regel nicht korrigiert. Einzelne stillschweigende
+                  Vereinheitlichungen, die sowohl im pragmatischen Charakter der
+                  Geschäftskorrespondenz als auch im Wechsel des Mediums und dem daraus
+                  resultierenden unverhältnismäßigen Aufwand originalgetreuer Nachbildung begründet
+                  sind, werden vorgenommen.</p>
+                    <div n="5.a">
+                        <head>Textstrukturen</head>
+                        <div n="5.a.1">
+                            <head>allgemeine Textstrukturen</head>
+                            <table>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex017"/>
+                                    </cell>
+                                    <cell>Oberste Gliederungsebene der Transkription, welche meist den
+                              gesamten Brieftext umschließt</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex018"/>
+                                    </cell>
+                                    <cell>Differenzierung von Schreibakten innerhalb des Briefes</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex019"/>
+                                    </cell>
+                                    <cell>Schreibakte, die anderen Personen als dem/der Autor:in zugeordnet
+                              werden können (z. B. den Geschäftsbriefen gelegentlich handschriftlich
+                              hinzugefügte Grüße von UE-Mitarbeiter:innen)</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex020"/>
+                                    </cell>
+                                    <cell>Listen, Tabellen und ähnliche
+                              Anhänge, die nicht den Status eines
+                           eigenen Dokuments im Sekundärkorpus aufweisen</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex021"/>
+                                    </cell>
+                                    <cell>Beginn einer neuen Seite und fortlaufende Seitenzahl; bei
+                              Postkarten werden unabhängig von der Seiteneinteilung des
+                              Originaldokuments Adressstempel und/oder Adressfelder zuerst, danach
+                              der Nachrichtentext beginnend mit der Anrede codiert.</cell>
+                                    <cell rows="2">Seitenumbrüche werden durch horizontale hellgraue Linien
+                              angezeigt</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex022"/>
+                                    </cell>
+                                    <cell>Fortsetzung eines verso begonnenen Texts auf der recto-Seite (z. B.
+                              bei Postkarten)</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex023"/>
+                                    </cell>
+                                    <cell>Überschrift</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex024"/>
+                                    </cell>
+                                    <cell>Absatz; Paragraphen erscheinen in der Korrespondenz
+                              unterschiedlich, meist durch verschieden große Einzüge von wenigen
+                              Zeichen bis zu einer halben Zeile oder durch Abstände zwischen den
+                              Absätzen gekennzeichnet</cell>
+                                    <cell>Abstand zum vorhergehenden/nachfolgenden Absatz, ohne Einzug</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex025"/>
+                                    </cell>
+                                    <cell>Die Textausrichtung erfolgt standardmäßig linksbündig (ausgenommen
+                              Datumszeile), Paragraphen und andere Textstrukturen können in
+                              Annäherung an den originalen Fundort links, zentriert oder rechts
+                              positioniert werden</cell>
+                                    <cell>linksbündig, zentriert, rechtsbündig</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex026"/>
+                                    </cell>
+                                    <cell>Absatz, welcher ohne Zeilenumbruch und Abstand direkt an das
+                              vorherige Textstrukturelement anschließt (z. B. Grußformel)</cell>
+                                    <cell>Text setzt in derselben Zeile unmittelbar fort</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex027"/>
+                                    </cell>
+                                    <cell>Trennlinien und andere graphische Markierungen von
+                              Textabschnitten</cell>
+                                    <cell>Horizontale Trennlinie</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex028"/>
+                                    </cell>
+                                    <cell>Längere Zitate vom Umfang eines Absatzes; in den Fließtext
+                              integrierte Zitate werden nicht eigens codiert.</cell>
+                                    <cell>Eingerückter Paragraph</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex029"/>
+                                    </cell>
+                                    <cell>Zeilenbeginn laut originalem Zeilenfall</cell>
+                                    <cell rows="3">Zeilenfall und ggf. Art der Worttrennung werden
+                              originalgetreu wiedergegeben; durch dynamische Seitengestaltung und
+                              variable Seitenbreite auf verschiedenen Anzeigegeräten können
+                              zusätzliche, nicht editorisch bedingte Zeilenumbrüche entstehen</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex030"/>
+                                    </cell>
+                                    <cell>Worttrennung am Zeilenende mit Trennungsstrich; Trennungszeichen
+                              "-" und "=" werden vereinheitlicht</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex031"/>
+                                    </cell>
+                                    <cell>Worttrennung am Zeilenende ohne Trennungsstrich</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex032"/>
+                                    </cell>
+                                    <cell>Listen und listenartige Kurzabschnitte; einfache, gelegentlich auch
+                              zweifache Untergliederung von Listenpunkten in weitere Listen wird
+                              entsprechend codiert. Schönberg nummeriert häufig während des
+                              Schreibens oder auch nachträglich Paragraphen und größere, inhaltlich
+                              zusammengehörige Abschnitte, diese werden nicht als Listen
+                              aufgefasst.</cell>
+                                    <cell>Listenpunkte mit einfachem Zeilenabstand</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex033"/>
+                                    </cell>
+                                    <cell>Tabellen und tabellenartige Abschnitte</cell>
+                                    <cell>Tabellarische Textanordnung ohne Rahmung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex034"/>
+                                    </cell>
+                                    <cell>Segment; Textteil, dessen Eigenschaften sich von seiner
+                              übergeordneten Struktur (z. B. Absatz) unterscheiden</cell>
+                                    <cell>Darstellung gemäß definierter Attribute</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex035"/>
+                                    </cell>
+                                    <cell>Anmerkungen von Autor:in, Empfänger:in oder anderen
+                              zeitgenössischen Bearbeiter:innen; Positionierung an der Textstelle,
+                              auf die sich die Anmerkung bezieht. Die Platzierung auf dem Manuskript
+                              wird als Attribut "place" codiert. Die häufig entlang dem Seitenrand
+                              und daher zum Haupttext um 90 Grad abweichende Schreibrichtung wird
+                              nicht erfasst. Ist ein konkreter inhaltlicher Bezug nicht
+                              festzustellen, erfolgt die Positionierung am Seitenende.</cell>
+                                    <cell>Klick auf ein Stift-Symbol öffnet ein Pop-up Fenster, welches die
+                              Anmerkung samt Positionsangabe enthält. Weiterer Klick schließt das
+                              Fenster wieder</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex036"/>
+                                        <graphic url="codeExamples/ex037"/>
+                                    </cell>
+                                    <cell>Einweisungszeichen bei Anmerkungen; Ziffern werden originalgetreu
+                              erfasst, andere Zeichen standardisiert</cell>
+                                    <cell>Darstellung als Ziffer oder *</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex038"/>
+                                    </cell>
+                                    <cell>Bild, Zeichnung</cell>
+                                    <cell>Beschreibung durch Bildunterschrift (z. B. Ansichtskarten) oder
+                              editorisch verfassten Freitext</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex039"/>
+                                    </cell>
+                                    <cell>Notenbeispiel; Codierung mit den Elementen der <ref target="https://music-encoding.org/">Music Encoding
+                                 Initiative</ref>; als Einstiegspunkt dient eines der Elemente
+                              "section", "measure" oder "layer". Befindet sich das Notenbeispiel im
+                              Zeilenfluss, wird es mit dem Attribut "place" als inline-Element
+                              ausgezeichnet.</cell>
+                                    <cell>Darstellung als Notentext</cell>
+                                </row>
+                            </table>
+                        </div>
+                        <div n="5.a.2">
+                            <head>Brief-spezifische Textstrukturen</head>
+                            <table>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex040"/>
+                                    </cell>
+                                    <cell>Umfasst in der Vorlage vorhandene Angaben zu Absender:in und
+                              Empfänger:in, Schreibort und -datum</cell>
+                                    <cell/>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex041"/>
+                                    </cell>
+                                    <cell>Adressstempel und Briefköpfe; projektspezifische Erweiterung des
+                              TEI-Stamp-Elements. Ein für die Geschäftskorrespondenz typischer
+                              Bestandteil der Textstruktur sind vorgedruckte Briefköpfe, die
+                              Adressinformationen sowie die Corporate Identity des Unternehmens
+                              darstellen. Ihre Anordnung der Adressbestandteile und aufwändige
+                              graphische Gestaltung als strukturelle Einheit bedingen Kompromisse
+                              zwischen der Codierung semantischer und typografischer Zuordnung.
+                              Ähnlich – wenngleich weniger komplex – stellt sich die Situation bei
+                              Adressstempeln dar. In der vorliegenden Edition wird das
+                              Hauptaugenmerk auf die Identität in der Gesamtheit gelegt, d. h. jeder
+                              Stempel und Briefkopf erhält einen Identifier und einen Eintrag im
+                              Stempelregister und wird als solcher im jeweiligen Brief-Dokument
+                              codiert. Damit wird die eindeutige Zuordenbarkeit, die für die
+                              Datierung relevant sein kann, gewahrt. Das graphische Erscheinungsbild
+                              erschließt sich über das Digitalisat, somit auf eine graphisch
+                              originalgetreue Codierung verzichtet wird. Ergänzte Angaben (z. B.
+                              Schreibdatum) werden durch ein der Schreiberhand zugeordnetes
+                              "segment" kenntlich gemacht.</cell>
+                                    <cell>Textblöcke werden linksbündig und untereinander gereiht. Der
+                              gesamte Stempel-/Vordruck-Block wird per Hover-Effekt mit einem
+                              Hintergrund hinterlegt, eingefügte Textteile bleiben hiervon
+                              ausgespart</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex042"/>
+                                    </cell>
+                                    <cell>Im Zuge des Schreibakts gesetzte Adressen/Adresszeilen (inklusive
+                              Telegrammadressen, z. B. "Musikedition Wien") </cell>
+                                    <cell rows="4">Text, Positionierung in Annäherung an originalen Fundort
+                           </cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex043"/>
+                                    </cell>
+                                    <cell>Datumszeile/Datum; das Datum wird gemäß dem originalen Fundort
+                              codiert, die originale Schreibweise wird transkribiert sowie das Datum
+                              im Standardformat JJJJ-MM-DD codiert.</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex044"/>
+                                    </cell>
+                                    <cell>Grußformel; laut TEI-Guidelines teil des "opener",
+                              projektspezifisch jedoch zwischen Brieferöffnung und dem ersten
+                              Textabsatz eingefügt, um den unterschiedlichen Formatierungen als vom
+                              Haupttext abgesetzte Anrede bzw. in die erste Zeile integrierte
+                              Floskel gerecht zu werden.</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex045"/>
+                                    </cell>
+                                    <cell>Briefschluss mit Grußformel, Unterschrift des Verfassers/der
+                              Verfasserin, ggf. Stempel/Vordruck, Datumszeile,
+                              Beilagenvermerk</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex046"/>
+                                    </cell>
+                                    <cell>Briefschluss, welcher ohne Zeilenumbruch und Abstand direkt an das
+                              vorherige Textstrukturelement anschließt; geht die Grußformel aus
+                              einem Satz hervor (z. B. "Ich bitte Sie um eine baldige Antwort und
+                              grüße [...]"), beginnt der "closer" mit Satzbeginn</cell>
+                                    <cell>Text setzt in derselben Zeile unmittelbar fort</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex047"/>
+                                    </cell>
+                                    <cell>Folgt ggf. auf den "closer", enthält mindestes einen
+                              "paragraph".</cell>
+                                    <cell>Text</cell>
+                                </row>
+                            </table>
+                        </div>
+                    </div>
+                    <div n="5.b">
+                        <head>Textbearbeitungen des Autors</head>
+                        <div n="5.b.1">
+                            <head>Hervorhebungen</head>
+                            <table>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex048"/>
+                                    </cell>
+                                    <cell>Einfache Unterstreichung; Teilweise unterstrichene Wörter werden in
+                              der Transkription als vollständig unterstrichen aufgefasst, es sei
+                              denn es ist ein inhaltlicher Sinn der partiellen Hervorhebung
+                              erkennbar (etwa bei zusammengesetzten Wörtern, Silbenbetonungen).
+                              Unterstreichungen mehrerer Wörter werden originalgetreu als
+                              durchgehend oder unterbrochen wiedergegeben. Unterstreichungen von
+                              Unterschriften werden nicht codiert.</cell>
+                                    <cell rows="3">Einfache, doppelte oder strichlierte
+                              Unterstreichung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex049"/>
+                                    </cell>
+                                    <cell>doppelte und mehrfache Unterstreichung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex050"/>
+                                    </cell>
+                                    <cell>strichlierte oder gepunktete Unterstreichung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex051"/>
+                                    </cell>
+                                    <cell>Überstrich</cell>
+                                    <cell>Überstrich</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex052"/>
+                                    </cell>
+                                    <cell>gesperrter Text</cell>
+                                    <cell>gesperrt</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex053"/>
+                                    </cell>
+                                    <cell>hochgestellt</cell>
+                                    <cell>hochgestellt</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex054"/>
+                                    </cell>
+                                    <cell>Einfache Randanstreichung für einen Absatz, Codierung gemäß
+                              originaler Position links, rechts oder beidseitig</cell>
+                                    <cell rows="3">Einfache oder doppelte Randanstreichung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex055"/>
+                                    </cell>
+                                    <cell>Doppelte und mehrfache Randanstreichung, Codierung gemäß originaler
+                              Position links, rechts oder beidseitig</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex056"/>
+                                    </cell>
+                                    <cell>Randanstreichungen, die weniger als einen Absatz umfassen;
+                              Codierung gemäß originaler Position links, rechts oder
+                              beidseitig</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex057"/>
+                                    </cell>
+                                    <cell>Hervorhebung mit Umkreisung/Umrahmung</cell>
+                                    <cell>Textumrahmung rund/eckig</cell>
+                                </row>
+                            </table>
+                        </div>
+                        <div n="5.b.2">
+                            <head>Tilgungen und Hinzufügungen</head>
+                            <table>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex058"/>
+                                    </cell>
+                                    <cell>Tilgung durch Streichung; die Art der Durchstreichung wird nicht
+                              codiert</cell>
+                                    <cell>Standardisierte Darstellung der Durchstreichung</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex059"/>
+                                    </cell>
+                                    <cell>Tilgung durch Überschreibung</cell>
+                                    <cell>Darstellung der letzten Textschicht, überschriebener Text innerhalb
+                              von textkritischer Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex060"/>
+                                    </cell>
+                                    <cell>Einfügung über der Zeile, unter der Zeile, innerhalb der Zeile,
+                              rechts der Zeile, links der Zeile, über dem ursprünglichen Text</cell>
+                                    <cell>Einfügung innerhalb der Zeile, textkritische Anmerkung als
+                              Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex061"/>
+                                    </cell>
+                                    <cell>Hinzugefügter Text ersetzt einen gestrichenen </cell>
+                                    <cell>Getilgter Text erscheint durchgestrichen, Einfügung innerhalb der
+                              Zeile, textkritische Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex062"/>
+                                    </cell>
+                                    <cell>Abhaken; meist vom Empfänger/der Empfängerin als erledigt
+                              gekennzeichneter Text</cell>
+                                    <cell>Darstellung als Abhakung gemäß Vorlage</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex063"/>
+                                    </cell>
+                                    <cell>Abstreichung mehrzeiliger Textpassagen; die Abstreichung von ganzen
+                              Briefen oder längeren Textteilen wird in der Anmerkung der
+                              Metadatenansicht mitgeteilt</cell>
+                                    <cell>Farblicher Texthintergrund, Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex064"/>
+                                    </cell>
+                                    <cell>Tilgungen und Hinzufügungen gelten als Änderungen durch den/die
+                              Autor:in, sie können durch das Attribut "hand" zeitgenössischen
+                              Bearbeitern zugeordnet werden.</cell>
+                                    <cell>Anmerkung als Tooltip</cell>
+                                </row>
+                            </table>
+                        </div>
+                    </div>
+                    <div n="5.c">
+                        <head>Textauszeichnung durch Herausgeber:innen</head>
+                        <div n="5.c.1">
+                            <head>Stillschweigende Vereinheitlichungen</head>
+                            <list>
+                                <item>Im Original als Trennungsstriche verwendete "=" Zeichen werden als
+                           einfache Trennungsstriche wiedergegeben (siehe oben).</item>
+                                <item>Endsilbenverschleifungen werden stillschweigend aufgelöst.</item>
+                                <item>Mehrere Zeilen zusammenfassende geschweifte Klammern werden nicht
+                           transkribiert, eckige Klammern werden als runde Klammern
+                           übertragen.</item>
+                                <item>Bindestrich (Minus) und Gedankenstrich (–) werden unabhängig von
+                           originaler Abstand- und Zeichenlänge normalisiert.</item>
+                                <item>Bei der Bezeichnung von Geldbeträgen (z. B. "1000.--") wird unabhängig
+                           von Anzahl und Länge der Striche ein Halbgeviertstrich gesetzt.</item>
+                                <item>Brüche werden mit Schrägstrich (1/2) wiedergegeben.</item>
+                                <item>Geminationsstriche über m und n werden aufgelöst, Umlaut-Striche bzw.
+                           -Punkte über ü, ö und ä im Zweifelsfall an den Sprachgebrauch angepasst
+                           bzw. ergänzt.</item>
+                                <item>Als Anführungsstiche werden unabhängig von der Erscheinungsform im
+                           Original immer deutsche typographische verwendet („ und
+                           “).</item>
+                                <item>Groß-Kleinschreibung sowie die Schreibweise von "ß" und "ss": Bei
+                           Unsicherheit wird die an anderer Stelle vom Schreiber bevorzugte, sofern
+                           eine solche nicht eindeutig feststellbar ist, die im Zeitkontext
+                           orthographisch korrekte Variante verwendet.</item>
+                                <item>Änderungen einzelner Buchstaben werden nur ausgezeichnet, wenn diese
+                           Auswirkungen auf Wortbedeutung oder Grammatik haben. Insbesondere bei
+                           Typoskripten werden fehlende Zeichenabstände, versehentliche
+                           Buchstabenüberschreibungen durch technische Fehler, versehentliche
+                           Buchstabendreher und versehentlich hochgestellte Buchstaben usw.
+                           stillschweigend korrigiert. Ebenfalls stillschweigend übernommen werden
+                           autographe Korrekturen fehlender Satzzeichen und Zeichenabstände.</item>
+                                <item>Ersatzweise in Typoskripten verwendete Zeichen, wie z. B. "l" statt
+                           "1" oder "o" statt "0" werden normalisiert.</item>
+                                <item>Eingefügte Formatierungszeichen werden in die jeweilige Formatierung
+                           aufgelöst.</item>
+                                <item>Zeichenabstände werden normiert: handschriftliche Daten werden in
+                           originaler Schreibweise wiedergegeben, Abstände nur im Zweifelsfall und
+                           in Typoskripten normiert zu "12.5.1913"; "!" und andere Satzzeichen ohne
+                           Abstand zum vorhergehenden Wort; Sonderzeichen, Abkürzungen, Namenskürzel
+                           und Symbole mit Abstand ("d. h."), Abkürzungen ohne Punkt (z. B. PT, UE)
+                           werden originalgetreu übernommen, ebenso Abkürzungen für Institutionen,
+                           Eigennamen und Länder.</item>
+                                <item>In Manuskripten, die in Kurrentschrift verfasst sind, verwendet
+                           Schönberg häufig lateinische Schrift für Eigennamen, Werktitel und Orte.
+                           Diese Schriftwechsel finden in der Transkription keine
+                           Berücksichtigung.</item>
+                                <item>Punkte oder Striche, die gelegentlich in Tabellen die räumliche
+                           Zuordnung klären sollen, werden nicht transkribiert.</item>
+                            </list>
+                        </div>
+                        <div n="5.c.2">
+                            <head>Textauszeichnungen</head>
+                            <table>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex065"/>
+                                    </cell>
+                                    <cell>Buchstaben/Wörter in angegebener Anzahl, die durch Papierschäden
+                              nicht entziffert und auch nicht aus dem Kontext erschlossen werden
+                              können</cell>
+                                    <cell rows="2">Anzeige "[...]" und textkritische Anmerkung als
+                              Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex066"/>
+                                    </cell>
+                                    <cell>durch Durchstreichung unleserliche Buchstaben/Wörter in angegebener
+                              Anzahl</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex067"/>
+                                    </cell>
+                                    <cell>stenographische Textteile, die Wiedergabe basiert auf der
+                              Übertragung von Dietlind Pichler sowie sinngemäßer Rekonstruktion
+                              durch die Editor:innen</cell>
+                                    <cell>Kennzeichnung durch [Stenographie:]</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex068"/>
+                                    </cell>
+                                    <cell>Unsichere Lesart, Wahrscheinlichkeit zutreffender Transkription
+                              hoch/niedrig</cell>
+                                    <cell>textkritische Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex069"/>
+                                    </cell>
+                                    <cell>Herausgeber:innenergänzungen von fehlenden Wörtern oder Buchstaben,
+                              Wahrscheinlichkeit zutreffender Transkription hoch/niedrig</cell>
+                                    <cell>[ergänzter Text] und textkritische Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex070"/>
+                                    </cell>
+                                    <cell>Herausgeber:innenkorrektur, erfolgt nur bei sinnstörenden Fehlern,
+                              falschen Opuszahlen, Hausnummern und Datumsangaben; unkommentiert
+                              übernommen werden in der Regel alte Rechtschreibungen,
+                              Grammatikfehler, Austriazismen, falsch geschriebene Fremdwörter,
+                              falsche Groß- und Kleinschreibung am Wortbeginn</cell>
+                                    <cell>textkritische Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex071"/>
+                                    </cell>
+                                    <cell>Herausgeber:innenstreichung; Wort- und Zeichenwiederholungen am
+                              Zeilen- bzw. Seitenumbruch werden getilgt</cell>
+                                    <cell>[getilgter Text] und textkritische Anmerkung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex072"/>
+                                    </cell>
+                                    <cell>Auflösung von Abkürzungen, erfolgt nur bei nicht allgemein
+                              verständlichen Abkürzungen</cell>
+                                    <cell>Auflösung als Tooltip</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex073"/>
+                                    </cell>
+                                    <cell>Abkürzungen/unterschiedliche Schreibweisen von
+                              Instrumentenbezeichnungen werden nicht aufgelöst, jedoch aus Gründen
+                              der technischen Weiterverarbeitung mit normalisierten
+                              Instrumentenbezeichnungen codiert.</cell>
+                                    <cell>Darstellung der originalen Schreibweise</cell>
+                                </row>
+                                <row>
+                                    <cell>
+                                        <graphic url="codeExamples/ex074"/>
+                                    </cell>
+                                    <cell>Unterführungszeichen; Schönberg verwendet häufig
+                              Unterführungszeichen als abgekürzte Schreibweise, welche aufgrund der
+                              hierfür wesentlichen räumlichen Positionierung unterhalb des zu
+                              wiederholenden Wortes zu Darstellungsproblemen führen können. Die
+                              Transkription des Unterführungszeichens wird deshalb durch eine
+                              Codierung der substituierten Wörter ergänzt.</cell>
+                                    <cell>Unterführungszeichen und substituierte Wörter in eckigen Klammern
+                              mit textkritischer Anmerkung als Tooltip</cell>
+                                </row>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div n="9">
+                    <head>Auszeichnung von Textinhalten </head>
+                    <p>Die inhaltliche Erschließung und Kommentierung der Korrespondenz umfasst Personen,
+                  Organisationen, Orte, musikalische Werke, Schriften, Veranstaltungen sowie
+                  Verweise und Kommentare.</p>
+                    <p>Sämtliche in der Korrespondenz direkt und indirekt genannten Personen,
+                  Organisationen, Orte, musikalischen Werke und Schriften werden mit dem jeweiligen
+                  Register verknüpft. Die Codierung erfolgt nicht nur innerhalb der Brieftexte,
+                  sondern gleichlautend auch in Metadaten, Kommentaren und Registereinträgen.</p>
+                    <table>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex075"/>
+                            </cell>
+                            <cell>namentlich genannte Person</cell>
+                            <cell rows="8">Link zum jeweiligen Registereintrag</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex076"/>
+                            </cell>
+                            <cell>eindeutig identifizierbare, indirekt genannte Person; nur bei jeweils
+                        erster Nennung</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex077"/>
+                            </cell>
+                            <cell>namentlich genannte Organisation</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex078"/>
+                            </cell>
+                            <cell>eindeutig identifizierbare, indirekt genannte Organisation; nur bei
+                        jeweils erster Nennung</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex079"/>
+                            </cell>
+                            <cell>Ort; bei Adressen wird nicht jeder Adressbestandteil codiert, sondern die
+                        jeweils kleinste genannte Einheit</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex080"/>
+                            </cell>
+                            <cell>Musikalisches Werk; bei umgangssprachlicher Werktitelei ("Dmoll
+                        Quartett") umfasst das Element den gesamten Ausdruck. Bei Werken, die in
+                        mehreren Fassungen/Bearbeitungen vorliegen, umfasst die Codierung nur den
+                        Titel. Indirekte Nennung (z. B. "das Sextett") wird lediglich beim ersten
+                        Auftreten innerhalb eines Briefes ausgezeichnet.</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex081"/>
+                            </cell>
+                            <cell>Schrift</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex082"/>
+                            </cell>
+                            <cell>Veranstaltung</cell>
+                        </row>
+                    </table>
+                    <div n="9.a">
+                        <head>Verweise</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex083"/>
+                                </cell>
+                                <cell>Verweis auf im Brieftext genannte Briefe und Dokumente; auf
+                           erschlossene Briefe wird nicht direkt im Text, sondern über einen
+                           Stellenkommentar verwiesen, somit die Information ohne Weiterleitung auf
+                           ein Platzhalterdokument bereitgestellt wird.</cell>
+                                <cell>Link zum jeweiligen Brief/Dokument</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="9.b">
+                        <head>Kommentar</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex084"/>
+                                </cell>
+                                <cell>Kommentare erläutern Sachverhalte, die nicht aus dem Briefwechsel
+                           selbst hervorgehen. Thematische Einführung in den Briefwechsel und
+                           ausführlichere Themenkommentare sind Bestandteil der Buchausgabe. In der
+                           Online-Ausgabe liegt der wesentliche Fokus der Kommentierung auf
+                           Kontextualisierung und Vernetzung der Briefe mit anderen Quellen. Hierzu
+                           zählen insbesondere jene Quellen, die unmittelbar mit der
+                           Geschäftsbeziehung zwischen Schönberg und den Verlagen in Zusammenhang
+                           stehen: Zeugen des Druck- und Publikationsprozesses von musikalischen
+                           Werken und Schriften, Auflagen und Ausgaben, Drittbriefe von
+                           Zeitschriftenherausgebern, Veranstaltern und ausführenden Musikern,
+                           Konzertprogramme, Rezensionen etc. Die Formulierung der Kommentare wird
+                           daher knapp gehalten und die Möglichkeit der Einbindung von Links zu
+                           anderen verfügbaren Quellen und Datenbanken genutzt.</cell>
+                                <cell>Klick auf eine hochgestellte Ziffer öffnet ein Pop-up
+                           Kommentarfenster</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div n="10">
+                    <head>Register</head>
+                    <p>In der digitalen Edition erfüllen die Register weitreichendere Funktionen als die
+                  Indizierung von im Briefwechsel vorkommenden Personen, Organisationen,
+                  musikalischen Werken, Schriften, Orten und Stempeln/Vordrucken: Sie können über
+                  Basisdaten hinausgehende Informationen bereitstellen und damit die Kommentierung
+                  verschlanken sowie untereinander verknüpft werden.</p>
+                    <div n="10.a">
+                        <head>Personen</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex085"/>
+                                </cell>
+                                <cell>Einträge zu Personen werden nach Möglichkeit mit mindestens einer
+                           Normdatenbank verlinkt (in der Regel <ref target="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">GND</ref>). Zusätzliche Identifikatoren können inkludiert werden,
+                           vorzugsweise sind hierbei persistent identifiers zu verwenden. Für die
+                           Codierung von Personennamen stehen mehrere Namenstypen und -subtypen zur
+                           Auswahl, die nicht nur den für alle Register, Metadaten etc. verwendeten
+                           Standardnamen erfassen können, sondern auch Geburtsname, Pseudonym und
+                           Bezugszeichen von UE-Mitarbeiter:innen. Aufgenommen werden auch Geburts-
+                           und Sterbedatum sowie -ort, normalisierte Berufsbezeichnungen und
+                           Verknüpfungen zwischen Personen und Organisationen.</cell>
+                                <cell>Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                           Verlinkung zu referenzierten Briefen und anderen Registern</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.b">
+                        <head>Organisationen</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex086"/>
+                                </cell>
+                                <cell>Das Organisationsregister enthält Einträge zu Gruppierungen,
+                           Institutionen und Körperschaften (Ensemble, Theater, Verlag,
+                           Verwertungsgesellschaft etc.). Die Codierung sieht die Einbindung von
+                           Normdatenlinks (GND), drei verschiedene Namenstypen sowie Standort(e)
+                           gemäß Ortsregister vor.</cell>
+                                <cell>Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                           Verlinkung zu referenzierten Briefen und anderen Registern</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.c">
+                        <head>Orte</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex087"/>
+                                </cell>
+                                <cell>Einträge im Ortsregister sind in einer hierarchischen Struktur
+                           gegliedert, welche die Zuordnung geographischer Orte und Gebäude zu
+                           administrativen Einheiten abbildet. Jeder Ort ist durch die semantische
+                           Definition (Land, Gemeinde, Bezirk, Gebäude) und die Zifferfolge in
+                           seiner Position innerhalb der Hierarchie bestimmt. Jeder Eintrag wird mit
+                           Name, geographischen Koordinaten sowie einem Normdatenlink zur Datenbank
+                              <ref target="https://www.geonames.org/">Geonames</ref> codiert. Die
+                           hierarchische Anlage ermöglicht beim Tagging der kleinsten Einheit die
+                           Abfrage aller Informationen höherer Ordnung, bedingt jedoch Unschärfe
+                           hinsichtlich geopolitischer Veränderungen im
+                           Korrespondenzzeitraum.</cell>
+                                <cell>Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                           aktueller Landkarte und Verlinkung zu referenzierten Briefen</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.d">
+                        <head>Musikalische Werke</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex088"/>
+                                </cell>
+                                <cell>Das Register musikalischer Werke differenziert prinzipiell zwischen
+                           Einträgen für Originalwerke und Bearbeitungen. Die Codierung von
+                           Autor:innen wird durch die Rollenzuweisung zu Komposition, Text,
+                           Übersetzung und Bearbeitung spezifiziert. Der Werktitel wird inklusive
+                           Opus-Zahl angegeben, für Schönberg-Werke ist außerdem eine Identifikation
+                           durch die ASW-Nummer (Melkert 2023) vorgesehen, die nach Publikation des
+                           Arnold Schönberg Werkverzeichnisses ergänzt werden kann. Bei
+                           Bearbeitungen und Werken mit mehreren Fassungen wird ein Bezug zu
+                           verwandten Einträgen hergestellt. Einträge von Schönberg-Werken enthalten
+                           zudem eine bibliographische Auflistung der im Korrespondenzzeitraum bei
+                           Dreililien und UE erschienenen Druckausgaben. Jeder Schönberg-Werkeintrag
+                           wird zudem mit dem entsprechenden Eintrag der Arnold Schönberg Center
+                           Werk- und Quellendatenbank verlinkt.</cell>
+                                <cell rows="2">Listenansicht mit Such- und Filterfunktion; Detailansicht mit
+                           Verlinkung zu referenzierten Briefen und anderen Registern</cell>
+                            </row>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex089"/>
+                                </cell>
+                                <cell>Liederhefte, die als Einzelwerke komponierte Lieder bzw. Lieder mit
+                           unterschiedlichen Textautor:innen zusammenfassen, bedürfen einer
+                           entsprechend angepassten Codierung. Hier werden für jeweils Nummer des
+                           Liedes in der Sammlung sowie Titel, Entstehungszeit und Textautor:in
+                           eingetragen. Links zur Werk- und Quellendatenbank des ASC verweisen
+                           ebenfalls auf Liedeinträge.</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.e">
+                        <head>Schriften</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex090"/>
+                                </cell>
+                                <cell>Struktur und Inhalt der Einträge im Schriftenregister orientieren sich
+                           am 2011 erschienenen Arnold Schönberg Schriften Verzeichnis (<ref target="https://www.zotero.org/groups/4528359/schoenberg-ue/items/XYWAN8II/item-list">Bungardt et al. 2011</ref>). Autor:innen und Übersetzer:innen werden
+                           mit ihrer Rolle und Name codiert, außer Titel und ASSV-Nummer enthält der
+                           Registereintrag Entstehungsdatum und im Korrespondenzzeitraum erschienene
+                           Druckausgaben. Für Schriften anderer Autor:innen wird nur die im
+                           Korrespondenzzusammenhang relevante Ausgabe angegeben.</cell>
+                                <cell/>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.f">
+                        <head>Ereignisse</head>
+                        <table>
+                            <row>
+                                <cell>
+                                    <graphic url="codeExamples/ex091"/>
+                                </cell>
+                                <cell>Das Ereignisregister dient der systematischen Erfassung von
+                           Veranstaltungsdaten, insbesondere von Konzerten und Lesungen. Enthalten
+                           sind in der Titelzeile Datum, Veranstaltungstitel und Veranstaltungsort,
+                           darüber hinaus werden die Programmpunkte und
+                           Interpret:innen/Darsteller:innen in Listen erfasst. Jeder Eintrag enthält
+                           einen bibliographischen Nachweis der Quelle, aus der die daten
+                           recherchiert wurden. Häufig sind dies Kritiken oder Programmzettel aus
+                           dem Schönberg-Nachlass auf deren Digitalisate in den Datenbanken des ASC
+                           in dem Fall referenziert wird. Das Register erfüllt eine Hybridfunktion
+                           zwischen Verzeichnis und Stellenkommentar: Es dient der Auslagerung oft
+                           umfangreicher Daten aus dem Stellenkommentar und ermöglich zugleich durch
+                           die eindeutige Identifikation die Eingliederung dieser für einen
+                           Musikerbriefwechsel wesentlichen Daten in die Gesamtinfrastruktur der
+                           Edition. Events werden ausschließlich als leere Elemente im
+                           Stellenkommentar codiert.</cell>
+                                <cell>Im Stellenkommentar zu einem erwähnten Ereignis erscheint die
+                           Titelzeile der Veranstaltung, ein link führt zum Detaileintrag im
+                           Register.</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div n="10.g">
+                        <head>Bibliographie</head>
+                        <p>In der <ref target="https://www.zotero.org/groups/4528359/schoenberg-ue/library">Bibliographie</ref> wird hauptsächlich Sekundärliteratur verwaltet. Dies
+                     sind Drucknachweise bereits veröffentlichter Briefe und Literatur, die im Zuge
+                     der Kommentierung nachzuweisen ist. Inkludiert werden außerdem zeitgenössische
+                     Texte, die nicht als Schriften im engeren Sinne definiert werden können (z. B.
+                     Zeitungsartikel). Die Zitation erfolgt durch Angabe von Kurztitel, Seitenangabe
+                     und Referenzierung auf den entsprechenden Zotero-Eintrag.</p>
+                    </div>
+                </div>
+                <div n="11">
+                    <head>Abweichende Regeln für die Lesefassung</head>
+                    <p>Die Lesefassung ist eine emendierte Fassung, der mitgeteilte Text ist jener nach
+                  Änderung/Korrektur durch Autor:in oder Herausgeber:in, Anmerkungen von
+                  Empfänger:in, Dritten oder Unbekannt werden ausgeblendet. Textkritische
+                  Anmerkungen entfallen, lediglich unsichere Lesarten werden durch [?] angezeigt.
+                  Zeilenumbrüche und Seitenumbrüche werden zugunsten eines durchlaufenden,
+                  linksbündigen Fließtextes ausgeblendet, Abkürzungen und Unterführungszeichen
+                  werden aufgelöst. Sämtliche Hervorhebungen erscheinen als Kursivierung. </p>
+                </div>
+                <div n="12">
+                    <head>Abweichende Regeln für Nicht-Brief-Dokumente des Sekundärkorpus </head>
+                    <table>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex092"/>
+                            </cell>
+                            <cell>Enthält dokumentenspezifische Metadaten</cell>
+                            <cell rows="3">Listenansicht und Detailansicht von Metadaten und
+                        Faksimile</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex093"/>
+                            </cell>
+                            <cell>Beschreibung des Dokuments und seiner Funktion im
+                        Korrespondenzkontext</cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <graphic url="codeExamples/ex094"/>
+                            </cell>
+                            <cell>Ersetzt die Korrespondenzbeschreibung durch eine Liste aller relevanten
+                        an der Erstellung des Dokuments beteiligten Personen und
+                        Institutionen</cell>
+                        </row>
+                    </table>
+                </div>
+                <div n="13">
+                    <head>Abkürzungen</head>
+                    <table>
+                        <row>
+                            <cell>ASC</cell>
+                            <cell>
+                                <ref target="https://schoenberg.at/de">Arnold Schönberg Center
+                           Privatstiftung, Wien</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>ASCC</cell>
+                            <cell>
+                                <ref target="https://archive.schoenberg.at/letters/letters.php">Arnold
+                           Schönberg Center Correspondence Database</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>ASCI</cell>
+                            <cell>
+                                <ref target="https://archive.schoenberg.at/resources/pages/home.php">Arnold Schönberg Center Image Archive</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>ASCR</cell>
+                            <cell>
+                                <ref target="https://archive.schoenberg.at/av/tontraeger.php">Arnold
+                           Schönberg Center Recordings Audiodatenbank</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>ASSV</cell>
+                            <cell>
+                                <ref target="https://archive.schoenberg.at/library/bilddaten/ASSV.pdf">Arnold Schönberg Schriftenverzeichnis</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>ASW</cell>
+                            <cell>Arnold Schönberg Werkverzeichnis (<ref target="https://www.zotero.org/groups/4528359/schoenberg-ue/items/UCF6QZEI/item-list">Melkert 2023</ref>)</cell>
+                        </row>
+                        <row>
+                            <cell>ASGA</cell>
+                            <cell>Arnold Schönberg Gesamtausgabe (<ref target="https://www.schoenberg-gesamtausgabe.de/informationen.html">https://www.schoenberg-gesamtausgabe.de/informationen.html</ref>)</cell>
+                        </row>
+                        <row>
+                            <cell>NYPL</cell>
+                            <cell>
+                                <ref target="https://www.nypl.org/">The New York Public
+                        Library</ref>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>WZAS</cell>
+                            <cell>
+                                <ref target="https://www.mdw.ac.at/imi/wissenschaftszentrum-arnold-schoenberg/">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule</ref>
+                            </cell>
+                        </row>
+                    </table>
+                    <p/>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

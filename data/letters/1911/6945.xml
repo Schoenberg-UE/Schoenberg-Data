@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.6945"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 5. September 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.6945</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 6945</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-VUMF2NCQ">ASGA B 18/1</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.2">Berg am Starnberger See</placeName>
+                    <date when="1911-09-05" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24205"/>
+                </correspContext>
+                <note>Datierung erschlossen aus <ref target="letter.6952">Arnold Schönberg an
+                        Universal-Edition, zwischen 20. und 23. September 1911</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-15+02:00" who="KBleier">Änderung Datierung</change><change when="2026-01-14+02:00" who="KBleier">Korrektur Kommentar</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/6945_hl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.6945_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.2">Berg am Starnberger See</placeName>
+                        </addrLine>
+                        <addrLine rendition="#r">bei Zimmermeister <persName key="pers.4133"
+                                >Widl</persName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich danke Ihnen sehr dafür, dass Sie dem <lb/>Herrn <persName
+                        key="pers.2817">Polnauer</persName> das Honorar erhöht haben. Das ist sehr
+                    nett von Ihnen <lb/>und hat mich sehr gefreut.</p>
+                <p>Was meinen offenbar ungerechten <seg type="comment">
+                        <orig>Vorwurf</orig>
+                        <note xml:id="nnr1_kxy_bbc" resp="#pkehrer">
+                            <ref target="letter.6943">Arnold Schönberg an Universal-Edition, 26.
+                                August 1911</ref>
+                        </note>
+                    </seg> gegen <persName key="pers.4273">Herrn von Wöss</persName> an<g
+                        ref="#typoHyphen"/>
+                    <lb break="no"/>belangt, so tut es mir sehr leid und ich bin nachdem was Sie mir <lb/>
+                    <seg type="comment">
+                        <orig>schreiben</orig>
+                        <note xml:id="nic1_gnw_hbc" resp="#pkehrer">
+                            <ref target="letter.24205">Universal-Edition an Arnold Schönberg,
+                                zwischen 26. August und 9. September 1911 [erschlossen]</ref>
+                        </note>
+                    </seg> überzeugt, dass nur die allgemeine Aufgeregtheit in der ich <lb/>mich
+                    wegen einer Verfolgung befinde, mich auch <subst>
+                        <del rendition="#ow">darin</del>
+                        <add place="across">da</add>
+                    </subst> eine Verfolgung <lb/>v<supplied cert="high">er</supplied>muten ließ, wo
+                    wirklich keine vorliegt.</p>
+                <p>Ich hoffe nun, dass das <bibl sameAs="schriften.1">Werk</bibl> bald heraus kommt.
+                    Meine Besorgnis ist, <lb/>wie Sie wohl zugeben werden begründet. Denn ich
+                    lieferte am <date when="1911-08-02">2. August</date> den <lb/>Schluss ab, hatte
+                    das Versprechen <add place="superlinear">von</add> der Stecherei erhalten, dass <subst>
+                        <del rendition="#s">alles</del>
+                        <add place="superlinear">die Klischees</add>
+                    </subst> in 8 Tagen <lb/>fertig sein werden, wusste von der Druckerei, dass ich
+                    cirka am <date when="1911-08-20">20.</date> die 3. Korrektur <lb/>erhalten
+                    müsste und erfahre am <date when="1911-08-24">
+                        <hi rendition="#uu">24</hi>. <choice>
+                            <sic>September</sic>
+                            <corr cert="high">August</corr>
+                        </choice>
+                    </date>, dass <del rendition="#s">so</del> in 22 Tagen <lb/>sich nicht die
+                    Möglichkeit gefunden hat die 65 Seiten Notenbeispiele <lb/>durchzulesen, was
+                    höchstens 8 Stunden Zeit braucht. Sie werden begreifen, <lb/>dass mir das sehr
+                    unangenehm ist; aber mehr noch, dass es mich schädigt, <lb/>weil ich mir vom
+                    rechtzeitigen Erscheinen des Werkes eine Besserung für meinen <lb/>
+                    <supplied cert="high">Schü</supplied>lerzulauf erwartet hatte. – Ich dürfte also
+                    bös sein und habe nur <lb/>den Fehler begangen, dass ich mein<subst>
+                        <del rendition="#ow">en</del>
+                        <add place="across">e</add>
+                    </subst>
+                    <subst>
+                        <del rendition="#ow">
+                            <unclear reason="illegible" cert="low">Aerger</unclear>
+                        </del>
+                        <add place="across">Vorwürfe</add>
+                    </subst> an die unrichtige Adresse gerichtet <lb/>hatte.</p>
+                <p>Aber bitte, wollen Sie mir nun sagen: an welche Adresse soll <lb/>ich <subst>
+                        <del rendition="#ow">ihn</del>
+                        <add place="across">sie</add>
+                    </subst> nun richten!?</p>
+                <p>Was die Frage anbelangt, ob eine eventuelle <lb/>
+                    <seg type="comment">
+                        <orig>Chorunterstützung</orig>
+                        <note xml:id="nabg_t2x_wvb">
+                            <bibl sameAs="werke.44">Arnold Schönberg, Friede auf Erden op. 13</bibl>
+                        </note>
+                    </seg> die ich mache in die Partitur aufgenommen <lb/>wird oder nicht, so
+                    befinden Sie sich in einem Irrtum. <lb/>Denn diese Begleitung wird <hi
+                        rendition="#u">keinesfalls</hi> in die Par<g ref="#typoHyphen"/><pb n="2" xml:id="p.2" break="no"/>titur aufgenommen. Es würde zu weit führen, wenn
+                    <lb/>ich Ihnen die stilistischen Unterschiede auseinandersetzen <lb/>wollte, die
+                    zwischen einem „auskomponierten, miterfundenen“ <lb/>Orchester und einer
+                    dazugemachten Begleitung sind. Sie müssen <lb/>sich eben da auf mich verlassen,
+                    der ich Ihnen zur Veröffent<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichung eine Chor-Partitur à capella übergeben habe. Diese
+                    <lb/>Begleitung gehört schon deswegen nicht in die Partitur, weil <lb/>sie
+                    durchaus nur <hi rendition="#uu">Verdopplung</hi> der Chorstimmen (also das, was
+                    <lb/>wir Musiker „unobligat<supplied cert="high">“</supplied> nennen) ist, der
+                    Dirigent diese <lb/>Partitur, deren <hi rendition="#uu">sämtliche Noten in der
+                        Chorpartitur</hi>
+                    <lb/>
+                    <hi rendition="#uu">ohnedies drinstehen!!!</hi> also gar nicht braucht!!!!!</p>
+                <p>Wenn ich etwas dazugeben wollte, so könnte es höchstens <lb/>ein „Chor-Auszug für
+                    Clavier“ sein, wie ihn D<hi rendition="#sup #uu">r</hi>
+                    <persName key="pers.4001">Webern</persName>
+                    <lb/>von diesem Stück <seg type="comment">
+                        <orig>für <persName key="pers.3106">Schalk</persName>
+                        </orig>
+                        <note xml:id="nfwf_m2n_xcc" resp="#KBleier">Die Uraufführung war
+                            ursprünglich für <date when="1908-01-15">15. Jänner 1908</date> durch
+                            den <orgName key="org.276">Singverein der Gesellschaft der Musikfreunde
+                                in Wien</orgName> unter der Leitung von <persName key="pers.3106"
+                                >Franz Schalk</persName> vorgesehen, <persName key="pers.3263"
+                                >Schönbergs</persName>
+                            <bibl sameAs="werke.44">Friede auf Erden op. 13</bibl> wurde jedoch
+                            wenige Tage vor dem Konzert aus dem Programm gestrichen (<rs type="bibl"
+                                key="zotero-4528359-HYKR2UBY">Muxeneder 2017</rs>, S. 29)</note>
+                    </seg> gemacht hat. Wollen Sie diesen <lb/>mit <hi rendition="#u">dieser
+                        Bezeichnung</hi> dazu stechen lassen, so verlangen Sie <lb/>ihn von
+                        <persName key="pers.3301">Schreker</persName>, <seg type="comment">
+                        <orig>der ihn augenblicklich hat</orig>
+                        <note xml:id="nlyg_fsn_xcc" resp="#KBleier">Abschrift des Chorsatzes von
+                                <persName key="pers.3612">Erwin Stein</persName> (?) mit einem
+                            Klavierauszug, verfaßt und geschrieben von <persName key="pers.4001"
+                                >Anton Webern</persName>; Eintragungen von fremder Hand (<persName
+                                key="pers.3301">Franz Schreker</persName>?) (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=877&amp;werke_id=244&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA, 18 B/1, Quelle D</ref>)</note>
+                    </seg>. Ein solcher <lb/>Auszug dient in den Proben für den Klavierspieler, der
+                        ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>wöhnlich leider nicht Partitur spielen kann. Wenigstens
+                        w<supplied cert="high">ar</supplied>
+                    <lb/>es bei <persName key="pers.3106">Schalk</persName> („wie der Herr so der
+                    Diener“) so.</p>
+                <p>Bei dieser Gelegenheit möchte ich Sie fragen, ob <lb/>Sie nicht lieber, statt die
+                        <bibl sameAs="werke.26">Quartett</bibl>-Partitur zu stechen, <lb/>(was
+                    wirklich kein Bedürfnis ist!) einen <seg type="comment">
+                        <orig>Klavierauszug</orig>
+                        <note xml:id="nezx_r5y_pcc" resp="#KBleier">
+                            <persName key="pers.3263">Arnold Schönberg</persName> erstellte selbst
+                            einen Klavierauszug (verschollen), der zum Zweck der Einstudierung der
+                            Gesangsstimme jedoch nicht geeignet war. Im <date when="1912-04">April
+                                1912</date> hatte <persName key="pers.3263">Schönberg</persName>
+                            sich offenbar mit <persName key="pers.1538">Emil Hertzka</persName> auf
+                            die Herstellung eines leicht spielbaren Auszugs des dritten und vierten
+                            Satzes verständigt, womit <persName key="pers.3263">Schönberg</persName>
+                            <persName key="pers.385">Alban Berg</persName> beauftragte (Arnold
+                            Schönberg an Alban Berg, 30. April 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B002645">ASCC
+                                264)</ref>. <persName key="pers.385">Berg</persName> schickte die
+                            Auszüge am <date when="1912-05-08">8. </date>bzw. <date
+                                when="1912-06-11">11. Mai 1912</date> zur Korrektur an <persName
+                                key="pers.3263">Schönberg</persName> (Alban Berg an Arnold
+                            Schönberg, 1. bis 8. Mai 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B197689">ASCC
+                                19768</ref>; Alban Berg an Arnold Schönberg, 11. Mai 1912; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B197694">ASCC
+                                19769</ref>). <persName key="pers.385">Bergs</persName>
+                            Klavierauszug erschien erst <date when="1921">1921</date> (<rs
+                                type="bibl" key="zotero-4528359-LQMNNW3Y">Buchon 2015</rs>, Bd. 5,
+                            S. 667)</note>
+                    </seg> vom <lb/>Quartett machen lassen wollten. Ein solcher wäre wenigstens
+                    <lb/>für die beiden letzten (<hi rendition="#u">Gesangs</hi>-) Sätze nötig um
+                    mit der <pb n="3" xml:id="p.3"/>Sängerin korrepetieren zu können! Andernfalls
+                    aber wäre <lb/>ein 4 händiger Auszug <hi rendition="#u">vom Ganzen</hi>
+                    <!-- erst Greissle 1923, wann erstellt? -->besser als ein 2 händiger.
+                    <lb/>Vielleicht geht der Ausweg, dass Sie die beiden letzten <lb/>Sätze als II.
+                    u IV. Satz aus .... für Gesang u Clav. erscheinen <lb/>ließen, ähnlich wie
+                    einzelne Sätze aus <persName key="pers.2225">Mahlers</persName> Sinfonien zum
+                    <lb/>gleichen Zweck gedruckt wurden. Ich lege nicht viel Gewicht <lb/>darauf
+                    dass das <hi rendition="#u">gestochen</hi> wird. Man könnte es immerhin
+                    <lb/>ebenso <hi rendition="#u">autografieren</hi>, wie das übrige Material. Aber <lb/>
+                    <supplied cert="high">es</supplied> ist die Frage, ob es für den Verkauf nicht
+                    günstiger ist <lb/>zu stechen. Das überlasse ich ganz Ihrer Entscheidung, denn
+                    <lb/>die Autografie genügt für den Hauptzweck!</p>
+                <p>Bitte um Antwort!</p>
+                <p>Jedenfalls: wenn die Partitur <add place="superlinear">des Quartetts</add>
+                    <seg type="comment">
+                        <orig>neu gedruckt</orig>
+                        <note sameAs="letter.6942/#ndzc_3ph_tcc"/>
+                    </seg> wird <lb/>muss ich vorher eine <hi rendition="#uu">Unmenge</hi>
+                    Druckfehler korrigieren, <lb/>die ich beim Stimmenlesen gefunden habe.</p>
+                <p>Ebenso, wenn die <bibl sameAs="werke.9">Klavierstücke</bibl>
+                    <subst>
+                        <del rendition="#s">erscheinen</del>
+                        <add place="superlinear">wieder gedruckt werden</add>
+                    </subst>
+                    <lb/>sollten!!</p>
+                <p>
+                    <hi rendition="#u">Bitte das ja nicht zu übersehen. Beides ist mir <lb/>sehr
+                        wichtig.</hi>
+                </p>
+                <p>
+                    <hi rendition="#u">Vielleicht können Sie es gleich vormerken lassen!!</hi>
+                </p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Wann ich nach <placeName key="place.9.11">Wien</placeName> zurück komme ist
+                    vorläufig ganz <lb/>unbestimmt. Es ist überhaupt sehr fraglich ob ich
+                    zurückkomme <lb/>(bitte: <hi rendition="#u">Diskretion</hi>!!) denn ich trage
+                    mich mit der Absicht meinen <lb/>langegehegten Plan durchzuführen und nach
+                        <placeName key="place.2.3">Berlin</placeName> zu über<g ref="#typoHyphen"/><pb n="4" xml:id="p.4" break="no"/>siedeln. Natürlich muss ich noch die Möglichkeit dafür
+                    schaffen, <lb/>dass es mir in <placeName key="place.2.3">Berlin</placeName>
+                    besser geht als in <placeName key="place.9.11">Wien</placeName>. Ich habe einige
+                    <lb/>Pläne und habe schon einiges unternommen um das durchzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzen. Hoffentlich gelingt es mir. Wissen Sie mir da einen
+                    <lb/>Rat? Ich meine einen Rat, der mir hilft, das durchzuführen, denn <lb/>nach
+                        <placeName key="place.9.11">Wien</placeName> zurückzukommen, sollte mir kein
+                    Mensch raten, der <lb/>mirs gut meint. Von <placeName key="place.9.11"
+                        >Wien</placeName> habe ich gerade genug!!</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="2" unit="lines"/>
+                    </del>
+                </p>
+                <closer>Nun also: <salute>viele herzliche Grüße.</salute> Kommen <lb/>Sie nicht doch
+                    nach <placeName key="place.2.24">München</placeName>. Ich bin doch bis cirka <lb/>
+                    <date when="1911-09-15">15</date>! wenigstens hier! <salute>Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

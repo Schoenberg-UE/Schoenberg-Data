@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17354"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 25. März 1931</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17354</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17354</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1931-03-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.2044"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17354_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17354_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.84">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.</stamp>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1931-03-25">25.
+                            März 1931</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <hi rendition="#g">Berlin W.</hi> 50</hi>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.2.3.9.1">Nürnberger Platz
+                            3</placeName>.</addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Wir hatten im Vorjahr mit Herrn Prof. <persName key="pers.3880"
+                        >Trampus</persName>, <placeName key="place.5.7">Mailand</placeName>, eine
+                    <lb/>Korrespondenz bezüglich der italienischen <seg type="comment">
+                        <orig>Uebersetzung</orig>
+                        <note xml:id="nrjj_krb_mgc" resp="#TMuxeneder">Zu Lebzeiten <persName
+                                key="pers.3263">Schönbergs</persName> erschien keine italienische
+                            Übersetzung der <bibl sameAs="schriften.1">Harmonielehre</bibl>
+                        </note>
+                    </seg> Ihrer <lb/>
+                    <hi rendition="#u">„<bibl sameAs="schriften.1">Harmonielehre</bibl>“</hi> und
+                    erhalten eben das Manuskript der Uebersetzung <!-- nicht nachweisbar -->des
+                    <lb/>Vorworts und des 1. Kapitels, die von den Herren <persName key="pers.2799"
+                        >Pizzetti</persName> und <persName key="pers.2725">Pedrollo</persName>
+                    <lb/>gut beurteilt worden sind.</p>
+                <p>Wir bitten nun um Mitteilung, ob wir Ihnen die Probe der <lb/>Uebersetzung
+                    einsenden sollen. Bezüglich der Bedingungen hatten wir <lb/>bereits gelegentlich
+                    der <seg type="comment">
+                        <orig>Verhandlungen</orig>
+                        <note xml:id="nmrh_3qf_1vb">
+                            <ref target="letter.7228">Arnold Schönberg an Universal-Edition, 14.
+                                Juli 1930</ref>; <ref target="letter.17353">Universal-Edition an
+                                Arnold Schönberg, 19. Juli 1930</ref>
+                        </note>
+                    </seg> über die französische <seg type="comment">
+                        <orig>Ueber<g ref="#typoHyphen"/>
+                            <lb break="no"/>setzung</orig>
+                        <note sameAs="letter.17605/#ngr1_dpb_mgc"/>
+                    </seg> im <date when="1930-07">Juli 1930</date>, die leider nicht zum
+                    Abschluss gelangt sind, <lb/>mit Ihnen vereinbart, dass die Erträgnisse je zur
+                    Hälfte zwischen <lb/>Ihnen und uns geteilt werden sollen, dass die Abrechnungen
+                    per 30. <lb/>VI. und per 31.XII. zu erfolgen haben und dass die auf Sie
+                        entfallen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Anteile mit der Abrechnung bar an Sie überwiesen werden.
+                        Diesel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben Bedingungen könnten auch für die italienische Uebersetzung
+                        gel<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="left" hand="#addressee">
+                        <ref target="letter.2044">
+                            <date when="1931-04-17">17/IV</date>
+                        </ref>
+                    </note>ten und wir bitten
+                    Sie, diese Bedingungen ohne eine separate Forde<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung nach Vorauszahlung zu akzeptieren. Wir würden uns natürlich
+                    <lb/>bemühen, dass der <placeName key="place.5">italienische</placeName>
+                    Verleger auch eine Vorauszahlung lei<g ref="#typoHyphen"/>
+                    <lb break="no"/>stet, und in diesem Fall ihnen sogleich nach Erhalt des Geldes
+                    die <lb/>Hälfte überweisen.</p>
+                <p>Da Herr Professor <persName key="pers.3880">Trampus</persName> uns ersucht hat,
+                    ihm möglichst bald<pb n="2"/>Bescheid zukommen zu lassen, wären wir Ihnen für
+                    baldige Nachricht <lb/>sehr verbunden und zeichnen </p>
+                <closer>
+                    <salute rendition="#r">in vorzüglicher Hochachtung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.86" rendition="#r">
+                        <orgName key="org.1">„Universal-Edition“ Actiengesellschaft</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

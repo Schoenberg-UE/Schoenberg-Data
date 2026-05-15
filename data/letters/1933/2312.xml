@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.2312"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 8. Jänner 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.2312</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 2312</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.9.1">Berlin, Nürnbergerplatz 3</placeName>
+                    <date when="1933-01-08" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17374"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/2312_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.2312_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.30">
+                        <persName key="pers.3263">ARNOLD
+                        SCHÖNBERG</persName>
+                        <lb/>BERLIN W 50<lb/>
+                        <placeName key="place.2.3.9.1">NÜRNBERGER·PLATZ 3</placeName>
+                        <lb/>TEL.: B 4, Bavaria 44 66</stamp>
+                    <dateline>
+                        <date when="1933-01-08">8.I.193<subst>
+                                <del rendition="#ow">2</del>
+                                <add place="across">3</add>
+                            </subst>
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>
+                            <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Ich glaube, ich habe Ihnen versprochen, <lb/>Sie von der Vollendung meines
+                    nächsten Werkes zu verstän<g ref="#typoHyphen"/>
+                    <lb break="no"/>digen. Ich tue das hiermit. Es ist ein</p>
+                <p>
+                    <bibl sameAs="werke.39">Konzert für Violoncello und Orchester</bibl>
+                    <lb/>nach dem „<bibl sameAs="werke.141">Concerto per Clavicembalo</bibl>“ von
+                        <persName key="pers.2435">Matthias Georg <lb/>Monn</persName>; komponiert
+                        <date when="1746">1746</date>
+                    <lb/>in freier Umgestaltung von <lb/>
+                    <persName key="pers.3263">Arnold Schönberg</persName>
+                </p>
+                <p>Hiezu ist noch zu sagen, dass ich die Absicht habe, das <lb/>Verlagsrecht nur
+                    herzugeben, wenn ich 2000 Dollar dafür <lb/>bekomme. <seg type="comment">
+                        <orig>Sonst werde ich <del rendition="#s">es</del> selbst
+                            herausgeben</orig>
+                        <note xml:id="nlqd_hrx_ycc" resp="#pkehrer">In Arnold
+                            Schönberg an Wilhelm Hansen Musikforlag, 8. Jänner 1933 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B023115">ASCC
+                                2311</ref>), bot <persName key="pers.3263">Schönberg</persName> das
+                                <bibl sameAs="werke.39">Konzert</bibl> auch diesem Verlag zum Erwerb
+                            an, es erschien schließlich bei <orgName key="org.70">G. Schirmer
+                                Inc.</orgName> (Originalphotodruck 1936; <ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1352&amp;werke_id=459&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 27/2, Quelle G</ref>)</note>
+                    </seg>.</p>
+                <p>Ich wollte Ihnen schon lange schreiben: <lb/>In unserer neuen <ref target="document.7359_cn">Abmachung</ref> ist in dem Passus über „<bibl sameAs="werke.65">Von <lb/>heute auf morgen</bibl>“ das Enddatum nicht extra
+                    erwähnt. Ich bit<lb break="no"/>te Sie daher mir mitzuteilen, auf welche Weise
+                    wir das nach<lb break="no"/>tragen wollen. Ferner aber, haben Sie an meinem
+                    Angebot eine <lb/>Umstilisierung
+                    vorgenommen,
+                    die ich damals nicht beachtet <lb/>habe ( …..25 % aller bei der <orgName key="org.1">UE</orgName> eingehenden Beträge!!!!) <lb/>Das ist, wie sich
+                    bereits jetzt herausstellt, eine Unmöglich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit; wenigstens unter gewissen Umständen, wie eben eingetre<g ref="#typoHyphen"/>
+                    <lb break="no"/>tene, wobei der bei Ihnen eingehende Betrag gerade die Her<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellungskosten decken würde. Ich stehe nämlich im Begriff,
+                    <lb/>ein paar hundert Exemplare zu so niedrigem Preis
+                    abzugeben, <lb/>dass
+                    dadurch nur die Kosten einer etwa doppelt so grossen Auf<lb break="no"/>lage
+                    gedeckt wären, so dass ich also <add place="superlinear">bloss</add> 2–300
+                    Exemplare dadurch <lb/>bekomme. Ich bin zwar der Meinung, dass ich diese
+                    Transaktion <lb/>unabhängig von Ihnen durchführen darf, möchte aber, dass Sie
+                    <lb/>von allem informiert sind. Jedenfalls muss aber dieser Ver<choice>
+                        <sic>t</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>tragspunkt irgendwie geändert werden. Denn ich habe bei mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nem Angebot an Notenverkauf nicht gedacht, sondern nur an Büh<lb break="no"/>nenmateriale und Tantiemen; Bei Verkäufen aber müssten die
+                    <lb/>Selbstkosten irgendwie vorher gedeckt sein!!</p>
+                <p>Ich würde mit Vergnügen erfahren, dass die <orgName key="org.1">UE</orgName>
+                        wie<g ref="#typoHyphen"/>
+                    <lb break="no"/>der in der Lage ist, grössere Aufwendungen zu machen und sa<g ref="#typoHyphen"/>
+                    <lb break="no"/>ge Ihnen deshalb, dass ich voraussichtlich gering 4–5 Tage
+                    <lb/>noch frei sein dürfte (dürfte!). Also sehen Sie einmal nach <lb/>im
+                    Geldbeutel Ihrer Bank, ob noch soviel drin ist: mich soll <lb/>es freuen.</p>
+                <p>Bitte um baldige Antwort.</p>
+                <closer rendition="#inline">
+                    <salute>Mit herzlichsten Grüssen <lb/>an die lieben Direktoren und sonstigen
+                        Freunde, Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

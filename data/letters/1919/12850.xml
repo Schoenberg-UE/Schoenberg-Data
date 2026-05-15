@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12850"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Musikblätter des Anbruch an Arnold Schönberg, 11. August 1919</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12850</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12850</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3240">Schneider, Otto</persName>
+                    <orgName key="org.7">Musikblätter des Anbruch</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1919-08-11" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24334"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12850_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12850_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.150">
+                        <orgName key="org.7">MUSIKBLÄTTER<lb/>DES
+                        ANBRUCH</orgName>
+                        <lb/>HALBMONATSSCHRIFT F. MODERNE MUSIK·HERAUSGEGEB. V. D.
+                            <orgName key="org.1">UNIVERSAL-EDITION A. G.</orgName>
+                        <lb/>TELEPHON
+                        NUMMER: 45-33 UND 32-28<lb/>BANKKONTO: <orgName key="org.199">LÄNDERBANK
+                            WIEN</orgName>
+                        <lb/>TELEGR.-ADR.: MUSIKEDITION
+                        WIEN<lb/>SCHRIFTLEITUNG:<lb/>DR. <persName key="pers.3240">OTTO
+                            SCHNEIDER</persName>
+                        <lb/>WIEN, I. <placeName key="place.9.11.6.12">KARLSPLATZ NR. 6</placeName>
+                        <lb/>SPRECHZEIT DER
+                        SCHRIFTLEITUNG:<lb/>DIENSTAG UND FREITAG VON 11–12<lb/>FEIERTAGE
+                        AUSGENOMMEN<lb/>WIEN <seg hand="#author">
+                            <date when="1919-08-11">11.VIII.19</date>
+                        </seg>
+                    </stamp>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>,</salute>
+                <p>ich danke Ihnen vielmals für Ihre <seg type="comment">
+                        <orig>Zusage</orig>
+                        <note xml:id="nhmb_lkz_lyb" resp="#pkehrer">
+                            <ref target="letter.24334">Arnold Schönberg an Musikblätter des Anbruch,
+                                zwischen 3. und 11. August 1919 [erschlossen]</ref>
+                        </note>
+                    </seg>, einen <lb/>Beitrag für die <seg type="comment">
+                        <orig>erste Nummer</orig>
+                        <note xml:id="ndyq_ymz_lyb" resp="#pkehrer">
+                            <rs type="bibl" key="zotero-4528359-IJFE9A8X">Anbruch 1919</rs>
+                        </note>
+                    </seg> zur Verfügung zu stellen. Das <lb/>Thema „Musikalische Utopien“ ist
+                    ebenso ausgezeichnet wie <lb/>diskussionsbedürftig; dazu für den Beginn einer
+                        Musikzeit<g ref="#typoHyphen"/>
+                    <lb break="no"/>schrift ausserordentlich entsprechend, um sozusagen den
+                    <lb/>endlichen Raum der Sache gleich festzulegen. Das Wichtigste <lb/>dabei aber
+                    ist, vielleicht auch das Paradoxe, erfolgt dies <lb/>von einer musikalischen
+                    Kompetenz Ihres Ranges.</p>
+                <p>Ich freue mich für die Sache, dass ihr Anfang <lb/>wie beabsichtigt sich
+                    verwirklichen wird, und werde nicht <lb/>versäumen, in zweiwöchentlichen
+                    Abständen eine ebenso res<g ref="#typoHyphen"/>
+                    <lb break="no"/>pektvolle wie eindringliche Mahnung, gemäss Ihrem Wunsch,
+                    <lb/>abgehen zu lassen.</p>
+                <closer>
+                    <salute>Mit nochmaligem Dank und den ergebensten Empfeh<g ref="#typoHyphen"/>
+                        <lb break="no"/>lungen <lb/>
+                        <seg rendition="#r">Hochachtungsvoll</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">Dr <persName key="pers.3240">Otto
+                            Schneider</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

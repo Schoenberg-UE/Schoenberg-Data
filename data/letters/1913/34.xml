@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.34"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 29. Oktober 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.34</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                     Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 34</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1.1">Mariendorf, Berliner Straße 17a</placeName>
+                    <date when="1913-10-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17501"/>
+                </correspContext>
+                <note>Ort erschlossen aus Arnold Schönberg an Alexander Jemnitz, 29. Oktober 1913
+                    (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B065498">ASCC 6549</ref>)</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/34_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.34_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1913-10-29">29/X. 1913</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">beiligend ein <ref target="document.16874">Brief</ref> von
+                    Kammersänger <persName key="pers.3557">Soot</persName>
+                    <add place="superlinear">(bitte retourschicken)</add>
+                    <lb/>das <bibl sameAs="werke.7">Monodram</bibl> betreffend (eventuell auch die
+                        <bibl sameAs="werke.50">glückliche Hand</bibl>)<!-- keine Aufführung --></p>
+                <p>Was soll ich da tun?</p>
+                <p>Auch <placeName key="place.2.20">Leipzig</placeName>
+                    meldet sich und behauptet ich
+                    hätte ihm die <lb/>Uraufführung<!-- keine Aufführung --> zugesagt.</p>
+                <p>
+                    <hi rendition="#uu">Aber <placeName key="place.2.10">Dresden</placeName>
+                        <!-- keine Aufführung --> wäre wohl am
+                  günstigsten.</hi>
+                </p>
+                <p>Könnten Sie nicht die Sache in die Hand nehmen? Ich <lb/>möchte <persName key="pers.498">Bodanzky</persName> nicht beleidigen. Ob es nicht zu erzielen
+                    <lb/>wäre, dass alle <seg type="comment">
+                        <orig>3 Aufführungen</orig>
+                        <note xml:id="nvrr_vpx_4dc" resp="#KBleier">Weder in <placeName key="place.2.10">Dresden</placeName> noch in <placeName key="place.2.20">Leipzig</placeName> oder <placeName key="place.2.22">Mannheim</placeName> kam eine Aufführung
+                            zustande</note>
+                    </seg> am gleichen Tag wären?</p>
+                <p>Ich habe <persName key="pers.3339">Schuch</persName> meine <seg type="comment">
+                        <orig>Partitur</orig>
+                        <note sameAs="letter.32/#nodl_zfs_3dc"/>
+                    </seg>, einen <seg type="comment">
+                        <orig>alten <bibl sameAs="werke.174">Auszug</bibl>
+                        </orig>
+                        <note sameAs="letter.114/#nkkm_3f5_gdc"/>
+                    </seg> und <lb/>
+                    <seg type="comment">
+                        <orig>Textbücher geschickt</orig>
+                        <note xml:id="nbsd_grs_3dc" resp="#KBleier">Vermutlich <bibl
+                                sameAs="schriften.94">Marie Pappenheim, Erwartung</bibl> und <bibl
+                                sameAs="schriften.9">Die glückliche Hand</bibl>. <persName
+                                key="pers.3263">Schönberg</persName> erwähnt im entsprechenden
+                            Schreiben jedoch nur <bibl sameAs="schriften.9">Die glückliche
+                                Hand</bibl> (Arnold Schönberg an Fritz Soot, 29. Oktober 1913; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B000334">ASCC
+                                33</ref>)</note>
+                    </seg> (Sie haben noch eine <seg type="comment">
+                        <orig>Kopie</orig>
+                        <note xml:id="nolt_hss_3dc" resp="#KBleier">Verlagsniederschrift eines
+                            weiteren Klavierauszugs, verschollen (<ref
+                                target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1422&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                >ASGA B 6/2, Quelle N*</ref>)</note>
+                    </seg>
+                    <!-- Quellenzuordung unsicher -->
+                    des <rs type="bibl">
+                        <bibl sameAs="werke.174">Auszugs</bibl>
+                    </rs>
+                    <lb/>bei sich liegen. Können Sie mir die schicken, vielleicht <lb/>kann man sie
+                    korrigieren!) Aber von <persName key="pers.3339">Schuch</persName> bekommt man
+                    <lb/>so schwer was zurück!!</p>
+                <p>Geben Sie mir einen Rat. Oder möchten Sie nach <lb/>
+                    <placeName key="place.2.10">Dresden</placeName> fahren und sich eventuell auch mit <placeName key="place.2.22">Mannheim</placeName>
+                    <lb/>in Verbindung setzen?</p>
+                <p>Jedenfalls kann man ja abwarten, ob <persName key="pers.3339">Schuch</persName> wirklich <lb/>die Uraufführung will!</p>
+                <p>Es wäre schade, wenn das nicht ginge!</p>
+                <p>Bitte um
+            sofortigen Rat!!</p>
+                <closer>
+                    <salute>Viele herzl. Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Bitte senden Sie an <persName key="pers.4309">Zemlinsky</persName> alle <bibl sameAs="werke.11">6 Orchesterlieder-<lb break="no"/>Partituren</bibl> als
+                     „Ehrenexemplar<supplied cert="high">“</supplied> für ihn!!
+                  <lb/>Dann auch bitte ich Sie <hi rendition="#u">
+                            <persName key="pers.4001">Webern</persName>
+                        </hi>, der ja die Auszüge gemacht hat <lb/>eine Serie zu
+                  schenken. Dr. <persName key="pers.4001">Anton von Webern</persName>, Wien XIII
+                     <lb/>
+                        <seg rendition="#r">
+                            <placeName key="place.9.11.5.5">Kremsergasse
+                        1</placeName>
+                        </seg>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.23854"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>F. M. Geidel an Universal-Edition, 3. Juni 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.23854</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Nachlass Arnold Schönberg</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 23854</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1206">Geidel, Johannes</persName>
+                    <orgName key="org.65">F. M. Geidel</orgName>
+                    <placeName key="place.2.20.7">Leipzig, Wittenberger Straße 23</placeName>
+                    <date when="1914-06-03" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.23855"/>
+                </correspContext>
+                <note>Beilage zu <ref target="letter.17542">Universal-Edition an Arnold Schönberg,
+                        4. Juni 1914</ref>; Beilage: Korrekturabzug (Probeseite) von S. 4 (T. 5-12)
+                    des Partiturdrucks (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1406&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 6/2, Quelle E0</ref>); angeklebt: <ref target="letter.23855">Arnold
+                        Schönberg an F. M. Geidel, 6. Juni 1914</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/23854_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.23854_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.16">
+                        <orgName key="org.65">F. M. GEIDEL</orgName>, LEIPZIG <lb/>Anstalt für
+                        <lb/>Notenstich, Notendruck und Anastatischen Druck <lb/>Stein- und
+                        Buchdruckerei, Notensatz, Stereotypie <lb/>Lithographie, Autographie und
+                        Buchbinderei <lb/>Fernsprecher 36 ···· Bank-Konto: Frege &amp; Co., Leipzig
+                        <lb/>Leipzig, den <date when="1914-06-05">
+                            <seg hand="#author">5. Juni</seg> 191<seg hand="#author">4.</seg>
+                        </date>
+                        <lb/>
+                        <placeName key="place.2.20.7">Wittenbergerstraße 23</placeName>
+                    </stamp>
+                    <address>
+                        <addrLine>Verehrl.</addrLine>
+                        <addrLine rendition="#c">
+                            <orgName key="org.1">Universal-Edition, A.-G.</orgName>, </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda #g">
+                                <placeName key="place.9.11">Wien</placeName>.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>Mit gleicher Post übersende ich Ihnen <seg type="comment">
+                        <orig>2 Abzüge einer
+                                Pro<g ref="#typoHyphen"/>
+                            <lb break="no"/>beseite</orig>
+                        <note xml:id="nnsc_v1x_tbc" resp="#pkehrer">Korrekturabzug (Probeseite) von S, 4 (T. 5–12) des
+                            Partiturdrucks (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1406&amp;werke_id=472&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 6/2, Quelle E0</ref>)</note>
+                    </seg> aus der <seg type="comment">
+                        <orig>Orchesterpartitur</orig>
+                        <note xml:id="nbnr_m24_k5b">
+                            <bibl sameAs="werke.7">Erwartung op. 17</bibl>
+                        </note>
+                    </seg>
+                    <persName key="pers.3263">Schönberg</persName>. Ich hoffe, alles nach Wunsch
+                    <lb/>des Autors ausgeführt zu haben und bitte um recht baldigen Bescheid, da<g ref="#typoHyphen"/>
+                    <lb break="no"/>mit ich weiter arbeiten lassen kann. </p>
+                <p>Ich möchte hierzu noch bemerken, dass die Einteilung des <lb/>Manuskriptes es mit
+                    sich bringt, dass ich gezwungen bin, <add place="superlinear">ab und zu</add>
+                    verhältnismässig <lb/>wenig Linien auf eine Platte zu bringen, um unmittelbar im
+                    Anschluss daran <lb/>wieder eine Platte mit Doppelsystemen einrichten zu können.
+                    Ich bitte, <lb/>
+                    <note place="left" hand="#pers.3263">
+                        <metamark target="letter.23855#start_yr2_k34_3tb">1.</metamark>
+                    </note> beim Autor anzufragen, <add place="intralinear" hand="#pers.3263">
+                        <metamark/>
+                    </add> ob in diesem <hi rendition="#u">Falle <add place="superlinear">bei</add>
+                            geeignete<add place="intralinear">n</add> Instrumente<add place="intralinear">n</add>, wo im</hi>
+                    <lb/>Manuskript mehrere auf eine Linie zusammen gezogen sind, ein Auseinander<g ref="#typoHyphen"/>
+                    <lb break="no"/>ziehen in einzelnen Instrumenten vorgenommen werden kann, um zu
+                    vermeiden, <lb/>dass plötzlich auf eine sehr enge Platte mit 34 Linien eine sehr
+                    weite <lb/>mit 18 oder 20 Linien folgt. Umgedreht macht es sich notwendig, in
+                        ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <note place="left" hand="#pers.3263">
+                        <metamark target="letter.23855#start_rlp_bk4_3tb">2.</metamark>
+                    </note>zelnen Fällen,<add place="intralinear" hand="#pers.3263">
+                        <metamark/>
+                    </add> dass 2 gleichartige Instrumentenlinien auf eine Linie zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>sammengezogen werden, um eine 2systemige Platte einrichten zu
+                    können <lb/>und dabei die Höchstzahl der Linien, 34, nicht zu überschreiten.
+                    Einer <lb/>kurzen Rückantwort hierüber sehe ich entgegen. </p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <hi rendition="#u">
+                                <persName key="pers.331">Beethoven</persName>-<persName key="pers.3127">Schenker</persName>.</hi>
+                        </orig>
+                        <note xml:id="ne13_cgd_5bc" resp="#pkehrer"> Vermutlich <rs type="bibl" key="zotero-4528359-5696RMR2">Beethoven 1914</rs>
+                        </note>
+                    </seg> Korrektur der Vorbemerkung hoffe ich im Laufe dieser <lb/>Woche
+                    auszusetzen; durch die vielen Feiertage hat sich leider die Fertig<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellung dieser Arbeit etwas verzögert. </p>
+                <closer>
+                    <salute rendition="#r">Hochachtungsvoll</salute>
+                    <lb/>
+                    <stamp rendition="#r">ppa. <orgName key="org.65">F. M. Geidel</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1206">Johannes Geidel</persName>
+                    </signed>
+                </closer>
+                <note place="mBottom" hand="#pers.3263">Warum wurde <lb/>kein <hi rendition="#u">breiteres Papier</hi> genommen? <lb/>Ich <ref target="letter.23853">schrieb</ref> doch deswegen auch!!!</note>
+            </div>
+        </body>
+    </text>
+</TEI>

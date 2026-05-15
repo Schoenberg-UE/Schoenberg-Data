@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.4233"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    Arnold Schönberg an Universal-Edition, 1. März 1947</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.4233</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 4233</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                    <date when="1947-03-01" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/4233_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.4233_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.127">
+                        <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        <lb/>
+                        <placeName key="place.15.7.3.1">116 N. ROCKINGHAM AVENUE</placeName>
+                        <seg hand="#author">– 24</seg>
+                        <lb/>LOS ANGELES, CALIF.<lb/>Phone ARizona 35077</stamp>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3204">Alfred Schlee</persName>,
+                            Direktor</addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>I. <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                        <addrLine>Wien</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1947-03-01">1. März,1947</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3204">Schlee</persName>:</salute>
+                <p>Vor ungefähr zwei Wochen ersuchte ich Sie in einem <lb/>
+                    <ref target="letter.24146">Kabelgram</ref>:</p>
+                <p>„Please airmail to me upon <orgName key="org.125">alien property
+                        custodians</orgName>
+                    <lb/>„request list of works detailed stating my percentage <lb/>„and
+                    shares on various rights I granted you“.</p>
+                <p>Da ich keine Antwort von Ihnen erhielt und nicht weiss, <lb/>ob Sie dieses
+                    Telegram erhalten haben, und wenn, ob mein <lb/>Englisch nicht vollkommen
+                    unverständlich war, so will ich <lb/>es hier in Kürze übersetzen und
+                    erläutern.</p>
+                <p>„<choice>
+                        <sic>„</sic>
+                        <corr type="deleted"/>
+                    </choice>Bitte senden Sie per Luftpost an mich <lb/>auf Verlangen des <orgName key="org.125">Verwalters der beschlagnahmten <lb/>feindlichen Vermögen und
+                        Guthaben</orgName> in <placeName key="place.15">Amerika</placeName>
+                    <lb/>eine Liste meiner <lb/>bei der <orgName key="org.1">U.E.</orgName>
+                    verlegten <lb/>Werke und geben Sie detailiert <lb/>bei jedem Werk an, welches
+                    mein percentueller Anteil <lb/>ist, der aus den verschiedenen Rechten herstammt,
+                    die <lb/>ich Ihnen überlassen habe…“</p>
+                <p>Das ist eine freie Uebersetzung, aber ich denke, sie er<g ref="#typoHyphen"/>
+                    <lb break="no"/>klärt alles.</p>
+                <p>Darf ich nun darauf rechnen, Copien aller Verträge, wie <lb/>seinerzeit mit Dr.
+                        <persName key="pers.1750">Kalmus</persName>
+                    <seg type="comment">
+                        <orig>vereinbart</orig>
+                        <note xml:id="nz5k_wf1_1yb" resp="#pkehrer"><ref target="document.7359_cn">Vertrag, 11. September
+                            1932</ref></note>
+                    </seg>, und diese Liste zu er<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten?</p>
+                <p>Ich beabsic<supplied cert="high">h</supplied>tigte, Ihnen auch ein weiteres <ref target="letter.24148">Kabel</ref> zu <lb/>schicken mit Bezug auf Ihre <ref target="letter.17705">Mitteilung</ref> über den Antrag für <lb/>die <orgName key="org.10">Musikakademie</orgName>, den man mir angeblich gemacht hat:</p>
+                <p>„I <hi rendition="#g">never</hi> Authorized a <hi rendition="#g">friend</hi> (?)
+                    to <lb/>decide whether I would accept a position as that you mentioned. <lb/>I
+                    would still consider such an offer seriously.“</p>
+                <p>I will send you a letter, which will explain my opinion <lb/>about Mr. <persName key="pers.4190">Winter</persName>. A letter from my lawyer.</p>
+                <p>Oh, jetzt habe ich englisch geschrieben: ich wiederhol<choice>
+                        <sic>l</sic>
+                        <corr type="deleted"/>
+                    </choice>e:</p>
+                <p>Ich werde Ihnen einen Brief senden, der meine Meinung <lb/>über Herrn <persName key="pers.4190">Winter</persName> erklärt. Einen Brief meines <rs type="person" key="pers.1923">Rechtsanwalts</rs>.</p>
+                <closer>Ich sehe Ihrem Brief gerne entgegen und bin <salute>mit  <lb/>
+                        <seg rendition="#c">herzlichen
+                        Grüssen, Ihr</seg>
+                    </salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

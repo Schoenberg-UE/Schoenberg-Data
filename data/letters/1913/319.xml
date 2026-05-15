@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.319"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 6. Februar 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.319</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 319</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-49ZGE6RA">Schoenberg 1964</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-DE3U5QIJ">Schoenberg 1965</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-96BGK8XF">Schoenberg 1974</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-VHM834XH">Fleisher 1980</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-X59AMNDD">Berg-Schoenberg 1987</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-8L4HFS5N">Schönberg-Berg 2007</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.38.2">Zehlendorf, Machnower Chaussee, Villa
+                        Lepcke</placeName>
+                    <date when="1913-02-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24238"/>
+                </correspContext>
+                <note>Beilage zu Arnold Schönberg an Alban Berg, 6. Februar 1913 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B003183">ASCC
+                    318</ref>); aus diesem geht hervor, dass der vorliegende Brief an <persName key="pers.385">Berg</persName> zur Kenntnisnahme, aber nicht an <persName key="pers.1538">Hertzka</persName> selbst ging</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile><graphic url="https://iiif.onb.ac.at/presentation/DOD/58775/manifest/"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.dod.58775"
+                 n="1,3,5,7,9"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.6">
+                        <persName key="pers.3263">Arnold Schönberg</persName>,
+                    Berlin-Zehlendorf-Wannseebahn<lb/> Machnower Chaussee, <placeName key="place.2.38.2">Villa Lepcke</placeName>.</stamp>
+                    <dateline>
+                        <date when="1913-02-06">6/2. 1913</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">
+                    <persName key="pers.385">Bergs</persName> angekündigter <seg type="comment">
+                        <orig>Brief</orig>
+                        <note xml:id="nevh_pcr_kbc" resp="#pkehrer">Alban Berg an Arnold Schönberg,
+                            5. Februar 1913 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B101799">ASCC
+                                10179</ref>)</note>
+                    </seg> ist <lb/>noch nicht da. Sollte der mir eine andere Meinung bei<g ref="#typoHyphen"/>
+                    <lb break="no"/>bringen, so will ich gerne alles zurücknehmen, was ich hier
+                    <lb/>sagen muss.</p>
+                <p>Zunächst: auf Ihr und des <orgName key="org.133">Philharm. Chors</orgName>
+                    <seg type="comment">
+                        <orig>Telegramme</orig>
+                        <note xml:id="nshg_5sy_5wb">
+                            <ref target="letter.24238">Universal-Edition an Arnold Schönberg, 5.
+                                Februar 1913 [erschlossen]</ref>
+                        </note>
+                    </seg>
+                    <lb/>habe ich Ihnen eben <seg type="comment">
+                        <orig>telegrafisch</orig>
+                        <note xml:id="nk2v_bty_5wb">
+                            <ref target="letter.24239">Arnold Schönberg an Universal-Edition, 6.
+                                Februar 1913 [erschlossen]</ref>
+                        </note>
+                    </seg> folgendes geantwortet:</p>
+                <p>„Wenn <persName key="pers.3301">Schreker</persName> keine Zeit findet, komme ich <lb/>
+                    <choice>
+                        <sic>„</sic>
+                        <corr type="deleted"/>
+                    </choice>gerne, um zu dirigieren; nicht aber um zu corri<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <choice>
+                        <sic>„</sic>
+                        <corr type="deleted"/>
+                    </choice>gieren. Schlechtes Material nicht meine Schuld. Bitte <lb/>
+                    <choice>
+                        <sic>„</sic>
+                        <corr type="deleted"/>
+                    </choice>sagen Sie ruhig ab.“</p>
+                <p>Dieses Telegramm zu erläutern, Ihnen zu zeigen, wie<lb break="no"/>so Sie unrecht
+                    hatten und Ihnen zu beweisen, dass es leicht geht, ohne <lb/>dass ich hinkomme,
+                    ist der Zweck meines Briefes.</p>
+                <p>I. Vor allem finde ich das „<persName key="pers.3301">Schreker</persName>
+                    <hi rendition="#uu">wünscht</hi> (!!) <lb/>dringend Ihre unverzügliche Herreise“
+                    etwas sehr stark. Auf <lb/>etwas mehr Höflichkeit machte ich selbst dann
+                    Anspruch, wenn ich ein <lb/>Verbrechen begangen hätte.</p>
+                <p>II. Man mutet mir eine Reiseausgabe von vielleicht <lb/>150–200 Mark zu,
+                    spendiert aber selbst nicht 10 Kronen <lb/>um mir ausführlich die Gründe
+                    anzugeben, warum ich mir <lb/>solche Kosten machen soll.</p>
+                <p>Denn das<supplied cert="high">s</supplied> die im Telegramm angegebenen keine
+                    <lb/>sind, werde ich Ihnen <subst>
+                        <del rendition="#ow">zei</del>
+                        <add place="across">noch</add>
+                    </subst> zeigen.</p>
+                <p>III. Man mutet mir eine solche Ausgabe zu und fragt <lb/>nicht <hi rendition="#u">ob ich in der Lage bin, sie mir zu gestatten!!</hi>
+                </p>
+                <p>IV. Wenn man so etwas von mir wollte, hätte <lb/>man mir vor allem zu erklären,
+                    dass man alle Kosten <lb/>trägt.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>V. Aber nun die Hauptsache: man mutet mir, dem Autor <lb/>zu, dass ich dem
+                    Dirigenten Handlangerdienste verrichte, weil <lb/>der keine Zeit hat, sich mit
+                    der Sache so zu befassen, wie <lb/>es seine Pflicht als Künstler ist: mir
+                    gegenüber und sich <lb/>gegenüber!!</p>
+                <p>Denn: wenn <persName key="pers.3301">Schreker</persName> die Partitur, <hi rendition="#u">wie es seine <lb/>Pflicht ist</hi>, ordentlich studiert
+                    hätte, wäre es ganz un<g ref="#typoHyphen"/>
+                    <lb break="no"/>möglich, dass er <add place="superlinear">jetzt erst</add>
+                    plötzlich entdeckt, sie sei so fehlerhaft. <lb/>(Nebenbei: wenn sie fehlerhaft
+                    ist, ist das nicht meine <lb/>Schuld! Denn man lässt ein Material eben <hi rendition="#u">rechtzeitig <lb/>korrigieren</hi>!!) Das hätte er längst
+                    bemerken müssen! <lb/>Dass er aber die Partitur nicht kennt, habe ich
+                    <lb/>längst aus der naiven <seg type="comment">
+                        <orig>Mitteilung</orig>
+                        <note xml:id="nwdf_sjr_kbc" resp="#pkehrer">Alban Berg an Arnold
+                        Schönberg, 1. Februar 1913 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B198215">ASCC
+                        19821</ref>)</note>
+                    </seg>
+                    <persName key="pers.385">Bergs</persName> ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>nommen: „es sei so schwer die Fehler im Blech <lb/>und in den
+                    Holzbläsern <hi rendition="#u">zu finden</hi> (!!)“ Selbstverständ<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich nur, wenn man die Partitur nicht kennt!</p>
+                <p>Ich sehe ein, das <persName key="pers.3301">Schreker</persName> keine Zeit hat,
+                    die <lb/>Sache zu studieren. Ich kann das sogar begreifen und
+                    <lb/>entschuldigen. Nicht begreifen und nicht entschuldigen <lb/>aber kann ich
+                    es, dass er trotzdem darauf besteht, <lb/>das <bibl sameAs="werke.16">Werk</bibl> selbst zu dirigieren. Es wäre nicht nur menschlich <lb/>nobler
+                    von ihm, wenn er mich dazu einlüde; es wäre <lb/>auch künstlerisch
+                    anständiger!!</p>
+                <p>VI. Nun aber gar: Wozu soll ich nach <placeName key="place.9.11">Wien</placeName>
+                    kommen? <lb/>Das ist mir vollständig rätselhaft. Sie scheinen alle den <lb/>Kopf
+                    verloren zu haben und da soll ich nun herhalten. <lb/>Gerne; aber doch nur
+                    soweit es nötig ist. Und vor allem <lb/>u einer Arbeit zu der man den Autor
+                    braucht, (zum <pb n="3" xml:id="p.3"/> Dirigieren) aber doch nicht zur
+                    Kopistenarbeit! Wegen einer <lb/>solchen macht man doch nicht eine derartige
+                    Reise!!</p>
+                <p>Sie telegrafieren „Entwirrung“ der Partitur. Ja <lb/>was heißt das. Die Partitur
+                    ist doch nicht verwirrt, durch<g ref="#typoHyphen"/>
+                    <lb break="no"/>einander? Es sind Fehler drin; aber die müssen 2 Musiker
+                    <lb/>doch noch selbst zu korrigieren imstande sein! Oder wenn <lb/>nicht: es
+                    giebt doch eine Post? Man kann mich doch fragen? <lb/>Man <subst>
+                        <del rendition="#s">nehme</del>
+                        <add place="superlinear">entnimmt</add>
+                    </subst> die betreffenden Seiten der gedruckten <lb/>Partitur, macht ein rotes
+                    Kreuz (? X) dazu und sendet <lb/>mirs express. Ich antworte express! Oder man
+                        for<g ref="#typoHyphen"/>
+                    <lb break="no"/>dert mich auf die Partitur nachzulesen und alle <lb/>Fehler die
+                    ich finde, täglich nach <placeName key="place.9.11">Wien</placeName> zu senden.
+                    Oder <lb/>man schickt mir noch 3 Partituren, damit ich sie hier <lb/>in
+                        <placeName key="place.2.3">Berlin</placeName> von Freunden lesen lassen
+                    kann!! Und: <lb/>man lässt in <placeName key="place.9.11">Wien</placeName> ein
+                    paar gute Musiker mitlesen. <lb/>Man bezahlt ihnen ein Honorar dafür. Dann
+                    werden <lb/>sich manche finden! Alles das gienge also ebenso <lb/>schnell und
+                    sicherer und billiger. Und es müsste nicht <lb/>der Unschuldige <hi rendition="#uu">die Kosten und Mühen allein tragen</hi>. <lb/>Denn meine
+                    Partitur enthält sicher nicht mehr Fehler, <lb/>als jede andere. Und höchstens
+                    der Umfang des Werkes <lb/>(in jeder Dimension) macht dass es viel erscheint.
+                    Und <lb/>vor allem: das unkorrigierte Material!!</p>
+                <p>Man überschätzt sehr den Grad der Bedeutung die <lb/>diese <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="njmk_5zr_bgc" resp="#KBleier">
+                            <ref target="event.47"/>; Die Aufführung war <persName key="pers.3263">Schönbergs</persName> größter Erfolg bei Publikum
+                                und Presse</note>
+                    </seg> für mich hat. Möglicherweise ist <lb/>sie sehr vorteilhaft für
+                    mich. Aber deswegen lasse ich <pb n="4" xml:id="p.4"/> mich dennoch von niemand
+                    schuhriegeln. Und vor allem <lb/>lasse ich mir nicht drohen: „<hi rendition="#u">Aufführung sonst ab<g ref="#typoHyphen"/>
+                        <lb break="no"/>gesagt.</hi>“ Ich <add place="superlinear">hänge</add> dazu
+                    doch nicht genug am Erfolg. Insbesondere <lb/>aber: mir liegt nicht so viel an
+                    einer Aufführung, son<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern nur an einer guten. Und eine gute Aufführung <lb/>kann das
+                    ohnedies nicht werden. Bloß 10 Proben mit <lb/>dem schlechten <orgName key="org.172">Tonkünstler-Orchester!</orgName>! Ich werde <lb/>mit den
+                    ausgezeichneten <orgName key="org.30">Berliner Philharmonikern</orgName>
+                    <lb/>9–11 Proben machen!!</p>
+                <p>Zum Schluss also: ich bin gerne bereit, Ihnen <lb/>jeden Rat zu geben, der mir
+                    einfällt. Ich bin gerne <lb/>bereit gegen eine Spesenvergütung die Aufführung
+                    selbst <lb/>zu dirigieren. Ich komme gerne ca <seg type="comment">
+                        <orig>am <date when="1913-02-18">18. Februar</date> nach <lb/>
+                            <placeName key="place.9.11">Wien</placeName>
+                        </orig>
+                        <note xml:id="nfbn_zdj_kgc" resp="#KBleier">
+                            <persName key="pers.3263">Schönberg</persName> reiste am <date
+                                when="1913-02-13">13. Februar 1913</date> an, nachdem die <orgName
+                                key="org.1">UE</orgName> und der <orgName key="org.133"
+                                >Philharmonischer Chor</orgName> die Kostenübernahme zugesagt
+                            hatten. <persName key="pers.385">Alban Berg</persName> berichtete
+                                <persName key="pers.3263">Schönberg</persName>, dass eine Absage des
+                            Konzerts ebensowenig angedacht war wie ein Zurücktreten <persName
+                                key="pers.3301">Schrekers</persName> vom Dirigat. <persName
+                                key="pers.385">Berg</persName> war selbst in Probenarbeit und
+                            Fehlerkorrekturen eingebunden und hatte weniger Bedenken, dass die
+                            Fehler eine gute Aufführung verhindern könnten, sondern dass zusätzliche
+                            Proben und akribisches musikalisches Studium – idealerweise in <persName
+                                key="pers.3263">Schönbergs</persName> Anwesenheit – notwendig wären
+                                (<rs type="bibl" key="zotero-4528359-JTE8H4E2">ASGA B 16/3</rs>, S.
+                            46; Alban Berg an Arnold Schönberg, 10. Februar 1913[?]; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B101493">ASCC
+                                10149</ref>)</note>
+                    </seg> um bei den letzten Proben alles in meinem <lb/>Sinn zu gestalten. Aber
+                    wenn man meint, mich <lb/>durch eine Drohung ängstlich zu machen, dann
+                    <lb/>unterschätzt man mich. Darauf habe ich nur die <lb/>Antwort: Bitte, sagen
+                    Sie ruhig ab.</p>
+                <p>Es wäre ja sehr bedauerlich für Sie, wenn <lb/>Sie absagen müssten. – Ich werde
+                    mir schon <lb/>allein weiterhelfen.</p>
+                <p>Sie werden diesen Brief etwas gereizt finden: <lb/>Aber da kann ich mir nicht
+                    helfen. Ich habe es satt mir <lb/>aus <placeName key="place.9.11">Wien</placeName> fortwährend auf die Schultern klopfen <lb/>zu lassen. Ich
+                    weiß wirklich nicht wozu ich <placeName key="place.9.11">Wien</placeName> sonst
+                    <lb/>den Rücken gedreht hätte. Ueberall wo ich sonst hin<g ref="#typoHyphen"/>
+                    <lb break="no"/>komme um meine Werke aufzuführen, wird <pb n="5" xml:id="p.5"/>
+                    das so angesehen und behandelt wie es ist: man dankt <lb/>mir dafür, dass man
+                    mein Werk aufführen konnte. In <lb/>
+                    <placeName key="place.9.11">Wien</placeName> dreht <del rendition="#s">man</del>
+                    mir <add place="superlinear">jeder</add> aus <subst>
+                        <del rendition="#s">jeder</del>
+                        <add place="superlinear">seinen</add>
+                    </subst> geschäftlichen Angelegenheit<add place="intralinear">en</add>
+                    <lb/>einen Strick, mit dem man <add place="superlinear">behauptet</add> mich zu
+                    fördern. Aber ich gebe <lb/>meinen Hals nicht mehr für diesen Strick, meine
+                    <lb/>Schultern nicht mehr für diese Protektion her, sondern <lb/>bleibe in der <subst>
+                        <del rendition="#s">Lage</del>
+                        <add place="superlinear">Stellung</add>
+                    </subst>, die ich <placeName key="place.9.11">Wien</placeName> gegenüber
+                    eingenommen <lb/>habe, als ich es verließ.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Was die gemeldete Absage <persName key="pers.1914">Klitschs</persName> anbelangt,
+                    <lb/>so kommt Frau <persName key="pers.4302">Zehme</persName> erst im Notfall in
+                    <lb/>Betracht. Ich wünsche <seg type="comment">
+                        <orig>einen Mann</orig>
+                        <note xml:id="no3b_41s_bgc" resp="#KBleier">
+                            <persName key="pers.1310">Ferdinand Gregori</persName> übernahm den Part des
+                        Sprechers</note>
+                    </seg> für die <lb/>Uraufführung!</p>
+                <p>Nichts für ungut.</p>
+                <closer rendition="#inline">
+                    <salute>Herzliche Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

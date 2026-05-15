@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.22"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 25. September 1913</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg
+               und die Wiener Schule an der Universität für Musik und darstellende Kunst
+               Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.22</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                     Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 22</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-4C2Q6WMH">ASGA B 27/2</rs>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-PJWG3V64">ASGA B 11/4</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1.1">Mariendorf, Berliner Straße 17a</placeName>
+                    <date when="1913-09-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.17496"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change><change when="2026-01-20+02:00" who="KBleier">Korrektur Kommentar</change><change when="2026-04-23+02:00" who="KBleier">Ergänzung Schreiberhand</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/22_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.22_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.1">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                        <lb/>Berlin-Südende<lb/>
+                        <placeName key="place.2.23.1.1">Berlinerstr. 17a</placeName>, <hi rendition="#sup">I.</hi>
+                        <lb/>Tel.:
+                  Tempelhof 174.</stamp>
+                    <dateline>
+                        <date when="1913-09-25">25/9.
+                  1913</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich schicke Ihnen einstweilen den I. Satz (<bibl sameAs="werke.37">Monn</bibl>), <lb/>der 2<hi rendition="#sup">
+                        <hi rendition="#uu">te</hi>
+                    </hi> ist bis auf eine Stelle fertig, der 3<hi rendition="#sup">
+                        <hi rendition="#uu">te</hi>
+                    </hi> über die Hälfte. Ich <lb/>habe wie ein Ross
+               gearbeitet und werde programmgemäß, <date when="1913-09-26">Freitag</date>
+                    <lb/>fertig. (Ich habe sogar schon nächste Woche Proben!).</p>
+                <p>Nun bitte ich Sie, mir umgehend den vereinbarten <lb/>Betrag von <hi
+                        rendition="#u" hand="#unknown">425 Mark</hi> zu senden und womöglich auch
+                    gleich <lb/>die <hi rendition="#u" hand="#unknown">260 Mark</hi> für das <bibl
+                        sameAs="werke.37">Monn Konzert</bibl> (nebenbei: es <lb/>werden mehr <hi
+                            rendition="#u" hand="#unknown">als 20 Platten werden! Ich schätze 30!</hi>)</p>
+                <p>Ich muss Sie bitten, mir das Geld sofort zu senden. <lb/>Denn als wir abgemacht hatten, nahm ich
+               an, dass ich <lb/>den Betrag gleich bekäme und machte einige dringend <lb/>nötige
+               Anschaffungen. Da ich aber (was ich vergaß) am <lb/>
+                    <date when="1913-10-01">1.
+                  Oktober</date> Zins bezalen muss, brauche ich jetzt das <lb/>Geld dringend und
+               bitte Sie deshalb, mich nicht in Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>legenheit
+                    zu bringen (die kostspielig werden kann) und <lb/>mir <hi rendition="#u" hand="#unknown">das Geld auf
+                  dem kürzesten Weg</hi> so zu schicken, dass <lb/>ich es spätestens am <date when="1913-09-29">29/9</date> habe, denn am <date when="1913-09-30">30.</date>
+                    muss es <lb/>zur Post. Also <hi rendition="#u" hand="#unknown">eventuell auf meine Kosten tele<g ref="#typoHyphen"/>
+                        <lb break="no"/>grafisch.</hi>
+                </p>
+                <p>Meinen <ref target="letter.6864">Brief</ref> haben Sie wohl inzwischen
+                    erhalten?</p>
+                <p>Ich bat um die <hi rendition="#u" hand="#unknown">
+                        <persName key="pers.602">Bruckner</persName>
+                    </hi> Partituren!</p>
+                <p>Und um <hi rendition="#u" hand="#unknown">Reklamemarken</hi>!</p>
+                <p>Etwas sehr dringendes: Kammersänger <persName key="pers.3557">Fritz
+                        Soot</persName> aus <lb/>
+                    <placeName key="place.2.10">Dresden</placeName>
+                    <seg type="comment">
+                        <orig>schreibt mir gestern</orig>
+                        <note xml:id="nu5l_513_fgc" resp="#KBleier">Fritz Soot an Arnold Schönberg,
+                            22. September 1913 (<ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B168785">ASCC
+                                16878</ref>)</note></seg>, dass er (er macht übrigens eine <lb/>Reihe von <seg type="comment">
+                        <orig>Liederabenden</orig>
+                        <note xml:id="nw4x_bb3_fgc" resp="#TMuxeneder">Liederabende von <persName
+                                key="pers.3557">Fritz Soot</persName> mit Werken von <persName
+                                key="pers.3263">Arnold Schönberg</persName>: <date when="1913-11-27"
+                                >27. November 1913</date>, <placeName key="place.2.24"
+                                >München</placeName>; <date when="1913-12-13">13. Dezember
+                                1913</date>, <placeName key="place.2.3">Berlin</placeName>; <date
+                                when="1914-01-07">7. Januar 1914</date>, <placeName key="place.2.20"
+                                >Leipzig</placeName>; <date when="1914-04-17">17. April 1914</date>,
+                                <placeName key="place.2.10">Dresden</placeName> (Fritz Soot an
+                            Arnold Schönberg, 24. Oktober 1913; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B168738">ASCC
+                                16873</ref>; <rs type="bibl" key="zotero-4528359-DHSS3WIM">Deutscher
+                                Reichsanzeiger 1913</rs>; <rs type="bibl"
+                                key="zotero-4528359-J6W48MUJ">Hermann 1914</rs>; <rs type="bibl"
+                                key="zotero-4528359-AC6LGJIP">Dresdner Nachrichten
+                            1914</rs>)</note>
+                    </seg> mit 12 meiner Lieder)
+                    <!-- Einer war in Leipzig am 7. Jänner 1914 https://digital.slub-dresden.de/werkansicht/dlf/403680/6-->
+                    am <lb/>
+                    <hi rendition="#u">23. Oktober</hi> in <hi rendition="#u">
+                        <choice>
+                            <sic>Altenberg</sic>
+                            <corr cert="high">
+                                <placeName key="place.2.50">Altenburg</placeName>
+                            </corr>
+                        </choice>
+                    </hi> im <seg type="comment">
+                        <orig>Sinfoniekonzert</orig>
+                        <note xml:id="nttx_xj3_fgc" resp="#TMuxeneder">
+                            <ref target="event.200"/>
+                        </note>
+                    </seg> meine <lb/>2 <bibl sameAs="werke.11">Orchesterlieder</bibl> „<hi
+                        rendition="#u">Natur</hi>“ und „Wenn Vöglein <pb n="2" xml:id="p.2"/>klagen“
+                    singt, und ersucht mich, dafür zu sorgen, dass <lb/>das Material spätestens am
+                        <date when="1913-10-10">10. Oktober</date> dort ist! <lb/>Bitte machen Sie
+                    das möglich. Es wäre mir sehr <lb/>daran gelegen, denn <persName key="pers.3557"
+                        >Soot</persName> soll großartig sein <lb/>und ist der erste Sänger, der sich
+                    energisch meiner <lb/>Lieder annimmt! Vielleicht ist das nötig für <lb/>meine
+                    Werke, dass jemand, der davon überzeugt <lb/>ist, sie bringt! Sie werden schon
+                    einen Ausweg <lb/>finden, wie das zu machen ist. Jedenfalls bitte ich <lb/>Sie
+                    dringend um Eile. <hi rendition="#u">Ich glaube, das ist eine <lb/>meiner
+                        wichtigsten Aufführungen heuer.</hi> Ich hoffe, <lb/>dass ein solcher Sänger
+                    endlich dem Publikum <lb/>meine Lieder erschließen wird, die ja noch <lb/>gar
+                    nicht gewürdigt werden.</p>
+                <p>
+                    <seg type="comment">
+                        <orig>
+                            <persName key="pers.2600">Nikisch</persName> führt also, wie ich höre,
+                            die <bibl sameAs="werke.2">Kammer<g ref="#typoHyphen"/>
+                                <lb break="no"/>symphonie</bibl> auf.</orig>
+                        <note xml:id="nc1w_qkp_m1c" resp="#KBleier">
+                            <ref target="event.49"/>
+                        </note>
+                    </seg>
+                    <hi rendition="#u">Ich bitte Sie dringend, sofort <lb/>für ihn ein Material
+                        auskorrigieren und <lb/>einrichten</hi> zu lassen. Am besten durch Herrn <lb/>
+                    <hi rendition="#u">
+                        <persName key="pers.3148">Scherchen</persName>
+                    </hi>, der ja die Sache kennt! Ich <lb/>setze mich mit <persName key="pers.2600"
+                        >Nikisch</persName> ins Einvernehmen. Viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht kann der die Sache, <seg type="comment">
+                        <orig>wenn man ihm <lb/>nachhilft, anständig bringen</orig>
+                        <note xml:id="nofn_vzp_m1c" resp="#KBleier">In einem Dankschreiben lobt
+                                <persName key="pers.3263">Arnold Schönberg</persName> nach der
+                            Aufführung die klare Ausarbeitung des „kontrapunktischen Gewebe[s],
+                            dessen Sinn sich nur dem Einsichtigen erschließt“. Gleichzeitig
+                            kritisiert <persName key="pers.3263">Schönberg</persName>
+                            <persName key="pers.2600">Arthur Nikisch</persName> dafür, dass er ihn nicht vorab von der
+                            Aufführung informiert habe, „[d]enn ich hätte Ihnen meine Stimmen und
+                            Partitur zur Verfügung gestellt, die nicht nur Fehlerkorrekturen
+                            enthält, sondern vor Allem eine Anzahl von Retouchen und Verbesserungen,
+                            welche wesentlich zur Verbesserung des Klanges und zur Erzielung von
+                            Klarheit beitragen.“ (Arnold Schönberg an Arthur Nikisch, 31. Jänner
+                            1914; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B003812"
+                                >ASCC 381</ref>)</note>
+                    </seg>. Ich hatte<seg type="comment">
+                        <orig> in <placeName key="place.9.11">Wien</placeName>
+                        </orig>
+                        <note xml:id="nezp_glp_m1c" resp="#KBleier">
+                            <ref target="event.46"/>
+                        </note>
+                    </seg>
+                    <lb/>zu wenig Proben.</p>
+                <closer>
+                    <salute>Viele herzl. Grüße Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#u">NB</hi>: Ich habe auch schon einige Notizen für Ihre <orgName key="org.306">Mu<g ref="#typoHyphen"/>
+                            <lb break="no"/>sikwoche</orgName>. Wenn diese sich als haltbar
+                        erweisen, <lb/>dann schicke ich Ihnen in der nächsten Woche gleich
+                        <lb/>einige <seg type="comment">
+                            <orig>Beiträge</orig>
+                            <note sameAs="letter.7033/#nvx5_nzb_wxb"/>
+                        </seg> „auf Vorrat“</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

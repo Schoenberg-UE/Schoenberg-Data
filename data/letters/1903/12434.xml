@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12434"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 25. Februar 1903</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12434</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12434</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg 2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4300">Wymetal, Wilhelm von</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1903-02-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.4.3">Berlin-Wilmersdorf, Augsburger Straße 48,
+                        Gartenhaus IV</placeName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Postkarte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12434_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12434_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.82">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Strasse 22</placeName>.</stamp>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3263">Arnold
+                            Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Berlin W.</addrLine>
+                        <addrLine>
+                            <placeName key="place.2.4.3">Augsburgerstrasse 48</placeName>
+                        </addrLine>
+                        <addrLine>Gartenhaus</addrLine>
+                    </address>
+                </opener>
+                <pb n="2" xml:id="p.2"/>
+                <salute>Werter Herr <persName key="pers.3263">Schönberg</persName>,</salute>
+                <p>es ist mir leider <date when="1903-02-26">morgen</date> unmöglich, nach
+                        <placeName key="place.2.3">Berlin</placeName> zu <lb/>kommen, weil <seg
+                        type="comment"><orig>
+                            <persName key="pers.1464">Harden</persName>
+                        </orig>
+                        <note xml:id="ncwy_1ly_ztb">
+                            <persName key="pers.1464">Maximilian Harden</persName> und <persName
+                                key="pers.2283">Max Marschalk</persName> waren Mitglieder der
+                            künstlerischen Führung der <date when="1902">1902</date> gegründeten
+                            Neuen Freien Volksbühne. Möglicherweise verband die journalistische
+                            Tätigkeit <persName key="pers.2283">Marschalk</persName>, <persName
+                                key="pers.1464">Harden</persName> und <persName key="pers.4300"
+                                >Wymetal</persName>, der <date when="1903">1903</date> versuchte
+                            „bei irgendeinem großen Blatt Fuß zu fassen und zu <hi rendition="#u"
+                                >verdienen</hi>“ (Wilhelm von Wymetal an Conrad Ansorge, 7.
+                            September 1903; <rs type="bibl" key="zotero-4528359-XPRZ4QQW"
+                                >Rathgeber-Heitler 2017</rs>, S. 472)</note>
+                    </seg> eine Verschiebung meines <lb/>Besuchs <del rendition="#s">
+                        <gap reason="illegible" quantity="3" unit="words"/>
+                    </del> erbat. Wenn <lb/>Sie <date when="1903-02-27">Freitag</date> mit mir gehen
+                    möchten, dann bitte sehr, <lb/>verständigen Sie mich mit einer Karte (<seg
+                        type="comment">
+                        <orig>Westend, <lb/>
+                            <placeName key="place.2.3.1.9">Nussbaum-Allee 27</placeName>
+                        </orig>
+                        <note xml:id="nm54_fly_ztb">Adresse von <persName key="pers.151">Conrad
+                                Ansorge</persName>
+                        </note>
+                    </seg>). Ich bin (<hi rendition="#u">
+                        <date when="1903-02-27">Freitag</date> um 10 Uhr</hi>) <lb/>dann im <orgName
+                        key="org.193">Café Bauer</orgName>. – Herr <persName key="pers.2283"
+                        >Marschalk</persName> lässt <lb/>Ihnen sagen, es wird ihn interessieren, Sie
+                    kennen zu <lb/>lernen und wenn Sie <hi rendition="#u">nächste Woche</hi> Lust
+                    hätten, möchten <lb/>Sie sich mal für einen Vormittag bei Ihm <lb/>anmelden. </p>
+                <closer rendition="#inline">
+                    <salute>Bestens grüsst</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <seg type="comment">
+                            <orig>
+                                <persName key="pers.4300">Willy v.
+                                    Wymetal</persName>
+                            </orig>
+                            <note xml:id="ncwn_hfl_lyb" resp="#KBleier">
+                                <p>Eine Tätigkeit <persName key="pers.4300">Wilhelm von
+                                        Wymetals</persName> für den <orgName key="org.180">Verlag
+                                        Dreililien</orgName> lässt sich nicht nachweisen. <persName
+                                        key="pers.4300">Wymetal</persName> war Förderer des
+                                    Pianisten und Komponisten <persName key="pers.151">Conrad
+                                        Ansorge</persName> und Gründer des <orgName key="org.20"
+                                        >Ansorge-Vereins</orgName>. Eine Verbindung zu <persName
+                                        key="pers.2283">Max Marschalk</persName> bestand sowohl in
+                                    der Publikation von Werken <persName key="pers.151"
+                                        >Ansorges</persName> im <orgName key="org.180">Verlag
+                                        Dreililien</orgName> als auch in der Aufführung von Werken
+                                        <persName key="pers.2283">Marschalks</persName> in Konzerten
+                                    des <orgName key="org.20">Vereins</orgName>
+                                </p>
+                            </note>
+                        </seg>
+                    </signed>
+                    <stamp sameAs="stamp.111">Halensee-Berlin, den <lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>.</stamp>
+                    <dateline rendition="#l">
+                        <date when="1903-02-25">25.II.1903</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

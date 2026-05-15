@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="document.21768"
+     telota:doctype="document">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vertragsentwurf, nach 5. September 1928</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/documents/document.21768</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 21768</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <persName key="pers.3263">Schönberg, Arnold</persName>
+                <date notBefore="1928-09-05" cert="high"/>
+            </creation>
+            <abstract>
+                <p>Datierung erschlossen aus der Erwähnung der <bibl sameAs="werke.139">Sechs Stücke
+                        für Männerchor op. 35</bibl>, vgl. Alfred Guttmann an Arnold Schönberg, 5.
+                    September 1928 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B112574">ASCC
+                        11257</ref>)</p>
+            </abstract>
+            <textClass>
+                <keywords>
+                    <term>Vertrag</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21768_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21768_cc"/>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/21768_dr.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.21768_dr"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="document">
+                <pb n="1" xml:id="p.1"/>
+                <p rendition="#c">I.</p>
+                <p>A) alte Werke <lb/>Die <orgName key="org.1">UE</orgName> bezahlt <persName key="pers.3263">AS</persName> einen Betrag von ..... für alle bisher
+                    erschienenen <lb/>Werke und hat dafür das Recht durch fünf Jahre <subst>
+                        <del rendition="#ow">allein die Erträgnisse</del>
+                        <add place="intralinear">die Erträgnisse allein</add>
+                    </subst>
+                    <add place="superlinear">dieser Werke</add>
+                    <lb/>zu beziehen, in diesem Zeitraum also die gesamten Vorschüsse zu tilgen.
+                    <lb/>Nach dieser Zeit gelten <subst>
+                        <del rendition="#ow">di</del>
+                        <add place="across">all</add>
+                    </subst>e bezahlten Summen als verfallen<add place="intralinear">,</add>
+                    <del rendition="#s">und</del> können nicht mehr abgezogen wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den <add place="right">und die <orgName key="org.1">UE</orgName>
+                    </add> ist verpflichtet, die vertraglichen Tant<choice>
+                        <sic>f</sic>
+                        <corr cert="high">i</corr>
+                    </choice>emen wieder zu <lb/>verrechnen und auszubezahlen, wobei <add place="superlinear">zur Tilgung</add> etwa geleistete<add place="intralinear">r</add> Vorschüsse <add place="superlinear">höchstens
+                        zwei Drittel</add>
+                    <del rendition="#s">aus</del> de<subst>
+                        <del rendition="#ow">n</del>
+                        <add place="across">r</add>
+                    </subst> Eingäng<subst>
+                        <del rendition="#ow">n</del>
+                        <add place="across">e</add>
+                    </subst>
+                    <lb/>
+                    <del rendition="#s">zu zwei</del>
+                    <del rendition="#s">dritteln getilgt werden sollen</del>
+                    <add place="intralinear">verwendet werden dürfen.</add>
+                </p>
+                <p>B) über zukünftige Werke, welche die <orgName key="org.1">UE</orgName> durch
+                    Bezahlung einer nach einem <lb/>Schlüssel festgesetzten Summe <add place="superlinear">eventuell in 2 oder 3 Raten</add> erwirbt, eine obigem
+                    entsprechende <lb/>Abmachung getroffen, dh die vorausbezahlte Summe muss (je
+                    nach der erst fest<lb break="no"/>zusetzenden Höhe in einer festzusetzenden Zahl
+                    von Jahren als <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
+                    <lb/>verfallen angesehen werden und es hat nachher ebenso die Anteilverrechnung
+                        <lb/>un<supplied cert="high">d</supplied> Auszahlung zu beginnen, wie
+                    oben.</p>
+                <p rendition="#c">II.</p>
+                <p>
+                    <persName key="pers.3263">AS</persName> verpflichtet sich innerhalb fünf Jahren
+                        <add place="superlinear">unter anderem</add> folgende Werke zu
+                    schreiben:</p>
+                <list>
+                    <item>
+                        <subst>
+                            <del rendition="#ow">A</del>
+                            <add place="across">1</add>
+                        </subst>. Jakobsleiter</item>
+                    <item>2. Eine dreiaktige Oper</item>
+                    <item>3. Moses und Aron oder ein anderes Oratorium</item>
+                </list>
+                <note hand="#author" place="mBottom">die Höhe der in IA <lb/>genannten Summe
+                    <lb/>wird sich errechnen lassen, wenn <lb/>meine Annahme zugrunde <lb/>gelegt
+                    ist, dass meine <lb/>Erträgnisse sonst auf<lb/>das 3–4fache
+                    <lb/>ansteigen<lb/>werden.</note>
+                <pb n="2" xml:id="p.2"/>
+                <p>
+                    <hi rendition="#u">Bedingung vorher Vorschuss</hi>
+                    <hi rendition="#u">1000 M</hi>
+                </p>
+                <p rendition="#c">
+                    <hi rendition="#u">Schlüssel</hi> für Kammermusik, Lieder<supplied cert="high">,</supplied> Klavierstücke <lb/>für ein Werk von</p>
+                <!--<seg type="row">
+                  <seg type="column">300 Takten (Aufführungsdauer etwa 15 Minuten)</seg>
+                  <seg type="column">1000 M.</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">600 Takten (Aufführungsdauer etwa 30 Minuten)</seg>
+                  <seg type="column">2000 M.</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">1000 Takten (Aufführungsdauer etwa 15 Minuten)</seg>
+                  <seg type="column">3000 M.</seg>
+               </seg>-->
+                <table>
+                    <row>
+                        <cell>cirka <subst>
+                                <del rendition="#ow">2</del>
+                                <add place="across">3</add>
+                            </subst>00 Takten (Aufführungsdauer etwa 1<subst>
+                                <del rendition="#ow">0</del>
+                                <add place="across">5</add>
+                            </subst> Minuten)</cell>
+                        <cell>1000 M.</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <subst>
+                                <del rendition="#ow">ci</del>
+                                <add place="across">
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>cirka</supplied>
+                                    </ellipsis>
+                                </add>
+                            </subst> 600 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Takten</supplied>
+                            </ellipsis>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>(Aufführungsdauer etwa</supplied>
+                            </ellipsis> 30 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Minuten)</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>2000 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>M.</supplied>
+                            </ellipsis>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>cirka</supplied>
+                            </ellipsis> 1000<gap reason="illegible" unit="chars" quantity="1"/>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Takten</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>3000.–</cell>
+                    </row>
+                </table>
+                <milestone unit="section" rendition="#hr"/>
+                <p rendition="#c">
+                    <hi rendition="#u">Orchester Werke</hi>
+                </p>
+                <!--<seg type="row">
+                  <seg type="column">" 500 Takte</seg>
+                  <seg type="column">3000.-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">" 1000 "</seg>
+                  <seg type="column">6000.-</seg>
+               </seg>-->
+                <table>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>cirka</supplied>
+                            </ellipsis>
+                            <subst>
+                                <del rendition="#ow">6</del>
+                                <add place="across">5</add>
+                            </subst>00 Takte</cell>
+                        <cell>
+                            <subst>
+                                <del rendition="#ow">5</del>
+                                <add place="across">3</add>
+                            </subst>000.–</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>cirka</supplied>
+                            </ellipsis> 1000 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Takte</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>
+                            <subst>
+                                <del rendition="#ow">8</del>
+                                <add place="across">6</add>
+                            </subst>000.–</cell>
+                    </row>
+                </table>
+                <p rendition="#c">u. s w</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p rendition="#c">
+                    <hi rendition="#u">Chor u Orchester</hi>
+                </p>
+                <!--<seg type="row">
+                  <seg type="column">ca 500 Takte</seg>
+                  <seg type="column">4000.-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">ca 1000 "</seg>
+                  <seg type="column">8000.-</seg>
+               </seg>
+               <seg rendition="#c">u. s w</seg>-->
+                <table>
+                    <row>
+                        <cell>ca 500 Takte</cell>
+                        <cell>4000.–</cell>
+                    </row>
+                    <row>
+                        <cell>ca 1000 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Takte</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>8000.–</cell>
+                    </row>
+                </table>
+                <p rendition="#c">u. s w</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p rendition="#c">
+                    <hi rendition="#u">Chorwerke a capella</hi>
+                    <lb/>(Bearbeitungen eingeschlossen)</p>
+                <!--<seg type="row">
+                  <seg type="column">ca 200 Takte</seg>
+                  <seg type="column">1000.-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">400 "</seg>
+                  <seg type="column">2000.-</seg>
+               </seg>
+               <seg rendition="#c">etc</seg>-->
+                <table>
+                    <row>
+                        <cell>ca 200 Takte</cell>
+                        <cell>1000.–</cell>
+                    </row>
+                    <row>
+                        <cell>400 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Takte</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>2000.–</cell>
+                    </row>
+                </table>
+                <p rendition="#c">etc</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p rendition="#c">
+                    <hi rendition="#u">Opern</hi>
+                </p>
+                <!--<seg type="row">
+                  <seg type="column">abendfüllend</seg>
+                  <seg type="column">20.000.-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">halbabendfüllende</seg>
+                  <seg type="column">10.000-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">drittelabendfüllend</seg>
+                  <seg type="column">8000.-</seg>
+               </seg>
+               <seg type="row">
+                  <seg type="column">kleinere dementsprechend</seg>
+                  <seg type="column"/>
+               </seg>-->
+                <table>
+                    <row>
+                        <cell>abendfüllend</cell>
+                        <cell>20.000.–</cell>
+                    </row>
+                    <row>
+                        <cell>halbabendfüllende</cell>
+                        <cell>10.000 –</cell>
+                    </row>
+                    <row>
+                        <cell>drittelabendfüllend</cell>
+                        <cell>8000.–</cell>
+                    </row>
+                    <row>
+                        <cell>kleinere dementsprechend</cell>
+                        <cell/>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

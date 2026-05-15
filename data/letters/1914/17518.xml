@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.17518"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 3. Februar 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17518</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17518</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B 24/1</rs>
+                            <biblScope unit="page" from="292" to="292"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1914-02-03" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.20">Leipzig</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.380"/>
+                </correspContext>
+                <note>Beilage: <ref target="document.23835">Béal Frères an Universal-Edition, 29.
+                        Jänner 1914</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-25+02:00" who="KBleier">Korrektur Transkription</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17518_tl.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.17518_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.97">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG <lb/>
+                        <placeName key="place.2.20.9">Sternwartenstr. 15–21</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.18">Reichsratsstrasse
+                            9</placeName>
+                        <lb/>Telegramm-Adresse: Musikedition, Wien<lb/>Telefon N<hi
+                            rendition="#sup #uu">o</hi> 22877·Bank-Konto: <orgName key="org.199"
+                            >k·k·privil·österr.<lb/>Länderbank, Wien</orgName>·Postsparkassen-Konto:
+                        57557.<lb/>Wien <seg hand="#author">
+                            <date when="1914-02-03">3. Februar 1914</date>.</seg>
+                    </stamp>
+                    <lb/>
+                    <persName key="pers.4358">W</persName>
+                    <address>
+                        <addrLine>Wohlgeboren</addrLine>
+                        <addrLine rendition="#c">Herrn <persName key="pers.3263">Arnold <hi
+                                    rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#uda">zzt. <hi rendition="#g">
+                                    <placeName key="place.2.20">Leipzig</placeName>
+                                </hi>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Sehr erfreut war ich, dass die <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nwyc_3dc_kfc" resp="#KBleier">
+                            <ref target="event.172"/>
+                        </note>
+                    </seg> der <bibl sameAs="werke.11">Orchesterlieder</bibl>
+                    <lb/>in <placeName key="place.13.1">Prag</placeName> so schön war. Das was Sie
+                    über <persName key="pers.4309">Zemlinsky</persName> schreiben, deckt <lb/>sich
+                    vollkommen mit meiner Ansicht über diesen ganz hervorragenden <lb/>Musiker und
+                    Dirigenten.</p>
+                <p>Bezüglich der Verhinderung der Quartettaufführung durch das <lb/>
+                    <orgName key="org.109">Löwensohn-Quartett</orgName>, kann ich Ihnen nichts
+                    Befriedigendes mitteilen. <lb/>Es gibt höchstens eine Flucht in die
+                    Oeffentlichkeit. Das Urheber<g ref="#typoHyphen"/>
+                    <lb break="no"/>recht selbst bietet keine Waffe.</p>
+                <p>Ich teilte Ihnen schon mit, dass ich ein Exemplar des Bürsten<g ref="#typoHyphen"/>
+                    <lb break="no"/>abzuges „<bibl sameAs="werke.54">Pierrot lunaire</bibl>“ über
+                    dringende Veranlassung einer <rs type="org" key="org.28">Firma</rs> in <lb/>
+                    <placeName key="place.4.3"
+                    >Lyon</placeName><!-- Das für den April anberaumte Konzert in Lyon (vgl. ASCC390) fand nicht statt. Konzertplanungen waren gescheitert. https://gallica.bnf.fr/ark:/12148/bpt6k7651962r/f5.item.r=Pierrot%20lunaire%20zehme.zoom -->,
+                    an diese zur Ansicht geschickt habe. Wie Sie aus der, Ihnen <lb/>mitfolgend im
+                    Original zugehenden <ref target="document.23835">Zuschrift</ref> ersehen, ist
+                    eine <seg type="comment">
+                        <orig>Auf<g ref="#typoHyphen"/>
+                            <lb break="no"/>führung</orig>
+                        <note xml:id="ny4p_szb_yfc" resp="#KBleier">Ein für <date when="1914-04"
+                                >April 1914</date> anberaumtes Konzert in <placeName key="place.4.3"
+                                >Lyon</placeName> kam nicht zustande (Arnold Schönberg an Charles
+                            Fenestrier, 12. Februar 1914; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B003905">ASCC
+                                390</ref>; <rs type="bibl" key="zotero-4528359-GE238D7T">Comoedia
+                                1927</rs>)</note>
+                    </seg> in <placeName key="place.4.3">Lyon</placeName> seitens einer <rs
+                        type="org" key="org.312">Musikzeitung</rs> projektiert, die Sie selbst
+                    <lb/>dirigieren sollen. Ich gebe gleichzeitig der <placeName key="place.4.3"
+                        >Lyoner</placeName> Firma Ihre Adresse <lb/>bekannt, schreibe aber auch,
+                    dass ich Ihnen von der Sache Kenntnis ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben habe und bitte Sie, entweder mir oder direkt nach
+                        <placeName key="place.4.3">Lyon</placeName> mitzuteilen, <lb/>welchen
+                    Honoraranspruch Sie stellen würden.</p>
+                <pb n="2" xml:id="p.2"/>
+                <p>Diese Frage ist allerdings für Sie nicht leicht zu beantworten, <lb/>denn wie
+                    eine derartige Aufführung<add place="intralinear">,</add> die von <placeName
+                        key="place.4.3">Lyoneser</placeName> Musikern und einer <lb/>dortigen
+                    Rezitatorin gemacht würde, ausfallen dürfte, ist ein Rätsel. <lb/>Das Beste
+                    wäre, wenn die <add place="superlinear">
+                        <placeName key="place.2.3">Berliner</placeName>
+                    </add> Besetzung die das Werk studiert und in mehreren <lb/>Städten aufgeführt
+                    hat, nach <placeName key="place.4.3">Lyon</placeName> könnte. Ich glaube zwar,
+                    dass Frau <lb/>
+                    <persName key="pers.4302">Zehmes</persName> Mitwirkung nicht möglich wäre, denn
+                    es ist offenbar eine <placeName key="place.4">franzö<g ref="#typoHyphen"/>
+                        <lb break="no"/>sische</placeName> Aufführung geplant.</p>
+                <p>Ich bitte, geben Sie mir sofort Nachricht in dieser Angelegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit und besprechen Sie vielleicht auch die Frage der
+                    Herstellung der <lb/>Orchesterstimmen mit Frau <persName key="pers.4302"
+                        >Zehme</persName>. Ich habe von derselben leihweise die <lb/>Stimmen
+                    erbeten, einerseits, um sie bei der Korrektur der Partitur zu
+                    <lb/>berücksichtigen, andererseits, um die Stimmen zumindest in Abschrift
+                    <lb/>einmal für eine Aufführung in Händen zu haben. Frau <persName
+                        key="pers.4302">Zehme</persName> meint nun, <lb/>dass sie vor <date
+                        when="1914-03-31">31. März</date> mir die <seg type="comment">
+                        <orig>Stimmen nicht geben kann</orig>
+                        <note xml:id="nggn_zcg_2fc" resp="#KBleier">Albertine Zehme an Emil Hertzka,
+                            30. Jänner 1914 (<rs type="bibl" key="zotero-4528359-NIUKBGGY">ASGA B
+                                24/1</rs>, S. 286)</note>
+                    </seg>. Ueberdies <lb/>weist sie auf das ihr zustehende alleinige
+                    Aufführungsrecht hin. <lb/>Sobald die Partitur veröffentlicht sein wird, ist es
+                    nicht ausgeschlos<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen, dass Bewerbungen um die Aufführung erfolgen werden und wir
+                    müssen <lb/>uns dann klar darüber sein, wie wir uns verhalten sollen. Ich sehe
+                    <lb/>vollständig ein, dass Frau <persName key="pers.4302">Zehme</persName> ein
+                    absolutes Recht hat, das Werk, für <lb/>das sie grosse Summen geopfert hat, noch
+                    eine Zeit für sich zu behalten, <lb/>aber Sie meinten, dass Frau <persName
+                        key="pers.4302">Zehme</persName> auf das <seg type="comment">
+                        <orig>Monopol</orig>
+                        <note sameAs="letter.371/#nidd_ngv_2fc"/>
+                    </seg> wohl nicht unbedingt <lb/>bestehen wird. Die Aufführung in <placeName
+                        key="place.4.3">Lyon</placeName> ist wohl die erste Veranlassung, <lb/>bei
+                    welcher diese Frage zur Aussprache kommen könnte.</p>
+                <closer>
+                    <salute>Indem ich mit Interesse Ihren Mitteilungen entgegensehe, verbleibe
+                        <lb/>ich mit herzlichen Grüssen <lb/>
+                        <seg rendition="#r">Ihr ganz ergebener </seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.1538">Hertzka</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

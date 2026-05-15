@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.20701"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 19. Februar 1936</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20701</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20701</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <persName key="pers.4190">Winter, Hugo</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1936-02-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.1.2">Los Angeles, 5860 Canyon Cove</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.2808"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20701_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20701_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <persName key="pers.4190">Dir. W</persName>/<persName key="pers.4348">P.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1939-02-19">19.
+                            Februar 1936</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine> Professor <persName key="pers.3263">Arnold <hi rendition="#g">Schoenberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.1.2">5860 Canyon Cove</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">Hollywood, California</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Meister <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir bestätigen unser <ref target="letter.23620">Telegramm</ref>: „<placeName key="place.11.6">Zürich</placeName>
+                    <seg type="comment">
+                        <orig>Uraufführung</orig>
+                        <note xml:id="nfjk_glg_ngc" resp="#KBleier">
+                            <ref target="event.177"/>
+                        </note>
+                    </seg>
+                    <bibl sameAs="werke.91">Lulu</bibl>
+                    <lb/>
+                    <date when="1939-11">November 1936</date> angesetzt Brief folgt“.</p>
+                <p>Es ist uns gelungen, mit <rs type="org" key="org.232">Zürich</rs> zu günstigen
+                    Bedingungen <lb/>abzuschliessen. Wir halten es für Frau <persName key="pers.386">Berg</persName> schon aus psychischen <lb/>Gründen für sehr wichtig, dass
+                    die Uraufführung so bald als möglich <lb/>zu Stande kommt; aus materiellen
+                    Gründen ist es erst recht von grosser <lb/>Bedeutung für sie. Wir glauben, dass
+                        <placeName key="place.11.6">Zürich</placeName> als Ort der Uraufführung
+                    <lb/>auch in künstlerischer Hinsicht eine gute Lösung ist, da die Bühne
+                    <lb/>derzeit ein ausgezeichnetes Ensemble besitzt. Wir haben hier mit Herrn
+                    <lb/>Direktor <persName key="pers.3207">Schmidt-Bloss</persName> ausführlich
+                    alle Einzelheiten der Besetzung <lb/>u.s.w. besprochen. Ausserdem wurde Herr
+                        <persName key="pers.3612">Stein</persName> von ihm eingeladen, in <lb/>den
+                    letzten 14 Tagen vor der Uraufführung den Proben beizuwohnen.</p>
+                <p>Die Proben sollen im <date when="1936-08">August</date> beginnen. Wir haben uns
+                        verpflich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tet, bis zu diesem Zeitpunkt das Material der ersten beiden Akte
+                        abzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>liefern. Mit der Herstellung des Materials zum 3. Akt müssen wir
+                    aber <lb/>spätestens Anfang <date when="1936-08">August</date> beginnen. Wir
+                    bitten Sie darum recht sehr, Ihre <lb/>Arbeit so einzuteilen, dass wir am <date when="1936-08-01">1. August</date> die Partitur in Händen haben.</p>
+                <p>Eine Photographie des 1. Aktes geht heute an Sie ab. Der 2. <lb/>Akt folgt in
+                    Kürze. Wir lassen die Sendung wieder durch unsere <rs type="org" key="org.23">New Yorker <lb/>Vertretung</rs> gehen, damit Sie nicht etwa beim Zollamt
+                    Schwierigkeiten mit <lb/>der Auslösung haben. Wir hoffen jedenfalls, dass Sie
+                    Particell und Par<g ref="#typoHyphen"/>
+                    <lb break="no"/>titur des 3. Aktes unterdessen erhalten haben.<pb n="2" xml:id="p.2"/>
+                </p>
+                <p>Mit der Herstellung des <bibl sameAs="werke.150">Klavierauszuges</bibl> beginnen
+                    wir <lb/>in den nächsten Tagen. Den Auszug des 3. Aktes wird Herr <persName key="pers.3612">Stein</persName>
+                    <lb/>einstweilen nach dem Particell anfertigen.</p>
+                <p>Wir bitten Sie freundlichst, uns dieses Schreiben <lb/>baldigst zu
+                    bestätigen.</p>
+                <closer>
+                    <salute rendition="#r">In Verehrung</salute>
+                    <lb/>
+                    <stamp sameAs="stamp.123" rendition="#r">
+                        <orgName key="org.1">UNIVERSAL-EDITION<lb/>ACTIENGESELLSCHAFT</orgName>
+                    </stamp>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.4190">Winter</persName>
+                    </signed>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.94"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Verlag Dreililien, zwischen 19. April und 3. Juli
+                    1904</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.94</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 94</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-EFIXR89G">Schoenberg
+                                2017</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.1.2">Wien, Liechtensteinstrasse 68/70</placeName>
+                    <date notBefore="1904-04-19" notAfter="1904-07-03" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.2283">Marschalk, Max</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.12383"/>
+                    <ref type="answered-by" target="letter.12384"/>
+                </correspContext>
+                <note>Es ist ein Umschlag erhalten; Datierung erschlossen aus <ref target="letter.12384">Verlag Dreililien an Arnold Schönberg, 3. Juli
+                        1904</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/94_env.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.94_env"/>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/94_tr.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.94_tr"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <head>
+                    <hi rendition="#u">Abschrift des Briefes an <persName key="pers.2283">Max
+                            Marschalk</persName>
+                    </hi>
+                </head>
+                <salute>Lieber Herr <persName key="pers.2283">Marschalk</persName>,</salute>
+                <p rendition="#inline">ich konnte mich bis heute <lb/>nicht entschließen, Ihnen zu
+                    antworten, denn Ihr <lb/>letzter <ref target="letter.12383">Brief</ref> hat mir
+                    die Freude an unserem Vertrags<g ref="#typoHyphen"/>
+                    <lb break="no"/>verhältnisse stark herabgemindert. Ich hatte mir dieses anders
+                    <lb/>vorgestellt. Da wir nun aber doch mit dieser Angelegenheit ins <lb/>Reine
+                    kommen müssen, stelle ich Ihnen heute die Bedingungen, <lb/>unter denen ich Ihr
+                    Angebot auf mein <bibl sameAs="werke.13">Sextett</bibl> annehme, folgen<g ref="#typoHyphen"/>
+                    <lb break="no"/>dermaßen auf:</p>
+                <list>
+                    <item>I. <hi rendition="#u">Sofortige</hi>, <hi rendition="#u">umgehende</hi>
+                        Antwort (bis spätesten <date when="1904-07-05">5. Juli 1904</date> in
+                        <lb/>meinen Händen.)</item>
+                    <item>II. Eine Abschreibung von 200 Mark von dem „700-Mark“ Vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>schuss zu Lasten des Sextettes</item>
+                    <item>III. Das Werk muss <del rendition="#s">bis</del> in Partitur und Stimmen
+                        bis spätestens <lb/>
+                        <date when="1904-10-31">31. October 1904</date> (neunzehnhundertvier)
+                        gestochen und dem <seg type="comment">
+                            <orig>Buch<g ref="#typoHyphen"/>
+                                <lb break="no"/>handel übergeben sein</orig>
+                            <note sameAs="letter.12384/#nozg_2cb_myb"/>
+                        </seg>
+                    </item>
+                    <item>IV. Eine genaue Erklärung Ihrerseits, dass Sie mit den an<g ref="#typoHyphen"/>
+                        <lb break="no"/>geführten Bedingungen II u. III einverstanden sind.</item>
+                    <item>V. Die anderen Bedingungen werden unserem <ref target="document.12433">Hauptvertrag</ref>
+                        <lb/>entsprechend gestellt.</item>
+                    <item>VI. Einen Verlags-Vertrag über dieses Werk, der alle diese
+                        <lb/>Bedingungen enthält.</item>
+                </list>
+                <p>Ich hoffe Sie sind damit einverstanden. Falls Sie nicht <lb/>einwilligen, würde
+                    ich lieber 3 Jahre nichts verlegen, als davon <lb/>ablassen, oder trachten den
+                        <ref target="document.12433">Vertrag</ref> mit Ihnen zu lösen.</p>
+                <p>Ferner ersuche ich Sie um Zustimmung zur Anfertigung der <lb/>
+                    <seg type="comment">
+                        <orig>Partitur-Abschrift</orig>
+                        <note sameAs="letter.12379/#neg4_pby_b5b"/>
+                    </seg> und der <seg type="comment">
+                        <orig>Stimmen</orig>
+                        <note xml:id="nzl1_h5l_c5b">Handschriftliches
+                            Stimmenmaterial der Uraufführung, teilweise autograph, verschollen (<ref target="http://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=573&amp;werke_id=223&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 10, Quelle E*</ref>)</note>
+                    </seg> von meiner <bibl sameAs="werke.5">symphonischen <lb/>Dichtung</bibl>
+                    unter denselben Bedingungen, die Sie seinerzeit zugestanden <lb/>haben. Es ist
+                    die Anfertigung des Materials jetzt umso dringender, <lb/>als die symphonische
+                    Dichtung <hi rendition="#u">ganz bestimmt</hi> in dem <seg type="comment">
+                        <orig>Konzerte der <orgName key="org.208">
+                                <lb/>Vereinigung schaffender Tonkünstler</orgName>
+                        </orig>
+                        <note xml:id="nmyh_35l_c5b">
+                            <ref target="event.5"/>
+                        </note>
+                    </seg> aufgeführt werden wird. Ich <lb/>erwarte Ihre <hi rendition="#u">umgehende</hi> Antwort darüber <hi rendition="#u">gleichzeitig</hi> mit
+                    Ihrem <ref target="letter.12384">Brief</ref>
+                    <lb/>über mein Sextett.</p>
+                <p>Ferner möchte ich Ihre Einwilligung zur <seg type="comment">
+                        <orig>Veröffentlichung eines <lb/>meiner Lieder in der Zeitschrift „<orgName
+                                key="org.207">Wiener Mode</orgName>“</orig>
+                        <note xml:id="nzp4_xxz_gzb" resp="#KBleier">In den 14-tägig erschienenen
+                            Ausgaben der Zeitschrift Wiener Mode wurde in den Jahren <date
+                                when="1904">1904</date> und <date when="1905">1905</date> kein
+                                <persName key="pers.3263">Schönberg</persName>-Lied veröffentlicht.
+                            Aus dem Umfeld <persName key="pers.3263">Schönbergs</persName> erschien
+                            in der Zeitschrift <persName key="pers.3925">Moriz Violin</persName>,
+                            Ländler (<rs type="bibl" key="zotero-4528359-RTYZAAJM">Violin 1904</rs>)
+                            sowie im <date when="1905-10">Oktober 1905</date>
+                            <persName key="pers.4309">Alexander Zemlinsky,</persName> Mädel kommst
+                            Du mit zum Tanz? (<rs type="bibl" key="zotero-4528359-SXHX82LR"
+                                >Zemlinsky 1905</rs>)</note>
+                    </seg>. Da mir beim Ab<supplied cert="high">druck</supplied>
+                    <pb n="2" xml:id="p.2"/>dieses Liedes alle meine Verlags- <del rendition="#s"
+                        >und</del> Aufführungs und sonstigen <lb/>Rechte gewahrt bleiben, kann
+                    Ihrerseits wohl kein Widerspruch <lb/>vorliegen, wie mir ein befreundeter
+                    Jurist gesagt hat. Außer<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem wäre der Abdruck insofern günstig, als er ein<supplied
+                        cert="high">e</supplied> gute Reklame <lb/>in einer vielgelesenen
+                    Zeitschrift ist. Zur Wahrung Ihrer und meiner <lb/>Rechte könnte man folgende
+                    Bemerkung dazusetzen:</p>
+                <list>
+                    <item>a) „Erscheint demnächst im <orgName key="org.180">Verlag
+                            Dreililien</orgName>.“ oder</item>
+                    <item>b) „Mit Bewilligung des <orgName key="org.180">Verlages
+                            Dreililien</orgName>“. oder</item>
+                    <item>c) „alle Verlags-, Aufführungs und sonstigen Rechte vorbehalten“.</item>
+                </list>
+                <p>Bitte entscheiden Sie sich für eine der drei Arten, oder schlagen <lb/>Sie eine
+                    andere vor. Jedenfalls ist Ihnen klar, dass diese <lb/>Veröffentlichung nicht in
+                    Ihre Rechte eingreift und dass <lb/>
+                    <supplied cert="high">ich</supplied> Ihre Zustimmung nur der Form halber
+                    einhole.</p>
+                <p>Ich sehe Ihrer baldigen freundlichen Antwort entgegen <lb/>und hoffe, dass Sie
+                    mir nun auch Entgegenkommen zeigen, <lb/>sodass unser früheres Verhältnis wieder
+                    hergestellt werden <lb/>kann.</p>
+                <closer rendition="#r">
+                    <signed>
+                        <persName key="pers.3263">A Sch</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

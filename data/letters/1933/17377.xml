@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17377"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Universal-Edition an Arnold Schönberg, 13. Juli 1933</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17377</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17377</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.1750">Kalmus, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1933-07-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.4.4.3.1">Paris, 192 rue de Rivoli</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.2377"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17377_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17377_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.84">
+                        <orgName key="org.1">UNIVERSAL-EDITION, A.-G.</orgName>
+                        <lb/>
+                        <orgName key="org.96">Jos·Aibl Verlag, G. m. b. H.</orgName>
+                        <lb/>LEIPZIG<lb/>
+                        <placeName key="place.2.20.8">Karlstrasse 10</placeName>
+                        <lb/>WIEN<lb/> I·<placeName key="place.9.11.6.12">Karlsplatz 6</placeName>·
+                        <lb/>Musikvereinsgebäude<lb/>Telegr. Adr.: Musikedition, Wien. A. B. C. Code
+                            5<hi rendition="#sup">th</hi> Ed. Mosse Code.<lb/>Telefon U-47-5-85
+                        Serie. Bank-Konto: <orgName key="org.199">Zentral-Europä-<lb/>ische
+                            Länderbank Wien</orgName>. Postsparkassen-Kto. 57557.</stamp>
+                    <lb/>
+                    <persName key="pers.1750">Dr. K.</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1933-07-13">13.
+                            Juli 1933</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine rendition="#c">Professor <persName key="pers.3263">Arnold 
+                            <hi rendition="#g">
+                                Schönberg</hi>
+                            </persName>,
+                        </addrLine>
+                        <addrLine rendition="#r">Hotel Regina,</addrLine>
+                        <addrLine rendition="#r">
+                            <placeName key="place.4.4.3.1">192 Rue de Rivoli</placeName>,</addrLine>
+                        <addrLine rendition="#r">
+                            <hi rendition="#u">
+                                <hi rendition="#g">Paris</hi>
+                            </hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Besten Dank für Ihre <ref target="letter.2377">Mitteilung</ref> vom <date when="1933-07-11">11. VII.</date> Ich habe die <lb/>ganze Zeit auf eine
+                    Nachricht von Ihnen bezüglich <placeName key="place.15">Amerika</placeName>
+                    gewartet <lb/>und auch Herr <persName key="pers.3612">Stein</persName> hat mit
+                    Ihnen diesbezüglich <seg type="comment">
+                        <orig>korrespondiert</orig>
+                        <note xml:id="nedc_vty_5wb">
+                            <ref target="letter.24453">Erwin Stein an Arnold
+                                Schönberg, zwischen 23. Mai und 28. Juni 1933
+                            [erschlossen]</ref>
+                        </note>
+                    </seg>. Die <lb/>Sache steht so, dass ich von
+                    Ihnen, wie besprochen, ganz kurze Daten <lb/>darüber bekommen muss, wie Sie sich
+                    Ihre Tätigkeit dort vorstellen. <lb/>Wie Sie mir sagten, denken Sie a) an
+                    Vorträge (bitte Themen anzuge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben), b) an
+                    musiktheoretische Kurse (bitte auch darüber genauere <lb/>Angaben) und eventuell
+                    c) an die Leitung von Aufführungen Ihrer <lb/>Werke (da kommen schon aus
+                    finanziellen Gründen nur die kleineren <lb/>Werke zunächst in Betracht).</p>
+                <p>Was die Honorierung betrifft, so ist nach meinen Informatio<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen eine Garantie dafür, dass Ihnen so viel geboten wird, als
+                    Sie <lb/>durch eventuelle Verzichtleistung auf Ihre <placeName key="place.2.3">Berliner</placeName> vertragsmässigen <lb/>Ansprüche verlieren würden,
+                    keinesfalls durchzusetzen und ich kann <lb/>andererseits nicht beurteilen,
+                    inwieweit eine eventuelle <placeName key="place.15">Amerika</placeName>-<lb break="no"/>Reise auf Ihr Verhältnis zu <placeName key="place.2.3">Berlin</placeName> Einfluss hat. Wieviel man in <lb/>
+                    <placeName key="place.15">Amerika</placeName> erreichen kann, weiss ich nicht,
+                    man müsste es auf ein An<g ref="#typoHyphen"/>
+                    <lb break="no"/>gebot der <placeName key="place.15">Amerikaner</placeName>
+                    ankommen lassen, wobei man ihnen sagen müsste, <lb/>dass ausser Reise- und
+                    Aufenthaltsspesen auch ein entsprechendes <lb/>Honorar, das für das erstemal
+                    nicht zu hoch gegriffen werden dürfte, <pb n="2" xml:id="p.2"/>verlangt werde.
+                    Ich habe Ihnen mitgeteilt, dass Herr Prof.
+                    Hill <lb/>von der <orgName key="org.83">Harvard University</orgName>, der allerdings mit nächster Saison nicht
+                    <lb/>mehr aktiv dort tätig ist, einen Betrag von $ 2500.– bis 3000.– <lb/>als
+                    Gesamtentschädigung für etwa 4 Monate als möglich bezeichnet <lb/>hat, doch habe
+                    ich bisher von ihm nichts mehr gehört und es ist <lb/>dies eine absolut
+                    unverbindliche Mitteilung gewesen. Wenn Sie mir <lb/>die erbetenen Unterlagen
+                    schicken, werde ich sofort an das <orgName key="org.198">American <lb/>Institute
+                        for International Education New York</orgName> herantreten. Die <lb/>Krise
+                    ist leider drüben besonders in musikalischen Dingen verhältnis<g ref="#typoHyphen"/>
+                    <lb break="no"/>mässig sehr gross und daher ist es heute selbst bei einem
+                        internatio<g ref="#typoHyphen"/>
+                    <lb break="no"/>nal so bekannten Künstler nicht leicht.</p>
+                <p>Wir werden selbstverständlich alle für Sie einlangenden  <lb/>Briefe an Ihre
+                    jeweilige Adresse nachsenden und das Porto ergänzen  <lb/>und Telegramme, wenn
+                    sie wichtig sind, nachtelegraphieren.</p>
+                <closer>
+                    <salute>Mit besten Empfehlungen <lb/>
+                        <seg rendition="#r">Ihr sehr ergebener</seg>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1750">Kalmus</persName>
+                    </signed>
+                    <lb/>
+                </closer>
+                <postscript>
+                    <p>P. S. Bezüglich der <ref target="document.24062">Abrechnung</ref>
+                        <lb/>bitten wir Sie, sich noch ganz <lb/>wenige Tage gedulden zu wollen.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

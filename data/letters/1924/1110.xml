@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.1110"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 19. November 1924</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1110</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1110</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1924-11-19" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-04+02:00" who="KBleier">Herausgeberinnenstreichung</change></revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1110_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1110_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold Schönberg</persName>
+                        </addrLine>
+                        <addrLine>Mödling <placeName key="place.9.4.1">Bernhardgasse
+                     6</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">ich kann nicht <lb/>begreifen, welche Ursache Herr <persName key="pers.4273">von <lb/>Wöss</persName> hat, mich zu provozieren, indem
+                    <lb/>er meine ausdrücklich angegebenen <lb/>
+                    <seg type="comment">
+                        <orig>Stichverbesserungen</orig>
+                        <note xml:id="nw4b_zyp_hgc" resp="#KBleier">
+                            <bibl sameAs="werke.59">Arnold Schönberg, Quintett für
+                                Flöte, Oboe, Klarinette, Horn und Fagott op. 26</bibl>
+                        </note>
+                    </seg>
+                    <add place="superlinear">verhindert</add>
+                    <choice>
+                        <sic>(</sic>
+                        <corr type="deleted"/>
+                    </choice>, die jeder vernünftige <lb/>Mensch in der ganzen Welt kopiert<del rendition="#s">)</del>
+                    <supplied cert="high">.</supplied> Ich <lb/>habe mich
+                    gegen Herrn <persName key="pers.4273">v. Wöß</persName> stets freundlich
+                    <lb/>und zuvorkommend gezeigt und ihm zu <lb/>solchem persönlichen Vorgehen
+                    keinen Grund <lb/>gegeben. Sachlich ist, was er tut, voll<g ref="#typoHyphen"/>
+                    <lb break="no"/>kommener Unsinn und bloße lächer<g ref="#typoHyphen"/>
+                    <lb break="no"/>liche, nicht. <lb/>Bin aber bereit, es ihm zu erklären!</p>
+                <p>Wenn ich heute gegen ein solches <lb/>Vorgehen protestieren muss und dringend
+                    <lb/>ersuchen muss, Herrn <persName key="pers.4273">v. Wöß</persName> keine
+                    meiner <lb/>Arbeiten mehr anzuvertrauen, so handelt <lb/>es sich mir nicht um
+                    Prestige (was auch <lb/>nicht unwesentlich ist,) sondern um <lb/>meine Ruhe und
+                    Zeit: ich mag <lb/>mich <add place="intralinear">1.)</add> nicht unnütz ärgern
+                    und muss <lb/>mich <add place="intralinear">2)</add>
+                    <add place="superlinear">darauf</add> verlassen können, dass diese <lb/>Dinge
+                    automatisch befolgt werden<supplied cert="high">.</supplied>
+                    <pb n="2" xml:id="p.2"/>In diesem Fall ist besonders erschwerend, <lb/>dass ich
+                    Stichanweisungen und Anmerkungen <lb/>beigefügt habe, welche berücksichtigt
+                    werden <lb/>müssten. Außerdem lag mein <seg type="comment">
+                        <orig>Manuskript</orig>
+                        <note xml:id="ni5y_hzp_hgc" resp="#KBleier">Partiturreinschrift, autograph (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1220&amp;werke_id=421&amp;herkunft=allewerke">ASGA B 22, Quelle B</ref>)</note>
+                    </seg>
+                    <lb/>vor, in das Herr <persName key="pers.4273">v. Wöß</persName> sich erlaubt
+                    hat, Än<g ref="#typoHyphen"/>
+                    <lb break="no"/>derungen einzutragen!</p>
+                <p>Ich lehne es ab, diese Korrektur <lb/>zu lesen, ehe sie nicht genauest <lb/>
+                    <hi rendition="#u">manuskripttreu</hi> und meinen  <lb/>Anweisungen entsprechend
+               gestochen <lb/>ist.</p>
+                <p>Es tut mir leid, Ihnen die Aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>gabe nicht
+               ersparen zu können.</p>
+                <p>Aber zu meiner Sicherheit und wegen <lb/>meiner etwas zu kostbaren Zeit, ist <lb/>es
+               doch nötig, dass ich die Launen <lb/>des Herrn <persName key="pers.4273">von
+                  Wöß</persName> abwehre.</p>
+                <closer>
+                    <salute>Mit herzlichen Grüßen Ihr</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <dateline rendition="#l">
+                        <placeName key="place.9.4">Mödling</placeName>
+                        <date when="1924-11-19">19.XI.1924</date>
+                    </dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.1798"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 26. Oktober 1929</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1798</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1798</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.3.1.8">Berlin, Nussbaum-Allee 17</placeName>
+                    <date when="1929-10-26" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11">Wien</placeName>
+                    <date when="1929-10-28" cert="high"/>
+                </correspAction>
+                <correspContext>
+                    <ref type="answered-by" target="letter.20175"/>
+                </correspContext>
+                <note>Ort erschlossen</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Karte</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1798_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.1798_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>26.X.1929</dateline>
+                    <address>
+                        <addrLine>An die <orgName key="org.1">Universal Edition</orgName>,
+                                <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <p>ich erlaube mir daran zu erinnern, <lb/>dass Sie mir bisher <seg type="comment">
+                        <orig>kein einziges Exemplar</orig>
+                        <note sameAs="letter.1713/#ng4q_q1c_rdc"/>
+                    </seg> mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ner <bibl sameAs="werke.32">Instrumentation</bibl> von <persName
+                        key="pers.252">Bachs</persName>
+                    <bibl sameAs="werke.182">Präludium und Fuge <lb/>in Es-Dur</bibl> zugeschickt
+                        <supplied cert="high">haben</supplied>. Da ich mich jetzt dringend <lb/>mit
+                    der Vorbereitung zu meinem <seg type="comment">
+                        <orig>
+                            <placeName key="place.3.1">Londoner</placeName> Konzert</orig>
+                        <note xml:id="nwr3_wdc_tdc" resp="#pkehrer">Geplant war eine
+                            Radioübertragung der <bibl sameAs="werke.7">Erwartung op. 17</bibl>
+                            durch die <orgName key="org.216">BBC</orgName> Anfang <date
+                                when="1929-12">Dezember</date> (Edward Clark an Arnold Schönberg, 9.
+                            September 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B224278">ASCC
+                                22427</ref>). <persName key="pers.3263">Schönberg</persName> schlug
+                            als weitere Programmpunkte die „neue Bachbearbeitung, <bibl
+                                sameAs="werke.32">Preludium und Fuge in es dur,</bibl> dann [...]
+                                <bibl sameAs="werke.11">Orchesterlieder Op. 8</bibl>. – eventuell
+                            auch die <bibl sameAs="werke.62">Kammersuite Op. 29</bibl>“ vor (Gertrud
+                            Schönberg an Edward Clark, 14. Oktober 1929; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B017644">ASCC
+                                1764</ref>). Aufgrund von Uneinigkeiten hinsichtlich der
+                            Probenanzahl wurde die Aufführung zunächst abgesagt (Arnold Schönberg an
+                            Edward Clark, 18. April 1930; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B018642">ASCC
+                                1864</ref>) und fand erst im darauffolgenden <date when="1930"
+                                >Jahr</date> statt:<ref target="event.129"/></note>
+                    </seg> <lb/>befassen muss, bitte ich mir raschestens die Noten <lb/>zu senden. Ich
+                    hörte von <seg type="comment">
+                        <orig>
+                            <persName key="pers.1167">Furtwängler</persName>
+                        </orig>
+                        <note xml:id="nrmy_p5b_tdc" resp="#pkehrer"> Eine Mitteilung <persName
+                                key="pers.1167">Furtwänglers</persName> bezüglich der Noten ist
+                            nicht erhalten; <persName key="pers.1167">Wilhelm Furtwängler</persName>
+                            dirigierte die Uraufführung in <placeName key="place.2.3"
+                                >Berlin</placeName>: <ref target="event.127"/>; <ref
+                                target="event.128"/>
+                        </note>
+                    </seg>, dass er sie <lb/>bereits hat. Ferner bitte um einige Exemplare (oder
+                    <lb/>noch lieber Sonderdrucke) des <seg type="comment">
+                        <orig>Klavier<choice>
+                                <sic>l</sic>
+                                <corr type="deleted"/>
+                            </choice>Albums</orig>
+                        <note xml:id="nnp3_4x1_4fc" resp="#KBleier">Musik der Zeit, Bd. 6, Wien
+                            1929, U. E. 9521 (Exemplar aus dem Schönberg-Nachlass; H3)</note>
+                    </seg>, worin <choice>
+                        <sic>m</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <note place="right" hand="#unknown">3</note>
+                    <lb/>mein <bibl sameAs="werke.66">Klavierstück</bibl> abgedruckt ist.</p>
+                <p>Auch von der <bibl sameAs="werke.64">Variationen</bibl>-<seg type="comment">
+                        <orig>Partitur</orig>
+                        <note xml:id="nb5r_t3b_tdc" resp="#pkehrer">Exemplar aus dem Schönberg-Nachlass (<ref target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=639&amp;werke_id=230&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke">ASGA B 13, Quelle Ea</ref>)</note>
+                    </seg> erbitt<supplied cert="high">e</supplied>
+                    <lb/>ich einige Exemplare.</p>
+                <closer>
+                    <salute>Mit vorzüglicher Hochachtung<note place="right" hand="#unknown">2</note>
+                    </salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

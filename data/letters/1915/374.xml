@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de" xmlns="http://www.tei-c.org/ns/1.0" xml:id="letter.374"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 10. Dezember 1915</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.374</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 374</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>
+                            <biblScope unit="page" from="278" to="278"/>
+                        </bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-B6FRPUGK">ASGA B 24/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11.5.1">Wien, Gloriettegasse 43</placeName>
+                    <date when="1915-12-10" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Datierung laut <rs type="bibl" key="zotero-4528359-A6HHYE6V">ASGA B 6/3</rs>,
+                    S. 278; <ref target="letter.7704">Arnold Schönberg an Universal-Edition, 10.
+                        Dezember 1915</ref>
+                </note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-26+02:00" who="KBleier">Ergänzung Metadaten</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/374_cc.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.374_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>P. T. <orgName key="org.1">Universal-Edition</orgName>,</salute>
+                <p>anbei übersende ich Ihnen die zum Druck <lb/>bestimmten Werke. Es sind dies:</p>
+                <list>
+                    <item>
+                        <hi rendition="#u">1.</hi> Orchester <seg type="comment">
+                            <orig>Partitur</orig>
+                            <note xml:id="nyhw_wwv_v2c" resp="#KBleier">Partiturreinschrift.
+                                Stichvorlage für den Erstdruck (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1434&amp;werke_id=474&amp;herkunft=allewerke"
+                                    >ASGA B 6/3, Quelle C</ref>)</note>
+                        </seg>
+                        <bibl sameAs="werke.50">„<hi rendition="#u">Glückliche Hand“ op</hi>
+                            <supplied cert="high">18</supplied>
+                        </bibl>
+                    </item>
+                    <item>
+                        <hi rendition="#u">2.</hi>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Orchester</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>Partitur</supplied>
+                        </ellipsis>
+                        <bibl sameAs="werke.55">3 <hi rendition="#u">Orchesterlieder</hi> op
+                            22</bibl>
+                    </item>
+                    <item>
+                        <list>
+                            <item>a) Seraphita <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>op 22</supplied>
+                                </ellipsis> N<hi rendition="#sup #uu">o</hi> 1</item>
+                            <item>b) Alle, welche... <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>op 22</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>N<hi rendition="#sup #uu">o</hi>
+                                    </supplied>
+                                </ellipsis> 2</item>
+                            <item>c) Mach mich.... <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>op 22</supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>N<hi rendition="#sup #uu">o</hi>
+                                    </supplied>
+                                </ellipsis> 3</item>
+                        </list>
+                    </item>
+                    <item>
+                        <hi rendition="#u">3.</hi>
+                        <bibl sameAs="werke.43">2 <hi rendition="#u">Balladen</hi> op 12</bibl>
+                    </item>
+                    <item> a) Jane Grey op. 12 N<hi rendition="#sup #u">o</hi> 1</item>
+                    <item> Der verlorne Haufen <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>op. 12</supplied>
+                        </ellipsis>
+                        <ellipsis>
+                            <metamark function="ellipsis">〃</metamark>
+                            <supplied>N<hi rendition="#sup #u">o</hi>
+                            </supplied>
+                        </ellipsis> 2</item>
+                    <item>
+                        <hi rendition="#u">4.</hi>
+                        <seg type="comment">
+                            <orig>
+                                <bibl sameAs="werke.53">
+                                    <hi rendition="#u">Herzgewächse</hi> op 20</bibl>
+                            </orig>
+                            <note xml:id="nsx3_fmt_gfc" resp="#KBleier">Vermutlich Exemplar von
+                                &#8222;Faksimile-Druck&#8220;. Von Schönberg eingerichtet als
+                                Stichvorlage für den Erstdruck (<ref
+                                    target="https://archive2.schoenberg.at/compositions/quellen_einzelansicht.php?id_quelle=1254&amp;werke_id=442&amp;id_gatt=&amp;id_untergatt=&amp;herkunft=allewerke"
+                                    >ASGA B 24/2, Quelle Ca1</ref>)</note>
+                        </seg> (Facs).</item>
+                    <item>
+                        <hi rendition="#u">5.</hi>
+                        <seg type="comment">
+                            <orig>Drei Lieder op 14</orig>
+                            <note sameAs="letter.294/#nkdz_5kx_kwb"/>
+                        </seg>
+                    </item>
+                    <item>
+                        <list>
+                            <item>a) aus „Waller im Schnee“ op 14 N<hi rendition="#sup #uu">o</hi>
+                                1</item>
+                            <item>b) „In diesen Wintertagen“ op 14 N<hi rendition="#sup #uu">o</hi>
+                                2</item>
+                            <item>c) . . . . .</item>
+                        </list>
+                    </item>
+                </list>
+                <p>Von diesen letztgenannten 3 Liedern befin<g ref="#typoHyphen"/>
+                    <lb break="no"/>den sich die Manuskripte bei Ihnen in Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>wahrung. Ich habe dann nur mein bleistiftge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schriebenes Original. Von 5c fehlt mir augen<g ref="#typoHyphen"/>
+                    <pb n="2" xml:id="p.2" break="no"/>blicklich eine Kopie. Zum Stich sind die
+                    <lb/>bei Ihnen befindlichen Noten zu benützen.</p>
+                <p>Bitte um Empfangsbescheinigung.</p>
+                <p>Bitte zu beachten, dass ich von den <lb/>meisten dieser Werke keine Abschriften
+                    <lb/>habe außer meinen Bleistiftoriginalen.</p>
+                <closer>
+                    <salute>Hochachtungsvoll</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

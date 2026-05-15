@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.1541"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, zwischen 1921 und 1922?</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer
+                        Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+                        >Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.1541</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und
+                    Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 1541</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit
+                    den Verlagen Universal-Edition und Dreililien</title>; <ref
+                    target="https://www.schoenberg-ue.at/ue/editionsrichtlinien"
+                    >https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <date notBefore="1921" notAfter="1922" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <note>Datierung erschlossen: betrifft vermutlich Vertrag mit <persName
+                        key="pers.3662">Eduard Steuermann</persName> vom 21. Juni 1921 über die
+                    Klavierauszüge zu <bibl sameAs="werke.8">Erwartung, op. 17</bibl> und <bibl
+                        sameAs="werke.51">Die glückliche Hand op. 18</bibl> oder Vertrag mit
+                        <persName key="pers.3662">Eduard Steuermann</persName> vom 11. April 1922
+                    über den Klavierauszug zur <bibl sameAs="werke.190">Kammersymphonie für 15
+                        Soloinstrumente op. 9</bibl> (<rs type="bibl" key="zotero-4528359-LQMNNW3Y"
+                        >Buchon 2015</rs>, Bd. 5, S. 660 und 666). Zu grundlegenden Vertragsfragen
+                    und angemessener Bezahlung von Bearbeitungen vgl. auch <ref target="letter.623"
+                        >Arnold Schönberg an Universal-Edition, 17. Dezember 1921</ref> und folgende
+                    Briefe. <!-- Chronologie der relevanten Ereignisse zur Datierung:
+These 1 Datierung orientiert sich am Steuermannvertrag von 1921, davor gibt es einen langen Brief zur Harmonielehre Überarbeitung und engl Übersetzung, von KAs und Steuermann ist da aber nicht die Rede
+These 2 orientiert sich am Steuermannvertrag vom 11.4.1922, zwischen Dez und April gibt es deutliche Anklänge an die im Brief genannten Themen und Vertragsdiskussionen
+8.1.1921 KA op. 17 geht bei UE ein
+
+11.1.1921 Steuermann kriecht im Staub wegen der späten vollendung der KAs op. 17 und op. 18 (17181)
+
+3.3.1921 Steuermann berichtet von honorarverhandlungen mit Hertzka (17178)
+
+21.6.1921 Vertrag UE-Steuermann über op. 17 und op. 18 (Buchon)
+
+24.6.1921 AS sendet Schluss der Harmonielehre an Hertzka (612)
+
+27.6.1921 Vertrag KA op. 17 und 18
+
+??1921 Ratz geht nach Weimar, das genaue Datum weiß auch Kretz nicht. Ab 1918 arbeitete er für die UE als Lektor, ob er in die Harmonielehre involviert war, weiss ich nicht.
+
+17.12.1921 AS bricht in Beantwortung Hertzka 16.11. eine Vertragsdiskussion vom Zaun ua "erschweren
+die Anfertigung solcher Ausgaben dadurch, dass Sie den Arrangeuren Hono-
+rare anbieten, für welche heute noch nicht die Kopistenarbeit bezahlt ist, obwol
+das Erträgnis solcher Arrangements nicht geringer ist, als das der Originale." -> mündliche Besprechung angefragt
+
+7.2.1922 immer noch Terminplanung
+
+Treffen mit Winter iv Hertzka
+
+3.3. 1922 schwebenden Angelegenheit, in welcher ich vor 2 1/2 Monaten (Mitte December) den ersten
+Schritt getan habe
+
+11.4.1922 Vertrag UE-Steuermann über op. 9 (Buchon) - könnte dieser gemeint sein?
+
+18.10.1922 KA op. 18 erscheint (Buchon)
+
+10.1.1923 KA op. 17 erscheint (Buchon)
+
+4.2.1922 Steuermann entschuldigt die Fehlerhaftigkeit des Auszugs op. 9 (17133)
+
+30.3.1923 dritte Auflage der Harmonielehre erscheint (Buchon)
+
+16.10.1923 KA op. 9 erscheint
+
+7.7.1924 Vertrag über die dritte Auflage der Harmonielehre wird abgeschlossen (Buchon)
+
+
+Unklar ist:
+was sind die Vertragsfragen? Regina Busch stellt einen Zusammenhang zu ID 623 her vom 17.12.1921 (sie sagt 14.12. das muss ein Fehler sein?), aber auch später 1922 gibt es genug Gelegenheiten.
+Wer hat ihn telephonisch von steuermanns vertrag verständigt?
+Welche erleichterungen bzgl. der harmonielehre hat hertzka AS verweigert, und was hat ratz damit zu tun?
+
+ --></note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Entwurf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt,
+                encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2026-03-30+02:00" who="KBleier">Änderung Werktitel</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/1541_cc.json"
+            mimeType="application/ld+json" type="IIIF-Manifest" xml:id="manifest.1541_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">wir sind über die letzten Vertrags-„Fragen“ <lb/>noch nicht
+                    im Reinen und schon erfahre, ich wie Sie sich zu mir <lb/>stellen werden, sobald
+                    ich unterschrieben haben werde.</p>
+                <p>1.) Heute vormittag hat man mir telefoniert, dass <lb/>Sie mit <persName
+                        key="pers.3662">Steuermann</persName> einen ganz unmöglichen Vertrag
+                    <lb/>gemacht haben. Diesen Vertrag wird <persName key="pers.3662"
+                        >Steuermann</persName>
+                    <hi rendition="#u">nicht halten!</hi>
+                    <lb/>da ich <choice>
+                        <sic>ich</sic>
+                        <corr type="deleted"/>
+                    </choice> es nicht erlaube. – So erfüllen Sie meine <lb/>Bedingung: dass die
+                    Bearbeiter zu <hi rendition="#u">bezalen</hi> sind!</p>
+                <p>2) Eben schicke ich Herrn <persName key="pers.2870">Ratz</persName> fort: Sie
+                    weigern sich <lb/>also, mir die Erleichterungen zu schaffen, die dadurch nötig
+                    <lb/>werden, dass bei Ihnen alles zu spät oder zu „sparsam“ <lb/>geschieht!!
+                    Aber ich habe ein Jahr Ihrethalben an der <bibl sameAs="schriften.1">Harmonie<g
+                            ref="#typoHyphen"/>
+                        <lb break="no"/>lehre</bibl> gearbeitet!</p>
+                <p>Das ist unmöglich.</p>
+                <p>Ich verliere jede Hoffnung, mit Ihnen im <lb/>Guten auszukommen</p>
+                <pb n="2" xml:id="p.2"/>
+                <figure>
+                    <figDesc>Bleistiftzeichnung von unbekannter Hand</figDesc>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

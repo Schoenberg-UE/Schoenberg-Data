@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.7074"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 20. Mai 1922</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.7074</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Universal Edition Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 7074</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.4.1">Mödling, Bernhardgasse 6</placeName>
+                    <date when="1922-05-20" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <!-- achtung falsches autographes Datum -->
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/7074_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.7074_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <note place="mTop" hand="#addressee">
+                    <persName key="pers.1538">Dir</persName>/K <lb/>
+                    <date when="1922-06-21">21/6.<hi rendition="#o">22</hi>
+                    </date>
+                </note>
+                <salute>P T. <orgName key="org.1">Universal Edition</orgName>,</salute>
+                <p rendition="#inline">
+                    <hi rendition="#u">Herrn <persName key="pers.3256">Ossip
+                        Schnirlin</persName>
+                    </hi> gebe ich hiemit <lb/>die <seg type="comment">
+                        <orig>Erlaubnis</orig>
+                        <note xml:id="nopx_szk_32c" resp="#KBleier">Arnold Schönberg an Ossip Schnirlin, 20. Mai 1922 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B064722">ASCC
+                                6472</ref>)</note>
+                    </seg> in seinem pädagogischen <bibl sameAs="werke.211">Werk</bibl> Stellen aus den Geigen<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <supplied cert="high">pa</supplied>rtien <add place="superlinear">u Violapartien</add> meiner <seg type="comment">
+                        <orig>Kompositionen</orig>
+                        <note xml:id="nqzm_q1v_ggc" resp="#KBleier">
+                            <bibl sameAs="werke.42">Arnold Schönberg,
+                                Streichquartett Nr. 1 op. 7</bibl>
+                        </note>
+                    </seg> als Citat zu
+                    pädagogischen Zwecken <lb/>abzudrucken und knüpfe daran die Bedingungen,
+                    dass:</p>
+                <p>I. de<subst>
+                        <del rendition="#ow">r</del>
+                        <add place="across">m</add>
+                    </subst> Abdruck nicht persönlich beleidigende Polemik angehängt werden <lb/>darf
+               und, dass</p>
+                <p>II. die zitierten Stellen <hi rendition="#u">fehlerfrei</hi> abgedruckt werden
+               müssen, zu <lb/>welchem Zweck ich einen Bürstenabzug der mich betreffenden Stellen
+               <lb/>erhalten muss.</p>
+                <closer rendition="#inline">
+                    <dateline>– <placeName key="place.9.4">Mödling</placeName>
+                        <date when="1922-05-20">20/V.1922</date>
+                    </dateline>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                    <lb/>
+                    <stamp sameAs="stamp.9">
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                        <lb/>Mödling bei Wien<lb/>
+                        <placeName key="place.9.4.1">Bernhardg 6</placeName>.-Tel. 118.</stamp>
+                </closer>
+                <note place="mBottom" hand="#unknown">
+                    <hi rendition="#u">
+                        <date when="1922-06">Juni
+                     1922</date>
+                    </hi>
+                </note>
+            </div>
+        </body>
+    </text>
+</TEI>

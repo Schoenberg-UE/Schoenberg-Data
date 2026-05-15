@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns:telota="http://www.telota.de"
+     xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="letter.405"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Arnold Schönberg an Universal-Edition, 4. Mai 1914</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold Schönberg und die Wiener Schule an der Universität für Musik und darstellende Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.405</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc xml:id="LC">
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 405</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>
+                            <biblScope unit="page" from="234" to="234"/>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.2.23.1.1">Mariendorf, Berliner Straße 17a</placeName>
+                    <date when="1914-05-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.1538">Hertzka, Emil</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17534"/>
+                    <ref type="answered-by" target="letter.17536"/>
+                </correspContext>
+                <note>Ort erschlossen aus Arnold Schönberg an Alexander Zemlinsky, 4. Mai 1914 (<ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B004078">ASCC
+                    407</ref>)</note>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/405_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.405_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <dateline>
+                        <date when="1914-05-04">4. Mai 1914</date>
+                    </dateline>
+                </opener>
+                <salute>Lieber Herr <rs type="person" key="pers.1538">Direktor</rs>,</salute>
+                <p rendition="#inline">herzlichsten Dank für Ihren <lb/>letzten <ref target="letter.17534">Brief</ref>. Ich freue mich sehr, dass unsere „schwe<g ref="#typoHyphen"/>
+                    <lb break="no"/>benden“ Fragen somit alle erledigt sind
+               und jedes <lb/>Hindernis für einen ruhigen Verkehr beseitigt ist.</p>
+                <p>Ihre Idee bezüglich der <bibl sameAs="werke.7">Monodram</bibl> Partitur
+                    <lb/>finde ich <hi rendition="#u">ausgezeichnet</hi>. Allerdings mit einer
+                    <lb/>kleinen Einschränkung und wenn folgende Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichtspunkte beim Stich berücksichtigt werden:</p>
+                <list>
+                    <item>1. Die <add place="superlinear">Noten der</add> Partitur dürfen wegen des
+                  unterlegten <lb/>Clavierauszugs nicht <hi rendition="#uu">kleiner werden</hi>,
+                  nicht an <lb/>
+                        <hi rendition="#uu">Deutlichkeit</hi> verlieren.</item>
+                    <item>2. Es darf die Klavierstimme nicht in <lb/>größeren Noten gedruckt werden, als
+                  die der Par<g ref="#typoHyphen"/>
+                        <lb break="no"/>titur, damit man nicht öfter <hi rendition="#uu">umblättern</hi>
+                        <lb/>muss, als sonst nötig wäre.</item>
+                </list>
+                <p>Und die Einschränkung ist die: die <lb/>Drucklegung des Klavierauszuges würde
+               <lb/>durch diese Einrichtung <hi rendition="#uu">nur hinausgeschoben</hi>
+                    <lb/>werden (etwa bis nach der Aufführung, <lb/>was den Vorteil hätte, dass man <add place="superlinear">nach dem <unclear reason="illegible" cert="high">Hören</unclear>
+                    </add> einen <lb/>noch einfacheren Auszug machen kann, als
+               vorher) <pb n="2" xml:id="p.2"/>denn selbstverständlich: <hi rendition="#u">Korrepitieren</hi> kann man <lb/>aus diesem Auszug nicht und <hi rendition="#u">fürs große Publikum</hi>
+                    <lb/>ist er auch nichts, weil er zu <hi rendition="#u">klein gestochen</hi>
+                    <lb/>ist und man zu oft <hi rendition="#u">umblättern</hi> muss!!</p>
+                <p>Ich werde sofort <persName key="pers.3662">Steuermann</persName> beauftragen,
+                    <lb/>den <seg type="comment">
+                        <orig>
+                            <bibl sameAs="werke.8">Auszug</bibl>
+                        </orig>
+                        <note xml:id="nztq_4js_pdc" resp="#KBleier">Wahrscheinlich ist hier bereits
+                                <persName key="pers.3662">Eduard Steuermanns</persName>
+                            <bibl sameAs="werke.8">Bearbeitung</bibl> gemeint, nicht ein bei
+                                <persName key="pers.3662">Steuermann</persName> befindliches
+                            Exemplar von <persName key="pers.3263">Schönbergs</persName>
+                            <bibl sameAs="werke.174">Klavierauszug</bibl> (<rs type="bibl" key="zotero-4528359-AYSG95KM">ASGA B 6/2</rs>, S.
+                            198)</note>
+                    </seg> druckreif zu machen. Er muss noch <lb/>auf meinen Wunsch (auch auf
+                    seinen) einiges <lb/>erleichtern. Dann bitte ich Sie auch, sich mit <lb/>ihm
+                    wegen des Honorars für den Auszug <lb/>in Verbindung zu setzen (seine Adresse
+                    ist: Berlin W. <lb/>
+                    <placeName key="place.2.4.6">Jenaerstr. 19</placeName>). Ich schlage 200 Mark
+                    als Honorar <lb/>vor. Ich glaube es ist nicht zu viel, da die Sache <lb/>sehr
+                    schwierig ist. Es würden cirka 60 Druckseiten <lb/>werden. Die Abschrift ist
+                    sehr eng (und unschön, aber <lb/>nach der Partitur revidiert, also verläßlich)
+                    und daher <lb/>für den Umfang nicht massgebend.</p>
+                <milestone unit="section" rendition="#hr"/>
+                <p>Ich danke Ihnen sehr für die Lösung der <lb/>
+                    <bibl sameAs="schriften.1">Harmonielehre</bibl>-Frage und bitte Sie nun um <lb/>einen Vertrag der diese Abmachung enthält.</p>
+                <closer>Ich hoffe, dass die Angelegenheiten, die Sie verstimmten wieder <lb/>vorbei sind
+               und <salute>bin mit vielen herzlichen Grüßen Ihr</salute>
+                    <signed>
+                        <persName key="pers.3263">Arnold Schönberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

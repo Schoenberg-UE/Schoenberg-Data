@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17762"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 28. November 1949</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17762</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17762</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1949-11-28" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.5006"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17762_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17762_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.47">
+                        <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        <lb/>WIEN I·<placeName key="place.9.11.6.12">KARLSPLATZ
+                        6</placeName>·MUSIKVEREINSGEBÄUDE·TELEFON U 47-5-85<lb/>TELEGRAMME:
+                        MUSIKEDITION WIEN</stamp>
+                    <lb/>
+                    <persName key="pers.3204">Schl</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1949-11-28">28.
+                            November 1949</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#u">
+                                <hi rendition="#g">Los Angeles</hi> 24, Calif./USA</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter, lieber Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Besten Dank für Ihren <ref target="letter.5006">Brief</ref> vom <date when="1949-11-15">15. November</date>. Ich verstehe <lb/>zwar nicht,
+                    inwiefern Sie bei der Überweisung Ihres Guthabens <lb/>Verluste haben. Denn
+                    zumindest bisher war das Wechselverhält<g ref="#typoHyphen"/>
+                    <lb break="no"/>nis für Sie eher günstig. Trotzdem sind wir natürlich sehr
+                    <lb/>gerne bereit, Ihre Wünsche zu erfüllen und werden zunächst <lb/>Ihrem <rs type="person" key="pers.3281">Sohn</rs> S 360.– zum Ankauf von Kohlen geben
+                    und Ihr Konto <lb/>damit belasten.</p>
+                <p>Dass Sie die Abrechnung über die Materialgebühren stattge<g ref="#typoHyphen"/>
+                    <lb break="no"/>habter Aufführungen so spät erhalten, liegt darin, dass
+                    die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>träge bei uns erst sehr spät
+                    eingehen. Ausserdem fehlt es bei  <lb/>einigen Ländern noch an
+                    Überweisungsmöglichkeiten, weshalb diese  <lb/>Beträge, obwohl sie in den
+                    betreffenden Ländern bezahlt sind,  <lb/>noch nicht zur Verrechnung kommen
+                    konnten. Es scheint aber, dass  <lb/>nach der jetzt erfolgten Regelung alles
+                    wieder normaler funktio<g ref="#typoHyphen"/>
+                    <lb break="no"/>nieren wird.</p>
+                <p>Ich habe mich sehr gefreut, dass Sie eine gute Kritik über <lb/>meine <rs type="person" key="pers.1518">Frau</rs> aus der <placeName key="place.11">Schweiz</placeName> erhalten haben. Leider haben aller<g ref="#typoHyphen"/>
+                    <lb break="no"/>hand Intrigen dazu geführt, dass ich meine Frau gebeten habe,
+                        <lb/>„<bibl sameAs="werke.54">Pierrot lunaire</bibl>“ nicht mehr zu machen,
+                    denn ich will nicht den <lb/>Anschein erwecken, als Leiter des Verlages meine
+                    Frau vorzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>schieben. Immerhin haben aber die Aufführungen, die meine Frau
+                    <lb/>gemacht hat, sehr viel dazu beigetragen, dass „<bibl sameAs="werke.54">Pierrot lunaire</bibl>“ <lb/>jetzt wieder an vielen Stellen neu einstudiert
+                    wurde. Mit dem <lb/>
+                    <placeName key="place.5">italienischen</placeName> Ensemble hat nun auch
+                        <persName key="pers.1105">Marya Freund</persName> den „<bibl sameAs="werke.54">Pierrot</bibl>“ <lb/>wieder <seg type="comment">
+                        <orig>in
+                                <placeName key="place.4.4">Paris</placeName>
+                        </orig>
+                        <note xml:id="nrpy_534_zfc" resp="#KBleier">
+                            <ref target="event.186"/></note>
+                    </seg> und in <seg type="comment">
+                        <orig>
+                            <placeName key="place.3.1">London</placeName>
+                        </orig>
+                        <note xml:id="nbny_w34_zfc" resp="#KBleier">
+                            <ref target="event.193"/>
+                        </note>
+                    </seg> aufgeführt. Wie Sie wahrscheinlich <lb/>wissen,
+                    hat auch <persName key="pers.2106">Leibowitz</persName> im Sommer eine private
+                        <seg type="comment">
+                        <orig>Aufführung</orig>
+                        <note xml:id="nvv4_txn_zfc" resp="#KBleier">
+                            <p>
+                                <ref target="event.191"/>
+                            </p>
+                            <persName key="pers.2106">René Leibowitz </persName>hatte <persName key="pers.3263">Schönberg</persName> gegenüber den Eindruck
+                            geäußert, dass <persName key="pers.3204">Schlee</persName>
+                            <persName key="pers.2106">Leibowitz'</persName> Aufführung in Konkurrenz
+                            zum Pierrot Lunaire Ensemble mit seiner Ehefrau <persName key="pers.1518">Annemarie Hegner</persName> betrachte und seine
+                            Aufführung behindere (René Leibowitz an Arnold Schönberg, 5. April
+                            1949; <ref target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B137424">ASCC 13742</ref>)</note>
+                    </seg> in <lb/>
+                    <placeName key="place.4.4">Paris</placeName> veranstaltet und auch in <placeName key="place.9.11">Wien</placeName> hat sich jetzt eine andere <lb/>Gruppe
+                    zusammengetan und „<bibl sameAs="werke.54">Pierrot</bibl>“ im Radio gemacht.</p>
+                <p>Meine Frau ist zwar sehr unglücklich, dass sie das Opfer bringen  <lb/>muss, denn
+                    sie hat sich sehr stark in das Werk eingelebt, aber  <lb/>sie sieht die von mir
+                    befürchtete „Inkompatibilität“ ein.</p>
+                <closer>
+                    <salute rendition="#c">Mit besten Grüssen</salute>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

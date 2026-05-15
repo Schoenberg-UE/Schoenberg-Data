@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:telota="http://www.telota.de" xml:id="letter.20732"
+    telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 16. März 1939</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.20732</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.9.11">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/10000022-8">Arnold Schönberg
+                            Center</institution>
+                        <repository>Archiv</repository>
+                        <collection>Gertrud Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 20732</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3067">Rothe, Barbara Maria Agnes</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.1210">Geutebrück, Ernst</persName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1939-03-16" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.3166"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+            <change when="2025-12-29+02:00" who="KBleier">Korrektur Kommentarverweis</change>
+            <change when="2026-02-16+02:00" who="KBleier">Korrektur Werk</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/20732_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.20732_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.17">
+                        <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                        <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                        <lb/>Musikvereinsgebäude / Tel. U 47-5-85<lb/> LEIPZIG·<placeName key="place.2.20.8">KARLSTRASSE 10</placeName>
+                        <lb/>TELEGRAMM-ADRESSE: MUSIKEDITION, WIEN·POSTSPARKASSEN·KONTO WIEN
+                        57557</stamp>
+                    <lb/>
+                    <persName key="pers.3067">R</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1939-03-16">16.
+                            März 1939</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>
+                            <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 North Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine>Brentwood Park</addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Los Angeles</hi>,
+                            Calif.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr geehrter Herr <persName key="pers.3263">Schönberg</persName>!</salute>
+                <p>Wir haben die mit Ihrem <ref target="letter.3166">Schreiben</ref> vom <date when="1939-02-28">28. v. M.</date>
+                    <lb/>angegebenen Daten einer genauen Revision unterzogen. Hiezu erlauben wir uns
+                    folgendes zu bemerken:</p>
+                <p>Verrechnet wurden:</p>
+               <p>
+                    <table rows="11" cols="3">
+                        <row>
+                            <cell>
+                                <bibl sameAs="werke.5">Pelleas</bibl>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.16">San
+                                            Francisco</placeName>
+                                    </orig>
+                                    <note xml:id="ndks_4jc_pcc" resp="#pkehrer">
+                                        <ref target="event.61"/>
+                                    </note>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>am <date when="1938-12-31">31.XII.1938</date>
+                                    </orig>
+                                    <note xml:id="nrfq_ybj_wxb" resp="#pkehrer"><ref
+                                            target="document.24091">Abrechnung, 24. Februar
+                                            1939</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <bibl sameAs="werke.5">
+                                    <ellipsis>
+                                        <metamark function="ellipsis">〃</metamark>
+                                        <supplied>Pelleas</supplied>
+                                    </ellipsis>
+                                </bibl>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.7">Los
+                                            Angeles</placeName>
+                                    </orig>
+                                    <note xml:id="numj_5jc_pcc" resp="#pkehrer">
+                                        <ref target="event.62"/>
+                                    </note>
+                                </seg>
+                            </cell> 
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1937-06-30">30.VI.1937</date>
+                                    </orig>
+                                    <note xml:id="nd3g_zbj_wxb" resp="#pkehrer"><ref
+                                            target="document.24051">Abrechnung, 16. Juli
+                                        1937</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <persName key="pers.252">Bach</persName>
+                                <bibl sameAs="werke.32">Präludium</bibl>
+                            </cell>
+                            <cell>
+                                <placeName key="place.15.7">Los Angeles</placeName>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1931-06-30">30.VI.1931</date>
+                                    </orig>
+                                    <note sameAs="letter.3166/#ngjh_33z_qvb"/></seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <persName key="pers.252">Bach</persName>
+                                    </supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.32">Präludium</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <placeName key="place.15.7">Los
+                                        Angeles</placeName>
+                                    </supplied>
+                                </ellipsis> (unter <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.8">New York</placeName>
+                                    </orig>
+                                    <note xml:id="nxx4_4bd_pcc" resp="#pkehrer"><ref target="event.59"/>; <ref target="event.60"/>
+                                    </note>
+                                </seg>
+                                <lb/>angeführt)</cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1935-06-30">30.VI.1935</date>
+                                    </orig>
+                                    <note xml:id="nqmh_1cj_wxb" resp="#pkehrer"><ref
+                                            target="document.24058">Abrechnung, 30. Juni
+                                        1935</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <persName key="pers.252">Bach</persName>
+                                    </supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.32">Präludium</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.17">San
+                                            Diego</placeName>
+                                    </orig>
+                                    <note xml:id="nuy4_2cd_pcc" resp="#pkehrer">
+                                        <ref target="event.54"/>
+                                    </note>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1938-12-31">31.XII.1938</date>
+                                    </orig>
+                                    <note xml:id="nlgr_1cj_wxb" resp="#pkehrer"><ref
+                                            target="document.24091">Abrechnung, 24. Februar
+                                            1939</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <persName key="pers.252">Bach</persName>
+                                    </supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.32">Präludium</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.5">Chicago</placeName>
+                                    </orig>
+                                    <note xml:id="nlsh_fcd_pcc" resp="#pkehrer"><ref target="event.52"/>; <ref target="event.53"/>
+                                    </note>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1934-06-30">30.VI.1934</date>
+                                    </orig>
+                                    <note xml:id="nxc1_bcj_wxb" resp="#pkehrer"><ref
+                                            target="document.24061">Abrechnung, 14. Juli
+                                        1934</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <persName key="pers.252">Bach</persName>
+                                    </supplied>
+                                </ellipsis>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.32">Präludium</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.1">Boston</placeName>
+                                    </orig>
+                                    <note xml:id="ne4d_mcd_pcc" resp="#pkehrer"><ref target="event.55"/>; <ref target="event.56"/>
+                                    </note>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1937-06-30">30.VI.1937</date>
+                                    </orig>
+                                    <note xml:id="nlkh_bcj_wxb" resp="#pkehrer"><ref
+                                            target="document.24051">Abrechnung, 16. Juli
+                                        1937</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <bibl sameAs="werke.14">Verklärte Nacht</bibl>
+                            </cell>
+                            <cell>
+                                <placeName key="place.15.7">Los Angeles</placeName>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1924-12-31">31.XII.1924</date>
+                                    </orig>
+                                    <note xml:id="ndsr_bcj_wxb" resp="#pkehrer">Abrechnung
+                                        verschollen, Konzert nicht identifiziert</note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.14">Verklärte
+                                        Nacht</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <seg type="comment">
+                                            <orig>
+                                                <placeName key="place.15.7">Los Angeles</placeName>
+                                            </orig>
+                                            <note xml:id="nmw1_fkd_pcc" resp="#pkehrer"><ref target="event.59"/><ref target="event.60"/>
+                                            </note>
+                                        </seg>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1935-06-30">30.VI.1935</date>
+                                    </orig>
+                                    <note xml:id="nfty_bcj_wxb" resp="#pkehrer"><ref
+                                            target="document.24058">Abrechnung, 30. Juni
+                                        1935</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.14">Verklärte
+                                        Nacht</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <seg type="comment">
+                                            <orig>
+                                                <placeName key="place.15.7">Los Angeles</placeName>
+                                            </orig>
+                                            <note xml:id="ny5k_3kd_pcc" resp="#pkehrer">
+                                                <ref target="event.69"/>
+                                            </note>
+                                        </seg>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1936-06-30">30.VI.1936</date>
+                                    </orig>
+                                    <note xml:id="nx1h_ccj_wxb" resp="#pkehrer"><ref
+                                            target="document.24089">Abrechnung, 30. Juni
+                                        1936</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                        <row>
+                            <cell>
+                                <ellipsis>
+                                    <metamark function="ellipsis">〃</metamark>
+                                    <supplied>
+                                        <bibl sameAs="werke.14">Verklärte
+                                        Nacht</bibl>
+                                    </supplied>
+                                </ellipsis>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <placeName key="place.15.5">Chicago</placeName>
+                                    </orig>
+                                    <note xml:id="nbzr_pkd_pcc" resp="#pkehrer"><ref target="event.52"/>; <ref target="event.53"/>
+                                    </note>
+                                </seg>
+                            </cell>
+                            <cell>
+                                <seg type="comment">
+                                    <orig>
+                                        <ellipsis>
+                                            <metamark function="ellipsis">〃</metamark>
+                                            <supplied>am</supplied>
+                                        </ellipsis>
+                                        <date when="1934-06-30">30.VI.1934</date>
+                                    </orig>
+                                    <note xml:id="nm4p_ccj_wxb" resp="#pkehrer"><ref
+                                            target="document.24061">Abrechnung, 14. Juli
+                                        1934</ref></note>
+                                </seg>
+                            </cell>
+                        </row>
+                    </table>Die anderen Aufführungen sind uns nicht gemeldet <lb/>worden, immerhin  
+                    wäre es aber möglich, dass diese Aufführungen <lb/>seitens der <orgName key="org.23">AMP</orgName> unter <placeName key="place.15.8">New
+                        York</placeName> gemeldet wurden, worüber wir <lb/>genauere Daten benötigen,
+                    um der Sache auf den Grund gehen <lb/>zu können. Wir schreiben aber gleichzeitig
+                    an die <orgName key="org.23">AMP</orgName> und be<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten uns weitere Mitteilungen vor.</p> 
+                <p>Was die Tantiemisierung Ihrer Werke anbelangt, <lb/>so teilen wir Ihnen mit, dass
+                    die Tantieme vom vollen Material<g ref="#typoHyphen"/>
+                    <lb break="no"/>leih- oder -Kaufpreis gerechnet wird. Wir verweisen diesbezüg<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich auf unser an Sie gerichtetes <ref target="letter.20716_tl">Schreiben</ref> vom <date when="1936-11-07">7. XI. 1936</date>, <lb/>in
+                    welchem wir Ihnen ausdrücklich bestätigt haben, dass wir, <lb/>wiewohl dies in
+                    unserem <seg type="comment">
+                        <orig>Vertrag</orig>
+                        <note xml:id="nr5y_w2j_wxb" resp="#pkehrer"><ref
+                                target="document.19681">Abmachung, 7. Oktober 1922</ref></note>
+                    </seg> nicht vollkommen klar ausge<g ref="#typoHyphen"/>
+                    <lb break="no"/>drückt ist, die Berechnung rückwirkend ab <date when="1936-06-30">30. VI. 1936</date> vom <lb/>vollen Materialpreis
+                    vornehmen.</p>
+                <p>Wegen der Grammophonplatten <seg type="comment">
+                        <orig>„<bibl sameAs="werke.14">Verklärte Nacht</bibl>“</orig>
+                        <note sameAs="letter.7416/#ng52_51c_pcc"/>
+                    </seg>
+                    <lb/>und <seg type="comment">
+                        <orig>„<bibl sameAs="werke.16">Gurrelieder</bibl>“</orig>
+                        <note sameAs="letter.2253/#nipl_lvb_mgc"/>
+                    </seg> (die Sie ja in der <ref target="document.7359_cn">Abmachung</ref> vom Jahre <date when="1932">1932</date>
+                    <lb/>sanktionierten), setzen wir uns mit der <orgName key="org.23">AMP</orgName>
+                    in Verbindung. <pb n="2" xml:id="p.2"/>Sobald wir Nachricht erhalten, werden wir
+                    sie Ihnen weiter<g ref="#typoHyphen"/>
+                    <lb break="no"/>geben.</p>
+                <closer>
+                    <salute>Wir begrüssen Sie <lb/>
+                        <seg rendition="#r">mit vorzüglicher Hochachtung</seg>
+                    </salute>
+                    <lb/>
+                    <orgName key="org.1">
+                        <seg rendition="#r">UNIVERSAL-EDITION A. G.</seg>
+                    </orgName>
+                    <lb/>
+                    <signed rendition="#r">pp D<hi rendition="#sup">r</hi>
+                        <persName key="pers.1210">Ernst Geutebrück</persName>
+                    </signed>
+                    <signed rendition="#r">pp <persName key="pers.3067">Rothe</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

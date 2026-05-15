@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17705"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 3. Februar 1947</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17705</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17705</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1947-02-03" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.4434"/>
+                    <ref type="answered-by" target="letter.24148"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17705_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17705_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <orgName key="org.1">UNIVERSAL-EDITION</orgName>
+                        </addrLine>
+                        <addrLine>Wien I, <placeName key="place.9.11.6.12">Karlsplatz 6</placeName>
+                        </addrLine>
+                    </address>
+                    <persName key="pers.3204">schl</persName>/<persName key="pers.4342">Wi.</persName>
+                    <dateline>
+                        <placeName key="place.9.11">Wien</placeName>, <date when="1947-02-03">3.
+                            Februar 1947</date>.</dateline>
+                    <address>
+                        <addrLine>Herrn</addrLine>
+                        <addrLine>Prof. <persName key="pers.3263">Arnold <hi rendition="#g">Schönberg</hi>
+                            </persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. Rockingham Avenue</placeName>
+                        </addrLine>
+                        <addrLine>
+                            <hi rendition="#uda">
+                                <hi rendition="#g">Los Angeles</hi>, 24, Calif./U.S.A.</hi>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute>Sehr verehrter lieber <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                <p>Besten Dank für Ihren <ref target="letter.4434">Brief</ref> vom <date when="1947-01-21">21. v. M.</date>, der soeben an<g ref="#typoHyphen"/>
+                    <lb break="no"/>gekommen ist. Ich freue mich sehr, dass wir in absehbarer
+                    <lb/>Zeit mit den Manuskripten rechnen können.</p>
+                <p>Bezüglich unserer Anteile an der englischen Ausgabe
+                    <!-- vgl. letter.4434 -->werden <lb/>wir uns mit der <orgName key="org.134">Philosophical Library</orgName>, <placeName key="place.15.8">New
+                        York</placeName>, direkt <lb/>ins Einvernehmen setzen. Wir werden bei der
+                    hiesigen <orgName key="org.247">Natio<g ref="#typoHyphen"/>
+                        <lb break="no"/>nalbank</orgName> eine Eingabe machen, um diesen Betrag als
+                    Vorschuss <lb/>für die deutsche Ausgabe verwenden zu können. Dies ist jeden<g ref="#typoHyphen"/>
+                    <lb break="no"/>falls der einfachste Weg, eine Zahlung zu erreichen, wobei
+                    <lb/>ich allerdings nicht weiss, ob der dortige Verlag über das <lb/>uns
+                    gehörige Geld bereits frei verfügen kann. Immerhin wäre <lb/>es denkbar, dass
+                    der Verlag mit Rücksicht auf die besonderen <lb/>Umstände ebenfalls eine Eingabe
+                    macht und die allenfalls <lb/>notwendige Bewilligung für die Ueberweisung so
+                    erhält. Wir <lb/>können an den Verlag aber erst in dem Augenblick herantreten,
+                    <lb/>wenn wir von unserer <orgName key="org.247">Nationalbank</orgName> die
+                    Bewilligung in Händen <lb/>haben. Nach unseren bisherigen Erfahrungen müssen wir
+                    leider <lb/>damit rechnen, dass es einige Wochen dauert, bis wir den
+                    <lb/>endgültigen Bescheid in Händen haben. Ich sende Ihnen daher <lb/>auch jetzt
+                    noch nicht den Vertrag, da ich in diesen die <lb/>Regelung des Vorschusses
+                    aufnehmen <subst>
+                        <del rendition="#ow">so</del>
+                        <add place="across">wi</add>
+                    </subst>ll.</p>
+                <p>Nach verschiedenen Nachrichten, die wir aus den <placeName key="place.15">USA</placeName> haben, <lb/>ist es ausserordentlich schwierig,
+                    Bewilligungen zur Frei<g ref="#typoHyphen"/>
+                    <lb break="no"/>gabe von Geldern,
+                    die im Besitze des <orgName key="org.125">Alien Property Custodian</orgName>
+                    <lb/>sind, zu erhalten. – Nach allem, was ich von Herrn <persName key="pers.4190">Winter</persName> in<g ref="#typoHyphen"/>
+                    <lb break="no"/>zwischen gehört habe, hat er sich wirklich ernstlich bemüht. <lb/>Ich fürchte,
+                    dass Sie ihm unrecht tun, wenn Sie die Schuld <lb/>für das bisherige Misslingen
+                    allein auf ihn schieben. Wir <lb/>haben noch keine Abrechnungen über die
+                    Gesamtzeit erhalten <lb/>und ich kann Ihnen daher die auf Sie entfallende Summe
+                    noch <lb/>nicht bekanntgeben. Doch haben wir vor kurzem schon um die
+                    <lb/>endgültige Abrechnung gebeten. Die <orgName key="org.23">AMP</orgName> hat
+                    die Vertretung <lb/>der <orgName key="org.1">U.E.</orgName> für <placeName key="place.15">Amerika</placeName> übernommen. Als solche hat sie aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>schliesslich die Interessen der <orgName key="org.1">U.E.</orgName>
+                    <placeName key="place.9.11">Wien</placeName> zu vertreten und <lb/>nicht das
+                    Recht, selbständig zu handeln. Während des Krieges <lb/>musste aus verschiedenen
+                    Gründen dieser Grundsatz durchbro<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen
+                    werden. Die <orgName key="org.23">AMP</orgName> hat daher gewisse Massnahmen
+                    getroffen, <lb/>über die sie nachträglich mit uns Vereinbarung zu treffen
+                    <lb/>hat. Ich bin jedoch überzeugt, dass all dies lediglich aus <lb/>dem Grunde
+                    geschehen ist, um die Interessen der <orgName key="org.1">U.E.</orgName>, die
+                    <lb/>ja selbst nichts unternehmen konnte, zu wahren. All diese
+                    <lb/>Auseinandersetzungen werden wahrscheinlich endgültig erst <lb/>dann
+                    geregelt werden können, wenn der Staatsvertrag mit <lb/>
+                    <placeName key="place.9">Oesterreich</placeName> geschlossen ist. Jedenfalls habe ich Herrn <pb n="2" xml:id="p.2"/>
+                    <persName key="pers.4190">Winter</persName> ausdrücklich
+                    gebeten, und er hat dies auch in verschiedenen <lb/>Schreiben von sich aus uns
+                    bestätigt, dass in der augenblicklichen <lb/>sehr komplizierten Situation nicht
+                    allein die wörtliche Auslegung <lb/>von Verträgen bestimmend sein soll, sondern
+                    dass die Entscheidun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen so getroffen
+                    werden sollen, dass für alle Beteiligten die denk<g ref="#typoHyphen"/>
+                    <lb break="no"/>bar günstigste Lösung gefunden wird. Ich weiss wohl, dass
+                    dadurch <lb/>manche Komplikationen rein juristischer Art entstehen können, <lb/>glaube<choice>
+                        <sic>n</sic>
+                        <corr type="deleted"/>
+                    </choice> aber, dass ein solches Vorgehen, bei dem wir nicht auf <lb/>unsere
+                    formalen Rechte pochen können, insbesondere im Interesse <lb/>der jetzt in
+                        <placeName key="place.15">Amerika</placeName> lebenden Komponisten unseres
+                    Verlages liegt.</p>
+                <p>Inzwischen habe ich mich erkundigt, wieso die Bemühungen, Sie nach
+                        <lb/>
+                    <placeName key="place.9.11">Wien</placeName> einzuladen, bisher zu
+                    keinem Ergebnis geführt haben. Es wurde <lb/>mir mitgeteilt, dass auf Grund
+                    meiner damaligen Anregung der Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>schluss
+                    gefasst worden war, Sie zur Rückkehr nach <placeName key="place.9">Oesterreich</placeName>
+                    <lb/>einzuladen und ihnen im Zusammenwirken von Stadt und Staat ein
+                    <lb/>künstlerisches Wirkungsfeld anzubieten. Noch bevor es zu einer
+                    <lb/>endgültigen Formulierung dieses Angebots an Sie gekommen war, ist
+                    <lb/>jedoch eine Nachricht aus <placeName key="place.15">Amerika</placeName> von
+                    Seiten eines Ihrer Freunde <lb/>eingetroffen, die besagte, dass Sie, mit
+                    Rücksicht auf Ihren Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>sundheitszustand bei
+                    den derzeitigen Verhältnissen in <placeName key="place.9.11">Wien</placeName>
+                    unter <lb/>keinen Umständen nach <placeName key="place.9">Oesterreich</placeName> zurückkehren könnten. Darauf<g ref="#typoHyphen"/>
+                    <lb break="no"/>hin wurde mit grossem Bedauern das Projekt nicht weiter
+                    verfolgt.</p>
+                <p>Was nun <hi rendition="#u">„<bibl sameAs="werke.5">Pelleas und
+                        Melisande</bibl>“</hi> betrifft, so sind wir von Ihren <lb/>
+                    <ref target="letter.4413">Plänen</ref>, eine Umarbeitung des Werkes vorzunehmen, die die Auffüh<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung erleichtert, sehr eingenommen. Inzwischen haben wir auch
+                    von <lb/>Herrn <persName key="pers.4190">Winter</persName> und <persName key="pers.1339">Greissle</persName> Nachricht über die Möglichkeit einer
+                    <lb/>Ballettaufführung erhalten. Ich nehme an, dass die Herausgabe des
+                    <lb/>neuen Werkes in der Konzertfassung durch uns erfolgt. Ich bin <lb/>aber
+                    selbstverständlich damit einverstanden, dass ein Material <lb/>für die
+                    Ballettaufführungen in <placeName key="place.15">Amerika</placeName> dort
+                    hergestellt wird. <lb/>Laut unserem Vertrag mit der <orgName key="org.23">AMP</orgName> wäre diese dafür zuständig. Soll<g ref="#typoHyphen"/>
+                    <lb break="no"/>te sich aus irgendwelchen Gründen die Notwendigkeit ergeben,
+                    dieses <lb/>mit einem anderen Verlag zu tun, so bin ich überzeugt, dass ein
+                    <lb/>Uebereinkommen zwischen diesem und Herrn <persName key="pers.4190">Winter</persName> getroffen werden <lb/>wird.</p>
+                <closer>
+                    <salute rendition="#c">Mit ergebensten Grüssen</salute>
+                    <lb/>
+                    <signed rendition="#r">
+                        <persName key="pers.3204">Schlee</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P. S. ein vierhändiger <bibl sameAs="werke.6">Klavier<g ref="#typoHyphen"/>
+                            <lb break="no"/>auszug</bibl> und zwei Partituren zu <lb/>„<bibl sameAs="werke.5">Pelleas und Melisande</bibl>“ gehen <lb/>Ihnen
+                        gleichzeitig per Post zu.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

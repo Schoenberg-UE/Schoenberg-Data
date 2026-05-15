@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.12369"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Verlag Dreililien an Arnold Schönberg, 13. März 1911</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.12369</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 12369</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.4222">Wolf, R.</persName>
+                    <orgName key="org.180">Verlag Dreililien</orgName>
+                    <placeName key="place.2.4.1.1">Berlin-Wilmersdorf, Georg Wilhelm-Straße
+                        22</placeName>
+                    <date when="1911-03-13" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.9.11">Wien</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.24202"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/12369_hl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.12369_hl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <stamp sameAs="stamp.51">
+                        <orgName key="org.180">VERLAG<lb/>DREILILIEN</orgName>
+                        <lb/>Halensee-Berlin<lb/>
+                        <placeName key="place.2.4.1.1">Georg Wilhelm-Str. 22</placeName>
+                        <lb/>den <date when="1911-03-13">
+                            <seg hand="#author">13. März </seg> 19<subst>
+                                <del rendition="#ow">0</del>
+                                <add place="across">1</add>
+                            </subst>
+                            <seg hand="#author">1</seg>
+                        </date>
+                    </stamp>
+                    <address>
+                        <addrLine rendition="#c">Herrn Prof. <persName key="pers.3263">Arnold
+                                Schönberg</persName>, <placeName key="place.9.11">Wien</placeName>
+                        </addrLine>
+                    </address>
+                </opener>
+                <salute rendition="#c">Sehr geehrter Herr <rs type="person" key="pers.3263">Professor</rs>!</salute>
+                <p>Ihrem Wunsche gemäss teilen wir Ihnen mit, <lb/>dass folgender Absatz Ihrer bei
+                    uns erschienenen Werke <lb/>bisher erzielt worden ist:</p>
+                <table rows="15" cols="6">
+                    <row role="label">
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>260.90</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <bibl sameAs="werke.131">Op. 1</bibl> #1</cell>
+                        <cell>17 Ex.</cell>
+                        <cell>30.60</cell>
+                        <cell>
+                            <bibl sameAs="werke.13">Op. 4</bibl> Partitur</cell>
+                        <cell>57 Ex. </cell>
+                        <cell>114.–</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 1</supplied>
+                            </ellipsis> #2</cell>
+                        <cell>14 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>29<supplied cert="high">.</supplied>40</cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 4</supplied>
+                            </ellipsis> Stimmen</cell>
+                        <cell>9 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>90.–</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <bibl sameAs="werke.1">Op. 2</bibl> #1</cell>
+                        <cell>18 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>21<supplied cert="high">.</supplied>60</cell>
+                        <cell>
+                            <bibl sameAs="werke.132">Op. 6</bibl>
+                            <choice>
+                                <abbr>kpl.</abbr>
+                                <expan>komplett</expan>
+                            </choice>
+                        </cell>
+                        <cell>19 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>114.–</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 2</supplied>
+                            </ellipsis> #2</cell>
+                        <cell>17 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>22<supplied cert="high">.</supplied>40</cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 6</supplied>
+                            </ellipsis> #1</cell>
+                        <cell>3 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>3.60</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 2</supplied>
+                            </ellipsis> #3</cell>
+                        <cell>17 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>15.30</cell>
+                        <cell>#2</cell>
+                        <cell>2 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>2.40</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 2</supplied>
+                            </ellipsis> #4</cell>
+                        <cell>28 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>33.60</cell>
+                        <cell>#3</cell>
+                        <cell>4 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>4<supplied cert="high">.</supplied>80</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <bibl sameAs="werke.41">Op. 3</bibl> #1</cell>
+                        <cell>16 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>19.20</cell>
+                        <cell>#4</cell>
+                        <cell>2 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>3.–</cell>
+                    </row>
+                    <row>
+                        <cell>#2</cell>
+                        <cell>18 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>21.60</cell>
+                        <cell>#5</cell>
+                        <cell>1 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>1<supplied cert="high">.</supplied>20</cell>
+                    </row>
+                    <row>
+                        <cell>#3</cell>
+                        <cell>17 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>20<supplied cert="high">.</supplied>40</cell>
+                        <cell>#6</cell>
+                        <cell>1 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>1<supplied cert="high">.</supplied>20</cell>
+                    </row>
+                    <row>
+                        <cell>#4</cell>
+                        <cell>13 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>15<supplied cert="high">.</supplied>60</cell>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 6</supplied>
+                            </ellipsis> #7</cell>
+                        <cell>1 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>1<supplied cert="high">.</supplied>20</cell>
+                    </row>
+                    <row>
+                        <cell>#5</cell>
+                        <cell>16 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>19<supplied cert="high">.</supplied>20</cell>
+                        <cell>#8</cell>
+                        <cell>8 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>12.–</cell>
+                    </row>
+                    <row>
+                        <cell>#6</cell>
+                        <cell>10 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>12–</cell>
+                        <cell>
+                            <bibl sameAs="werke.42">Op. 7</bibl> Partitur</cell>
+                        <cell>52 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>104</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>
+                            <ellipsis>
+                                <metamark function="ellipsis">〃 〃</metamark>
+                                <supplied>Op. 7</supplied>
+                            </ellipsis> Stimmen</cell>
+                        <cell>12 <ellipsis>
+                                <metamark function="ellipsis">〃</metamark>
+                                <supplied>Ex.</supplied>
+                            </ellipsis>
+                        </cell>
+                        <cell>96</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>260.90</cell>
+                        <cell/>
+                        <cell/>
+                        <cell>808.30</cell>
+                    </row>
+                </table>
+                <p>Gleichzeitig erlauben wir uns Ihnen höfl. mitzuteilen, <lb/>dass wir Ihr <bibl sameAs="werke.42">Streich-Quartett op. 7</bibl> an das <orgName key="org.141">Rebner-Quartett</orgName>
+                    <lb/>gesandt haben.</p>
+                <closer rendition="#r">
+                    <salute>Mit vorzüglicher Hochachtung</salute>
+                    <lb/>per <stamp sameAs="stamp.50">
+                        <orgName key="org.180">VERLAG DREILILIEN</orgName>.</stamp>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.4222">W.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

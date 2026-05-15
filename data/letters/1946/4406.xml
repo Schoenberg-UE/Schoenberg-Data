@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.4406"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Arnold Schönberg an Universal-Edition, 2. Dezember 1946</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.4406</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 4406</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">
+                            <rs type="bibl" key="zotero-4528359-X6IY3HMV">ASGA B 8/2</rs>
+                        </bibl>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                    <date when="1946-12-02" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.17732"/>
+                    <ref type="answered-by" target="letter.17733"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                    <term>Kopie</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/4406_cc.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.4406_cc"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" xml:id="p.1"/>
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName key="pers.3263">ARNOLD SCHOENBERG</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName key="place.15.7.3.1">116 N. ROCKINGHAM
+                                AVENUE</placeName>
+                        </addrLine>
+                        <addrLine>LOS ANGELES, 24, CALIFORNIA</addrLine>
+                    </address>
+                    <dateline>December 2, 1946</dateline>
+                    <address>
+                        <addrLine>Herrn <persName key="pers.3204">Alfred Schlee</persName>,
+                            Direktor</addrLine>
+                        <addrLine>
+                            <orgName key="org.1">Universal Edition</orgName>
+                        </addrLine>
+                        <addrLine>I. <placeName key="place.9.11.6.12">Karlsplatz
+                            6</placeName>
+                        </addrLine>
+                        <addrLine>Wien.</addrLine>
+                    </address>
+                </opener>
+                <salute>Lieber Herr <persName key="pers.3204">Schlee</persName>,</salute>
+                <p>Ihre mitteilung über die <seg type="comment">
+                        <orig>Aufführungen</orig>
+                        <note xml:id="nxnm_c3s_yfc" resp="#KBleier">
+                            <ref target="event.78"/>. Zweite Aufführung nicht nachweisbar</note>
+                    </seg> des <bibl sameAs="werke.54">pierrot</bibl> und die ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>plante Tourné <!-- Italien wo? -->haben mich sehr gefreut. Leider kenne ich von den
+                    <lb/>Ausführenden nur Herrn <persName key="pers.165">Apostel</persName>, der
+                    sich ja glänzend entwickelt <lb/>zu haben scheint. Und meine <rs type="person" key="pers.3297">Frau</rs> glaubt, dass sie Ihre Frau unter <lb/>ihrem
+                    Mädchennamen, <persName key="pers.1518">Anne Marie Hegner</persName> im <rs type="org" key="org.246">Konservatorium</rs> gekannt <lb/>hat. Ich freue
+                    mich zu hören dass ihre Leistung und die aller an<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern sogar <persName key="pers.2817">Polnauer</persName> und
+                        <persName key="pers.2870">Ratz</persName>, die sehr strenge Kritiker sind
+                    und <lb/>meinen Stil kennen, gefallen haben. Das sagt mir wirklich etwas.
+                    <lb/>Es wird mich sehr freuen von den Aufführungen während der Tour<g ref="#typoHyphen"/>
+                    <lb break="no"/>né zu hören. Vielleicht schreibt mir jemand davon.</p>
+                <p> Sie haben vielleicht von meiner <seg type="comment">
+                        <orig>Krankheit</orig>
+                        <note xml:id="nim5_l3s_yfc" resp="#TMuxeneder">Am <date when="1946-08-02">2.
+                                August 1946</date> erlitt <persName key="pers.3263">Schönberg</persName> einen Herzstillstand und wurde durch eine
+                            Adrenalin-Injektion reanimiert. Die Nahtoderfahrung floss programmatisch
+                            in das <bibl sameAs="werke.76">String Trio op. 45</bibl>
+                        ein</note></seg> und nachfol<g ref="#typoHyphen"/>
+                    <lb break="no"/>gender langen und langsamen Erholung gehört. Meine <seg
+                        type="comment"><orig>Augen</orig><note xml:id="ngr2_ncv_ngc"
+                            resp="#TMuxeneder"><persName key="pers.3263">Schönberg</persName> litt
+                            seit <date when="1945">1945</date> unter einer von ihm als
+                            &#8222;nervous eye trouble&#8220; bezeichneten Einschränkung seiner
+                            Sehkraft (Arnold Schönberg an Robert D. W. Adams, 20. Februar 1946; <ref
+                                target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B042981">ASCC
+                                4298</ref>)</note></seg> hindern <lb/>mich sehr in der Arbeit,
+                    sodass ich noch nicht weiss, ob ich diesen <lb/>Brief werde heute vollenden
+                    können.</p>
+                <p>Wäre es nicht das, so hätte ich Ihnen schon längst den fol<g ref="#typoHyphen"/>
+                    <lb break="no"/>genden Vorschlag gemacht:</p>
+                <p>Ich möchte gerne unter dem Titel:</p>
+                <p><bibl sameAs="schriften.5">DICHTUNGEN, TEXTE, APHORISMEN und SPRÜCHE</bibl>
+                </p>
+                <p>einen Band veröffentlichen der nebst den von der <orgName key="org.1">UE</orgName> vor Jahren <lb/>veröffentlichten „<hi rendition="#g">
+                        <bibl sameAs="schriften.7">TEXTE</bibl>
+                    </hi>“ ein Drama
+                        „<bibl sameAs="schriften.14">Der BIBLISCHE WEG</bibl>“ und den
+                    <lb/>Text meiner Oper „<bibl sameAs="schriften.13">Moses und
+                    Aron</bibl>“ sowie einige A<supplied cert="high">p</supplied>horismen und
+                    <lb/>Sprüche enthalten soll. In Deutsch, natürlicherweise.</p>
+                <p>Der Band mag etwa 250–300 Seiten stark sein, im gebräuch<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Buchformat. Ich glaube, dass man unschwer auch hier eine
+                    <lb/>erkleckliche Anzahl der Exemplare verkaufen wird, sicher aber in
+                    <lb/>vielen europäischen Sta<supplied cert="high">a</supplied>ten, da die beiden
+                    Hauptstücke das Problem <lb/>des Judentums behandeln.</p>
+                <p>Ich weiss nicht ob man das in <placeName key="place.9">Oesterreich</placeName>
+                    jetzt schon <lb/>tun kann, und das zu erfahren ist der Hauptzweck dieser An<g ref="#typoHyphen"/>
+                    <lb break="no"/>frage. Wäre es möglich dann wird es
+                    leicht sein über alles andere <lb/>zu reden.</p>
+                <p>Grüssen Sie Frl. <persName key="pers.3067">Rothe</persName> und alle meine Freunde,
+                        <persName key="pers.2870">Ratz</persName>, <persName key="pers.2817">Polnauer</persName>, <choice>
+                        <sic>me</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <lb/>meinen <rs type="person" key="pers.3281">Sohn</rs> und seine Familie und die
+                    Mitwirkenden der <bibl sameAs="werke.54">Pierrot</bibl>
+                    <lb break="no"/>aufführung.</p>
+                <closer rendition="#r">
+                    <salute>Mit herzlichen Grüssen,
+                            Ihr</salute>
+                    <lb/>
+                    <signed>
+                        <persName key="pers.3263">Arnold
+                            Schoenberg</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

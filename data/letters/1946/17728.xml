@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../schema/ODD/out/ediarum.asue.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:telota="http://www.telota.de"
+     xml:id="letter.17728"
+     telota:doctype="letter">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> Universal-Edition an Arnold Schönberg, 14. April 1946</title>
+                <respStmt>
+                    <persName>
+                        <forename>Therese</forename>
+                        <surname>Muxeneder</surname>
+                    </persName>
+                    <resp>
+                        <term>Projektleitung</term>
+                        <term>Gesamtherausgabe</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Katharina</forename>
+                        <surname>Bleier</surname>
+                    </persName>
+                    <resp>
+                        <term>Gesamtherausgabe</term>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Philipp</forename>
+                        <surname>Kehrer</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Jannik</forename>
+                        <surname>Franz</surname>
+                    </persName>
+                    <resp>
+                        <term>Edition</term>
+                        <term>Wissenschaftliche Mitarbeit</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christopher</forename>
+                        <surname>Pollin</surname>
+                    </persName>
+                    <resp>
+                        <term>Beratung</term>
+                        <term>Datenmodellierung</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Christoph</forename>
+                        <surname>Edtmayr</surname>
+                    </persName>
+                    <resp>
+                        <term>Gestaltung Website</term>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName>
+                        <forename>Dietlind</forename>
+                        <surname> Pichler</surname>
+                    </persName>
+                    <resp>
+                        <term>Übertragung Stenographie</term>
+                    </resp>
+                </respStmt>
+                <funder>
+                    <orgName ref="http://d-nb.info/gnd/2054142-9">FWF Österreichischer Wissenschaftsfonds</orgName>
+                </funder>
+            </titleStmt>
+            <publicationStmt>
+                <publisher ref="http://d-nb.info/gnd/10000022-8">Arnold Schönberg Center</publisher>
+                <pubPlace key="place.9.11">Wien</pubPlace>
+                <publisher ref="http://d-nb.info/gnd/10060012-8">Wissenschaftszentrum Arnold
+                    Schönberg und die Wiener Schule an der Universität für Musik und darstellende
+                    Kunst Wien</publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://www.schoenberg-ue.at/ue/letters/letter.17728</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>
+                <editor>Therese Muxeneder</editor>
+                <editor>Katharina Bleier</editor>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <placeName key="place.15.12">
+                            <settlement>Washington, D.C.</settlement>
+                        </placeName>
+                        <institution ref="https://d-nb.info/gnd/122519-4">The Library of
+                            Congress</institution>
+                        <repository>Music Division</repository>
+                        <collection>Arnold Schoenberg Collection</collection>
+                        <altIdentifier>
+                            <placeName key="place.9.11">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                            <institution>Arnold Schönberg Center</institution>
+                            <idno type="signature">ASCC 17728</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p>Übertragung nach den Editionsrichtlinien <title>Arnold Schönberg: Briefwechsel mit den Verlagen Universal-Edition und Dreililien</title>; <ref target="https://www.schoenberg-ue.at/ue/editionsrichtlinien">https://www.schoenberg-ue.at/ue/editionsrichtlinien</ref>
+            </p>
+        </encodingDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="pers.416">Berner, Lizzy</persName>
+                    <orgName key="org.1">Universal-Edition</orgName>
+                    <persName key="pers.3204">Schlee, Alfred</persName>
+                    <placeName key="place.9.11.6.12">Wien, Karlsplatz 6</placeName>
+                    <date when="1946-04-15" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pers.3263">Schönberg, Arnold</persName>
+                    <placeName key="place.15.7.3.1">Los Angeles, 116 North Rockingham
+                        Avenue</placeName>
+                </correspAction>
+                <correspContext>
+                    <ref type="response-to" target="letter.4304"/>
+                </correspContext>
+            </correspDesc>
+            <textClass>
+                <keywords>
+                    <term>Brief</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2025-09-27+02:00" who="jfranz">TEI-Header aktualisiert: titleStmt ergänzt, encodingDesc und revisionDesc hinzugefügt</change>
+        </revisionDesc>
+    </teiHeader>
+    <facsimile>
+        <graphic url="https://archive.schoenberg.at/manifest/letters/17728_tl.json"
+                 mimeType="application/ld+json"
+                 type="IIIF-Manifest"
+                 xml:id="manifest.17728_tl"/>
+    </facsimile>
+    <text>
+        <body>
+            <div type="letter">
+                <div type="writingSession" n="1" hand="#pers.3204">
+                    <pb n="1" xml:id="p.1"/>
+                    <opener>
+                        <stamp sameAs="stamp.71">
+                            <orgName key="org.1">Universal-Edition·A. G.</orgName>
+                            <lb/>WIEN·I·<placeName key="place.9.11.6.12">KARLSPLATZ 6</placeName>
+                            <lb/>TELEGR.-ADR.: MUSIKEDITION WIEN</stamp>
+                        <lb/>
+                        <persName key="pers.3204">Schl</persName>/<persName key="pers.3067">R</persName>/<persName key="pers.416">Be</persName>
+                        <dateline>
+                            <placeName key="place.9.11">Wien</placeName>, <date when="1946-04-15">15. April 1946</date>.</dateline>
+                        <address>
+                            <addrLine>Mr.</addrLine>
+                            <addrLine>
+                                <persName key="pers.3263">Arnold Schönberg</persName>,</addrLine>
+                            <addrLine>
+                                <placeName key="place.15.7.3.1">116, N. Rockingham
+                                    Avenue</placeName>
+                            </addrLine>
+                            <addrLine>Los Angeles, 24,</addrLine>
+                            <addrLine>
+                                <hi rendition="#u">California.</hi>
+                            </addrLine>
+                        </address>
+                    </opener>
+                    <salute>Sehr verehrter <rs type="person" key="pers.3263">Meister</rs>!</salute>
+                    <p>Besten Dank für Ihren ausführlichen <ref target="letter.4304">Brief</ref> vom
+                            <date when="1946-03-04">4. März</date>.</p>
+                    <p>Eine traurige Mitteilung muss ich Ihnen machen. <persName key="pers.2631"
+                            >Olga Novakovic</persName>
+                        <lb/>ist inzwischen an einer Blutkrankheit, die offensichtlich eine
+                        <lb/>Folge der Entbehrungen und Unterernährung war, <seg type="comment">
+                            <orig>gestorben</orig>
+                            <note xml:id="nznq_wy5_ngc" resp="#KBleier">
+                                <persName key="pers.3263">Schönberg</persName> war von der Nachricht
+                                des Ablebens seiner ehemaligen <rs type="person" key="pers.2631"
+                                    >Schülerin</rs> „sehr erschütttert. Es ist wirklich tragisch.“
+                                Sie habe „sich gewiss sehr gefreut nach dem Ende des Kriegs wieder
+                                wie ein normaler Mensch leben zu können.&#8220; (Arnold Schönberg an
+                                Georg Schönberg, 10. Mai 1946; <ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B042755"
+                                    >ASCC 4275</ref>). Nachrufe: <rs type="bibl"
+                                    key="zotero-4528359-8UDDKAPM">Wiesel 1946</rs>; <rs type="bibl"
+                                    key="zotero-4528359-DJMEYCXF">Apostel 1946</rs></note></seg>.
+                        Sie <lb/>hat so vielen Menschen in der schwierigen Zeit geholfen, obwohl
+                        <lb/>sie selbst in den grössten Schwierigkeiten lebte und hat darüber
+                        <lb/>vergessen, an sich selbst zu denken. Welchen Verlust wir damit
+                        <lb/>haben, brauche ich Ihnen nicht zu sagen. In einem Konzert, etwa
+                        <lb/>gleichzeitig am Tage ihres Todes, hätte sie Ihre <bibl
+                            sameAs="werke.58">Suite Op. 25</bibl>
+                        <del rendition="#s">(<gap reason="illegible" quantity="1" unit="words"
+                            />)</del>
+                        <lb/>spielen
+                        sollen.</p>
+                    <p>In welchem Verlag wird die <bibl sameAs="schriften.26">Musical
+                            composition</bibl> in Englisch <lb/>(also in der Originalsprache)
+                        erscheinen? Mit <persName key="pers.3612">Stein</persName> habe ich mich
+                        <lb/>sofort in Verbindung gesetzt. Hoffentlich kann er die Arbeit
+                        <lb/>übernehmen.</p>
+                    <p>
+                        <bibl sameAs="schriften.25">Models for beginners</bibl> können wir
+                        sicherlich hier übersetzen las<g ref="#typoHyphen"/>
+                        <lb break="no"/>sen. <persName key="pers.2870">Ratz</persName> und <persName key="pers.2817">Polnauer</persName> können die <seg type="comment">
+                            <orig>deutsche Ausgabe</orig>
+                            <note xml:id="nlgh_y1v_ngc" resp="#TMuxeneder">Die deutsche Ausgabe erschien erst <date when="1972">1972</date> bei der <orgName key="org.1">UE</orgName>. <persName key="pers.3263">Arnold
+                                    Schoenberg</persName>: Modelle für Anfänger im
+                                Kompositionsunterricht. Musikalische Beispiele. Lehrgang und
+                                Glossar. Ins Deutsche übertragen und mit Anmerkungen hrsg. von
+                                Rudolf Stephan. Wien 1972</note>
+                        </seg> vorbereiten, <lb/>die wir
+                        Ihnen vor Druck selbstverständlich im Text vorlegen. Vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>läufig habe ich das Exemplar noch nicht erhalten. Ist der
+                        Vertrag <lb/>darüber dann mit Ihnen oder mit <orgName key="org.70">Schirmer</orgName> zu machen? Grundsätzlich <lb/>würde ich vorschlagen,
+                        dass die Vereinbarungen so zu treffen sind, <lb/>dass sowohl die englischen
+                        als die deutschen Ausgaben in allen Län<g ref="#typoHyphen"/>
+                        <lb break="no"/>dern der Welt verkauft werden und dass die englische Ausgabe
+                            je<g ref="#typoHyphen"/>
+                        <lb break="no"/>weils überall durch den englischen Verlag vertrieben wird
+                        und die <lb/>deutschen Ausgaben überall von uns vertrieben werden können.
+                        Soweit <lb/>wie möglich und zweckmässig werden wir selbstverständlich sehr
+                        gerne <lb/>in unserem unmittelbaren Arbeitsgebiet als Vertreter des
+                            Original<g ref="#typoHyphen"/>
+                        <lb break="no"/>verlages auch die englische Ausgabe vertreiben und eventuell
+                        dem <lb/>Verleger der englischen Ausgabe den Vertrieb der bei uns
+                            hergestell<g ref="#typoHyphen"/>
+                        <lb break="no"/>ten deutschen Ausgabe übertragen.</p>
+                    <p>Das „verlockende Angebot“ wird von mir und Ihren Freunden inzwischen <lb/>mit
+                        allen uns zur Verfügung stehenden Mitteln vorbereitet. Wir haben
+                        <lb/>Fühlung mit allen in Frage kommenden Stellen aufgenommen und stehen
+                        <lb/>in konkreten Verhandlungen. Wir haben berechtigte Hoffnung zu glau<g ref="#typoHyphen"/>
+                        <lb break="no"/>ben, dass in nicht allzu langer Zeit ein konkretes Angebot
+                        an Sie ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>macht werden wird. Allerdings etwas Geduld muss man haben.
+                        Leider ist <lb/>das heute auch noch notwendig. Eine Aufstellung über die
+                        hier befind<g ref="#typoHyphen"/>
+                        <lb break="no"/>lichen Partituren und St<subst>
+                            <del rendition="#ow">ücke</del>
+                            <add place="across">immen</add>
+                        </subst> folgt. Dazu möchte ich jetzt schon sagen, <lb/>dass das Fehlende so
+                        bald wie irgend möglich nachgedruckt wird. <lb/>Selbstverständlich werden
+                        wir uns Mühe geben, Ihnen möglichst hohe <lb/>Einnahmen zu verschaffen.
+                        Vorläufig bestehen noch keine normalen Ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>schäftsverbindungen, jedoch glauben wir damit rechnen zu
+                        dürfen, dass <lb/>auch in dieser Hinsicht in kürzester Zeit eine
+                        befriedigende Lösung <lb/>geschaffen wird. Ueber Ihren <rs type="person" key="pers.3281">Sohn</rs> wird Ihnen meine Mitarbeiterin Frau <lb/>
+                        <persName key="pers.416">Lizzy Berner</persName> näher schreiben.
+                        Insbesondere Frl. <persName key="pers.3067">Rothe</persName> hat sich seiner
+                        <lb/>während des Krieges häufig und mit grosser Anhänglichkeit angenommen,
+                            <pb n="2" xml:id="p.2"/>und ihm in verschiedenen Situationen zu helfen
+                        versucht. Nach dem <lb/>Krieg haben wir auch mit ihm verhandelt, um ihn in
+                        einer festen <lb/>Stellung bei uns zu beschäftigen, doch hatte er ein
+                        finanziell <lb/>wesentlich günstigeres <seg type="comment"
+                                ><orig>Angebot</orig><note xml:id="niq2_tsj_p1c" resp="#pkehrer"
+                                >Georg Schönberg an Arnold Schönberg, 18. November 1945 (<ref
+                                    target="https://repo.schoenberg.at/urn:nbn:at:at-asc-B162149"
+                                    >ASCC 16214</ref>)</note></seg> von einer anderen Seite, das er
+                        <lb/>auch annahm. In letzter Zeit scheint er mit Schwierigkeiten zu
+                        <lb/>kämpfen zu haben, die insbesondere aus der schlechten gesundheitlichen
+                        <lb/>Verfassung seiner <rs type="person" key="pers.3300">Gattin</rs>
+                        entstanden sind, <add place="sublinear">darüber</add> wird, wie gesagt,
+                        Ihnen <lb/>Frau <persName key="pers.416">Berner</persName> berichten,</p>
+                    <p>Inzwischen haben wir auch die Kopie des
+                        Briefes an <orgName key="org.63">Gallimard</orgName> erhalten <lb/>samt Nachsatz,
+                        mit dem wir natürlich vollkommen einverstanden sind.</p>
+                    <p>Ihr Brief hat bei allen Ihren Freunden grosse Begeisterung ausgelöst.
+                        <lb/>Die Grüsse werden aufs herzlichste erwidert.</p>
+                    <closer>
+                        <salute rendition="#r">In ergebenster Hochachtung</salute>
+                        <lb/>
+                        <signed rendition="#r">
+                            <persName key="pers.3204">Schlee</persName>
+                        </signed>
+                        <lb/>
+                        <salute hand="#pers.3067">Viele herzliche Grüße</salute>
+                        <lb/>
+                        <signed>
+                            <persName key="pers.3067">B Rothe</persName>
+                        </signed>
+                    </closer>
+                </div>
+                <div type="writingSession" n="2" hand="#pers.416">
+                    <salute>Verehrter <rs type="person" key="pers.3263">Meister</rs>,</salute>
+                    <p rendition="#inline">vor allem möchte ich mich gehörig vorstellen: <lb/>ich
+                        war Schülerin von Dr. <persName key="pers.4001">Webern</persName>, <persName key="pers.2631">Olga Novakovic</persName> und Dr. <persName key="pers.2817">Polnauer</persName>
+                        <lb/>und mit <persName key="pers.2870">Ratz</persName> bin ich befreundet.
+                        So ist es auch gekommen, dass ich <lb/>bei Beginn der Schwierigkeiten der
+                            <persName key="pers.1598">Hitler</persName>-Zeit mit <persName key="pers.3281">Görgi</persName> in Verbin<g ref="#typoHyphen"/>
+                        <lb break="no"/>dung gekommen bin. Es war für ihn nicht ganz leicht, diese
+                        Zeit zu <lb/>überstehen, da er sich aber in alles gut hineingeschickt hat,
+                        ist <lb/>auch das vorüber gegangen. Nun ist es so, dass seine Frau als Folge
+                        <lb/>einer Dyphteritis eine schwere Herzkrankheit hat. Ihr Herz war schon
+                        <lb/>immer schwach, sie hat sich aber nie geschont, sondern fleissig mit<g ref="#typoHyphen"/>
+                        <lb break="no"/>gearbeitet was sich jetzt scheinbar rächt. Sie soll
+                        besonders gut <lb/>ernährt werden, dazu wären dringend Lebensmittelhilfen
+                        notwendig. <lb/>Nun fährt bald ein <placeName key="place.15">amerikanischer</placeName> Soldat, mit dem ich befreundet <lb/>bin – er
+                        ist auch Musiker – nach Hause und soll am <date when="1946-05-08">8.
+                            Mai</date> schon in <lb/>
+                        <placeName key="place.15.8">New York</placeName> sein. Ich habe mit ihm
+                        verabredet, dass er sich gleich mit <lb/>Ihnen in Verbindung setzt und
+                        vielleicht wird es dann möglich sein, <lb/>
+                        <persName key="pers.3281">Görgi</persName> regelmässige Hilfen zukommen zu
+                        lassen. <persName key="pers.3785">Susi</persName> ist ein grosses
+                        <lb/>Mädel, sie hat auch bei <persName key="pers.2631">Olga</persName>
+                        gelernt u. schon bei Schülerkonzerten <lb/>gespielt. Sie ist ein sehr
+                        braves, vielleicht durch die Verhältnisse <lb/>etwas zu ernstes Kind und
+                        nimmt sich neben der Schule in wirklich <lb/>tadelloser Weise des Haushalts
+                        an. Von <persName key="pers.2870">Ratz</persName> soll ich alles erdenklich
+                        <lb/>liebe bestellen, morgen fahren wir auf Urlaub und wünschen uns nichts
+                        <lb/>sehnlicher, als dass bis zu unserer Rückkehr das verlockende Angebot
+                        <lb/>konkretisiert wäre.</p>
+                    <closer>
+                        <salute>
+                            <seg rendition="#c">Mit allen guten Wünschen</seg>
+                            <lb/>
+                            <seg rendition="#r">Ihre</seg>
+                        </salute>
+                        <lb/>
+                        <signed rendition="#r">
+                            <persName key="pers.416">Lizzy Berner</persName>
+                        </signed>
+                    </closer>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
